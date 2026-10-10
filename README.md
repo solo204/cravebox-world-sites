@@ -12,7 +12,7 @@ Auto-rotating featured recipe sites and recipe of the day for the CraveBox app.
 ## App fetch URL
 
 ```
-https://raw.githubusercontent.com/jrysnt/cravebox-world-sites/main/data/featured.json
+https://raw.githubusercontent.com/solo204/cravebox-world-sites/main/data/featured.json
 ```
 
 ## Adding new sites

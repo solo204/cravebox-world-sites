@@ -31,7 +31,7 @@ REQUEST_TIMEOUT = 8       # seconds per HTTP request
 DATA_DIR     = Path(__file__).parent / "data"
 
 HEADERS = {
-    "User-Agent": "CraveBox-Rotator/1.0 (https://github.com/jrysnt/cravebox-world-sites)"
+    "User-Agent": "CraveBox-Rotator/1.0 (https://github.com/solo204/cravebox-world-sites)"
 }
 
 # ── Helpers ───────────────────────────────────────────────────────────────────
