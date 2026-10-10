@@ -1,0 +1,43 @@
+{
+  "updated_at": "2026-10-10T23:00:00Z",
+  "slot_hours": 2,
+  "featured_sites": [
+    {
+      "name": "Pardon Your French",
+      "url": "https://www.pardonyourfrench.com",
+      "cuisine": "French",
+      "tagline": "Classic French home cooking, made approachable.",
+      "image_url": "https://i0.wp.com/www.pardonyourfrench.com/wp-content/uploads/2026/09/traditional-tartiflette-recipe-11.jpg?fit=801%2C1200&ssl=1"
+    },
+    {
+      "name": "The Woks of Life",
+      "url": "https://thewoksoflife.com",
+      "cuisine": "Chinese",
+      "tagline": "The online authority on Chinese home cooking.",
+      "image_url": "https://thewoksoflife.com/wp-content/uploads/2023/05/lo-mein-20.jpg"
+    },
+    {
+      "name": "Natasha's Kitchen",
+      "url": "https://natashaskitchen.com",
+      "cuisine": "American",
+      "tagline": "Trusted recipes for everyday cooking.",
+      "image_url": "https://natashaskitchen.com/wp-content/uploads/2021/02/Chicken-Marsala-3.jpg"
+    },
+    {
+      "name": "Mexico in My Kitchen",
+      "url": "https://www.mexicoinmykitchen.com",
+      "cuisine": "Mexican",
+      "tagline": "100% authentic Mexican recipes.",
+      "image_url": "https://www.mexicoinmykitchen.com/wp-content/uploads/2026/03/Aguachile-Recipe-6.jpg"
+    }
+  ],
+  "featured_recipe": {
+    "title": "Traditional Tartiflette",
+    "site_name": "Pardon Your French",
+    "site_url": "https://www.pardonyourfrench.com",
+    "cuisine": "French",
+    "recipe_url": "https://www.pardonyourfrench.com/tartiflette/",
+    "image_url": "https://i0.wp.com/www.pardonyourfrench.com/wp-content/uploads/2026/09/traditional-tartiflette-recipe-11.jpg?fit=801%2C1200&ssl=1",
+    "published_at": "2026-09-15T10:00:00Z"
+  }
+}

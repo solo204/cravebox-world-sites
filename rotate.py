@@ -1,0 +1,184 @@
+"""
+rotate.py — CraveBox World Sites content rotator
+
+Runs every 2 hours via GitHub Actions.
+- Picks 4 featured sites for the current time slot (deterministic — all users see same sites)
+- Fetches the latest recipe from each featured site's RSS feed
+- Picks the freshest one as the featured recipe of the day
+- Writes data/featured.json and exits
+
+Slot logic:  slot = (UTC hour // 2) % num_pools
+             num_pools = len(master_sites) // 4
+
+To switch to weekly rotation: change SLOT_HOURS = 2 → 168
+"""
+
+import json
+import os
+import sys
+import re
+import xml.etree.ElementTree as ET
+from datetime import datetime, timezone
+from pathlib import Path
+
+import requests
+
+# ── Config ────────────────────────────────────────────────────────────────────
+
+SLOT_HOURS   = 2          # hours per slot (2 for testing, 168 for weekly)
+SITES_PER_SLOT = 4        # how many sites to feature per slot
+REQUEST_TIMEOUT = 8       # seconds per HTTP request
+DATA_DIR     = Path(__file__).parent / "data"
+
+HEADERS = {
+    "User-Agent": "CraveBox-Rotator/1.0 (https://github.com/jrysnt/cravebox-world-sites)"
+}
+
+# ── Helpers ───────────────────────────────────────────────────────────────────
+
+def load_master() -> list[dict]:
+    with open(DATA_DIR / "master_sites.json", encoding="utf-8") as f:
+        return json.load(f)
+
+
+def current_slot(num_pools: int) -> int:
+    now = datetime.now(timezone.utc)
+    total_hours = now.day * 24 + now.hour
+    return (total_hours // SLOT_HOURS) % num_pools
+
+
+def pick_sites(master: list[dict]) -> list[dict]:
+    num_pools = len(master) // SITES_PER_SLOT
+    if num_pools == 0:
+        return master[:SITES_PER_SLOT]
+    slot = current_slot(num_pools)
+    start = slot * SITES_PER_SLOT
+    return master[start : start + SITES_PER_SLOT]
+
+
+def strip_html(text: str) -> str:
+    return re.sub(r"<[^>]+>", "", text or "").strip()
+
+
+def extract_image_from_content(content: str) -> str | None:
+    """Pull the first <img src=...> from RSS item content."""
+    m = re.search(r'<img[^>]+src=["\']([^"\']+)["\']', content or "")
+    return m.group(1) if m else None
+
+
+def fetch_latest_recipe(site: dict) -> dict | None:
+    """
+    Try to get the most recent recipe from a site's RSS feed.
+    Returns a dict or None on failure.
+    """
+    rss_url = site.get("rss_url", site["url"].rstrip("/") + "/feed/")
+    try:
+        r = requests.get(rss_url, timeout=REQUEST_TIMEOUT, headers=HEADERS)
+        r.raise_for_status()
+    except Exception as e:
+        print(f"  RSS fetch failed for {site['name']}: {e}")
+        return None
+
+    try:
+        root = ET.fromstring(r.content)
+    except ET.ParseError as e:
+        print(f"  RSS parse error for {site['name']}: {e}")
+        return None
+
+    # Handle both RSS <item> and Atom <entry>
+    ns = {"atom": "http://www.w3.org/2005/Atom"}
+    items = root.findall(".//item") or root.findall(".//atom:entry", ns)
+    if not items:
+        print(f"  No RSS items found for {site['name']}")
+        return None
+
+    item = items[0]  # most recent
+
+    def txt(tag: str) -> str:
+        el = item.find(tag)
+        return (el.text or "").strip() if el is not None else ""
+
+    title    = strip_html(txt("title"))
+    link     = txt("link") or txt("guid")
+    pub_date = txt("pubDate") or txt("published") or txt("updated")
+
+    # Image: try media:content, enclosure, then scrape from description/content
+    image_url = None
+    media_content = item.find("media:content", {"media": "http://search.yahoo.com/mrss/"})
+    if media_content is not None:
+        image_url = media_content.get("url")
+    if not image_url:
+        enclosure = item.find("enclosure")
+        if enclosure is not None and "image" in (enclosure.get("type") or ""):
+            image_url = enclosure.get("url")
+    if not image_url:
+        description = txt("description") or txt("{http://purl.org/rss/1.0/modules/content/}encoded")
+        image_url = extract_image_from_content(description)
+    if not image_url:
+        # Fall back to site's master image
+        image_url = site.get("image_url", "")
+
+    if not title or not link:
+        return None
+
+    print(f"  ✓ {site['name']}: {title[:60]}")
+    return {
+        "title":        title,
+        "site_name":    site["name"],
+        "site_url":     site["url"],
+        "cuisine":      site["cuisine"],
+        "recipe_url":   link,
+        "image_url":    image_url or "",
+        "published_at": pub_date,
+    }
+
+
+def pick_featured_recipe(sites: list[dict]) -> dict | None:
+    """Try each featured site in order; return the first successful RSS fetch."""
+    for site in sites:
+        recipe = fetch_latest_recipe(site)
+        if recipe:
+            return recipe
+    print("  WARNING: all RSS fetches failed — no featured recipe this slot")
+    return None
+
+
+# ── Main ──────────────────────────────────────────────────────────────────────
+
+def main():
+    print(f"[rotate] UTC: {datetime.now(timezone.utc).isoformat()}")
+
+    master = load_master()
+    print(f"[rotate] Master list: {len(master)} sites")
+
+    featured_sites = pick_sites(master)
+    print(f"[rotate] Slot sites: {[s['name'] for s in featured_sites]}")
+
+    print("[rotate] Fetching latest recipe from featured sites…")
+    featured_recipe = pick_featured_recipe(featured_sites)
+
+    output = {
+        "updated_at":       datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
+        "slot_hours":       SLOT_HOURS,
+        "featured_sites":   [
+            {
+                "name":      s["name"],
+                "url":       s["url"],
+                "cuisine":   s["cuisine"],
+                "tagline":   s["tagline"],
+                "image_url": s["image_url"],
+            }
+            for s in featured_sites
+        ],
+        "featured_recipe":  featured_recipe,
+    }
+
+    out_path = DATA_DIR / "featured.json"
+    with open(out_path, "w", encoding="utf-8") as f:
+        json.dump(output, f, indent=2, ensure_ascii=False)
+
+    print(f"[rotate] Written → {out_path}")
+
+
+if __name__ == "__main__":
+    main()

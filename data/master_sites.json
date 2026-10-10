@@ -1,0 +1,106 @@
+[
+  {
+    "name": "Pardon Your French",
+    "url": "https://www.pardonyourfrench.com",
+    "cuisine": "French",
+    "tagline": "Classic French home cooking, made approachable.",
+    "image_url": "https://i0.wp.com/www.pardonyourfrench.com/wp-content/uploads/2026/09/traditional-tartiflette-recipe-11.jpg?fit=801%2C1200&ssl=1",
+    "rss_url": "https://www.pardonyourfrench.com/feed/"
+  },
+  {
+    "name": "Panlasang Pinoy",
+    "url": "https://panlasangpinoy.com",
+    "cuisine": "Filipino",
+    "tagline": "Filipino recipes, made simple.",
+    "image_url": "https://panlasangpinoy.com/wp-content/uploads/2023/03/homepage-banner-scaled-1-jpg-1440x300.webp",
+    "rss_url": "https://panlasangpinoy.com/feed/"
+  },
+  {
+    "name": "RecipeTin Eats",
+    "url": "https://www.recipetineats.com",
+    "cuisine": "Global",
+    "tagline": "Recipes that work, every time.",
+    "image_url": "https://www.recipetineats.com/tachyon/2026/10/Slow-cooked-Rosemary-Lamb-Ragu-3.jpg?fit=624%2C780",
+    "rss_url": "https://www.recipetineats.com/feed/"
+  },
+  {
+    "name": "Kawaling Pinoy",
+    "url": "https://www.kawalingpinoy.com",
+    "cuisine": "Filipino",
+    "tagline": "Authentic Filipino recipes with a modern twist.",
+    "image_url": "https://www.kawalingpinoy.com/wp-content/uploads/2014/03/tortang-talong-3-680x884.jpg",
+    "rss_url": "https://www.kawalingpinoy.com/feed/"
+  },
+  {
+    "name": "Natasha's Kitchen",
+    "url": "https://natashaskitchen.com",
+    "cuisine": "American",
+    "tagline": "Trusted recipes for everyday cooking.",
+    "image_url": "https://natashaskitchen.com/wp-content/uploads/2021/02/Chicken-Marsala-3.jpg",
+    "rss_url": "https://natashaskitchen.com/feed/"
+  },
+  {
+    "name": "The Woks of Life",
+    "url": "https://thewoksoflife.com",
+    "cuisine": "Chinese",
+    "tagline": "The online authority on Chinese home cooking.",
+    "image_url": "https://thewoksoflife.com/wp-content/uploads/2023/05/lo-mein-20.jpg",
+    "rss_url": "https://thewoksoflife.com/feed/"
+  },
+  {
+    "name": "Hungry Paprikas",
+    "url": "https://www.hungrypaprikas.com",
+    "cuisine": "Middle Eastern",
+    "tagline": "Authentic Arabic and Middle Eastern recipes.",
+    "image_url": "https://www.hungrypaprikas.com/wp-content/uploads/2026/08/Ground-Beef-Curry-2.jpg",
+    "rss_url": "https://www.hungrypaprikas.com/feed/"
+  },
+  {
+    "name": "Mexico in My Kitchen",
+    "url": "https://www.mexicoinmykitchen.com",
+    "cuisine": "Mexican",
+    "tagline": "100% authentic Mexican recipes.",
+    "image_url": "https://www.mexicoinmykitchen.com/wp-content/uploads/2026/03/Aguachile-Recipe-6.jpg",
+    "rss_url": "https://www.mexicoinmykitchen.com/feed/"
+  },
+  {
+    "name": "Dassana's Veg Recipes",
+    "url": "https://www.vegrecipesofindia.com",
+    "cuisine": "Indian",
+    "tagline": "100% vegetarian Indian recipes.",
+    "image_url": "https://www.vegrecipesofindia.com/wp-content/uploads/2020/01/paneer-butter-masala-1.jpg",
+    "rss_url": "https://www.vegrecipesofindia.com/feed/"
+  },
+  {
+    "name": "The Mediterranean Dish",
+    "url": "https://www.themediterraneandish.com",
+    "cuisine": "Mediterranean",
+    "tagline": "Bold Mediterranean flavors for every table.",
+    "image_url": "https://www.themediterraneandish.com/wp-content/uploads/2023/03/greek-salad-recipe-1.jpg",
+    "rss_url": "https://www.themediterraneandish.com/feed/"
+  },
+  {
+    "name": "Sally's Baking Addiction",
+    "url": "https://sallysbakingaddiction.com",
+    "cuisine": "Baking",
+    "tagline": "Trusted baking recipes since 2011.",
+    "image_url": "https://sallysbakingaddiction.com/wp-content/uploads/2012/08/warm-chocolate-chip-cookies.jpg",
+    "rss_url": "https://sallysbakingaddiction.com/feed/"
+  },
+  {
+    "name": "Grandbaby Cakes",
+    "url": "https://grandbaby-cakes.com",
+    "cuisine": "Southern",
+    "tagline": "Southern comfort food and soul food classics.",
+    "image_url": "https://grandbaby-cakes.com/wp-content/uploads/2025/08/buttermilk-fried-chicken-15.jpg",
+    "rss_url": "https://grandbaby-cakes.com/feed/"
+  },
+  {
+    "name": "Half Baked Harvest",
+    "url": "https://www.halfbakedharvest.com",
+    "cuisine": "American Comfort",
+    "tagline": "Feel-good food for every season.",
+    "image_url": "https://www.halfbakedharvest.com/wp-content/uploads/2026/10/Smothered-Chicken-in-Mushroom-Wine-Pan-Sauce-1.jpg",
+    "rss_url": "https://www.halfbakedharvest.com/feed/"
+  }
+]

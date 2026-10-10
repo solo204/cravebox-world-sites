@@ -1,0 +1,33 @@
+name: Rotate Featured Content
+
+on:
+  schedule:
+    - cron: "0 */2 * * *"   # every 2 hours (change to "0 1 * * 1" for weekly on Mondays)
+  workflow_dispatch:          # manual trigger from GitHub Actions tab
+
+jobs:
+  rotate:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: pip install requests
+
+      - name: Run rotator
+        run: python rotate.py
+
+      - name: Commit featured.json
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "chore: rotate featured content [skip ci]"
+          file_pattern: data/featured.json
