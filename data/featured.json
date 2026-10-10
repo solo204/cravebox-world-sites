@@ -1,43 +1,43 @@
 {
-  "updated_at": "2026-10-10T23:00:00Z",
+  "updated_at": "2026-10-10T23:32:46Z",
   "slot_hours": 2,
   "featured_sites": [
     {
-      "name": "Pardon Your French",
-      "url": "https://www.pardonyourfrench.com",
-      "cuisine": "French",
-      "tagline": "Classic French home cooking, made approachable.",
-      "image_url": "https://i0.wp.com/www.pardonyourfrench.com/wp-content/uploads/2026/09/traditional-tartiflette-recipe-11.jpg?fit=801%2C1200&ssl=1"
+      "name": "Dassana's Veg Recipes",
+      "url": "https://www.vegrecipesofindia.com",
+      "cuisine": "Indian",
+      "tagline": "100% vegetarian Indian recipes.",
+      "image_url": "https://www.vegrecipesofindia.com/wp-content/uploads/2020/01/paneer-butter-masala-1.jpg"
     },
     {
-      "name": "The Woks of Life",
-      "url": "https://thewoksoflife.com",
-      "cuisine": "Chinese",
-      "tagline": "The online authority on Chinese home cooking.",
-      "image_url": "https://thewoksoflife.com/wp-content/uploads/2023/05/lo-mein-20.jpg"
+      "name": "The Mediterranean Dish",
+      "url": "https://www.themediterraneandish.com",
+      "cuisine": "Mediterranean",
+      "tagline": "Bold Mediterranean flavors for every table.",
+      "image_url": "https://www.themediterraneandish.com/wp-content/uploads/2023/03/greek-salad-recipe-1.jpg"
     },
     {
-      "name": "Natasha's Kitchen",
-      "url": "https://natashaskitchen.com",
-      "cuisine": "American",
-      "tagline": "Trusted recipes for everyday cooking.",
-      "image_url": "https://natashaskitchen.com/wp-content/uploads/2021/02/Chicken-Marsala-3.jpg"
+      "name": "Sally's Baking Addiction",
+      "url": "https://sallysbakingaddiction.com",
+      "cuisine": "Baking",
+      "tagline": "Trusted baking recipes since 2011.",
+      "image_url": "https://sallysbakingaddiction.com/wp-content/uploads/2012/08/warm-chocolate-chip-cookies.jpg"
     },
     {
-      "name": "Mexico in My Kitchen",
-      "url": "https://www.mexicoinmykitchen.com",
-      "cuisine": "Mexican",
-      "tagline": "100% authentic Mexican recipes.",
-      "image_url": "https://www.mexicoinmykitchen.com/wp-content/uploads/2026/03/Aguachile-Recipe-6.jpg"
+      "name": "Grandbaby Cakes",
+      "url": "https://grandbaby-cakes.com",
+      "cuisine": "Southern",
+      "tagline": "Southern comfort food and soul food classics.",
+      "image_url": "https://grandbaby-cakes.com/wp-content/uploads/2025/08/buttermilk-fried-chicken-15.jpg"
     }
   ],
   "featured_recipe": {
-    "title": "Traditional Tartiflette",
-    "site_name": "Pardon Your French",
-    "site_url": "https://www.pardonyourfrench.com",
-    "cuisine": "French",
-    "recipe_url": "https://www.pardonyourfrench.com/tartiflette/",
-    "image_url": "https://i0.wp.com/www.pardonyourfrench.com/wp-content/uploads/2026/09/traditional-tartiflette-recipe-11.jpg?fit=801%2C1200&ssl=1",
-    "published_at": "2026-09-15T10:00:00Z"
+    "title": "18 Corn Recipes For Snacks And Meals",
+    "site_name": "Dassana's Veg Recipes",
+    "site_url": "https://www.vegrecipesofindia.com",
+    "cuisine": "Indian",
+    "recipe_url": "https://www.vegrecipesofindia.com/corn-recipes-sweet-corn-recipes/",
+    "image_url": "https://www.vegrecipesofindia.com/wp-content/uploads/2020/01/paneer-butter-masala-1.jpg",
+    "published_at": "Sun, 13 Sep 2026 14:44:05 +0000"
   }
 }
