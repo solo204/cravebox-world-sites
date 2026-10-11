@@ -272,7 +272,7 @@ def main():
                 "url":       s["url"],
                 "cuisine":   s["cuisine"],
                 "tagline":   s["tagline"],
-                "image_url": proxy_image(site_images.get(s["name"]) or s["image_url"]),
+                "image_url": site_images.get(s["name"]) or s["image_url"],
             }
             for s in featured_sites
         ],

@@ -128,12 +128,12 @@
     "rss_url": "https://damndelicious.net/feed/"
   },
   {
-    "name": "Just One Cookbook",
-    "url": "https://www.justonecookbook.com",
+    "name": "Chopstick Chronicles",
+    "url": "https://www.chopstickchronicles.com",
     "cuisine": "Japanese",
-    "tagline": "Authentic Japanese recipes made simple.",
-    "image_url": "https://www.justonecookbook.com/wp-content/uploads/2022/10/Oyakodon-8796-I.jpg",
-    "rss_url": "https://www.justonecookbook.com/feed/"
+    "tagline": "Authentic traditional and contemporary Japanese recipes.",
+    "image_url": "https://www.chopstickchronicles.com/wp-content/uploads/2026/09/kabocha-korokke-11.jpg",
+    "rss_url": "https://www.chopstickchronicles.com/feed/"
   },
   {
     "name": "Maangchi",
