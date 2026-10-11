@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-11T05:04:58Z",
+  "updated_at": "2026-10-11T05:20:57Z",
   "slot_hours": 2,
   "featured_sites": [
     {
@@ -7,28 +7,28 @@
       "url": "https://www.justonecookbook.com",
       "cuisine": "Japanese",
       "tagline": "Authentic Japanese recipes made simple.",
-      "image_url": "https://www.justonecookbook.com/wp-content/uploads/2027/09/Yuzu-Kosho-Edamame-6535-I-1-1200x800.jpg"
+      "image_url": "https://wsrv.nl/?url=https%3A%2F%2Fwww.justonecookbook.com%2Fwp-content%2Fuploads%2F2027%2F09%2FYuzu-Kosho-Edamame-6535-I-1-1200x800.jpg&w=800&h=600&fit=cover&output=jpg"
     },
     {
       "name": "Maangchi",
       "url": "https://www.maangchi.com",
       "cuisine": "Korean",
       "tagline": "Real Korean cooking for everyone.",
-      "image_url": "https://www.maangchi.com/wp-content/uploads/2007/10/tteokbokki-new.jpg"
+      "image_url": "https://wsrv.nl/?url=https%3A%2F%2Fwww.maangchi.com%2Fwp-content%2Fuploads%2F2026%2F09%2FKorean-reststop-potatoes-1-1200x630-cropped.jpg&w=800&h=600&fit=cover&output=jpg"
     },
     {
       "name": "Immaculate Bites",
       "url": "https://www.africanbites.com",
       "cuisine": "African",
       "tagline": "Bold African flavors and soul food recipes.",
-      "image_url": "https://www.africanbites.com/wp-content/uploads/2022/01/Jollof-Rice-10.jpg"
+      "image_url": "https://wsrv.nl/?url=https%3A%2F%2Fwww.africanbites.com%2Fwp-content%2Fuploads%2F2023%2F04%2FIMG_9277.jpg&w=800&h=600&fit=cover&output=jpg"
     },
     {
       "name": "Swasthi's Recipes",
       "url": "https://www.indianhealthyrecipes.com",
       "cuisine": "Indian",
       "tagline": "Indian recipes that work every time.",
-      "image_url": "https://www.indianhealthyrecipes.com/wp-content/uploads/2021/10/butter-chicken-recipe.jpg"
+      "image_url": "https://wsrv.nl/?url=https%3A%2F%2Fwww.indianhealthyrecipes.com%2Fwp-content%2Fuploads%2F2026%2F10%2Fquinoa-khichdi.jpg&w=800&h=600&fit=cover&output=jpg"
     }
   ],
   "featured_recipe": {
@@ -37,7 +37,7 @@
     "site_url": "https://www.justonecookbook.com",
     "cuisine": "Japanese",
     "recipe_url": "https://www.justonecookbook.com/yuzu-kosho-edamame/",
-    "image_url": "https://www.justonecookbook.com/wp-content/uploads/2027/09/Yuzu-Kosho-Edamame-6535-I-1-1200x800.jpg",
+    "image_url": "https://wsrv.nl/?url=https%3A%2F%2Fwww.justonecookbook.com%2Fwp-content%2Fuploads%2F2027%2F09%2FYuzu-Kosho-Edamame-6535-I-1-1200x800.jpg&w=800&h=600&fit=cover&output=jpg",
     "published_at": "Mon, 28 Sep 2026 12:00:00 +0000"
   }
 }
