@@ -366,6 +366,15 @@ tr:hover td{background:#141414}
   <span class="badge badge-gray">{{ pools }} pools</span>
   <span style="margin-left:auto;font-size:11px;color:#444" id="hdr-now"></span>
 </header>
+<div style="background:#0a0a0a;border-bottom:1px solid #1a1a1a;padding:8px 24px;font-size:11px;color:#888;line-height:1.7">
+  <span style="color:#ff6b35;font-weight:700">Quick Guide:</span>
+  &nbsp;
+  <span><b style="color:#ccc">site_manager.py</b> — manage weekly schedule: add/swap sites, pick recipes, refresh candidates (↺), push live (▶ Now)</span>
+  &nbsp;·&nbsp;
+  <span><b style="color:#ccc">plan.py</b> — auto-generate new weeks from RSS feeds, skipping already-used sites &amp; recipes. Run: <code style="color:#86efac">python plan.py</code> to append weeks after the last one</span>
+  &nbsp;·&nbsp;
+  <span><b style="color:#ccc">rotate.py</b> — runs via GitHub Actions cron every hour, writes featured.json, applies fallbacks if a site or recipe is down</span>
+</div>
 <div style="background:#0d1f0d;border-bottom:1px solid #1a3a1a;padding:7px 24px;
             display:flex;align-items:center;gap:10px;font-size:11px;flex-wrap:wrap">
   <span style="color:#4ade80;font-weight:700">▲ Push to GitHub:</span>
