@@ -99,14 +99,14 @@
         "published_at": "Fri, 09 Oct 2026 13:30:00 +0000"
       },
       "Sun": {
-        "title": "30+ Cheap and Easy Dinners",
-        "url": "https://damndelicious.net/2026/09/08/cheap-and-easy-dinners/",
-        "recipe_url": "https://damndelicious.net/2026/09/08/cheap-and-easy-dinners/",
-        "image_url": "https://damndelicious.net/wp-content/uploads/2018/09/Creamy-Beef-and-ShellsIMG_6408.jpg",
-        "site_name": "Damn Delicious",
-        "site_url": "https://damndelicious.net",
         "cuisine": "American",
-        "published_at": "Wed, 09 Sep 2026 04:00:00 +0000"
+        "image_url": "https://www.budgetbytes.com/wp-content/uploads/2026/10/Savory-Pumpkin-Fritters-Overhead.jpg",
+        "published_at": "Wed, 07 Oct 2026 13:30:00 +0000",
+        "recipe_url": "https://www.budgetbytes.com/savory-pumpkin-fritters/",
+        "site_name": "Budget Bytes",
+        "site_url": "https://www.budgetbytes.com",
+        "title": "Savory Pumpkin Fritters",
+        "url": "https://www.budgetbytes.com/savory-pumpkin-fritters/"
       }
     },
     "candidates": [
