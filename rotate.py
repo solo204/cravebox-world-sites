@@ -17,6 +17,7 @@ import json
 import os
 import sys
 import re
+import urllib.parse
 import xml.etree.ElementTree as ET
 from datetime import datetime, timezone
 from pathlib import Path
@@ -133,6 +134,13 @@ def fetch_latest_recipe(site: dict) -> dict | None:
     }
 
 
+def proxy_image(url: str) -> str:
+    """Wrap an image URL through wsrv.nl to bypass hotlink protection."""
+    if not url:
+        return url
+    return f"https://wsrv.nl/?url={urllib.parse.quote(url, safe='')}&w=800&h=600&fit=cover&output=jpg"
+
+
 def fetch_site_image(site: dict) -> str:
     """
     Fetch the freshest image for a site from its RSS feed.
@@ -152,7 +160,9 @@ def fetch_site_image(site: dict) -> str:
             enc = item.find("enclosure")
             if enc is not None and "image" in (enc.get("type") or ""):
                 return enc.get("url")
-            desc = item.findtext("description") or ""
+            # check both description and content:encoded (WordPress uses content:encoded)
+            desc = (item.findtext("description") or
+                    item.findtext("{http://purl.org/rss/1.0/modules/content/}encoded") or "")
             m = re.search(r'<img[^>]+src=["\']([^"\']+)["\']', desc)
             if m:
                 return m.group(1)
@@ -188,6 +198,10 @@ def main():
     # Fetch fresh site card images from RSS (falls back to master image_url)
     site_images = {s["name"]: fetch_site_image(s) for s in featured_sites}
 
+    # Proxy the featured recipe image too
+    if featured_recipe and featured_recipe.get("image_url"):
+        featured_recipe["image_url"] = proxy_image(featured_recipe["image_url"])
+
     output = {
         "updated_at":       datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
         "slot_hours":       SLOT_HOURS,
@@ -197,7 +211,7 @@ def main():
                 "url":       s["url"],
                 "cuisine":   s["cuisine"],
                 "tagline":   s["tagline"],
-                "image_url": site_images.get(s["name"]) or s["image_url"],
+                "image_url": proxy_image(site_images.get(s["name"]) or s["image_url"]),
             }
             for s in featured_sites
         ],
