@@ -1,43 +1,122 @@
 {
-  "updated_at": "2026-10-11T18:37:07Z",
+  "updated_at": "2026-10-11T19:55:47Z",
   "slot_hours": 2,
+  "slot_idx": 3,
+  "week": 4,
   "featured_sites": [
     {
-      "name": "Natasha's Kitchen",
-      "url": "https://natashaskitchen.com",
+      "name": "Smitten Kitchen",
+      "url": "https://smittenkitchen.com",
       "cuisine": "American",
-      "tagline": "Trusted recipes for everyday cooking.",
-      "image_url": "https://natashaskitchen.com/wp-content/uploads/2026/09/Pumpkin-Cinnamon-Rolls-7.jpg"
+      "tagline": "Fearless cooking from a tiny kitchen.",
+      "image_url": "https://i0.wp.com/smittenkitchen.com/wp-content/uploads/2026/09/simple-chicken-tacos-09-scaled.jpg",
+      "rss_url": "https://smittenkitchen.com/feed/"
     },
     {
-      "name": "The Woks of Life",
-      "url": "https://thewoksoflife.com",
-      "cuisine": "Chinese",
-      "tagline": "The online authority on Chinese home cooking.",
-      "image_url": "https://thewoksoflife.com/wp-content/uploads/2026/06/spaghetti-bolognese-17.jpg"
+      "name": "Minimalist Baker",
+      "url": "https://minimalistbaker.com",
+      "cuisine": "Plant-Based",
+      "tagline": "Simple vegan recipes, 10 ingredients or less.",
+      "image_url": "https://minimalistbaker.com/wp-content/uploads/2023/03/Gluten-Free-Honey-Cake-15-680x1020.jpg",
+      "rss_url": "https://minimalistbaker.com/feed/"
     },
     {
-      "name": "Hungry Paprikas",
-      "url": "https://www.hungrypaprikas.com",
-      "cuisine": "Middle Eastern",
-      "tagline": "Authentic Arabic and Middle Eastern recipes.",
-      "image_url": "https://www.hungrypaprikas.com/wp-content/uploads/2026/08/Ground-Beef-Curry-2.jpg"
+      "name": "Skinnytaste",
+      "url": "https://www.skinnytaste.com",
+      "cuisine": "Healthy American",
+      "tagline": "Healthy recipes your whole family will love.",
+      "image_url": "https://www.skinnytaste.com/wp-content/uploads/2026/10/Week_562_Oct-12-Oct-18-600x750.jpg",
+      "rss_url": "https://www.skinnytaste.com/feed/"
     },
     {
-      "name": "Mexico in My Kitchen",
-      "url": "https://www.mexicoinmykitchen.com",
-      "cuisine": "Mexican",
-      "tagline": "100% authentic Mexican recipes.",
-      "image_url": "https://www.mexicoinmykitchen.com/wp-content/uploads/2026/03/Aguachile-Recipe-6.jpg"
+      "name": "Cookie and Kate",
+      "url": "https://cookieandkate.com",
+      "cuisine": "Vegetarian",
+      "tagline": "Wholesome vegetarian recipes for every occasion.",
+      "image_url": "https://cookieandkate.com/images/2026/10/gluten-free-cornbread.jpg",
+      "rss_url": "https://cookieandkate.com/feed/"
     }
   ],
+  "featured_recipes": {
+    "Mon": {
+      "title": "simple chicken tacos",
+      "url": "https://smittenkitchen.com/2026/09/simple-chicken-tacos/",
+      "recipe_url": "https://smittenkitchen.com/2026/09/simple-chicken-tacos/",
+      "image_url": "https://i0.wp.com/smittenkitchen.com/wp-content/uploads/2026/09/simple-chicken-tacos-09-scaled.jpg?fit=640%2C427&amp;quality=89&amp;ssl=1",
+      "site_name": "Smitten Kitchen",
+      "site_url": "https://smittenkitchen.com",
+      "cuisine": "American",
+      "published_at": "Wed, 30 Sep 2026 21:00:08 +0000"
+    },
+    "Tue": {
+      "title": "1-Bowl Honey Almond Snack Cake (Gluten-Free)",
+      "url": "https://minimalistbaker.com/honey-almond-snack-cake/",
+      "recipe_url": "https://minimalistbaker.com/honey-almond-snack-cake/",
+      "image_url": "https://minimalistbaker.com/wp-content/uploads/2023/03/Gluten-Free-Honey-Cake-15-680x1020.jpg",
+      "site_name": "Minimalist Baker",
+      "site_url": "https://minimalistbaker.com",
+      "cuisine": "Plant-Based",
+      "published_at": "Tue, 08 Sep 2026 08:00:00 +0000"
+    },
+    "Wed": {
+      "title": "Free 7 Day Healthy Meal Plan (Oct 12-18)",
+      "url": "https://www.skinnytaste.com/free-7-day-healthy-meal-plan-oct-12-18/?adt_ei=*|EMAIL|*",
+      "recipe_url": "https://www.skinnytaste.com/free-7-day-healthy-meal-plan-oct-12-18/?adt_ei=*|EMAIL|*",
+      "image_url": "https://www.skinnytaste.com/wp-content/uploads/2026/10/Week_562_Oct-12-Oct-18-600x750.jpg",
+      "site_name": "Skinnytaste",
+      "site_url": "https://www.skinnytaste.com",
+      "cuisine": "Healthy American",
+      "published_at": "Fri, 09 Oct 2026 15:50:00 +0000"
+    },
+    "Thu": {
+      "title": "Gluten-Free Cornbread",
+      "url": "https://cookieandkate.com/gluten-free-cornbread/?adt_ei=*|EMAIL|*",
+      "recipe_url": "https://cookieandkate.com/gluten-free-cornbread/?adt_ei=*|EMAIL|*",
+      "image_url": "https://cookieandkate.com/images/2026/10/gluten-free-cornbread.jpg",
+      "site_name": "Cookie and Kate",
+      "site_url": "https://cookieandkate.com",
+      "cuisine": "Vegetarian",
+      "published_at": "Wed, 07 Oct 2026 16:33:56 +0000"
+    },
+    "Fri": {
+      "title": "tomato risotto with frizzled red onions",
+      "url": "https://smittenkitchen.com/2026/09/tomato-risotto-with-frizzled-red-onions/",
+      "recipe_url": "https://smittenkitchen.com/2026/09/tomato-risotto-with-frizzled-red-onions/",
+      "image_url": "https://i0.wp.com/smittenkitchen.com/wp-content/uploads/2026/09/tomato-risotto-with-frizzled-onions-14-scaled.jpg?fit=640%2C427&amp;quality=89&amp;ssl=1",
+      "site_name": "Smitten Kitchen",
+      "site_url": "https://smittenkitchen.com",
+      "cuisine": "American",
+      "published_at": "Wed, 16 Sep 2026 15:28:36 +0000"
+    },
+    "Sat": {
+      "title": "Easy Eggplant Bolognese (1 Pot!)",
+      "url": "https://minimalistbaker.com/eggplant-bolognese/",
+      "recipe_url": "https://minimalistbaker.com/eggplant-bolognese/",
+      "image_url": "https://minimalistbaker.com/wp-content/uploads/2026/02/Easy-Vegetarian-Eggplant-Bolognese-9-680x1020.jpg",
+      "site_name": "Minimalist Baker",
+      "site_url": "https://minimalistbaker.com",
+      "cuisine": "Plant-Based",
+      "published_at": "Tue, 18 Aug 2026 08:00:00 +0000"
+    },
+    "Sun": {
+      "title": "These Easy Baked Apples Taste Like Individual Apple Crisps Without the Fuss",
+      "url": "https://www.skinnytaste.com/delightfully-baked-apples/?adt_ei=*|EMAIL|*",
+      "recipe_url": "https://www.skinnytaste.com/delightfully-baked-apples/?adt_ei=*|EMAIL|*",
+      "image_url": "https://www.skinnytaste.com/wp-content/uploads/2017/09/Baked-Apples-7-600x900.jpg",
+      "site_name": "Skinnytaste",
+      "site_url": "https://www.skinnytaste.com",
+      "cuisine": "Healthy American",
+      "published_at": "Thu, 08 Oct 2026 19:10:42 +0000"
+    }
+  },
   "featured_recipe": {
-    "title": "Pumpkin Cinnamon Rolls + That Maple Frosting 😍",
-    "site_name": "Natasha's Kitchen",
-    "site_url": "https://natashaskitchen.com",
-    "cuisine": "American",
-    "recipe_url": "https://natashaskitchen.com/pumpkin-cinnamon-rolls/?adt_ei={{ subscriber.email_address }}",
-    "image_url": "https://wsrv.nl/?url=https%3A%2F%2Fnatashaskitchen.com%2Fwp-content%2Fuploads%2F2026%2F09%2FPumpkin-Cinnamon-Rolls-7.jpg&w=800&h=600&fit=cover&output=jpg",
-    "published_at": "Fri, 02 Oct 2026 16:12:49 +0000"
+    "title": "These Easy Baked Apples Taste Like Individual Apple Crisps Without the Fuss",
+    "url": "https://www.skinnytaste.com/delightfully-baked-apples/?adt_ei=*|EMAIL|*",
+    "recipe_url": "https://www.skinnytaste.com/delightfully-baked-apples/?adt_ei=*|EMAIL|*",
+    "image_url": "https://www.skinnytaste.com/wp-content/uploads/2017/09/Baked-Apples-7-600x900.jpg",
+    "site_name": "Skinnytaste",
+    "site_url": "https://www.skinnytaste.com",
+    "cuisine": "Healthy American",
+    "published_at": "Thu, 08 Oct 2026 19:10:42 +0000"
   }
 }
