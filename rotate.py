@@ -151,29 +151,42 @@ def fetch_og_image(url: str) -> str | None:
              re.search(r'<meta[^>]+content=["\']([^"\']+)["\'][^>]+property=["\']og:image["\']', r.text))
         if m:
             return m.group(1)
-        # 2. First <img> with a large-dimension suffix (e.g. -1200x800, -800x600)
-        #    This handles sites like JOC whose og:image is JS-rendered but whose
-        #    CDN image URLs are embedded directly in the HTML body.
+        # 2. First large image from page body.
+        #    Some sites (e.g. JOC with SPAI) lazy-load images: the <img src>
+        #    is a data:svg placeholder and the real URL is in data-src.
+        #    We check both attributes, prefer URLs with large-dimension hints,
+        #    and skip avatars/icons/thumbnails.
         SKIP = ('icon', 'logo', 'avatar', 'gravatar', 'badge', 'favicon',
-                'star', 'rating', 'w480', 'w200', 'w100', '32x32', '64x64')
-        for m in re.finditer(r'src=["\']([^"\']+)["\']', r.text):
+                'star', 'rating', 'w480', 'w200', 'w100', '32x32', '64x64',
+                '250x250', '277x416', 'data:')
+        candidates = []
+        for m in re.finditer(r'(?:data-src|data-lazy-src|src)=["\']([^"\']+)["\']', r.text):
             img_url = m.group(1)
             if not img_url.startswith('http'):
                 continue
             lower = img_url.lower()
             if any(s in lower for s in SKIP):
                 continue
-            # prefer URLs with large dimension hints
             if re.search(r'-\d{3,4}x\d{3,4}', img_url):
-                return img_url
-        return None
+                return img_url   # found a large-dimension image immediately
+            candidates.append(img_url)
+        # no dimension-hinted image — return first non-skipped candidate
+        return candidates[0] if candidates else None
     except Exception:
         return None
 
 
 def proxy_image(url: str) -> str:
-    """Wrap an image URL through wsrv.nl to bypass hotlink protection."""
+    """Wrap an image URL through wsrv.nl to bypass hotlink protection.
+
+    Skip CDN URLs — their content is already publicly accessible and CDNs like
+    SPAI block wsrv.nl, so proxying them makes things worse.
+    """
     if not url:
+        return url
+    # Don't proxy CDN/image-optimizer URLs — they're public and may block wsrv.nl
+    skip_proxy_hints = ('cdn.', '/spai/', 'cloudfront', 'fastly', 'imgix', 'cloudinary', 'wsrv.nl')
+    if any(h in url for h in skip_proxy_hints):
         return url
     return f"https://wsrv.nl/?url={urllib.parse.quote(url, safe='')}&w=800&h=600&fit=cover&output=jpg"
 
@@ -259,7 +272,7 @@ def main():
                 "url":       s["url"],
                 "cuisine":   s["cuisine"],
                 "tagline":   s["tagline"],
-                "image_url": site_images.get(s["name"]) or s["image_url"],
+                "image_url": proxy_image(site_images.get(s["name"]) or s["image_url"]),
             }
             for s in featured_sites
         ],
