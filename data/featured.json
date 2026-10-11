@@ -1,43 +1,43 @@
 {
-  "updated_at": "2026-10-11T04:11:28Z",
+  "updated_at": "2026-10-11T05:00:37Z",
   "slot_hours": 2,
   "featured_sites": [
     {
-      "name": "Dassana's Veg Recipes",
-      "url": "https://www.vegrecipesofindia.com",
+      "name": "Just One Cookbook",
+      "url": "https://www.justonecookbook.com",
+      "cuisine": "Japanese",
+      "tagline": "Authentic Japanese recipes made simple.",
+      "image_url": "https://www.justonecookbook.com/wp-content/uploads/2022/10/Oyakodon-8796-I.jpg"
+    },
+    {
+      "name": "Maangchi",
+      "url": "https://www.maangchi.com",
+      "cuisine": "Korean",
+      "tagline": "Real Korean cooking for everyone.",
+      "image_url": "https://www.maangchi.com/wp-content/uploads/2007/10/tteokbokki-new.jpg"
+    },
+    {
+      "name": "Immaculate Bites",
+      "url": "https://www.africanbites.com",
+      "cuisine": "African",
+      "tagline": "Bold African flavors and soul food recipes.",
+      "image_url": "https://www.africanbites.com/wp-content/uploads/2022/01/Jollof-Rice-10.jpg"
+    },
+    {
+      "name": "Swasthi's Recipes",
+      "url": "https://www.indianhealthyrecipes.com",
       "cuisine": "Indian",
-      "tagline": "100% vegetarian Indian recipes.",
-      "image_url": "https://www.vegrecipesofindia.com/wp-content/uploads/2020/01/paneer-butter-masala-1.jpg"
-    },
-    {
-      "name": "The Mediterranean Dish",
-      "url": "https://www.themediterraneandish.com",
-      "cuisine": "Mediterranean",
-      "tagline": "Bold Mediterranean flavors for every table.",
-      "image_url": "https://www.themediterraneandish.com/wp-content/uploads/2026/09/Turkish-Pasta-12.jpg"
-    },
-    {
-      "name": "Sally's Baking Addiction",
-      "url": "https://sallysbakingaddiction.com",
-      "cuisine": "Baking",
-      "tagline": "Trusted baking recipes since 2011.",
-      "image_url": "https://sallysbakingaddiction.com/wp-content/uploads/2012/08/warm-chocolate-chip-cookies.jpg"
-    },
-    {
-      "name": "Grandbaby Cakes",
-      "url": "https://grandbaby-cakes.com",
-      "cuisine": "Southern",
-      "tagline": "Southern comfort food and soul food classics.",
-      "image_url": "https://grandbaby-cakes.com/wp-content/uploads/2025/08/buttermilk-fried-chicken-15.jpg"
+      "tagline": "Indian recipes that work every time.",
+      "image_url": "https://www.indianhealthyrecipes.com/wp-content/uploads/2021/10/butter-chicken-recipe.jpg"
     }
   ],
   "featured_recipe": {
-    "title": "18 Corn Recipes For Snacks And Meals",
-    "site_name": "Dassana's Veg Recipes",
-    "site_url": "https://www.vegrecipesofindia.com",
-    "cuisine": "Indian",
-    "recipe_url": "https://www.vegrecipesofindia.com/corn-recipes-sweet-corn-recipes/",
-    "image_url": "https://www.vegrecipesofindia.com/wp-content/uploads/2020/01/paneer-butter-masala-1.jpg",
-    "published_at": "Sun, 13 Sep 2026 14:44:05 +0000"
+    "title": "Yuzu Kosho Edamame 柚子こしょう枝豆",
+    "site_name": "Just One Cookbook",
+    "site_url": "https://www.justonecookbook.com",
+    "cuisine": "Japanese",
+    "recipe_url": "https://www.justonecookbook.com/yuzu-kosho-edamame/",
+    "image_url": "https://www.justonecookbook.com/wp-content/uploads/2027/09/Yuzu-Kosho-Edamame-6535-I-1-1200x800.jpg",
+    "published_at": "Mon, 28 Sep 2026 12:00:00 +0000"
   }
 }
