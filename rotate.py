@@ -156,11 +156,13 @@ def proxy_image(url: str) -> str:
 
 def fetch_site_image(site: dict) -> str:
     """
-    Fetch the freshest image for a site by scraping og:image from the latest
-    RSS article page. og:image is the canonical share image every site sets,
-    and is more reliable than media:content (which can have bad URLs) or
-    description img tags (which many sites omit entirely).
-    Falls back to site['image_url'] if RSS or page fetch fails.
+    Fetch the freshest image for a site from its RSS feed.
+    Strategy (in order):
+      1. media:content URL from RSS item
+      2. enclosure URL from RSS item
+      3. <img> in description or content:encoded
+      4. og:image (or first large <img>) scraped from the article page
+    Falls back to site['image_url'] if everything fails.
     """
     rss_url = site.get("rss_url", site["url"].rstrip("/") + "/feed/")
     try:
@@ -170,11 +172,23 @@ def fetch_site_image(site: dict) -> str:
         ns = {"atom": "http://www.w3.org/2005/Atom"}
         items = root.findall(".//item") or root.findall(".//atom:entry", ns)
         for item in items[:5]:
+            mc = item.find("media:content", {"media": "http://search.yahoo.com/mrss/"})
+            if mc is not None and mc.get("url"):
+                return mc.get("url")
+            enc = item.find("enclosure")
+            if enc is not None and "image" in (enc.get("type") or ""):
+                return enc.get("url")
+            desc = (item.findtext("description") or
+                    item.findtext("{http://purl.org/rss/1.0/modules/content/}encoded") or "")
+            m = re.search(r'<img[^>]+src=["\']([^"\']+)["\']', desc)
+            if m:
+                return m.group(1)
+            # Fallback: scrape og:image (or first article img) from the page
             link = item.findtext("link") or item.findtext("guid")
             if link and link.startswith("http"):
                 og = fetch_og_image(link)
                 if og:
-                    print(f"  site image ({site['name']}): {og[:80]}")
+                    print(f"  page-scrape image ({site['name']}): {og[:80]}")
                     return og
     except Exception as e:
         print(f"  site image fetch failed for {site['name']}: {e}")
@@ -221,7 +235,7 @@ def main():
                 "url":       s["url"],
                 "cuisine":   s["cuisine"],
                 "tagline":   s["tagline"],
-                "image_url": proxy_image(site_images.get(s["name"]) or s["image_url"]),
+                "image_url": site_images.get(s["name"]) or s["image_url"],
             }
             for s in featured_sites
         ],
