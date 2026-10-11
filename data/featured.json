@@ -1,43 +1,43 @@
 {
-  "updated_at": "2026-10-11T05:49:26Z",
+  "updated_at": "2026-10-11T12:09:37Z",
   "slot_hours": 2,
   "featured_sites": [
     {
-      "name": "Chopstick Chronicles",
-      "url": "https://www.chopstickchronicles.com",
-      "cuisine": "Japanese",
-      "tagline": "Authentic traditional and contemporary Japanese recipes.",
-      "image_url": "https://www.chopstickchronicles.com/wp-content/uploads/2026/10/sweet-potato-cookies-14.jpg"
+      "name": "Half Baked Harvest",
+      "url": "https://www.halfbakedharvest.com",
+      "cuisine": "American Comfort",
+      "tagline": "Feel-good food for every season.",
+      "image_url": "https://www.halfbakedharvest.com/www.halfbakedharvest.com/wp-content/uploads/2026/10/IMG_9430-1200x1600.jpeg"
     },
     {
-      "name": "Maangchi",
-      "url": "https://www.maangchi.com",
-      "cuisine": "Korean",
-      "tagline": "Real Korean cooking for everyone.",
-      "image_url": "https://www.maangchi.com/wp-content/uploads/2026/09/Korean-reststop-potatoes-1-1200x630-cropped.jpg"
+      "name": "Budget Bytes",
+      "url": "https://www.budgetbytes.com",
+      "cuisine": "American",
+      "tagline": "Delicious recipes designed for small budgets.",
+      "image_url": "https://www.budgetbytes.com/wp-content/uploads/2022/10/Pumpkin-Recipes-Collage.jpg"
     },
     {
-      "name": "Immaculate Bites",
-      "url": "https://www.africanbites.com",
-      "cuisine": "African",
-      "tagline": "Bold African flavors and soul food recipes.",
-      "image_url": "https://www.africanbites.com/wp-content/uploads/2023/04/IMG_9277.jpg"
+      "name": "Pinch of Yum",
+      "url": "https://pinchofyum.com",
+      "cuisine": "Global",
+      "tagline": "Real food that tastes really good.",
+      "image_url": "https://pinchofyum.com/wp-content/uploads/Butter-Chicken-Square.jpg"
     },
     {
-      "name": "Swasthi's Recipes",
-      "url": "https://www.indianhealthyrecipes.com",
-      "cuisine": "Indian",
-      "tagline": "Indian recipes that work every time.",
-      "image_url": "https://www.indianhealthyrecipes.com/wp-content/uploads/2026/10/quinoa-khichdi.jpg"
+      "name": "Damn Delicious",
+      "url": "https://damndelicious.net",
+      "cuisine": "American",
+      "tagline": "Quick and easy recipes for every occasion.",
+      "image_url": "https://damndelicious.net/wp-content/uploads/2026/08/260712_DD_cheeseburger-sliders_525-768x1151.jpg"
     }
   ],
   "featured_recipe": {
-    "title": "Satsumaimo Cookies (Japanese Sweet Potato Cookies)",
-    "site_name": "Chopstick Chronicles",
-    "site_url": "https://www.chopstickchronicles.com",
-    "cuisine": "Japanese",
-    "recipe_url": "https://www.chopstickchronicles.com/satsumaimo-cookies-japanese-sweet-potato-cookies/",
-    "image_url": "https://wsrv.nl/?url=https%3A%2F%2Fwww.chopstickchronicles.com%2Fwp-content%2Fuploads%2F2026%2F10%2Fsweet-potato-cookies-14.jpg&w=800&h=600&fit=cover&output=jpg",
-    "published_at": "Wed, 07 Oct 2026 02:02:26 +0000"
+    "title": "458: Nine Favorite Things.",
+    "site_name": "Half Baked Harvest",
+    "site_url": "https://www.halfbakedharvest.com",
+    "cuisine": "American Comfort",
+    "recipe_url": "https://www.halfbakedharvest.com/nine-favorite-things-458/",
+    "image_url": "https://wsrv.nl/?url=https%3A%2F%2Fwww.halfbakedharvest.com%2Fwww.halfbakedharvest.com%2Fwp-content%2Fuploads%2F2026%2F10%2FIMG_9430-1200x1600.jpeg&w=800&h=600&fit=cover&output=jpg",
+    "published_at": "Sun, 11 Oct 2026 07:00:00 +0000"
   }
 }
