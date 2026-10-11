@@ -1,43 +1,43 @@
 {
-  "updated_at": "2026-10-11T12:09:37Z",
+  "updated_at": "2026-10-11T18:37:07Z",
   "slot_hours": 2,
   "featured_sites": [
     {
-      "name": "Half Baked Harvest",
-      "url": "https://www.halfbakedharvest.com",
-      "cuisine": "American Comfort",
-      "tagline": "Feel-good food for every season.",
-      "image_url": "https://www.halfbakedharvest.com/www.halfbakedharvest.com/wp-content/uploads/2026/10/IMG_9430-1200x1600.jpeg"
-    },
-    {
-      "name": "Budget Bytes",
-      "url": "https://www.budgetbytes.com",
+      "name": "Natasha's Kitchen",
+      "url": "https://natashaskitchen.com",
       "cuisine": "American",
-      "tagline": "Delicious recipes designed for small budgets.",
-      "image_url": "https://www.budgetbytes.com/wp-content/uploads/2022/10/Pumpkin-Recipes-Collage.jpg"
+      "tagline": "Trusted recipes for everyday cooking.",
+      "image_url": "https://natashaskitchen.com/wp-content/uploads/2026/09/Pumpkin-Cinnamon-Rolls-7.jpg"
     },
     {
-      "name": "Pinch of Yum",
-      "url": "https://pinchofyum.com",
-      "cuisine": "Global",
-      "tagline": "Real food that tastes really good.",
-      "image_url": "https://pinchofyum.com/wp-content/uploads/Butter-Chicken-Square.jpg"
+      "name": "The Woks of Life",
+      "url": "https://thewoksoflife.com",
+      "cuisine": "Chinese",
+      "tagline": "The online authority on Chinese home cooking.",
+      "image_url": "https://thewoksoflife.com/wp-content/uploads/2026/06/spaghetti-bolognese-17.jpg"
     },
     {
-      "name": "Damn Delicious",
-      "url": "https://damndelicious.net",
-      "cuisine": "American",
-      "tagline": "Quick and easy recipes for every occasion.",
-      "image_url": "https://damndelicious.net/wp-content/uploads/2026/08/260712_DD_cheeseburger-sliders_525-768x1151.jpg"
+      "name": "Hungry Paprikas",
+      "url": "https://www.hungrypaprikas.com",
+      "cuisine": "Middle Eastern",
+      "tagline": "Authentic Arabic and Middle Eastern recipes.",
+      "image_url": "https://www.hungrypaprikas.com/wp-content/uploads/2026/08/Ground-Beef-Curry-2.jpg"
+    },
+    {
+      "name": "Mexico in My Kitchen",
+      "url": "https://www.mexicoinmykitchen.com",
+      "cuisine": "Mexican",
+      "tagline": "100% authentic Mexican recipes.",
+      "image_url": "https://www.mexicoinmykitchen.com/wp-content/uploads/2026/03/Aguachile-Recipe-6.jpg"
     }
   ],
   "featured_recipe": {
-    "title": "458: Nine Favorite Things.",
-    "site_name": "Half Baked Harvest",
-    "site_url": "https://www.halfbakedharvest.com",
-    "cuisine": "American Comfort",
-    "recipe_url": "https://www.halfbakedharvest.com/nine-favorite-things-458/",
-    "image_url": "https://wsrv.nl/?url=https%3A%2F%2Fwww.halfbakedharvest.com%2Fwww.halfbakedharvest.com%2Fwp-content%2Fuploads%2F2026%2F10%2FIMG_9430-1200x1600.jpeg&w=800&h=600&fit=cover&output=jpg",
-    "published_at": "Sun, 11 Oct 2026 07:00:00 +0000"
+    "title": "Pumpkin Cinnamon Rolls + That Maple Frosting 😍",
+    "site_name": "Natasha's Kitchen",
+    "site_url": "https://natashaskitchen.com",
+    "cuisine": "American",
+    "recipe_url": "https://natashaskitchen.com/pumpkin-cinnamon-rolls/?adt_ei={{ subscriber.email_address }}",
+    "image_url": "https://wsrv.nl/?url=https%3A%2F%2Fnatashaskitchen.com%2Fwp-content%2Fuploads%2F2026%2F09%2FPumpkin-Cinnamon-Rolls-7.jpg&w=800&h=600&fit=cover&output=jpg",
+    "published_at": "Fri, 02 Oct 2026 16:12:49 +0000"
   }
 }
