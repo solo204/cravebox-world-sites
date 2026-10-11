@@ -133,6 +133,34 @@ def fetch_latest_recipe(site: dict) -> dict | None:
     }
 
 
+def fetch_site_image(site: dict) -> str:
+    """
+    Fetch the freshest image for a site from its RSS feed.
+    Falls back to site['image_url'] if RSS fails or has no image.
+    """
+    rss_url = site.get("rss_url", site["url"].rstrip("/") + "/feed/")
+    try:
+        r = requests.get(rss_url, timeout=REQUEST_TIMEOUT, headers=HEADERS)
+        r.raise_for_status()
+        root = ET.fromstring(r.content)
+        ns = {"atom": "http://www.w3.org/2005/Atom"}
+        items = root.findall(".//item") or root.findall(".//atom:entry", ns)
+        for item in items[:3]:  # try first 3 items in case top one has no image
+            mc = item.find("media:content", {"media": "http://search.yahoo.com/mrss/"})
+            if mc is not None and mc.get("url"):
+                return mc.get("url")
+            enc = item.find("enclosure")
+            if enc is not None and "image" in (enc.get("type") or ""):
+                return enc.get("url")
+            desc = item.findtext("description") or ""
+            m = re.search(r'<img[^>]+src=["\']([^"\']+)["\']', desc)
+            if m:
+                return m.group(1)
+    except Exception as e:
+        print(f"  site image fetch failed for {site['name']}: {e}")
+    return site.get("image_url", "")
+
+
 def pick_featured_recipe(sites: list[dict]) -> dict | None:
     """Try each featured site in order; return the first successful RSS fetch."""
     for site in sites:
@@ -154,8 +182,11 @@ def main():
     featured_sites = pick_sites(master)
     print(f"[rotate] Slot sites: {[s['name'] for s in featured_sites]}")
 
-    print("[rotate] Fetching latest recipe from featured sites…")
+    print("[rotate] Fetching latest recipe + site images from featured sites…")
     featured_recipe = pick_featured_recipe(featured_sites)
+
+    # Fetch fresh site card images from RSS (falls back to master image_url)
+    site_images = {s["name"]: fetch_site_image(s) for s in featured_sites}
 
     output = {
         "updated_at":       datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
@@ -166,7 +197,7 @@ def main():
                 "url":       s["url"],
                 "cuisine":   s["cuisine"],
                 "tagline":   s["tagline"],
-                "image_url": s["image_url"],
+                "image_url": site_images.get(s["name"]) or s["image_url"],
             }
             for s in featured_sites
         ],
