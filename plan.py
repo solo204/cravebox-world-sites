@@ -374,6 +374,20 @@ def main():
     history   = load_history()
     used_urls  = set(history.get("recipe_urls", []))
     used_sites = set(history.get("site_names",  []))
+
+    # Also collect URLs/sites already queued in existing schedule weeks
+    existing_sched = load_schedule()
+    for week in existing_sched:
+        if not week:
+            continue
+        for site in week.get("sites", []):
+            used_sites.add(site.get("name", ""))
+        for recipe in week.get("recipes", {}).values():
+            if recipe:
+                used_urls.add(recipe.get("url", ""))
+        for c in week.get("candidates", []):
+            used_urls.add(c.get("url", ""))
+
     num_pools = len(master) // 4
     if num_pools == 0:
         print("ERROR: Need at least 4 sites in master_sites.json")
