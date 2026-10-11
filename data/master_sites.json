@@ -158,5 +158,268 @@
     "tagline": "Indian recipes that work every time.",
     "image_url": "https://www.indianhealthyrecipes.com/wp-content/uploads/2026/10/quinoa-khichdi.jpg",
     "rss_url": "https://www.indianhealthyrecipes.com/feed/"
+  },
+  {
+    "name": "Smitten Kitchen",
+    "url": "https://smittenkitchen.com",
+    "cuisine": "American",
+    "tagline": "Fearless cooking from a tiny kitchen.",
+    "image_url": "https://i0.wp.com/smittenkitchen.com/wp-content/uploads/2026/09/simple-chicken-tacos-09-scaled.jpg",
+    "rss_url": "https://smittenkitchen.com/feed/"
+  },
+  {
+    "name": "Minimalist Baker",
+    "url": "https://minimalistbaker.com",
+    "cuisine": "Plant-Based",
+    "tagline": "Simple vegan recipes, 10 ingredients or less.",
+    "image_url": "https://minimalistbaker.com/wp-content/uploads/2023/03/Gluten-Free-Honey-Cake-15-680x1020.jpg",
+    "rss_url": "https://minimalistbaker.com/feed/"
+  },
+  {
+    "name": "Skinnytaste",
+    "url": "https://www.skinnytaste.com",
+    "cuisine": "Healthy American",
+    "tagline": "Healthy recipes your whole family will love.",
+    "image_url": "https://www.skinnytaste.com/wp-content/uploads/2026/09/turkey-burgers-thumb-2.jpg",
+    "rss_url": "https://www.skinnytaste.com/feed/"
+  },
+  {
+    "name": "Cookie and Kate",
+    "url": "https://cookieandkate.com",
+    "cuisine": "Vegetarian",
+    "tagline": "Wholesome vegetarian recipes for every occasion.",
+    "image_url": "https://cookieandkate.com/images/2026/10/gluten-free-cornbread.jpg",
+    "rss_url": "https://cookieandkate.com/feed/"
+  },
+  {
+    "name": "My Greek Dish",
+    "url": "https://www.mygreekdish.com",
+    "cuisine": "Greek",
+    "tagline": "Authentic Greek recipes made simple at home.",
+    "image_url": "https://www.mygreekdish.com/wp-content/uploads/2024/09/Feta-Pasta-bake.jpeg",
+    "rss_url": "https://www.mygreekdish.com/feed/"
+  },
+  {
+    "name": "Caribbean Pot",
+    "url": "https://www.caribbeanpot.com",
+    "cuisine": "Caribbean",
+    "tagline": "Genuine Caribbean cooking and comfort food.",
+    "image_url": "https://caribbeanpot.com/wp-content/uploads/2026/10/chicken-rasta-pasta-14.jpg",
+    "rss_url": "https://caribbeanpot.com/feed/"
+  },
+  {
+    "name": "Spain on a Fork",
+    "url": "https://www.spainonafork.com",
+    "cuisine": "Spanish",
+    "tagline": "Authentic Spanish recipes for the home cook.",
+    "image_url": "https://i0.wp.com/spainonafork.com/wp-content/uploads/2024/02/image7-4-11.png",
+    "rss_url": "https://www.spainonafork.com/feed/"
+  },
+  {
+    "name": "Olivia's Cuisine",
+    "url": "https://www.oliviascuisine.com",
+    "cuisine": "Brazilian",
+    "tagline": "Brazilian recipes and global comfort food.",
+    "image_url": "https://www.oliviascuisine.com/wp-content/uploads/2023/06/pao-de-queijo-4-683x1024.jpg",
+    "rss_url": "https://www.oliviascuisine.com/feed/"
+  },
+  {
+    "name": "Feasting at Home",
+    "url": "https://www.feastingathome.com",
+    "cuisine": "Global",
+    "tagline": "Fresh seasonal recipes with global inspiration.",
+    "image_url": "https://www.feastingathome.com/wp-content/uploads/2026/09/Eggplant-Tikka-Masala-13-768x1152.jpg",
+    "rss_url": "https://www.feastingathome.com/feed/"
+  },
+  {
+    "name": "Oh She Glows",
+    "url": "https://ohsheglows.com",
+    "cuisine": "Vegan",
+    "tagline": "Nourishing plant-based recipes everyone loves.",
+    "image_url": "https://ohsheglows.com/wp-content/uploads/2021/10/OSG-Holiday-Drinks.jpg",
+    "rss_url": "https://ohsheglows.com/feed/"
+  },
+  {
+    "name": "101 Cookbooks",
+    "url": "https://www.101cookbooks.com",
+    "cuisine": "Vegetarian",
+    "tagline": "Natural, whole-food recipes for healthy living.",
+    "image_url": "https://images.101cookbooks.com/LEMON-ROASTED-POTATOES-v.jpg",
+    "rss_url": "https://www.101cookbooks.com/feed/"
+  },
+  {
+    "name": "An Italian in My Kitchen",
+    "url": "https://www.anitalianinmykitchen.com",
+    "cuisine": "Italian",
+    "tagline": "Authentic Italian recipes from a Roman cook.",
+    "image_url": "https://anitalianinmykitchen.com/wp-content/uploads/2026/09/tiramisu-crostata-1-of-1-683x1024.jpg",
+    "rss_url": "https://www.anitalianinmykitchen.com/feed/"
+  },
+  {
+    "name": "Love and Lemons",
+    "url": "https://www.loveandlemons.com",
+    "cuisine": "Plant-Based",
+    "tagline": "Bright, seasonal plant-forward cooking.",
+    "image_url": "https://cdn.loveandlemons.com/wp-content/uploads/2026/09/pumpkin-chocolate-chip-cookies-recipe.jpg",
+    "rss_url": "https://www.loveandlemons.com/feed/"
+  },
+  {
+    "name": "Ambitious Kitchen",
+    "url": "https://www.ambitiouskitchen.com",
+    "cuisine": "Healthy American",
+    "tagline": "Nutritious, feel-good recipes for real life.",
+    "image_url": "https://www.ambitiouskitchen.com/wp-content/uploads/2022/10/Peanut-Butter-Lovers-Banana-Bread-4-750x750.jpg",
+    "rss_url": "https://www.ambitiouskitchen.com/feed/"
+  },
+  {
+    "name": "The Modern Proper",
+    "url": "https://themodernproper.com",
+    "cuisine": "American",
+    "tagline": "Simple, elegant weeknight dinners for families.",
+    "image_url": "https://images.themodernproper.com/production/posts/DutchApplePie_12.jpg",
+    "rss_url": "https://themodernproper.com/feed"
+  },
+  {
+    "name": "Vegan Richa",
+    "url": "https://www.veganricha.com",
+    "cuisine": "Indian Vegan",
+    "tagline": "Bold Indian-inspired vegan recipes with flavor.",
+    "image_url": "https://www.veganricha.com/wp-content/uploads/2026/09/somosa-platter-veganricha-2224.jpg",
+    "rss_url": "https://www.veganricha.com/feed/"
+  },
+  {
+    "name": "Downshiftology",
+    "url": "https://downshiftology.com",
+    "cuisine": "Healthy",
+    "tagline": "Simple, gluten-free recipes for healthy living.",
+    "image_url": "https://www.downshiftology.com/wp-content/uploads/2026/08/Spanish-Flan-main-800x437.jpg",
+    "rss_url": "https://downshiftology.com/feed/"
+  },
+  {
+    "name": "Alexandra Cooks",
+    "url": "https://alexandracooks.com",
+    "cuisine": "Italian-Inspired",
+    "tagline": "Simple Italian cooking and artisan breads.",
+    "image_url": "https://alexandracooks.com/wp-content/uploads/2026/08/scarpacciaVertnew.jpg",
+    "rss_url": "https://alexandracooks.com/feed/"
+  },
+  {
+    "name": "Italian Food Forever",
+    "url": "https://www.italianfoodforever.com",
+    "cuisine": "Italian",
+    "tagline": "Classic regional Italian recipes done right.",
+    "image_url": "https://italianfoodforever.com/wp-content/uploads/2026/09/fallfigsalad9.jpg",
+    "rss_url": "https://www.italianfoodforever.com/feed/"
+  },
+  {
+    "name": "Hot Thai Kitchen",
+    "url": "https://hot-thai-kitchen.com",
+    "cuisine": "Thai",
+    "tagline": "Authentic Thai recipes with a modern touch.",
+    "image_url": "https://hot-thai-kitchen.com/wp-content/uploads/2026/08/pad-see-ew-final-2-500x500.jpg",
+    "rss_url": "https://hot-thai-kitchen.com/feed/"
+  },
+  {
+    "name": "Hungry Huy",
+    "url": "https://www.hungryhuy.com",
+    "cuisine": "Vietnamese",
+    "tagline": "Vietnamese and Asian recipes made accessible.",
+    "image_url": "https://www.hungryhuy.com/wp-content/uploads/vietnamese-egg-coffee-stir2-680x1020.jpg",
+    "rss_url": "https://www.hungryhuy.com/feed/"
+  },
+  {
+    "name": "Viet World Kitchen",
+    "url": "https://www.vietworldkitchen.com",
+    "cuisine": "Vietnamese",
+    "tagline": "Vietnamese cooking and pan-Asian flavors explored.",
+    "image_url": "https://www.vietworldkitchen.com/wp-content/uploads/2026/09/chicken-stock-liquid-gold.jpeg",
+    "rss_url": "https://www.vietworldkitchen.com/feed"
+  },
+  {
+    "name": "Alica's Pepperpot",
+    "url": "https://www.alicaspepperpot.com",
+    "cuisine": "Caribbean",
+    "tagline": "Authentic Caribbean and Guyanese home cooking.",
+    "image_url": "https://www.alicaspepperpot.com/wp-content/uploads/2026/08/Small-batch-Channa-Curry-curry-in-pot.jpg",
+    "rss_url": "https://www.alicaspepperpot.com/feed/"
+  },
+  {
+    "name": "Rose Water & Orange Blossoms",
+    "url": "https://maureenabood.com",
+    "cuisine": "Lebanese",
+    "tagline": "Lebanese cooking, stories, and Mediterranean life.",
+    "image_url": "https://maureenabood.com/wp-content/uploads/2022/12/Maza-platter-top-down-Maureen-Abood.jpg",
+    "rss_url": "https://maureenabood.com/feed/"
+  },
+  {
+    "name": "Feel Good Foodie",
+    "url": "https://feelgoodfoodie.net",
+    "cuisine": "Lebanese",
+    "tagline": "Fresh wholesome recipes with Middle Eastern flair.",
+    "image_url": "https://feelgoodfoodie.net/wp-content/uploads/2026/08/Lebanese-Lentil-Soup-TIMG.jpg",
+    "rss_url": "https://feelgoodfoodie.net/feed/"
+  },
+  {
+    "name": "WoonHeng",
+    "url": "https://woonheng.com",
+    "cuisine": "Malaysian",
+    "tagline": "Plant-based Singaporean and Malaysian home cooking.",
+    "image_url": "https://woonheng.com/wp-content/uploads/2026/06/KungPao-Chinese-Yam-2-819x1024.jpg",
+    "rss_url": "https://woonheng.com/feed/"
+  },
+  {
+    "name": "What To Cook Today",
+    "url": "https://whattocooktoday.com",
+    "cuisine": "Indonesian",
+    "tagline": "Indonesian and Southeast Asian recipes made easy.",
+    "image_url": "https://whattocooktoday.com/wp-content/uploads/2025/10/nasi-goreng-1.jpg",
+    "rss_url": "https://whattocooktoday.com/feed"
+  },
+  {
+    "name": "Laylita's Recipes",
+    "url": "https://laylita.com/recipes",
+    "cuisine": "Latin American",
+    "tagline": "Ecuadorian and Latin American flavors from scratch.",
+    "image_url": "https://www.laylita.com/recipes/wp-content/uploads/2020/10/Pasta-salad-with-avocado-tomatoes-and-cheese-1024x767.jpg",
+    "rss_url": "https://laylita.com/recipes/feed/"
+  },
+  {
+    "name": "Silk Road Recipes",
+    "url": "https://silkroadrecipes.com",
+    "cuisine": "Persian",
+    "tagline": "Vibrant Persian and Central Asian flavors at home.",
+    "image_url": "https://silkroadrecipes.com/wp-content/uploads/2026/07/Shrimp-Saltimbocca-square-768x768.jpg",
+    "rss_url": "https://silkroadrecipes.com/feed/"
+  },
+  {
+    "name": "The Cookie Rookie",
+    "url": "https://www.thecookierookie.com",
+    "cuisine": "Baking",
+    "tagline": "Easy recipes for confident beginner cooks.",
+    "image_url": "https://www.thecookierookie.com/wp-content/uploads/2023/09/Pumpkin-recipes-Featured.jpg",
+    "rss_url": "https://www.thecookierookie.com/feed/"
+  },
+  {
+    "name": "Rasa Malaysia",
+    "url": "https://rasamalaysia.com",
+    "cuisine": "Malaysian",
+    "tagline": "Easy Asian recipes for the home cook.",
+    "image_url": "https://rasamalaysia.com/wp-content/uploads/2026/09/nasi-lemak-thumb.jpg",
+    "rss_url": "https://rasamalaysia.com/feed/"
+  },
+  {
+    "name": "Isabel Eats",
+    "url": "https://www.isabeleats.com",
+    "cuisine": "Mexican",
+    "tagline": "Mexican recipes made simple and delicious.",
+    "image_url": "https://www.isabeleats.com/wp-content/uploads/2023/09/chicken-enchiladas-small-4.jpg",
+    "rss_url": "https://www.isabeleats.com/feed/"
+  },
+  {
+    "name": "Updated Recipes",
+    "url": "https://updatedrecipes.com",
+    "cuisine": "Comfort Food",
+    "tagline": "Comfort Food That Feels Like Home",
+    "image_url": ""
   }
 ]
