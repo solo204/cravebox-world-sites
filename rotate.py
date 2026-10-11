@@ -135,14 +135,38 @@ def fetch_latest_recipe(site: dict) -> dict | None:
 
 
 def fetch_og_image(url: str) -> str | None:
-    """Fetch a page and return its og:image URL, or None on failure."""
+    """
+    Fetch a page and return the best image URL for use as a site card.
+    Strategy:
+      1. og:image meta tag (reliable, explicit share image)
+      2. First <img src> in the page body with dimension hints (e.g. -1200x800)
+         skipping avatars, icons, and tiny thumbnails
+    Returns None on any failure.
+    """
     try:
         r = requests.get(url, timeout=REQUEST_TIMEOUT, headers=HEADERS)
         r.raise_for_status()
-        # match both attribute orderings
+        # 1. og:image meta tag
         m = (re.search(r'<meta[^>]+property=["\']og:image["\'][^>]+content=["\']([^"\']+)["\']', r.text) or
              re.search(r'<meta[^>]+content=["\']([^"\']+)["\'][^>]+property=["\']og:image["\']', r.text))
-        return m.group(1) if m else None
+        if m:
+            return m.group(1)
+        # 2. First <img> with a large-dimension suffix (e.g. -1200x800, -800x600)
+        #    This handles sites like JOC whose og:image is JS-rendered but whose
+        #    CDN image URLs are embedded directly in the HTML body.
+        SKIP = ('icon', 'logo', 'avatar', 'gravatar', 'badge', 'favicon',
+                'star', 'rating', 'w480', 'w200', 'w100', '32x32', '64x64')
+        for m in re.finditer(r'src=["\']([^"\']+)["\']', r.text):
+            img_url = m.group(1)
+            if not img_url.startswith('http'):
+                continue
+            lower = img_url.lower()
+            if any(s in lower for s in SKIP):
+                continue
+            # prefer URLs with large dimension hints
+            if re.search(r'-\d{3,4}x\d{3,4}', img_url):
+                return img_url
+        return None
     except Exception:
         return None
 
