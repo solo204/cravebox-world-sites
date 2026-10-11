@@ -102,5 +102,61 @@
     "tagline": "Feel-good food for every season.",
     "image_url": "https://www.halfbakedharvest.com/wp-content/uploads/2026/10/Smothered-Chicken-in-Mushroom-Wine-Pan-Sauce-1.jpg",
     "rss_url": "https://www.halfbakedharvest.com/feed/"
+  },
+  {
+    "name": "Budget Bytes",
+    "url": "https://www.budgetbytes.com",
+    "cuisine": "American",
+    "tagline": "Delicious recipes designed for small budgets.",
+    "image_url": "https://www.budgetbytes.com/wp-content/uploads/2026/09/Chicken-Tortilla-Soup-V2-above.jpg",
+    "rss_url": "https://www.budgetbytes.com/feed/"
+  },
+  {
+    "name": "Pinch of Yum",
+    "url": "https://pinchofyum.com",
+    "cuisine": "Global",
+    "tagline": "Real food that tastes really good.",
+    "image_url": "https://pinchofyum.com/wp-content/uploads/Butter-Chicken-Square.jpg",
+    "rss_url": "https://pinchofyum.com/feed"
+  },
+  {
+    "name": "Damn Delicious",
+    "url": "https://damndelicious.net",
+    "cuisine": "American",
+    "tagline": "Quick and easy recipes for every occasion.",
+    "image_url": "https://damndelicious.net/wp-content/uploads/2023/02/beef-stew.jpg",
+    "rss_url": "https://damndelicious.net/feed/"
+  },
+  {
+    "name": "Just One Cookbook",
+    "url": "https://www.justonecookbook.com",
+    "cuisine": "Japanese",
+    "tagline": "Authentic Japanese recipes made simple.",
+    "image_url": "https://www.justonecookbook.com/wp-content/uploads/2022/10/Oyakodon-8796-I.jpg",
+    "rss_url": "https://www.justonecookbook.com/feed/"
+  },
+  {
+    "name": "Maangchi",
+    "url": "https://www.maangchi.com",
+    "cuisine": "Korean",
+    "tagline": "Real Korean cooking for everyone.",
+    "image_url": "https://www.maangchi.com/wp-content/uploads/2007/10/tteokbokki-new.jpg",
+    "rss_url": "https://www.maangchi.com/feed"
+  },
+  {
+    "name": "Immaculate Bites",
+    "url": "https://www.africanbites.com",
+    "cuisine": "African",
+    "tagline": "Bold African flavors and soul food recipes.",
+    "image_url": "https://www.africanbites.com/wp-content/uploads/2022/01/Jollof-Rice-10.jpg",
+    "rss_url": "https://www.africanbites.com/feed/"
+  },
+  {
+    "name": "Swasthi's Recipes",
+    "url": "https://www.indianhealthyrecipes.com",
+    "cuisine": "Indian",
+    "tagline": "Indian recipes that work every time.",
+    "image_url": "https://www.indianhealthyrecipes.com/wp-content/uploads/2021/10/butter-chicken-recipe.jpg",
+    "rss_url": "https://www.indianhealthyrecipes.com/feed/"
   }
 ]
