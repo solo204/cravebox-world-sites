@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-11T20:43:10Z",
+  "updated_at": "2026-10-11T20:45:22Z",
   "slot_hours": 2,
   "slot_idx": 0,
   "week": 1,
@@ -39,14 +39,14 @@
   ],
   "featured_recipes": {
     "Mon": {
-      "title": "458: Nine Favorite Things.",
-      "url": "https://www.halfbakedharvest.com/nine-favorite-things-458/",
-      "recipe_url": "https://www.halfbakedharvest.com/nine-favorite-things-458/",
-      "image_url": "https://www.halfbakedharvest.com/wp-content/uploads/2026/10/IMG_9430-scaled.jpeg",
-      "site_name": "Half Baked Harvest",
-      "site_url": "https://www.halfbakedharvest.com",
-      "cuisine": "American Comfort",
-      "published_at": "Sun, 11 Oct 2026 07:00:00 +0000"
+      "cuisine": "American",
+      "image_url": "https://damndelicious.net/wp-content/uploads/2026/06/260401_DD_air-fryer-chicken_704-768x1152.jpg",
+      "published_at": "Sat, 05 Sep 2026 04:00:00 +0000",
+      "recipe_url": "https://damndelicious.net/2026/09/04/air-fryer-chicken/",
+      "site_name": "Damn Delicious",
+      "site_url": "https://damndelicious.net",
+      "title": "Air Fryer Chicken",
+      "url": "https://damndelicious.net/2026/09/04/air-fryer-chicken/"
     },
     "Tue": {
       "cuisine": "Japanese",
