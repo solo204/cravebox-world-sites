@@ -116,8 +116,8 @@ def fetch_latest_recipe(site: dict) -> dict | None:
         description = txt("description") or txt("{http://purl.org/rss/1.0/modules/content/}encoded")
         image_url = extract_image_from_content(description)
     if not image_url:
-        # Fall back to site's master image
-        image_url = site.get("image_url", "")
+        # Fall back to og:image from the article page
+        image_url = fetch_og_image(link) or site.get("image_url", "")
 
     if not title or not link:
         return None
@@ -156,8 +156,11 @@ def proxy_image(url: str) -> str:
 
 def fetch_site_image(site: dict) -> str:
     """
-    Fetch the freshest image for a site from its RSS feed.
-    Falls back to site['image_url'] if RSS fails or has no image.
+    Fetch the freshest image for a site by scraping og:image from the latest
+    RSS article page. og:image is the canonical share image every site sets,
+    and is more reliable than media:content (which can have bad URLs) or
+    description img tags (which many sites omit entirely).
+    Falls back to site['image_url'] if RSS or page fetch fails.
     """
     rss_url = site.get("rss_url", site["url"].rstrip("/") + "/feed/")
     try:
@@ -166,25 +169,12 @@ def fetch_site_image(site: dict) -> str:
         root = ET.fromstring(r.content)
         ns = {"atom": "http://www.w3.org/2005/Atom"}
         items = root.findall(".//item") or root.findall(".//atom:entry", ns)
-        for item in items[:3]:  # try first 3 items in case top one has no image
-            mc = item.find("media:content", {"media": "http://search.yahoo.com/mrss/"})
-            if mc is not None and mc.get("url"):
-                return mc.get("url")
-            enc = item.find("enclosure")
-            if enc is not None and "image" in (enc.get("type") or ""):
-                return enc.get("url")
-            # check both description and content:encoded (WordPress uses content:encoded)
-            desc = (item.findtext("description") or
-                    item.findtext("{http://purl.org/rss/1.0/modules/content/}encoded") or "")
-            m = re.search(r'<img[^>]+src=["\']([^"\']+)["\']', desc)
-            if m:
-                return m.group(1)
-            # last resort: scrape og:image from the article page itself
+        for item in items[:5]:
             link = item.findtext("link") or item.findtext("guid")
             if link and link.startswith("http"):
                 og = fetch_og_image(link)
                 if og:
-                    print(f"  og:image fallback for {site['name']}: {og[:80]}")
+                    print(f"  site image ({site['name']}): {og[:80]}")
                     return og
     except Exception as e:
         print(f"  site image fetch failed for {site['name']}: {e}")
