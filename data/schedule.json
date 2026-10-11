@@ -1,320 +1,6 @@
 [
   {
     "week": 1,
-    "starts": "2026-10-05",
-    "pool": 3,
-    "sites": [
-      {
-        "name": "Dassana's Veg Recipes",
-        "url": "https://www.vegrecipesofindia.com",
-        "cuisine": "Indian",
-        "tagline": "100% vegetarian Indian recipes.",
-        "image_url": "https://www.vegrecipesofindia.com/wp-content/uploads/2020/01/paneer-butter-masala-1.jpg",
-        "rss_url": "https://www.vegrecipesofindia.com/feed/"
-      },
-      {
-        "name": "The Mediterranean Dish",
-        "url": "https://www.themediterraneandish.com",
-        "cuisine": "Mediterranean",
-        "tagline": "Bold Mediterranean flavors for every table.",
-        "image_url": "https://www.themediterraneandish.com/wp-content/uploads/2026/09/Turkish-Pasta-12.jpg",
-        "rss_url": "https://www.themediterraneandish.com/feed/"
-      },
-      {
-        "name": "Sally's Baking Addiction",
-        "url": "https://sallysbakingaddiction.com",
-        "cuisine": "Baking",
-        "tagline": "Trusted baking recipes since 2011.",
-        "image_url": "https://sallysbakingaddiction.com/wp-content/uploads/2012/08/warm-chocolate-chip-cookies.jpg",
-        "rss_url": "https://sallysbakingaddiction.com/feed/"
-      },
-      {
-        "name": "Grandbaby Cakes",
-        "url": "https://grandbaby-cakes.com",
-        "cuisine": "Southern",
-        "tagline": "Southern comfort food and soul food classics.",
-        "image_url": "https://grandbaby-cakes.com/wp-content/uploads/2025/08/buttermilk-fried-chicken-15.jpg",
-        "rss_url": "https://grandbaby-cakes.com/feed/"
-      }
-    ],
-    "recipes": {
-      "Mon": {
-        "title": "18 Corn Recipes For Snacks And Meals",
-        "url": "https://www.vegrecipesofindia.com/corn-recipes-sweet-corn-recipes/",
-        "recipe_url": "https://www.vegrecipesofindia.com/corn-recipes-sweet-corn-recipes/",
-        "image_url": "https://i2.wp.com/www.vegrecipesofindia.com/wp-content/uploads/2022/06/corn-recipes.jpg",
-        "site_name": "Dassana's Veg Recipes",
-        "site_url": "https://www.vegrecipesofindia.com",
-        "cuisine": "Indian",
-        "published_at": "Sun, 13 Sep 2026 14:44:05 +0000"
-      },
-      "Tue": {
-        "title": "Pan de Cristal (Glass Bread)",
-        "url": "https://www.themediterraneandish.com/pan-de-cristal-glass-bread/",
-        "recipe_url": "https://www.themediterraneandish.com/pan-de-cristal-glass-bread/",
-        "image_url": "https://www.themediterraneandish.com/wp-content/uploads/2026/09/Mediterranean-Dish-Pan-de-Cristal-LEAD-4.jpg",
-        "site_name": "The Mediterranean Dish",
-        "site_url": "https://www.themediterraneandish.com",
-        "cuisine": "Mediterranean",
-        "published_at": "Fri, 09 Oct 2026 12:00:00 +0000"
-      },
-      "Wed": {
-        "title": "Mini Pumpkin Chocolate Chip Muffins",
-        "url": "https://sallysbakingaddiction.com/mini-pumpkin-chocolate-chip-muffins/",
-        "recipe_url": "https://sallysbakingaddiction.com/mini-pumpkin-chocolate-chip-muffins/",
-        "image_url": "https://sallysbakingaddiction.com/wp-content/uploads/2015/10/mini-chocolate-chip-pumpkin-muffins.jpg",
-        "site_name": "Sally's Baking Addiction",
-        "site_url": "https://sallysbakingaddiction.com",
-        "cuisine": "Baking",
-        "published_at": "Sun, 11 Oct 2026 10:00:00 +0000"
-      },
-      "Thu": {
-        "title": "Salisbury Steak",
-        "url": "https://grandbaby-cakes.com/salisbury-steak/",
-        "recipe_url": "https://grandbaby-cakes.com/salisbury-steak/",
-        "image_url": "https://grandbaby-cakes.com/wp-content/uploads/2023/10/72dpi-Salisbury-Steak-22.jpg",
-        "site_name": "Grandbaby Cakes",
-        "site_url": "https://grandbaby-cakes.com",
-        "cuisine": "Southern",
-        "published_at": "Fri, 09 Oct 2026 14:00:00 +0000"
-      },
-      "Fri": {
-        "title": "Crispy Corn Recipe",
-        "url": "https://www.vegrecipesofindia.com/crispy-corn/",
-        "recipe_url": "https://www.vegrecipesofindia.com/crispy-corn/",
-        "image_url": "https://i2.wp.com/www.vegrecipesofindia.com/wp-content/uploads/2026/09/crispy-corn.jpg",
-        "site_name": "Dassana's Veg Recipes",
-        "site_url": "https://www.vegrecipesofindia.com",
-        "cuisine": "Indian",
-        "published_at": "Fri, 11 Sep 2026 19:44:29 +0000"
-      },
-      "Sat": {
-        "title": "Turkish Pasta (Yoğurtlu Kıymalı Makarna)",
-        "url": "https://www.themediterraneandish.com/turkish-pasta/",
-        "recipe_url": "https://www.themediterraneandish.com/turkish-pasta/",
-        "image_url": "https://www.themediterraneandish.com/wp-content/uploads/2026/09/Turkish-Pasta-12.jpg",
-        "site_name": "The Mediterranean Dish",
-        "site_url": "https://www.themediterraneandish.com",
-        "cuisine": "Mediterranean",
-        "published_at": "Mon, 05 Oct 2026 12:00:00 +0000"
-      },
-      "Sun": {
-        "title": "Baked Pretzel-Crusted Chicken",
-        "url": "https://sallysbakingaddiction.com/pretzel-crusted-chicken/",
-        "recipe_url": "https://sallysbakingaddiction.com/pretzel-crusted-chicken/",
-        "image_url": "https://sallysbakingaddiction.com/wp-content/uploads/2014/08/pretzel-chicken.jpg",
-        "site_name": "Sally's Baking Addiction",
-        "site_url": "https://sallysbakingaddiction.com",
-        "cuisine": "Baking",
-        "published_at": "Fri, 09 Oct 2026 10:00:00 +0000"
-      }
-    },
-    "candidates": [
-      {
-        "title": "Big Mama’s Sweet Potato Pie",
-        "url": "https://grandbaby-cakes.com/sweet-potato-pie/",
-        "recipe_url": "https://grandbaby-cakes.com/sweet-potato-pie/",
-        "image_url": "https://grandbaby-cakes.com/wp-content/uploads/2024/08/Sweet-Potato-Pie22-scaled.jpg",
-        "site_name": "Grandbaby Cakes",
-        "site_url": "https://grandbaby-cakes.com",
-        "cuisine": "Southern",
-        "published_at": "Thu, 08 Oct 2026 14:00:00 +0000"
-      },
-      {
-        "title": "Sabudana Kheer Recipe",
-        "url": "https://www.vegrecipesofindia.com/sabudana-kheer-sabudana-recipes/",
-        "recipe_url": "https://www.vegrecipesofindia.com/sabudana-kheer-sabudana-recipes/",
-        "image_url": "https://i2.wp.com/www.vegrecipesofindia.com/wp-content/uploads/2023/03/sabudana-kheer-1.jpg",
-        "site_name": "Dassana's Veg Recipes",
-        "site_url": "https://www.vegrecipesofindia.com",
-        "cuisine": "Indian",
-        "published_at": "Wed, 09 Sep 2026 14:28:38 +0000"
-      },
-      {
-        "title": "Mushroom Gnocchi in Creamy Parmesan Sauce (Without Cream!)",
-        "url": "https://www.themediterraneandish.com/mushroom-gnocchi/",
-        "recipe_url": "https://www.themediterraneandish.com/mushroom-gnocchi/",
-        "image_url": "https://www.themediterraneandish.com/wp-content/uploads/2026/09/TMD-Mushroom-Gnocchi-Leads-02-Angle.jpg",
-        "site_name": "The Mediterranean Dish",
-        "site_url": "https://www.themediterraneandish.com",
-        "cuisine": "Mediterranean",
-        "published_at": "Fri, 02 Oct 2026 12:00:00 +0000"
-      },
-      {
-        "title": "30 Delicious Fall Dinner Recipe Ideas",
-        "url": "https://sallysbakingaddiction.com/fall-dinner-recipes/",
-        "recipe_url": "https://sallysbakingaddiction.com/fall-dinner-recipes/",
-        "image_url": "https://sallysbakingaddiction.com/wp-content/uploads/2024/10/apple-cider-chicken-fall-dinner-2.jpg",
-        "site_name": "Sally's Baking Addiction",
-        "site_url": "https://sallysbakingaddiction.com",
-        "cuisine": "Baking",
-        "published_at": "Thu, 08 Oct 2026 10:00:00 +0000"
-      },
-      {
-        "title": "How To Make Real-Deal Southern Collard Greens",
-        "url": "https://grandbaby-cakes.com/collard-greens-recipe/",
-        "recipe_url": "https://grandbaby-cakes.com/collard-greens-recipe/",
-        "image_url": "https://grandbaby-cakes.com/wp-content/uploads/2019/06/Collard-Greens-Recipe-again.jpg",
-        "site_name": "Grandbaby Cakes",
-        "site_url": "https://grandbaby-cakes.com",
-        "cuisine": "Southern",
-        "published_at": "Wed, 07 Oct 2026 14:00:00 +0000"
-      },
-      {
-        "title": "Palkova Recipe",
-        "url": "https://www.vegrecipesofindia.com/palkova/",
-        "recipe_url": "https://www.vegrecipesofindia.com/palkova/",
-        "image_url": "https://i2.wp.com/www.vegrecipesofindia.com/wp-content/uploads/2026/09/palkova.jpg",
-        "site_name": "Dassana's Veg Recipes",
-        "site_url": "https://www.vegrecipesofindia.com",
-        "cuisine": "Indian",
-        "published_at": "Wed, 02 Sep 2026 19:09:31 +0000"
-      },
-      {
-        "title": "Turkish Sheet Pan Chicken and Vegetables (Sebzeli, Tavuklu Türlü)",
-        "url": "https://www.themediterraneandish.com/turkish-sheet-pan-chicken-and-vegetables/",
-        "recipe_url": "https://www.themediterraneandish.com/turkish-sheet-pan-chicken-and-vegetables/",
-        "image_url": "https://www.themediterraneandish.com/wp-content/uploads/2026/09/TMD-Sheet-Pan-Chicken-and-Vegetables-Leads-01-Overhead.jpg",
-        "site_name": "The Mediterranean Dish",
-        "site_url": "https://www.themediterraneandish.com",
-        "cuisine": "Mediterranean",
-        "published_at": "Sat, 26 Sep 2026 12:00:00 +0000"
-      },
-      {
-        "title": "The Best Pumpkin Cake I’ve Ever Had",
-        "url": "https://sallysbakingaddiction.com/best-pumpkin-cake/",
-        "recipe_url": "https://sallysbakingaddiction.com/best-pumpkin-cake/",
-        "image_url": "https://sallysbakingaddiction.com/wp-content/uploads/2017/10/pumpkin-three-layer-cake.jpg",
-        "site_name": "Sally's Baking Addiction",
-        "site_url": "https://sallysbakingaddiction.com",
-        "cuisine": "Baking",
-        "published_at": "Mon, 05 Oct 2026 10:00:31 +0000"
-      },
-      {
-        "title": "Creamed Corn",
-        "url": "https://grandbaby-cakes.com/creamed-corn/",
-        "recipe_url": "https://grandbaby-cakes.com/creamed-corn/",
-        "image_url": "https://grandbaby-cakes.com/wp-content/uploads/2025/05/creamed-corn-optimized-vertical-17.jpg",
-        "site_name": "Grandbaby Cakes",
-        "site_url": "https://grandbaby-cakes.com",
-        "cuisine": "Southern",
-        "published_at": "Tue, 06 Oct 2026 14:00:00 +0000"
-      },
-      {
-        "title": "Peda Recipe | Milk Peda (Doodh Peda)",
-        "url": "https://www.vegrecipesofindia.com/milk-peda-recipe-doodh-peda-recipe/",
-        "recipe_url": "https://www.vegrecipesofindia.com/milk-peda-recipe-doodh-peda-recipe/",
-        "image_url": "https://i2.wp.com/www.vegrecipesofindia.com/wp-content/uploads/2026/08/peda-recipe-1.jpg",
-        "site_name": "Dassana's Veg Recipes",
-        "site_url": "https://www.vegrecipesofindia.com",
-        "cuisine": "Indian",
-        "published_at": "Mon, 31 Aug 2026 18:43:53 +0000"
-      },
-      {
-        "title": "Maple Oat Pecan Scones",
-        "url": "https://sallysbakingaddiction.com/maple-oat-pecan-scones/",
-        "recipe_url": "https://sallysbakingaddiction.com/maple-oat-pecan-scones/",
-        "image_url": "https://sallysbakingaddiction.com/wp-content/uploads/2026/09/maple-oat-scones.jpg",
-        "site_name": "Sally's Baking Addiction",
-        "site_url": "https://sallysbakingaddiction.com",
-        "cuisine": "Baking",
-        "published_at": "Thu, 01 Oct 2026 10:00:00 +0000"
-      },
-      {
-        "title": "Roasted Carrots",
-        "url": "https://grandbaby-cakes.com/roasted-carrots/",
-        "recipe_url": "https://grandbaby-cakes.com/roasted-carrots/",
-        "image_url": "https://grandbaby-cakes.com/wp-content/uploads/2026/09/roasted-carrots-11.jpg",
-        "site_name": "Grandbaby Cakes",
-        "site_url": "https://grandbaby-cakes.com",
-        "cuisine": "Southern",
-        "published_at": "Mon, 05 Oct 2026 14:00:00 +0000"
-      },
-      {
-        "title": "Vati Dal Khaman (Surati Khaman)",
-        "url": "https://www.vegrecipesofindia.com/vati-dal-khaman/",
-        "recipe_url": "https://www.vegrecipesofindia.com/vati-dal-khaman/",
-        "image_url": "https://i2.wp.com/www.vegrecipesofindia.com/wp-content/uploads/2026/08/vati-dal-khaman.jpg",
-        "site_name": "Dassana's Veg Recipes",
-        "site_url": "https://www.vegrecipesofindia.com",
-        "cuisine": "Indian",
-        "published_at": "Sun, 30 Aug 2026 18:25:22 +0000"
-      },
-      {
-        "title": "Salted Butterscotch Blondies",
-        "url": "https://sallysbakingaddiction.com/butterscotch-blondies/",
-        "recipe_url": "https://sallysbakingaddiction.com/butterscotch-blondies/",
-        "image_url": "https://sallysbakingaddiction.com/wp-content/uploads/2026/09/easy-butterscotch-blondies-recipe-2.jpg",
-        "site_name": "Sally's Baking Addiction",
-        "site_url": "https://sallysbakingaddiction.com",
-        "cuisine": "Baking",
-        "published_at": "Mon, 28 Sep 2026 10:00:58 +0000"
-      },
-      {
-        "title": "Sweet Potato Cheesecake Recipe",
-        "url": "https://grandbaby-cakes.com/spiced-sweet-potato-cheesecake-recipe/",
-        "recipe_url": "https://grandbaby-cakes.com/spiced-sweet-potato-cheesecake-recipe/",
-        "image_url": "https://grandbaby-cakes.com/wp-content/uploads/2017/11/Spiced-Sweet-Potato-Cheesecake-Recipe-5.jpg",
-        "site_name": "Grandbaby Cakes",
-        "site_url": "https://grandbaby-cakes.com",
-        "cuisine": "Southern",
-        "published_at": "Fri, 02 Oct 2026 14:00:00 +0000"
-      },
-      {
-        "title": "Palak Kofta (Shaam Savera)",
-        "url": "https://www.vegrecipesofindia.com/palak-kofta-recipe/",
-        "recipe_url": "https://www.vegrecipesofindia.com/palak-kofta-recipe/",
-        "image_url": "https://i2.wp.com/www.vegrecipesofindia.com/wp-content/uploads/2026/08/palak-kofta-1.jpg",
-        "site_name": "Dassana's Veg Recipes",
-        "site_url": "https://www.vegrecipesofindia.com",
-        "cuisine": "Indian",
-        "published_at": "Thu, 27 Aug 2026 18:37:28 +0000"
-      },
-      {
-        "title": "Easy Pumpkin Pie Bars",
-        "url": "https://sallysbakingaddiction.com/pumpkin-pie-bars/",
-        "recipe_url": "https://sallysbakingaddiction.com/pumpkin-pie-bars/",
-        "image_url": "https://sallysbakingaddiction.com/wp-content/uploads/2017/10/easy-pumpkin-pie-bars-3.jpg",
-        "site_name": "Sally's Baking Addiction",
-        "site_url": "https://sallysbakingaddiction.com",
-        "cuisine": "Baking",
-        "published_at": "Fri, 25 Sep 2026 10:00:00 +0000"
-      },
-      {
-        "title": "Pumpkin Cheesecake",
-        "url": "https://grandbaby-cakes.com/pumpkin-cheesecake/",
-        "recipe_url": "https://grandbaby-cakes.com/pumpkin-cheesecake/",
-        "image_url": "https://grandbaby-cakes.com/wp-content/uploads/2024/09/Pumpkin-Cheesecake-2.jpg",
-        "site_name": "Grandbaby Cakes",
-        "site_url": "https://grandbaby-cakes.com",
-        "cuisine": "Southern",
-        "published_at": "Wed, 30 Sep 2026 14:00:00 +0000"
-      },
-      {
-        "title": "Ada Pradhaman Recipe",
-        "url": "https://www.vegrecipesofindia.com/ada-pradhaman/",
-        "recipe_url": "https://www.vegrecipesofindia.com/ada-pradhaman/",
-        "image_url": "https://i2.wp.com/www.vegrecipesofindia.com/wp-content/uploads/2026/08/ada-pradhaman.jpg",
-        "site_name": "Dassana's Veg Recipes",
-        "site_url": "https://www.vegrecipesofindia.com",
-        "cuisine": "Indian",
-        "published_at": "Mon, 24 Aug 2026 17:26:47 +0000"
-      },
-      {
-        "title": "Salted Maple Pecan Focaccia",
-        "url": "https://sallysbakingaddiction.com/salted-maple-pecan-focaccia/",
-        "recipe_url": "https://sallysbakingaddiction.com/salted-maple-pecan-focaccia/",
-        "image_url": "https://sallysbakingaddiction.com/wp-content/uploads/2026/09/maple-pecan-focaccia.jpg",
-        "site_name": "Sally's Baking Addiction",
-        "site_url": "https://sallysbakingaddiction.com",
-        "cuisine": "Baking",
-        "published_at": "Wed, 23 Sep 2026 10:00:12 +0000"
-      }
-    ],
-    "generated_at": "2026-10-11T18:47:06Z"
-  },
-  {
-    "week": 2,
     "starts": "2026-10-12",
     "pool": 4,
     "sites": [
@@ -363,14 +49,14 @@
         "published_at": "Sun, 11 Oct 2026 07:00:00 +0000"
       },
       "Tue": {
-        "title": "Best Pumpkin Recipes",
-        "url": "https://www.budgetbytes.com/pumpkin-recipes/",
-        "recipe_url": "https://www.budgetbytes.com/pumpkin-recipes/",
-        "image_url": "https://www.budgetbytes.com/wp-content/uploads/2022/10/Pumpkin-Recipes-Collage.jpg",
-        "site_name": "Budget Bytes",
-        "site_url": "https://www.budgetbytes.com",
-        "cuisine": "American",
-        "published_at": "Sat, 10 Oct 2026 13:30:00 +0000"
+        "cuisine": "Japanese",
+        "image_url": "https://www.chopstickchronicles.com/wp-content/uploads/2026/09/kabocha-korokke-11.jpg",
+        "published_at": "Sun, 27 Sep 2026 00:06:45 +0000",
+        "recipe_url": "https://www.chopstickchronicles.com/kabocha-korokke-kabocha-squash-croquette/",
+        "site_name": "Chopstick Chronicles",
+        "site_url": "https://www.chopstickchronicles.com",
+        "title": "Kabocha Korokke (Kabocha Squash Croquette)",
+        "url": "https://www.chopstickchronicles.com/kabocha-korokke-kabocha-squash-croquette/"
       },
       "Wed": {
         "title": "Cheeseburger Sliders",
@@ -383,14 +69,328 @@
         "published_at": "Sat, 19 Sep 2026 04:00:00 +0000"
       },
       "Thu": {
-        "title": "Satsumaimo Cookies (Japanese Sweet Potato Cookies)",
-        "url": "https://www.chopstickchronicles.com/satsumaimo-cookies-japanese-sweet-potato-cookies/",
-        "recipe_url": "https://www.chopstickchronicles.com/satsumaimo-cookies-japanese-sweet-potato-cookies/",
-        "image_url": "https://www.chopstickchronicles.com/wp-content/uploads/2026/10/sweet-potato-cookies-14.jpg",
+        "cuisine": "American",
+        "image_url": "https://www.budgetbytes.com/wp-content/uploads/2026/09/Greek-Chicken-Soup-Overhead-Wide.jpg",
+        "published_at": "Sat, 03 Oct 2026 13:30:00 +0000",
+        "recipe_url": "https://www.budgetbytes.com/greek-chicken-soup/",
+        "site_name": "Budget Bytes",
+        "site_url": "https://www.budgetbytes.com",
+        "title": "Greek Chicken Soup",
+        "url": "https://www.budgetbytes.com/greek-chicken-soup/"
+      },
+      "Fri": {
+        "title": "Easy Mummy Cookies.",
+        "url": "https://www.halfbakedharvest.com/easy-mummy-cookies/",
+        "recipe_url": "https://www.halfbakedharvest.com/easy-mummy-cookies/",
+        "image_url": "https://www.halfbakedharvest.com/wp-content/uploads/2026/10/Easy-Mummy-Cookies-12-scaled.jpg",
+        "site_name": "Half Baked Harvest",
+        "site_url": "https://www.halfbakedharvest.com",
+        "cuisine": "American Comfort",
+        "published_at": "Fri, 09 Oct 2026 07:00:00 +0000"
+      },
+      "Sat": {
+        "title": "Coconut Curry Beans and Greens",
+        "url": "https://www.budgetbytes.com/coconut-curry-beans-and-greens/",
+        "recipe_url": "https://www.budgetbytes.com/coconut-curry-beans-and-greens/",
+        "image_url": "https://www.budgetbytes.com/wp-content/uploads/2026/10/Coconut-Curry-Beans-and-Greens-Overhead-Wide.jpg",
+        "site_name": "Budget Bytes",
+        "site_url": "https://www.budgetbytes.com",
+        "cuisine": "American",
+        "published_at": "Fri, 09 Oct 2026 13:30:00 +0000"
+      },
+      "Sun": {
+        "title": "30+ Cheap and Easy Dinners",
+        "url": "https://damndelicious.net/2026/09/08/cheap-and-easy-dinners/",
+        "recipe_url": "https://damndelicious.net/2026/09/08/cheap-and-easy-dinners/",
+        "image_url": "https://damndelicious.net/wp-content/uploads/2018/09/Creamy-Beef-and-ShellsIMG_6408.jpg",
+        "site_name": "Damn Delicious",
+        "site_url": "https://damndelicious.net",
+        "cuisine": "American",
+        "published_at": "Wed, 09 Sep 2026 04:00:00 +0000"
+      }
+    },
+    "candidates": [
+      {
+        "title": "Tamago Sando ( Japanese Egg Sandwich)",
+        "url": "https://www.chopstickchronicles.com/japanese-egg-salad-sandwich/",
+        "recipe_url": "https://www.chopstickchronicles.com/japanese-egg-salad-sandwich/",
+        "image_url": "https://www.chopstickchronicles.com/wp-content/uploads/2019/04/tamago-sando-7.jpg",
         "site_name": "Chopstick Chronicles",
         "site_url": "https://www.chopstickchronicles.com",
         "cuisine": "Japanese",
-        "published_at": "Wed, 07 Oct 2026 02:02:26 +0000"
+        "published_at": "Thu, 01 Oct 2026 07:27:22 +0000"
+      },
+      {
+        "title": "36 Comforting Crockpot Recipes.",
+        "url": "https://www.halfbakedharvest.com/36-comforting-crockpot-recipes/",
+        "recipe_url": "https://www.halfbakedharvest.com/36-comforting-crockpot-recipes/",
+        "image_url": "https://www.halfbakedharvest.com/wp-content/uploads/2023/12/Crockpot-Spicy-Queso-Beef-Chili-1-scaled.jpg",
+        "site_name": "Half Baked Harvest",
+        "site_url": "https://www.halfbakedharvest.com",
+        "cuisine": "American Comfort",
+        "published_at": "Wed, 07 Oct 2026 07:00:00 +0000"
+      },
+      {
+        "title": "Savory Pumpkin Fritters",
+        "url": "https://www.budgetbytes.com/savory-pumpkin-fritters/",
+        "recipe_url": "https://www.budgetbytes.com/savory-pumpkin-fritters/",
+        "image_url": "https://www.budgetbytes.com/wp-content/uploads/2026/10/Savory-Pumpkin-Fritters-Overhead.jpg",
+        "site_name": "Budget Bytes",
+        "site_url": "https://www.budgetbytes.com",
+        "cuisine": "American",
+        "published_at": "Wed, 07 Oct 2026 13:30:00 +0000"
+      },
+      {
+        "title": "Air Fryer Chicken",
+        "url": "https://damndelicious.net/2026/09/04/air-fryer-chicken/",
+        "recipe_url": "https://damndelicious.net/2026/09/04/air-fryer-chicken/",
+        "image_url": "https://damndelicious.net/wp-content/uploads/2026/06/260401_DD_air-fryer-chicken_704-768x1152.jpg",
+        "site_name": "Damn Delicious",
+        "site_url": "https://damndelicious.net",
+        "cuisine": "American",
+        "published_at": "Sat, 05 Sep 2026 04:00:00 +0000"
+      },
+      {
+        "title": "Kabocha Korokke (Kabocha Squash Croquette)",
+        "url": "https://www.chopstickchronicles.com/kabocha-korokke-kabocha-squash-croquette/",
+        "recipe_url": "https://www.chopstickchronicles.com/kabocha-korokke-kabocha-squash-croquette/",
+        "image_url": "https://www.chopstickchronicles.com/wp-content/uploads/2026/09/kabocha-korokke-11.jpg",
+        "site_name": "Chopstick Chronicles",
+        "site_url": "https://www.chopstickchronicles.com",
+        "cuisine": "Japanese",
+        "published_at": "Sun, 27 Sep 2026 00:06:45 +0000"
+      },
+      {
+        "title": "Simple Thai Yellow Chicken Pumpkin Curry.",
+        "url": "https://www.halfbakedharvest.com/simple-thai-yellow-chicken-pumpkin-curry/",
+        "recipe_url": "https://www.halfbakedharvest.com/simple-thai-yellow-chicken-pumpkin-curry/",
+        "image_url": "https://www.halfbakedharvest.com/wp-content/uploads/2026/10/Simple-Thai-Yellow-Chicken-Pumpkin-Curry-1-scaled.jpg",
+        "site_name": "Half Baked Harvest",
+        "site_url": "https://www.halfbakedharvest.com",
+        "cuisine": "American Comfort",
+        "published_at": "Mon, 05 Oct 2026 07:00:00 +0000"
+      },
+      {
+        "title": "Crockpot Mac And Cheese",
+        "url": "https://www.budgetbytes.com/crockpot-mac-and-cheese/",
+        "recipe_url": "https://www.budgetbytes.com/crockpot-mac-and-cheese/",
+        "image_url": "https://www.budgetbytes.com/wp-content/uploads/2024/10/1-Crock-Pot-Mac-and-Cheese-Overhead-Wide.jpg",
+        "site_name": "Budget Bytes",
+        "site_url": "https://www.budgetbytes.com",
+        "cuisine": "American",
+        "published_at": "Mon, 05 Oct 2026 13:30:00 +0000"
+      },
+      {
+        "title": "Honey BBQ Chicken Bites",
+        "url": "https://damndelicious.net/2026/08/21/honey-bbq-chicken-bites/",
+        "recipe_url": "https://damndelicious.net/2026/08/21/honey-bbq-chicken-bites/",
+        "image_url": "https://damndelicious.net/wp-content/uploads/2026/06/251218_DD_Honey-BBQ-Chicken-Bites_691-768x1152.jpg",
+        "site_name": "Damn Delicious",
+        "site_url": "https://damndelicious.net",
+        "cuisine": "American",
+        "published_at": "Sat, 22 Aug 2026 04:00:00 +0000"
+      },
+      {
+        "title": "Chashu (Braised Pork Belly)",
+        "url": "https://www.chopstickchronicles.com/ramen-pork-chashu/",
+        "recipe_url": "https://www.chopstickchronicles.com/ramen-pork-chashu/",
+        "image_url": "https://www.chopstickchronicles.com/wp-content/uploads/2020/01/Chashu-update-10.jpg",
+        "site_name": "Chopstick Chronicles",
+        "site_url": "https://www.chopstickchronicles.com",
+        "cuisine": "Japanese",
+        "published_at": "Wed, 16 Sep 2026 11:33:42 +0000"
+      },
+      {
+        "title": "Greek Chicken Soup",
+        "url": "https://www.budgetbytes.com/greek-chicken-soup/",
+        "recipe_url": "https://www.budgetbytes.com/greek-chicken-soup/",
+        "image_url": "https://www.budgetbytes.com/wp-content/uploads/2026/09/Greek-Chicken-Soup-Overhead-Wide.jpg",
+        "site_name": "Budget Bytes",
+        "site_url": "https://www.budgetbytes.com",
+        "cuisine": "American",
+        "published_at": "Sat, 03 Oct 2026 13:30:00 +0000"
+      },
+      {
+        "title": "30+ Easy Grilling Recipes for Summer",
+        "url": "https://damndelicious.net/2026/08/11/easy-grilling-recipes-for-summer/",
+        "recipe_url": "https://damndelicious.net/2026/08/11/easy-grilling-recipes-for-summer/",
+        "image_url": "https://damndelicious.net/wp-content/uploads/2023/05/230125_DD_Grilled-BBQ-Chx_349-768x1152.jpg",
+        "site_name": "Damn Delicious",
+        "site_url": "https://damndelicious.net",
+        "cuisine": "American",
+        "published_at": "Wed, 12 Aug 2026 04:00:00 +0000"
+      },
+      {
+        "title": "Umeboshi Onigiri (Japanese Rice Balls with Pickled Plum)",
+        "url": "https://www.chopstickchronicles.com/umeboshi-onigiri/",
+        "recipe_url": "https://www.chopstickchronicles.com/umeboshi-onigiri/",
+        "image_url": "https://www.chopstickchronicles.com/wp-content/uploads/2026/09/Umeboshi-Onigiri-12.jpg",
+        "site_name": "Chopstick Chronicles",
+        "site_url": "https://www.chopstickchronicles.com",
+        "cuisine": "Japanese",
+        "published_at": "Thu, 10 Sep 2026 10:46:29 +0000"
+      },
+      {
+        "title": "Pumpkin Curry",
+        "url": "https://www.budgetbytes.com/pumpkin-curry/",
+        "recipe_url": "https://www.budgetbytes.com/pumpkin-curry/",
+        "image_url": "https://www.budgetbytes.com/wp-content/uploads/2026/09/1-Pumpkin-Curry-Overhead-Wide.jpg",
+        "site_name": "Budget Bytes",
+        "site_url": "https://www.budgetbytes.com",
+        "cuisine": "American",
+        "published_at": "Fri, 02 Oct 2026 13:30:00 +0000"
+      },
+      {
+        "title": "Marry Me Chicken",
+        "url": "https://damndelicious.net/2026/07/24/marry-me-chicken/",
+        "recipe_url": "https://damndelicious.net/2026/07/24/marry-me-chicken/",
+        "image_url": "https://damndelicious.net/wp-content/uploads/2026/05/250409_DD_Marry-Me-Chicken_607-768x1152.jpg",
+        "site_name": "Damn Delicious",
+        "site_url": "https://damndelicious.net",
+        "cuisine": "American",
+        "published_at": "Sat, 25 Jul 2026 04:00:00 +0000"
+      },
+      {
+        "title": "Tsukimi Dango ( Japanese Moon-Viewing Dumplings)",
+        "url": "https://www.chopstickchronicles.com/tsukimi-dango/",
+        "recipe_url": "https://www.chopstickchronicles.com/tsukimi-dango/",
+        "image_url": "https://www.chopstickchronicles.com/wp-content/uploads/2026/08/Tsukimi-Dango-featured_-4.jpg",
+        "site_name": "Chopstick Chronicles",
+        "site_url": "https://www.chopstickchronicles.com",
+        "cuisine": "Japanese",
+        "published_at": "Sat, 29 Aug 2026 01:42:17 +0000"
+      },
+      {
+        "title": "Zuppa Toscana",
+        "url": "https://www.budgetbytes.com/zuppa-toscana/",
+        "recipe_url": "https://www.budgetbytes.com/zuppa-toscana/",
+        "image_url": "https://www.budgetbytes.com/wp-content/uploads/2025/04/3-Zuppa-Toscana-Overhead-Wide-2.jpg",
+        "site_name": "Budget Bytes",
+        "site_url": "https://www.budgetbytes.com",
+        "cuisine": "American",
+        "published_at": "Wed, 30 Sep 2026 13:30:00 +0000"
+      },
+      {
+        "title": "Chicken Fajita Quesadillas",
+        "url": "https://damndelicious.net/2026/06/12/chicken-fajita-quesadillas/",
+        "recipe_url": "https://damndelicious.net/2026/06/12/chicken-fajita-quesadillas/",
+        "image_url": "https://damndelicious.net/wp-content/uploads/2026/03/Chicken-Fajitas-Quesadillas_545-768x1152.jpg",
+        "site_name": "Damn Delicious",
+        "site_url": "https://damndelicious.net",
+        "cuisine": "American",
+        "published_at": "Sat, 13 Jun 2026 04:00:00 +0000"
+      },
+      {
+        "title": "Purin (Japanese Custard Pudding)",
+        "url": "https://www.chopstickchronicles.com/purin-custard-pudding/",
+        "recipe_url": "https://www.chopstickchronicles.com/purin-custard-pudding/",
+        "image_url": "https://www.chopstickchronicles.com/wp-content/uploads/2019/06/Purin-update-2026-20.jpg",
+        "site_name": "Chopstick Chronicles",
+        "site_url": "https://www.chopstickchronicles.com",
+        "cuisine": "Japanese",
+        "published_at": "Mon, 17 Aug 2026 11:30:55 +0000"
+      },
+      {
+        "title": "Sheet Pan Chicken Thighs",
+        "url": "https://www.budgetbytes.com/sheet-pan-chicken-thighs/",
+        "recipe_url": "https://www.budgetbytes.com/sheet-pan-chicken-thighs/",
+        "image_url": "https://www.budgetbytes.com/wp-content/uploads/2026/09/3-Autumn-Sheet-Pan-Chicken-Thighs-Overhead-Wide.jpg",
+        "site_name": "Budget Bytes",
+        "site_url": "https://www.budgetbytes.com",
+        "cuisine": "American",
+        "published_at": "Mon, 28 Sep 2026 13:30:00 +0000"
+      },
+      {
+        "title": "Lemon Butter Fish",
+        "url": "https://damndelicious.net/2026/05/29/lemon-butter-fish/",
+        "recipe_url": "https://damndelicious.net/2026/05/29/lemon-butter-fish/",
+        "image_url": "https://damndelicious.net/wp-content/uploads/2026/03/251218_DD_Lemon-Butter-Fish_268-768x1152.jpg",
+        "site_name": "Damn Delicious",
+        "site_url": "https://damndelicious.net",
+        "cuisine": "American",
+        "published_at": "Fri, 29 May 2026 16:00:00 +0000"
+      }
+    ],
+    "generated_at": "2026-10-11T20:20:58Z"
+  },
+  {
+    "week": 2,
+    "starts": "2026-10-12",
+    "pool": 4,
+    "sites": [
+      {
+        "name": "Half Baked Harvest",
+        "url": "https://www.halfbakedharvest.com",
+        "cuisine": "American Comfort",
+        "tagline": "Feel-good food for every season.",
+        "image_url": "https://www.halfbakedharvest.com/wp-content/uploads/2026/10/Smothered-Chicken-in-Mushroom-Wine-Pan-Sauce-1.jpg",
+        "rss_url": "https://www.halfbakedharvest.com/feed/"
+      },
+      {
+        "name": "Budget Bytes",
+        "url": "https://www.budgetbytes.com",
+        "cuisine": "American",
+        "tagline": "Delicious recipes designed for small budgets.",
+        "image_url": "https://www.budgetbytes.com/wp-content/uploads/2022/10/Pumpkin-Recipes-Collage.jpg",
+        "rss_url": "https://www.budgetbytes.com/feed/"
+      },
+      {
+        "name": "Damn Delicious",
+        "url": "https://damndelicious.net",
+        "cuisine": "American",
+        "tagline": "Quick and easy recipes for every occasion.",
+        "image_url": "https://damndelicious.net/wp-content/uploads/2026/08/260712_DD_cheeseburger-sliders_525-768x1151.jpg",
+        "rss_url": "https://damndelicious.net/feed/"
+      },
+      {
+        "name": "Chopstick Chronicles",
+        "url": "https://www.chopstickchronicles.com",
+        "cuisine": "Japanese",
+        "tagline": "Authentic traditional and contemporary Japanese recipes.",
+        "image_url": "https://www.chopstickchronicles.com/wp-content/uploads/2026/09/kabocha-korokke-11.jpg",
+        "rss_url": "https://www.chopstickchronicles.com/feed/"
+      }
+    ],
+    "recipes": {
+      "Mon": {
+        "cuisine": "American",
+        "image_url": "https://www.budgetbytes.com/wp-content/uploads/2026/09/Greek-Chicken-Soup-Overhead-Wide.jpg",
+        "published_at": "Sat, 03 Oct 2026 13:30:00 +0000",
+        "recipe_url": "https://www.budgetbytes.com/greek-chicken-soup/",
+        "site_name": "Budget Bytes",
+        "site_url": "https://www.budgetbytes.com",
+        "title": "Greek Chicken Soup",
+        "url": "https://www.budgetbytes.com/greek-chicken-soup/"
+      },
+      "Tue": {
+        "cuisine": "American",
+        "image_url": "https://damndelicious.net/wp-content/uploads/2026/05/250409_DD_Marry-Me-Chicken_607-768x1152.jpg",
+        "published_at": "Sat, 25 Jul 2026 04:00:00 +0000",
+        "recipe_url": "https://damndelicious.net/2026/07/24/marry-me-chicken/",
+        "site_name": "Damn Delicious",
+        "site_url": "https://damndelicious.net",
+        "title": "Marry Me Chicken",
+        "url": "https://damndelicious.net/2026/07/24/marry-me-chicken/"
+      },
+      "Wed": {
+        "title": "Cheeseburger Sliders",
+        "url": "https://damndelicious.net/2026/09/18/cheeseburger-sliders/",
+        "recipe_url": "https://damndelicious.net/2026/09/18/cheeseburger-sliders/",
+        "image_url": "https://damndelicious.net/wp-content/uploads/2026/08/260712_DD_cheeseburger-sliders_525-768x1151.jpg",
+        "site_name": "Damn Delicious",
+        "site_url": "https://damndelicious.net",
+        "cuisine": "American",
+        "published_at": "Sat, 19 Sep 2026 04:00:00 +0000"
+      },
+      "Thu": {
+        "cuisine": "American Comfort",
+        "image_url": "https://www.halfbakedharvest.com/wp-content/uploads/2026/10/Simple-Thai-Yellow-Chicken-Pumpkin-Curry-1-scaled.jpg",
+        "published_at": "Mon, 05 Oct 2026 07:00:00 +0000",
+        "recipe_url": "https://www.halfbakedharvest.com/simple-thai-yellow-chicken-pumpkin-curry/",
+        "site_name": "Half Baked Harvest",
+        "site_url": "https://www.halfbakedharvest.com",
+        "title": "Simple Thai Yellow Chicken Pumpkin Curry.",
+        "url": "https://www.halfbakedharvest.com/simple-thai-yellow-chicken-pumpkin-curry/"
       },
       "Fri": {
         "title": "Easy Mummy Cookies.",
@@ -667,24 +667,24 @@
     ],
     "recipes": {
       "Mon": {
-        "title": "Satsumaimo Cookies (Japanese Sweet Potato Cookies)",
-        "url": "https://www.chopstickchronicles.com/satsumaimo-cookies-japanese-sweet-potato-cookies/",
-        "recipe_url": "https://www.chopstickchronicles.com/satsumaimo-cookies-japanese-sweet-potato-cookies/",
-        "image_url": "https://www.chopstickchronicles.com/wp-content/uploads/2026/10/sweet-potato-cookies-14.jpg",
-        "site_name": "Chopstick Chronicles",
-        "site_url": "https://www.chopstickchronicles.com",
-        "cuisine": "Japanese",
-        "published_at": "Wed, 07 Oct 2026 02:02:26 +0000"
-      },
-      "Tue": {
-        "title": "Sweet Potato Cornbread",
-        "url": "https://www.africanbites.com/sweet-potato-cornbread/",
-        "recipe_url": "https://www.africanbites.com/sweet-potato-cornbread/",
-        "image_url": "https://www.africanbites.com/wp-content/uploads/2023/04/IMG_9277.jpg",
+        "cuisine": "African",
+        "image_url": "https://www.africanbites.com/wp-content/uploads/2026/10/Roast-Turkey-Wings-1.jpg",
+        "published_at": "Tue, 06 Oct 2026 07:30:00 +0000",
+        "recipe_url": "https://www.africanbites.com/baked-turkey-wings/",
         "site_name": "Immaculate Bites",
         "site_url": "https://www.africanbites.com",
+        "title": "Roast Turkey Wings",
+        "url": "https://www.africanbites.com/baked-turkey-wings/"
+      },
+      "Tue": {
         "cuisine": "African",
-        "published_at": "Fri, 09 Oct 2026 07:00:00 +0000"
+        "image_url": "https://www.africanbites.com/wp-content/uploads/2026/10/Slow-Cooker-Pork-Chops-1.jpg",
+        "published_at": "Mon, 05 Oct 2026 07:30:00 +0000",
+        "recipe_url": "https://www.africanbites.com/slow-cooker-pork-chops/",
+        "site_name": "Immaculate Bites",
+        "site_url": "https://www.africanbites.com",
+        "title": "Slow Cooker Pork Chops",
+        "url": "https://www.africanbites.com/slow-cooker-pork-chops/"
       },
       "Wed": {
         "title": "Tamago Sando ( Japanese Egg Sandwich)",
@@ -697,14 +697,14 @@
         "published_at": "Thu, 01 Oct 2026 07:27:22 +0000"
       },
       "Thu": {
-        "title": "Honey Wheat Rolls",
-        "url": "https://www.africanbites.com/honey-wheat-bread/",
-        "recipe_url": "https://www.africanbites.com/honey-wheat-bread/",
-        "image_url": "https://www.africanbites.com/wp-content/uploads/2026/10/Honey-Wheat-Rolls-1.jpg",
-        "site_name": "Immaculate Bites",
-        "site_url": "https://www.africanbites.com",
-        "cuisine": "African",
-        "published_at": "Thu, 08 Oct 2026 07:00:00 +0000"
+        "cuisine": "Japanese",
+        "image_url": "https://www.chopstickchronicles.com/wp-content/uploads/2019/05/Egg-Drop-Soup-11.jpg",
+        "published_at": "Wed, 21 Jan 2026 05:19:34 +0000",
+        "recipe_url": "https://www.chopstickchronicles.com/kakitamajiru/",
+        "site_name": "Chopstick Chronicles",
+        "site_url": "https://www.chopstickchronicles.com",
+        "title": "Kakitamajiru (Egg Drop Soup)",
+        "url": "https://www.chopstickchronicles.com/kakitamajiru/"
       },
       "Fri": {
         "title": "Kabocha Korokke (Kabocha Squash Croquette)",
@@ -1134,5 +1134,319 @@
       }
     ],
     "generated_at": "2026-10-11T18:47:17Z"
+  },
+  {
+    "week": 5,
+    "starts": "2026-10-05",
+    "pool": 3,
+    "sites": [
+      {
+        "name": "Dassana's Veg Recipes",
+        "url": "https://www.vegrecipesofindia.com",
+        "cuisine": "Indian",
+        "tagline": "100% vegetarian Indian recipes.",
+        "image_url": "https://www.vegrecipesofindia.com/wp-content/uploads/2020/01/paneer-butter-masala-1.jpg",
+        "rss_url": "https://www.vegrecipesofindia.com/feed/"
+      },
+      {
+        "name": "The Mediterranean Dish",
+        "url": "https://www.themediterraneandish.com",
+        "cuisine": "Mediterranean",
+        "tagline": "Bold Mediterranean flavors for every table.",
+        "image_url": "https://www.themediterraneandish.com/wp-content/uploads/2026/09/Turkish-Pasta-12.jpg",
+        "rss_url": "https://www.themediterraneandish.com/feed/"
+      },
+      {
+        "name": "Sally's Baking Addiction",
+        "url": "https://sallysbakingaddiction.com",
+        "cuisine": "Baking",
+        "tagline": "Trusted baking recipes since 2011.",
+        "image_url": "https://sallysbakingaddiction.com/wp-content/uploads/2012/08/warm-chocolate-chip-cookies.jpg",
+        "rss_url": "https://sallysbakingaddiction.com/feed/"
+      },
+      {
+        "name": "Grandbaby Cakes",
+        "url": "https://grandbaby-cakes.com",
+        "cuisine": "Southern",
+        "tagline": "Southern comfort food and soul food classics.",
+        "image_url": "https://grandbaby-cakes.com/wp-content/uploads/2025/08/buttermilk-fried-chicken-15.jpg",
+        "rss_url": "https://grandbaby-cakes.com/feed/"
+      }
+    ],
+    "recipes": {
+      "Mon": {
+        "cuisine": "Baking",
+        "image_url": "https://sallysbakingaddiction.com/wp-content/uploads/2024/10/apple-cider-chicken-fall-dinner-2.jpg",
+        "published_at": "Thu, 08 Oct 2026 10:00:00 +0000",
+        "recipe_url": "https://sallysbakingaddiction.com/fall-dinner-recipes/",
+        "site_name": "Sally's Baking Addiction",
+        "site_url": "https://sallysbakingaddiction.com",
+        "title": "30 Delicious Fall Dinner Recipe Ideas",
+        "url": "https://sallysbakingaddiction.com/fall-dinner-recipes/"
+      },
+      "Tue": {
+        "cuisine": "Baking",
+        "image_url": "https://sallysbakingaddiction.com/wp-content/uploads/2026/09/maple-pecan-focaccia.jpg",
+        "published_at": "Wed, 23 Sep 2026 10:00:12 +0000",
+        "recipe_url": "https://sallysbakingaddiction.com/salted-maple-pecan-focaccia/",
+        "site_name": "Sally's Baking Addiction",
+        "site_url": "https://sallysbakingaddiction.com",
+        "title": "Salted Maple Pecan Focaccia",
+        "url": "https://sallysbakingaddiction.com/salted-maple-pecan-focaccia/"
+      },
+      "Wed": {
+        "title": "Mini Pumpkin Chocolate Chip Muffins",
+        "url": "https://sallysbakingaddiction.com/mini-pumpkin-chocolate-chip-muffins/",
+        "recipe_url": "https://sallysbakingaddiction.com/mini-pumpkin-chocolate-chip-muffins/",
+        "image_url": "https://sallysbakingaddiction.com/wp-content/uploads/2015/10/mini-chocolate-chip-pumpkin-muffins.jpg",
+        "site_name": "Sally's Baking Addiction",
+        "site_url": "https://sallysbakingaddiction.com",
+        "cuisine": "Baking",
+        "published_at": "Sun, 11 Oct 2026 10:00:00 +0000"
+      },
+      "Thu": {
+        "title": "Salisbury Steak",
+        "url": "https://grandbaby-cakes.com/salisbury-steak/",
+        "recipe_url": "https://grandbaby-cakes.com/salisbury-steak/",
+        "image_url": "https://grandbaby-cakes.com/wp-content/uploads/2023/10/72dpi-Salisbury-Steak-22.jpg",
+        "site_name": "Grandbaby Cakes",
+        "site_url": "https://grandbaby-cakes.com",
+        "cuisine": "Southern",
+        "published_at": "Fri, 09 Oct 2026 14:00:00 +0000"
+      },
+      "Fri": {
+        "cuisine": "Mediterranean",
+        "image_url": "https://www.themediterraneandish.com/wp-content/uploads/2026/09/TMD-Mushroom-Gnocchi-Leads-02-Angle.jpg",
+        "published_at": "Fri, 02 Oct 2026 12:00:00 +0000",
+        "recipe_url": "https://www.themediterraneandish.com/mushroom-gnocchi/",
+        "site_name": "The Mediterranean Dish",
+        "site_url": "https://www.themediterraneandish.com",
+        "title": "Mushroom Gnocchi in Creamy Parmesan Sauce (Without Cream!)",
+        "url": "https://www.themediterraneandish.com/mushroom-gnocchi/"
+      },
+      "Sat": {
+        "title": "Turkish Pasta (Yoğurtlu Kıymalı Makarna)",
+        "url": "https://www.themediterraneandish.com/turkish-pasta/",
+        "recipe_url": "https://www.themediterraneandish.com/turkish-pasta/",
+        "image_url": "https://www.themediterraneandish.com/wp-content/uploads/2026/09/Turkish-Pasta-12.jpg",
+        "site_name": "The Mediterranean Dish",
+        "site_url": "https://www.themediterraneandish.com",
+        "cuisine": "Mediterranean",
+        "published_at": "Mon, 05 Oct 2026 12:00:00 +0000"
+      },
+      "Sun": {
+        "title": "Baked Pretzel-Crusted Chicken",
+        "url": "https://sallysbakingaddiction.com/pretzel-crusted-chicken/",
+        "recipe_url": "https://sallysbakingaddiction.com/pretzel-crusted-chicken/",
+        "image_url": "https://sallysbakingaddiction.com/wp-content/uploads/2014/08/pretzel-chicken.jpg",
+        "site_name": "Sally's Baking Addiction",
+        "site_url": "https://sallysbakingaddiction.com",
+        "cuisine": "Baking",
+        "published_at": "Fri, 09 Oct 2026 10:00:00 +0000"
+      }
+    },
+    "candidates": [
+      {
+        "title": "Big Mama’s Sweet Potato Pie",
+        "url": "https://grandbaby-cakes.com/sweet-potato-pie/",
+        "recipe_url": "https://grandbaby-cakes.com/sweet-potato-pie/",
+        "image_url": "https://grandbaby-cakes.com/wp-content/uploads/2024/08/Sweet-Potato-Pie22-scaled.jpg",
+        "site_name": "Grandbaby Cakes",
+        "site_url": "https://grandbaby-cakes.com",
+        "cuisine": "Southern",
+        "published_at": "Thu, 08 Oct 2026 14:00:00 +0000"
+      },
+      {
+        "title": "Sabudana Kheer Recipe",
+        "url": "https://www.vegrecipesofindia.com/sabudana-kheer-sabudana-recipes/",
+        "recipe_url": "https://www.vegrecipesofindia.com/sabudana-kheer-sabudana-recipes/",
+        "image_url": "https://i2.wp.com/www.vegrecipesofindia.com/wp-content/uploads/2023/03/sabudana-kheer-1.jpg",
+        "site_name": "Dassana's Veg Recipes",
+        "site_url": "https://www.vegrecipesofindia.com",
+        "cuisine": "Indian",
+        "published_at": "Wed, 09 Sep 2026 14:28:38 +0000"
+      },
+      {
+        "title": "Mushroom Gnocchi in Creamy Parmesan Sauce (Without Cream!)",
+        "url": "https://www.themediterraneandish.com/mushroom-gnocchi/",
+        "recipe_url": "https://www.themediterraneandish.com/mushroom-gnocchi/",
+        "image_url": "https://www.themediterraneandish.com/wp-content/uploads/2026/09/TMD-Mushroom-Gnocchi-Leads-02-Angle.jpg",
+        "site_name": "The Mediterranean Dish",
+        "site_url": "https://www.themediterraneandish.com",
+        "cuisine": "Mediterranean",
+        "published_at": "Fri, 02 Oct 2026 12:00:00 +0000"
+      },
+      {
+        "title": "30 Delicious Fall Dinner Recipe Ideas",
+        "url": "https://sallysbakingaddiction.com/fall-dinner-recipes/",
+        "recipe_url": "https://sallysbakingaddiction.com/fall-dinner-recipes/",
+        "image_url": "https://sallysbakingaddiction.com/wp-content/uploads/2024/10/apple-cider-chicken-fall-dinner-2.jpg",
+        "site_name": "Sally's Baking Addiction",
+        "site_url": "https://sallysbakingaddiction.com",
+        "cuisine": "Baking",
+        "published_at": "Thu, 08 Oct 2026 10:00:00 +0000"
+      },
+      {
+        "title": "How To Make Real-Deal Southern Collard Greens",
+        "url": "https://grandbaby-cakes.com/collard-greens-recipe/",
+        "recipe_url": "https://grandbaby-cakes.com/collard-greens-recipe/",
+        "image_url": "https://grandbaby-cakes.com/wp-content/uploads/2019/06/Collard-Greens-Recipe-again.jpg",
+        "site_name": "Grandbaby Cakes",
+        "site_url": "https://grandbaby-cakes.com",
+        "cuisine": "Southern",
+        "published_at": "Wed, 07 Oct 2026 14:00:00 +0000"
+      },
+      {
+        "title": "Palkova Recipe",
+        "url": "https://www.vegrecipesofindia.com/palkova/",
+        "recipe_url": "https://www.vegrecipesofindia.com/palkova/",
+        "image_url": "https://i2.wp.com/www.vegrecipesofindia.com/wp-content/uploads/2026/09/palkova.jpg",
+        "site_name": "Dassana's Veg Recipes",
+        "site_url": "https://www.vegrecipesofindia.com",
+        "cuisine": "Indian",
+        "published_at": "Wed, 02 Sep 2026 19:09:31 +0000"
+      },
+      {
+        "title": "Turkish Sheet Pan Chicken and Vegetables (Sebzeli, Tavuklu Türlü)",
+        "url": "https://www.themediterraneandish.com/turkish-sheet-pan-chicken-and-vegetables/",
+        "recipe_url": "https://www.themediterraneandish.com/turkish-sheet-pan-chicken-and-vegetables/",
+        "image_url": "https://www.themediterraneandish.com/wp-content/uploads/2026/09/TMD-Sheet-Pan-Chicken-and-Vegetables-Leads-01-Overhead.jpg",
+        "site_name": "The Mediterranean Dish",
+        "site_url": "https://www.themediterraneandish.com",
+        "cuisine": "Mediterranean",
+        "published_at": "Sat, 26 Sep 2026 12:00:00 +0000"
+      },
+      {
+        "title": "The Best Pumpkin Cake I’ve Ever Had",
+        "url": "https://sallysbakingaddiction.com/best-pumpkin-cake/",
+        "recipe_url": "https://sallysbakingaddiction.com/best-pumpkin-cake/",
+        "image_url": "https://sallysbakingaddiction.com/wp-content/uploads/2017/10/pumpkin-three-layer-cake.jpg",
+        "site_name": "Sally's Baking Addiction",
+        "site_url": "https://sallysbakingaddiction.com",
+        "cuisine": "Baking",
+        "published_at": "Mon, 05 Oct 2026 10:00:31 +0000"
+      },
+      {
+        "title": "Creamed Corn",
+        "url": "https://grandbaby-cakes.com/creamed-corn/",
+        "recipe_url": "https://grandbaby-cakes.com/creamed-corn/",
+        "image_url": "https://grandbaby-cakes.com/wp-content/uploads/2025/05/creamed-corn-optimized-vertical-17.jpg",
+        "site_name": "Grandbaby Cakes",
+        "site_url": "https://grandbaby-cakes.com",
+        "cuisine": "Southern",
+        "published_at": "Tue, 06 Oct 2026 14:00:00 +0000"
+      },
+      {
+        "title": "Peda Recipe | Milk Peda (Doodh Peda)",
+        "url": "https://www.vegrecipesofindia.com/milk-peda-recipe-doodh-peda-recipe/",
+        "recipe_url": "https://www.vegrecipesofindia.com/milk-peda-recipe-doodh-peda-recipe/",
+        "image_url": "https://i2.wp.com/www.vegrecipesofindia.com/wp-content/uploads/2026/08/peda-recipe-1.jpg",
+        "site_name": "Dassana's Veg Recipes",
+        "site_url": "https://www.vegrecipesofindia.com",
+        "cuisine": "Indian",
+        "published_at": "Mon, 31 Aug 2026 18:43:53 +0000"
+      },
+      {
+        "title": "Maple Oat Pecan Scones",
+        "url": "https://sallysbakingaddiction.com/maple-oat-pecan-scones/",
+        "recipe_url": "https://sallysbakingaddiction.com/maple-oat-pecan-scones/",
+        "image_url": "https://sallysbakingaddiction.com/wp-content/uploads/2026/09/maple-oat-scones.jpg",
+        "site_name": "Sally's Baking Addiction",
+        "site_url": "https://sallysbakingaddiction.com",
+        "cuisine": "Baking",
+        "published_at": "Thu, 01 Oct 2026 10:00:00 +0000"
+      },
+      {
+        "title": "Roasted Carrots",
+        "url": "https://grandbaby-cakes.com/roasted-carrots/",
+        "recipe_url": "https://grandbaby-cakes.com/roasted-carrots/",
+        "image_url": "https://grandbaby-cakes.com/wp-content/uploads/2026/09/roasted-carrots-11.jpg",
+        "site_name": "Grandbaby Cakes",
+        "site_url": "https://grandbaby-cakes.com",
+        "cuisine": "Southern",
+        "published_at": "Mon, 05 Oct 2026 14:00:00 +0000"
+      },
+      {
+        "title": "Vati Dal Khaman (Surati Khaman)",
+        "url": "https://www.vegrecipesofindia.com/vati-dal-khaman/",
+        "recipe_url": "https://www.vegrecipesofindia.com/vati-dal-khaman/",
+        "image_url": "https://i2.wp.com/www.vegrecipesofindia.com/wp-content/uploads/2026/08/vati-dal-khaman.jpg",
+        "site_name": "Dassana's Veg Recipes",
+        "site_url": "https://www.vegrecipesofindia.com",
+        "cuisine": "Indian",
+        "published_at": "Sun, 30 Aug 2026 18:25:22 +0000"
+      },
+      {
+        "title": "Salted Butterscotch Blondies",
+        "url": "https://sallysbakingaddiction.com/butterscotch-blondies/",
+        "recipe_url": "https://sallysbakingaddiction.com/butterscotch-blondies/",
+        "image_url": "https://sallysbakingaddiction.com/wp-content/uploads/2026/09/easy-butterscotch-blondies-recipe-2.jpg",
+        "site_name": "Sally's Baking Addiction",
+        "site_url": "https://sallysbakingaddiction.com",
+        "cuisine": "Baking",
+        "published_at": "Mon, 28 Sep 2026 10:00:58 +0000"
+      },
+      {
+        "title": "Sweet Potato Cheesecake Recipe",
+        "url": "https://grandbaby-cakes.com/spiced-sweet-potato-cheesecake-recipe/",
+        "recipe_url": "https://grandbaby-cakes.com/spiced-sweet-potato-cheesecake-recipe/",
+        "image_url": "https://grandbaby-cakes.com/wp-content/uploads/2017/11/Spiced-Sweet-Potato-Cheesecake-Recipe-5.jpg",
+        "site_name": "Grandbaby Cakes",
+        "site_url": "https://grandbaby-cakes.com",
+        "cuisine": "Southern",
+        "published_at": "Fri, 02 Oct 2026 14:00:00 +0000"
+      },
+      {
+        "title": "Palak Kofta (Shaam Savera)",
+        "url": "https://www.vegrecipesofindia.com/palak-kofta-recipe/",
+        "recipe_url": "https://www.vegrecipesofindia.com/palak-kofta-recipe/",
+        "image_url": "https://i2.wp.com/www.vegrecipesofindia.com/wp-content/uploads/2026/08/palak-kofta-1.jpg",
+        "site_name": "Dassana's Veg Recipes",
+        "site_url": "https://www.vegrecipesofindia.com",
+        "cuisine": "Indian",
+        "published_at": "Thu, 27 Aug 2026 18:37:28 +0000"
+      },
+      {
+        "title": "Easy Pumpkin Pie Bars",
+        "url": "https://sallysbakingaddiction.com/pumpkin-pie-bars/",
+        "recipe_url": "https://sallysbakingaddiction.com/pumpkin-pie-bars/",
+        "image_url": "https://sallysbakingaddiction.com/wp-content/uploads/2017/10/easy-pumpkin-pie-bars-3.jpg",
+        "site_name": "Sally's Baking Addiction",
+        "site_url": "https://sallysbakingaddiction.com",
+        "cuisine": "Baking",
+        "published_at": "Fri, 25 Sep 2026 10:00:00 +0000"
+      },
+      {
+        "title": "Pumpkin Cheesecake",
+        "url": "https://grandbaby-cakes.com/pumpkin-cheesecake/",
+        "recipe_url": "https://grandbaby-cakes.com/pumpkin-cheesecake/",
+        "image_url": "https://grandbaby-cakes.com/wp-content/uploads/2024/09/Pumpkin-Cheesecake-2.jpg",
+        "site_name": "Grandbaby Cakes",
+        "site_url": "https://grandbaby-cakes.com",
+        "cuisine": "Southern",
+        "published_at": "Wed, 30 Sep 2026 14:00:00 +0000"
+      },
+      {
+        "title": "Ada Pradhaman Recipe",
+        "url": "https://www.vegrecipesofindia.com/ada-pradhaman/",
+        "recipe_url": "https://www.vegrecipesofindia.com/ada-pradhaman/",
+        "image_url": "https://i2.wp.com/www.vegrecipesofindia.com/wp-content/uploads/2026/08/ada-pradhaman.jpg",
+        "site_name": "Dassana's Veg Recipes",
+        "site_url": "https://www.vegrecipesofindia.com",
+        "cuisine": "Indian",
+        "published_at": "Mon, 24 Aug 2026 17:26:47 +0000"
+      },
+      {
+        "title": "Salted Maple Pecan Focaccia",
+        "url": "https://sallysbakingaddiction.com/salted-maple-pecan-focaccia/",
+        "recipe_url": "https://sallysbakingaddiction.com/salted-maple-pecan-focaccia/",
+        "image_url": "https://sallysbakingaddiction.com/wp-content/uploads/2026/09/maple-pecan-focaccia.jpg",
+        "site_name": "Sally's Baking Addiction",
+        "site_url": "https://sallysbakingaddiction.com",
+        "cuisine": "Baking",
+        "published_at": "Wed, 23 Sep 2026 10:00:12 +0000"
+      }
+    ],
+    "generated_at": "2026-10-11T18:47:06Z"
   }
 ]

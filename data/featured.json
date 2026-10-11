@@ -1,122 +1,122 @@
 {
-  "updated_at": "2026-10-11T19:55:47Z",
+  "updated_at": "2026-10-11T20:39:49Z",
   "slot_hours": 2,
-  "slot_idx": 3,
-  "week": 4,
+  "slot_idx": 0,
+  "week": 1,
   "featured_sites": [
     {
-      "name": "Smitten Kitchen",
-      "url": "https://smittenkitchen.com",
+      "name": "Half Baked Harvest",
+      "url": "https://www.halfbakedharvest.com",
+      "cuisine": "American Comfort",
+      "tagline": "Feel-good food for every season.",
+      "image_url": "https://www.halfbakedharvest.com/wp-content/uploads/2026/10/Smothered-Chicken-in-Mushroom-Wine-Pan-Sauce-1.jpg",
+      "rss_url": "https://www.halfbakedharvest.com/feed/"
+    },
+    {
+      "name": "Budget Bytes",
+      "url": "https://www.budgetbytes.com",
       "cuisine": "American",
-      "tagline": "Fearless cooking from a tiny kitchen.",
-      "image_url": "https://i0.wp.com/smittenkitchen.com/wp-content/uploads/2026/09/simple-chicken-tacos-09-scaled.jpg",
-      "rss_url": "https://smittenkitchen.com/feed/"
+      "tagline": "Delicious recipes designed for small budgets.",
+      "image_url": "https://www.budgetbytes.com/wp-content/uploads/2022/10/Pumpkin-Recipes-Collage.jpg",
+      "rss_url": "https://www.budgetbytes.com/feed/"
     },
     {
-      "name": "Minimalist Baker",
-      "url": "https://minimalistbaker.com",
-      "cuisine": "Plant-Based",
-      "tagline": "Simple vegan recipes, 10 ingredients or less.",
-      "image_url": "https://minimalistbaker.com/wp-content/uploads/2023/03/Gluten-Free-Honey-Cake-15-680x1020.jpg",
-      "rss_url": "https://minimalistbaker.com/feed/"
+      "name": "Damn Delicious",
+      "url": "https://damndelicious.net",
+      "cuisine": "American",
+      "tagline": "Quick and easy recipes for every occasion.",
+      "image_url": "https://damndelicious.net/wp-content/uploads/2026/08/260712_DD_cheeseburger-sliders_525-768x1151.jpg",
+      "rss_url": "https://damndelicious.net/feed/"
     },
     {
-      "name": "Skinnytaste",
-      "url": "https://www.skinnytaste.com",
-      "cuisine": "Healthy American",
-      "tagline": "Healthy recipes your whole family will love.",
-      "image_url": "https://www.skinnytaste.com/wp-content/uploads/2026/10/Week_562_Oct-12-Oct-18-600x750.jpg",
-      "rss_url": "https://www.skinnytaste.com/feed/"
-    },
-    {
-      "name": "Cookie and Kate",
-      "url": "https://cookieandkate.com",
-      "cuisine": "Vegetarian",
-      "tagline": "Wholesome vegetarian recipes for every occasion.",
-      "image_url": "https://cookieandkate.com/images/2026/10/gluten-free-cornbread.jpg",
-      "rss_url": "https://cookieandkate.com/feed/"
+      "name": "Chopstick Chronicles",
+      "url": "https://www.chopstickchronicles.com",
+      "cuisine": "Japanese",
+      "tagline": "Authentic traditional and contemporary Japanese recipes.",
+      "image_url": "https://www.chopstickchronicles.com/wp-content/uploads/2026/09/kabocha-korokke-11.jpg",
+      "rss_url": "https://www.chopstickchronicles.com/feed/"
     }
   ],
   "featured_recipes": {
     "Mon": {
-      "title": "simple chicken tacos",
-      "url": "https://smittenkitchen.com/2026/09/simple-chicken-tacos/",
-      "recipe_url": "https://smittenkitchen.com/2026/09/simple-chicken-tacos/",
-      "image_url": "https://i0.wp.com/smittenkitchen.com/wp-content/uploads/2026/09/simple-chicken-tacos-09-scaled.jpg?fit=640%2C427&amp;quality=89&amp;ssl=1",
-      "site_name": "Smitten Kitchen",
-      "site_url": "https://smittenkitchen.com",
-      "cuisine": "American",
-      "published_at": "Wed, 30 Sep 2026 21:00:08 +0000"
+      "title": "458: Nine Favorite Things.",
+      "url": "https://www.halfbakedharvest.com/nine-favorite-things-458/",
+      "recipe_url": "https://www.halfbakedharvest.com/nine-favorite-things-458/",
+      "image_url": "https://www.halfbakedharvest.com/wp-content/uploads/2026/10/IMG_9430-scaled.jpeg",
+      "site_name": "Half Baked Harvest",
+      "site_url": "https://www.halfbakedharvest.com",
+      "cuisine": "American Comfort",
+      "published_at": "Sun, 11 Oct 2026 07:00:00 +0000"
     },
     "Tue": {
-      "title": "1-Bowl Honey Almond Snack Cake (Gluten-Free)",
-      "url": "https://minimalistbaker.com/honey-almond-snack-cake/",
-      "recipe_url": "https://minimalistbaker.com/honey-almond-snack-cake/",
-      "image_url": "https://minimalistbaker.com/wp-content/uploads/2023/03/Gluten-Free-Honey-Cake-15-680x1020.jpg",
-      "site_name": "Minimalist Baker",
-      "site_url": "https://minimalistbaker.com",
-      "cuisine": "Plant-Based",
-      "published_at": "Tue, 08 Sep 2026 08:00:00 +0000"
+      "cuisine": "Japanese",
+      "image_url": "https://www.chopstickchronicles.com/wp-content/uploads/2026/09/kabocha-korokke-11.jpg",
+      "published_at": "Sun, 27 Sep 2026 00:06:45 +0000",
+      "recipe_url": "https://www.chopstickchronicles.com/kabocha-korokke-kabocha-squash-croquette/",
+      "site_name": "Chopstick Chronicles",
+      "site_url": "https://www.chopstickchronicles.com",
+      "title": "Kabocha Korokke (Kabocha Squash Croquette)",
+      "url": "https://www.chopstickchronicles.com/kabocha-korokke-kabocha-squash-croquette/"
     },
     "Wed": {
-      "title": "Free 7 Day Healthy Meal Plan (Oct 12-18)",
-      "url": "https://www.skinnytaste.com/free-7-day-healthy-meal-plan-oct-12-18/?adt_ei=*|EMAIL|*",
-      "recipe_url": "https://www.skinnytaste.com/free-7-day-healthy-meal-plan-oct-12-18/?adt_ei=*|EMAIL|*",
-      "image_url": "https://www.skinnytaste.com/wp-content/uploads/2026/10/Week_562_Oct-12-Oct-18-600x750.jpg",
-      "site_name": "Skinnytaste",
-      "site_url": "https://www.skinnytaste.com",
-      "cuisine": "Healthy American",
-      "published_at": "Fri, 09 Oct 2026 15:50:00 +0000"
+      "title": "Cheeseburger Sliders",
+      "url": "https://damndelicious.net/2026/09/18/cheeseburger-sliders/",
+      "recipe_url": "https://damndelicious.net/2026/09/18/cheeseburger-sliders/",
+      "image_url": "https://damndelicious.net/wp-content/uploads/2026/08/260712_DD_cheeseburger-sliders_525-768x1151.jpg",
+      "site_name": "Damn Delicious",
+      "site_url": "https://damndelicious.net",
+      "cuisine": "American",
+      "published_at": "Sat, 19 Sep 2026 04:00:00 +0000"
     },
     "Thu": {
-      "title": "Gluten-Free Cornbread",
-      "url": "https://cookieandkate.com/gluten-free-cornbread/?adt_ei=*|EMAIL|*",
-      "recipe_url": "https://cookieandkate.com/gluten-free-cornbread/?adt_ei=*|EMAIL|*",
-      "image_url": "https://cookieandkate.com/images/2026/10/gluten-free-cornbread.jpg",
-      "site_name": "Cookie and Kate",
-      "site_url": "https://cookieandkate.com",
-      "cuisine": "Vegetarian",
-      "published_at": "Wed, 07 Oct 2026 16:33:56 +0000"
+      "cuisine": "American",
+      "image_url": "https://www.budgetbytes.com/wp-content/uploads/2026/09/Greek-Chicken-Soup-Overhead-Wide.jpg",
+      "published_at": "Sat, 03 Oct 2026 13:30:00 +0000",
+      "recipe_url": "https://www.budgetbytes.com/greek-chicken-soup/",
+      "site_name": "Budget Bytes",
+      "site_url": "https://www.budgetbytes.com",
+      "title": "Greek Chicken Soup",
+      "url": "https://www.budgetbytes.com/greek-chicken-soup/"
     },
     "Fri": {
-      "title": "tomato risotto with frizzled red onions",
-      "url": "https://smittenkitchen.com/2026/09/tomato-risotto-with-frizzled-red-onions/",
-      "recipe_url": "https://smittenkitchen.com/2026/09/tomato-risotto-with-frizzled-red-onions/",
-      "image_url": "https://i0.wp.com/smittenkitchen.com/wp-content/uploads/2026/09/tomato-risotto-with-frizzled-onions-14-scaled.jpg?fit=640%2C427&amp;quality=89&amp;ssl=1",
-      "site_name": "Smitten Kitchen",
-      "site_url": "https://smittenkitchen.com",
-      "cuisine": "American",
-      "published_at": "Wed, 16 Sep 2026 15:28:36 +0000"
+      "title": "Easy Mummy Cookies.",
+      "url": "https://www.halfbakedharvest.com/easy-mummy-cookies/",
+      "recipe_url": "https://www.halfbakedharvest.com/easy-mummy-cookies/",
+      "image_url": "https://www.halfbakedharvest.com/wp-content/uploads/2026/10/Easy-Mummy-Cookies-12-scaled.jpg",
+      "site_name": "Half Baked Harvest",
+      "site_url": "https://www.halfbakedharvest.com",
+      "cuisine": "American Comfort",
+      "published_at": "Fri, 09 Oct 2026 07:00:00 +0000"
     },
     "Sat": {
-      "title": "Easy Eggplant Bolognese (1 Pot!)",
-      "url": "https://minimalistbaker.com/eggplant-bolognese/",
-      "recipe_url": "https://minimalistbaker.com/eggplant-bolognese/",
-      "image_url": "https://minimalistbaker.com/wp-content/uploads/2026/02/Easy-Vegetarian-Eggplant-Bolognese-9-680x1020.jpg",
-      "site_name": "Minimalist Baker",
-      "site_url": "https://minimalistbaker.com",
-      "cuisine": "Plant-Based",
-      "published_at": "Tue, 18 Aug 2026 08:00:00 +0000"
+      "title": "Coconut Curry Beans and Greens",
+      "url": "https://www.budgetbytes.com/coconut-curry-beans-and-greens/",
+      "recipe_url": "https://www.budgetbytes.com/coconut-curry-beans-and-greens/",
+      "image_url": "https://www.budgetbytes.com/wp-content/uploads/2026/10/Coconut-Curry-Beans-and-Greens-Overhead-Wide.jpg",
+      "site_name": "Budget Bytes",
+      "site_url": "https://www.budgetbytes.com",
+      "cuisine": "American",
+      "published_at": "Fri, 09 Oct 2026 13:30:00 +0000"
     },
     "Sun": {
-      "title": "These Easy Baked Apples Taste Like Individual Apple Crisps Without the Fuss",
-      "url": "https://www.skinnytaste.com/delightfully-baked-apples/?adt_ei=*|EMAIL|*",
-      "recipe_url": "https://www.skinnytaste.com/delightfully-baked-apples/?adt_ei=*|EMAIL|*",
-      "image_url": "https://www.skinnytaste.com/wp-content/uploads/2017/09/Baked-Apples-7-600x900.jpg",
-      "site_name": "Skinnytaste",
-      "site_url": "https://www.skinnytaste.com",
-      "cuisine": "Healthy American",
-      "published_at": "Thu, 08 Oct 2026 19:10:42 +0000"
+      "title": "30+ Cheap and Easy Dinners",
+      "url": "https://damndelicious.net/2026/09/08/cheap-and-easy-dinners/",
+      "recipe_url": "https://damndelicious.net/2026/09/08/cheap-and-easy-dinners/",
+      "image_url": "https://damndelicious.net/wp-content/uploads/2018/09/Creamy-Beef-and-ShellsIMG_6408.jpg",
+      "site_name": "Damn Delicious",
+      "site_url": "https://damndelicious.net",
+      "cuisine": "American",
+      "published_at": "Wed, 09 Sep 2026 04:00:00 +0000"
     }
   },
   "featured_recipe": {
-    "title": "These Easy Baked Apples Taste Like Individual Apple Crisps Without the Fuss",
-    "url": "https://www.skinnytaste.com/delightfully-baked-apples/?adt_ei=*|EMAIL|*",
-    "recipe_url": "https://www.skinnytaste.com/delightfully-baked-apples/?adt_ei=*|EMAIL|*",
-    "image_url": "https://www.skinnytaste.com/wp-content/uploads/2017/09/Baked-Apples-7-600x900.jpg",
-    "site_name": "Skinnytaste",
-    "site_url": "https://www.skinnytaste.com",
-    "cuisine": "Healthy American",
-    "published_at": "Thu, 08 Oct 2026 19:10:42 +0000"
+    "title": "30+ Cheap and Easy Dinners",
+    "url": "https://damndelicious.net/2026/09/08/cheap-and-easy-dinners/",
+    "recipe_url": "https://damndelicious.net/2026/09/08/cheap-and-easy-dinners/",
+    "image_url": "https://damndelicious.net/wp-content/uploads/2018/09/Creamy-Beef-and-ShellsIMG_6408.jpg",
+    "site_name": "Damn Delicious",
+    "site_url": "https://damndelicious.net",
+    "cuisine": "American",
+    "published_at": "Wed, 09 Sep 2026 04:00:00 +0000"
   }
 }
