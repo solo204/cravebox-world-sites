@@ -7,6 +7,12 @@ Slot logic (sequential):
   slot_idx = floor( elapsed_hours_since_first_entry / SLOT_HOURS )
   Clamped to last entry if schedule is exhausted — no crash, content keeps showing.
 
+Fallback logic (runs on every cron tick):
+  - Each of the 4 featured sites is health-checked (HEAD request, 5s timeout)
+  - Today's recipe image is checked (HEAD request)
+  - Failed sites → replaced with a previously-aired site from master_sites.json that is up
+  - Failed recipe → replaced with a candidate not yet in used_history.json
+
 Testing:  SLOT_HOURS = 2   (cycles through schedule entries every 2 hours)
 Production: SLOT_HOURS = 168  (weekly)
 
@@ -14,6 +20,7 @@ Run: python rotate.py  (via GitHub Actions cron)
 """
 
 import json
+import requests
 from datetime import datetime, timezone
 from pathlib import Path
 
@@ -21,8 +28,10 @@ from pathlib import Path
 
 SLOT_HOURS = 2     # testing: 2  |  production: 168
 DATA_DIR   = Path(__file__).parent / "data"
+HEADERS    = {"User-Agent": "CraveBox-Rotator/1.0"}
+HEALTH_TIMEOUT = 5   # seconds per health check
 
-# ── Helpers ────────────────────────────────────────────────────────────────────
+# ── Loaders ────────────────────────────────────────────────────────────────────
 
 def load_schedule():
     path = DATA_DIR / "schedule.json"
@@ -31,15 +40,90 @@ def load_schedule():
     with open(path, encoding="utf-8") as f:
         return json.load(f)
 
+def load_master():
+    path = DATA_DIR / "master_sites.json"
+    if not path.exists():
+        return []
+    with open(path, encoding="utf-8") as f:
+        return json.load(f)
+
+def load_history():
+    path = DATA_DIR / "used_history.json"
+    if not path.exists():
+        return {"recipe_urls": [], "site_names": []}
+    with open(path, encoding="utf-8") as f:
+        return json.load(f)
+
 def parse_dt(s):
-    """Parse an ISO date string (YYYY-MM-DD or full ISO) to UTC datetime."""
     if not s:
         return None
-    if len(s) == 10:            # date only → midnight UTC
+    if len(s) == 10:
         s += "T00:00:00+00:00"
     elif s.endswith("Z"):
         s = s[:-1] + "+00:00"
     return datetime.fromisoformat(s)
+
+# ── Health checks ──────────────────────────────────────────────────────────────
+
+def site_is_up(site):
+    """Return True if the site's home URL responds with < 500."""
+    try:
+        r = requests.head(site["url"], timeout=HEALTH_TIMEOUT,
+                          headers=HEADERS, allow_redirects=True)
+        return r.status_code < 500
+    except Exception:
+        return False
+
+def image_is_up(url):
+    """Return True if an image URL responds with 200."""
+    if not url:
+        return False
+    try:
+        r = requests.head(url, timeout=HEALTH_TIMEOUT,
+                          headers=HEADERS, allow_redirects=True)
+        return r.status_code == 200
+    except Exception:
+        return False
+
+# ── Fallback helpers ───────────────────────────────────────────────────────────
+
+def find_fallback_site(failed_site, current_sites, master, history):
+    """
+    Find a replacement for a downed site:
+      - Must be in used_history site_names (previously proven to work)
+      - Must not already be in the current 4 sites
+      - Must currently respond
+    Falls back to any master site if no history match is found.
+    """
+    current_names  = {s["name"] for s in current_sites}
+    current_names.add(failed_site["name"])
+    history_names  = set(history.get("site_names", []))
+
+    # Prefer previously-aired sites first, then any master site
+    pool = sorted(master, key=lambda s: (s["name"] not in history_names))
+
+    for site in pool:
+        if site["name"] in current_names:
+            continue
+        if site_is_up(site):
+            print(f"  [fallback] {failed_site['name']} → {site['name']}")
+            return site
+
+    print(f"  [fallback] No replacement found for {failed_site['name']} — keeping original")
+    return failed_site
+
+def find_fallback_recipe(candidates, used_urls):
+    """
+    Pick the first candidate not in used_urls whose image loads.
+    """
+    for c in candidates:
+        url = c.get("url") or c.get("recipe_url") or ""
+        if url in used_urls:
+            continue
+        img = c.get("image_url", "")
+        if image_is_up(img):
+            return c
+    return None
 
 # ── Main ───────────────────────────────────────────────────────────────────────
 
@@ -69,35 +153,74 @@ def main():
     entry = sched[slot_idx]
     print(f"[rotate] Week {entry.get('week','?')} · starts {entry.get('starts','?')}")
 
-    # ── Build featured.json ────────────────────────────────────────────────────
-    recipes    = entry.get("recipes") or {}
-    day_names  = ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"]
+    # ── Today's recipe ─────────────────────────────────────────────────────────
+    recipes   = entry.get("recipes") or {}
+    day_names = ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"]
 
     if SLOT_HOURS < 168:
-        # TESTING: simulate 7 days within the slot (~17 min each at SLOT_HOURS=2)
         elapsed_in_slot = (now - first_dt).total_seconds() / 3600 - (slot_idx * SLOT_HOURS)
         recipe_idx  = int(elapsed_in_slot / SLOT_HOURS * 7)
         recipe_idx  = min(recipe_idx, 6)
         today_day   = day_names[recipe_idx]
         print(f"[rotate] Testing sub-slot: recipe {recipe_idx + 1}/7 ({today_day})")
     else:
-        # PRODUCTION: one recipe per calendar day
         today_day = day_names[now.weekday()]
 
-    # Today's recipe: prefer matching day, fall back to first non-null
     today_recipe = recipes.get(today_day)
     if not today_recipe:
         today_recipe = next((r for r in recipes.values() if r), None)
 
+    # ── Fallback checks ────────────────────────────────────────────────────────
+    master     = load_master()
+    history    = load_history()
+    used_urls  = set(history.get("recipe_urls", []))
+    candidates = entry.get("candidates", [])
+    fallbacks  = []
+
+    # Check sites
+    sites = list(entry.get("sites", []))
+    for i, site in enumerate(sites):
+        print(f"[rotate] Checking site: {site['name']} …", end=" ")
+        if site_is_up(site):
+            print("OK")
+        else:
+            print("DOWN")
+            replacement = find_fallback_site(site, sites, master, history)
+            if replacement["name"] != site["name"]:
+                sites[i] = replacement
+                fallbacks.append(f"site:{site['name']}→{replacement['name']}")
+
+    # Check today's recipe image
+    recipe_fallback = False
+    if today_recipe:
+        img = today_recipe.get("image_url", "")
+        print(f"[rotate] Checking recipe image …", end=" ")
+        if image_is_up(img):
+            print("OK")
+        else:
+            print("DOWN — searching candidates")
+            replacement = find_fallback_recipe(candidates, used_urls)
+            if replacement:
+                print(f"  [fallback] recipe → {replacement.get('title','?')[:60]}")
+                today_recipe = replacement
+                recipe_fallback = True
+                fallbacks.append(f"recipe→{replacement.get('title','?')[:40]}")
+            else:
+                print("  [fallback] No valid candidate found — keeping original")
+
+    # ── Write featured.json ────────────────────────────────────────────────────
     output = {
         "updated_at":       now.strftime("%Y-%m-%dT%H:%M:%SZ"),
         "slot_hours":       SLOT_HOURS,
         "slot_idx":         slot_idx,
         "week":             entry.get("week"),
-        "featured_sites":   entry.get("sites", []),
-        "featured_recipes": recipes,       # dict Mon–Sun  (new format)
-        "featured_recipe":  today_recipe,  # single entry  (backward compat)
+        "featured_sites":   sites,
+        "featured_recipes": recipes,
+        "featured_recipe":  today_recipe,
     }
+    if fallbacks:
+        output["fallbacks"] = fallbacks
+        print(f"[rotate] Fallbacks applied: {fallbacks}")
 
     out_path = DATA_DIR / "featured.json"
     with open(out_path, "w", encoding="utf-8") as f:

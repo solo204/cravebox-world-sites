@@ -36,7 +36,7 @@
     "url": "https://natashaskitchen.com",
     "cuisine": "American",
     "tagline": "Trusted recipes for everyday cooking.",
-    "image_url": "https://natashaskitchen.com/wp-content/uploads/2021/02/Chicken-Marsala-3.jpg",
+    "image_url": "https://natashaskitchen.com/wp-content/uploads/2026/09/Pumpkin-Cinnamon-Rolls-7.jpg",
     "rss_url": "https://natashaskitchen.com/feed/"
   },
   {
@@ -293,7 +293,7 @@
     "cuisine": "Healthy",
     "tagline": "Simple, gluten-free recipes for healthy living.",
     "image_url": "https://www.downshiftology.com/wp-content/uploads/2026/08/Spanish-Flan-main-800x437.jpg",
-    "rss_url": "https://downshiftology.com/feed/"
+    "rss_url": "https://downshiftology.com/recipes/feed/"
   },
   {
     "name": "Alexandra Cooks",
@@ -420,6 +420,7 @@
     "url": "https://updatedrecipes.com",
     "cuisine": "Comfort Food",
     "tagline": "Comfort Food That Feels Like Home",
-    "image_url": ""
+    "image_url": "https://updatedrecipes.com/wp-content/uploads/2026/05/roasted-king-salmon-lemon-butter-recipe-768x512.webp",
+    "rss_url": "https://updatedrecipes.com/feed/"
   }
 ]

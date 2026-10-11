@@ -16,6 +16,9 @@ Usage:
 Requires: pip install requests
 """
 
+import sys, io
+sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding="utf-8", errors="replace")
+
 import argparse
 import json
 import re
@@ -26,6 +29,10 @@ from pathlib import Path
 from urllib.parse import urlparse
 
 import requests
+try:
+    from rss_scraper import scrape_recipe_listing as _scrape
+except ImportError:
+    _scrape = None
 
 # ── Config ─────────────────────────────────────────────────────────────────────
 
@@ -50,6 +57,14 @@ def load_schedule():
     if not SCHED_PATH.exists():
         return []
     with open(SCHED_PATH, encoding="utf-8") as f:
+        return json.load(f)
+
+def load_history():
+    """Load used_history.json (local only, never pushed to GitHub)."""
+    path = DATA_DIR / "used_history.json"
+    if not path.exists():
+        return {"recipe_urls": [], "site_names": []}
+    with open(path, encoding="utf-8") as f:
         return json.load(f)
 
 def save_schedule(sched):
@@ -161,7 +176,10 @@ def validate_site(site):
 # ── RSS fetching ───────────────────────────────────────────────────────────────
 
 def fetch_rss_items(site, max_items=RSS_ITEMS_PER_SITE):
-    """Fetch raw RSS items from a site. Returns list of dicts (unvalidated)."""
+    """Fetch raw RSS items from a site. Falls back to scraper for sites without RSS."""
+    if not site.get("rss_url") and site.get("scrape_url") and _scrape:
+        print(f"  [scraper] {site['name']} has no RSS — using page scraper")
+        return _scrape(site, max_items=max_items)
     rss_url = site.get("rss_url", site["url"].rstrip("/") + "/feed/")
     results = []
     try:
@@ -241,17 +259,23 @@ def validate_recipe(recipe):
 
 # ── Week builder ───────────────────────────────────────────────────────────────
 
-def build_week(master, week_start, pool_idx, week_num):
+def build_week(master, week_start, pool_idx, week_num, used_urls=None, used_sites=None):
     """
     Build one week's schedule:
     - Select 4 sites with validated images (starting from pool, wrapping if needed)
     - Fetch RSS from those sites, validate recipes
     - Auto-pick 7 (Mon–Sun) + 20 candidates
     """
-    num_pools = len(master) // 4
-    print(f"\n{'═'*60}")
-    print(f"  Week {week_num}  ·  {week_start}  ·  Pool {pool_idx + 1}/{num_pools}")
-    print(f"{'═'*60}")
+    used_urls  = set(used_urls  or [])
+    used_sites = set(used_sites or [])
+    num_pools  = len(master) // 4
+    print(f"\n{'='*60}")
+    print(f"  Week {week_num}  |  {week_start}  |  Pool {pool_idx + 1}/{num_pools}")
+    if used_sites:
+        print(f"  Skipping {len(used_sites)} previously aired sites")
+    if used_urls:
+        print(f"  Skipping {len(used_urls)} previously aired recipes")
+    print(f"{'='*60}")
 
     # ── 1. Select 4 sites with valid images ───────────────────────────────
     print("\n[Sites]")
@@ -261,6 +285,9 @@ def build_week(master, week_start, pool_idx, week_num):
     for site in site_pool:
         if len(valid_sites) >= 4:
             break
+        if site.get("name") in used_sites:
+            print(f"    ↷ {site['name']} — skipped (aired before)")
+            continue
         result = validate_site(site)
         if result:
             valid_sites.append(result)
@@ -293,7 +320,7 @@ def build_week(master, week_start, pool_idx, week_num):
         if len(validated) >= TOTAL_NEEDED:
             break
         url = recipe.get("url", "")
-        if url in seen_urls:
+        if url in seen_urls or url in used_urls:
             continue
         seen_urls.add(url)
         if validate_recipe(recipe):
@@ -335,28 +362,58 @@ def main():
                         help="Weeks to plan ahead (default 4)")
     parser.add_argument("--week",    type=int, default=None,
                         help="Regenerate only week N in place (1-based)")
+    parser.add_argument("--idx",     type=int, default=None,
+                        help="Regenerate schedule entry at 0-based index")
+    parser.add_argument("--starts",  type=str, default=None,
+                        help="Start date for --idx regen (YYYY-MM-DD)")
     parser.add_argument("--dry-run", action="store_true",
                         help="Print plan without writing schedule.json")
     args = parser.parse_args()
 
     master    = load_master()
+    history   = load_history()
+    used_urls  = set(history.get("recipe_urls", []))
+    used_sites = set(history.get("site_names",  []))
     num_pools = len(master) // 4
     if num_pools == 0:
         print("ERROR: Need at least 4 sites in master_sites.json")
         sys.exit(1)
 
-    print(f"Master list: {len(master)} sites · {num_pools} pools")
+    print(f"Master list: {len(master)} sites - {num_pools} pools")
     mondays = week_mondays(args.weeks)
 
-    if args.week is not None:
+    if args.idx is not None:
+        # ── Regenerate by schedule index + starts date (from manager) ────────
+        idx        = args.idx
+        try:
+            week_start = datetime.strptime(args.starts, "%Y-%m-%d").date() if args.starts else datetime.now(timezone.utc).date()
+        except Exception:
+            week_start = datetime.now(timezone.utc).date()
+        week_num   = idx + 1
+        pool_idx   = pool_for_week(week_start, num_pools)
+        entry      = build_week(master, week_start, pool_idx, week_num, used_urls, used_sites)
+        if not args.dry_run:
+            sched = load_schedule()
+            while len(sched) <= idx:
+                sched.append(None)
+            sched[idx] = entry
+            save_schedule(sched)
+            print(f"\nOK Week {week_num} regenerated")
+        else:
+            print(f"\n[dry-run] Week {week_num} not written.")
+
+    elif args.week is not None:
         # ── Regenerate a single week in the existing schedule ─────────────
         idx = args.week - 1
-        if idx < 0 or idx >= len(mondays):
-            print(f"ERROR: --week must be 1–{len(mondays)}")
+        if idx < 0:
+            print(f"ERROR: --week must be >= 1")
             sys.exit(1)
+        # Extend mondays list if regenerating beyond default range
+        while len(mondays) <= idx:
+            mondays.append(mondays[-1] + timedelta(weeks=1))
         week_start = mondays[idx]
         pool_idx   = pool_for_week(week_start, num_pools)
-        entry      = build_week(master, week_start, pool_idx, args.week)
+        entry      = build_week(master, week_start, pool_idx, args.week, used_urls, used_sites)
         if not args.dry_run:
             sched = load_schedule()
             while len(sched) <= idx:
@@ -371,7 +428,7 @@ def main():
         sched = []
         for i, week_start in enumerate(mondays):
             pool_idx = pool_for_week(week_start, num_pools)
-            entry    = build_week(master, week_start, pool_idx, i + 1)
+            entry    = build_week(master, week_start, pool_idx, i + 1, used_urls, used_sites)
             sched.append(entry)
 
         if not args.dry_run:

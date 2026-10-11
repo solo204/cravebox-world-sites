@@ -17,18 +17,23 @@ from datetime import datetime, timezone
 from pathlib import Path
 
 try:
-    from flask import Flask, jsonify, render_template_string, request
+    from flask import Flask, jsonify, render_template_string, request, Response
 except ImportError:
     print("Flask not found. Run:  python -m pip install flask requests")
     sys.exit(1)
 
 import requests as req
 from validate_sites import validate_site, passed
+try:
+    from rss_scraper import scrape_recipe_listing
+except ImportError:
+    scrape_recipe_listing = None
 
 DATA_DIR      = Path(__file__).parent / "data"
 MASTER_PATH   = DATA_DIR / "master_sites.json"
 FEATURED_PATH = DATA_DIR / "featured.json"
 SCHED_PATH    = DATA_DIR / "schedule.json"
+HISTORY_PATH  = DATA_DIR / "used_history.json"
 HEADERS       = {"User-Agent": "CraveBox-Rotator/1.0"}
 SLOT_HOURS    = 2   # must match rotate.py
 DAYS          = ["Mon","Tue","Wed","Thu","Fri","Sat","Sun"]
@@ -81,6 +86,111 @@ def renumber(sched):
     for i,w in enumerate(sched):
         w["week"] = i+1
     return sched
+
+def load_history():
+    if not HISTORY_PATH.exists():
+        return {"recipe_urls": [], "site_names": [], "pruned_weeks": 0, "last_pruned": None}
+    with open(HISTORY_PATH, encoding="utf-8") as f:
+        return json.load(f)
+
+def save_history(h):
+    with open(HISTORY_PATH, "w", encoding="utf-8") as f:
+        json.dump(h, f, indent=2, ensure_ascii=False)
+
+def archive_weeks(weeks):
+    """Add aired weeks' recipes + sites to used_history.json."""
+    h = load_history()
+    seen_urls  = set(h["recipe_urls"])
+    seen_sites = set(h["site_names"])
+    for week in weeks:
+        for r in (week.get("recipes") or {}).values():
+            if r and (r.get("url") or r.get("recipe_url")):
+                seen_urls.add(r.get("url") or r.get("recipe_url"))
+        for s in (week.get("sites") or []):
+            if s.get("name"):
+                seen_sites.add(s["name"])
+    h["recipe_urls"]   = sorted(seen_urls)
+    h["site_names"]    = sorted(seen_sites)
+    h["pruned_weeks"]  = h.get("pruned_weeks", 0) + len(weeks)
+    h["last_pruned"]   = datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
+    save_history(h)
+
+def _fetch_og_image(url):
+    """Grab og:image from an article page (used as image fallback)."""
+    try:
+        r = req.get(url, timeout=8, headers=HEADERS)
+        m = (re.search(r'<meta[^>]+property=["\']og:image["\'][^>]+content=["\']([^"\']+)["\']', r.text) or
+             re.search(r'<meta[^>]+content=["\']([^"\']+)["\'][^>]+property=["\']og:image["\']', r.text))
+        return m.group(1) if m else ""
+    except Exception:
+        return ""
+
+def fetch_rss_candidates(site, max_items=15):
+    """Fetch RSS items from a site; falls back to og:image scraping for missing images."""
+    from concurrent.futures import ThreadPoolExecutor, as_completed
+    rss_url = site.get("rss_url", site["url"].rstrip("/") + "/feed/")
+    results = []
+    try:
+        r = req.get(rss_url, timeout=10, headers=HEADERS)
+        r.raise_for_status()
+        root = ET.fromstring(r.content)
+        ns   = {"atom": "http://www.w3.org/2005/Atom",
+                "media": "http://search.yahoo.com/mrss/"}
+        items = root.findall(".//item") or root.findall(".//atom:entry", ns)
+        for item in items[:max_items]:
+            title = (item.findtext("title") or
+                     item.findtext("atom:title", None, ns) or "").strip()
+            link  = (item.findtext("link") or
+                     item.findtext("atom:link", None, ns) or "").strip()
+            if not title or not link:
+                continue
+            # Skip non-recipe posts (collections, travel, roundups, deals)
+            skip_words = ["instagram stories", "best deals", "prime day", "travel guide",
+                          "what to cook", "salads that eat", "labor day recipes",
+                          "gift guide", "roundup", "itinerary"]
+            if any(w in title.lower() for w in skip_words):
+                continue
+            image_url = ""
+            mc = item.find("media:content", ns)
+            if mc is not None:
+                candidate = mc.get("url", "")
+                if candidate and not candidate.startswith("https://www.youtube"):
+                    image_url = candidate
+            if not image_url:
+                enc = item.find("enclosure")
+                if enc is not None and "image" in (enc.get("type") or ""):
+                    image_url = enc.get("url", "")
+            if not image_url:
+                desc = (item.findtext("description") or
+                        item.findtext("{http://purl.org/rss/1.0/modules/content/}encoded") or "")
+                m = re.search(r'<img[^>]+src=["\']([^"\']+)["\']', desc)
+                if m:
+                    image_url = m.group(1)
+            results.append({
+                "title":      title,
+                "url":        link,
+                "recipe_url": link,
+                "image_url":  image_url,
+                "site_name":  site.get("name", ""),
+                "cuisine":    site.get("cuisine", ""),
+            })
+    except Exception as e:
+        print(f"[refresh] RSS failed for {site.get('name')}: {e}")
+        return results
+
+    # For items still missing images, scrape og:image in parallel
+    missing = [(i, r) for i, r in enumerate(results) if not r["image_url"]]
+    if missing:
+        print(f"[refresh] {site.get('name')}: fetching og:image for {len(missing)} items…")
+        with ThreadPoolExecutor(max_workers=6) as ex:
+            futures = {ex.submit(_fetch_og_image, r["url"]): i for i, r in missing}
+            for future in as_completed(futures):
+                idx = futures[future]
+                img = future.result()
+                if img:
+                    results[idx]["image_url"] = img
+
+    return results
 
 # ── HTML ───────────────────────────────────────────────────────────────────────
 
@@ -256,6 +366,30 @@ tr:hover td{background:#141414}
   <span class="badge badge-gray">{{ pools }} pools</span>
   <span style="margin-left:auto;font-size:11px;color:#444" id="hdr-now"></span>
 </header>
+<div style="background:#0d1f0d;border-bottom:1px solid #1a3a1a;padding:7px 24px;
+            display:flex;align-items:center;gap:10px;font-size:11px;flex-wrap:wrap">
+  <span style="color:#4ade80;font-weight:700">▲ Push to GitHub:</span>
+  <code id="git-cmd" style="background:#0a150a;border:1px solid #1e3a1e;border-radius:4px;
+       padding:4px 10px;color:#86efac;cursor:pointer;user-select:all"
+       onclick="copyGit()" title="Click to copy">
+    git add data/featured.json data/schedule.json; git commit -m "update featured live"; git push
+  </code>
+  <button onclick="copyGit()" style="background:#166534;border:none;border-radius:4px;
+          color:#4ade80;font-size:11px;font-weight:700;padding:4px 10px;cursor:pointer">
+    Copy
+  </button>
+  <span id="git-copied" style="color:#4ade80;display:none">✓ Copied!</span>
+</div>
+<script>
+function copyGit() {
+  const cmd = 'git add data/featured.json data/schedule.json; git commit -m "update featured live"; git push';
+  navigator.clipboard.writeText(cmd).then(() => {
+    const el = document.getElementById('git-copied');
+    el.style.display = 'inline';
+    setTimeout(() => el.style.display = 'none', 2000);
+  });
+}
+</script>
 
 <div class="wrap">
 
@@ -280,7 +414,9 @@ tr:hover td{background:#141414}
     <div class="panel-title">
       Schedule
       <span>ON AIR = currently live · Swap ⇄ on site or recipe · click card to open</span>
-      <button class="btn btn-ghost btn-xs" style="margin-left:auto" onclick="loadPlan()">↺ Refresh</button>
+      <span id="history-lbl" style="font-size:11px;color:#333;margin-left:auto"></span>
+      <button class="btn btn-ghost btn-xs" onclick="cleanUpPast()" id="btn-cleanup" style="display:none">🗑 Clean Up Past</button>
+      <button class="btn btn-ghost btn-xs" onclick="loadPlan()">↺ Refresh</button>
     </div>
     <div id="schedule-view">
       <div style="color:#444;font-size:12px">Loading…</div>
@@ -343,6 +479,7 @@ tr:hover td{background:#141414}
 // ── State ──────────────────────────────────────────────────────────────────
 let planData      = [];
 let currentSlot   = 0;
+let liveWeekNum   = null;   // week number currently in featured.json
 let swapTarget    = null;   // { weekIdx, day }
 let siteSwap      = null;   // { weekIdx, siteIdx }
 const DAYS = ['Mon','Tue','Wed','Thu','Fri','Sat','Sun'];
@@ -362,8 +499,9 @@ function openUrl(url) { if (url) window.open(url, '_blank'); }
 
 // ── Card helpers ───────────────────────────────────────────────────────────
 function imgOrEmpty(url, h) {
-  return url
-    ? `<img src="${url}" style="height:${h}" onerror="this.style.display='none'">`
+  const src = url ? `/proxy-image?url=${encodeURIComponent(url)}` : '';
+  return src
+    ? `<img src="${src}" style="height:${h}" onerror="this.style.display='none'">`
     : `<div class="no-img" style="height:${h}">no img</div>`;
 }
 function siteCard(s, cls='', h='55px') {
@@ -400,18 +538,30 @@ async function loadNow() {
     return;
   }
   const f = data.featured;
+  liveWeekNum = f.week || null;
+  // Re-render schedule badges if plan already loaded
+  if (planData.length) renderPlan();
   document.getElementById('now-updated-lbl').textContent = 'Updated ' + f.updated_at;
   document.getElementById('now-sites').innerHTML =
     (f.featured_sites||[]).map(s => siteCard(s,'now-site','75px')).join('');
-  const recipes = f.featured_recipes
-    ? DAYS.map(d => f.featured_recipes[d]).filter(Boolean)
-    : (f.featured_recipe ? [f.featured_recipe] : []);
-  document.getElementById('now-recipes').innerHTML = recipes.length
-    ? DAYS.map((d,i) => recipes[i]
-        ? `<div><div style="font-size:9px;font-weight:700;text-transform:uppercase;
-             letter-spacing:.05em;color:#444;margin-bottom:3px;text-align:center">${d}</div>
-           ${recipeCard(recipes[i],'now-recipe','85px')}</div>`
-        : '').join('')
+  // Build recipes dict — support both new (featured_recipes dict) and old (featured_recipe single)
+  let recipesDict = {};
+  if (f.featured_recipes && typeof f.featured_recipes === 'object' && !Array.isArray(f.featured_recipes)) {
+    recipesDict = f.featured_recipes;
+  } else if (f.featured_recipe) {
+    // old format: single recipe — show under Mon as placeholder
+    recipesDict = { Mon: f.featured_recipe };
+  }
+  const hasAny = Object.values(recipesDict).some(r => r);
+  document.getElementById('now-recipes').innerHTML = hasAny
+    ? DAYS.map(d => {
+        const r = recipesDict[d];
+        return `<div>
+          <div style="font-size:9px;font-weight:700;text-transform:uppercase;
+               letter-spacing:.05em;color:#444;margin-bottom:3px;text-align:center">${d}</div>
+          ${r ? recipeCard(r,'now-recipe','85px') : emptyCard('85px')}
+        </div>`;
+      }).join('')
     : '<div style="color:#444;font-size:12px;grid-column:1/-1">No recipes yet</div>';
 }
 
@@ -434,6 +584,42 @@ async function loadPlan() {
   renderPlan();
 }
 
+function updateCleanupBtn() {
+  const liveIdx = liveWeekNum !== null
+    ? planData.findIndex(w => w && w.week === liveWeekNum)
+    : currentSlot;
+  const past = planData.filter((_,i) => i < liveIdx).length;
+  const lbl  = document.getElementById('history-lbl');
+  const btn  = document.getElementById('btn-cleanup');
+  if (!lbl || !btn) return;
+  if (past > 0) {
+    lbl.textContent = `${past} aired week${past>1?'s':''} · ${planData.length - currentSlot} remaining`;
+    btn.style.display = 'inline-block';
+  } else {
+    lbl.textContent = `${planData.length - currentSlot} week${planData.length-currentSlot!==1?'s':''} remaining`;
+    btn.style.display = 'none';
+  }
+}
+
+async function cleanUpPast() {
+  const past = planData.filter((_,i) => i < currentSlot).length;
+  if (!confirm(`Archive and remove ${past} aired week${past>1?'s':''} from schedule?\nThey'll be saved to used_history.json so plan.py can skip them.`)) return;
+  const res = await fetch('/plan/cleanup', {
+    method:'POST', headers:{'Content-Type':'application/json'},
+    body: JSON.stringify({})
+  });
+  const data = await res.json();
+  if (data.ok) {
+    planData    = data.schedule;
+    currentSlot = data.current_slot;
+    swapTarget  = null; siteSwap = null;
+    renderPlan();
+    alert(`✓ Archived ${data.removed} week${data.removed!==1?'s':''}. History now has ${data.history_count} recipe URLs tracked.`);
+  } else {
+    alert('Cleanup failed: ' + data.error);
+  }
+}
+
 function renderPlan() {
   let html = insertBar(-1);
   planData.forEach((week, wi) => {
@@ -441,6 +627,7 @@ function renderPlan() {
     html += insertBar(wi);
   });
   document.getElementById('schedule-view').innerHTML = html;
+  updateCleanupBtn();
 }
 
 function insertBar(afterIdx) {
@@ -453,7 +640,12 @@ function insertBar(afterIdx) {
 
 function renderWeek(week, wi) {
   if (!week) return '';
-  const isActive = wi === currentSlot;
+  const isLive   = liveWeekNum !== null ? week.week === liveWeekNum : wi === currentSlot;
+  const liveIdx  = liveWeekNum !== null
+    ? planData.findIndex(w => w && w.week === liveWeekNum)
+    : currentSlot;
+  const isNextUp = wi === liveIdx + 1;
+  const isActive = isLive;
   const start = new Date(week.starts + 'T00:00:00Z');
   const end   = new Date(start); end.setDate(end.getDate()+6);
   const fmt   = d => d.toLocaleDateString('en-US',{month:'short',day:'numeric'});
@@ -512,7 +704,8 @@ function renderWeek(week, wi) {
 
   return `<div class="week-block${isActive?' on-air':''}" id="week-${wi}">
     <div class="week-header">
-      ${isActive ? '<span class="badge badge-air">● ON AIR</span>' : ''}
+      ${isLive   ? '<span class="badge badge-air">● LIVE</span>' : ''}
+      ${isNextUp ? '<span class="badge badge-blue" style="background:#1e3a5f;color:#93c5fd">⏭ NEXT UP</span>' : ''}
       <div class="week-title">Week ${week.week}</div>
       <div class="week-dates">${fmt(start)} – ${fmt(end)}</div>
       <span class="badge badge-blue">Pool ${week.pool}</span>
@@ -520,7 +713,7 @@ function renderWeek(week, wi) {
       <div style="margin-left:auto;display:flex;gap:6px;flex-wrap:wrap">
         <button class="btn btn-ghost btn-xxs" onclick="moveWeek(${wi},'up')" ${wi===0?'disabled':''}>↑</button>
         <button class="btn btn-ghost btn-xxs" onclick="moveWeek(${wi},'down')" ${wi===planData.length-1?'disabled':''}>↓</button>
-        <button class="btn btn-ghost btn-xxs" onclick="regenerateWeek(${week.week},${wi})">↺ Regen</button>
+        <button class="btn btn-ghost btn-xxs" onclick="regenerateWeek(${week.week},${wi},'${week.starts||''}')">↺ Regen</button>
         <button class="btn btn-red btn-xxs" onclick="deleteWeek(${wi})">Delete</button>
         <button class="btn btn-ghost btn-xxs" title="Insert before current live slot" onclick="queueWeek(${wi},'before')">⏮ Before</button>
         <button class="btn btn-ghost btn-xxs" title="Insert after current live slot"  onclick="queueWeek(${wi},'after')">⏭ Next</button>
@@ -530,7 +723,11 @@ function renderWeek(week, wi) {
     <div class="week-body">
       <div class="week-sites">${sitesHtml}</div>
       <div class="week-days">${daysHtml}</div>
-      <div class="cand-label">Candidates (${cands.length}) ${hint}</div>
+      <div class="cand-label">Candidates (${cands.length}) ${hint}
+        <button onclick="refreshCandidates(${wi})" title="Re-fetch from current sites"
+          style="background:#111;border:1px solid #2a2a2a;border-radius:4px;color:#555;
+                 font-size:10px;padding:2px 7px;cursor:pointer;margin-left:auto">↺ Refresh</button>
+      </div>
       <div class="candidates-scroll" id="cands-${wi}">${candsHtml}</div>
     </div>
   </div>`;
@@ -584,7 +781,25 @@ async function pickSite(weekIdx, siteIdx, siteName) {
     body: JSON.stringify({ week_idx: weekIdx, site_idx: siteIdx, site_name: siteName })
   });
   const data = await res.json();
-  if (!data.ok) alert('Save failed: ' + data.error);
+  if (!data.ok) { alert('Save failed: ' + data.error); return; }
+  // Refresh candidates from the updated site mix
+  const cEl = document.getElementById(`cands-${weekIdx}`);
+  if (cEl) cEl.innerHTML = '<div style="color:#555;font-size:12px;padding:8px">Refreshing candidates…</div>';
+  await refreshCandidates(weekIdx);
+}
+
+async function refreshCandidates(weekIdx) {
+  const r = await fetch('/plan/refresh-candidates', {
+    method:'POST', headers:{'Content-Type':'application/json'},
+    body: JSON.stringify({ week_idx: weekIdx })
+  });
+  const d = await r.json();
+  if (d.ok) {
+    planData[weekIdx].candidates = d.candidates;
+    renderPlan();
+  } else {
+    alert('Candidate refresh failed: ' + d.error);
+  }
 }
 
 // ── Queue Before / Next ────────────────────────────────────────────────────
@@ -619,7 +834,8 @@ async function pushLive(weekIdx) {
   });
   const data = await res.json();
   if (data.ok) {
-    currentSlot = weekIdx;
+    currentSlot  = weekIdx;
+    liveWeekNum  = planData[weekIdx].week;
     renderPlan();
     loadNow();
     alert(`✓ ${label} is now live.`);
@@ -661,13 +877,13 @@ async function moveWeek(weekIdx, direction) {
   else alert('Move failed: ' + data.error);
 }
 
-async function regenerateWeek(weekNum, weekIdx) {
-  if (!confirm(`Regenerate Week ${weekNum}? Re-fetches RSS + validates images (1–3 min).`)) return;
+async function regenerateWeek(weekNum, weekIdx, starts) {
+  if (!confirm(`Regenerate Week ${weekNum}? Re-fetches RSS + validates images (1-3 min).`)) return;
   const btn = event.target;
   btn.textContent='…'; btn.disabled=true;
   const res = await fetch('/plan/regenerate', {
     method:'POST', headers:{'Content-Type':'application/json'},
-    body: JSON.stringify({ week: weekNum })
+    body: JSON.stringify({ week: weekNum, week_idx: weekIdx, starts })
   });
   btn.textContent='↺ Regen'; btn.disabled=false;
   const data = await res.json();
@@ -749,6 +965,26 @@ async function removeSite(idx, name) {
 
 # ── Routes ─────────────────────────────────────────────────────────────────────
 
+@app.route("/proxy-image")
+def proxy_image():
+    """Fetch an image server-side (with its own domain as Referer) to bypass hotlink protection."""
+    from urllib.parse import urlparse
+    url = request.args.get("url", "")
+    if not url or not url.startswith("http"):
+        return "", 404
+    try:
+        parsed  = urlparse(url)
+        referer = f"{parsed.scheme}://{parsed.netloc}/"
+        r = req.get(url, timeout=10, stream=True,
+                    headers={**HEADERS, "Referer": referer, "Accept": "image/*"})
+        if r.status_code != 200:
+            return "", 404
+        ct = r.headers.get("Content-Type", "image/jpeg")
+        return Response(r.iter_content(8192), content_type=ct)
+    except Exception:
+        return "", 404
+
+
 @app.route("/")
 def index():
     sites      = load_master()
@@ -825,6 +1061,28 @@ def plan_update_site():
     sites[site_idx] = by_name[site_name]
     save_schedule(sched)
     return jsonify({"ok": True})
+
+
+@app.route("/plan/refresh-candidates", methods=["POST"])
+def plan_refresh_candidates():
+    data     = request.get_json()
+    week_idx = data.get("week_idx")
+    sched    = load_schedule()
+    if sched is None or week_idx is None or week_idx >= len(sched):
+        return jsonify({"ok": False, "error": "invalid week"})
+    # Always use fresh site data from master_sites.json (rss_url may have changed)
+    master  = load_master()
+    by_name = {s["name"]: s for s in master}
+    sites   = [by_name.get(s["name"], s) for s in sched[week_idx].get("sites", [])]
+    candidates = []
+    for site in sites:
+        if not site.get("rss_url") and site.get("scrape_url") and scrape_recipe_listing:
+            candidates.extend(scrape_recipe_listing(site))
+        else:
+            candidates.extend(fetch_rss_candidates(site))
+    sched[week_idx]["candidates"] = candidates
+    save_schedule(sched)
+    return jsonify({"ok": True, "candidates": candidates})
 
 
 @app.route("/plan/push-live", methods=["POST"])
@@ -931,16 +1189,42 @@ def plan_queue():
     return jsonify({"ok": True, "schedule": sched, "current_slot": new_cur})
 
 
+@app.route("/plan/cleanup", methods=["POST"])
+def plan_cleanup():
+    sched = load_schedule() or []
+    cur   = current_slot_idx(sched)
+    if cur == 0:
+        return jsonify({"ok": False, "error": "No past weeks to clean up"})
+    past   = sched[:cur]
+    future = sched[cur:]
+    archive_weeks(past)
+    save_schedule(renumber(future))
+    h = load_history()
+    new_cur = current_slot_idx(future)
+    return jsonify({
+        "ok":            True,
+        "removed":       len(past),
+        "schedule":      future,
+        "current_slot":  new_cur,
+        "history_count": len(h["recipe_urls"]),
+    })
+
+
 @app.route("/plan/regenerate", methods=["POST"])
 def plan_regenerate():
-    data     = request.get_json()
-    week_num = data.get("week")
-    if not week_num:
+    data      = request.get_json()
+    week_num  = data.get("week")
+    week_idx  = data.get("week_idx")
+    starts    = data.get("starts", "")
+    if week_num is None:
         return jsonify({"ok": False, "error": "week required"})
+    # Use --idx + --starts for reliable regeneration regardless of schedule length
+    cmd = [sys.executable, str(Path(__file__).parent / "plan.py"),
+           "--idx", str(week_idx if week_idx is not None else week_num - 1)]
+    if starts:
+        cmd += ["--starts", starts]
     try:
-        result = subprocess.run(
-            [sys.executable, str(Path(__file__).parent / "plan.py"),
-             "--week", str(week_num)],
+        result = subprocess.run(cmd,
             capture_output=True, text=True, timeout=360,
             cwd=str(Path(__file__).parent)
         )
