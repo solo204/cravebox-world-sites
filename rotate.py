@@ -134,6 +134,19 @@ def fetch_latest_recipe(site: dict) -> dict | None:
     }
 
 
+def fetch_og_image(url: str) -> str | None:
+    """Fetch a page and return its og:image URL, or None on failure."""
+    try:
+        r = requests.get(url, timeout=REQUEST_TIMEOUT, headers=HEADERS)
+        r.raise_for_status()
+        # match both attribute orderings
+        m = (re.search(r'<meta[^>]+property=["\']og:image["\'][^>]+content=["\']([^"\']+)["\']', r.text) or
+             re.search(r'<meta[^>]+content=["\']([^"\']+)["\'][^>]+property=["\']og:image["\']', r.text))
+        return m.group(1) if m else None
+    except Exception:
+        return None
+
+
 def proxy_image(url: str) -> str:
     """Wrap an image URL through wsrv.nl to bypass hotlink protection."""
     if not url:
@@ -166,6 +179,13 @@ def fetch_site_image(site: dict) -> str:
             m = re.search(r'<img[^>]+src=["\']([^"\']+)["\']', desc)
             if m:
                 return m.group(1)
+            # last resort: scrape og:image from the article page itself
+            link = item.findtext("link") or item.findtext("guid")
+            if link and link.startswith("http"):
+                og = fetch_og_image(link)
+                if og:
+                    print(f"  og:image fallback for {site['name']}: {og[:80]}")
+                    return og
     except Exception as e:
         print(f"  site image fetch failed for {site['name']}: {e}")
     return site.get("image_url", "")
