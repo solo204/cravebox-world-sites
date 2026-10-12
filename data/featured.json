@@ -1,106 +1,122 @@
 {
-  "updated_at": "2026-10-12T00:10:52Z",
+  "updated_at": "2026-10-12T00:17:59Z",
   "slot_hours": 2,
-  "slot_idx": 6,
-  "week": 7,
+  "slot_idx": 0,
+  "week": 1,
   "featured_sites": [
     {
-      "name": "Natasha's Kitchen",
-      "url": "https://natashaskitchen.com",
-      "cuisine": "American",
-      "tagline": "Trusted recipes for everyday cooking.",
-      "image_url": "https://natashaskitchen.com/wp-content/uploads/2026/09/Pumpkin-Cinnamon-Rolls-7.jpg",
-      "rss_url": "https://natashaskitchen.com/feed/"
+      "name": "Dassana's Veg Recipes",
+      "url": "https://www.vegrecipesofindia.com",
+      "cuisine": "Indian",
+      "tagline": "100% vegetarian Indian recipes.",
+      "image_url": "https://www.vegrecipesofindia.com/wp-content/uploads/2020/01/paneer-butter-masala-1.jpg",
+      "rss_url": "https://www.vegrecipesofindia.com/feed/"
     },
     {
-      "name": "Updated Recipes",
-      "url": "https://updatedrecipes.com",
-      "cuisine": "Comfort Food",
-      "tagline": "Comfort Food That Feels Like Home",
-      "image_url": "https://updatedrecipes.com/wp-content/uploads/2026/05/roasted-king-salmon-lemon-butter-recipe-768x512.webp",
-      "rss_url": "https://updatedrecipes.com/feed/"
+      "name": "The Mediterranean Dish",
+      "url": "https://www.themediterraneandish.com",
+      "cuisine": "Mediterranean",
+      "tagline": "Bold Mediterranean flavors for every table.",
+      "image_url": "https://www.themediterraneandish.com/wp-content/uploads/2026/09/Turkish-Pasta-12.jpg",
+      "rss_url": "https://www.themediterraneandish.com/feed/"
     },
     {
-      "name": "Downshiftology",
-      "url": "https://downshiftology.com",
-      "cuisine": "Healthy",
-      "tagline": "Simple, gluten-free recipes for healthy living.",
-      "image_url": "https://www.downshiftology.com/wp-content/uploads/2026/08/Spanish-Flan-main-800x437.jpg",
-      "rss_url": "https://downshiftology.com/feed/"
+      "name": "Sally's Baking Addiction",
+      "url": "https://sallysbakingaddiction.com",
+      "cuisine": "Baking",
+      "tagline": "Trusted baking recipes since 2011.",
+      "image_url": "https://sallysbakingaddiction.com/wp-content/uploads/2012/08/warm-chocolate-chip-cookies.jpg",
+      "rss_url": "https://sallysbakingaddiction.com/feed/"
     },
     {
-      "name": "Pardon Your French",
-      "url": "https://www.pardonyourfrench.com",
-      "cuisine": "French",
-      "tagline": "Classic French home cooking, made approachable.",
-      "image_url": "https://i0.wp.com/www.pardonyourfrench.com/wp-content/uploads/2026/09/traditional-tartiflette-recipe-11.jpg?fit=801%2C1200&ssl=1",
-      "rss_url": "https://www.pardonyourfrench.com/feed/"
+      "name": "Grandbaby Cakes",
+      "url": "https://grandbaby-cakes.com",
+      "cuisine": "Southern",
+      "tagline": "Southern comfort food and soul food classics.",
+      "image_url": "https://grandbaby-cakes.com/wp-content/uploads/2025/08/buttermilk-fried-chicken-15.jpg",
+      "rss_url": "https://grandbaby-cakes.com/feed/"
     }
   ],
   "featured_recipes": {
     "Mon": {
-      "cuisine": "American",
-      "image_url": "https://natashaskitchen.com/wp-content/uploads/2026/07/Caramelized-Baked-Sweet-Potato-Halves-4.jpg",
-      "recipe_url": "https://natashaskitchen.com/roasted-sweet-potato-halves/?adt_ei={{ subscriber.email_address }}",
-      "site_name": "Natasha's Kitchen",
-      "title": "The Lazy-Genius Way to Roast Sweet Potatoes",
-      "url": "https://natashaskitchen.com/roasted-sweet-potato-halves/?adt_ei={{ subscriber.email_address }}"
+      "cuisine": "Mediterranean",
+      "image_url": "https://www.themediterraneandish.com/wp-content/uploads/2026/09/TMD-Mushroom-Gnocchi-Leads-02-Angle.jpg",
+      "published_at": "Fri, 02 Oct 2026 12:00:00 +0000",
+      "recipe_url": "https://www.themediterraneandish.com/mushroom-gnocchi/",
+      "site_name": "The Mediterranean Dish",
+      "site_url": "https://www.themediterraneandish.com",
+      "title": "Mushroom Gnocchi in Creamy Parmesan Sauce (Without Cream!)",
+      "url": "https://www.themediterraneandish.com/mushroom-gnocchi/"
     },
     "Tue": {
-      "cuisine": "Comfort Food",
-      "image_url": "https://updatedrecipes.com/wp-content/uploads/2026/10/creamy-garlic-shrimp-manicotti-featured-image.webp",
-      "recipe_url": "https://updatedrecipes.com/creamy-garlic-shrimp-manicotti/",
-      "site_name": "Updated Recipes",
-      "title": "Creamy Garlic Shrimp Manicotti",
-      "url": "https://updatedrecipes.com/creamy-garlic-shrimp-manicotti/"
+      "cuisine": "Baking",
+      "image_url": "https://sallysbakingaddiction.com/wp-content/uploads/2024/10/apple-cider-chicken-fall-dinner-2.jpg",
+      "published_at": "Thu, 08 Oct 2026 10:00:00 +0000",
+      "recipe_url": "https://sallysbakingaddiction.com/fall-dinner-recipes/",
+      "site_name": "Sally's Baking Addiction",
+      "site_url": "https://sallysbakingaddiction.com",
+      "title": "30 Delicious Fall Dinner Recipe Ideas",
+      "url": "https://sallysbakingaddiction.com/fall-dinner-recipes/"
     },
     "Wed": {
-      "cuisine": "French",
-      "image_url": "https://i0.wp.com/www.pardonyourfrench.com/wp-content/uploads/2026/05/Provencal-Pork-Stew-15.jpg?fit=801%2C1200&#038;ssl=1",
-      "recipe_url": "https://www.pardonyourfrench.com/provencal-pork-stew/?utm_source=rss&utm_medium=rss&utm_campaign=provencal-pork-stew",
-      "site_name": "Pardon Your French",
-      "title": "Easy Provençal Pork Stew (French Pork Stew with Tomatoes, Peppers & Herbs)",
-      "url": "https://www.pardonyourfrench.com/provencal-pork-stew/?utm_source=rss&utm_medium=rss&utm_campaign=provencal-pork-stew"
+      "title": "Mini Pumpkin Chocolate Chip Muffins",
+      "url": "https://sallysbakingaddiction.com/mini-pumpkin-chocolate-chip-muffins/",
+      "recipe_url": "https://sallysbakingaddiction.com/mini-pumpkin-chocolate-chip-muffins/",
+      "image_url": "https://sallysbakingaddiction.com/wp-content/uploads/2015/10/mini-chocolate-chip-pumpkin-muffins.jpg",
+      "site_name": "Sally's Baking Addiction",
+      "site_url": "https://sallysbakingaddiction.com",
+      "cuisine": "Baking",
+      "published_at": "Sun, 11 Oct 2026 10:00:00 +0000"
     },
     "Thu": {
-      "cuisine": "Filipino",
-      "image_url": "https://www.kawalingpinoy.com/wp-content/uploads/2026/07/asian-garlic-noodles-1-768x1024.jpg",
-      "recipe_url": "https://www.kawalingpinoy.com/asian-garlic-noodles/",
-      "site_name": "Kawaling Pinoy",
-      "title": "Asian Garlic Noodles",
-      "url": "https://www.kawalingpinoy.com/asian-garlic-noodles/"
+      "title": "Salisbury Steak",
+      "url": "https://grandbaby-cakes.com/salisbury-steak/",
+      "recipe_url": "https://grandbaby-cakes.com/salisbury-steak/",
+      "image_url": "https://grandbaby-cakes.com/wp-content/uploads/2023/10/72dpi-Salisbury-Steak-22.jpg",
+      "site_name": "Grandbaby Cakes",
+      "site_url": "https://grandbaby-cakes.com",
+      "cuisine": "Southern",
+      "published_at": "Fri, 09 Oct 2026 14:00:00 +0000"
     },
     "Fri": {
-      "cuisine": "Healthy American",
-      "image_url": "https://www.ambitiouskitchen.com/wp-content/uploads/2020/10/Green-Chile-Chicken-Pozole-3-750x750.jpg",
-      "recipe_url": "https://www.ambitiouskitchen.com/green-chile-chicken-pozole/",
-      "site_name": "Ambitious Kitchen",
-      "title": "Green Chile Chicken Pozole",
-      "url": "https://www.ambitiouskitchen.com/green-chile-chicken-pozole/"
+      "title": "Crispy Corn Recipe",
+      "url": "https://www.vegrecipesofindia.com/crispy-corn/",
+      "recipe_url": "https://www.vegrecipesofindia.com/crispy-corn/",
+      "image_url": "https://i2.wp.com/www.vegrecipesofindia.com/wp-content/uploads/2026/09/crispy-corn.jpg",
+      "site_name": "Dassana's Veg Recipes",
+      "site_url": "https://www.vegrecipesofindia.com",
+      "cuisine": "Indian",
+      "published_at": "Fri, 11 Sep 2026 19:44:29 +0000"
     },
     "Sat": {
-      "cuisine": "Filipino",
-      "image_url": "https://www.kawalingpinoy.com/wp-content/uploads/2023/05/cashew-chicken-with-snow-peas-stir-fry-768x1024.jpg",
-      "recipe_url": "https://www.kawalingpinoy.com/cashew-chicken/",
-      "site_name": "Kawaling Pinoy",
-      "title": "Cashew Chicken",
-      "url": "https://www.kawalingpinoy.com/cashew-chicken/"
+      "title": "Turkish Pasta (Yoğurtlu Kıymalı Makarna)",
+      "url": "https://www.themediterraneandish.com/turkish-pasta/",
+      "recipe_url": "https://www.themediterraneandish.com/turkish-pasta/",
+      "image_url": "https://www.themediterraneandish.com/wp-content/uploads/2026/09/Turkish-Pasta-12.jpg",
+      "site_name": "The Mediterranean Dish",
+      "site_url": "https://www.themediterraneandish.com",
+      "cuisine": "Mediterranean",
+      "published_at": "Mon, 05 Oct 2026 12:00:00 +0000"
     },
     "Sun": {
-      "cuisine": "Filipino",
-      "image_url": "https://www.kawalingpinoy.com/wp-content/uploads/2021/08/brazo-de-mercedes-cake-roll-683x1024.jpg",
-      "recipe_url": "https://www.kawalingpinoy.com/brazo-de-mercedes/",
-      "site_name": "Kawaling Pinoy",
-      "title": "Brazo de Mercedes",
-      "url": "https://www.kawalingpinoy.com/brazo-de-mercedes/"
+      "title": "Baked Pretzel-Crusted Chicken",
+      "url": "https://sallysbakingaddiction.com/pretzel-crusted-chicken/",
+      "recipe_url": "https://sallysbakingaddiction.com/pretzel-crusted-chicken/",
+      "image_url": "https://sallysbakingaddiction.com/wp-content/uploads/2014/08/pretzel-chicken.jpg",
+      "site_name": "Sally's Baking Addiction",
+      "site_url": "https://sallysbakingaddiction.com",
+      "cuisine": "Baking",
+      "published_at": "Fri, 09 Oct 2026 10:00:00 +0000"
     }
   },
   "featured_recipe": {
-    "cuisine": "Filipino",
-    "image_url": "https://www.kawalingpinoy.com/wp-content/uploads/2021/08/brazo-de-mercedes-cake-roll-683x1024.jpg",
-    "recipe_url": "https://www.kawalingpinoy.com/brazo-de-mercedes/",
-    "site_name": "Kawaling Pinoy",
-    "title": "Brazo de Mercedes",
-    "url": "https://www.kawalingpinoy.com/brazo-de-mercedes/"
+    "cuisine": "Mediterranean",
+    "image_url": "https://www.themediterraneandish.com/wp-content/uploads/2026/09/TMD-Mushroom-Gnocchi-Leads-02-Angle.jpg",
+    "published_at": "Fri, 02 Oct 2026 12:00:00 +0000",
+    "recipe_url": "https://www.themediterraneandish.com/mushroom-gnocchi/",
+    "site_name": "The Mediterranean Dish",
+    "site_url": "https://www.themediterraneandish.com",
+    "title": "Mushroom Gnocchi in Creamy Parmesan Sauce (Without Cream!)",
+    "url": "https://www.themediterraneandish.com/mushroom-gnocchi/"
   }
 }
