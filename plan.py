@@ -368,6 +368,8 @@ def main():
                         help="Start date for --idx regen (YYYY-MM-DD)")
     parser.add_argument("--dry-run", action="store_true",
                         help="Print plan without writing schedule.json")
+    parser.add_argument("--append", action="store_true",
+                        help="Append new weeks after existing schedule (never overwrites)")
     args = parser.parse_args()
 
     master    = load_master()
@@ -438,11 +440,24 @@ def main():
         else:
             print(f"\n[dry-run] Week {args.week} not written.")
     else:
-        # ── Build all weeks ───────────────────────────────────────────────
-        sched = []
+        # ── Build all weeks (or append) ───────────────────────────────────
+        sched = load_schedule() if args.append else []
+        start_week_num = len(sched) + 1
+
+        # For append: start dates after the last existing week
+        if args.append and sched:
+            from datetime import date as _date
+            last_starts = sched[-1].get("starts", "")
+            try:
+                last_date = datetime.fromisoformat(last_starts.replace("Z", "+00:00")).date()
+            except Exception:
+                last_date = datetime.now(timezone.utc).date()
+            mondays = [last_date + timedelta(weeks=i+1) for i in range(args.weeks)]
+
         for i, week_start in enumerate(mondays):
             pool_idx = pool_for_week(week_start, num_pools)
-            entry    = build_week(master, week_start, pool_idx, i + 1, used_urls, used_sites)
+            week_num = start_week_num + i
+            entry    = build_week(master, week_start, pool_idx, week_num, used_urls, used_sites)
             sched.append(entry)
 
         if not args.dry_run:
