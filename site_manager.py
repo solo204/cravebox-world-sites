@@ -371,7 +371,7 @@ tr:hover td{background:#141414}
   &nbsp;
   <span><b style="color:#ccc">site_manager.py</b> — manage weekly schedule: add/swap sites, pick recipes, refresh candidates (↺), push live (▶ Now)</span>
   &nbsp;·&nbsp;
-  <span><b style="color:#ccc">plan.py</b> — auto-generate new weeks from RSS feeds, skipping already-used sites &amp; recipes. Run: <code style="color:#86efac">python plan.py</code> to append weeks after the last one</span>
+  <span><b style="color:#ccc">plan.py</b> — auto-generate new weeks from RSS feeds, skipping already-used sites &amp; recipes. Run: <code style="color:#86efac">python plan.py --append --weeks 13</code> to add weeks after the last one &mdash; <b style="color:#f87171">⚠ without --append it OVERWRITES the schedule!</b></span>
   &nbsp;·&nbsp;
   <span><b style="color:#ccc">rotate.py</b> — runs via GitHub Actions cron every hour, writes featured.json, applies fallbacks if a site or recipe is down</span>
 </div>
