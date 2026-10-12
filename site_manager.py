@@ -375,6 +375,8 @@ tr:hover td{background:#141414}
   <span><b style="color:#ccc">plan.py</b> — auto-generate new weeks from RSS feeds, skipping already-used sites &amp; recipes. Run: <code style="color:#86efac">python plan.py --append --weeks 13</code> to add weeks after the last one &mdash; <b style="color:#f87171">⚠ without --append it OVERWRITES the schedule!</b></span>
   &nbsp;·&nbsp;
   <span><b style="color:#ccc">rotate.py</b> — runs via GitHub Actions cron every hour, writes featured.json, applies fallbacks if a site or recipe is down</span>
+  &nbsp;·&nbsp;
+  <span><b style="color:#ccc">After deleting a week</b> — run <code style="color:#86efac">python resequence.py</code> to fix all dates downstream, then push</span>
 </div>
 <div style="background:#0d1f0d;border-bottom:1px solid #1a3a1a;padding:7px 24px;
             display:flex;align-items:center;gap:10px;font-size:11px;flex-wrap:wrap">

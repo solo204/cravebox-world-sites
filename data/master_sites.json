@@ -124,7 +124,7 @@
     "url": "https://damndelicious.net",
     "cuisine": "American",
     "tagline": "Quick and easy recipes for every occasion.",
-    "image_url": "https://damndelicious.net/wp-content/uploads/2023/02/beef-stew.jpg",
+    "image_url": "https://damndelicious.net/wp-content/uploads/2026/09/Cheeseburger-Sliders-scaled.jpg",
     "rss_url": "https://damndelicious.net/feed/"
   },
   {
@@ -272,12 +272,12 @@
     "rss_url": "https://www.ambitiouskitchen.com/feed/"
   },
   {
-    "name": "The Modern Proper",
-    "url": "https://themodernproper.com",
+    "name": "Spend With Pennies",
+    "url": "https://www.spendwithpennies.com",
     "cuisine": "American",
-    "tagline": "Simple, elegant weeknight dinners for families.",
-    "image_url": "https://images.themodernproper.com/production/posts/DutchApplePie_12.jpg",
-    "rss_url": "https://themodernproper.com/feed"
+    "tagline": "Easy, family-friendly recipes using simple, everyday ingredients.",
+    "image_url": "https://www.spendwithpennies.com/wp-content/uploads/2026/09/Philly-Cheesesteak-Casserole-SpendWithPennies-11.jpg",
+    "rss_url": "https://www.spendwithpennies.com/feed/"
   },
   {
     "name": "Vegan Richa",
@@ -920,19 +920,163 @@
     "rss_url": "https://heygrillhey.com/feed/"
   },
   {
-    "name": "Sally's Baking Addiction",
-    "url": "https://sallysbakingaddiction.com",
-    "cuisine": "Baking",
-    "tagline": "Trusted, approachable baking recipes from a self-taught baker.",
-    "image_url": "https://sallysbakingaddiction.com/wp-content/uploads/2026/09/maple-oat-scones.jpg",
-    "rss_url": "https://sallysbakingaddiction.com/feed/"
-  },
-  {
     "name": "Weekday Pescatarian",
     "url": "https://weekdaypescatarian.com",
     "cuisine": "Seafood",
     "tagline": "400+ tested seafood recipes built around grocery-store fish.",
     "image_url": "https://weekdaypescatarian.com/wp-content/uploads/2026/09/IMG_4027-e1790061685850.jpg",
     "rss_url": "https://weekdaypescatarian.com/feed/"
+  },
+  {
+    "name": "Cooking Classy",
+    "url": "https://www.cookingclassy.com",
+    "cuisine": "American",
+    "tagline": "Elevating everyday meals with approachable, crowd-pleasing recipes.",
+    "image_url": "https://www.cookingclassy.com/wp-content/uploads/2026/10/green-chile-enchiladas-15.jpg",
+    "rss_url": "https://www.cookingclassy.com/feed/"
+  },
+  {
+    "name": "The Cozy Cook",
+    "url": "https://thecozycook.com",
+    "cuisine": "American",
+    "tagline": "Easy recipes for busy home cooks.",
+    "image_url": "https://thecozycook.com/wp-content/uploads/2026/05/Beef-Stroganoff-2.jpg",
+    "rss_url": "https://thecozycook.com/feed/"
+  },
+  {
+    "name": "Jo Cooks",
+    "url": "https://www.jocooks.com",
+    "cuisine": "American",
+    "tagline": "Simple, easy, comfort food recipes everyone will love.",
+    "image_url": "https://www.jocooks.com/wp-content/uploads/2024/11/roast-turkey-1-1.jpg",
+    "rss_url": "https://www.jocooks.com/feed/"
+  },
+  {
+    "name": "The Chunky Chef",
+    "url": "https://www.thechunkychef.com",
+    "cuisine": "American",
+    "tagline": "Comforting, restaurant-quality recipes made at home.",
+    "image_url": "https://www.thechunkychef.com/wp-content/uploads/2026/10/Honey-Miso-Soy-Steak-Bites-feat.jpg",
+    "rss_url": "https://www.thechunkychef.com/feed/"
+  },
+  {
+    "name": "Kristine's Kitchen",
+    "url": "https://kristineskitchenblog.com",
+    "cuisine": "American",
+    "tagline": "Trusted, family-friendly recipes for every occasion.",
+    "image_url": "https://kristineskitchenblog.com/wp-content/uploads/2026/09/chewy-pumpkin-cookies-25.jpg",
+    "rss_url": "https://kristineskitchenblog.com/feed/"
+  },
+  {
+    "name": "Chelsea's Messy Apron",
+    "url": "https://www.chelseasmessyapron.com",
+    "cuisine": "American",
+    "tagline": "Simple, healthy recipes without sacrificing taste.",
+    "image_url": "https://www.chelseasmessyapron.com/wp-content/uploads/2026/09/Easy-Focaccia-Recipe-ChelseasMessyApron-1200-1.jpg",
+    "rss_url": "https://www.chelseasmessyapron.com/feed/"
+  },
+  {
+    "name": "Mom on Timeout",
+    "url": "https://www.momontimeout.com",
+    "cuisine": "American",
+    "tagline": "Real food for real families — simple and delicious.",
+    "image_url": "https://www.momontimeout.com/wp-content/uploads/2019/09/monterey-chicken-squared.jpg",
+    "rss_url": "https://www.momontimeout.com/feed/"
+  },
+  {
+    "name": "Yellow Bliss Road",
+    "url": "https://www.yellowblissroad.com",
+    "cuisine": "American",
+    "tagline": "Easy, approachable, family-friendly recipes for any home cook.",
+    "image_url": "https://www.yellowblissroad.com/wp-content/uploads/2026/10/Apple-fritters-21-social.jpg",
+    "rss_url": "https://www.yellowblissroad.com/feed/"
+  },
+  {
+    "name": "The Recipe Critic",
+    "url": "https://therecipecritic.com",
+    "cuisine": "American",
+    "tagline": "Tried and true recipes for families.",
+    "image_url": "https://therecipecritic.com/wp-content/uploads/2026/10/chicken-mississippi-spaghetti.jpg",
+    "rss_url": "https://therecipecritic.com/feed/"
+  },
+  {
+    "name": "Tastes Better From Scratch",
+    "url": "https://tastesbetterfromscratch.com",
+    "cuisine": "American",
+    "tagline": "Everything tastes better homemade.",
+    "image_url": "https://tastesbetterfromscratch.com/wp-content/uploads/2026/10/Brown-Sugar-17.jpg",
+    "rss_url": "https://tastesbetterfromscratch.com/feed/"
+  },
+  {
+    "name": "Kitchen Sanctuary",
+    "url": "https://www.kitchensanctuary.com",
+    "cuisine": "British",
+    "tagline": "Delicious, family-friendly recipes from a British home cook.",
+    "image_url": "https://www.kitchensanctuary.com/wp-content/uploads/2026/10/Shepherds-Pie-Fries-square-FS.jpg",
+    "rss_url": "https://www.kitchensanctuary.com/feed/"
+  },
+  {
+    "name": "David Lebovitz",
+    "url": "https://www.davidlebovitz.com",
+    "cuisine": "French",
+    "tagline": "Baking and cooking from a pastry chef's Paris kitchen.",
+    "image_url": "https://www.davidlebovitz.com/wp-content/uploads/2026/09/IMG_4552.jpg",
+    "rss_url": "https://www.davidlebovitz.com/feed/"
+  },
+  {
+    "name": "Chocolate & Zucchini",
+    "url": "https://cnz.to",
+    "cuisine": "French",
+    "tagline": "Simple, seasonal recipes from a Paris kitchen.",
+    "image_url": "https://cnz.to/wp-content/uploads/2013/05/springtimepotaufeu.jpg",
+    "rss_url": "https://cnz.to/feed/"
+  },
+  {
+    "name": "Memorie di Angelina",
+    "url": "https://memoriediangelina.com",
+    "cuisine": "Italian",
+    "tagline": "Easy, authentic Italian home cooking.",
+    "image_url": "https://memoriediangelina.com/wp-content/uploads/2026/10/Orecchiette-con-cavolfiore-2.jpg",
+    "rss_url": "https://memoriediangelina.com/feed/"
+  },
+  {
+    "name": "A Sassy Spoon",
+    "url": "https://asassyspoon.com",
+    "cuisine": "Cuban",
+    "tagline": "Cuban and Latin-inspired recipes for home cooks.",
+    "image_url": "https://asassyspoon.com/wp-content/uploads/2025/10/pudin-de-pan-cuban-bread-pudding-asassyspoon-1-2.jpg",
+    "rss_url": "https://asassyspoon.com/feed/"
+  },
+  {
+    "name": "Peru Delights",
+    "url": "https://perudelights.com",
+    "cuisine": "Peruvian",
+    "tagline": "Authentic Peruvian cuisine with step-by-step recipes.",
+    "image_url": "https://perudelights.com/wp-content/uploads/2017/01/SalsahuancainaIIR.jpg",
+    "rss_url": "https://perudelights.com/feed/"
+  },
+  {
+    "name": "Eat Peru",
+    "url": "https://www.eatperu.com",
+    "cuisine": "Peruvian",
+    "tagline": "Authentic Peruvian food and recipes.",
+    "image_url": "https://www.eatperu.com/wp-content/uploads/2026/02/jamon-del-pais-butifarra-overhead.jpg",
+    "rss_url": "https://www.eatperu.com/feed/"
+  },
+  {
+    "name": "Brazilian Kitchen Abroad",
+    "url": "https://braziliankitchenabroad.com",
+    "cuisine": "Brazilian",
+    "tagline": "Brazilian flavors for everyday cooking.",
+    "image_url": "https://braziliankitchenabroad.com/wp-content/uploads/2026/06/Air-Fryer-Picanha_Churrasco-Air-Fryer-18.jpg",
+    "rss_url": "https://braziliankitchenabroad.com/feed/"
+  },
+  {
+    "name": "Easy Brazilian Food",
+    "url": "https://easybrazilianfood.com",
+    "cuisine": "Brazilian",
+    "tagline": "Easy Brazilian recipes from an American transplant.",
+    "image_url": "https://easybrazilianfood.com/wp-content/uploads/2026/09/Bolinhos-de-Chuva-POST-angle-COVER.jpeg",
+    "rss_url": "https://easybrazilianfood.com/feed/"
   }
 ]

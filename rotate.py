@@ -145,8 +145,8 @@ def main():
     slot_idx      = int(elapsed_hours // SLOT_HOURS)
 
     if slot_idx >= len(sched):
-        slot_idx = len(sched) - 1
-        print(f"[rotate] WARNING: schedule exhausted — repeating last entry (slot {slot_idx + 1})")
+        slot_idx = slot_idx % len(sched)
+        print(f"[rotate] Schedule wrapped → restarting from slot {slot_idx + 1}/{len(sched)}")
     else:
         print(f"[rotate] Slot {slot_idx + 1}/{len(sched)}")
 
