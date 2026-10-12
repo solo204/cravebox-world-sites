@@ -1,122 +1,122 @@
 {
-  "updated_at": "2026-10-12T00:17:59Z",
+  "updated_at": "2026-10-12T02:50:50Z",
   "slot_hours": 2,
-  "slot_idx": 0,
-  "week": 1,
+  "slot_idx": 1,
+  "week": 2,
   "featured_sites": [
     {
-      "name": "Dassana's Veg Recipes",
-      "url": "https://www.vegrecipesofindia.com",
+      "name": "Chopstick Chronicles",
+      "url": "https://www.chopstickchronicles.com",
+      "cuisine": "Japanese",
+      "tagline": "Authentic traditional and contemporary Japanese recipes.",
+      "image_url": "https://www.chopstickchronicles.com/wp-content/uploads/2026/09/kabocha-korokke-11.jpg",
+      "rss_url": "https://www.chopstickchronicles.com/feed/"
+    },
+    {
+      "name": "Maangchi",
+      "url": "https://www.maangchi.com",
+      "cuisine": "Korean",
+      "tagline": "Real Korean cooking for everyone.",
+      "image_url": "https://www.maangchi.com/wp-content/uploads/2026/09/Korean-reststop-potatoes-1-1200x630-cropped.jpg",
+      "rss_url": "https://www.maangchi.com/feed"
+    },
+    {
+      "name": "Immaculate Bites",
+      "url": "https://www.africanbites.com",
+      "cuisine": "African",
+      "tagline": "Bold African flavors and soul food recipes.",
+      "image_url": "https://www.africanbites.com/wp-content/uploads/2023/04/IMG_9277.jpg",
+      "rss_url": "https://www.africanbites.com/feed/"
+    },
+    {
+      "name": "Swasthi's Recipes",
+      "url": "https://www.indianhealthyrecipes.com",
       "cuisine": "Indian",
-      "tagline": "100% vegetarian Indian recipes.",
-      "image_url": "https://www.vegrecipesofindia.com/wp-content/uploads/2020/01/paneer-butter-masala-1.jpg",
-      "rss_url": "https://www.vegrecipesofindia.com/feed/"
-    },
-    {
-      "name": "The Mediterranean Dish",
-      "url": "https://www.themediterraneandish.com",
-      "cuisine": "Mediterranean",
-      "tagline": "Bold Mediterranean flavors for every table.",
-      "image_url": "https://www.themediterraneandish.com/wp-content/uploads/2026/09/Turkish-Pasta-12.jpg",
-      "rss_url": "https://www.themediterraneandish.com/feed/"
-    },
-    {
-      "name": "Sally's Baking Addiction",
-      "url": "https://sallysbakingaddiction.com",
-      "cuisine": "Baking",
-      "tagline": "Trusted baking recipes since 2011.",
-      "image_url": "https://sallysbakingaddiction.com/wp-content/uploads/2012/08/warm-chocolate-chip-cookies.jpg",
-      "rss_url": "https://sallysbakingaddiction.com/feed/"
-    },
-    {
-      "name": "Grandbaby Cakes",
-      "url": "https://grandbaby-cakes.com",
-      "cuisine": "Southern",
-      "tagline": "Southern comfort food and soul food classics.",
-      "image_url": "https://grandbaby-cakes.com/wp-content/uploads/2025/08/buttermilk-fried-chicken-15.jpg",
-      "rss_url": "https://grandbaby-cakes.com/feed/"
+      "tagline": "Indian recipes that work every time.",
+      "image_url": "https://www.indianhealthyrecipes.com/wp-content/uploads/2026/10/quinoa-khichdi.jpg",
+      "rss_url": "https://www.indianhealthyrecipes.com/feed/"
     }
   ],
   "featured_recipes": {
     "Mon": {
-      "cuisine": "Mediterranean",
-      "image_url": "https://www.themediterraneandish.com/wp-content/uploads/2026/09/TMD-Mushroom-Gnocchi-Leads-02-Angle.jpg",
-      "published_at": "Fri, 02 Oct 2026 12:00:00 +0000",
-      "recipe_url": "https://www.themediterraneandish.com/mushroom-gnocchi/",
-      "site_name": "The Mediterranean Dish",
-      "site_url": "https://www.themediterraneandish.com",
-      "title": "Mushroom Gnocchi in Creamy Parmesan Sauce (Without Cream!)",
-      "url": "https://www.themediterraneandish.com/mushroom-gnocchi/"
+      "cuisine": "African",
+      "image_url": "https://www.africanbites.com/wp-content/uploads/2026/10/Roast-Turkey-Wings-1.jpg",
+      "published_at": "Tue, 06 Oct 2026 07:30:00 +0000",
+      "recipe_url": "https://www.africanbites.com/baked-turkey-wings/",
+      "site_name": "Immaculate Bites",
+      "site_url": "https://www.africanbites.com",
+      "title": "Roast Turkey Wings",
+      "url": "https://www.africanbites.com/baked-turkey-wings/"
     },
     "Tue": {
-      "cuisine": "Baking",
-      "image_url": "https://sallysbakingaddiction.com/wp-content/uploads/2024/10/apple-cider-chicken-fall-dinner-2.jpg",
-      "published_at": "Thu, 08 Oct 2026 10:00:00 +0000",
-      "recipe_url": "https://sallysbakingaddiction.com/fall-dinner-recipes/",
-      "site_name": "Sally's Baking Addiction",
-      "site_url": "https://sallysbakingaddiction.com",
-      "title": "30 Delicious Fall Dinner Recipe Ideas",
-      "url": "https://sallysbakingaddiction.com/fall-dinner-recipes/"
+      "cuisine": "African",
+      "image_url": "https://www.africanbites.com/wp-content/uploads/2026/10/Slow-Cooker-Pork-Chops-1.jpg",
+      "published_at": "Mon, 05 Oct 2026 07:30:00 +0000",
+      "recipe_url": "https://www.africanbites.com/slow-cooker-pork-chops/",
+      "site_name": "Immaculate Bites",
+      "site_url": "https://www.africanbites.com",
+      "title": "Slow Cooker Pork Chops",
+      "url": "https://www.africanbites.com/slow-cooker-pork-chops/"
     },
     "Wed": {
-      "title": "Mini Pumpkin Chocolate Chip Muffins",
-      "url": "https://sallysbakingaddiction.com/mini-pumpkin-chocolate-chip-muffins/",
-      "recipe_url": "https://sallysbakingaddiction.com/mini-pumpkin-chocolate-chip-muffins/",
-      "image_url": "https://sallysbakingaddiction.com/wp-content/uploads/2015/10/mini-chocolate-chip-pumpkin-muffins.jpg",
-      "site_name": "Sally's Baking Addiction",
-      "site_url": "https://sallysbakingaddiction.com",
-      "cuisine": "Baking",
-      "published_at": "Sun, 11 Oct 2026 10:00:00 +0000"
+      "title": "Tamago Sando ( Japanese Egg Sandwich)",
+      "url": "https://www.chopstickchronicles.com/japanese-egg-salad-sandwich/",
+      "recipe_url": "https://www.chopstickchronicles.com/japanese-egg-salad-sandwich/",
+      "image_url": "https://www.chopstickchronicles.com/wp-content/uploads/2019/04/tamago-sando-7.jpg",
+      "site_name": "Chopstick Chronicles",
+      "site_url": "https://www.chopstickchronicles.com",
+      "cuisine": "Japanese",
+      "published_at": "Thu, 01 Oct 2026 07:27:22 +0000"
     },
     "Thu": {
-      "title": "Salisbury Steak",
-      "url": "https://grandbaby-cakes.com/salisbury-steak/",
-      "recipe_url": "https://grandbaby-cakes.com/salisbury-steak/",
-      "image_url": "https://grandbaby-cakes.com/wp-content/uploads/2023/10/72dpi-Salisbury-Steak-22.jpg",
-      "site_name": "Grandbaby Cakes",
-      "site_url": "https://grandbaby-cakes.com",
-      "cuisine": "Southern",
-      "published_at": "Fri, 09 Oct 2026 14:00:00 +0000"
+      "cuisine": "Japanese",
+      "image_url": "https://www.chopstickchronicles.com/wp-content/uploads/2019/05/Egg-Drop-Soup-11.jpg",
+      "published_at": "Wed, 21 Jan 2026 05:19:34 +0000",
+      "recipe_url": "https://www.chopstickchronicles.com/kakitamajiru/",
+      "site_name": "Chopstick Chronicles",
+      "site_url": "https://www.chopstickchronicles.com",
+      "title": "Kakitamajiru (Egg Drop Soup)",
+      "url": "https://www.chopstickchronicles.com/kakitamajiru/"
     },
     "Fri": {
-      "title": "Crispy Corn Recipe",
-      "url": "https://www.vegrecipesofindia.com/crispy-corn/",
-      "recipe_url": "https://www.vegrecipesofindia.com/crispy-corn/",
-      "image_url": "https://i2.wp.com/www.vegrecipesofindia.com/wp-content/uploads/2026/09/crispy-corn.jpg",
-      "site_name": "Dassana's Veg Recipes",
-      "site_url": "https://www.vegrecipesofindia.com",
-      "cuisine": "Indian",
-      "published_at": "Fri, 11 Sep 2026 19:44:29 +0000"
+      "title": "Kabocha Korokke (Kabocha Squash Croquette)",
+      "url": "https://www.chopstickchronicles.com/kabocha-korokke-kabocha-squash-croquette/",
+      "recipe_url": "https://www.chopstickchronicles.com/kabocha-korokke-kabocha-squash-croquette/",
+      "image_url": "https://www.chopstickchronicles.com/wp-content/uploads/2026/09/kabocha-korokke-11.jpg",
+      "site_name": "Chopstick Chronicles",
+      "site_url": "https://www.chopstickchronicles.com",
+      "cuisine": "Japanese",
+      "published_at": "Sun, 27 Sep 2026 00:06:45 +0000"
     },
     "Sat": {
-      "title": "Turkish Pasta (Yoğurtlu Kıymalı Makarna)",
-      "url": "https://www.themediterraneandish.com/turkish-pasta/",
-      "recipe_url": "https://www.themediterraneandish.com/turkish-pasta/",
-      "image_url": "https://www.themediterraneandish.com/wp-content/uploads/2026/09/Turkish-Pasta-12.jpg",
-      "site_name": "The Mediterranean Dish",
-      "site_url": "https://www.themediterraneandish.com",
-      "cuisine": "Mediterranean",
-      "published_at": "Mon, 05 Oct 2026 12:00:00 +0000"
+      "cuisine": "Japanese",
+      "image_url": "https://www.chopstickchronicles.com/wp-content/uploads/2016/05/ika-ring-fry-17.jpg",
+      "published_at": "Wed, 20 May 2026 01:05:35 +0000",
+      "recipe_url": "https://www.chopstickchronicles.com/fried-calamari-with-wasabi-mayo/",
+      "site_name": "Chopstick Chronicles",
+      "site_url": "https://www.chopstickchronicles.com",
+      "title": "Fried Calamari with Wasabi Mayo",
+      "url": "https://www.chopstickchronicles.com/fried-calamari-with-wasabi-mayo/"
     },
     "Sun": {
-      "title": "Baked Pretzel-Crusted Chicken",
-      "url": "https://sallysbakingaddiction.com/pretzel-crusted-chicken/",
-      "recipe_url": "https://sallysbakingaddiction.com/pretzel-crusted-chicken/",
-      "image_url": "https://sallysbakingaddiction.com/wp-content/uploads/2014/08/pretzel-chicken.jpg",
-      "site_name": "Sally's Baking Addiction",
-      "site_url": "https://sallysbakingaddiction.com",
-      "cuisine": "Baking",
-      "published_at": "Fri, 09 Oct 2026 10:00:00 +0000"
+      "title": "Chashu (Braised Pork Belly)",
+      "url": "https://www.chopstickchronicles.com/ramen-pork-chashu/",
+      "recipe_url": "https://www.chopstickchronicles.com/ramen-pork-chashu/",
+      "image_url": "https://www.chopstickchronicles.com/wp-content/uploads/2020/01/Chashu-update-10.jpg",
+      "site_name": "Chopstick Chronicles",
+      "site_url": "https://www.chopstickchronicles.com",
+      "cuisine": "Japanese",
+      "published_at": "Wed, 16 Sep 2026 11:33:42 +0000"
     }
   },
   "featured_recipe": {
-    "cuisine": "Mediterranean",
-    "image_url": "https://www.themediterraneandish.com/wp-content/uploads/2026/09/TMD-Mushroom-Gnocchi-Leads-02-Angle.jpg",
-    "published_at": "Fri, 02 Oct 2026 12:00:00 +0000",
-    "recipe_url": "https://www.themediterraneandish.com/mushroom-gnocchi/",
-    "site_name": "The Mediterranean Dish",
-    "site_url": "https://www.themediterraneandish.com",
-    "title": "Mushroom Gnocchi in Creamy Parmesan Sauce (Without Cream!)",
-    "url": "https://www.themediterraneandish.com/mushroom-gnocchi/"
+    "cuisine": "African",
+    "image_url": "https://www.africanbites.com/wp-content/uploads/2026/10/Slow-Cooker-Pork-Chops-1.jpg",
+    "published_at": "Mon, 05 Oct 2026 07:30:00 +0000",
+    "recipe_url": "https://www.africanbites.com/slow-cooker-pork-chops/",
+    "site_name": "Immaculate Bites",
+    "site_url": "https://www.africanbites.com",
+    "title": "Slow Cooker Pork Chops",
+    "url": "https://www.africanbites.com/slow-cooker-pork-chops/"
   }
 }
