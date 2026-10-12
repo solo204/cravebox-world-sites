@@ -353,6 +353,7 @@ tr:hover td{background:#141414}
 .t-url:hover{text-decoration:underline}
 .cuisine-tag{background:#1e293b;color:#94a3b8;font-size:10px;padding:2px 7px;border-radius:10px}
 .t-idx{color:#333;font-size:11px;width:28px}
+.card.dup{border:2px solid #ef4444!important;box-shadow:0 0 6px rgba(239,68,68,.4)}
 .spin{display:inline-block;width:13px;height:13px;border:2px solid #333;
       border-top-color:#ff6b35;border-radius:50%;animation:spin .7s linear infinite;vertical-align:middle}
 @keyframes spin{to{transform:rotate(360deg)} }
@@ -629,10 +630,29 @@ async function cleanUpPast() {
   }
 }
 
+function buildDupSets() {
+  const recipeCount = {}, siteCount = {};
+  planData.forEach(week => {
+    if (!week) return;
+    (week.sites||[]).forEach(s => {
+      const k = s.name||''; if (k) siteCount[k] = (siteCount[k]||0)+1;
+    });
+    Object.values(week.recipes||{}).forEach(r => {
+      if (!r) return;
+      const k = r.url||r.recipe_url||''; if (k) recipeCount[k] = (recipeCount[k]||0)+1;
+    });
+  });
+  return {
+    dupRecipes: new Set(Object.keys(recipeCount).filter(k => recipeCount[k] > 1)),
+    dupSites:   new Set(Object.keys(siteCount).filter(k => siteCount[k] > 1)),
+  };
+}
+
 function renderPlan() {
+  const { dupRecipes, dupSites } = buildDupSets();
   let html = insertBar(-1);
   planData.forEach((week, wi) => {
-    html += renderWeek(week, wi);
+    html += renderWeek(week, wi, dupRecipes, dupSites);
     html += insertBar(wi);
   });
   document.getElementById('schedule-view').innerHTML = html;
@@ -647,7 +667,7 @@ function insertBar(afterIdx) {
   </div>`;
 }
 
-function renderWeek(week, wi) {
+function renderWeek(week, wi, dupRecipes=new Set(), dupSites=new Set()) {
   if (!week) return '';
   const isLive   = liveWeekNum !== null ? week.week === liveWeekNum : wi === currentSlot;
   const liveIdx  = liveWeekNum !== null
@@ -665,13 +685,14 @@ function renderWeek(week, wi) {
   // Sites
   const sitesHtml = (week.sites||[]).map((s,si) => {
     const isSwapping = siteSwap && siteSwap.weekIdx===wi && siteSwap.siteIdx===si;
+    const isDupSite  = dupSites.has(s.name||'');
     const picker = isSwapping
       ? `<select class="site-picker" onchange="pickSite(${wi},${si},this.value)" onclick="event.stopPropagation()">
           <option value="">— pick a site —</option>
           ${MASTER_SITES.map(ms=>`<option value="${ms.name}"${ms.name===s.name?' selected':''}>${ms.name} (${ms.cuisine})</option>`).join('')}
         </select>` : '';
     return `<div class="site-wrap">
-      ${siteCard(s,'sched-site','55px')}
+      ${siteCard(s,'sched-site'+(isDupSite?' dup':''),'55px')}
       <button class="site-swap-btn${isSwapping?' active':''}"
         onclick="toggleSiteSwap(${wi},${si})">⇄</button>
       ${picker}
@@ -681,11 +702,12 @@ function renderWeek(week, wi) {
   // Day slots
   const daysHtml = DAYS.map(day => {
     const r = (week.recipes||{})[day];
-    const isTarget = swapTarget && swapTarget.weekIdx===wi && swapTarget.day===day;
+    const isTarget  = swapTarget && swapTarget.weekIdx===wi && swapTarget.day===day;
+    const isDupRecipe = r && dupRecipes.has(r.url||r.recipe_url||'');
     return `<div class="day-col">
       <div class="day-label">${day}</div>
       <div class="day-slot${isTarget?' target':''}" id="ds-${wi}-${day}">
-        ${r ? recipeCard(r,'sched-recipe','70px') : emptyCard()}
+        ${r ? recipeCard(r,'sched-recipe'+(isDupRecipe?' dup':''),'70px') : emptyCard()}
         <button class="swap-btn" onclick="toggleSwap(${wi},'${day}')">
           ${isTarget ? '✕' : '⇄'}
         </button>

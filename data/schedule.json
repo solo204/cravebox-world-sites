@@ -6164,5 +6164,319 @@
       }
     ],
     "generated_at": "2026-10-12T03:22:50Z"
+  },
+  {
+    "week": 19,
+    "starts": "2027-02-15",
+    "pool": 8,
+    "sites": [
+      {
+        "name": "Love and Lemons",
+        "url": "https://www.loveandlemons.com",
+        "cuisine": "Plant-Based",
+        "tagline": "Bright, seasonal plant-forward cooking.",
+        "image_url": "https://cdn.loveandlemons.com/wp-content/uploads/2026/09/pumpkin-chocolate-chip-cookies-recipe.jpg",
+        "rss_url": "https://www.loveandlemons.com/feed/"
+      },
+      {
+        "name": "Vegan Richa",
+        "url": "https://www.veganricha.com",
+        "cuisine": "Indian Vegan",
+        "tagline": "Bold Indian-inspired vegan recipes with flavor.",
+        "image_url": "https://www.veganricha.com/wp-content/uploads/2026/09/somosa-platter-veganricha-2224.jpg",
+        "rss_url": "https://www.veganricha.com/feed/"
+      },
+      {
+        "name": "Viet World Kitchen",
+        "url": "https://www.vietworldkitchen.com",
+        "cuisine": "Vietnamese",
+        "tagline": "Vietnamese cooking and pan-Asian flavors explored.",
+        "image_url": "https://www.vietworldkitchen.com/wp-content/uploads/2026/09/chicken-stock-liquid-gold.jpeg",
+        "rss_url": "https://www.vietworldkitchen.com/feed"
+      },
+      {
+        "name": "What To Cook Today",
+        "url": "https://whattocooktoday.com",
+        "cuisine": "Indonesian",
+        "tagline": "Indonesian and Southeast Asian recipes made easy.",
+        "image_url": "https://whattocooktoday.com/wp-content/uploads/2026/10/creamy-miso-curry-risotto-1-1.jpg",
+        "rss_url": "https://whattocooktoday.com/feed"
+      }
+    ],
+    "recipes": {
+      "Mon": {
+        "title": "Pumpkin Chocolate Chip Cookies",
+        "url": "https://www.loveandlemons.com/pumpkin-chocolate-chip-cookies/",
+        "recipe_url": "https://www.loveandlemons.com/pumpkin-chocolate-chip-cookies/",
+        "image_url": "https://cdn.loveandlemons.com/wp-content/uploads/2026/09/pumpkin-chocolate-chip-cookies-recipe.jpg",
+        "site_name": "Love and Lemons",
+        "site_url": "https://www.loveandlemons.com",
+        "cuisine": "Plant-Based",
+        "published_at": "Thu, 13 Oct 2022 12:49:18 +0000"
+      },
+      "Tue": {
+        "title": "Samosa Dip with Spiced Potatoes, Crispy Chickpeas, Chutneys and Yogurt",
+        "url": "https://www.veganricha.com/samosa-platter/",
+        "recipe_url": "https://www.veganricha.com/samosa-platter/",
+        "image_url": "https://www.veganricha.com/wp-content/uploads/2026/09/somosa-platter-veganricha-2225.jpg",
+        "site_name": "Vegan Richa",
+        "site_url": "https://www.veganricha.com",
+        "cuisine": "Indian Vegan",
+        "published_at": "Wed, 07 Oct 2026 15:19:00 +0000"
+      },
+      "Wed": {
+        "title": "Gelatin-Rich \"Liquid Gold\" Chicken Stock (Instant Pot, Pressure Cooker, or Stockpot)",
+        "url": "https://www.vietworldkitchen.com/blog/2026/10/instant-pot-chicken-stock.html",
+        "recipe_url": "https://www.vietworldkitchen.com/blog/2026/10/instant-pot-chicken-stock.html",
+        "image_url": "https://www.vietworldkitchen.com/wp-content/uploads/2026/09/chicken-stock-liquid-gold.jpeg",
+        "site_name": "Viet World Kitchen",
+        "site_url": "https://www.vietworldkitchen.com",
+        "cuisine": "Vietnamese",
+        "published_at": "Sat, 03 Oct 2026 01:26:57 +0000"
+      },
+      "Thu": {
+        "title": "Creamy Miso Curry Risotto",
+        "url": "https://whattocooktoday.com/creamy-miso-curry-risotto.html",
+        "recipe_url": "https://whattocooktoday.com/creamy-miso-curry-risotto.html",
+        "image_url": "https://whattocooktoday.com/wp-content/uploads/2026/10/creamy-miso-curry-risotto-1-1.jpg",
+        "site_name": "What To Cook Today",
+        "site_url": "https://whattocooktoday.com",
+        "cuisine": "Indonesian",
+        "published_at": "Fri, 09 Oct 2026 02:47:09 +0000"
+      },
+      "Fri": {
+        "title": "Butternut Squash Gnocchi",
+        "url": "https://www.loveandlemons.com/butternut-squash-gnocchi/",
+        "recipe_url": "https://www.loveandlemons.com/butternut-squash-gnocchi/",
+        "image_url": "https://cdn.loveandlemons.com/wp-content/uploads/2026/09/butternut-squash-gnocchi-1.jpg",
+        "site_name": "Love and Lemons",
+        "site_url": "https://www.loveandlemons.com",
+        "cuisine": "Plant-Based",
+        "published_at": "Tue, 06 Oct 2026 13:54:22 +0000"
+      },
+      "Sat": {
+        "title": "Moroccan Harira with Chickpeas and Lentils",
+        "url": "https://www.veganricha.com/moroccan-harira/",
+        "recipe_url": "https://www.veganricha.com/moroccan-harira/",
+        "image_url": "https://www.veganricha.com/wp-content/uploads/2026/09/morrocon-soup-veganricha-2439.jpg",
+        "site_name": "Vegan Richa",
+        "site_url": "https://www.veganricha.com",
+        "cuisine": "Indian Vegan",
+        "published_at": "Wed, 30 Sep 2026 15:10:00 +0000"
+      },
+      "Sun": {
+        "title": "Fudgy Red Dates Brownies",
+        "url": "https://whattocooktoday.com/red-dates-brownies.html",
+        "recipe_url": "https://whattocooktoday.com/red-dates-brownies.html",
+        "image_url": "https://whattocooktoday.com/wp-content/uploads/2026/10/fudgy-red-dates-brownies-3.jpg",
+        "site_name": "What To Cook Today",
+        "site_url": "https://whattocooktoday.com",
+        "cuisine": "Indonesian",
+        "published_at": "Fri, 09 Oct 2026 00:55:28 +0000"
+      }
+    },
+    "candidates": [
+      {
+        "title": "October Cooking Club – A Cookbook Sneak Peek!",
+        "url": "https://www.loveandlemons.com/pop-of-flavor-cooking-club/",
+        "recipe_url": "https://www.loveandlemons.com/pop-of-flavor-cooking-club/",
+        "image_url": "https://cdn.loveandlemons.com/wp-content/uploads/2026/10/cover-1.jpg",
+        "site_name": "Love and Lemons",
+        "site_url": "https://www.loveandlemons.com",
+        "cuisine": "Plant-Based",
+        "published_at": "Sun, 04 Oct 2026 16:51:32 +0000"
+      },
+      {
+        "title": "Marry Me White Bean Soup (1-Pot, 30 minutes)",
+        "url": "https://www.veganricha.com/marry-me-white-bean-soup/",
+        "recipe_url": "https://www.veganricha.com/marry-me-white-bean-soup/",
+        "image_url": "https://www.veganricha.com/wp-content/uploads/2026/09/marry-me-soup-veganricha-2367.jpg",
+        "site_name": "Vegan Richa",
+        "site_url": "https://www.veganricha.com",
+        "cuisine": "Indian Vegan",
+        "published_at": "Wed, 23 Sep 2026 16:22:30 +0000"
+      },
+      {
+        "title": "Beyond Pesto: A Guide to Thai, Holy & Lemon Basil",
+        "url": "https://www.vietworldkitchen.com/blog/2026/09/asian-basil-guide.html",
+        "recipe_url": "https://www.vietworldkitchen.com/blog/2026/09/asian-basil-guide.html",
+        "image_url": "https://www.vietworldkitchen.com/wp-content/uploads/2026/09/asian-basils-wide.jpeg",
+        "site_name": "Viet World Kitchen",
+        "site_url": "https://www.vietworldkitchen.com",
+        "cuisine": "Vietnamese",
+        "published_at": "Sat, 26 Sep 2026 03:04:59 +0000"
+      },
+      {
+        "title": "Soft Pretzels (No Boil, No Lye)",
+        "url": "https://whattocooktoday.com/soft-pretzels-no-boil-no-lye.html",
+        "recipe_url": "https://whattocooktoday.com/soft-pretzels-no-boil-no-lye.html",
+        "image_url": "https://whattocooktoday.com/wp-content/uploads/2026/10/soft-pretzels-1-1.jpg",
+        "site_name": "What To Cook Today",
+        "site_url": "https://whattocooktoday.com",
+        "cuisine": "Indonesian",
+        "published_at": "Wed, 07 Oct 2026 02:08:11 +0000"
+      },
+      {
+        "title": "Roasted Acorn Squash",
+        "url": "https://www.loveandlemons.com/roasted-acorn-squash/",
+        "recipe_url": "https://www.loveandlemons.com/roasted-acorn-squash/",
+        "image_url": "https://cdn.loveandlemons.com/wp-content/uploads/2026/09/acorn-squash-recipe.jpg",
+        "site_name": "Love and Lemons",
+        "site_url": "https://www.loveandlemons.com",
+        "cuisine": "Plant-Based",
+        "published_at": "Tue, 24 Oct 2023 13:14:32 +0000"
+      },
+      {
+        "title": "Lentil Potato Soup with Crunchy Seed Topping",
+        "url": "https://www.veganricha.com/lentil-potato-soup/",
+        "recipe_url": "https://www.veganricha.com/lentil-potato-soup/",
+        "image_url": "https://www.veganricha.com/wp-content/uploads/2026/08/lentil-soup-with-pot-VeganRicha-2099.jpg",
+        "site_name": "Vegan Richa",
+        "site_url": "https://www.veganricha.com",
+        "cuisine": "Indian Vegan",
+        "published_at": "Wed, 16 Sep 2026 14:10:00 +0000"
+      },
+      {
+        "title": "A Guide to Shrimp Crackers: How to Buy & Fry Indo and Viet Styles",
+        "url": "https://www.vietworldkitchen.com/blog/2026/09/how-to-buy-fry-shrimp-crackers.html",
+        "recipe_url": "https://www.vietworldkitchen.com/blog/2026/09/how-to-buy-fry-shrimp-crackers.html",
+        "image_url": "https://www.vietworldkitchen.com/wp-content/uploads/2026/09/shrimp-crackers-wide.jpeg",
+        "site_name": "Viet World Kitchen",
+        "site_url": "https://www.vietworldkitchen.com",
+        "cuisine": "Vietnamese",
+        "published_at": "Sun, 20 Sep 2026 00:19:36 +0000"
+      },
+      {
+        "title": "Roasted Chestnut Apple Cake",
+        "url": "https://whattocooktoday.com/roasted-chestnut-apple-cake.html",
+        "recipe_url": "https://whattocooktoday.com/roasted-chestnut-apple-cake.html",
+        "image_url": "https://whattocooktoday.com/wp-content/uploads/2026/10/Roasted-chestnut-apple-cake-1.jpg",
+        "site_name": "What To Cook Today",
+        "site_url": "https://whattocooktoday.com",
+        "cuisine": "Indonesian",
+        "published_at": "Fri, 02 Oct 2026 01:25:08 +0000"
+      },
+      {
+        "title": "French Onion Pasta",
+        "url": "https://www.loveandlemons.com/french-onion-pasta/",
+        "recipe_url": "https://www.loveandlemons.com/french-onion-pasta/",
+        "image_url": "https://cdn.loveandlemons.com/wp-content/uploads/2026/09/french-onion-pasta-recipe.jpg",
+        "site_name": "Love and Lemons",
+        "site_url": "https://www.loveandlemons.com",
+        "cuisine": "Plant-Based",
+        "published_at": "Tue, 29 Sep 2026 16:02:10 +0000"
+      },
+      {
+        "title": "Anti-inflammatory Dense Bean Salad with Creamy Lemon Yogurt Dressing",
+        "url": "https://www.veganricha.com/dense-bean-salad/",
+        "recipe_url": "https://www.veganricha.com/dense-bean-salad/",
+        "image_url": "https://www.veganricha.com/wp-content/uploads/2026/07/dbs-veganricha-1903.jpg",
+        "site_name": "Vegan Richa",
+        "site_url": "https://www.veganricha.com",
+        "cuisine": "Indian Vegan",
+        "published_at": "Wed, 09 Sep 2026 13:24:00 +0000"
+      },
+      {
+        "title": "Vegan Whipped Cream Topping That Actually Holds: Creamy, Light and Dreamy",
+        "url": "https://www.vietworldkitchen.com/blog/2026/09/vegan-whipped-cream-topping.html",
+        "recipe_url": "https://www.vietworldkitchen.com/blog/2026/09/vegan-whipped-cream-topping.html",
+        "image_url": "https://www.vietworldkitchen.com/wp-content/uploads/2026/09/vegan-whipped-topping-wide.jpeg",
+        "site_name": "Viet World Kitchen",
+        "site_url": "https://www.vietworldkitchen.com",
+        "cuisine": "Vietnamese",
+        "published_at": "Sat, 05 Sep 2026 19:42:26 +0000"
+      },
+      {
+        "title": "Easy Puff Pastry Scallion Pancakes",
+        "url": "https://whattocooktoday.com/puff-pastry-scallion-pancakes.html",
+        "recipe_url": "https://whattocooktoday.com/puff-pastry-scallion-pancakes.html",
+        "image_url": "https://whattocooktoday.com/wp-content/uploads/2026/09/puff-pastry-scallion-pancakes-1.jpg",
+        "site_name": "What To Cook Today",
+        "site_url": "https://whattocooktoday.com",
+        "cuisine": "Indonesian",
+        "published_at": "Wed, 30 Sep 2026 02:37:09 +0000"
+      },
+      {
+        "title": "Pumpkin Soup",
+        "url": "https://www.loveandlemons.com/pumpkin-soup-recipe/",
+        "recipe_url": "https://www.loveandlemons.com/pumpkin-soup-recipe/",
+        "image_url": "https://cdn.loveandlemons.com/wp-content/uploads/2020/09/pumpkin-soup-recipe.jpg",
+        "site_name": "Love and Lemons",
+        "site_url": "https://www.loveandlemons.com",
+        "cuisine": "Plant-Based",
+        "published_at": "Tue, 10 Oct 2023 13:20:32 +0000"
+      },
+      {
+        "title": "Creamy Garlic Pepper Beans with Crispy Chickpea Crumble",
+        "url": "https://www.veganricha.com/pepper-beans/",
+        "recipe_url": "https://www.veganricha.com/pepper-beans/",
+        "image_url": "https://www.veganricha.com/wp-content/uploads/2026/08/pepper-beans-VeganRicha-2035-copy.jpg",
+        "site_name": "Vegan Richa",
+        "site_url": "https://www.veganricha.com",
+        "cuisine": "Indian Vegan",
+        "published_at": "Wed, 02 Sep 2026 13:30:00 +0000"
+      },
+      {
+        "title": "Nampla Prik, a 1-Minute Thai Wonder Sauce to Brighten Many Foods",
+        "url": "https://www.vietworldkitchen.com/blog/2026/09/nampla-prik-sauce-recipe.html",
+        "recipe_url": "https://www.vietworldkitchen.com/blog/2026/09/nampla-prik-sauce-recipe.html",
+        "image_url": "https://www.vietworldkitchen.com/wp-content/uploads/2026/09/PadGapraoNuea_BougiePadGapraowide.jpg",
+        "site_name": "Viet World Kitchen",
+        "site_url": "https://www.vietworldkitchen.com",
+        "cuisine": "Vietnamese",
+        "published_at": "Wed, 02 Sep 2026 19:34:02 +0000"
+      },
+      {
+        "title": "Easy Pork Tenderloin with Soy Ginger Sauce (Stovetop)",
+        "url": "https://whattocooktoday.com/easy-pork-tenderloin-with-soy-ginger-sauce.html",
+        "recipe_url": "https://whattocooktoday.com/easy-pork-tenderloin-with-soy-ginger-sauce.html",
+        "image_url": "https://whattocooktoday.com/wp-content/uploads/2026/09/Easy-pork-tenderloin-with-soy-ginger-sauce-1.jpg",
+        "site_name": "What To Cook Today",
+        "site_url": "https://whattocooktoday.com",
+        "cuisine": "Indonesian",
+        "published_at": "Fri, 25 Sep 2026 03:15:43 +0000"
+      },
+      {
+        "title": "Roasted Delicata Squash",
+        "url": "https://www.loveandlemons.com/roasted-delicata-squash/",
+        "recipe_url": "https://www.loveandlemons.com/roasted-delicata-squash/",
+        "image_url": "https://cdn.loveandlemons.com/wp-content/uploads/2017/11/delicata-squash-recipes.jpg",
+        "site_name": "Love and Lemons",
+        "site_url": "https://www.loveandlemons.com",
+        "cuisine": "Plant-Based",
+        "published_at": "Tue, 13 Oct 2020 13:17:53 +0000"
+      },
+      {
+        "title": "Jeera Dal (Indian Cumin-Scented Lentil Dahl)",
+        "url": "https://www.veganricha.com/jeera-dal/",
+        "recipe_url": "https://www.veganricha.com/jeera-dal/",
+        "image_url": "https://www.veganricha.com/wp-content/uploads/2026/07/2026_03_03-jeera-dal-29627.jpg",
+        "site_name": "Vegan Richa",
+        "site_url": "https://www.veganricha.com",
+        "cuisine": "Indian Vegan",
+        "published_at": "Thu, 27 Aug 2026 13:04:00 +0000"
+      },
+      {
+        "title": "Basic Salty, Spicy Condiments and Seasonings for Cooking Thai Food",
+        "url": "https://www.vietworldkitchen.com/blog/2026/08/basic-salty-and-spicy-condiments-and-seasonings-for-cooking-thai-food.html",
+        "recipe_url": "https://www.vietworldkitchen.com/blog/2026/08/basic-salty-and-spicy-condiments-and-seasonings-for-cooking-thai-food.html",
+        "image_url": "https://www.vietworldkitchen.com/wp-content/uploads/2026/08/Pantry_SavorySauces_Salt-wide.jpeg",
+        "site_name": "Viet World Kitchen",
+        "site_url": "https://www.vietworldkitchen.com",
+        "cuisine": "Vietnamese",
+        "published_at": "Fri, 28 Aug 2026 23:04:26 +0000"
+      },
+      {
+        "title": "Mie Goreng Noodle Buns",
+        "url": "https://whattocooktoday.com/mie-goreng-noodle-buns.html",
+        "recipe_url": "https://whattocooktoday.com/mie-goreng-noodle-buns.html",
+        "image_url": "https://whattocooktoday.com/wp-content/uploads/2026/09/mie-goreng-noodle-buns-1.jpg",
+        "site_name": "What To Cook Today",
+        "site_url": "https://whattocooktoday.com",
+        "cuisine": "Indonesian",
+        "published_at": "Thu, 17 Sep 2026 02:58:47 +0000"
+      }
+    ],
+    "generated_at": "2026-10-12T04:35:01Z"
   }
 ]
