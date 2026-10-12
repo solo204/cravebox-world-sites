@@ -357,7 +357,7 @@
     "cuisine": "Lebanese",
     "tagline": "Fresh wholesome recipes with Middle Eastern flair.",
     "image_url": "https://feelgoodfoodie.net/wp-content/uploads/2026/08/Lebanese-Lentil-Soup-TIMG.jpg",
-    "rss_url": "https://feelgoodfoodie.net/feed/"
+    "rss_url": "https://feelgoodfoodie.net/recipe/feed/"
   },
   {
     "name": "WoonHeng",
@@ -422,5 +422,517 @@
     "tagline": "Comfort Food That Feels Like Home",
     "image_url": "https://updatedrecipes.com/wp-content/uploads/2026/05/roasted-king-salmon-lemon-butter-recipe-768x512.webp",
     "rss_url": "https://updatedrecipes.com/feed/"
+  },
+  {
+    "name": "Chef Lola's Kitchen",
+    "url": "https://cheflolaskitchen.com",
+    "cuisine": "Nigerian",
+    "tagline": "Authentic Nigerian recipes for everyday cooking.",
+    "image_url": "",
+    "rss_url": "https://cheflolaskitchen.com/feed/"
+  },
+  {
+    "name": "Afrolems",
+    "url": "https://afrolems.com",
+    "cuisine": "Nigerian",
+    "tagline": "Creative Nigerian recipes for international palates.",
+    "image_url": "",
+    "rss_url": "https://afrolems.com/feed/"
+  },
+  {
+    "name": "Kaluhi's Kitchen",
+    "url": "https://kaluhiskitchen.com",
+    "cuisine": "Kenyan",
+    "tagline": "Stunning Kenyan recipes with award-winning photography.",
+    "image_url": "",
+    "rss_url": "https://kaluhiskitchen.com/feed/"
+  },
+  {
+    "name": "Drizzle and Dip",
+    "url": "https://drizzleanddip.com",
+    "cuisine": "South African",
+    "tagline": "Cape Malay and South African cooking from a pro food stylist.",
+    "image_url": "",
+    "rss_url": "https://drizzleanddip.com/feed/"
+  },
+  {
+    "name": "Simply Delicious",
+    "url": "https://simply-delicious-food.com",
+    "cuisine": "South African",
+    "tagline": "Peri-peri, bobotie, and South African classics made simple.",
+    "image_url": "",
+    "rss_url": "https://simply-delicious-food.com/feed/"
+  },
+  {
+    "name": "Omnivore's Cookbook",
+    "url": "https://omnivorescookbook.com",
+    "cuisine": "Chinese",
+    "tagline": "Authentic Chinese home cooking since 2013.",
+    "image_url": "",
+    "rss_url": "https://omnivorescookbook.com/feed/"
+  },
+  {
+    "name": "Red House Spice",
+    "url": "https://redhousespice.com",
+    "cuisine": "Chinese",
+    "tagline": "Vibrant Chinese recipes rooted in home tradition.",
+    "image_url": "",
+    "rss_url": "https://redhousespice.com/feed/"
+  },
+  {
+    "name": "China Sichuan Food",
+    "url": "https://chinasichuanfood.com",
+    "cuisine": "Sichuan Chinese",
+    "tagline": "Authentic Sichuan flavors with step-by-step guidance.",
+    "image_url": "",
+    "rss_url": "https://chinasichuanfood.com/feed/"
+  },
+  {
+    "name": "Just One Cookbook",
+    "url": "https://justonecookbook.com",
+    "cuisine": "Japanese",
+    "tagline": "The most popular English-language Japanese recipe site.",
+    "image_url": "",
+    "rss_url": "https://justonecookbook.com/feed/"
+  },
+  {
+    "name": "RecipeTin Japan",
+    "url": "https://japan.recipetineats.com",
+    "cuisine": "Japanese",
+    "tagline": "Authentic Japanese home cooking from a native cook.",
+    "image_url": "",
+    "rss_url": "https://japan.recipetineats.com/feed/"
+  },
+  {
+    "name": "My Korean Kitchen",
+    "url": "https://mykoreankitchen.com",
+    "cuisine": "Korean",
+    "tagline": "Step-by-step authentic Korean recipes for everyone.",
+    "image_url": "",
+    "rss_url": "https://mykoreankitchen.com/feed/"
+  },
+  {
+    "name": "Korean Bapsang",
+    "url": "https://koreanbapsang.com",
+    "cuisine": "Korean",
+    "tagline": "Traditional Korean home cooking since 2009.",
+    "image_url": "",
+    "rss_url": "https://koreanbapsang.com/feed/"
+  },
+  {
+    "name": "The Polonist",
+    "url": "https://polonist.com",
+    "cuisine": "Polish",
+    "tagline": "Beautiful, authentic Polish recipes with stunning visuals.",
+    "image_url": "",
+    "rss_url": "https://polonist.com/feed/"
+  },
+  {
+    "name": "Polish Your Kitchen",
+    "url": "https://polishyourkitchen.com",
+    "cuisine": "Polish",
+    "tagline": "Traditional Polish recipes from a Polish-American cook.",
+    "image_url": "",
+    "rss_url": "https://polishyourkitchen.com/feed/"
+  },
+  {
+    "name": "Polish Housewife",
+    "url": "https://polishhousewife.com",
+    "cuisine": "Polish",
+    "tagline": "Classic Polish recipes every week from an American Polonophile.",
+    "image_url": "",
+    "rss_url": "https://polishhousewife.com/feed/"
+  },
+  {
+    "name": "Cook Like Czechs",
+    "url": "https://cooklikeczechs.com",
+    "cuisine": "Czech",
+    "tagline": "Czech, Slovak, and Central European recipes done right.",
+    "image_url": "",
+    "rss_url": "https://cooklikeczechs.com/feed/"
+  },
+  {
+    "name": "Tatyana's Everyday Food",
+    "url": "https://tatyanaseverydayfood.com",
+    "cuisine": "Ukrainian",
+    "tagline": "Ukrainian and Eastern European classics from a TODAY Show chef.",
+    "image_url": "",
+    "rss_url": "https://tatyanaseverydayfood.com/feed/"
+  },
+  {
+    "name": "Vikalinka",
+    "url": "https://vikalinka.com",
+    "cuisine": "Russian",
+    "tagline": "Russian-inspired cooking featured in NYT and Forbes.",
+    "image_url": "",
+    "rss_url": "https://vikalinka.com/feed/"
+  },
+  {
+    "name": "Dirndl Kitchen",
+    "url": "https://dirndlkitchen.com",
+    "cuisine": "German",
+    "tagline": "Authentic German recipes from a Trier native.",
+    "image_url": "",
+    "rss_url": "https://dirndlkitchen.com/feed/"
+  },
+  {
+    "name": "Little Vienna",
+    "url": "https://lilvienna.com",
+    "cuisine": "Austrian",
+    "tagline": "Apfelstrudel, Schnitzel, and Viennese classics at home.",
+    "image_url": "",
+    "rss_url": "https://lilvienna.com/feed/"
+  },
+  {
+    "name": "Scandicuisine",
+    "url": "https://scandicuisine.com",
+    "cuisine": "Scandinavian",
+    "tagline": "Finnish and Swedish recipes with cultural history.",
+    "image_url": "",
+    "rss_url": "https://scandicuisine.com/feed/"
+  },
+  {
+    "name": "Supergolden Bakes",
+    "url": "https://supergoldenbakes.com",
+    "cuisine": "British",
+    "tagline": "British baking and family meals by a Vuelio Top 10 blogger.",
+    "image_url": "",
+    "rss_url": "https://supergoldenbakes.com/feed/"
+  },
+  {
+    "name": "Jane's Patisserie",
+    "url": "https://janespatisserie.com",
+    "cuisine": "British",
+    "tagline": "Britain's #1 baking blog — traybakes, cheesecakes, and classics.",
+    "image_url": "",
+    "rss_url": "https://janespatisserie.com/feed/"
+  },
+  {
+    "name": "The Curry Guy",
+    "url": "https://greatcurryrecipes.net",
+    "cuisine": "British Indian",
+    "tagline": "Restaurant-style British-Indian curries made at home.",
+    "image_url": "",
+    "rss_url": "https://greatcurryrecipes.net/feed/"
+  },
+  {
+    "name": "A Spanish Bite",
+    "url": "https://aspanishbite.com",
+    "cuisine": "Spanish",
+    "tagline": "Authentic Spanish tapas, paella, and seasonal dishes.",
+    "image_url": "",
+    "rss_url": "https://aspanishbite.com/feed/"
+  },
+  {
+    "name": "Leite's Culinaria",
+    "url": "https://leitesculinaria.com",
+    "cuisine": "Portuguese",
+    "tagline": "James Beard Award–winning Portuguese and global recipes.",
+    "image_url": "",
+    "rss_url": "https://leitesculinaria.com/feed/"
+  },
+  {
+    "name": "Veggie Desserts",
+    "url": "https://veggiedesserts.com",
+    "cuisine": "British",
+    "tagline": "Creative vegetable-based baking and desserts.",
+    "image_url": "",
+    "rss_url": "https://veggiedesserts.com/feed/"
+  },
+  {
+    "name": "Iankewks",
+    "url": "https://iankewks.com",
+    "cuisine": "Filipino",
+    "tagline": "Clean editorial Filipino and Asian recipes with 733K IG followers.",
+    "image_url": "",
+    "rss_url": "https://iankewks.com/feed/"
+  },
+  {
+    "name": "Manila Spoon",
+    "url": "https://manilaspoon.com",
+    "cuisine": "Filipino",
+    "tagline": "Filipino classics featured on Food Network and BuzzFeed.",
+    "image_url": "",
+    "rss_url": "https://manilaspoon.com/feed/"
+  },
+  {
+    "name": "Umami Days",
+    "url": "https://cooking.umamidays.com",
+    "cuisine": "Filipino",
+    "tagline": "Filipino, Korean, and Japanese recipes with naturalistic photography.",
+    "image_url": "",
+    "rss_url": "https://cooking.umamidays.com/feed/"
+  },
+  {
+    "name": "So Yummy Recipes",
+    "url": "https://soyummyrecipes.com",
+    "cuisine": "Indonesian",
+    "tagline": "Indonesian home cooking featured in Bon Appétit and Al Jazeera.",
+    "image_url": "",
+    "rss_url": "https://soyummyrecipes.com/feed/"
+  },
+  {
+    "name": "My Colombian Recipes",
+    "url": "https://mycolombianrecipes.com",
+    "cuisine": "Colombian",
+    "tagline": "The largest Colombian recipe collection in English.",
+    "image_url": "",
+    "rss_url": "https://mycolombianrecipes.com/feed/"
+  },
+  {
+    "name": "The Foreign Fork",
+    "url": "https://foreignfork.com",
+    "cuisine": "Latin American",
+    "tagline": "Argentine, Peruvian, Chilean, and pan-Latin recipes weekly.",
+    "image_url": "",
+    "rss_url": "https://foreignfork.com/feed/"
+  },
+  {
+    "name": "Dominican Cooking",
+    "url": "https://dominicancooking.com",
+    "cuisine": "Dominican",
+    "tagline": "The oldest and largest Dominican recipe website in English.",
+    "image_url": "",
+    "rss_url": "https://dominicancooking.com/feed/"
+  },
+  {
+    "name": "Delish D'Lites",
+    "url": "https://delishdlites.com",
+    "cuisine": "Puerto Rican",
+    "tagline": "Puerto Rican recipes from scratch by Jannese Torres.",
+    "image_url": "",
+    "rss_url": "https://delishdlites.com/feed/"
+  },
+  {
+    "name": "The Noshery",
+    "url": "https://thenoshery.com",
+    "cuisine": "Puerto Rican",
+    "tagline": "Puerto Rican recipes from scratch since 2008.",
+    "image_url": "",
+    "rss_url": "https://thenoshery.com/feed/"
+  },
+  {
+    "name": "Pilar's Chilean Food",
+    "url": "https://chileanfoodandgarden.com",
+    "cuisine": "Chilean",
+    "tagline": "Authentic Chilean recipes with cookbook credentials.",
+    "image_url": "",
+    "rss_url": "https://chileanfoodandgarden.com/feed/"
+  },
+  {
+    "name": "Mommy's Home Cooking",
+    "url": "https://mommyshomecooking.com",
+    "cuisine": "Venezuelan",
+    "tagline": "Venezuelan and Latin recipes from a Caracas-born cook.",
+    "image_url": "",
+    "rss_url": "https://mommyshomecooking.com/feed/"
+  },
+  {
+    "name": "Give Recipe",
+    "url": "https://giverecipe.com",
+    "cuisine": "Turkish",
+    "tagline": "The best Turkish food blog in English — kebabs to mezes.",
+    "image_url": "",
+    "rss_url": "https://giverecipe.com/feed/"
+  },
+  {
+    "name": "Ozlem's Turkish Table",
+    "url": "https://ozlemsturkishtable.com",
+    "cuisine": "Turkish",
+    "tagline": "Award-winning Turkish recipes from a Gourmand cookbook author.",
+    "image_url": "",
+    "rss_url": "https://ozlemsturkishtable.com/feed/"
+  },
+  {
+    "name": "Cooking Gorgeous",
+    "url": "https://cookingorgeous.com",
+    "cuisine": "Turkish",
+    "tagline": "Turkish and Mediterranean dishes, FeedSpot #1 Turkish blog.",
+    "image_url": "",
+    "rss_url": "https://cookingorgeous.com/feed/"
+  },
+  {
+    "name": "My Persian Kitchen",
+    "url": "https://mypersiankitchen.com",
+    "cuisine": "Persian",
+    "tagline": "FeedSpot #1 Persian food blog in English.",
+    "image_url": "",
+    "rss_url": "https://mypersiankitchen.com/feed/"
+  },
+  {
+    "name": "Persian Mama",
+    "url": "https://persianmama.com",
+    "cuisine": "Persian",
+    "tagline": "Step-by-step Persian recipes with beautiful photo tutorials.",
+    "image_url": "",
+    "rss_url": "https://persianmama.com/feed/"
+  },
+  {
+    "name": "Family Spice",
+    "url": "https://familyspice.com",
+    "cuisine": "Persian",
+    "tagline": "500+ family-friendly recipes with Persian flair.",
+    "image_url": "",
+    "rss_url": "https://familyspice.com/feed/"
+  },
+  {
+    "name": "The Matbakh",
+    "url": "https://thematbakh.com",
+    "cuisine": "Lebanese",
+    "tagline": "Lebanese, Egyptian, and Syrian recipes in one kitchen.",
+    "image_url": "",
+    "rss_url": "https://thematbakh.com/feed/"
+  },
+  {
+    "name": "Amira's Pantry",
+    "url": "https://amiraspantry.com",
+    "cuisine": "Egyptian",
+    "tagline": "Egyptian and Middle Eastern recipes from an Egyptian-born cook.",
+    "image_url": "",
+    "rss_url": "https://amiraspantry.com/feed/"
+  },
+  {
+    "name": "The Little Ferraro Kitchen",
+    "url": "https://littleferrarokitchen.com",
+    "cuisine": "Jewish / Middle Eastern",
+    "tagline": "Sephardic, Israeli, Persian, and Turkish recipes under one roof.",
+    "image_url": "",
+    "rss_url": "https://littleferrarokitchen.com/feed/"
+  },
+  {
+    "name": "Marion's Kitchen",
+    "url": "https://marionskitchen.com",
+    "cuisine": "Asian-Australian",
+    "tagline": "Thai, Korean, and pan-Asian recipes with professional photography.",
+    "image_url": "",
+    "rss_url": "https://marionskitchen.com/feed/"
+  },
+  {
+    "name": "Not Quite Nigella",
+    "url": "https://notquitenigella.com",
+    "cuisine": "Australian",
+    "tagline": "2000+ Australian recipes covering Japanese, Indian, and French.",
+    "image_url": "",
+    "rss_url": "https://notquitenigella.com/feed/"
+  },
+  {
+    "name": "Cafe Delites",
+    "url": "https://cafedelites.com",
+    "cuisine": "Australian",
+    "tagline": "Visually striking one-pan family meals from Sydney.",
+    "image_url": "",
+    "rss_url": "https://cafedelites.com/feed/"
+  },
+  {
+    "name": "Cloudy Kitchen",
+    "url": "https://cloudykitchen.com",
+    "cuisine": "New Zealand",
+    "tagline": "Rigorously tested NZ baking and desserts — Saveur finalist.",
+    "image_url": "",
+    "rss_url": "https://cloudykitchen.com/feed/"
+  },
+  {
+    "name": "Tea For Turmeric",
+    "url": "https://teaforturmeric.com",
+    "cuisine": "Pakistani",
+    "tagline": "Pakistani recipes featured in NPR, Parade, and Saveur.",
+    "image_url": "",
+    "rss_url": "https://teaforturmeric.com/feed/"
+  },
+  {
+    "name": "Flour & Spice",
+    "url": "https://flourandspiceblog.com",
+    "cuisine": "Pakistani",
+    "tagline": "Near-professional Pakistani cooking from a Canadian-Pakistani blogger.",
+    "image_url": "",
+    "rss_url": "https://flourandspiceblog.com/feed/"
+  },
+  {
+    "name": "Island Smile",
+    "url": "https://islandsmile.org",
+    "cuisine": "Sri Lankan",
+    "tagline": "Nearly all Sri Lankan — 49 pages of curries, desserts, and snacks.",
+    "image_url": "",
+    "rss_url": "https://islandsmile.org/feed/"
+  },
+  {
+    "name": "The Flavor Bender",
+    "url": "https://theflavorbender.com",
+    "cuisine": "Sri Lankan",
+    "tagline": "Sri Lankan curries and multi-cuisine cooking with pro photography.",
+    "image_url": "",
+    "rss_url": "https://theflavorbender.com/feed/"
+  },
+  {
+    "name": "Serious Eats",
+    "url": "https://seriouseats.com",
+    "cuisine": "American",
+    "tagline": "In-depth tested recipes and food science — the benchmark.",
+    "image_url": "",
+    "rss_url": "https://seriouseats.com/feed"
+  },
+  {
+    "name": "Simply Recipes",
+    "url": "https://simplyrecipes.com",
+    "cuisine": "American",
+    "tagline": "Approachable everyday recipes across all cuisines.",
+    "image_url": "",
+    "rss_url": "https://simplyrecipes.com/feed/"
+  },
+  {
+    "name": "Two Peas and Their Pod",
+    "url": "https://twopeasandtheirpod.com",
+    "cuisine": "American",
+    "tagline": "Family cooking with 200+ cookie recipes.",
+    "image_url": "",
+    "rss_url": "https://twopeasandtheirpod.com/feed/"
+  },
+  {
+    "name": "Gimme Some Oven",
+    "url": "https://gimmesomeoven.com",
+    "cuisine": "American",
+    "tagline": "Everything from Vietnamese noodles to peanut butter cookies.",
+    "image_url": "",
+    "rss_url": "https://gimmesomeoven.com/feed/"
+  },
+  {
+    "name": "What's Gaby Cooking",
+    "url": "https://whatsgabycooking.com",
+    "cuisine": "American",
+    "tagline": "California-style cooking and entertaining by Gaby Dalkin.",
+    "image_url": "",
+    "rss_url": "https://whatsgabycooking.com/feed/"
+  },
+  {
+    "name": "AmazingRibs",
+    "url": "https://amazingribs.com",
+    "cuisine": "BBQ",
+    "tagline": "The definitive BBQ guide — 2000+ pages, Library of Congress archived.",
+    "image_url": "",
+    "rss_url": "https://amazingribs.com/feed/"
+  },
+  {
+    "name": "Hey Grill Hey",
+    "url": "https://heygrillhey.com",
+    "cuisine": "BBQ",
+    "tagline": "550+ grilling and smoking recipes by Susie Bulloch.",
+    "image_url": "",
+    "rss_url": "https://heygrillhey.com/feed/"
+  },
+  {
+    "name": "King Arthur Baking Blog",
+    "url": "https://kingarthurbaking.com/blog",
+    "cuisine": "Baking",
+    "tagline": "Fully free, massively tested baking recipes from King Arthur.",
+    "image_url": "",
+    "rss_url": "https://kingarthurbaking.com/blog/feed/"
+  },
+  {
+    "name": "Weekday Pescatarian",
+    "url": "https://weekdaypescatarian.com",
+    "cuisine": "Seafood",
+    "tagline": "400+ tested seafood recipes built around grocery-store fish.",
+    "image_url": "",
+    "rss_url": "https://weekdaypescatarian.com/feed/"
   }
 ]
