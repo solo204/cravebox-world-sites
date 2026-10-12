@@ -655,7 +655,7 @@ function renderWeek(week, wi) {
     : currentSlot;
   const isNextUp = wi === liveIdx + 1;
   const isActive = isLive;
-  const start = new Date(week.starts + 'T00:00:00Z');
+  const start = new Date(week.starts.length === 10 ? week.starts + 'T00:00:00Z' : week.starts);
   const end   = new Date(start); end.setDate(end.getDate()+6);
   const fmt   = d => d.toLocaleDateString('en-US',{month:'short',day:'numeric'});
   const usedUrls = new Set(
