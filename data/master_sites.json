@@ -869,7 +869,7 @@
     "cuisine": "American",
     "tagline": "In-depth tested recipes and food science — the benchmark.",
     "image_url": "https://www.seriouseats.com/thmb/2eDheo2F1-nYEbQxZLGUiPjqhRs=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/Serious_Eats_Social_Default-72cf0bc11b434461b62c6ffc85b4298f.jpg",
-    "rss_url": "https://www.seriouseats.com/feeds/all/rss.xml"
+    "rss_url": "https://feeds-api.dotdashmeredith.com/v1/rss/google/ad57d421-0ff5-41e7-a5da-f2167b6d7f7a"
   },
   {
     "name": "Simply Recipes",
