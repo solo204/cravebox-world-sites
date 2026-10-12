@@ -920,12 +920,12 @@
     "rss_url": "https://heygrillhey.com/feed/"
   },
   {
-    "name": "King Arthur Baking Blog",
-    "url": "https://kingarthurbaking.com/blog",
+    "name": "Sally's Baking Addiction",
+    "url": "https://sallysbakingaddiction.com",
     "cuisine": "Baking",
-    "tagline": "Fully free, massively tested baking recipes from King Arthur.",
-    "image_url": "https://www.kingarthurbaking.com/sites/default/files/styles/featured_image/public/2026-08/Pumpkin-Snickerdoodle-Cookies_FALL-26_BOTW_2026_Action_H_0693.jpg?itok=y0EaYbqh",
-    "rss_url": "https://kingarthurbaking.com/blog/feed/"
+    "tagline": "Trusted, approachable baking recipes from a self-taught baker.",
+    "image_url": "https://sallysbakingaddiction.com/wp-content/uploads/2026/09/maple-oat-scones.jpg",
+    "rss_url": "https://sallysbakingaddiction.com/feed/"
   },
   {
     "name": "Weekday Pescatarian",
