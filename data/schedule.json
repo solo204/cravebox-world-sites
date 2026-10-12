@@ -5381,12 +5381,12 @@
         "rss_url": "https://mykoreankitchen.com/feed/"
       },
       {
-        "name": "Alica's Pepperpot",
-        "url": "https://www.alicaspepperpot.com",
-        "cuisine": "Caribbean",
-        "tagline": "Authentic Caribbean and Guyanese home cooking.",
-        "image_url": "https://www.alicaspepperpot.com/wp-content/uploads/2026/08/Small-batch-Channa-Curry-curry-in-pot.jpg",
-        "rss_url": "https://www.alicaspepperpot.com/feed/"
+        "name": "Damn Delicious",
+        "url": "https://damndelicious.net",
+        "cuisine": "American",
+        "tagline": "Quick and easy recipes for every occasion.",
+        "image_url": "https://damndelicious.net/wp-content/uploads/2026/09/Cheeseburger-Sliders-scaled.jpg",
+        "rss_url": "https://damndelicious.net/feed/"
       },
       {
         "name": "Feel Good Foodie",
@@ -5449,14 +5449,12 @@
         "url": "https://feelgoodfoodie.net/recipe/persian-love-cake/"
       },
       "Sun": {
-        "title": "Small Batch Guyanese Chicken Cookup Rice",
-        "url": "https://www.alicaspepperpot.com/small-batch-guyanese-chicken-cookup-rice/",
-        "recipe_url": "https://www.alicaspepperpot.com/small-batch-guyanese-chicken-cookup-rice/",
-        "image_url": "https://www.alicaspepperpot.com/wp-content/uploads/2026/07/Small_Batch_Guyanese_Chicken_Cookup_Rice_1200x1200.jpg",
-        "site_name": "Alica's Pepperpot",
-        "site_url": "https://www.alicaspepperpot.com",
-        "cuisine": "Caribbean",
-        "published_at": "Wed, 08 Jul 2026 22:49:26 +0000"
+        "cuisine": "American",
+        "image_url": "https://damndelicious.net/wp-content/uploads/2026/03/Chicken-Fajitas-Quesadillas_545-768x1152.jpg",
+        "recipe_url": "https://damndelicious.net/2026/06/12/chicken-fajita-quesadillas/",
+        "site_name": "Damn Delicious",
+        "title": "Chicken Fajita Quesadillas",
+        "url": "https://damndelicious.net/2026/06/12/chicken-fajita-quesadillas/"
       }
     },
     "candidates": [
@@ -5541,84 +5539,84 @@
         "cuisine": "Korean"
       },
       {
-        "title": "Small Batch Channa and Aloo Curry (chickpea and potato)",
-        "url": "https://www.alicaspepperpot.com/small-batch-channa-and-aloo-curry-chickpea-and-potato/",
-        "recipe_url": "https://www.alicaspepperpot.com/small-batch-channa-and-aloo-curry-chickpea-and-potato/",
-        "image_url": "https://www.alicaspepperpot.com/wp-content/uploads/2026/08/Small-Batch-Channa-Curry-thumbnail.jpg",
-        "site_name": "Alica's Pepperpot",
-        "cuisine": "Caribbean"
+        "title": "Cheeseburger Sliders",
+        "url": "https://damndelicious.net/2026/09/18/cheeseburger-sliders/",
+        "recipe_url": "https://damndelicious.net/2026/09/18/cheeseburger-sliders/",
+        "image_url": "https://damndelicious.net/wp-content/uploads/2026/08/260712_DD_cheeseburger-sliders_525-768x1151.jpg",
+        "site_name": "Damn Delicious",
+        "cuisine": "American"
       },
       {
-        "title": "Small Batch Guyanese Chicken Cookup Rice",
-        "url": "https://www.alicaspepperpot.com/small-batch-guyanese-chicken-cookup-rice/",
-        "recipe_url": "https://www.alicaspepperpot.com/small-batch-guyanese-chicken-cookup-rice/",
-        "image_url": "https://www.alicaspepperpot.com/wp-content/uploads/2026/07/Small_Batch_Guyanese_Chicken_Cookup_Rice_1200x1200.jpg",
-        "site_name": "Alica's Pepperpot",
-        "cuisine": "Caribbean"
+        "title": "30+ Cheap and Easy Dinners",
+        "url": "https://damndelicious.net/2026/09/08/cheap-and-easy-dinners/",
+        "recipe_url": "https://damndelicious.net/2026/09/08/cheap-and-easy-dinners/",
+        "image_url": "https://damndelicious.net/wp-content/uploads/2018/09/Creamy-Beef-and-ShellsIMG_6408.jpg",
+        "site_name": "Damn Delicious",
+        "cuisine": "American"
       },
       {
-        "title": "Guyanese Bara Recipe",
-        "url": "https://www.alicaspepperpot.com/guyanese-bara-recipe/",
-        "recipe_url": "https://www.alicaspepperpot.com/guyanese-bara-recipe/",
-        "image_url": "https://www.alicaspepperpot.com/wp-content/uploads/2026/06/Bara-for-thumbnail.png",
-        "site_name": "Alica's Pepperpot",
-        "cuisine": "Caribbean"
+        "title": "Air Fryer Chicken",
+        "url": "https://damndelicious.net/2026/09/04/air-fryer-chicken/",
+        "recipe_url": "https://damndelicious.net/2026/09/04/air-fryer-chicken/",
+        "image_url": "https://damndelicious.net/wp-content/uploads/2026/06/260401_DD_air-fryer-chicken_704-768x1152.jpg",
+        "site_name": "Damn Delicious",
+        "cuisine": "American"
       },
       {
-        "title": "British Fish and Chips Recipe (From My British-Guyanese Cousin)",
-        "url": "https://www.alicaspepperpot.com/british-fish-and-chips-recipe-from-my-british-guyanese-cousin/",
-        "recipe_url": "https://www.alicaspepperpot.com/british-fish-and-chips-recipe-from-my-british-guyanese-cousin/",
-        "image_url": "https://www.alicaspepperpot.com/wp-content/uploads/2026/06/Homemade-Fish-and-chips-in-mesh-baskets-with-malt-vinegar-and-beer-hero-pic.jpg",
-        "site_name": "Alica's Pepperpot",
-        "cuisine": "Caribbean"
+        "title": "Honey BBQ Chicken Bites",
+        "url": "https://damndelicious.net/2026/08/21/honey-bbq-chicken-bites/",
+        "recipe_url": "https://damndelicious.net/2026/08/21/honey-bbq-chicken-bites/",
+        "image_url": "https://damndelicious.net/wp-content/uploads/2026/06/251218_DD_Honey-BBQ-Chicken-Bites_691-768x1152.jpg",
+        "site_name": "Damn Delicious",
+        "cuisine": "American"
       },
       {
-        "title": "Small Batch Chicken Chow Mein",
-        "url": "https://www.alicaspepperpot.com/small-batch-chicken-chow-mein/",
-        "recipe_url": "https://www.alicaspepperpot.com/small-batch-chicken-chow-mein/",
-        "image_url": "https://www.alicaspepperpot.com/wp-content/uploads/2026/06/Small-batch-chicken-chow-mein-chow.-mein-in-wok.jpg",
-        "site_name": "Alica's Pepperpot",
-        "cuisine": "Caribbean"
+        "title": "30+ Easy Grilling Recipes for Summer",
+        "url": "https://damndelicious.net/2026/08/11/easy-grilling-recipes-for-summer/",
+        "recipe_url": "https://damndelicious.net/2026/08/11/easy-grilling-recipes-for-summer/",
+        "image_url": "https://damndelicious.net/wp-content/uploads/2023/05/230125_DD_Grilled-BBQ-Chx_349-768x1152.jpg",
+        "site_name": "Damn Delicious",
+        "cuisine": "American"
       },
       {
-        "title": "Small Batch Sada Roti",
-        "url": "https://www.alicaspepperpot.com/small-batch-sada-roti/",
-        "recipe_url": "https://www.alicaspepperpot.com/small-batch-sada-roti/",
-        "image_url": "https://www.alicaspepperpot.com/wp-content/uploads/2026/05/Small-Batch-sada-roti-two-rotis.jpg",
-        "site_name": "Alica's Pepperpot",
-        "cuisine": "Caribbean"
+        "title": "Marry Me Chicken",
+        "url": "https://damndelicious.net/2026/07/24/marry-me-chicken/",
+        "recipe_url": "https://damndelicious.net/2026/07/24/marry-me-chicken/",
+        "image_url": "https://damndelicious.net/wp-content/uploads/2026/05/250409_DD_Marry-Me-Chicken_607-768x1152.jpg",
+        "site_name": "Damn Delicious",
+        "cuisine": "American"
       },
       {
-        "title": "Small Batch Rasta Pasta",
-        "url": "https://www.alicaspepperpot.com/small-batch-rasta-pasta/",
-        "recipe_url": "https://www.alicaspepperpot.com/small-batch-rasta-pasta/",
-        "image_url": "https://www.alicaspepperpot.com/wp-content/uploads/2026/05/featured-image-small-batch-rasta-pasta-overhead-view.jpg",
-        "site_name": "Alica's Pepperpot",
-        "cuisine": "Caribbean"
+        "title": "Chicken Fajita Quesadillas",
+        "url": "https://damndelicious.net/2026/06/12/chicken-fajita-quesadillas/",
+        "recipe_url": "https://damndelicious.net/2026/06/12/chicken-fajita-quesadillas/",
+        "image_url": "https://damndelicious.net/wp-content/uploads/2026/03/Chicken-Fajitas-Quesadillas_545-768x1152.jpg",
+        "site_name": "Damn Delicious",
+        "cuisine": "American"
       },
       {
-        "title": "Small Batch Sponge Cake",
-        "url": "https://www.alicaspepperpot.com/small-batch-sponge-cake/",
-        "recipe_url": "https://www.alicaspepperpot.com/small-batch-sponge-cake/",
-        "image_url": "https://www.alicaspepperpot.com/wp-content/uploads/2026/05/featured-image-small-batch-sponge-cake_whole-cake_26e826.jpg",
-        "site_name": "Alica's Pepperpot",
-        "cuisine": "Caribbean"
+        "title": "Lemon Butter Fish",
+        "url": "https://damndelicious.net/2026/05/29/lemon-butter-fish/",
+        "recipe_url": "https://damndelicious.net/2026/05/29/lemon-butter-fish/",
+        "image_url": "https://damndelicious.net/wp-content/uploads/2026/03/251218_DD_Lemon-Butter-Fish_268-768x1152.jpg",
+        "site_name": "Damn Delicious",
+        "cuisine": "American"
       },
       {
-        "title": "Small Batch Caribbean Chicken Soup",
-        "url": "https://www.alicaspepperpot.com/small-batch-caribbean-chicken-soup/",
-        "recipe_url": "https://www.alicaspepperpot.com/small-batch-caribbean-chicken-soup/",
-        "image_url": "https://www.alicaspepperpot.com/wp-content/uploads/2026/05/featured-image-small-batch-chicken-soup-in-bowl_adbe9e.jpg",
-        "site_name": "Alica's Pepperpot",
-        "cuisine": "Caribbean"
+        "title": "30+ Easy Memorial Day Recipes to Feed Any Crowd",
+        "url": "https://damndelicious.net/2026/05/17/easy-memorial-day-recipes-to-feed-any-crowd/",
+        "recipe_url": "https://damndelicious.net/2026/05/17/easy-memorial-day-recipes-to-feed-any-crowd/",
+        "image_url": "https://damndelicious.net/wp-content/uploads/2018/06/260401_DD_maple-rosemary-grilled-chk_732-768x1152.jpg",
+        "site_name": "Damn Delicious",
+        "cuisine": "American"
       },
       {
-        "title": "Small Batch Macaroni Pie",
-        "url": "https://www.alicaspepperpot.com/small-batch-macaroni-pie/",
-        "recipe_url": "https://www.alicaspepperpot.com/small-batch-macaroni-pie/",
-        "image_url": "https://www.alicaspepperpot.com/wp-content/uploads/2026/05/featured-image-small-batch-macaroni-pie-after-baking_9516c2d86_8eda5a.jpg",
-        "site_name": "Alica's Pepperpot",
-        "cuisine": "Caribbean"
+        "title": "Simple Side Salad",
+        "url": "https://damndelicious.net/2026/05/15/simple-side-salad/",
+        "recipe_url": "https://damndelicious.net/2026/05/15/simple-side-salad/",
+        "image_url": "https://damndelicious.net/wp-content/uploads/2026/03/250925_DD_Simple-Side-Salad_346-768x1152.jpg",
+        "site_name": "Damn Delicious",
+        "cuisine": "American"
       },
       {
         "title": "Peanut Butter Pancakes",
