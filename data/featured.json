@@ -1,122 +1,122 @@
 {
-  "updated_at": "2026-10-12T04:29:26Z",
+  "updated_at": "2026-10-12T14:30:39Z",
   "slot_hours": 2,
-  "slot_idx": 2,
-  "week": 3,
+  "slot_idx": 7,
+  "week": 8,
   "featured_sites": [
     {
-      "name": "Smitten Kitchen",
-      "url": "https://smittenkitchen.com",
-      "cuisine": "American",
-      "tagline": "Fearless cooking from a tiny kitchen.",
-      "image_url": "https://i0.wp.com/smittenkitchen.com/wp-content/uploads/2026/09/simple-chicken-tacos-09-scaled.jpg",
-      "rss_url": "https://smittenkitchen.com/feed/"
+      "name": "The Cookie Rookie",
+      "url": "https://www.thecookierookie.com",
+      "cuisine": "Baking",
+      "tagline": "Easy recipes for confident beginner cooks.",
+      "image_url": "https://www.thecookierookie.com/wp-content/uploads/2023/09/Pumpkin-recipes-Featured.jpg",
+      "rss_url": "https://www.thecookierookie.com/feed/"
     },
     {
-      "name": "Minimalist Baker",
-      "url": "https://minimalistbaker.com",
-      "cuisine": "Plant-Based",
-      "tagline": "Simple vegan recipes, 10 ingredients or less.",
-      "image_url": "https://minimalistbaker.com/wp-content/uploads/2023/03/Gluten-Free-Honey-Cake-15-680x1020.jpg",
-      "rss_url": "https://minimalistbaker.com/feed/"
+      "name": "Rasa Malaysia",
+      "url": "https://rasamalaysia.com",
+      "cuisine": "Malaysian",
+      "tagline": "Easy Asian recipes for the home cook.",
+      "image_url": "https://rasamalaysia.com/wp-content/uploads/2026/10/how-to-make-matcha-2.jpg",
+      "rss_url": "https://rasamalaysia.com/feed/"
     },
     {
-      "name": "Skinnytaste",
-      "url": "https://www.skinnytaste.com",
-      "cuisine": "Healthy American",
-      "tagline": "Healthy recipes your whole family will love.",
-      "image_url": "https://www.skinnytaste.com/wp-content/uploads/2026/10/Week_562_Oct-12-Oct-18-600x750.jpg",
-      "rss_url": "https://www.skinnytaste.com/feed/"
+      "name": "Isabel Eats",
+      "url": "https://www.isabeleats.com",
+      "cuisine": "Mexican",
+      "tagline": "Mexican recipes made simple and delicious.",
+      "image_url": "https://www.isabeleats.com/wp-content/uploads/2026/10/cilantro-lime-rice-small-26-6-400x600.jpg",
+      "rss_url": "https://www.isabeleats.com/feed/"
     },
     {
-      "name": "Cookie and Kate",
-      "url": "https://cookieandkate.com",
-      "cuisine": "Vegetarian",
-      "tagline": "Wholesome vegetarian recipes for every occasion.",
-      "image_url": "https://cookieandkate.com/images/2026/10/gluten-free-cornbread.jpg",
-      "rss_url": "https://cookieandkate.com/feed/"
+      "name": "Panlasang Pinoy",
+      "url": "https://panlasangpinoy.com",
+      "cuisine": "Filipino",
+      "tagline": "Filipino recipes, made simple.",
+      "image_url": "https://panlasangpinoy.com/wp-content/uploads/2023/03/homepage-banner-scaled-1-jpg-1440x300.webp",
+      "rss_url": "https://panlasangpinoy.com/feed/"
     }
   ],
   "featured_recipes": {
     "Mon": {
-      "title": "simple chicken tacos",
-      "url": "https://smittenkitchen.com/2026/09/simple-chicken-tacos/",
-      "recipe_url": "https://smittenkitchen.com/2026/09/simple-chicken-tacos/",
-      "image_url": "https://i0.wp.com/smittenkitchen.com/wp-content/uploads/2026/09/simple-chicken-tacos-09-scaled.jpg?fit=640%2C427&amp;quality=89&amp;ssl=1",
-      "site_name": "Smitten Kitchen",
-      "site_url": "https://smittenkitchen.com",
-      "cuisine": "American",
-      "published_at": "Wed, 30 Sep 2026 21:00:08 +0000"
+      "cuisine": "Baking",
+      "image_url": "https://www.thecookierookie.com/wp-content/uploads/2026/09/crockpot-potato-soup-1-17.jpg",
+      "published_at": "Wed, 23 Sep 2026 13:30:00 +0000",
+      "recipe_url": "https://www.thecookierookie.com/slow-cooker-skinny-loaded-potato-soup/",
+      "site_name": "The Cookie Rookie",
+      "site_url": "https://www.thecookierookie.com",
+      "title": "Crockpot Potato Soup",
+      "url": "https://www.thecookierookie.com/slow-cooker-skinny-loaded-potato-soup/"
     },
     "Tue": {
-      "cuisine": "American",
-      "image_url": "https://i0.wp.com/smittenkitchen.com/wp-content/uploads/2026/08/peach-cobbler-loaf-08-scaled.jpg?fit=640%2C427&amp;quality=89&amp;ssl=1",
-      "published_at": "Fri, 28 Aug 2026 12:07:56 +0000",
-      "recipe_url": "https://smittenkitchen.com/2026/08/peach-cobbler-loaf/",
-      "site_name": "Smitten Kitchen",
-      "site_url": "https://smittenkitchen.com",
-      "title": "peach cobbler loaf",
-      "url": "https://smittenkitchen.com/2026/08/peach-cobbler-loaf/"
+      "cuisine": "Malaysian",
+      "image_url": "https://rasamalaysia.com/wp-content/uploads/2026/09/crab-fried-rice-2-2026.jpg",
+      "published_at": "Thu, 24 Sep 2026 03:16:23 +0000",
+      "recipe_url": "https://rasamalaysia.com/crab-fried-rice-recipe/",
+      "site_name": "Rasa Malaysia",
+      "site_url": "https://rasamalaysia.com",
+      "title": "Crab Fried Rice",
+      "url": "https://rasamalaysia.com/crab-fried-rice-recipe/"
     },
     "Wed": {
-      "cuisine": "American",
-      "image_url": "https://i0.wp.com/smittenkitchen.com/wp-content/uploads/2026/07/spaghetti-alio-e-olio-6-scaled.jpg?fit=640%2C427&amp;quality=89&amp;ssl=1",
-      "published_at": "Tue, 28 Jul 2026 20:15:40 +0000",
-      "recipe_url": "https://smittenkitchen.com/2026/07/spaghetti-aglio-e-olio/",
-      "site_name": "Smitten Kitchen",
-      "site_url": "https://smittenkitchen.com",
-      "title": "spaghetti aglio e olio",
-      "url": "https://smittenkitchen.com/2026/07/spaghetti-aglio-e-olio/"
+      "cuisine": "Mexican",
+      "image_url": "https://www.isabeleats.com/wp-content/uploads/2021/02/pollo-en-chipotle-small-3-400x600.jpg",
+      "published_at": "Mon, 17 Aug 2026 20:07:27 +0000",
+      "recipe_url": "https://www.isabeleats.com/pollo-en-chipotle/",
+      "site_name": "Isabel Eats",
+      "site_url": "https://www.isabeleats.com",
+      "title": "Pollo en Crema de Chipotle",
+      "url": "https://www.isabeleats.com/pollo-en-chipotle/"
     },
     "Thu": {
-      "title": "Gluten-Free Cornbread",
-      "url": "https://cookieandkate.com/gluten-free-cornbread/?adt_ei=*|EMAIL|*",
-      "recipe_url": "https://cookieandkate.com/gluten-free-cornbread/?adt_ei=*|EMAIL|*",
-      "image_url": "https://cookieandkate.com/images/2026/10/gluten-free-cornbread.jpg",
-      "site_name": "Cookie and Kate",
-      "site_url": "https://cookieandkate.com",
-      "cuisine": "Vegetarian",
-      "published_at": "Wed, 07 Oct 2026 16:33:56 +0000"
+      "cuisine": "Filipino",
+      "image_url": "https://panlasangpinoy.com/wp-content/uploads/2026/08/Eggplant-adobo-339x500.jpg",
+      "published_at": "Fri, 14 Aug 2026 00:36:59 +0000",
+      "recipe_url": "https://panlasangpinoy.com/adobong-talong-eggplant-adobo-recipe/",
+      "site_name": "Panlasang Pinoy",
+      "site_url": "https://panlasangpinoy.com",
+      "title": "Eggplant Adobo Recipe (Adobong Talong)",
+      "url": "https://panlasangpinoy.com/adobong-talong-eggplant-adobo-recipe/"
     },
     "Fri": {
-      "title": "tomato risotto with frizzled red onions",
-      "url": "https://smittenkitchen.com/2026/09/tomato-risotto-with-frizzled-red-onions/",
-      "recipe_url": "https://smittenkitchen.com/2026/09/tomato-risotto-with-frizzled-red-onions/",
-      "image_url": "https://i0.wp.com/smittenkitchen.com/wp-content/uploads/2026/09/tomato-risotto-with-frizzled-onions-14-scaled.jpg?fit=640%2C427&amp;quality=89&amp;ssl=1",
-      "site_name": "Smitten Kitchen",
-      "site_url": "https://smittenkitchen.com",
-      "cuisine": "American",
-      "published_at": "Wed, 16 Sep 2026 15:28:36 +0000"
+      "title": "Crockpot Chicken and Dumplings",
+      "url": "https://www.thecookierookie.com/crockpot-chicken-and-dumplings-recipe/",
+      "recipe_url": "https://www.thecookierookie.com/crockpot-chicken-and-dumplings-recipe/",
+      "image_url": "https://www.thecookierookie.com/wp-content/uploads/2026/10/crockpot-chicken-and-dumplings-1-14.jpg",
+      "site_name": "The Cookie Rookie",
+      "site_url": "https://www.thecookierookie.com",
+      "cuisine": "Baking",
+      "published_at": "Wed, 07 Oct 2026 13:30:00 +0000"
     },
     "Sat": {
-      "title": "Easy Eggplant Bolognese (1 Pot!)",
-      "url": "https://minimalistbaker.com/eggplant-bolognese/",
-      "recipe_url": "https://minimalistbaker.com/eggplant-bolognese/",
-      "image_url": "https://minimalistbaker.com/wp-content/uploads/2026/02/Easy-Vegetarian-Eggplant-Bolognese-9-680x1020.jpg",
-      "site_name": "Minimalist Baker",
-      "site_url": "https://minimalistbaker.com",
-      "cuisine": "Plant-Based",
-      "published_at": "Tue, 18 Aug 2026 08:00:00 +0000"
+      "cuisine": "Malaysian",
+      "image_url": "https://rasamalaysia.com/wp-content/uploads/2026/10/sausage-gravy-1.jpg",
+      "published_at": "Tue, 06 Oct 2026 07:36:05 +0000",
+      "recipe_url": "https://rasamalaysia.com/sausage-gravy/",
+      "site_name": "Rasa Malaysia",
+      "site_url": "https://rasamalaysia.com",
+      "title": "Sausage Gravy",
+      "url": "https://rasamalaysia.com/sausage-gravy/"
     },
     "Sun": {
-      "title": "These Easy Baked Apples Taste Like Individual Apple Crisps Without the Fuss",
-      "url": "https://www.skinnytaste.com/delightfully-baked-apples/?adt_ei=*|EMAIL|*",
-      "recipe_url": "https://www.skinnytaste.com/delightfully-baked-apples/?adt_ei=*|EMAIL|*",
-      "image_url": "https://www.skinnytaste.com/wp-content/uploads/2017/09/Baked-Apples-7-600x900.jpg",
-      "site_name": "Skinnytaste",
-      "site_url": "https://www.skinnytaste.com",
-      "cuisine": "Healthy American",
-      "published_at": "Thu, 08 Oct 2026 19:10:42 +0000"
+      "title": "Cemitas Poblanas (Mexican Cemita Sandwich)",
+      "url": "https://www.isabeleats.com/cemitas-poblanas/",
+      "recipe_url": "https://www.isabeleats.com/cemitas-poblanas/",
+      "image_url": "https://www.isabeleats.com/wp-content/uploads/2026/09/cemitas-poblanas-small-5-400x600.jpg",
+      "site_name": "Isabel Eats",
+      "site_url": "https://www.isabeleats.com",
+      "cuisine": "Mexican",
+      "published_at": "Wed, 30 Sep 2026 07:00:00 +0000"
     }
   },
   "featured_recipe": {
-    "title": "simple chicken tacos",
-    "url": "https://smittenkitchen.com/2026/09/simple-chicken-tacos/",
-    "recipe_url": "https://smittenkitchen.com/2026/09/simple-chicken-tacos/",
-    "image_url": "https://i0.wp.com/smittenkitchen.com/wp-content/uploads/2026/09/simple-chicken-tacos-09-scaled.jpg?fit=640%2C427&amp;quality=89&amp;ssl=1",
-    "site_name": "Smitten Kitchen",
-    "site_url": "https://smittenkitchen.com",
-    "cuisine": "American",
-    "published_at": "Wed, 30 Sep 2026 21:00:08 +0000"
+    "cuisine": "Baking",
+    "image_url": "https://www.thecookierookie.com/wp-content/uploads/2026/09/crockpot-potato-soup-1-17.jpg",
+    "published_at": "Wed, 23 Sep 2026 13:30:00 +0000",
+    "recipe_url": "https://www.thecookierookie.com/slow-cooker-skinny-loaded-potato-soup/",
+    "site_name": "The Cookie Rookie",
+    "site_url": "https://www.thecookierookie.com",
+    "title": "Crockpot Potato Soup",
+    "url": "https://www.thecookierookie.com/slow-cooker-skinny-loaded-potato-soup/"
   }
 }
