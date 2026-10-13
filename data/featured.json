@@ -1,112 +1,122 @@
 {
-  "updated_at": "2026-10-13T05:36:52Z",
+  "updated_at": "2026-10-13T13:37:45Z",
   "slot_hours": 2,
-  "slot_idx": 14,
-  "week": 15,
+  "slot_idx": 2,
+  "week": 3,
   "featured_sites": [
     {
-      "name": "Hey Grill Hey",
-      "url": "https://heygrillhey.com",
-      "cuisine": "BBQ",
-      "tagline": "550+ grilling and smoking recipes by Susie Bulloch.",
-      "image_url": "https://heygrillhey.com/wp-content/uploads/2026/08/Cornbread-Peach-Cobbler-Square.jpg",
-      "rss_url": "https://heygrillhey.com/feed/"
-    },
-    {
-      "name": "Damn Delicious",
-      "url": "https://damndelicious.net",
+      "name": "Smitten Kitchen",
+      "url": "https://smittenkitchen.com",
       "cuisine": "American",
-      "tagline": "Quick and easy recipes for every occasion.",
-      "image_url": "https://damndelicious.net/wp-content/uploads/2026/08/260712_DD_cheeseburger-sliders_525-768x1151.jpg",
-      "rss_url": "https://damndelicious.net/feed/"
+      "tagline": "Fearless cooking from a tiny kitchen.",
+      "image_url": "https://i0.wp.com/smittenkitchen.com/wp-content/uploads/2026/09/simple-chicken-tacos-09-scaled.jpg",
+      "rss_url": "https://smittenkitchen.com/feed/"
     },
     {
-      "name": "Natasha's Kitchen",
-      "url": "https://natashaskitchen.com",
-      "cuisine": "American",
-      "tagline": "Trusted recipes for everyday cooking.",
-      "image_url": "https://natashaskitchen.com/wp-content/uploads/2026/09/Pumpkin-Cinnamon-Rolls-7.jpg",
-      "rss_url": "https://natashaskitchen.com/feed/"
+      "name": "Minimalist Baker",
+      "url": "https://minimalistbaker.com",
+      "cuisine": "Plant-Based",
+      "tagline": "Simple vegan recipes, 10 ingredients or less.",
+      "image_url": "https://minimalistbaker.com/wp-content/uploads/2023/03/Gluten-Free-Honey-Cake-15-680x1020.jpg",
+      "rss_url": "https://minimalistbaker.com/feed/"
     },
     {
-      "name": "Feasting at Home",
-      "url": "https://www.feastingathome.com",
-      "cuisine": "Global",
-      "tagline": "Fresh seasonal recipes with global inspiration.",
-      "image_url": "https://www.feastingathome.com/wp-content/uploads/2026/09/Eggplant-Tikka-Masala-13-768x1152.jpg",
-      "rss_url": "https://www.feastingathome.com/feed/"
+      "name": "Skinnytaste",
+      "url": "https://www.skinnytaste.com",
+      "cuisine": "Healthy American",
+      "tagline": "Healthy recipes your whole family will love.",
+      "image_url": "https://www.skinnytaste.com/wp-content/uploads/2026/10/Week_562_Oct-12-Oct-18-600x750.jpg",
+      "rss_url": "https://www.skinnytaste.com/feed/"
+    },
+    {
+      "name": "Cookie and Kate",
+      "url": "https://cookieandkate.com",
+      "cuisine": "Vegetarian",
+      "tagline": "Wholesome vegetarian recipes for every occasion.",
+      "image_url": "https://cookieandkate.com/images/2026/10/gluten-free-cornbread.jpg",
+      "rss_url": "https://cookieandkate.com/feed/"
     }
   ],
   "featured_recipes": {
     "Mon": {
-      "cuisine": "BBQ",
-      "image_url": "https://heygrillhey.com/wp-content/uploads/2026/08/Cornbread-Peach-Cobbler-Square.jpg",
-      "recipe_url": "https://heygrillhey.com/cornbread-peach-cobbler/",
-      "site_name": "Hey Grill Hey",
-      "title": "Cornbread Peach Cobbler",
-      "url": "https://heygrillhey.com/cornbread-peach-cobbler/"
+      "title": "simple chicken tacos",
+      "url": "https://smittenkitchen.com/2026/09/simple-chicken-tacos/",
+      "recipe_url": "https://smittenkitchen.com/2026/09/simple-chicken-tacos/",
+      "image_url": "https://i0.wp.com/smittenkitchen.com/wp-content/uploads/2026/09/simple-chicken-tacos-09-scaled.jpg?fit=640%2C427&amp;quality=89&amp;ssl=1",
+      "site_name": "Smitten Kitchen",
+      "site_url": "https://smittenkitchen.com",
+      "cuisine": "American",
+      "published_at": "Wed, 30 Sep 2026 21:00:08 +0000"
     },
     "Tue": {
-      "title": "Cheeseburger Sliders",
-      "url": "https://damndelicious.net/2026/09/18/cheeseburger-sliders/",
-      "recipe_url": "https://damndelicious.net/2026/09/18/cheeseburger-sliders/",
-      "image_url": "https://damndelicious.net/wp-content/uploads/2026/08/260712_DD_cheeseburger-sliders_525-768x1151.jpg",
-      "site_name": "Damn Delicious",
-      "site_url": "https://damndelicious.net",
       "cuisine": "American",
-      "published_at": "Sat, 19 Sep 2026 04:00:00 +0000"
+      "image_url": "https://i0.wp.com/smittenkitchen.com/wp-content/uploads/2026/08/peach-cobbler-loaf-08-scaled.jpg?fit=640%2C427&amp;quality=89&amp;ssl=1",
+      "published_at": "Fri, 28 Aug 2026 12:07:56 +0000",
+      "recipe_url": "https://smittenkitchen.com/2026/08/peach-cobbler-loaf/",
+      "site_name": "Smitten Kitchen",
+      "site_url": "https://smittenkitchen.com",
+      "title": "peach cobbler loaf",
+      "url": "https://smittenkitchen.com/2026/08/peach-cobbler-loaf/"
     },
     "Wed": {
       "cuisine": "American",
-      "image_url": "https://natashaskitchen.com/wp-content/uploads/2026/06/Salmon-Bowls-5.jpg",
-      "recipe_url": "https://natashaskitchen.com/salmon-bowls/?adt_ei={{ subscriber.email_address }}",
-      "site_name": "Natasha's Kitchen",
-      "title": "Crispy Salmon Bowls with the Best Sauce",
-      "url": "https://natashaskitchen.com/salmon-bowls/?adt_ei={{ subscriber.email_address }}"
+      "image_url": "https://i0.wp.com/smittenkitchen.com/wp-content/uploads/2026/07/spaghetti-alio-e-olio-6-scaled.jpg?fit=640%2C427&amp;quality=89&amp;ssl=1",
+      "published_at": "Tue, 28 Jul 2026 20:15:40 +0000",
+      "recipe_url": "https://smittenkitchen.com/2026/07/spaghetti-aglio-e-olio/",
+      "site_name": "Smitten Kitchen",
+      "site_url": "https://smittenkitchen.com",
+      "title": "spaghetti aglio e olio",
+      "url": "https://smittenkitchen.com/2026/07/spaghetti-aglio-e-olio/"
     },
     "Thu": {
-      "cuisine": "Global",
-      "image_url": "https://www.feastingathome.com/wp-content/uploads/2026/09/Tofu-Shawarma-8-768x1152.jpg",
-      "recipe_url": "https://www.feastingathome.com/tofu-shawarma-bowls/",
-      "site_name": "Feasting at Home",
-      "title": "Tofu Shawarma Bowls",
-      "url": "https://www.feastingathome.com/tofu-shawarma-bowls/"
+      "title": "Gluten-Free Cornbread",
+      "url": "https://cookieandkate.com/gluten-free-cornbread/?adt_ei=*|EMAIL|*",
+      "recipe_url": "https://cookieandkate.com/gluten-free-cornbread/?adt_ei=*|EMAIL|*",
+      "image_url": "https://cookieandkate.com/images/2026/10/gluten-free-cornbread.jpg",
+      "site_name": "Cookie and Kate",
+      "site_url": "https://cookieandkate.com",
+      "cuisine": "Vegetarian",
+      "published_at": "Wed, 07 Oct 2026 16:33:56 +0000"
     },
     "Fri": {
-      "title": "30+ Cheap and Easy Dinners",
-      "url": "https://damndelicious.net/2026/09/08/cheap-and-easy-dinners/",
-      "recipe_url": "https://damndelicious.net/2026/09/08/cheap-and-easy-dinners/",
-      "image_url": "https://damndelicious.net/wp-content/uploads/2018/09/Creamy-Beef-and-ShellsIMG_6408.jpg",
-      "site_name": "Damn Delicious",
-      "site_url": "https://damndelicious.net",
+      "title": "tomato risotto with frizzled red onions",
+      "url": "https://smittenkitchen.com/2026/09/tomato-risotto-with-frizzled-red-onions/",
+      "recipe_url": "https://smittenkitchen.com/2026/09/tomato-risotto-with-frizzled-red-onions/",
+      "image_url": "https://i0.wp.com/smittenkitchen.com/wp-content/uploads/2026/09/tomato-risotto-with-frizzled-onions-14-scaled.jpg?fit=640%2C427&amp;quality=89&amp;ssl=1",
+      "site_name": "Smitten Kitchen",
+      "site_url": "https://smittenkitchen.com",
       "cuisine": "American",
-      "published_at": "Wed, 09 Sep 2026 04:00:00 +0000"
+      "published_at": "Wed, 16 Sep 2026 15:28:36 +0000"
     },
     "Sat": {
-      "cuisine": "BBQ",
-      "image_url": "https://heygrillhey.com/wp-content/uploads/2026/05/Cornbread-Chili-Casserole-Square.jpg",
-      "recipe_url": "https://heygrillhey.com/smoked-cornbread-chili-casserole/",
-      "site_name": "Hey Grill Hey",
-      "title": "Smoked Cornbread Chili Casserole",
-      "url": "https://heygrillhey.com/smoked-cornbread-chili-casserole/"
+      "title": "Easy Eggplant Bolognese (1 Pot!)",
+      "url": "https://minimalistbaker.com/eggplant-bolognese/",
+      "recipe_url": "https://minimalistbaker.com/eggplant-bolognese/",
+      "image_url": "https://minimalistbaker.com/wp-content/uploads/2026/02/Easy-Vegetarian-Eggplant-Bolognese-9-680x1020.jpg",
+      "site_name": "Minimalist Baker",
+      "site_url": "https://minimalistbaker.com",
+      "cuisine": "Plant-Based",
+      "published_at": "Tue, 18 Aug 2026 08:00:00 +0000"
     },
     "Sun": {
-      "cuisine": "BBQ",
-      "image_url": "https://heygrillhey.com/wp-content/uploads/2026/05/Grilled-Breakfast-Kabobs-Square.jpg",
-      "recipe_url": "https://heygrillhey.com/grilled-breakfast-kabobs/",
-      "site_name": "Hey Grill Hey",
-      "title": "Grilled Breakfast Kabobs",
-      "url": "https://heygrillhey.com/grilled-breakfast-kabobs/"
+      "title": "These Easy Baked Apples Taste Like Individual Apple Crisps Without the Fuss",
+      "url": "https://www.skinnytaste.com/delightfully-baked-apples/?adt_ei=*|EMAIL|*",
+      "recipe_url": "https://www.skinnytaste.com/delightfully-baked-apples/?adt_ei=*|EMAIL|*",
+      "image_url": "https://www.skinnytaste.com/wp-content/uploads/2017/09/Baked-Apples-7-600x900.jpg",
+      "site_name": "Skinnytaste",
+      "site_url": "https://www.skinnytaste.com",
+      "cuisine": "Healthy American",
+      "published_at": "Thu, 08 Oct 2026 19:10:42 +0000"
     }
   },
   "featured_recipe": {
-    "title": "30+ Cheap and Easy Dinners",
-    "url": "https://damndelicious.net/2026/09/08/cheap-and-easy-dinners/",
-    "recipe_url": "https://damndelicious.net/2026/09/08/cheap-and-easy-dinners/",
-    "image_url": "https://damndelicious.net/wp-content/uploads/2018/09/Creamy-Beef-and-ShellsIMG_6408.jpg",
-    "site_name": "Damn Delicious",
-    "site_url": "https://damndelicious.net",
-    "cuisine": "American",
-    "published_at": "Wed, 09 Sep 2026 04:00:00 +0000"
+    "title": "These Easy Baked Apples Taste Like Individual Apple Crisps Without the Fuss",
+    "url": "https://www.skinnytaste.com/delightfully-baked-apples/?adt_ei=*|EMAIL|*",
+    "recipe_url": "https://www.skinnytaste.com/delightfully-baked-apples/?adt_ei=*|EMAIL|*",
+    "image_url": "https://www.skinnytaste.com/wp-content/uploads/2017/09/Baked-Apples-7-600x900.jpg",
+    "site_name": "Skinnytaste",
+    "site_url": "https://www.skinnytaste.com",
+    "cuisine": "Healthy American",
+    "published_at": "Thu, 08 Oct 2026 19:10:42 +0000"
   }
 }
