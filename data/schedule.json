@@ -327,12 +327,12 @@
         "rss_url": "https://www.chopstickchronicles.com/feed/"
       },
       {
-        "name": "Maangchi",
-        "url": "https://www.maangchi.com",
-        "cuisine": "Korean",
-        "tagline": "Real Korean cooking for everyone.",
-        "image_url": "https://www.maangchi.com/wp-content/uploads/2026/09/Korean-reststop-potatoes-1-1200x630-cropped.jpg",
-        "rss_url": "https://www.maangchi.com/feed"
+        "name": "Damn Delicious",
+        "url": "https://damndelicious.net",
+        "cuisine": "American",
+        "tagline": "Quick and easy recipes for every occasion.",
+        "image_url": "https://damndelicious.net/wp-content/uploads/2026/09/Cheeseburger-Sliders-scaled.jpg",
+        "rss_url": "https://damndelicious.net/feed/"
       },
       {
         "name": "Immaculate Bites",
@@ -373,14 +373,12 @@
         "url": "https://www.africanbites.com/slow-cooker-pork-chops/"
       },
       "Wed": {
-        "title": "Tamago Sando ( Japanese Egg Sandwich)",
-        "url": "https://www.chopstickchronicles.com/japanese-egg-salad-sandwich/",
-        "recipe_url": "https://www.chopstickchronicles.com/japanese-egg-salad-sandwich/",
-        "image_url": "https://www.chopstickchronicles.com/wp-content/uploads/2019/04/tamago-sando-7.jpg",
-        "site_name": "Chopstick Chronicles",
-        "site_url": "https://www.chopstickchronicles.com",
-        "cuisine": "Japanese",
-        "published_at": "Thu, 01 Oct 2026 07:27:22 +0000"
+        "cuisine": "American",
+        "image_url": "https://damndelicious.net/wp-content/uploads/2026/06/251218_DD_Honey-BBQ-Chicken-Bites_691-768x1152.jpg",
+        "recipe_url": "https://damndelicious.net/2026/08/21/honey-bbq-chicken-bites/",
+        "site_name": "Damn Delicious",
+        "title": "Honey BBQ Chicken Bites",
+        "url": "https://damndelicious.net/2026/08/21/honey-bbq-chicken-bites/"
       },
       "Thu": {
         "cuisine": "Japanese",
@@ -425,14 +423,36 @@
     },
     "candidates": [
       {
-        "title": "Roast Turkey Wings",
-        "url": "https://www.africanbites.com/baked-turkey-wings/",
-        "recipe_url": "https://www.africanbites.com/baked-turkey-wings/",
-        "image_url": "https://www.africanbites.com/wp-content/uploads/2026/10/Roast-Turkey-Wings-1.jpg",
-        "site_name": "Immaculate Bites",
-        "site_url": "https://www.africanbites.com",
-        "cuisine": "African",
-        "published_at": "Tue, 06 Oct 2026 07:30:00 +0000"
+        "title": "Satsumaimo Cookies (Japanese Sweet Potato Cookies)",
+        "url": "https://www.chopstickchronicles.com/satsumaimo-cookies-japanese-sweet-potato-cookies/",
+        "recipe_url": "https://www.chopstickchronicles.com/satsumaimo-cookies-japanese-sweet-potato-cookies/",
+        "image_url": "https://www.chopstickchronicles.com/wp-content/uploads/2026/10/sweet-potato-cookies-14.jpg",
+        "site_name": "Chopstick Chronicles",
+        "cuisine": "Japanese"
+      },
+      {
+        "title": "Tamago Sando ( Japanese Egg Sandwich)",
+        "url": "https://www.chopstickchronicles.com/japanese-egg-salad-sandwich/",
+        "recipe_url": "https://www.chopstickchronicles.com/japanese-egg-salad-sandwich/",
+        "image_url": "https://www.chopstickchronicles.com/wp-content/uploads/2019/04/tamago-sando-7.jpg",
+        "site_name": "Chopstick Chronicles",
+        "cuisine": "Japanese"
+      },
+      {
+        "title": "Kabocha Korokke (Kabocha Squash Croquette)",
+        "url": "https://www.chopstickchronicles.com/kabocha-korokke-kabocha-squash-croquette/",
+        "recipe_url": "https://www.chopstickchronicles.com/kabocha-korokke-kabocha-squash-croquette/",
+        "image_url": "https://www.chopstickchronicles.com/wp-content/uploads/2026/09/kabocha-korokke-11.jpg",
+        "site_name": "Chopstick Chronicles",
+        "cuisine": "Japanese"
+      },
+      {
+        "title": "Chashu (Braised Pork Belly)",
+        "url": "https://www.chopstickchronicles.com/ramen-pork-chashu/",
+        "recipe_url": "https://www.chopstickchronicles.com/ramen-pork-chashu/",
+        "image_url": "https://www.chopstickchronicles.com/wp-content/uploads/2020/01/Chashu-update-10.jpg",
+        "site_name": "Chopstick Chronicles",
+        "cuisine": "Japanese"
       },
       {
         "title": "Umeboshi Onigiri (Japanese Rice Balls with Pickled Plum)",
@@ -440,19 +460,7 @@
         "recipe_url": "https://www.chopstickchronicles.com/umeboshi-onigiri/",
         "image_url": "https://www.chopstickchronicles.com/wp-content/uploads/2026/09/Umeboshi-Onigiri-12.jpg",
         "site_name": "Chopstick Chronicles",
-        "site_url": "https://www.chopstickchronicles.com",
-        "cuisine": "Japanese",
-        "published_at": "Thu, 10 Sep 2026 10:46:29 +0000"
-      },
-      {
-        "title": "Slow Cooker Pork Chops",
-        "url": "https://www.africanbites.com/slow-cooker-pork-chops/",
-        "recipe_url": "https://www.africanbites.com/slow-cooker-pork-chops/",
-        "image_url": "https://www.africanbites.com/wp-content/uploads/2026/10/Slow-Cooker-Pork-Chops-1.jpg",
-        "site_name": "Immaculate Bites",
-        "site_url": "https://www.africanbites.com",
-        "cuisine": "African",
-        "published_at": "Mon, 05 Oct 2026 07:30:00 +0000"
+        "cuisine": "Japanese"
       },
       {
         "title": "Tsukimi Dango ( Japanese Moon-Viewing Dumplings)",
@@ -460,9 +468,7 @@
         "recipe_url": "https://www.chopstickchronicles.com/tsukimi-dango/",
         "image_url": "https://www.chopstickchronicles.com/wp-content/uploads/2026/08/Tsukimi-Dango-featured_-4.jpg",
         "site_name": "Chopstick Chronicles",
-        "site_url": "https://www.chopstickchronicles.com",
-        "cuisine": "Japanese",
-        "published_at": "Sat, 29 Aug 2026 01:42:17 +0000"
+        "cuisine": "Japanese"
       },
       {
         "title": "Purin (Japanese Custard Pudding)",
@@ -470,9 +476,7 @@
         "recipe_url": "https://www.chopstickchronicles.com/purin-custard-pudding/",
         "image_url": "https://www.chopstickchronicles.com/wp-content/uploads/2019/06/Purin-update-2026-20.jpg",
         "site_name": "Chopstick Chronicles",
-        "site_url": "https://www.chopstickchronicles.com",
-        "cuisine": "Japanese",
-        "published_at": "Mon, 17 Aug 2026 11:30:55 +0000"
+        "cuisine": "Japanese"
       },
       {
         "title": "Fried Calamari with Wasabi Mayo",
@@ -480,9 +484,7 @@
         "recipe_url": "https://www.chopstickchronicles.com/fried-calamari-with-wasabi-mayo/",
         "image_url": "https://www.chopstickchronicles.com/wp-content/uploads/2016/05/ika-ring-fry-17.jpg",
         "site_name": "Chopstick Chronicles",
-        "site_url": "https://www.chopstickchronicles.com",
-        "cuisine": "Japanese",
-        "published_at": "Wed, 20 May 2026 01:05:35 +0000"
+        "cuisine": "Japanese"
       },
       {
         "title": "Koji Chomiryo (Fermented Seasonings Made with Rice Koji)",
@@ -490,9 +492,7 @@
         "recipe_url": "https://www.chopstickchronicles.com/koji-seasonings/",
         "image_url": "https://www.chopstickchronicles.com/wp-content/uploads/2026/03/koji-seasonings-13.jpg",
         "site_name": "Chopstick Chronicles",
-        "site_url": "https://www.chopstickchronicles.com",
-        "cuisine": "Japanese",
-        "published_at": "Thu, 09 Apr 2026 10:20:42 +0000"
+        "cuisine": "Japanese"
       },
       {
         "title": "Kakitamajiru (Egg Drop Soup)",
@@ -500,9 +500,127 @@
         "recipe_url": "https://www.chopstickchronicles.com/kakitamajiru/",
         "image_url": "https://www.chopstickchronicles.com/wp-content/uploads/2019/05/Egg-Drop-Soup-11.jpg",
         "site_name": "Chopstick Chronicles",
-        "site_url": "https://www.chopstickchronicles.com",
-        "cuisine": "Japanese",
-        "published_at": "Wed, 21 Jan 2026 05:19:34 +0000"
+        "cuisine": "Japanese"
+      },
+      {
+        "title": "Cheeseburger Sliders",
+        "url": "https://damndelicious.net/2026/09/18/cheeseburger-sliders/",
+        "recipe_url": "https://damndelicious.net/2026/09/18/cheeseburger-sliders/",
+        "image_url": "https://damndelicious.net/wp-content/uploads/2026/08/260712_DD_cheeseburger-sliders_525-768x1151.jpg",
+        "site_name": "Damn Delicious",
+        "cuisine": "American"
+      },
+      {
+        "title": "30+ Cheap and Easy Dinners",
+        "url": "https://damndelicious.net/2026/09/08/cheap-and-easy-dinners/",
+        "recipe_url": "https://damndelicious.net/2026/09/08/cheap-and-easy-dinners/",
+        "image_url": "https://damndelicious.net/wp-content/uploads/2018/09/Creamy-Beef-and-ShellsIMG_6408.jpg",
+        "site_name": "Damn Delicious",
+        "cuisine": "American"
+      },
+      {
+        "title": "Air Fryer Chicken",
+        "url": "https://damndelicious.net/2026/09/04/air-fryer-chicken/",
+        "recipe_url": "https://damndelicious.net/2026/09/04/air-fryer-chicken/",
+        "image_url": "https://damndelicious.net/wp-content/uploads/2026/06/260401_DD_air-fryer-chicken_704-768x1152.jpg",
+        "site_name": "Damn Delicious",
+        "cuisine": "American"
+      },
+      {
+        "title": "Honey BBQ Chicken Bites",
+        "url": "https://damndelicious.net/2026/08/21/honey-bbq-chicken-bites/",
+        "recipe_url": "https://damndelicious.net/2026/08/21/honey-bbq-chicken-bites/",
+        "image_url": "https://damndelicious.net/wp-content/uploads/2026/06/251218_DD_Honey-BBQ-Chicken-Bites_691-768x1152.jpg",
+        "site_name": "Damn Delicious",
+        "cuisine": "American"
+      },
+      {
+        "title": "30+ Easy Grilling Recipes for Summer",
+        "url": "https://damndelicious.net/2026/08/11/easy-grilling-recipes-for-summer/",
+        "recipe_url": "https://damndelicious.net/2026/08/11/easy-grilling-recipes-for-summer/",
+        "image_url": "https://damndelicious.net/wp-content/uploads/2023/05/230125_DD_Grilled-BBQ-Chx_349-768x1152.jpg",
+        "site_name": "Damn Delicious",
+        "cuisine": "American"
+      },
+      {
+        "title": "Marry Me Chicken",
+        "url": "https://damndelicious.net/2026/07/24/marry-me-chicken/",
+        "recipe_url": "https://damndelicious.net/2026/07/24/marry-me-chicken/",
+        "image_url": "https://damndelicious.net/wp-content/uploads/2026/05/250409_DD_Marry-Me-Chicken_607-768x1152.jpg",
+        "site_name": "Damn Delicious",
+        "cuisine": "American"
+      },
+      {
+        "title": "Chicken Fajita Quesadillas",
+        "url": "https://damndelicious.net/2026/06/12/chicken-fajita-quesadillas/",
+        "recipe_url": "https://damndelicious.net/2026/06/12/chicken-fajita-quesadillas/",
+        "image_url": "https://damndelicious.net/wp-content/uploads/2026/03/Chicken-Fajitas-Quesadillas_545-768x1152.jpg",
+        "site_name": "Damn Delicious",
+        "cuisine": "American"
+      },
+      {
+        "title": "Lemon Butter Fish",
+        "url": "https://damndelicious.net/2026/05/29/lemon-butter-fish/",
+        "recipe_url": "https://damndelicious.net/2026/05/29/lemon-butter-fish/",
+        "image_url": "https://damndelicious.net/wp-content/uploads/2026/03/251218_DD_Lemon-Butter-Fish_268-768x1152.jpg",
+        "site_name": "Damn Delicious",
+        "cuisine": "American"
+      },
+      {
+        "title": "30+ Easy Memorial Day Recipes to Feed Any Crowd",
+        "url": "https://damndelicious.net/2026/05/17/easy-memorial-day-recipes-to-feed-any-crowd/",
+        "recipe_url": "https://damndelicious.net/2026/05/17/easy-memorial-day-recipes-to-feed-any-crowd/",
+        "image_url": "https://damndelicious.net/wp-content/uploads/2018/06/260401_DD_maple-rosemary-grilled-chk_732-768x1152.jpg",
+        "site_name": "Damn Delicious",
+        "cuisine": "American"
+      },
+      {
+        "title": "Simple Side Salad",
+        "url": "https://damndelicious.net/2026/05/15/simple-side-salad/",
+        "recipe_url": "https://damndelicious.net/2026/05/15/simple-side-salad/",
+        "image_url": "https://damndelicious.net/wp-content/uploads/2026/03/250925_DD_Simple-Side-Salad_346-768x1152.jpg",
+        "site_name": "Damn Delicious",
+        "cuisine": "American"
+      },
+      {
+        "title": "Oven-Baked Pork Tenderloin",
+        "url": "https://www.africanbites.com/pork-loin-roast/",
+        "recipe_url": "https://www.africanbites.com/pork-loin-roast/",
+        "image_url": "https://www.africanbites.com/wp-content/uploads/2017/10/IMG_8181.jpg",
+        "site_name": "Immaculate Bites",
+        "cuisine": "African"
+      },
+      {
+        "title": "Grilled Pork Belly",
+        "url": "https://www.africanbites.com/grilled-pork-belly/",
+        "recipe_url": "https://www.africanbites.com/grilled-pork-belly/",
+        "image_url": "https://www.africanbites.com/wp-content/uploads/2026/10/Grilled-Pork-Belly-2.jpg",
+        "site_name": "Immaculate Bites",
+        "cuisine": "African"
+      },
+      {
+        "title": "Sweet Potato Cornbread",
+        "url": "https://www.africanbites.com/sweet-potato-cornbread/",
+        "recipe_url": "https://www.africanbites.com/sweet-potato-cornbread/",
+        "image_url": "https://www.africanbites.com/wp-content/uploads/2023/04/IMG_9277.jpg",
+        "site_name": "Immaculate Bites",
+        "cuisine": "African"
+      },
+      {
+        "title": "Honey Wheat Rolls",
+        "url": "https://www.africanbites.com/honey-wheat-bread/",
+        "recipe_url": "https://www.africanbites.com/honey-wheat-bread/",
+        "image_url": "https://www.africanbites.com/wp-content/uploads/2026/10/Honey-Wheat-Rolls-1.jpg",
+        "site_name": "Immaculate Bites",
+        "cuisine": "African"
+      },
+      {
+        "title": "Smoked Brisket Chili",
+        "url": "https://www.africanbites.com/smoked-brisket-chili/",
+        "recipe_url": "https://www.africanbites.com/smoked-brisket-chili/",
+        "image_url": "https://www.africanbites.com/wp-content/uploads/2026/10/Smoked-Brisket-Chili-1.jpg",
+        "site_name": "Immaculate Bites",
+        "cuisine": "African"
       }
     ],
     "generated_at": "2026-10-11T18:47:14Z"
