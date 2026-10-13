@@ -5151,14 +5151,12 @@
         "url": "https://www.feastingathome.com/tofu-shawarma-bowls/"
       },
       "Fri": {
-        "title": "30+ Cheap and Easy Dinners",
-        "url": "https://damndelicious.net/2026/09/08/cheap-and-easy-dinners/",
-        "recipe_url": "https://damndelicious.net/2026/09/08/cheap-and-easy-dinners/",
-        "image_url": "https://damndelicious.net/wp-content/uploads/2018/09/Creamy-Beef-and-ShellsIMG_6408.jpg",
-        "site_name": "Damn Delicious",
-        "site_url": "https://damndelicious.net",
         "cuisine": "American",
-        "published_at": "Wed, 09 Sep 2026 04:00:00 +0000"
+        "image_url": "https://damndelicious.net/wp-content/uploads/2026/06/260401_DD_air-fryer-chicken_704-768x1152.jpg",
+        "recipe_url": "https://damndelicious.net/2026/09/04/air-fryer-chicken/",
+        "site_name": "Damn Delicious",
+        "title": "Air Fryer Chicken",
+        "url": "https://damndelicious.net/2026/09/04/air-fryer-chicken/"
       },
       "Sat": {
         "cuisine": "BBQ",
