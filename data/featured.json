@@ -1,122 +1,106 @@
 {
-  "updated_at": "2026-10-13T13:37:45Z",
+  "updated_at": "2026-10-13T20:05:51Z",
   "slot_hours": 2,
-  "slot_idx": 2,
-  "week": 3,
+  "slot_idx": 5,
+  "week": 6,
   "featured_sites": [
     {
-      "name": "Smitten Kitchen",
-      "url": "https://smittenkitchen.com",
+      "name": "Natasha's Kitchen",
+      "url": "https://natashaskitchen.com",
       "cuisine": "American",
-      "tagline": "Fearless cooking from a tiny kitchen.",
-      "image_url": "https://i0.wp.com/smittenkitchen.com/wp-content/uploads/2026/09/simple-chicken-tacos-09-scaled.jpg",
-      "rss_url": "https://smittenkitchen.com/feed/"
+      "tagline": "Trusted recipes for everyday cooking.",
+      "image_url": "https://natashaskitchen.com/wp-content/uploads/2026/09/Pumpkin-Cinnamon-Rolls-7.jpg",
+      "rss_url": "https://natashaskitchen.com/feed/"
     },
     {
-      "name": "Minimalist Baker",
-      "url": "https://minimalistbaker.com",
-      "cuisine": "Plant-Based",
-      "tagline": "Simple vegan recipes, 10 ingredients or less.",
-      "image_url": "https://minimalistbaker.com/wp-content/uploads/2023/03/Gluten-Free-Honey-Cake-15-680x1020.jpg",
-      "rss_url": "https://minimalistbaker.com/feed/"
+      "name": "Updated Recipes",
+      "url": "https://updatedrecipes.com",
+      "cuisine": "Comfort Food",
+      "tagline": "Comfort Food That Feels Like Home",
+      "image_url": "https://updatedrecipes.com/wp-content/uploads/2026/05/roasted-king-salmon-lemon-butter-recipe-768x512.webp",
+      "rss_url": "https://updatedrecipes.com/feed/"
     },
     {
-      "name": "Skinnytaste",
-      "url": "https://www.skinnytaste.com",
-      "cuisine": "Healthy American",
-      "tagline": "Healthy recipes your whole family will love.",
-      "image_url": "https://www.skinnytaste.com/wp-content/uploads/2026/10/Week_562_Oct-12-Oct-18-600x750.jpg",
-      "rss_url": "https://www.skinnytaste.com/feed/"
+      "name": "Downshiftology",
+      "url": "https://downshiftology.com",
+      "cuisine": "Healthy",
+      "tagline": "Simple, gluten-free recipes for healthy living.",
+      "image_url": "https://www.downshiftology.com/wp-content/uploads/2026/08/Spanish-Flan-main-800x437.jpg",
+      "rss_url": "https://downshiftology.com/feed/"
     },
     {
-      "name": "Cookie and Kate",
-      "url": "https://cookieandkate.com",
-      "cuisine": "Vegetarian",
-      "tagline": "Wholesome vegetarian recipes for every occasion.",
-      "image_url": "https://cookieandkate.com/images/2026/10/gluten-free-cornbread.jpg",
-      "rss_url": "https://cookieandkate.com/feed/"
+      "name": "Pardon Your French",
+      "url": "https://www.pardonyourfrench.com",
+      "cuisine": "French",
+      "tagline": "Classic French home cooking, made approachable.",
+      "image_url": "https://i0.wp.com/www.pardonyourfrench.com/wp-content/uploads/2026/09/traditional-tartiflette-recipe-11.jpg?fit=801%2C1200&ssl=1",
+      "rss_url": "https://www.pardonyourfrench.com/feed/"
     }
   ],
   "featured_recipes": {
     "Mon": {
-      "title": "simple chicken tacos",
-      "url": "https://smittenkitchen.com/2026/09/simple-chicken-tacos/",
-      "recipe_url": "https://smittenkitchen.com/2026/09/simple-chicken-tacos/",
-      "image_url": "https://i0.wp.com/smittenkitchen.com/wp-content/uploads/2026/09/simple-chicken-tacos-09-scaled.jpg?fit=640%2C427&amp;quality=89&amp;ssl=1",
-      "site_name": "Smitten Kitchen",
-      "site_url": "https://smittenkitchen.com",
       "cuisine": "American",
-      "published_at": "Wed, 30 Sep 2026 21:00:08 +0000"
+      "image_url": "https://natashaskitchen.com/wp-content/uploads/2026/09/Apple-Galette-SQ.jpg",
+      "recipe_url": "https://natashaskitchen.com/apple-galette/?adt_ei={{ subscriber.email_address }}",
+      "site_name": "Natasha's Kitchen",
+      "title": "This Apple Galette is Easier than Pie 🍎",
+      "url": "https://natashaskitchen.com/apple-galette/?adt_ei={{ subscriber.email_address }}"
     },
     "Tue": {
-      "cuisine": "American",
-      "image_url": "https://i0.wp.com/smittenkitchen.com/wp-content/uploads/2026/08/peach-cobbler-loaf-08-scaled.jpg?fit=640%2C427&amp;quality=89&amp;ssl=1",
-      "published_at": "Fri, 28 Aug 2026 12:07:56 +0000",
-      "recipe_url": "https://smittenkitchen.com/2026/08/peach-cobbler-loaf/",
-      "site_name": "Smitten Kitchen",
-      "site_url": "https://smittenkitchen.com",
-      "title": "peach cobbler loaf",
-      "url": "https://smittenkitchen.com/2026/08/peach-cobbler-loaf/"
+      "cuisine": "Comfort Food",
+      "image_url": "https://updatedrecipes.com/wp-content/uploads/2026/10/creamy-garlic-shrimp-manicotti-featured-image.webp",
+      "recipe_url": "https://updatedrecipes.com/creamy-garlic-shrimp-manicotti/",
+      "site_name": "Updated Recipes",
+      "title": "Creamy Garlic Shrimp Manicotti",
+      "url": "https://updatedrecipes.com/creamy-garlic-shrimp-manicotti/"
     },
     "Wed": {
-      "cuisine": "American",
-      "image_url": "https://i0.wp.com/smittenkitchen.com/wp-content/uploads/2026/07/spaghetti-alio-e-olio-6-scaled.jpg?fit=640%2C427&amp;quality=89&amp;ssl=1",
-      "published_at": "Tue, 28 Jul 2026 20:15:40 +0000",
-      "recipe_url": "https://smittenkitchen.com/2026/07/spaghetti-aglio-e-olio/",
-      "site_name": "Smitten Kitchen",
-      "site_url": "https://smittenkitchen.com",
-      "title": "spaghetti aglio e olio",
-      "url": "https://smittenkitchen.com/2026/07/spaghetti-aglio-e-olio/"
+      "cuisine": "French",
+      "image_url": "https://i0.wp.com/www.pardonyourfrench.com/wp-content/uploads/2026/05/Provencal-Pork-Stew-15.jpg?fit=801%2C1200&#038;ssl=1",
+      "recipe_url": "https://www.pardonyourfrench.com/provencal-pork-stew/?utm_source=rss&utm_medium=rss&utm_campaign=provencal-pork-stew",
+      "site_name": "Pardon Your French",
+      "title": "Easy Provençal Pork Stew (French Pork Stew with Tomatoes, Peppers & Herbs)",
+      "url": "https://www.pardonyourfrench.com/provencal-pork-stew/?utm_source=rss&utm_medium=rss&utm_campaign=provencal-pork-stew"
     },
     "Thu": {
-      "title": "Gluten-Free Cornbread",
-      "url": "https://cookieandkate.com/gluten-free-cornbread/?adt_ei=*|EMAIL|*",
-      "recipe_url": "https://cookieandkate.com/gluten-free-cornbread/?adt_ei=*|EMAIL|*",
-      "image_url": "https://cookieandkate.com/images/2026/10/gluten-free-cornbread.jpg",
-      "site_name": "Cookie and Kate",
-      "site_url": "https://cookieandkate.com",
-      "cuisine": "Vegetarian",
-      "published_at": "Wed, 07 Oct 2026 16:33:56 +0000"
+      "cuisine": "Healthy",
+      "image_url": "https://downshiftology.com/wp-content/uploads/2026/08/Mississippi-Pot-Roast-main.jpg",
+      "recipe_url": "https://downshiftology.com/recipes/slow-cooker-mississippi-pot-roast/",
+      "site_name": "Downshiftology",
+      "title": "Slow Cooker Mississippi Pot Roast",
+      "url": "https://downshiftology.com/recipes/slow-cooker-mississippi-pot-roast/"
     },
     "Fri": {
-      "title": "tomato risotto with frizzled red onions",
-      "url": "https://smittenkitchen.com/2026/09/tomato-risotto-with-frizzled-red-onions/",
-      "recipe_url": "https://smittenkitchen.com/2026/09/tomato-risotto-with-frizzled-red-onions/",
-      "image_url": "https://i0.wp.com/smittenkitchen.com/wp-content/uploads/2026/09/tomato-risotto-with-frizzled-onions-14-scaled.jpg?fit=640%2C427&amp;quality=89&amp;ssl=1",
-      "site_name": "Smitten Kitchen",
-      "site_url": "https://smittenkitchen.com",
-      "cuisine": "American",
-      "published_at": "Wed, 16 Sep 2026 15:28:36 +0000"
+      "cuisine": "Comfort Food",
+      "image_url": "https://updatedrecipes.com/wp-content/uploads/2026/10/crispy-cod-strips-tartar-sauce-featured-image.webp",
+      "recipe_url": "https://updatedrecipes.com/crispy-cod-strips-tartar-sauce/",
+      "site_name": "Updated Recipes",
+      "title": "Crispy Cod Strips with Homemade Tartar Sauce",
+      "url": "https://updatedrecipes.com/crispy-cod-strips-tartar-sauce/"
     },
     "Sat": {
-      "title": "Easy Eggplant Bolognese (1 Pot!)",
-      "url": "https://minimalistbaker.com/eggplant-bolognese/",
-      "recipe_url": "https://minimalistbaker.com/eggplant-bolognese/",
-      "image_url": "https://minimalistbaker.com/wp-content/uploads/2026/02/Easy-Vegetarian-Eggplant-Bolognese-9-680x1020.jpg",
-      "site_name": "Minimalist Baker",
-      "site_url": "https://minimalistbaker.com",
-      "cuisine": "Plant-Based",
-      "published_at": "Tue, 18 Aug 2026 08:00:00 +0000"
+      "cuisine": "Healthy",
+      "image_url": "https://i2.wp.com/www.downshiftology.com/wp-content/uploads/2026/08/Fall-Roasted-Vegetables-main.jpg",
+      "recipe_url": "https://downshiftology.com/recipes/fall-roasted-vegetables/",
+      "site_name": "Downshiftology",
+      "title": "Fall Roasted Vegetables",
+      "url": "https://downshiftology.com/recipes/fall-roasted-vegetables/"
     },
     "Sun": {
-      "title": "These Easy Baked Apples Taste Like Individual Apple Crisps Without the Fuss",
-      "url": "https://www.skinnytaste.com/delightfully-baked-apples/?adt_ei=*|EMAIL|*",
-      "recipe_url": "https://www.skinnytaste.com/delightfully-baked-apples/?adt_ei=*|EMAIL|*",
-      "image_url": "https://www.skinnytaste.com/wp-content/uploads/2017/09/Baked-Apples-7-600x900.jpg",
-      "site_name": "Skinnytaste",
-      "site_url": "https://www.skinnytaste.com",
-      "cuisine": "Healthy American",
-      "published_at": "Thu, 08 Oct 2026 19:10:42 +0000"
+      "cuisine": "French",
+      "image_url": "https://i0.wp.com/www.pardonyourfrench.com/wp-content/uploads/2026/09/Blanquette-de-Veau-10.jpg?fit=801%2C1200&#038;ssl=1",
+      "recipe_url": "https://www.pardonyourfrench.com/blanquette-de-veau/?utm_source=rss&utm_medium=rss&utm_campaign=blanquette-de-veau",
+      "site_name": "Pardon Your French",
+      "title": "Blanquette de Veau (Classic French Veal Stew in White Sauce)",
+      "url": "https://www.pardonyourfrench.com/blanquette-de-veau/?utm_source=rss&utm_medium=rss&utm_campaign=blanquette-de-veau"
     }
   },
   "featured_recipe": {
-    "title": "These Easy Baked Apples Taste Like Individual Apple Crisps Without the Fuss",
-    "url": "https://www.skinnytaste.com/delightfully-baked-apples/?adt_ei=*|EMAIL|*",
-    "recipe_url": "https://www.skinnytaste.com/delightfully-baked-apples/?adt_ei=*|EMAIL|*",
-    "image_url": "https://www.skinnytaste.com/wp-content/uploads/2017/09/Baked-Apples-7-600x900.jpg",
-    "site_name": "Skinnytaste",
-    "site_url": "https://www.skinnytaste.com",
-    "cuisine": "Healthy American",
-    "published_at": "Thu, 08 Oct 2026 19:10:42 +0000"
+    "cuisine": "French",
+    "image_url": "https://i0.wp.com/www.pardonyourfrench.com/wp-content/uploads/2026/09/Blanquette-de-Veau-10.jpg?fit=801%2C1200&#038;ssl=1",
+    "recipe_url": "https://www.pardonyourfrench.com/blanquette-de-veau/?utm_source=rss&utm_medium=rss&utm_campaign=blanquette-de-veau",
+    "site_name": "Pardon Your French",
+    "title": "Blanquette de Veau (Classic French Veal Stew in White Sauce)",
+    "url": "https://www.pardonyourfrench.com/blanquette-de-veau/?utm_source=rss&utm_medium=rss&utm_campaign=blanquette-de-veau"
   }
 }
