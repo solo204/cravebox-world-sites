@@ -43,12 +43,14 @@ jobs:
           gh issue list --label preflight --state open --json number -q '.[].number' \
             | xargs -I{} gh issue close {} --comment "Superseded by a new preflight run." 2>/dev/null || true
 
+          # Create label if missing
+          gh label create preflight --color "e4e669" --description "Automated preflight check alert" 2>/dev/null || true
+
           gh issue create \
             --title "$TITLE" \
             --body "$(printf '%s\n\n---\n*Auto-opened by the [preflight workflow](%s/actions/runs/%s).*' \
                        "$BODY" "$GITHUB_SERVER_URL/$GITHUB_REPOSITORY" "$GITHUB_RUN_ID")" \
-            --label preflight \
-            || echo "Could not create issue (label may not exist — create a 'preflight' label in the repo)."
+            --label preflight
 
       - name: Fail the run if checks failed
         if: steps.check.outcome == 'failure'

@@ -57,7 +57,11 @@ def check_url(url: str) -> tuple[bool, str]:
 # ── Helpers ──────────────────────────────────────────────────────────────────
 
 def parse_dt(s: str) -> datetime:
-    return datetime.fromisoformat(s.replace("Z", "+00:00"))
+    dt = datetime.fromisoformat(s.replace("Z", "+00:00"))
+    # Ensure timezone-aware so comparisons with now (UTC) always work
+    if dt.tzinfo is None:
+        dt = dt.replace(tzinfo=timezone.utc)
+    return dt
 
 def weekday_key(dt: datetime) -> str:
     """'mon' … 'sun'"""
