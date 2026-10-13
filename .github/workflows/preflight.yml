@@ -1,0 +1,55 @@
+name: Schedule Preflight Check
+
+on:
+  schedule:
+    - cron: '0 10 * * *'   # daily 10:00 AM UTC (well before content goes live)
+  workflow_dispatch:
+
+jobs:
+  preflight:
+    name: Check Upcoming Content
+    runs-on: ubuntu-latest
+
+    permissions:
+      contents: read
+      issues: write
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+
+      - name: Set up Python 3.11
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Run preflight checks
+        id: check
+        run: python preflight_check.py
+        continue-on-error: true   # let the next step create the issue even on failure
+
+      - name: Open GitHub Issue on failure
+        if: steps.check.outcome == 'failure'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          BODY=$(cat preflight_failures.txt 2>/dev/null || echo "preflight_check.py exited with failure — see run log for details.")
+          DATE=$(date -u +"%Y-%m-%d")
+          TITLE="⚠️ Preflight failure — $DATE"
+
+          # Close any existing open preflight issues first to avoid spam
+          gh issue list --label preflight --state open --json number -q '.[].number' \
+            | xargs -I{} gh issue close {} --comment "Superseded by a new preflight run." 2>/dev/null || true
+
+          gh issue create \
+            --title "$TITLE" \
+            --body "$(printf '%s\n\n---\n*Auto-opened by the [preflight workflow](%s/actions/runs/%s).*' \
+                       "$BODY" "$GITHUB_SERVER_URL/$GITHUB_REPOSITORY" "$GITHUB_RUN_ID")" \
+            --label preflight \
+            || echo "Could not create issue (label may not exist — create a 'preflight' label in the repo)."
+
+      - name: Fail the run if checks failed
+        if: steps.check.outcome == 'failure'
+        run: exit 1
