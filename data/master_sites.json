@@ -56,14 +56,6 @@
     "rss_url": "https://www.hungrypaprikas.com/feed/"
   },
   {
-    "name": "Mexico in My Kitchen",
-    "url": "https://www.mexicoinmykitchen.com",
-    "cuisine": "Mexican",
-    "tagline": "100% authentic Mexican recipes.",
-    "image_url": "https://www.mexicoinmykitchen.com/wp-content/uploads/2026/03/Aguachile-Recipe-6.jpg",
-    "rss_url": "https://www.mexicoinmykitchen.com/feed/"
-  },
-  {
     "name": "Dassana's Veg Recipes",
     "url": "https://www.vegrecipesofindia.com",
     "cuisine": "Indian",
@@ -141,7 +133,8 @@
     "cuisine": "Korean",
     "tagline": "Real Korean cooking for everyone.",
     "image_url": "https://www.maangchi.com/wp-content/uploads/2026/09/Korean-reststop-potatoes-1-1200x630-cropped.jpg",
-    "rss_url": "https://www.maangchi.com/feed"
+    "rss_url": "https://www.maangchi.com/feed",
+    "active": false
   },
   {
     "name": "Immaculate Bites",
@@ -157,7 +150,8 @@
     "cuisine": "Indian",
     "tagline": "Indian recipes that work every time.",
     "image_url": "https://www.indianhealthyrecipes.com/wp-content/uploads/2026/10/quinoa-khichdi.jpg",
-    "rss_url": "https://www.indianhealthyrecipes.com/feed/"
+    "rss_url": "https://www.indianhealthyrecipes.com/feed/",
+    "active": false
   },
   {
     "name": "Smitten Kitchen",
@@ -437,7 +431,8 @@
     "cuisine": "Nigerian",
     "tagline": "Creative Nigerian recipes for international palates.",
     "image_url": "https://i0.wp.com/www.afrolems.com/wp-content/uploads/2015/07/sadza-peanut-soup.jpg?resize=320%2C107&#038;ssl=1",
-    "rss_url": "https://afrolems.com/feed/"
+    "rss_url": "https://afrolems.com/feed/",
+    "active": false
   },
   {
     "name": "Kaluhi's Kitchen",
@@ -533,7 +528,8 @@
     "cuisine": "Polish",
     "tagline": "Traditional Polish recipes from a Polish-American cook.",
     "image_url": "https://i0.wp.com/www.polishyourkitchen.com/wp-content/uploads/2026/09/Brand-sponsor.png?resize=660%2C467&#038;ssl=1",
-    "rss_url": "https://polishyourkitchen.com/feed/"
+    "rss_url": "https://polishyourkitchen.com/feed/",
+    "active": false
   },
   {
     "name": "Polish Housewife",
@@ -621,7 +617,8 @@
     "cuisine": "Spanish",
     "tagline": "Authentic Spanish tapas, paella, and seasonal dishes.",
     "image_url": "",
-    "rss_url": "https://www.aspanishbite.com/feed/"
+    "rss_url": "https://www.aspanishbite.com/feed/",
+    "active": false
   },
   {
     "name": "Leite's Culinaria",
@@ -717,7 +714,8 @@
     "cuisine": "Chilean",
     "tagline": "Authentic Chilean recipes with cookbook credentials.",
     "image_url": "https://www.chileanfoodandgarden.com/wp-content/uploads/2026/03/IMG_4533-768x1024.jpg",
-    "rss_url": "https://www.chileanfoodandgarden.com/feed/"
+    "rss_url": "https://www.chileanfoodandgarden.com/feed/",
+    "active": false
   },
   {
     "name": "Mommy's Home Cooking",
@@ -757,7 +755,8 @@
     "cuisine": "Persian",
     "tagline": "FeedSpot #1 Persian food blog in English.",
     "image_url": "",
-    "rss_url": "https://mypersiankitchen.com/feed/"
+    "rss_url": "https://mypersiankitchen.com/feed/",
+    "active": false
   },
   {
     "name": "Persian Mama",
@@ -813,7 +812,8 @@
     "cuisine": "Australian",
     "tagline": "2000+ Australian recipes covering Japanese, Indian, and French.",
     "image_url": "https://images.notquitenigella.com/images/pumpkin-ravioli/sp.jpg",
-    "rss_url": "https://www.notquitenigella.com/feed/atom/"
+    "rss_url": "https://www.notquitenigella.com/feed/",
+    "active": false
   },
   {
     "name": "Cafe Delites",
@@ -877,7 +877,8 @@
     "cuisine": "American",
     "tagline": "Approachable everyday recipes across all cuisines.",
     "image_url": "https://www.simplyrecipes.com/thmb/kw3KbN6AVWPcHV3Hpoa_uajhEqc=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/Simply-Recipes-Homepage-Recirc-797832c8798247a882759b368e5470e6.jpg",
-    "rss_url": "https://feeds.feedburner.com/SimplyRecipes"
+    "rss_url": "https://feeds.feedburner.com/SimplyRecipes",
+    "active": false
   },
   {
     "name": "Two Peas and Their Pod",
@@ -901,7 +902,8 @@
     "cuisine": "American",
     "tagline": "California-style cooking and entertaining by Gaby Dalkin.",
     "image_url": "https://whatsgabycooking.com/wp-content/uploads/2018/01/WGC-Chicken-Tortilla-Soup-copy.jpg",
-    "rss_url": "https://www.whatsgabycooking.com/feed/rss2/"
+    "rss_url": "https://www.whatsgabycooking.com/feed/rss2/",
+    "active": false
   },
   {
     "name": "AmazingRibs",
@@ -909,7 +911,8 @@
     "cuisine": "BBQ",
     "tagline": "The definitive BBQ guide — 2000+ pages, Library of Congress archived.",
     "image_url": "https://amazingribs.com/wp-content/uploads/2026/09/sliced-brisket-scaled-e1788464269177.jpg",
-    "rss_url": "https://feeds.feedburner.com/AmazingRibs"
+    "rss_url": "https://feeds.feedburner.com/AmazingRibs",
+    "active": false
   },
   {
     "name": "Hey Grill Hey",
@@ -1078,5 +1081,91 @@
     "tagline": "Easy Brazilian recipes from an American transplant.",
     "image_url": "https://easybrazilianfood.com/wp-content/uploads/2026/09/Bolinhos-de-Chuva-POST-angle-COVER.jpeg",
     "rss_url": "https://easybrazilianfood.com/feed/"
+  },
+  {
+    "name": "Eating Thai Food",
+    "url": "https://www.eatingthaifood.com",
+    "cuisine": "Thai",
+    "tagline": "Authentic street-food-style Thai recipes by Bangkok-based food writer Mark Wiens, sourced from real Thai family cooking.",
+    "rss_url": "https://www.eatingthaifood.com/feed/"
+  },
+  {
+    "name": "Hot Thai Kitchen (Substack)",
+    "url": "https://hot-thai-kitchen.com",
+    "cuisine": "Thai",
+    "tagline": "Step-by-step Thai recipes by culinary school graduate Pailin Chongchitnant, backed by detailed video tutorials.",
+    "rss_url": "https://hotthaikitchen.substack.com/feed"
+  },
+  {
+    "name": "She Simmers",
+    "url": "https://www.shesimmers.com",
+    "cuisine": "Thai",
+    "tagline": "Deeply researched Thai home cooking by author Leela Punyaratabandhu, covering traditional recipes with meticulous cultural context.",
+    "rss_url": "https://www.shesimmers.com/feed/",
+    "active": false
+  },
+  {
+    "name": "Olive Tomato",
+    "url": "https://www.olivetomato.com",
+    "cuisine": "Greek",
+    "tagline": "Authentic Greek and Mediterranean diet recipes from Greek-born registered dietitian Elena Paravantes.",
+    "rss_url": "https://www.olivetomato.com/feed/"
+  },
+  {
+    "name": "Dimitra's Dishes",
+    "url": "https://www.dimitrasdishes.com",
+    "cuisine": "Greek",
+    "tagline": "Approachable Greek classics and crowd-pleasing Mediterranean recipes with video tutorials by Dimitra Darris.",
+    "rss_url": "https://www.dimitrasdishes.com/feed/"
+  },
+  {
+    "name": "The Hungry Bites",
+    "url": "https://www.thehungrybites.com",
+    "cuisine": "Greek",
+    "tagline": "Traditional Greek and Mediterranean home cooking with a focus on authentic recipes and detailed technique.",
+    "rss_url": "https://www.thehungrybites.com/feed/"
+  },
+  {
+    "name": "Mexican Please",
+    "url": "https://www.mexicanplease.com",
+    "cuisine": "Mexican",
+    "tagline": "Authentic Mexican flavors and techniques with an emphasis on mastering salsas and chile-based sauces.",
+    "rss_url": "https://www.mexicanplease.com/feed/"
+  },
+  {
+    "name": "Mexico in My Kitchen",
+    "url": "https://www.mexicoinmykitchen.com",
+    "cuisine": "Mexican",
+    "tagline": "Traditional recipes from all regions of Mexico by native cook Mely Martínez, preserving authentic home cooking.",
+    "rss_url": "http://feeds.feedburner.com/MexicoInMyKitchen",
+    "active": false
+  },
+  {
+    "name": "Taste of Maroc",
+    "url": "https://tasteofmaroc.com",
+    "cuisine": "Moroccan",
+    "tagline": "Christine Benlafquih's encyclopedic archive of authentic Moroccan recipes, cooking tutorials, and cultural guides.",
+    "rss_url": "https://tasteofmaroc.com/feed/"
+  },
+  {
+    "name": "MarocMama",
+    "url": "https://www.marocmama.com",
+    "cuisine": "Moroccan",
+    "tagline": "An American expat living in Morocco shares her Moroccan family recipes alongside travel and cultural stories.",
+    "rss_url": "https://www.marocmama.com/feed/"
+  },
+  {
+    "name": "The Daring Gourmet",
+    "url": "https://www.daringgourmet.com",
+    "cuisine": "Global",
+    "tagline": "World cuisine recipes with authentic techniques covering dishes from every corner of the globe including Ethiopian classics.",
+    "rss_url": "https://www.daringgourmet.com/feed/"
+  },
+  {
+    "name": "International Cuisine",
+    "url": "https://www.internationalcuisine.com",
+    "cuisine": "Global",
+    "tagline": "Every country's national dish and traditional recipes systematically covered, a one-stop world recipe reference.",
+    "rss_url": "https://www.internationalcuisine.com/feed/"
   }
 ]

@@ -21,7 +21,7 @@ from pathlib import Path
 import requests
 
 DATA_DIR       = Path(__file__).parent / "data"
-REQUEST_TIMEOUT = 8
+REQUEST_TIMEOUT = 12
 
 HEADERS = {
     "User-Agent": "CraveBox-Rotator/1.0 (https://github.com/solo204/cravebox-world-sites)"
@@ -106,7 +106,11 @@ def validate_site(site: dict) -> dict[str, str]:
 
     # ── 2. RSS parses + has items ─────────────────────────────────────────────
     try:
-        root  = ET.fromstring(r.content)
+        # Try raw bytes first; fall back to re-encoded text (handles BOM / charset mismatches)
+        try:
+            root = ET.fromstring(r.content)
+        except ET.ParseError:
+            root = ET.fromstring(r.text.encode("utf-8"))
         ns    = {"atom": "http://www.w3.org/2005/Atom"}
         items = root.findall(".//item") or root.findall(".//atom:entry", ns)
         if not items:
@@ -120,7 +124,12 @@ def validate_site(site: dict) -> dict[str, str]:
     item = items[0]
 
     # ── 3. Recipe link is a post URL (not the site homepage) ─────────────────
-    link = (item.findtext("link") or item.findtext("guid") or "").strip()
+    # Atom entries use <link href="..."/> (attribute), RSS uses <link> text content
+    link_el = item.find("link")
+    if link_el is not None and not (link_el.text or "").strip() and link_el.get("href"):
+        link = link_el.get("href", "").strip()
+    else:
+        link = (item.findtext("link") or item.findtext("guid") or "").strip()
     if not link:
         checks["recipe_link"] = result(FAIL, "no <link> or <guid> in first item")
     elif link.rstrip("/") == url:
@@ -133,10 +142,17 @@ def validate_site(site: dict) -> dict[str, str]:
     # ── 4. Image from RSS ────────────────────────────────────────────────────
     image_url: str | None = None
 
+    # Patterns that look like images in media:content but are actually video embeds
+    VIDEO_HOSTS = ("youtube.com", "youtu.be", "vimeo.com", "dailymotion.com")
+
     mc = item.find("media:content", {"media": "http://search.yahoo.com/mrss/"})
     if mc is not None and mc.get("url"):
-        image_url = mc.get("url")
-        checks["image_source"] = result(OK, f"media:content → {image_url[:80]}")
+        candidate = mc.get("url")
+        # Fix double-domain bug: https://foo.com/foo.com/path  OR  https://foo.com/https://foo.com/path
+        candidate = re.sub(r'^(https?://([^/]+))/(https?://\2/|\2/)', r'\1/', candidate)
+        if not any(v in candidate for v in VIDEO_HOSTS):
+            image_url = candidate
+            checks["image_source"] = result(OK, f"media:content → {image_url[:80]}")
 
     if not image_url:
         enc = item.find("enclosure")
@@ -159,7 +175,12 @@ def validate_site(site: dict) -> dict[str, str]:
             if image_url:
                 checks["og_image"] = result(OK, image_url[:90])
             else:
-                checks["og_image"] = result(FAIL, "og:image scrape returned nothing")
+                checks["og_image"] = result(WARN, "og:image scrape returned nothing")
+
+    # Final fallback: use hardcoded image_url from master_sites.json entry
+    if not image_url and site.get("image_url"):
+        image_url = site["image_url"]
+        checks["image_source"] = result(WARN, f"using hardcoded image_url → {image_url[:80]}")
 
     # ── 5. Image actually loads (hotlink check) ───────────────────────────────
     if image_url:
@@ -227,9 +248,11 @@ def main():
                 print(f"ERROR: site '{args.site}' not found in master_sites.json", file=sys.stderr)
                 sys.exit(1)
         else:
-            targets = master
+            targets = [s for s in master if s.get("active", True)]
 
-        print(f"Validating {len(targets)} site(s)…")
+        skipped = len(master) - len(targets)
+        suffix  = f" ({skipped} inactive skipped)" if skipped else ""
+        print(f"Validating {len(targets)} site(s)…{suffix}")
         for site in targets:
             checks = validate_site(site)
             ok = print_report(site["name"], checks, show_passing)

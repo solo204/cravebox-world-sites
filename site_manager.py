@@ -51,6 +51,16 @@ def save_master(sites):
         json.dump(sites, f, indent=2, ensure_ascii=False)
 
 def load_featured():
+    # Pull latest from GitHub so the dashboard always reflects what the app sees
+    try:
+        subprocess.run(
+            ["git", "pull", "--ff-only", "-q"],
+            cwd=Path(__file__).parent,
+            capture_output=True,
+            timeout=6,
+        )
+    except Exception:
+        pass  # offline or conflict — use whatever's local
     if not FEATURED_PATH.exists():
         return None
     with open(FEATURED_PATH, encoding="utf-8") as f:
