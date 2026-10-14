@@ -1167,5 +1167,69 @@
     "cuisine": "Global",
     "tagline": "Every country's national dish and traditional recipes systematically covered, a one-stop world recipe reference.",
     "rss_url": "https://www.internationalcuisine.com/feed/"
+  },
+  {
+    "name": "The First Mess",
+    "url": "https://thefirstmess.com",
+    "cuisine": "Vegan",
+    "tagline": "Beautiful plant-based cooking with luminous, magazine-quality photography.",
+    "image_url": "",
+    "rss_url": "https://thefirstmess.com/feed/"
+  },
+  {
+    "name": "The Bojon Gourmet",
+    "url": "https://bojongourmet.com",
+    "cuisine": "Gluten-Free Baking",
+    "tagline": "IACP award-winning gluten-free pastry and baking with moody, editorial photography.",
+    "image_url": "",
+    "rss_url": "https://bojongourmet.com/feed/"
+  },
+  {
+    "name": "Adventures in Cooking",
+    "url": "https://adventuresincooking.com",
+    "cuisine": "Seasonal American",
+    "tagline": "Fine-art food photography meets seasonal home cooking and garden-to-table storytelling.",
+    "image_url": "",
+    "rss_url": "https://adventuresincooking.com/feed/"
+  },
+  {
+    "name": "Evergreen Kitchen",
+    "url": "https://evergreenkitchen.ca",
+    "cuisine": "Vegetarian",
+    "tagline": "Professional photographer-stylist duo behind consistently editorial vegetarian cooking.",
+    "image_url": "",
+    "rss_url": "https://evergreenkitchen.ca/feed/"
+  },
+  {
+    "name": "Ministry of Curry",
+    "url": "https://ministryofcurry.com",
+    "cuisine": "Indian",
+    "tagline": "Authentic Maharashtrian and Indian recipes, with a specialty in Instant Pot cooking.",
+    "image_url": "",
+    "rss_url": "https://ministryofcurry.com/feed/"
+  },
+  {
+    "name": "Zaatar & Zaytoun",
+    "url": "https://zaatarandzaytoun.com",
+    "cuisine": "Lebanese",
+    "tagline": "Traditional and modern Lebanese recipes from a London-based home cook.",
+    "image_url": "",
+    "rss_url": "https://zaatarandzaytoun.com/feed/"
+  },
+  {
+    "name": "9jafoodie",
+    "url": "https://9jafoodie.com",
+    "cuisine": "Nigerian",
+    "tagline": "Nigerian home cooking with traditional recipes and healthier modern twists.",
+    "image_url": "",
+    "rss_url": "https://9jafoodie.com/feed/"
+  },
+  {
+    "name": "Where Is My Spoon",
+    "url": "https://whereismyspoon.co",
+    "cuisine": "Eastern European",
+    "tagline": "Romanian-born author sharing Eastern European and German home cooking traditions.",
+    "image_url": "",
+    "rss_url": "https://whereismyspoon.co/feed/"
   }
 ]
