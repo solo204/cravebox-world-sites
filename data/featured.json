@@ -1,108 +1,120 @@
 {
-  "updated_at": "2026-10-14T13:19:21Z",
+  "updated_at": "2026-10-14T18:18:31Z",
   "slot_hours": 2,
-  "slot_idx": 14,
-  "week": 15,
+  "slot_idx": 1,
+  "week": 2,
   "featured_sites": [
     {
-      "name": "Hey Grill Hey",
-      "url": "https://heygrillhey.com",
-      "cuisine": "BBQ",
-      "tagline": "550+ grilling and smoking recipes by Susie Bulloch.",
-      "image_url": "https://heygrillhey.com/wp-content/uploads/2026/08/Cornbread-Peach-Cobbler-Square.jpg",
-      "rss_url": "https://heygrillhey.com/feed/"
+      "name": "Chopstick Chronicles",
+      "url": "https://www.chopstickchronicles.com",
+      "cuisine": "Japanese",
+      "tagline": "Authentic traditional and contemporary Japanese recipes.",
+      "image_url": "https://www.chopstickchronicles.com/wp-content/uploads/2026/09/kabocha-korokke-11.jpg",
+      "rss_url": "https://www.chopstickchronicles.com/feed/"
     },
     {
       "name": "Damn Delicious",
       "url": "https://damndelicious.net",
       "cuisine": "American",
       "tagline": "Quick and easy recipes for every occasion.",
-      "image_url": "https://damndelicious.net/wp-content/uploads/2026/08/260712_DD_cheeseburger-sliders_525-768x1151.jpg",
+      "image_url": "https://damndelicious.net/wp-content/uploads/2026/09/Cheeseburger-Sliders-scaled.jpg",
       "rss_url": "https://damndelicious.net/feed/"
     },
     {
-      "name": "Natasha's Kitchen",
-      "url": "https://natashaskitchen.com",
-      "cuisine": "American",
-      "tagline": "Trusted recipes for everyday cooking.",
-      "image_url": "https://natashaskitchen.com/wp-content/uploads/2026/09/Pumpkin-Cinnamon-Rolls-7.jpg",
-      "rss_url": "https://natashaskitchen.com/feed/"
+      "name": "Immaculate Bites",
+      "url": "https://www.africanbites.com",
+      "cuisine": "African",
+      "tagline": "Bold African flavors and soul food recipes.",
+      "image_url": "https://www.africanbites.com/wp-content/uploads/2023/04/IMG_9277.jpg",
+      "rss_url": "https://www.africanbites.com/feed/"
     },
     {
-      "name": "Feasting at Home",
-      "url": "https://www.feastingathome.com",
-      "cuisine": "Global",
-      "tagline": "Fresh seasonal recipes with global inspiration.",
-      "image_url": "https://www.feastingathome.com/wp-content/uploads/2026/09/Eggplant-Tikka-Masala-13-768x1152.jpg",
-      "rss_url": "https://www.feastingathome.com/feed/"
+      "name": "Swasthi's Recipes",
+      "url": "https://www.indianhealthyrecipes.com",
+      "cuisine": "Indian",
+      "tagline": "Indian recipes that work every time.",
+      "image_url": "https://www.indianhealthyrecipes.com/wp-content/uploads/2026/10/quinoa-khichdi.jpg",
+      "rss_url": "https://www.indianhealthyrecipes.com/feed/"
     }
   ],
   "featured_recipes": {
     "Mon": {
-      "cuisine": "BBQ",
-      "image_url": "https://heygrillhey.com/wp-content/uploads/2026/08/Cornbread-Peach-Cobbler-Square.jpg",
-      "recipe_url": "https://heygrillhey.com/cornbread-peach-cobbler/",
-      "site_name": "Hey Grill Hey",
-      "title": "Cornbread Peach Cobbler",
-      "url": "https://heygrillhey.com/cornbread-peach-cobbler/"
+      "cuisine": "African",
+      "image_url": "https://www.africanbites.com/wp-content/uploads/2026/10/Roast-Turkey-Wings-1.jpg",
+      "published_at": "Tue, 06 Oct 2026 07:30:00 +0000",
+      "recipe_url": "https://www.africanbites.com/baked-turkey-wings/",
+      "site_name": "Immaculate Bites",
+      "site_url": "https://www.africanbites.com",
+      "title": "Roast Turkey Wings",
+      "url": "https://www.africanbites.com/baked-turkey-wings/"
     },
     "Tue": {
-      "title": "Cheeseburger Sliders",
-      "url": "https://damndelicious.net/2026/09/18/cheeseburger-sliders/",
-      "recipe_url": "https://damndelicious.net/2026/09/18/cheeseburger-sliders/",
-      "image_url": "https://damndelicious.net/wp-content/uploads/2026/08/260712_DD_cheeseburger-sliders_525-768x1151.jpg",
-      "site_name": "Damn Delicious",
-      "site_url": "https://damndelicious.net",
-      "cuisine": "American",
-      "published_at": "Sat, 19 Sep 2026 04:00:00 +0000"
+      "cuisine": "African",
+      "image_url": "https://www.africanbites.com/wp-content/uploads/2026/10/Slow-Cooker-Pork-Chops-1.jpg",
+      "published_at": "Mon, 05 Oct 2026 07:30:00 +0000",
+      "recipe_url": "https://www.africanbites.com/slow-cooker-pork-chops/",
+      "site_name": "Immaculate Bites",
+      "site_url": "https://www.africanbites.com",
+      "title": "Slow Cooker Pork Chops",
+      "url": "https://www.africanbites.com/slow-cooker-pork-chops/"
     },
     "Wed": {
       "cuisine": "American",
-      "image_url": "https://natashaskitchen.com/wp-content/uploads/2026/06/Salmon-Bowls-5.jpg",
-      "recipe_url": "https://natashaskitchen.com/salmon-bowls/?adt_ei={{ subscriber.email_address }}",
-      "site_name": "Natasha's Kitchen",
-      "title": "Crispy Salmon Bowls with the Best Sauce",
-      "url": "https://natashaskitchen.com/salmon-bowls/?adt_ei={{ subscriber.email_address }}"
+      "image_url": "https://damndelicious.net/wp-content/uploads/2026/06/251218_DD_Honey-BBQ-Chicken-Bites_691-768x1152.jpg",
+      "recipe_url": "https://damndelicious.net/2026/08/21/honey-bbq-chicken-bites/",
+      "site_name": "Damn Delicious",
+      "title": "Honey BBQ Chicken Bites",
+      "url": "https://damndelicious.net/2026/08/21/honey-bbq-chicken-bites/"
     },
     "Thu": {
-      "cuisine": "Global",
-      "image_url": "https://www.feastingathome.com/wp-content/uploads/2026/09/Tofu-Shawarma-8-768x1152.jpg",
-      "recipe_url": "https://www.feastingathome.com/tofu-shawarma-bowls/",
-      "site_name": "Feasting at Home",
-      "title": "Tofu Shawarma Bowls",
-      "url": "https://www.feastingathome.com/tofu-shawarma-bowls/"
+      "cuisine": "Japanese",
+      "image_url": "https://www.chopstickchronicles.com/wp-content/uploads/2019/05/Egg-Drop-Soup-11.jpg",
+      "published_at": "Wed, 21 Jan 2026 05:19:34 +0000",
+      "recipe_url": "https://www.chopstickchronicles.com/kakitamajiru/",
+      "site_name": "Chopstick Chronicles",
+      "site_url": "https://www.chopstickchronicles.com",
+      "title": "Kakitamajiru (Egg Drop Soup)",
+      "url": "https://www.chopstickchronicles.com/kakitamajiru/"
     },
     "Fri": {
-      "cuisine": "American",
-      "image_url": "https://damndelicious.net/wp-content/uploads/2026/06/260401_DD_air-fryer-chicken_704-768x1152.jpg",
-      "recipe_url": "https://damndelicious.net/2026/09/04/air-fryer-chicken/",
-      "site_name": "Damn Delicious",
-      "title": "Air Fryer Chicken",
-      "url": "https://damndelicious.net/2026/09/04/air-fryer-chicken/"
+      "title": "Kabocha Korokke (Kabocha Squash Croquette)",
+      "url": "https://www.chopstickchronicles.com/kabocha-korokke-kabocha-squash-croquette/",
+      "recipe_url": "https://www.chopstickchronicles.com/kabocha-korokke-kabocha-squash-croquette/",
+      "image_url": "https://www.chopstickchronicles.com/wp-content/uploads/2026/09/kabocha-korokke-11.jpg",
+      "site_name": "Chopstick Chronicles",
+      "site_url": "https://www.chopstickchronicles.com",
+      "cuisine": "Japanese",
+      "published_at": "Sun, 27 Sep 2026 00:06:45 +0000"
     },
     "Sat": {
-      "cuisine": "BBQ",
-      "image_url": "https://heygrillhey.com/wp-content/uploads/2026/05/Cornbread-Chili-Casserole-Square.jpg",
-      "recipe_url": "https://heygrillhey.com/smoked-cornbread-chili-casserole/",
-      "site_name": "Hey Grill Hey",
-      "title": "Smoked Cornbread Chili Casserole",
-      "url": "https://heygrillhey.com/smoked-cornbread-chili-casserole/"
+      "cuisine": "Japanese",
+      "image_url": "https://www.chopstickchronicles.com/wp-content/uploads/2016/05/ika-ring-fry-17.jpg",
+      "published_at": "Wed, 20 May 2026 01:05:35 +0000",
+      "recipe_url": "https://www.chopstickchronicles.com/fried-calamari-with-wasabi-mayo/",
+      "site_name": "Chopstick Chronicles",
+      "site_url": "https://www.chopstickchronicles.com",
+      "title": "Fried Calamari with Wasabi Mayo",
+      "url": "https://www.chopstickchronicles.com/fried-calamari-with-wasabi-mayo/"
     },
     "Sun": {
-      "cuisine": "BBQ",
-      "image_url": "https://heygrillhey.com/wp-content/uploads/2026/05/Grilled-Breakfast-Kabobs-Square.jpg",
-      "recipe_url": "https://heygrillhey.com/grilled-breakfast-kabobs/",
-      "site_name": "Hey Grill Hey",
-      "title": "Grilled Breakfast Kabobs",
-      "url": "https://heygrillhey.com/grilled-breakfast-kabobs/"
+      "title": "Chashu (Braised Pork Belly)",
+      "url": "https://www.chopstickchronicles.com/ramen-pork-chashu/",
+      "recipe_url": "https://www.chopstickchronicles.com/ramen-pork-chashu/",
+      "image_url": "https://www.chopstickchronicles.com/wp-content/uploads/2020/01/Chashu-update-10.jpg",
+      "site_name": "Chopstick Chronicles",
+      "site_url": "https://www.chopstickchronicles.com",
+      "cuisine": "Japanese",
+      "published_at": "Wed, 16 Sep 2026 11:33:42 +0000"
     }
   },
   "featured_recipe": {
-    "cuisine": "BBQ",
-    "image_url": "https://heygrillhey.com/wp-content/uploads/2026/05/Grilled-Breakfast-Kabobs-Square.jpg",
-    "recipe_url": "https://heygrillhey.com/grilled-breakfast-kabobs/",
-    "site_name": "Hey Grill Hey",
-    "title": "Grilled Breakfast Kabobs",
-    "url": "https://heygrillhey.com/grilled-breakfast-kabobs/"
+    "title": "Chashu (Braised Pork Belly)",
+    "url": "https://www.chopstickchronicles.com/ramen-pork-chashu/",
+    "recipe_url": "https://www.chopstickchronicles.com/ramen-pork-chashu/",
+    "image_url": "https://www.chopstickchronicles.com/wp-content/uploads/2020/01/Chashu-update-10.jpg",
+    "site_name": "Chopstick Chronicles",
+    "site_url": "https://www.chopstickchronicles.com",
+    "cuisine": "Japanese",
+    "published_at": "Wed, 16 Sep 2026 11:33:42 +0000"
   }
 }
