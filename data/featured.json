@@ -1,122 +1,122 @@
 {
-  "updated_at": "2026-10-15T08:53:18Z",
+  "updated_at": "2026-10-15T14:41:07Z",
   "slot_hours": 2,
-  "slot_idx": 8,
-  "week": 9,
+  "slot_idx": 11,
+  "week": 12,
   "featured_sites": [
     {
-      "name": "My Greek Dish",
-      "url": "https://www.mygreekdish.com",
-      "cuisine": "Greek",
-      "tagline": "Authentic Greek recipes made simple at home.",
-      "image_url": "https://www.mygreekdish.com/wp-content/uploads/2024/09/Feta-Pasta-bake.jpeg",
-      "rss_url": "https://www.mygreekdish.com/feed/"
+      "name": "Family Spice",
+      "url": "https://familyspice.com",
+      "cuisine": "Persian",
+      "tagline": "500+ family-friendly recipes with Persian flair.",
+      "image_url": "https://familyspice.com/wp-content/uploads/2024/08/2024-familspice-artichoke-1200.jpg",
+      "rss_url": "https://familyspice.com/feed/"
     },
     {
-      "name": "Caribbean Pot",
-      "url": "https://www.caribbeanpot.com",
-      "cuisine": "Caribbean",
-      "tagline": "Genuine Caribbean cooking and comfort food.",
-      "image_url": "https://caribbeanpot.com/wp-content/uploads/2026/10/chicken-rasta-pasta-14.jpg",
-      "rss_url": "https://caribbeanpot.com/feed/"
+      "name": "The Matbakh",
+      "url": "https://thematbakh.com",
+      "cuisine": "Lebanese",
+      "tagline": "Lebanese, Egyptian, and Syrian recipes in one kitchen.",
+      "image_url": "https://thematbakh.com/wp-content/uploads/2026/07/homemade-sweet-potato-baby-food-2.jpg",
+      "rss_url": "https://thematbakh.com/feed/"
     },
     {
-      "name": "Spain on a Fork",
-      "url": "https://www.spainonafork.com",
-      "cuisine": "Spanish",
-      "tagline": "Authentic Spanish recipes for the home cook.",
-      "image_url": "https://i0.wp.com/spainonafork.com/wp-content/uploads/2024/02/image7-4-11.png",
-      "rss_url": "https://www.spainonafork.com/feed/"
+      "name": "Amira's Pantry",
+      "url": "https://amiraspantry.com",
+      "cuisine": "Egyptian",
+      "tagline": "Egyptian and Middle Eastern recipes from an Egyptian-born cook.",
+      "image_url": "https://amiraspantry.com/wp-content/uploads/2024/03/breakfast-biscuit-pizza-featured-360x480.jpg",
+      "rss_url": "https://amiraspantry.com/feed/"
     },
     {
-      "name": "Olivia's Cuisine",
-      "url": "https://www.oliviascuisine.com",
-      "cuisine": "Brazilian",
-      "tagline": "Brazilian recipes and global comfort food.",
-      "image_url": "https://www.oliviascuisine.com/wp-content/uploads/2026/10/apple-honey-crumble-bars-300x375.jpg",
-      "rss_url": "https://www.oliviascuisine.com/feed/"
+      "name": "The Little Ferraro Kitchen",
+      "url": "https://littleferrarokitchen.com",
+      "cuisine": "Jewish / Middle Eastern",
+      "tagline": "Sephardic, Israeli, Persian, and Turkish recipes under one roof.",
+      "image_url": "https://littleferrarokitchen.com/wp-content/uploads/2026/09/pozole-rojo-with-pork-hominy-1024x1024.jpg",
+      "rss_url": "https://littleferrarokitchen.com/feed/"
     }
   ],
   "featured_recipes": {
     "Mon": {
-      "title": "Baked Feta Pasta recipe",
-      "url": "https://www.mygreekdish.com/recipe/baked-feta-pasta-recipe/",
-      "recipe_url": "https://www.mygreekdish.com/recipe/baked-feta-pasta-recipe/",
-      "image_url": "https://www.mygreekdish.com/wp-content/uploads/2024/06/Baked-Feta-Pasta-recipe.jpeg",
-      "site_name": "My Greek Dish",
-      "site_url": "https://www.mygreekdish.com",
-      "cuisine": "Greek",
-      "published_at": "Wed, 16 Oct 2024 23:15:14 +0000"
+      "cuisine": "Jewish / Middle Eastern",
+      "image_url": "https://littleferrarokitchen.com/wp-content/uploads/2023/12/sweet-sour-cabbage-rolls-1024x1024.jpg",
+      "published_at": "Tue, 08 Sep 2026 10:48:00 +0000",
+      "recipe_url": "https://littleferrarokitchen.com/sweet-and-sour-stuffed-cabbage-rolls/?utm_source=rss&utm_medium=rss&utm_campaign=sweet-and-sour-stuffed-cabbage-rolls",
+      "site_name": "The Little Ferraro Kitchen",
+      "site_url": "https://littleferrarokitchen.com",
+      "title": "Sweet and Sour Cabbage Rolls",
+      "url": "https://littleferrarokitchen.com/sweet-and-sour-stuffed-cabbage-rolls/?utm_source=rss&utm_medium=rss&utm_campaign=sweet-and-sour-stuffed-cabbage-rolls"
     },
     "Tue": {
-      "title": "Chicken Rasta Pasta Recipe",
-      "url": "https://caribbeanpot.com/chicken-rasta-pasta-recipe/",
-      "recipe_url": "https://caribbeanpot.com/chicken-rasta-pasta-recipe/",
-      "image_url": "https://caribbeanpot.com/wp-content/uploads/2026/10/chicken-rasta-pasta-14.jpg",
-      "site_name": "Caribbean Pot",
-      "site_url": "https://www.caribbeanpot.com",
-      "cuisine": "Caribbean",
-      "published_at": "Mon, 05 Oct 2026 16:41:38 +0000"
+      "cuisine": "Lebanese",
+      "image_url": "https://thematbakh.com/wp-content/uploads/2026/02/lemon-spatchcock-roasted-chicken-7.jpg",
+      "published_at": "Wed, 25 Feb 2026 20:53:35 +0000",
+      "recipe_url": "https://thematbakh.com/spatchcock-lemon-chicken/",
+      "site_name": "The Matbakh",
+      "site_url": "https://thematbakh.com",
+      "title": "Oven Roasted Spatchcock Lemon Chicken",
+      "url": "https://thematbakh.com/spatchcock-lemon-chicken/"
     },
     "Wed": {
-      "title": "One-Pan Spanish Chicken Pasta | One of the Most Underrated Pasta Recipes",
-      "url": "https://spainonafork.com/one-pan-spanish-chicken-pasta-recipe/",
-      "recipe_url": "https://spainonafork.com/one-pan-spanish-chicken-pasta-recipe/",
-      "image_url": "https://i0.wp.com/spainonafork.com/wp-content/uploads/2026/10/DSC_0637-1-11.png?fit=750%2C750&ssl=1",
-      "site_name": "Spain on a Fork",
-      "site_url": "https://www.spainonafork.com",
-      "cuisine": "Spanish",
-      "published_at": "Fri, 09 Oct 2026 14:00:43 +0000"
+      "cuisine": "Egyptian",
+      "image_url": "https://amiraspantry.com/wp-content/uploads/2026/10/slow-cooker-cottage-pie-social.jpg",
+      "published_at": "Thu, 01 Oct 2026 19:07:35 +0000",
+      "recipe_url": "https://amiraspantry.com/slow-cooker-cottage-pie/",
+      "site_name": "Amira's Pantry",
+      "site_url": "https://amiraspantry.com",
+      "title": "Slow Cooker Cottage Pie",
+      "url": "https://amiraspantry.com/slow-cooker-cottage-pie/"
     },
     "Thu": {
-      "title": "Apple Crumble Bars",
-      "url": "https://www.oliviascuisine.com/apple-crumble-bars/",
-      "recipe_url": "https://www.oliviascuisine.com/apple-crumble-bars/",
-      "image_url": "https://www.oliviascuisine.com/wp-content/uploads/2026/10/apple-honey-crumble-bars-300x375.jpg",
-      "site_name": "Olivia's Cuisine",
-      "site_url": "https://www.oliviascuisine.com",
-      "cuisine": "Brazilian",
-      "published_at": "Thu, 08 Oct 2026 17:16:14 +0000"
+      "title": "Pozole Rojo (Mexican Pork and Hominy Stew)",
+      "url": "https://littleferrarokitchen.com/pozole-rojo-mexican-stew-pork-hominy/?utm_source=rss&utm_medium=rss&utm_campaign=pozole-rojo-mexican-stew-pork-hominy",
+      "recipe_url": "https://littleferrarokitchen.com/pozole-rojo-mexican-stew-pork-hominy/?utm_source=rss&utm_medium=rss&utm_campaign=pozole-rojo-mexican-stew-pork-hominy",
+      "image_url": "https://littleferrarokitchen.com/wp-content/uploads/2026/09/pozole-rojo-with-pork-hominy-1024x1024.jpg",
+      "site_name": "The Little Ferraro Kitchen",
+      "site_url": "https://littleferrarokitchen.com",
+      "cuisine": "Jewish / Middle Eastern",
+      "published_at": "Mon, 28 Sep 2026 11:00:00 +0000"
     },
     "Fri": {
-      "title": "Greek Lemon Chicken Soup with Orzo (Avgolemono)",
-      "url": "https://www.mygreekdish.com/recipe/greek-lemon-chicken-soup-with-orzo-avgolemono/",
-      "recipe_url": "https://www.mygreekdish.com/recipe/greek-lemon-chicken-soup-with-orzo-avgolemono/",
-      "image_url": "https://www.mygreekdish.com/wp-content/uploads/2023/11/Greek-Lemon-Chicken-Soup-with-Orzo-Avgolemono.jpeg",
-      "site_name": "My Greek Dish",
-      "site_url": "https://www.mygreekdish.com",
-      "cuisine": "Greek",
-      "published_at": "Fri, 03 Nov 2023 18:35:34 +0000"
+      "title": "Olive Oil Pumpkin Bread",
+      "url": "https://familyspice.com/olive-oil-pumpkin-bread-2/",
+      "recipe_url": "https://familyspice.com/olive-oil-pumpkin-bread-2/",
+      "image_url": "https://familyspice.com/wp-content/uploads/2026/10/evoo-pumpkin-bread3-1200.jpg",
+      "site_name": "Family Spice",
+      "site_url": "https://familyspice.com",
+      "cuisine": "Persian",
+      "published_at": "Wed, 07 Oct 2026 02:00:29 +0000"
     },
     "Sat": {
-      "title": "Easy Comforting Roasted Butternut and Carrot Soup",
-      "url": "https://caribbeanpot.com/easy-comforting-roasted-butternut-and-carrot-soup/",
-      "recipe_url": "https://caribbeanpot.com/easy-comforting-roasted-butternut-and-carrot-soup/",
-      "image_url": "https://caribbeanpot.com/wp-content/uploads/2026/09/roasted-butternut-squash-and-carrot-soup-1.jpeg",
-      "site_name": "Caribbean Pot",
-      "site_url": "https://www.caribbeanpot.com",
-      "cuisine": "Caribbean",
-      "published_at": "Tue, 29 Sep 2026 21:35:57 +0000"
+      "title": "Iced Strawberry Matcha Latte",
+      "url": "https://thematbakh.com/iced-strawberry-matcha-latte/",
+      "recipe_url": "https://thematbakh.com/iced-strawberry-matcha-latte/",
+      "image_url": "https://thematbakh.com/wp-content/uploads/2026/05/Iced-strawberry-matcha-latte.jpg",
+      "site_name": "The Matbakh",
+      "site_url": "https://thematbakh.com",
+      "cuisine": "Lebanese",
+      "published_at": "Mon, 01 Jun 2026 19:37:08 +0000"
     },
     "Sun": {
-      "title": "Spanish Chickpeas with Chorizo | One of Spain’s Most Iconic Recipes",
-      "url": "https://spainonafork.com/spanish-chickpeas-with-chorizo-recipe/",
-      "recipe_url": "https://spainonafork.com/spanish-chickpeas-with-chorizo-recipe/",
-      "image_url": "https://i0.wp.com/spainonafork.com/wp-content/uploads/2026/10/DSC_0612-111.png?fit=750%2C750&ssl=1",
-      "site_name": "Spain on a Fork",
-      "site_url": "https://www.spainonafork.com",
-      "cuisine": "Spanish",
-      "published_at": "Wed, 07 Oct 2026 14:00:57 +0000"
+      "title": "Instant Pot Beef and Barley Soup",
+      "url": "https://amiraspantry.com/instant-pot-beef-and-barley-soup/",
+      "recipe_url": "https://amiraspantry.com/instant-pot-beef-and-barley-soup/",
+      "image_url": "https://amiraspantry.com/wp-content/uploads/2022/03/instant-pot-beef-barley-soup-social.jpg",
+      "site_name": "Amira's Pantry",
+      "site_url": "https://amiraspantry.com",
+      "cuisine": "Egyptian",
+      "published_at": "Sat, 10 Oct 2026 07:28:00 +0000"
     }
   },
   "featured_recipe": {
-    "title": "Spanish Chickpeas with Chorizo | One of Spain’s Most Iconic Recipes",
-    "url": "https://spainonafork.com/spanish-chickpeas-with-chorizo-recipe/",
-    "recipe_url": "https://spainonafork.com/spanish-chickpeas-with-chorizo-recipe/",
-    "image_url": "https://i0.wp.com/spainonafork.com/wp-content/uploads/2026/10/DSC_0612-111.png?fit=750%2C750&ssl=1",
-    "site_name": "Spain on a Fork",
-    "site_url": "https://www.spainonafork.com",
-    "cuisine": "Spanish",
-    "published_at": "Wed, 07 Oct 2026 14:00:57 +0000"
+    "title": "Instant Pot Beef and Barley Soup",
+    "url": "https://amiraspantry.com/instant-pot-beef-and-barley-soup/",
+    "recipe_url": "https://amiraspantry.com/instant-pot-beef-and-barley-soup/",
+    "image_url": "https://amiraspantry.com/wp-content/uploads/2022/03/instant-pot-beef-barley-soup-social.jpg",
+    "site_name": "Amira's Pantry",
+    "site_url": "https://amiraspantry.com",
+    "cuisine": "Egyptian",
+    "published_at": "Sat, 10 Oct 2026 07:28:00 +0000"
   }
 }
