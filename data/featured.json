@@ -1,122 +1,108 @@
 {
-  "updated_at": "2026-10-15T19:42:23Z",
+  "updated_at": "2026-10-15T22:54:12Z",
   "slot_hours": 2,
-  "slot_idx": 13,
-  "week": 14,
+  "slot_idx": 15,
+  "week": 16,
   "featured_sites": [
     {
-      "name": "Chef Lola's Kitchen",
-      "url": "https://cheflolaskitchen.com",
-      "cuisine": "Nigerian",
-      "tagline": "Authentic Nigerian recipes for everyday cooking.",
-      "image_url": "https://cheflolaskitchen.com/wp-content/uploads/2025/07/Classic-Stuffing.jpg",
-      "rss_url": "https://cheflolaskitchen.com/feed/"
+      "name": "Immaculate Bites",
+      "url": "https://www.africanbites.com",
+      "cuisine": "African",
+      "tagline": "Bold African flavors and soul food recipes.",
+      "image_url": "https://www.africanbites.com/wp-content/uploads/2023/04/IMG_9277.jpg",
+      "rss_url": "https://www.africanbites.com/feed/"
     },
     {
-      "name": "Afrolems",
-      "url": "https://afrolems.com",
-      "cuisine": "Nigerian",
-      "tagline": "Creative Nigerian recipes for international palates.",
-      "image_url": "https://i0.wp.com/www.afrolems.com/wp-content/uploads/2015/07/sadza-peanut-soup.jpg?resize=320%2C107&#038;ssl=1",
-      "rss_url": "https://afrolems.com/feed/"
+      "name": "My Korean Kitchen",
+      "url": "https://mykoreankitchen.com",
+      "cuisine": "Korean",
+      "tagline": "Step-by-step authentic Korean recipes for everyone.",
+      "image_url": "https://mykoreankitchen.com/wp-content/uploads/2020/02/My-Korean-Kitchen-Twitter-1024x512-1.png",
+      "rss_url": "https://mykoreankitchen.com/feed/"
     },
     {
-      "name": "Kaluhi's Kitchen",
-      "url": "https://kaluhiskitchen.com",
-      "cuisine": "Kenyan",
-      "tagline": "Stunning Kenyan recipes with award-winning photography.",
-      "image_url": "https://www.kaluhiskitchen.com/wp-content/uploads/2026/07/FRIED-CHICKEN_UNBREADED-FRIED-CHICKEN_EASY-FRIED-CHICKEN_HOMEMADE-FRIED-CHICKEN_FRIED-CHICKEN-KENYA_KALUHISKITCHEN-1-1.jpg",
-      "rss_url": "https://kaluhiskitchen.com/feed/"
+      "name": "Damn Delicious",
+      "url": "https://damndelicious.net",
+      "cuisine": "American",
+      "tagline": "Quick and easy recipes for every occasion.",
+      "image_url": "https://damndelicious.net/wp-content/uploads/2026/09/Cheeseburger-Sliders-scaled.jpg",
+      "rss_url": "https://damndelicious.net/feed/"
     },
     {
-      "name": "Drizzle and Dip",
-      "url": "https://drizzleanddip.com",
-      "cuisine": "South African",
-      "tagline": "Cape Malay and South African cooking from a pro food stylist.",
-      "image_url": "https://drizzleanddip.com/wp-content/uploads/2026/09/Brie-burger-with-onions-cramelised-in-red-wine-1.jpg",
-      "rss_url": "https://drizzleanddip.com/feed/"
+      "name": "Feel Good Foodie",
+      "url": "https://feelgoodfoodie.net",
+      "cuisine": "Lebanese",
+      "tagline": "Fresh wholesome recipes with Middle Eastern flair.",
+      "image_url": "https://feelgoodfoodie.net/wp-content/uploads/2026/09/Peanut-Butter-Pancakes-08.jpg",
+      "rss_url": "https://feelgoodfoodie.net/recipe/feed/"
     }
   ],
   "featured_recipes": {
     "Mon": {
-      "cuisine": "Nigerian",
-      "image_url": "https://cheflolaskitchen.com/wp-content/uploads/2025/07/Rice-and-Beef-1.jpg",
-      "published_at": "Thu, 03 Sep 2026 20:22:51 +0000",
-      "recipe_url": "https://cheflolaskitchen.com/rice-and-beef/",
-      "site_name": "Chef Lola's Kitchen",
-      "site_url": "https://cheflolaskitchen.com",
-      "title": "Quick And Easy One-Pot Rice and Beef",
-      "url": "https://cheflolaskitchen.com/rice-and-beef/"
+      "cuisine": "African",
+      "image_url": "https://www.africanbites.com/wp-content/uploads/2026/10/Smoked-Brisket-Chili-1.jpg",
+      "recipe_url": "https://www.africanbites.com/smoked-brisket-chili/",
+      "site_name": "Immaculate Bites",
+      "title": "Smoked Brisket Chili",
+      "url": "https://www.africanbites.com/smoked-brisket-chili/"
     },
     "Tue": {
-      "title": "Unbreaded Spicy Fried Chicken",
-      "url": "https://www.kaluhiskitchen.com/unbreaded-spicy-fried-chicken/",
-      "recipe_url": "https://www.kaluhiskitchen.com/unbreaded-spicy-fried-chicken/",
-      "image_url": "https://www.kaluhiskitchen.com/wp-content/uploads/2026/07/FRIED-CHICKEN_UNBREADED-FRIED-CHICKEN_EASY-FRIED-CHICKEN_HOMEMADE-FRIED-CHICKEN_FRIED-CHICKEN-KENYA_KALUHISKITCHEN-1-1.jpg",
-      "site_name": "Kaluhi's Kitchen",
-      "site_url": "https://kaluhiskitchen.com",
-      "cuisine": "Kenyan",
-      "published_at": "Wed, 15 Jul 2026 08:49:00 +0000"
+      "cuisine": "Korean",
+      "image_url": "https://mykoreankitchen.com/wp-content/uploads/2026/08/1.-dakjuk-korean-chicken-porridge.jpg",
+      "recipe_url": "https://mykoreankitchen.com/dakjuk-korean-chicken-porridge/",
+      "site_name": "My Korean Kitchen",
+      "title": "Dakjuk (Korean Chicken Porridge)",
+      "url": "https://mykoreankitchen.com/dakjuk-korean-chicken-porridge/"
     },
     "Wed": {
-      "title": "Brie Burger With Onions Caramelised in Red Wine",
-      "url": "https://drizzleanddip.com/2026/10/01/brie-burger-with-onions-caramelised-in-red-wine/",
-      "recipe_url": "https://drizzleanddip.com/2026/10/01/brie-burger-with-onions-caramelised-in-red-wine/",
-      "image_url": "https://drizzleanddip.com/wp-content/uploads/2026/09/Brie-burger-with-onions-cramelised-in-red-wine-1.jpg",
-      "site_name": "Drizzle and Dip",
-      "site_url": "https://drizzleanddip.com",
-      "cuisine": "South African",
-      "published_at": "Thu, 01 Oct 2026 13:03:48 +0000"
+      "cuisine": "African",
+      "image_url": "https://www.africanbites.com/wp-content/uploads/2023/04/IMG_9277.jpg",
+      "recipe_url": "https://www.africanbites.com/sweet-potato-cornbread/",
+      "site_name": "Immaculate Bites",
+      "title": "Sweet Potato Cornbread",
+      "url": "https://www.africanbites.com/sweet-potato-cornbread/"
     },
     "Thu": {
-      "cuisine": "Nigerian",
-      "image_url": "https://cheflolaskitchen.com/wp-content/uploads/2015/06/Fried-Rice-20.jpg",
-      "published_at": "Wed, 26 Aug 2026 23:31:47 +0000",
-      "recipe_url": "https://cheflolaskitchen.com/nigerian-fried-rice-recipe/",
-      "site_name": "Chef Lola's Kitchen",
-      "site_url": "https://cheflolaskitchen.com",
-      "title": "Nigerian Fried Rice Recipe",
-      "url": "https://cheflolaskitchen.com/nigerian-fried-rice-recipe/"
+      "title": "Peanut Butter Pancakes",
+      "url": "https://feelgoodfoodie.net/recipe/peanut-butter-pancakes/",
+      "recipe_url": "https://feelgoodfoodie.net/recipe/peanut-butter-pancakes/",
+      "image_url": "https://feelgoodfoodie.net/wp-content/uploads/2026/09/Peanut-Butter-Pancakes-08.jpg",
+      "site_name": "Feel Good Foodie",
+      "site_url": "https://feelgoodfoodie.net",
+      "cuisine": "Lebanese",
+      "published_at": "Fri, 09 Oct 2026 13:00:00 +0000"
     },
     "Fri": {
-      "title": "Garri Cookies",
-      "url": "https://www.afrolems.com/2025/07/02/garri-cookies/",
-      "recipe_url": "https://www.afrolems.com/2025/07/02/garri-cookies/",
-      "image_url": "https://www.afrolems.com/wp-content/uploads/2025/07/IMG_0775-2-scaled.jpg",
-      "site_name": "Afrolems",
-      "site_url": "https://afrolems.com",
-      "cuisine": "Nigerian",
-      "published_at": "Wed, 02 Jul 2025 14:45:39 +0000"
+      "cuisine": "Lebanese",
+      "image_url": "https://feelgoodfoodie.net/wp-content/uploads/2026/09/Applesauce-Cake-8.jpg",
+      "recipe_url": "https://feelgoodfoodie.net/recipe/applesauce-cake/",
+      "site_name": "Feel Good Foodie",
+      "title": "Applesauce Cake",
+      "url": "https://feelgoodfoodie.net/recipe/applesauce-cake/"
     },
     "Sat": {
-      "cuisine": "Kenyan",
-      "image_url": "https://www.kaluhiskitchen.com/wp-content/uploads/2025/08/carrot-muffins_easy-carrot-muffins_kaluhi-carrot-muffins_kaluhiskitchen-recipes.jpg",
-      "published_at": "Tue, 12 Aug 2025 09:14:35 +0000",
-      "recipe_url": "https://www.kaluhiskitchen.com/moist-homemade-carrot-muffins/",
-      "site_name": "Kaluhi's Kitchen",
-      "site_url": "https://kaluhiskitchen.com",
-      "title": "Moist, Homemade Carrot Muffins",
-      "url": "https://www.kaluhiskitchen.com/moist-homemade-carrot-muffins/"
+      "cuisine": "Lebanese",
+      "image_url": "https://feelgoodfoodie.net/wp-content/uploads/2026/09/Persian-Love-Cake-08.jpg",
+      "recipe_url": "https://feelgoodfoodie.net/recipe/persian-love-cake/",
+      "site_name": "Feel Good Foodie",
+      "title": "Persian Love Cake",
+      "url": "https://feelgoodfoodie.net/recipe/persian-love-cake/"
     },
     "Sun": {
-      "cuisine": "South African",
-      "image_url": "https://drizzleanddip.com/wp-content/uploads/2026/07/Chicken-pie-vol-au-vent-main.jpg",
-      "published_at": "Wed, 08 Jul 2026 10:27:30 +0000",
-      "recipe_url": "https://drizzleanddip.com/2026/07/08/the-best-chicken-leek-and-mushroom-vol-au-vent-pie-recipe/",
-      "site_name": "Drizzle and Dip",
-      "site_url": "https://drizzleanddip.com",
-      "title": "The Best Chicken, Leek and Mushroom Vol-au-Vent Pie Recipe",
-      "url": "https://drizzleanddip.com/2026/07/08/the-best-chicken-leek-and-mushroom-vol-au-vent-pie-recipe/"
+      "cuisine": "American",
+      "image_url": "https://damndelicious.net/wp-content/uploads/2026/03/Chicken-Fajitas-Quesadillas_545-768x1152.jpg",
+      "recipe_url": "https://damndelicious.net/2026/06/12/chicken-fajita-quesadillas/",
+      "site_name": "Damn Delicious",
+      "title": "Chicken Fajita Quesadillas",
+      "url": "https://damndelicious.net/2026/06/12/chicken-fajita-quesadillas/"
     }
   },
   "featured_recipe": {
-    "cuisine": "South African",
-    "image_url": "https://drizzleanddip.com/wp-content/uploads/2026/07/Chicken-pie-vol-au-vent-main.jpg",
-    "published_at": "Wed, 08 Jul 2026 10:27:30 +0000",
-    "recipe_url": "https://drizzleanddip.com/2026/07/08/the-best-chicken-leek-and-mushroom-vol-au-vent-pie-recipe/",
-    "site_name": "Drizzle and Dip",
-    "site_url": "https://drizzleanddip.com",
-    "title": "The Best Chicken, Leek and Mushroom Vol-au-Vent Pie Recipe",
-    "url": "https://drizzleanddip.com/2026/07/08/the-best-chicken-leek-and-mushroom-vol-au-vent-pie-recipe/"
+    "cuisine": "American",
+    "image_url": "https://damndelicious.net/wp-content/uploads/2026/03/Chicken-Fajitas-Quesadillas_545-768x1152.jpg",
+    "recipe_url": "https://damndelicious.net/2026/06/12/chicken-fajita-quesadillas/",
+    "site_name": "Damn Delicious",
+    "title": "Chicken Fajita Quesadillas",
+    "url": "https://damndelicious.net/2026/06/12/chicken-fajita-quesadillas/"
   }
 }
