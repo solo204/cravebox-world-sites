@@ -1,0 +1,68 @@
+name: Daily Site Health Check
+
+on:
+  schedule:
+    - cron: "0 8 * * *"   # 8 AM UTC daily
+  workflow_dispatch:       # manual trigger
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    permissions:
+      issues: write
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: pip install requests
+
+      - name: Run validator (failing sites only)
+        id: validate
+        run: |
+          python validate_sites.py --failing 2>&1 | tee /tmp/report.txt
+          echo "exit_code=${PIPESTATUS[0]}" >> $GITHUB_OUTPUT
+        continue-on-error: true
+
+      - name: Open issue if failures found
+        if: steps.validate.outputs.exit_code != '0'
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const fs = require('fs');
+            const report = fs.readFileSync('/tmp/report.txt', 'utf8');
+
+            // Check for existing open issue to avoid duplicates
+            const issues = await github.rest.issues.listForRepo({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              state: 'open',
+              labels: 'dead-site'
+            });
+
+            const title = `🔴 Dead site detected — ${new Date().toISOString().slice(0,10)}`;
+            const body = `Automated daily check found one or more failing sites.\n\n\`\`\`\n${report.slice(0, 6000)}\n\`\`\`\n\nFix or remove the failing sites from \`data/master_sites.json\` and close this issue.`;
+
+            if (issues.data.length > 0) {
+              // Update existing issue with fresh report
+              await github.rest.issues.createComment({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                issue_number: issues.data[0].number,
+                body: `**Updated report — ${new Date().toISOString().slice(0,10)}**\n\n\`\`\`\n${report.slice(0, 6000)}\n\`\`\``
+              });
+              console.log(`Commented on existing issue #${issues.data[0].number}`);
+            } else {
+              await github.rest.issues.create({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                title,
+                body,
+                labels: ['dead-site']
+              });
+              console.log('Opened new issue');
+            }
