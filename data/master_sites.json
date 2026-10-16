@@ -612,15 +612,6 @@
     "rss_url": "https://greatcurryrecipes.net/feed/"
   },
   {
-    "name": "A Spanish Bite",
-    "url": "https://aspanishbite.com",
-    "cuisine": "Spanish",
-    "tagline": "Authentic Spanish tapas, paella, and seasonal dishes.",
-    "image_url": "",
-    "rss_url": "https://www.aspanishbite.com/feed/",
-    "active": false
-  },
-  {
     "name": "Leite's Culinaria",
     "url": "https://leitesculinaria.com",
     "cuisine": "Portuguese",
@@ -748,15 +739,6 @@
     "tagline": "Turkish and Mediterranean dishes, FeedSpot #1 Turkish blog.",
     "image_url": "https://cookingorgeous.com/wp-content/uploads/2022/03/menemen-turkish-scrambled-eggs-25.jpg",
     "rss_url": "https://cookingorgeous.com/feed/"
-  },
-  {
-    "name": "My Persian Kitchen",
-    "url": "https://mypersiankitchen.com",
-    "cuisine": "Persian",
-    "tagline": "FeedSpot #1 Persian food blog in English.",
-    "image_url": "",
-    "rss_url": "https://mypersiankitchen.com/feed/",
-    "active": false
   },
   {
     "name": "Persian Mama",
@@ -1094,15 +1076,8 @@
     "url": "https://hot-thai-kitchen.com",
     "cuisine": "Thai",
     "tagline": "Step-by-step Thai recipes by culinary school graduate Pailin Chongchitnant, backed by detailed video tutorials.",
-    "rss_url": "https://hotthaikitchen.substack.com/feed"
-  },
-  {
-    "name": "She Simmers",
-    "url": "https://www.shesimmers.com",
-    "cuisine": "Thai",
-    "tagline": "Deeply researched Thai home cooking by author Leela Punyaratabandhu, covering traditional recipes with meticulous cultural context.",
-    "rss_url": "https://www.shesimmers.com/feed/",
-    "active": false
+    "rss_url": "https://hotthaikitchen.substack.com/feed",
+    "image_url": "https://substackcdn.com/image/fetch/$s_!nRQ3!,w_256,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F914bd693-8753-455f-90e6-9affda6dc18d_512x512.png"
   },
   {
     "name": "Olive Tomato",
@@ -1116,7 +1091,8 @@
     "url": "https://www.dimitrasdishes.com",
     "cuisine": "Greek",
     "tagline": "Approachable Greek classics and crowd-pleasing Mediterranean recipes with video tutorials by Dimitra Darris.",
-    "rss_url": "https://www.dimitrasdishes.com/feed/"
+    "rss_url": "https://www.dimitrasdishes.com/feed/",
+    "image_url": "https://www.dimitrasdishes.com/wp-content/uploads/2026/10/FINAL_avgolemono_pot_REAL_PHOTO-768x1024.jpg"
   },
   {
     "name": "The Hungry Bites",
@@ -1152,7 +1128,8 @@
     "url": "https://www.marocmama.com",
     "cuisine": "Moroccan",
     "tagline": "An American expat living in Morocco shares her Moroccan family recipes alongside travel and cultural stories.",
-    "rss_url": "https://www.marocmama.com/feed/"
+    "rss_url": "https://www.marocmama.com/feed/",
+    "image_url": ""
   },
   {
     "name": "The Daring Gourmet",
@@ -1166,7 +1143,8 @@
     "url": "https://www.internationalcuisine.com",
     "cuisine": "Global",
     "tagline": "Every country's national dish and traditional recipes systematically covered, a one-stop world recipe reference.",
-    "rss_url": "https://www.internationalcuisine.com/feed/"
+    "rss_url": "https://www.internationalcuisine.com/feed/",
+    "image_url": ""
   },
   {
     "name": "The First Mess",
@@ -1181,7 +1159,7 @@
     "url": "https://bojongourmet.com",
     "cuisine": "Gluten-Free Baking",
     "tagline": "IACP award-winning gluten-free pastry and baking with moody, editorial photography.",
-    "image_url": "",
+    "image_url": "https://bojongourmet.com/wp-content/uploads/2026/10/gluten-free-apple-muffins-almond-oat-flour-15.jpg",
     "rss_url": "https://bojongourmet.com/feed/"
   },
   {
@@ -1189,7 +1167,7 @@
     "url": "https://adventuresincooking.com",
     "cuisine": "Seasonal American",
     "tagline": "Fine-art food photography meets seasonal home cooking and garden-to-table storytelling.",
-    "image_url": "",
+    "image_url": "https://adventuresincooking.com/wp-content/uploads/2026/09/One-Pan-Roast-Chicken-with-Tomatoes-12.jpg",
     "rss_url": "https://adventuresincooking.com/feed/"
   },
   {
@@ -1213,7 +1191,7 @@
     "url": "https://zaatarandzaytoun.com",
     "cuisine": "Lebanese",
     "tagline": "Traditional and modern Lebanese recipes from a London-based home cook.",
-    "image_url": "",
+    "image_url": "https://zaatarandzaytoun.com/wp-content/uploads/2026/09/fish-thyme-tomato-105-scaled.jpg",
     "rss_url": "https://zaatarandzaytoun.com/feed/"
   },
   {
@@ -1231,5 +1209,13 @@
     "tagline": "Romanian-born author sharing Eastern European and German home cooking traditions.",
     "image_url": "",
     "rss_url": "https://whereismyspoon.co/feed/"
+  },
+  {
+    "name": "Foxy Folksy",
+    "url": "https://www.foxyfolksy.com",
+    "cuisine": "Filipino",
+    "tagline": "Classic and contemporary Filipino and Asian recipes.",
+    "image_url": "https://www.foxyfolksy.com/wp-content/uploads/2025/07/sisig-matua-recipe-1200t-640x640.webp",
+    "rss_url": "https://www.foxyfolksy.com/feed/"
   }
 ]
