@@ -1,120 +1,122 @@
 {
-  "updated_at": "2026-10-16T19:19:52Z",
+  "updated_at": "2026-10-16T22:33:21Z",
   "slot_hours": 2,
-  "slot_idx": 9,
-  "week": 10,
+  "slot_idx": 11,
+  "week": 12,
   "featured_sites": [
     {
-      "name": "Feasting at Home",
-      "url": "https://www.feastingathome.com",
-      "cuisine": "Global",
-      "tagline": "Fresh seasonal recipes with global inspiration.",
-      "image_url": "https://www.feastingathome.com/wp-content/uploads/2026/09/Eggplant-Tikka-Masala-13-768x1152.jpg",
-      "rss_url": "https://www.feastingathome.com/feed/"
+      "name": "Family Spice",
+      "url": "https://familyspice.com",
+      "cuisine": "Persian",
+      "tagline": "500+ family-friendly recipes with Persian flair.",
+      "image_url": "https://familyspice.com/wp-content/uploads/2024/08/2024-familspice-artichoke-1200.jpg",
+      "rss_url": "https://familyspice.com/feed/"
     },
     {
-      "name": "Smitten Kitchen",
-      "url": "https://smittenkitchen.com",
-      "cuisine": "American",
-      "tagline": "Fearless cooking from a tiny kitchen.",
-      "image_url": "https://i0.wp.com/smittenkitchen.com/wp-content/uploads/2026/09/simple-chicken-tacos-09-scaled.jpg",
-      "rss_url": "https://smittenkitchen.com/feed/"
+      "name": "The Matbakh",
+      "url": "https://thematbakh.com",
+      "cuisine": "Lebanese",
+      "tagline": "Lebanese, Egyptian, and Syrian recipes in one kitchen.",
+      "image_url": "https://thematbakh.com/wp-content/uploads/2026/07/homemade-sweet-potato-baby-food-2.jpg",
+      "rss_url": "https://thematbakh.com/feed/"
     },
     {
-      "name": "101 Cookbooks",
-      "url": "https://www.101cookbooks.com",
-      "cuisine": "Vegetarian",
-      "tagline": "Natural, whole-food recipes for healthy living.",
-      "image_url": "https://images.101cookbooks.com/LEMON-ROASTED-POTATOES-v.jpg",
-      "rss_url": "https://www.101cookbooks.com/feed/"
+      "name": "Amira's Pantry",
+      "url": "https://amiraspantry.com",
+      "cuisine": "Egyptian",
+      "tagline": "Egyptian and Middle Eastern recipes from an Egyptian-born cook.",
+      "image_url": "https://amiraspantry.com/wp-content/uploads/2024/03/breakfast-biscuit-pizza-featured-360x480.jpg",
+      "rss_url": "https://amiraspantry.com/feed/"
     },
     {
-      "name": "An Italian in My Kitchen",
-      "url": "https://www.anitalianinmykitchen.com",
-      "cuisine": "Italian",
-      "tagline": "Authentic Italian recipes from a Roman cook.",
-      "image_url": "https://anitalianinmykitchen.com/wp-content/uploads/2026/09/tiramisu-crostata-1-of-1-683x1024.jpg",
-      "rss_url": "https://www.anitalianinmykitchen.com/feed/"
+      "name": "The Little Ferraro Kitchen",
+      "url": "https://littleferrarokitchen.com",
+      "cuisine": "Jewish / Middle Eastern",
+      "tagline": "Sephardic, Israeli, Persian, and Turkish recipes under one roof.",
+      "image_url": "https://littleferrarokitchen.com/wp-content/uploads/2026/09/pozole-rojo-with-pork-hominy-1024x1024.jpg",
+      "rss_url": "https://littleferrarokitchen.com/feed/"
     }
   ],
   "featured_recipes": {
     "Mon": {
-      "title": "Baked Eggplant Tikka Masala",
-      "url": "https://www.feastingathome.com/baked-eggplant-tikka-masala/",
-      "recipe_url": "https://www.feastingathome.com/baked-eggplant-tikka-masala/",
-      "image_url": "https://www.feastingathome.com/wp-content/uploads/2026/09/Eggplant-Tikka-Masala-13-768x1152.jpg",
-      "site_name": "Feasting at Home",
-      "site_url": "https://www.feastingathome.com",
-      "cuisine": "Global",
-      "published_at": "Tue, 06 Oct 2026 15:30:20 +0000"
+      "cuisine": "Jewish / Middle Eastern",
+      "image_url": "https://littleferrarokitchen.com/wp-content/uploads/2023/12/sweet-sour-cabbage-rolls-1024x1024.jpg",
+      "published_at": "Tue, 08 Sep 2026 10:48:00 +0000",
+      "recipe_url": "https://littleferrarokitchen.com/sweet-and-sour-stuffed-cabbage-rolls/?utm_source=rss&utm_medium=rss&utm_campaign=sweet-and-sour-stuffed-cabbage-rolls",
+      "site_name": "The Little Ferraro Kitchen",
+      "site_url": "https://littleferrarokitchen.com",
+      "title": "Sweet and Sour Cabbage Rolls",
+      "url": "https://littleferrarokitchen.com/sweet-and-sour-stuffed-cabbage-rolls/?utm_source=rss&utm_medium=rss&utm_campaign=sweet-and-sour-stuffed-cabbage-rolls"
     },
     "Tue": {
-      "cuisine": "American",
-      "image_url": "https://i0.wp.com/smittenkitchen.com/wp-content/uploads/2026/06/strawberry-chiffon-shortcake-perfected-19-scaled.jpg?fit=640%2C427&amp;quality=89&amp;ssl=1",
-      "recipe_url": "https://smittenkitchen.com/2026/06/strawberry-chiffon-shortcake-perfected/",
-      "site_name": "Smitten Kitchen",
-      "title": "strawberry chiffon shortcake, perfected",
-      "url": "https://smittenkitchen.com/2026/06/strawberry-chiffon-shortcake-perfected/"
+      "cuisine": "Lebanese",
+      "image_url": "https://thematbakh.com/wp-content/uploads/2026/02/lemon-spatchcock-roasted-chicken-7.jpg",
+      "published_at": "Wed, 25 Feb 2026 20:53:35 +0000",
+      "recipe_url": "https://thematbakh.com/spatchcock-lemon-chicken/",
+      "site_name": "The Matbakh",
+      "site_url": "https://thematbakh.com",
+      "title": "Oven Roasted Spatchcock Lemon Chicken",
+      "url": "https://thematbakh.com/spatchcock-lemon-chicken/"
     },
     "Wed": {
-      "title": "Lemon Roasted Potatoes",
-      "url": "https://www.101cookbooks.com/lemon-roasted-potatoes/",
-      "recipe_url": "https://www.101cookbooks.com/lemon-roasted-potatoes/",
-      "image_url": "https://images.101cookbooks.com/LEMON-ROASTED-POTATOES-h.jpg?w=680",
-      "site_name": "101 Cookbooks",
-      "site_url": "https://www.101cookbooks.com",
-      "cuisine": "Vegetarian",
-      "published_at": "Thu, 08 Oct 2026 17:30:40 +0000"
+      "cuisine": "Egyptian",
+      "image_url": "https://amiraspantry.com/wp-content/uploads/2026/10/slow-cooker-cottage-pie-social.jpg",
+      "published_at": "Thu, 01 Oct 2026 19:07:35 +0000",
+      "recipe_url": "https://amiraspantry.com/slow-cooker-cottage-pie/",
+      "site_name": "Amira's Pantry",
+      "site_url": "https://amiraspantry.com",
+      "title": "Slow Cooker Cottage Pie",
+      "url": "https://amiraspantry.com/slow-cooker-cottage-pie/"
     },
     "Thu": {
-      "cuisine": "Italian",
-      "image_url": "https://anitalianinmykitchen.com/wp-content/uploads/2026/09/tiramisu-crostata-1-of-1-683x1024.jpg",
-      "published_at": "Thu, 08 Oct 2026 11:52:15 +0000",
-      "recipe_url": "https://anitalianinmykitchen.com/tiramisu-crostata/",
-      "site_name": "An Italian in My Kitchen",
-      "site_url": "https://www.anitalianinmykitchen.com",
-      "title": "Tiramisu Crostata",
-      "url": "https://anitalianinmykitchen.com/tiramisu-crostata/"
+      "title": "Pozole Rojo (Mexican Pork and Hominy Stew)",
+      "url": "https://littleferrarokitchen.com/pozole-rojo-mexican-stew-pork-hominy/?utm_source=rss&utm_medium=rss&utm_campaign=pozole-rojo-mexican-stew-pork-hominy",
+      "recipe_url": "https://littleferrarokitchen.com/pozole-rojo-mexican-stew-pork-hominy/?utm_source=rss&utm_medium=rss&utm_campaign=pozole-rojo-mexican-stew-pork-hominy",
+      "image_url": "https://littleferrarokitchen.com/wp-content/uploads/2026/09/pozole-rojo-with-pork-hominy-1024x1024.jpg",
+      "site_name": "The Little Ferraro Kitchen",
+      "site_url": "https://littleferrarokitchen.com",
+      "cuisine": "Jewish / Middle Eastern",
+      "published_at": "Mon, 28 Sep 2026 11:00:00 +0000"
     },
     "Fri": {
-      "title": "Chickpea Cacciatore",
-      "url": "https://www.feastingathome.com/chickpea-cacciatore/",
-      "recipe_url": "https://www.feastingathome.com/chickpea-cacciatore/",
-      "image_url": "https://www.feastingathome.com/wp-content/uploads/2026/09/Chickpea-cacciatore-11-768x1152.jpg",
-      "site_name": "Feasting at Home",
-      "site_url": "https://www.feastingathome.com",
-      "cuisine": "Global",
-      "published_at": "Thu, 01 Oct 2026 23:34:08 +0000"
+      "title": "Olive Oil Pumpkin Bread",
+      "url": "https://familyspice.com/olive-oil-pumpkin-bread-2/",
+      "recipe_url": "https://familyspice.com/olive-oil-pumpkin-bread-2/",
+      "image_url": "https://familyspice.com/wp-content/uploads/2026/10/evoo-pumpkin-bread3-1200.jpg",
+      "site_name": "Family Spice",
+      "site_url": "https://familyspice.com",
+      "cuisine": "Persian",
+      "published_at": "Wed, 07 Oct 2026 02:00:29 +0000"
     },
     "Sat": {
-      "cuisine": "Vegan",
-      "image_url": "https://ohsheglows.com/wp-content/uploads/2013/04/springsaladvegan-3637.jpg",
-      "published_at": "Tue, 16 Apr 2024 17:04:28 +0000",
-      "recipe_url": "https://ohsheglows.com/warm-spring-salad/",
-      "site_name": "Oh She Glows",
-      "site_url": "https://ohsheglows.com",
-      "title": "Warm Spring Salad",
-      "url": "https://ohsheglows.com/warm-spring-salad/"
+      "title": "Iced Strawberry Matcha Latte",
+      "url": "https://thematbakh.com/iced-strawberry-matcha-latte/",
+      "recipe_url": "https://thematbakh.com/iced-strawberry-matcha-latte/",
+      "image_url": "https://thematbakh.com/wp-content/uploads/2026/05/Iced-strawberry-matcha-latte.jpg",
+      "site_name": "The Matbakh",
+      "site_url": "https://thematbakh.com",
+      "cuisine": "Lebanese",
+      "published_at": "Mon, 01 Jun 2026 19:37:08 +0000"
     },
     "Sun": {
-      "title": "Butternut Squash Soup with Red Lentils",
-      "url": "https://www.101cookbooks.com/butternut-squash-soup/",
-      "recipe_url": "https://www.101cookbooks.com/butternut-squash-soup/",
-      "image_url": "https://images.101cookbooks.com/BUTTERNUT-SQUASH-SOUP-h.jpg?w=680",
-      "site_name": "101 Cookbooks",
-      "site_url": "https://www.101cookbooks.com",
-      "cuisine": "Vegetarian",
-      "published_at": "Tue, 22 Sep 2026 18:33:42 +0000"
+      "title": "Instant Pot Beef and Barley Soup",
+      "url": "https://amiraspantry.com/instant-pot-beef-and-barley-soup/",
+      "recipe_url": "https://amiraspantry.com/instant-pot-beef-and-barley-soup/",
+      "image_url": "https://amiraspantry.com/wp-content/uploads/2022/03/instant-pot-beef-barley-soup-social.jpg",
+      "site_name": "Amira's Pantry",
+      "site_url": "https://amiraspantry.com",
+      "cuisine": "Egyptian",
+      "published_at": "Sat, 10 Oct 2026 07:28:00 +0000"
     }
   },
   "featured_recipe": {
-    "title": "Butternut Squash Soup with Red Lentils",
-    "url": "https://www.101cookbooks.com/butternut-squash-soup/",
-    "recipe_url": "https://www.101cookbooks.com/butternut-squash-soup/",
-    "image_url": "https://images.101cookbooks.com/BUTTERNUT-SQUASH-SOUP-h.jpg?w=680",
-    "site_name": "101 Cookbooks",
-    "site_url": "https://www.101cookbooks.com",
-    "cuisine": "Vegetarian",
-    "published_at": "Tue, 22 Sep 2026 18:33:42 +0000"
+    "title": "Instant Pot Beef and Barley Soup",
+    "url": "https://amiraspantry.com/instant-pot-beef-and-barley-soup/",
+    "recipe_url": "https://amiraspantry.com/instant-pot-beef-and-barley-soup/",
+    "image_url": "https://amiraspantry.com/wp-content/uploads/2022/03/instant-pot-beef-barley-soup-social.jpg",
+    "site_name": "Amira's Pantry",
+    "site_url": "https://amiraspantry.com",
+    "cuisine": "Egyptian",
+    "published_at": "Sat, 10 Oct 2026 07:28:00 +0000"
   }
 }
