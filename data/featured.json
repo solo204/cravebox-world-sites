@@ -1,106 +1,122 @@
 {
-  "updated_at": "2026-10-16T08:46:17Z",
+  "updated_at": "2026-10-16T14:33:30Z",
   "slot_hours": 2,
-  "slot_idx": 4,
-  "week": 5,
+  "slot_idx": 7,
+  "week": 8,
   "featured_sites": [
     {
-      "name": "Ambitious Kitchen",
-      "url": "https://www.ambitiouskitchen.com",
-      "cuisine": "Healthy American",
-      "tagline": "Nutritious, feel-good recipes for real life.",
-      "image_url": "https://www.ambitiouskitchen.com/wp-content/uploads/2022/10/Peanut-Butter-Lovers-Banana-Bread-4-750x750.jpg",
-      "rss_url": "https://www.ambitiouskitchen.com/feed/"
+      "name": "The Cookie Rookie",
+      "url": "https://www.thecookierookie.com",
+      "cuisine": "Baking",
+      "tagline": "Easy recipes for confident beginner cooks.",
+      "image_url": "https://www.thecookierookie.com/wp-content/uploads/2023/09/Pumpkin-recipes-Featured.jpg",
+      "rss_url": "https://www.thecookierookie.com/feed/"
     },
     {
-      "name": "Half Baked Harvest",
-      "url": "https://www.halfbakedharvest.com",
-      "cuisine": "American Comfort",
-      "tagline": "Feel-good food for every season.",
-      "image_url": "https://www.halfbakedharvest.com/wp-content/uploads/2026/10/Smothered-Chicken-in-Mushroom-Wine-Pan-Sauce-1.jpg",
-      "rss_url": "https://www.halfbakedharvest.com/feed/"
+      "name": "Rasa Malaysia",
+      "url": "https://rasamalaysia.com",
+      "cuisine": "Malaysian",
+      "tagline": "Easy Asian recipes for the home cook.",
+      "image_url": "https://rasamalaysia.com/wp-content/uploads/2026/10/how-to-make-matcha-2.jpg",
+      "rss_url": "https://rasamalaysia.com/feed/"
     },
     {
-      "name": "Laylita's Recipes",
-      "url": "https://laylita.com/recipes",
-      "cuisine": "Latin American",
-      "tagline": "Ecuadorian and Latin American flavors from scratch.",
-      "image_url": "https://www.laylita.com/recipes/wp-content/uploads/2020/10/Pasta-salad-with-avocado-tomatoes-and-cheese-1024x767.jpg",
-      "rss_url": "https://laylita.com/recipes/feed/"
+      "name": "Isabel Eats",
+      "url": "https://www.isabeleats.com",
+      "cuisine": "Mexican",
+      "tagline": "Mexican recipes made simple and delicious.",
+      "image_url": "https://www.isabeleats.com/wp-content/uploads/2026/10/cilantro-lime-rice-small-26-6-400x600.jpg",
+      "rss_url": "https://www.isabeleats.com/feed/"
     },
     {
-      "name": "Kawaling Pinoy",
-      "url": "https://www.kawalingpinoy.com",
+      "name": "Panlasang Pinoy",
+      "url": "https://panlasangpinoy.com",
       "cuisine": "Filipino",
-      "tagline": "Authentic Filipino recipes with a modern twist.",
-      "image_url": "https://www.kawalingpinoy.com/wp-content/uploads/2014/03/tortang-talong-3-680x884.jpg",
-      "rss_url": "https://www.kawalingpinoy.com/feed/"
+      "tagline": "Filipino recipes, made simple.",
+      "image_url": "https://panlasangpinoy.com/wp-content/uploads/2023/03/homepage-banner-scaled-1-jpg-1440x300.webp",
+      "rss_url": "https://panlasangpinoy.com/feed/"
     }
   ],
   "featured_recipes": {
     "Mon": {
-      "cuisine": "Healthy American",
-      "image_url": "https://www.ambitiouskitchen.com/wp-content/uploads/2026/09/Olive-Oil-Double-Chocolate-Cookies-7-750x750.jpg",
-      "recipe_url": "https://www.ambitiouskitchen.com/double-chocolate-olive-oil-cookies/",
-      "site_name": "Ambitious Kitchen",
-      "title": "Double Chocolate Olive Oil Cookies",
-      "url": "https://www.ambitiouskitchen.com/double-chocolate-olive-oil-cookies/"
+      "cuisine": "Baking",
+      "image_url": "https://www.thecookierookie.com/wp-content/uploads/2026/09/crockpot-potato-soup-1-17.jpg",
+      "published_at": "Wed, 23 Sep 2026 13:30:00 +0000",
+      "recipe_url": "https://www.thecookierookie.com/slow-cooker-skinny-loaded-potato-soup/",
+      "site_name": "The Cookie Rookie",
+      "site_url": "https://www.thecookierookie.com",
+      "title": "Crockpot Potato Soup",
+      "url": "https://www.thecookierookie.com/slow-cooker-skinny-loaded-potato-soup/"
     },
     "Tue": {
-      "cuisine": "Healthy American",
-      "image_url": "https://www.ambitiouskitchen.com/wp-content/uploads/2026/08/Brown-Butter-Sage-Orzo-with-Sausage-Butternut-Squash-and-Goat-Cheese-6-750x750.jpg",
-      "recipe_url": "https://www.ambitiouskitchen.com/butternut-squash-orzo/",
-      "site_name": "Ambitious Kitchen",
-      "title": "Brown Butter Sage Orzo with Spicy Sausage & Butternut Squash",
-      "url": "https://www.ambitiouskitchen.com/butternut-squash-orzo/"
+      "cuisine": "Malaysian",
+      "image_url": "https://rasamalaysia.com/wp-content/uploads/2026/09/crab-fried-rice-2-2026.jpg",
+      "published_at": "Thu, 24 Sep 2026 03:16:23 +0000",
+      "recipe_url": "https://rasamalaysia.com/crab-fried-rice-recipe/",
+      "site_name": "Rasa Malaysia",
+      "site_url": "https://rasamalaysia.com",
+      "title": "Crab Fried Rice",
+      "url": "https://rasamalaysia.com/crab-fried-rice-recipe/"
     },
     "Wed": {
-      "cuisine": "Healthy American",
-      "image_url": "https://www.ambitiouskitchen.com/wp-content/uploads/2025/01/Italian-Wedding-Soup-7-1-750x750.jpg",
-      "recipe_url": "https://www.ambitiouskitchen.com/italian-wedding-soup/",
-      "site_name": "Ambitious Kitchen",
-      "title": "Italian Wedding Soup",
-      "url": "https://www.ambitiouskitchen.com/italian-wedding-soup/"
+      "cuisine": "Mexican",
+      "image_url": "https://www.isabeleats.com/wp-content/uploads/2021/02/pollo-en-chipotle-small-3-400x600.jpg",
+      "published_at": "Mon, 17 Aug 2026 20:07:27 +0000",
+      "recipe_url": "https://www.isabeleats.com/pollo-en-chipotle/",
+      "site_name": "Isabel Eats",
+      "site_url": "https://www.isabeleats.com",
+      "title": "Pollo en Crema de Chipotle",
+      "url": "https://www.isabeleats.com/pollo-en-chipotle/"
     },
     "Thu": {
       "cuisine": "Filipino",
-      "image_url": "https://www.kawalingpinoy.com/wp-content/uploads/2026/07/asian-garlic-noodles-1-768x1024.jpg",
-      "recipe_url": "https://www.kawalingpinoy.com/asian-garlic-noodles/",
-      "site_name": "Kawaling Pinoy",
-      "title": "Asian Garlic Noodles",
-      "url": "https://www.kawalingpinoy.com/asian-garlic-noodles/"
+      "image_url": "https://panlasangpinoy.com/wp-content/uploads/2026/08/Eggplant-adobo-339x500.jpg",
+      "published_at": "Fri, 14 Aug 2026 00:36:59 +0000",
+      "recipe_url": "https://panlasangpinoy.com/adobong-talong-eggplant-adobo-recipe/",
+      "site_name": "Panlasang Pinoy",
+      "site_url": "https://panlasangpinoy.com",
+      "title": "Eggplant Adobo Recipe (Adobong Talong)",
+      "url": "https://panlasangpinoy.com/adobong-talong-eggplant-adobo-recipe/"
     },
     "Fri": {
-      "cuisine": "Healthy American",
-      "image_url": "https://www.ambitiouskitchen.com/wp-content/uploads/2020/10/Green-Chile-Chicken-Pozole-3-750x750.jpg",
-      "recipe_url": "https://www.ambitiouskitchen.com/green-chile-chicken-pozole/",
-      "site_name": "Ambitious Kitchen",
-      "title": "Green Chile Chicken Pozole",
-      "url": "https://www.ambitiouskitchen.com/green-chile-chicken-pozole/"
+      "title": "Crockpot Chicken and Dumplings",
+      "url": "https://www.thecookierookie.com/crockpot-chicken-and-dumplings-recipe/",
+      "recipe_url": "https://www.thecookierookie.com/crockpot-chicken-and-dumplings-recipe/",
+      "image_url": "https://www.thecookierookie.com/wp-content/uploads/2026/10/crockpot-chicken-and-dumplings-1-14.jpg",
+      "site_name": "The Cookie Rookie",
+      "site_url": "https://www.thecookierookie.com",
+      "cuisine": "Baking",
+      "published_at": "Wed, 07 Oct 2026 13:30:00 +0000"
     },
     "Sat": {
-      "cuisine": "Filipino",
-      "image_url": "https://www.kawalingpinoy.com/wp-content/uploads/2023/05/cashew-chicken-with-snow-peas-stir-fry-768x1024.jpg",
-      "recipe_url": "https://www.kawalingpinoy.com/cashew-chicken/",
-      "site_name": "Kawaling Pinoy",
-      "title": "Cashew Chicken",
-      "url": "https://www.kawalingpinoy.com/cashew-chicken/"
+      "cuisine": "Malaysian",
+      "image_url": "https://rasamalaysia.com/wp-content/uploads/2026/10/sausage-gravy-1.jpg",
+      "published_at": "Tue, 06 Oct 2026 07:36:05 +0000",
+      "recipe_url": "https://rasamalaysia.com/sausage-gravy/",
+      "site_name": "Rasa Malaysia",
+      "site_url": "https://rasamalaysia.com",
+      "title": "Sausage Gravy",
+      "url": "https://rasamalaysia.com/sausage-gravy/"
     },
     "Sun": {
-      "cuisine": "Filipino",
-      "image_url": "https://www.kawalingpinoy.com/wp-content/uploads/2021/08/brazo-de-mercedes-cake-roll-683x1024.jpg",
-      "recipe_url": "https://www.kawalingpinoy.com/brazo-de-mercedes/",
-      "site_name": "Kawaling Pinoy",
-      "title": "Brazo de Mercedes",
-      "url": "https://www.kawalingpinoy.com/brazo-de-mercedes/"
+      "title": "Cemitas Poblanas (Mexican Cemita Sandwich)",
+      "url": "https://www.isabeleats.com/cemitas-poblanas/",
+      "recipe_url": "https://www.isabeleats.com/cemitas-poblanas/",
+      "image_url": "https://www.isabeleats.com/wp-content/uploads/2026/09/cemitas-poblanas-small-5-400x600.jpg",
+      "site_name": "Isabel Eats",
+      "site_url": "https://www.isabeleats.com",
+      "cuisine": "Mexican",
+      "published_at": "Wed, 30 Sep 2026 07:00:00 +0000"
     }
   },
   "featured_recipe": {
-    "cuisine": "Filipino",
-    "image_url": "https://www.kawalingpinoy.com/wp-content/uploads/2021/08/brazo-de-mercedes-cake-roll-683x1024.jpg",
-    "recipe_url": "https://www.kawalingpinoy.com/brazo-de-mercedes/",
-    "site_name": "Kawaling Pinoy",
-    "title": "Brazo de Mercedes",
-    "url": "https://www.kawalingpinoy.com/brazo-de-mercedes/"
+    "title": "Cemitas Poblanas (Mexican Cemita Sandwich)",
+    "url": "https://www.isabeleats.com/cemitas-poblanas/",
+    "recipe_url": "https://www.isabeleats.com/cemitas-poblanas/",
+    "image_url": "https://www.isabeleats.com/wp-content/uploads/2026/09/cemitas-poblanas-small-5-400x600.jpg",
+    "site_name": "Isabel Eats",
+    "site_url": "https://www.isabeleats.com",
+    "cuisine": "Mexican",
+    "published_at": "Wed, 30 Sep 2026 07:00:00 +0000"
   }
 }
