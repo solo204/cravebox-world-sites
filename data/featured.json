@@ -1,120 +1,106 @@
 {
-  "updated_at": "2026-10-16T03:16:39Z",
+  "updated_at": "2026-10-16T08:46:17Z",
   "slot_hours": 2,
-  "slot_idx": 1,
-  "week": 2,
+  "slot_idx": 4,
+  "week": 5,
   "featured_sites": [
     {
-      "name": "Chopstick Chronicles",
-      "url": "https://www.chopstickchronicles.com",
-      "cuisine": "Japanese",
-      "tagline": "Authentic traditional and contemporary Japanese recipes.",
-      "image_url": "https://www.chopstickchronicles.com/wp-content/uploads/2026/09/kabocha-korokke-11.jpg",
-      "rss_url": "https://www.chopstickchronicles.com/feed/"
+      "name": "Ambitious Kitchen",
+      "url": "https://www.ambitiouskitchen.com",
+      "cuisine": "Healthy American",
+      "tagline": "Nutritious, feel-good recipes for real life.",
+      "image_url": "https://www.ambitiouskitchen.com/wp-content/uploads/2022/10/Peanut-Butter-Lovers-Banana-Bread-4-750x750.jpg",
+      "rss_url": "https://www.ambitiouskitchen.com/feed/"
     },
     {
-      "name": "Damn Delicious",
-      "url": "https://damndelicious.net",
-      "cuisine": "American",
-      "tagline": "Quick and easy recipes for every occasion.",
-      "image_url": "https://damndelicious.net/wp-content/uploads/2026/09/Cheeseburger-Sliders-scaled.jpg",
-      "rss_url": "https://damndelicious.net/feed/"
+      "name": "Half Baked Harvest",
+      "url": "https://www.halfbakedharvest.com",
+      "cuisine": "American Comfort",
+      "tagline": "Feel-good food for every season.",
+      "image_url": "https://www.halfbakedharvest.com/wp-content/uploads/2026/10/Smothered-Chicken-in-Mushroom-Wine-Pan-Sauce-1.jpg",
+      "rss_url": "https://www.halfbakedharvest.com/feed/"
     },
     {
-      "name": "Immaculate Bites",
-      "url": "https://www.africanbites.com",
-      "cuisine": "African",
-      "tagline": "Bold African flavors and soul food recipes.",
-      "image_url": "https://www.africanbites.com/wp-content/uploads/2023/04/IMG_9277.jpg",
-      "rss_url": "https://www.africanbites.com/feed/"
+      "name": "Laylita's Recipes",
+      "url": "https://laylita.com/recipes",
+      "cuisine": "Latin American",
+      "tagline": "Ecuadorian and Latin American flavors from scratch.",
+      "image_url": "https://www.laylita.com/recipes/wp-content/uploads/2020/10/Pasta-salad-with-avocado-tomatoes-and-cheese-1024x767.jpg",
+      "rss_url": "https://laylita.com/recipes/feed/"
     },
     {
-      "name": "Swasthi's Recipes",
-      "url": "https://www.indianhealthyrecipes.com",
-      "cuisine": "Indian",
-      "tagline": "Indian recipes that work every time.",
-      "image_url": "https://www.indianhealthyrecipes.com/wp-content/uploads/2026/10/quinoa-khichdi.jpg",
-      "rss_url": "https://www.indianhealthyrecipes.com/feed/"
+      "name": "Kawaling Pinoy",
+      "url": "https://www.kawalingpinoy.com",
+      "cuisine": "Filipino",
+      "tagline": "Authentic Filipino recipes with a modern twist.",
+      "image_url": "https://www.kawalingpinoy.com/wp-content/uploads/2014/03/tortang-talong-3-680x884.jpg",
+      "rss_url": "https://www.kawalingpinoy.com/feed/"
     }
   ],
   "featured_recipes": {
     "Mon": {
-      "cuisine": "African",
-      "image_url": "https://www.africanbites.com/wp-content/uploads/2026/10/Roast-Turkey-Wings-1.jpg",
-      "published_at": "Tue, 06 Oct 2026 07:30:00 +0000",
-      "recipe_url": "https://www.africanbites.com/baked-turkey-wings/",
-      "site_name": "Immaculate Bites",
-      "site_url": "https://www.africanbites.com",
-      "title": "Roast Turkey Wings",
-      "url": "https://www.africanbites.com/baked-turkey-wings/"
+      "cuisine": "Healthy American",
+      "image_url": "https://www.ambitiouskitchen.com/wp-content/uploads/2026/09/Olive-Oil-Double-Chocolate-Cookies-7-750x750.jpg",
+      "recipe_url": "https://www.ambitiouskitchen.com/double-chocolate-olive-oil-cookies/",
+      "site_name": "Ambitious Kitchen",
+      "title": "Double Chocolate Olive Oil Cookies",
+      "url": "https://www.ambitiouskitchen.com/double-chocolate-olive-oil-cookies/"
     },
     "Tue": {
-      "cuisine": "African",
-      "image_url": "https://www.africanbites.com/wp-content/uploads/2026/10/Slow-Cooker-Pork-Chops-1.jpg",
-      "published_at": "Mon, 05 Oct 2026 07:30:00 +0000",
-      "recipe_url": "https://www.africanbites.com/slow-cooker-pork-chops/",
-      "site_name": "Immaculate Bites",
-      "site_url": "https://www.africanbites.com",
-      "title": "Slow Cooker Pork Chops",
-      "url": "https://www.africanbites.com/slow-cooker-pork-chops/"
+      "cuisine": "Healthy American",
+      "image_url": "https://www.ambitiouskitchen.com/wp-content/uploads/2026/08/Brown-Butter-Sage-Orzo-with-Sausage-Butternut-Squash-and-Goat-Cheese-6-750x750.jpg",
+      "recipe_url": "https://www.ambitiouskitchen.com/butternut-squash-orzo/",
+      "site_name": "Ambitious Kitchen",
+      "title": "Brown Butter Sage Orzo with Spicy Sausage & Butternut Squash",
+      "url": "https://www.ambitiouskitchen.com/butternut-squash-orzo/"
     },
     "Wed": {
-      "cuisine": "American",
-      "image_url": "https://damndelicious.net/wp-content/uploads/2026/06/251218_DD_Honey-BBQ-Chicken-Bites_691-768x1152.jpg",
-      "recipe_url": "https://damndelicious.net/2026/08/21/honey-bbq-chicken-bites/",
-      "site_name": "Damn Delicious",
-      "title": "Honey BBQ Chicken Bites",
-      "url": "https://damndelicious.net/2026/08/21/honey-bbq-chicken-bites/"
+      "cuisine": "Healthy American",
+      "image_url": "https://www.ambitiouskitchen.com/wp-content/uploads/2025/01/Italian-Wedding-Soup-7-1-750x750.jpg",
+      "recipe_url": "https://www.ambitiouskitchen.com/italian-wedding-soup/",
+      "site_name": "Ambitious Kitchen",
+      "title": "Italian Wedding Soup",
+      "url": "https://www.ambitiouskitchen.com/italian-wedding-soup/"
     },
     "Thu": {
-      "cuisine": "Japanese",
-      "image_url": "https://www.chopstickchronicles.com/wp-content/uploads/2019/05/Egg-Drop-Soup-11.jpg",
-      "published_at": "Wed, 21 Jan 2026 05:19:34 +0000",
-      "recipe_url": "https://www.chopstickchronicles.com/kakitamajiru/",
-      "site_name": "Chopstick Chronicles",
-      "site_url": "https://www.chopstickchronicles.com",
-      "title": "Kakitamajiru (Egg Drop Soup)",
-      "url": "https://www.chopstickchronicles.com/kakitamajiru/"
+      "cuisine": "Filipino",
+      "image_url": "https://www.kawalingpinoy.com/wp-content/uploads/2026/07/asian-garlic-noodles-1-768x1024.jpg",
+      "recipe_url": "https://www.kawalingpinoy.com/asian-garlic-noodles/",
+      "site_name": "Kawaling Pinoy",
+      "title": "Asian Garlic Noodles",
+      "url": "https://www.kawalingpinoy.com/asian-garlic-noodles/"
     },
     "Fri": {
-      "title": "Kabocha Korokke (Kabocha Squash Croquette)",
-      "url": "https://www.chopstickchronicles.com/kabocha-korokke-kabocha-squash-croquette/",
-      "recipe_url": "https://www.chopstickchronicles.com/kabocha-korokke-kabocha-squash-croquette/",
-      "image_url": "https://www.chopstickchronicles.com/wp-content/uploads/2026/09/kabocha-korokke-11.jpg",
-      "site_name": "Chopstick Chronicles",
-      "site_url": "https://www.chopstickchronicles.com",
-      "cuisine": "Japanese",
-      "published_at": "Sun, 27 Sep 2026 00:06:45 +0000"
+      "cuisine": "Healthy American",
+      "image_url": "https://www.ambitiouskitchen.com/wp-content/uploads/2020/10/Green-Chile-Chicken-Pozole-3-750x750.jpg",
+      "recipe_url": "https://www.ambitiouskitchen.com/green-chile-chicken-pozole/",
+      "site_name": "Ambitious Kitchen",
+      "title": "Green Chile Chicken Pozole",
+      "url": "https://www.ambitiouskitchen.com/green-chile-chicken-pozole/"
     },
     "Sat": {
-      "cuisine": "Japanese",
-      "image_url": "https://www.chopstickchronicles.com/wp-content/uploads/2016/05/ika-ring-fry-17.jpg",
-      "published_at": "Wed, 20 May 2026 01:05:35 +0000",
-      "recipe_url": "https://www.chopstickchronicles.com/fried-calamari-with-wasabi-mayo/",
-      "site_name": "Chopstick Chronicles",
-      "site_url": "https://www.chopstickchronicles.com",
-      "title": "Fried Calamari with Wasabi Mayo",
-      "url": "https://www.chopstickchronicles.com/fried-calamari-with-wasabi-mayo/"
+      "cuisine": "Filipino",
+      "image_url": "https://www.kawalingpinoy.com/wp-content/uploads/2023/05/cashew-chicken-with-snow-peas-stir-fry-768x1024.jpg",
+      "recipe_url": "https://www.kawalingpinoy.com/cashew-chicken/",
+      "site_name": "Kawaling Pinoy",
+      "title": "Cashew Chicken",
+      "url": "https://www.kawalingpinoy.com/cashew-chicken/"
     },
     "Sun": {
-      "title": "Chashu (Braised Pork Belly)",
-      "url": "https://www.chopstickchronicles.com/ramen-pork-chashu/",
-      "recipe_url": "https://www.chopstickchronicles.com/ramen-pork-chashu/",
-      "image_url": "https://www.chopstickchronicles.com/wp-content/uploads/2020/01/Chashu-update-10.jpg",
-      "site_name": "Chopstick Chronicles",
-      "site_url": "https://www.chopstickchronicles.com",
-      "cuisine": "Japanese",
-      "published_at": "Wed, 16 Sep 2026 11:33:42 +0000"
+      "cuisine": "Filipino",
+      "image_url": "https://www.kawalingpinoy.com/wp-content/uploads/2021/08/brazo-de-mercedes-cake-roll-683x1024.jpg",
+      "recipe_url": "https://www.kawalingpinoy.com/brazo-de-mercedes/",
+      "site_name": "Kawaling Pinoy",
+      "title": "Brazo de Mercedes",
+      "url": "https://www.kawalingpinoy.com/brazo-de-mercedes/"
     }
   },
   "featured_recipe": {
-    "title": "Chashu (Braised Pork Belly)",
-    "url": "https://www.chopstickchronicles.com/ramen-pork-chashu/",
-    "recipe_url": "https://www.chopstickchronicles.com/ramen-pork-chashu/",
-    "image_url": "https://www.chopstickchronicles.com/wp-content/uploads/2020/01/Chashu-update-10.jpg",
-    "site_name": "Chopstick Chronicles",
-    "site_url": "https://www.chopstickchronicles.com",
-    "cuisine": "Japanese",
-    "published_at": "Wed, 16 Sep 2026 11:33:42 +0000"
+    "cuisine": "Filipino",
+    "image_url": "https://www.kawalingpinoy.com/wp-content/uploads/2021/08/brazo-de-mercedes-cake-roll-683x1024.jpg",
+    "recipe_url": "https://www.kawalingpinoy.com/brazo-de-mercedes/",
+    "site_name": "Kawaling Pinoy",
+    "title": "Brazo de Mercedes",
+    "url": "https://www.kawalingpinoy.com/brazo-de-mercedes/"
   }
 }
