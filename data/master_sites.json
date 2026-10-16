@@ -1069,7 +1069,8 @@
     "url": "https://www.eatingthaifood.com",
     "cuisine": "Thai",
     "tagline": "Authentic street-food-style Thai recipes by Bangkok-based food writer Mark Wiens, sourced from real Thai family cooking.",
-    "rss_url": "https://www.eatingthaifood.com/feed/"
+    "rss_url": "https://www.eatingthaifood.com/feed/",
+    "image_url": "https://www.eatingthaifood.com/wp-content/uploads/2017/05/thai-cashew-chicken-recipe.jpg"
   },
   {
     "name": "Hot Thai Kitchen (Substack)",
@@ -1084,7 +1085,8 @@
     "url": "https://www.olivetomato.com",
     "cuisine": "Greek",
     "tagline": "Authentic Greek and Mediterranean diet recipes from Greek-born registered dietitian Elena Paravantes.",
-    "rss_url": "https://www.olivetomato.com/feed/"
+    "rss_url": "https://www.olivetomato.com/feed/",
+    "image_url": "https://www.olivetomato.com/wp-content/uploads/2026/05/SAM_8948.jpeg"
   },
   {
     "name": "Dimitra's Dishes",
@@ -1099,14 +1101,16 @@
     "url": "https://www.thehungrybites.com",
     "cuisine": "Greek",
     "tagline": "Traditional Greek and Mediterranean home cooking with a focus on authentic recipes and detailed technique.",
-    "rss_url": "https://www.thehungrybites.com/feed/"
+    "rss_url": "https://www.thehungrybites.com/feed/",
+    "image_url": "https://www.thehungrybites.com/wp-content/uploads/2023/03/bread_1200.jpg"
   },
   {
     "name": "Mexican Please",
     "url": "https://www.mexicanplease.com",
     "cuisine": "Mexican",
     "tagline": "Authentic Mexican flavors and techniques with an emphasis on mastering salsas and chile-based sauces.",
-    "rss_url": "https://www.mexicanplease.com/feed/"
+    "rss_url": "https://www.mexicanplease.com/feed/",
+    "image_url": "https://www.mexicanplease.com/wp-content/uploads/2019/09/Hatch-Green-Chile-Enchiladas-12-680x450.jpg"
   },
   {
     "name": "Mexico in My Kitchen",
@@ -1114,14 +1118,16 @@
     "cuisine": "Mexican",
     "tagline": "Traditional recipes from all regions of Mexico by native cook Mely Martínez, preserving authentic home cooking.",
     "rss_url": "http://feeds.feedburner.com/MexicoInMyKitchen",
-    "active": false
+    "active": false,
+    "image_url": "https://www.mexicoinmykitchen.com/wp-content/uploads/2021/01/tamales-ground-beef-4-english-.jpg"
   },
   {
     "name": "Taste of Maroc",
     "url": "https://tasteofmaroc.com",
     "cuisine": "Moroccan",
     "tagline": "Christine Benlafquih's encyclopedic archive of authentic Moroccan recipes, cooking tutorials, and cultural guides.",
-    "rss_url": "https://tasteofmaroc.com/feed/"
+    "rss_url": "https://tasteofmaroc.com/feed/",
+    "image_url": "https://tasteofmaroc.com/wp-content/uploads/2020/05/berber-tagine-3000x1500-1-scaled.jpg"
   },
   {
     "name": "MarocMama",
@@ -1129,14 +1135,15 @@
     "cuisine": "Moroccan",
     "tagline": "An American expat living in Morocco shares her Moroccan family recipes alongside travel and cultural stories.",
     "rss_url": "https://www.marocmama.com/feed/",
-    "image_url": ""
+    "image_url": "https://marocmama.com/wp-content/uploads/2009/11/Moroccan-Taktouka-with-Bread-480x270.jpg"
   },
   {
     "name": "The Daring Gourmet",
     "url": "https://www.daringgourmet.com",
     "cuisine": "Global",
     "tagline": "World cuisine recipes with authentic techniques covering dishes from every corner of the globe including Ethiopian classics.",
-    "rss_url": "https://www.daringgourmet.com/feed/"
+    "rss_url": "https://www.daringgourmet.com/feed/",
+    "image_url": "https://www.daringgourmet.com/wp-content/uploads/2019/12/Butter-Chicken-7-728x728.jpg"
   },
   {
     "name": "International Cuisine",
@@ -1144,14 +1151,14 @@
     "cuisine": "Global",
     "tagline": "Every country's national dish and traditional recipes systematically covered, a one-stop world recipe reference.",
     "rss_url": "https://www.internationalcuisine.com/feed/",
-    "image_url": ""
+    "image_url": "https://www.internationalcuisine.com/wp-content/uploads/2024/06/KgKb2OGQ.jpeg"
   },
   {
     "name": "The First Mess",
     "url": "https://thefirstmess.com",
     "cuisine": "Vegan",
     "tagline": "Beautiful plant-based cooking with luminous, magazine-quality photography.",
-    "image_url": "",
+    "image_url": "https://thefirstmess.com/wp-content/uploads/2026/09/eggplant-curry-chickpeas-vegan-02.jpg",
     "rss_url": "https://thefirstmess.com/feed/"
   },
   {
@@ -1175,7 +1182,7 @@
     "url": "https://evergreenkitchen.ca",
     "cuisine": "Vegetarian",
     "tagline": "Professional photographer-stylist duo behind consistently editorial vegetarian cooking.",
-    "image_url": "",
+    "image_url": "https://evergreenkitchen.ca/wp-content/uploads/2024/02/Butter-Bean-Salad-Evergreen-Kitchen-1C.jpg",
     "rss_url": "https://evergreenkitchen.ca/feed/"
   },
   {
@@ -1183,7 +1190,7 @@
     "url": "https://ministryofcurry.com",
     "cuisine": "Indian",
     "tagline": "Authentic Maharashtrian and Indian recipes, with a specialty in Instant Pot cooking.",
-    "image_url": "",
+    "image_url": "https://ministryofcurry.com/wp-content/uploads/2024/06/chicken-biryani-9.jpg",
     "rss_url": "https://ministryofcurry.com/feed/"
   },
   {
@@ -1199,7 +1206,7 @@
     "url": "https://9jafoodie.com",
     "cuisine": "Nigerian",
     "tagline": "Nigerian home cooking with traditional recipes and healthier modern twists.",
-    "image_url": "",
+    "image_url": "https://9jafoodie.com/wp-content/uploads/2023/08/Jollof-rice-with-plantain-and-suya.jpeg",
     "rss_url": "https://9jafoodie.com/feed/"
   },
   {
@@ -1207,7 +1214,7 @@
     "url": "https://whereismyspoon.co",
     "cuisine": "Eastern European",
     "tagline": "Romanian-born author sharing Eastern European and German home cooking traditions.",
-    "image_url": "",
+    "image_url": "https://whereismyspoon.co/wp-content/uploads/2020/05/cevapcici-recipe.jpg",
     "rss_url": "https://whereismyspoon.co/feed/"
   },
   {

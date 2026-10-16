@@ -1,11 +1,11 @@
 """
 fix_images.py — Auto-fill blank image_url fields in master_sites.json
 
-For each site with a missing image_url, fetches its RSS feed and extracts
-the first usable image (media:content, enclosure, or <img> in description).
-Writes updates back to master_sites.json in place.
+Strategy (in order):
+  1. RSS feed — media:content, media:thumbnail, enclosure, <img> in description
+  2. Homepage og:image meta tag (fallback for feeds with no images)
 
-Run locally (not in sandbox):
+Run locally:
   python fix_images.py
   python fix_images.py --dry-run   # preview without writing
 """
@@ -13,7 +13,6 @@ Run locally (not in sandbox):
 import argparse
 import json
 import re
-import sys
 import xml.etree.ElementTree as ET
 from pathlib import Path
 
@@ -22,8 +21,7 @@ import requests
 DATA_FILE = Path(__file__).parent / "data" / "master_sites.json"
 TIMEOUT   = 15
 HEADERS   = {"User-Agent": "Mozilla/5.0 (compatible; CraveBox/1.0)"}
-
-MEDIA_NS = "http://search.yahoo.com/mrss/"
+MEDIA_NS  = "http://search.yahoo.com/mrss/"
 
 
 def find_image_in_feed(rss_url: str, site_url: str) -> str | None:
@@ -41,26 +39,22 @@ def find_image_in_feed(rss_url: str, site_url: str) -> str | None:
         print(f"  XML parse error: {e}")
         return None
 
-    # Try media:content url= first (most reliable)
     for el in root.iter(f"{{{MEDIA_NS}}}content"):
         url = el.get("url", "")
         if url and _looks_like_image(url):
             return url
 
-    # Try media:thumbnail
     for el in root.iter(f"{{{MEDIA_NS}}}thumbnail"):
         url = el.get("url", "")
         if url and _looks_like_image(url):
             return url
 
-    # Try <enclosure> tags
     for el in root.iter("enclosure"):
         url = el.get("url", "")
         t   = el.get("type", "")
         if url and ("image" in t or _looks_like_image(url)):
             return url
 
-    # Fall back: scrape <img src=> from first item's description/content
     for item in root.iter("item"):
         for tag in ("description", "{http://purl.org/rss/1.0/modules/content/}encoded"):
             text = item.findtext(tag, "")
@@ -68,9 +62,31 @@ def find_image_in_feed(rss_url: str, site_url: str) -> str | None:
                 m = re.search(r'<img[^>]+src=["\']([^"\']+)["\']', text, re.IGNORECASE)
                 if m and _looks_like_image(m.group(1)):
                     return m.group(1)
-        break  # only first item
+        break
 
     return None
+
+
+def find_og_image(site_url: str) -> str | None:
+    """Fetch homepage and extract og:image meta tag."""
+    try:
+        r = requests.get(site_url, timeout=TIMEOUT, headers=HEADERS)
+        r.raise_for_status()
+    except Exception as e:
+        print(f"  Homepage fetch failed: {e}")
+        return None
+
+    m = re.search(
+        r'<meta[^>]+(?:property=["\']og:image["\']|name=["\']og:image["\'])[^>]+content=["\']([^"\']+)["\']',
+        r.text, re.IGNORECASE
+    )
+    if not m:
+        # also try content= before property=
+        m = re.search(
+            r'<meta[^>]+content=["\']([^"\']+)["\'][^>]+(?:property=["\']og:image["\'])',
+            r.text, re.IGNORECASE
+        )
+    return m.group(1) if m else None
 
 
 def _looks_like_image(url: str) -> bool:
@@ -90,20 +106,30 @@ def main():
 
     changed = 0
     for site in blank:
-        name    = site["name"]
-        rss_url = site.get("rss_url", "")
-        if not rss_url:
-            print(f"[SKIP] {name} — no rss_url")
-            continue
+        name     = site["name"]
+        rss_url  = site.get("rss_url", "")
+        site_url = site.get("url", "")
+        img      = None
 
-        print(f"[{name}] fetching {rss_url} ...")
-        img = find_image_in_feed(rss_url, site.get("url", ""))
+        # 1. Try RSS
+        if rss_url:
+            print(f"[{name}] RSS: {rss_url}")
+            img = find_image_in_feed(rss_url, site_url)
+            if img:
+                print(f"  ✓ RSS → {img[:90]}")
+
+        # 2. Fall back to og:image
+        if not img and site_url:
+            print(f"[{name}] og:image: {site_url}")
+            img = find_og_image(site_url)
+            if img:
+                print(f"  ✓ og:image → {img[:90]}")
+
         if img:
-            print(f"  → {img[:90]}")
             site["image_url"] = img
             changed += 1
         else:
-            print(f"  → no image found")
+            print(f"  ✗ no image found — needs manual fix")
 
     print(f"\n{changed} of {len(blank)} filled.")
 
