@@ -47,8 +47,10 @@ def load_master():
         return json.load(f)
 
 def save_master(sites):
+    seen = set()
+    deduped = [s for s in sites if not (s["url"] in seen or seen.add(s["url"]))]
     with open(MASTER_PATH, "w", encoding="utf-8") as f:
-        json.dump(sites, f, indent=2, ensure_ascii=False)
+        json.dump(deduped, f, indent=2, ensure_ascii=False)
 
 def load_featured():
     # Pull latest from GitHub so the dashboard always reflects what the app sees
