@@ -34,7 +34,7 @@ HEADERS = {
 }
 
 BACKEND_URL = os.environ.get("CRAVEBOX_BACKEND", "https://cravebox-backend.onrender.com")
-API_KEY     = os.environ.get("CRAVEBOX_API_KEY", "")
+API_KEY     = os.environ.get("CRAVEBOX_API_KEY", "85bf5ec2371d9cc653837f288c4b1a365babbe551972063266e46e71c6c9dcc3")
 
 NOW = datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
 
@@ -163,41 +163,33 @@ def _print_fast_summary(results, sites):
 
 # ── Tier 2: Deep check ─────────────────────────────────────────────────────────
 
-def _get_first_rss_url(site):
+def _get_rss_urls(site, max_items=5):
+    """Return up to max_items article URLs from the RSS feed."""
     rss_url = site.get("rss_url", "")
     if not rss_url:
-        return None
+        return []
     try:
         rr   = requests.get(rss_url, headers=HEADERS, timeout=10)
         root = ET.fromstring(rr.content)
         ns   = {"atom": "http://www.w3.org/2005/Atom"}
-        item = (root.find(".//item") or root.find(".//atom:entry", ns))
-        if item is None:
-            return None
-        link = (item.findtext("link") or
-                (item.find("{http://www.w3.org/2005/Atom}link") or {}).get("href",""))
-        return link.strip() or None
+        items = root.findall(".//item") or root.findall(".//atom:entry", ns)
+        urls = []
+        for item in items[:max_items]:
+            link = (item.findtext("link") or
+                    (item.find("{http://www.w3.org/2005/Atom}link") or {}).get("href", ""))
+            if link.strip():
+                urls.append(link.strip())
+        return urls
     except Exception:
-        return None
+        return []
 
 
-def deep_check_site(site):
-    url    = site["url"]
-    result = {}
-
-    recipe_url = _get_first_rss_url(site)
-    if not recipe_url:
-        result["deep"] = {
-            "status": "fail", "error": "no RSS item URL",
-            "ingredients": 0, "steps": 0, "checked_at": NOW
-        }
-        return url, result
-
-    # Submit extraction job
+def _extract_one(recipe_url):
+    """Submit one URL to the backend and return (n_ing, n_step, conf, error)."""
+    headers = {"Content-Type": "application/json"}
+    if API_KEY:
+        headers["X-API-Key"] = API_KEY
     try:
-        headers = {"Content-Type": "application/json"}
-        if API_KEY:
-            headers["X-API-Key"] = API_KEY
         resp = requests.post(
             f"{BACKEND_URL}/extract",
             json={"url": recipe_url},
@@ -205,71 +197,89 @@ def deep_check_site(site):
             timeout=15,
         )
         if resp.status_code != 200:
-            result["deep"] = {
-                "status": "fail", "error": f"extract HTTP {resp.status_code}",
-                "ingredients": 0, "steps": 0, "checked_at": NOW
-            }
-            return url, result
+            return 0, 0, "", f"extract HTTP {resp.status_code}"
         job_id = resp.json().get("job_id")
     except Exception as e:
-        result["deep"] = {
-            "status": "fail", "error": str(e)[:80],
-            "ingredients": 0, "steps": 0, "checked_at": NOW
-        }
-        return url, result
+        return 0, 0, "", str(e)[:80]
 
-    # Poll for result (max 60s)
     poll_headers = {"X-API-Key": API_KEY} if API_KEY else {}
     for _ in range(20):
         time.sleep(3)
         try:
-            sr = requests.get(f"{BACKEND_URL}/status/{job_id}", headers=poll_headers, timeout=10)
+            sr   = requests.get(f"{BACKEND_URL}/status/{job_id}", headers=poll_headers, timeout=10)
             data = sr.json()
             if data.get("status") == "done":
                 break
             if data.get("status") == "error":
-                result["deep"] = {
-                    "status": "fail", "error": data.get("error", "backend error")[:80],
-                    "ingredients": 0, "steps": 0, "tested_url": recipe_url, "checked_at": NOW
-                }
-                return url, result
+                return 0, 0, "", data.get("error", "backend error")[:80]
         except Exception:
             pass
     else:
-        result["deep"] = {
-            "status": "fail", "error": "poll timeout",
-            "ingredients": 0, "steps": 0, "tested_url": recipe_url, "checked_at": NOW
-        }
-        return url, result
+        return 0, 0, "", "poll timeout"
 
-    # Fetch result
     try:
         rr     = requests.get(f"{BACKEND_URL}/result/{job_id}", headers=poll_headers, timeout=10)
         recipe = rr.json().get("recipe", {})
         n_ing  = len(recipe.get("ingredients", []))
         n_step = len(recipe.get("steps", []))
         conf   = recipe.get("confidence", "")
+        return n_ing, n_step, conf, ""
     except Exception as e:
+        return 0, 0, "", str(e)[:80]
+
+
+def deep_check_site(site):
+    url       = site["url"]
+    result    = {}
+    rss_urls  = _get_rss_urls(site, max_items=5)
+
+    if not rss_urls:
         result["deep"] = {
-            "status": "fail", "error": str(e)[:80],
-            "ingredients": 0, "steps": 0, "tested_url": recipe_url, "checked_at": NOW
+            "status": "fail", "error": "no RSS item URLs",
+            "ingredients": 0, "steps": 0, "checked_at": NOW
         }
         return url, result
 
-    # Grade the result
-    if n_ing >= 3 and n_step >= 2:
-        status = "ok"
-    elif n_ing > 0 or n_step > 0:
-        status = "warn"
-    else:
-        status = "fail"
+    # Try each RSS item until one extracts a real recipe
+    last_error  = ""
+    tested_url  = rss_urls[0]
+    for recipe_url in rss_urls:
+        n_ing, n_step, conf, err = _extract_one(recipe_url)
+        if n_ing >= 3 and n_step >= 2:
+            result["deep"] = {
+                "status":      "ok",
+                "tested_url":  recipe_url,
+                "ingredients": n_ing,
+                "steps":       n_step,
+                "confidence":  conf,
+                "checked_at":  NOW,
+            }
+            return url, result
+        if n_ing > 0 or n_step > 0:
+            # partial — keep trying but remember this
+            tested_url = recipe_url
+            last_error = ""
+            result["deep"] = {
+                "status":      "warn",
+                "tested_url":  recipe_url,
+                "ingredients": n_ing,
+                "steps":       n_step,
+                "confidence":  conf,
+                "checked_at":  NOW,
+            }
+        else:
+            last_error = err or "0 ingredients / 0 steps"
+
+    # Nothing worked — return warn if we had partial, else fail
+    if "deep" in result:
+        return url, result
 
     result["deep"] = {
-        "status":      status,
-        "tested_url":  recipe_url,
-        "ingredients": n_ing,
-        "steps":       n_step,
-        "confidence":  conf,
+        "status":      "fail",
+        "error":       last_error,
+        "tested_url":  tested_url,
+        "ingredients": 0,
+        "steps":       0,
         "checked_at":  NOW,
     }
     return url, result
