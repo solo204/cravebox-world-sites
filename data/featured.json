@@ -1,108 +1,122 @@
 {
-  "updated_at": "2026-10-17T08:16:53Z",
+  "updated_at": "2026-10-17T13:28:10Z",
   "slot_hours": 2,
-  "slot_idx": 15,
-  "week": 16,
+  "slot_idx": 2,
+  "week": 3,
   "featured_sites": [
     {
-      "name": "Immaculate Bites",
-      "url": "https://www.africanbites.com",
-      "cuisine": "African",
-      "tagline": "Bold African flavors and soul food recipes.",
-      "image_url": "https://www.africanbites.com/wp-content/uploads/2023/04/IMG_9277.jpg",
-      "rss_url": "https://www.africanbites.com/feed/"
-    },
-    {
-      "name": "My Korean Kitchen",
-      "url": "https://mykoreankitchen.com",
-      "cuisine": "Korean",
-      "tagline": "Step-by-step authentic Korean recipes for everyone.",
-      "image_url": "https://mykoreankitchen.com/wp-content/uploads/2020/02/My-Korean-Kitchen-Twitter-1024x512-1.png",
-      "rss_url": "https://mykoreankitchen.com/feed/"
-    },
-    {
-      "name": "Damn Delicious",
-      "url": "https://damndelicious.net",
+      "name": "Smitten Kitchen",
+      "url": "https://smittenkitchen.com",
       "cuisine": "American",
-      "tagline": "Quick and easy recipes for every occasion.",
-      "image_url": "https://damndelicious.net/wp-content/uploads/2026/09/Cheeseburger-Sliders-scaled.jpg",
-      "rss_url": "https://damndelicious.net/feed/"
+      "tagline": "Fearless cooking from a tiny kitchen.",
+      "image_url": "https://i0.wp.com/smittenkitchen.com/wp-content/uploads/2026/09/simple-chicken-tacos-09-scaled.jpg",
+      "rss_url": "https://smittenkitchen.com/feed/"
     },
     {
-      "name": "Feel Good Foodie",
-      "url": "https://feelgoodfoodie.net",
-      "cuisine": "Lebanese",
-      "tagline": "Fresh wholesome recipes with Middle Eastern flair.",
-      "image_url": "https://feelgoodfoodie.net/wp-content/uploads/2026/09/Peanut-Butter-Pancakes-08.jpg",
-      "rss_url": "https://feelgoodfoodie.net/recipe/feed/"
+      "name": "Minimalist Baker",
+      "url": "https://minimalistbaker.com",
+      "cuisine": "Plant-Based",
+      "tagline": "Simple vegan recipes, 10 ingredients or less.",
+      "image_url": "https://minimalistbaker.com/wp-content/uploads/2023/03/Gluten-Free-Honey-Cake-15-680x1020.jpg",
+      "rss_url": "https://minimalistbaker.com/feed/"
+    },
+    {
+      "name": "Skinnytaste",
+      "url": "https://www.skinnytaste.com",
+      "cuisine": "Healthy American",
+      "tagline": "Healthy recipes your whole family will love.",
+      "image_url": "https://www.skinnytaste.com/wp-content/uploads/2026/10/Week_562_Oct-12-Oct-18-600x750.jpg",
+      "rss_url": "https://www.skinnytaste.com/feed/"
+    },
+    {
+      "name": "Cookie and Kate",
+      "url": "https://cookieandkate.com",
+      "cuisine": "Vegetarian",
+      "tagline": "Wholesome vegetarian recipes for every occasion.",
+      "image_url": "https://cookieandkate.com/images/2026/10/gluten-free-cornbread.jpg",
+      "rss_url": "https://cookieandkate.com/feed/"
     }
   ],
   "featured_recipes": {
     "Mon": {
-      "cuisine": "African",
-      "image_url": "https://www.africanbites.com/wp-content/uploads/2026/10/Smoked-Brisket-Chili-1.jpg",
-      "recipe_url": "https://www.africanbites.com/smoked-brisket-chili/",
-      "site_name": "Immaculate Bites",
-      "title": "Smoked Brisket Chili",
-      "url": "https://www.africanbites.com/smoked-brisket-chili/"
+      "title": "simple chicken tacos",
+      "url": "https://smittenkitchen.com/2026/09/simple-chicken-tacos/",
+      "recipe_url": "https://smittenkitchen.com/2026/09/simple-chicken-tacos/",
+      "image_url": "https://i0.wp.com/smittenkitchen.com/wp-content/uploads/2026/09/simple-chicken-tacos-09-scaled.jpg?fit=640%2C427&amp;quality=89&amp;ssl=1",
+      "site_name": "Smitten Kitchen",
+      "site_url": "https://smittenkitchen.com",
+      "cuisine": "American",
+      "published_at": "Wed, 30 Sep 2026 21:00:08 +0000"
     },
     "Tue": {
-      "cuisine": "Korean",
-      "image_url": "https://mykoreankitchen.com/wp-content/uploads/2026/08/1.-dakjuk-korean-chicken-porridge.jpg",
-      "recipe_url": "https://mykoreankitchen.com/dakjuk-korean-chicken-porridge/",
-      "site_name": "My Korean Kitchen",
-      "title": "Dakjuk (Korean Chicken Porridge)",
-      "url": "https://mykoreankitchen.com/dakjuk-korean-chicken-porridge/"
+      "cuisine": "American",
+      "image_url": "https://i0.wp.com/smittenkitchen.com/wp-content/uploads/2026/08/peach-cobbler-loaf-08-scaled.jpg?fit=640%2C427&amp;quality=89&amp;ssl=1",
+      "published_at": "Fri, 28 Aug 2026 12:07:56 +0000",
+      "recipe_url": "https://smittenkitchen.com/2026/08/peach-cobbler-loaf/",
+      "site_name": "Smitten Kitchen",
+      "site_url": "https://smittenkitchen.com",
+      "title": "peach cobbler loaf",
+      "url": "https://smittenkitchen.com/2026/08/peach-cobbler-loaf/"
     },
     "Wed": {
-      "cuisine": "African",
-      "image_url": "https://www.africanbites.com/wp-content/uploads/2023/04/IMG_9277.jpg",
-      "recipe_url": "https://www.africanbites.com/sweet-potato-cornbread/",
-      "site_name": "Immaculate Bites",
-      "title": "Sweet Potato Cornbread",
-      "url": "https://www.africanbites.com/sweet-potato-cornbread/"
+      "cuisine": "American",
+      "image_url": "https://i0.wp.com/smittenkitchen.com/wp-content/uploads/2026/07/spaghetti-alio-e-olio-6-scaled.jpg?fit=640%2C427&amp;quality=89&amp;ssl=1",
+      "published_at": "Tue, 28 Jul 2026 20:15:40 +0000",
+      "recipe_url": "https://smittenkitchen.com/2026/07/spaghetti-aglio-e-olio/",
+      "site_name": "Smitten Kitchen",
+      "site_url": "https://smittenkitchen.com",
+      "title": "spaghetti aglio e olio",
+      "url": "https://smittenkitchen.com/2026/07/spaghetti-aglio-e-olio/"
     },
     "Thu": {
-      "title": "Peanut Butter Pancakes",
-      "url": "https://feelgoodfoodie.net/recipe/peanut-butter-pancakes/",
-      "recipe_url": "https://feelgoodfoodie.net/recipe/peanut-butter-pancakes/",
-      "image_url": "https://feelgoodfoodie.net/wp-content/uploads/2026/09/Peanut-Butter-Pancakes-08.jpg",
-      "site_name": "Feel Good Foodie",
-      "site_url": "https://feelgoodfoodie.net",
-      "cuisine": "Lebanese",
-      "published_at": "Fri, 09 Oct 2026 13:00:00 +0000"
+      "title": "Gluten-Free Cornbread",
+      "url": "https://cookieandkate.com/gluten-free-cornbread/?adt_ei=*|EMAIL|*",
+      "recipe_url": "https://cookieandkate.com/gluten-free-cornbread/?adt_ei=*|EMAIL|*",
+      "image_url": "https://cookieandkate.com/images/2026/10/gluten-free-cornbread.jpg",
+      "site_name": "Cookie and Kate",
+      "site_url": "https://cookieandkate.com",
+      "cuisine": "Vegetarian",
+      "published_at": "Wed, 07 Oct 2026 16:33:56 +0000"
     },
     "Fri": {
-      "cuisine": "Lebanese",
-      "image_url": "https://feelgoodfoodie.net/wp-content/uploads/2026/09/Applesauce-Cake-8.jpg",
-      "recipe_url": "https://feelgoodfoodie.net/recipe/applesauce-cake/",
-      "site_name": "Feel Good Foodie",
-      "title": "Applesauce Cake",
-      "url": "https://feelgoodfoodie.net/recipe/applesauce-cake/"
+      "title": "tomato risotto with frizzled red onions",
+      "url": "https://smittenkitchen.com/2026/09/tomato-risotto-with-frizzled-red-onions/",
+      "recipe_url": "https://smittenkitchen.com/2026/09/tomato-risotto-with-frizzled-red-onions/",
+      "image_url": "https://i0.wp.com/smittenkitchen.com/wp-content/uploads/2026/09/tomato-risotto-with-frizzled-onions-14-scaled.jpg?fit=640%2C427&amp;quality=89&amp;ssl=1",
+      "site_name": "Smitten Kitchen",
+      "site_url": "https://smittenkitchen.com",
+      "cuisine": "American",
+      "published_at": "Wed, 16 Sep 2026 15:28:36 +0000"
     },
     "Sat": {
-      "cuisine": "Lebanese",
-      "image_url": "https://feelgoodfoodie.net/wp-content/uploads/2026/09/Persian-Love-Cake-08.jpg",
-      "recipe_url": "https://feelgoodfoodie.net/recipe/persian-love-cake/",
-      "site_name": "Feel Good Foodie",
-      "title": "Persian Love Cake",
-      "url": "https://feelgoodfoodie.net/recipe/persian-love-cake/"
+      "title": "Easy Eggplant Bolognese (1 Pot!)",
+      "url": "https://minimalistbaker.com/eggplant-bolognese/",
+      "recipe_url": "https://minimalistbaker.com/eggplant-bolognese/",
+      "image_url": "https://minimalistbaker.com/wp-content/uploads/2026/02/Easy-Vegetarian-Eggplant-Bolognese-9-680x1020.jpg",
+      "site_name": "Minimalist Baker",
+      "site_url": "https://minimalistbaker.com",
+      "cuisine": "Plant-Based",
+      "published_at": "Tue, 18 Aug 2026 08:00:00 +0000"
     },
     "Sun": {
-      "cuisine": "American",
-      "image_url": "https://damndelicious.net/wp-content/uploads/2026/03/Chicken-Fajitas-Quesadillas_545-768x1152.jpg",
-      "recipe_url": "https://damndelicious.net/2026/06/12/chicken-fajita-quesadillas/",
-      "site_name": "Damn Delicious",
-      "title": "Chicken Fajita Quesadillas",
-      "url": "https://damndelicious.net/2026/06/12/chicken-fajita-quesadillas/"
+      "title": "These Easy Baked Apples Taste Like Individual Apple Crisps Without the Fuss",
+      "url": "https://www.skinnytaste.com/delightfully-baked-apples/?adt_ei=*|EMAIL|*",
+      "recipe_url": "https://www.skinnytaste.com/delightfully-baked-apples/?adt_ei=*|EMAIL|*",
+      "image_url": "https://www.skinnytaste.com/wp-content/uploads/2017/09/Baked-Apples-7-600x900.jpg",
+      "site_name": "Skinnytaste",
+      "site_url": "https://www.skinnytaste.com",
+      "cuisine": "Healthy American",
+      "published_at": "Thu, 08 Oct 2026 19:10:42 +0000"
     }
   },
   "featured_recipe": {
-    "cuisine": "American",
-    "image_url": "https://damndelicious.net/wp-content/uploads/2026/03/Chicken-Fajitas-Quesadillas_545-768x1152.jpg",
-    "recipe_url": "https://damndelicious.net/2026/06/12/chicken-fajita-quesadillas/",
-    "site_name": "Damn Delicious",
-    "title": "Chicken Fajita Quesadillas",
-    "url": "https://damndelicious.net/2026/06/12/chicken-fajita-quesadillas/"
+    "title": "These Easy Baked Apples Taste Like Individual Apple Crisps Without the Fuss",
+    "url": "https://www.skinnytaste.com/delightfully-baked-apples/?adt_ei=*|EMAIL|*",
+    "recipe_url": "https://www.skinnytaste.com/delightfully-baked-apples/?adt_ei=*|EMAIL|*",
+    "image_url": "https://www.skinnytaste.com/wp-content/uploads/2017/09/Baked-Apples-7-600x900.jpg",
+    "site_name": "Skinnytaste",
+    "site_url": "https://www.skinnytaste.com",
+    "cuisine": "Healthy American",
+    "published_at": "Thu, 08 Oct 2026 19:10:42 +0000"
   }
 }
