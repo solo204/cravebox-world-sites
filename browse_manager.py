@@ -31,6 +31,57 @@ HEADERS     = {"User-Agent": "CraveBox-Rotator/1.0"}
 
 app = Flask(__name__)
 
+# ── Cuisine map — mirrors CUISINE_MAP in BrowseCuisinesActivity.kt ─────────────
+CUISINE_MAP = {
+    "American Comfort":        "American",
+    "Seasonal American":       "American",
+    "Healthy American":        "American",
+    "Southern":                "American",
+    "Comfort Food":            "American",
+    "Sichuan Chinese":         "Chinese",
+    "British Indian":          "Indian",
+    "Indian Vegan":            "Indian",
+    "Italian-Inspired":        "Italian",
+    "Jewish / Middle Eastern": "Middle Eastern",
+    "Asian-Australian":        "Australian",
+    "New Zealand":             "Australian",
+    "Gluten-Free Baking":      "Baking",
+    "Plant-Based":             "Healthy",
+    "Vegan":                   "Healthy",
+    "Vegetarian":              "Healthy",
+    "Healthy":                 "Healthy",
+    "Global":                  "International",
+    "Czech":                   "Eastern European",
+    "Polish":                  "Eastern European",
+    "Ukrainian":               "Eastern European",
+    "Russian":                 "Eastern European",
+    "Austrian":                "Eastern European",
+    "Caribbean":               "Latin American",
+    "Cuban":                   "Latin American",
+    "Dominican":               "Latin American",
+    "Puerto Rican":            "Latin American",
+    "Venezuelan":              "Latin American",
+    "Colombian":               "Latin American",
+    "Brazilian":               "Latin American",
+    "Peruvian":                "Latin American",
+    "Latin American":          "Latin American",
+    "Kenyan":                  "African",
+    "Nigerian":                "African",
+    "South African":           "African",
+    "Egyptian":                "African",
+    "Moroccan":                "African",
+    "African":                 "African",
+    "British":                 "British",
+    "German":                  "European",
+    "Scandinavian":            "European",
+    "Portuguese":              "European",
+    "Sri Lankan":              "South Asian",
+    "Pakistani":               "South Asian",
+}
+
+def display_cuisine(raw: str) -> str:
+    return CUISINE_MAP.get(raw, raw) if raw else "International"
+
 # ── Data helpers ───────────────────────────────────────────────────────────────
 
 def load_browse():
@@ -48,7 +99,7 @@ def save_browse(sites):
 def grouped_by_cuisine(sites):
     groups = {}
     for s in sites:
-        c = s.get("cuisine") or "International"
+        c = display_cuisine(s.get("cuisine") or "")
         groups.setdefault(c, []).append(s)
     return dict(sorted(groups.items()))
 
@@ -217,7 +268,7 @@ tr:hover td{background:#141414}
             {% endif %}
             <div class="ci">
               <div class="cn" title="{{ site.name }}">{{ site.name }}</div>
-              <div class="cs">{{ site.cuisine }}</div>
+              <div class="cs">{{ site.raw_cuisine }}</div>
             </div>
             <button class="rm" onclick="removeSite({{ site.idx }}, '{{ site.name|e }}')">✕</button>
           </div>
@@ -434,10 +485,10 @@ def proxy_image():
 def index():
     from urllib.parse import quote as urlencode
     sites   = load_browse()
-    indexed = [{"idx": i, **s} for i, s in enumerate(sites)]
+    indexed = [{"idx": i, "raw_cuisine": s.get("cuisine",""), **s} for i, s in enumerate(sites)]
     grouped = {}
     for s in indexed:
-        c = s.get("cuisine") or "International"
+        c = display_cuisine(s.get("cuisine") or "")
         grouped.setdefault(c, []).append(s)
     grouped = dict(sorted(grouped.items()))
     return render_template_string(
