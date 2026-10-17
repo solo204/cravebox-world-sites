@@ -659,7 +659,8 @@
     "cuisine": "Indonesian",
     "tagline": "Indonesian home cooking featured in Bon Appétit and Al Jazeera.",
     "image_url": "https://soyummyrecipes.com/wp-content/uploads/2026/10/Chicken-Katsu-Curry-1-1024x576.jpg",
-    "rss_url": "https://soyummyrecipes.com/feed/"
+    "rss_url": "https://soyummyrecipes.com/feed/",
+    "active": false
   },
   {
     "name": "My Colombian Recipes",

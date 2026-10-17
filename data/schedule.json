@@ -327,14 +327,6 @@
         "rss_url": "https://www.chopstickchronicles.com/feed/"
       },
       {
-        "name": "Damn Delicious",
-        "url": "https://damndelicious.net",
-        "cuisine": "American",
-        "tagline": "Quick and easy recipes for every occasion.",
-        "image_url": "https://damndelicious.net/wp-content/uploads/2026/09/Cheeseburger-Sliders-scaled.jpg",
-        "rss_url": "https://damndelicious.net/feed/"
-      },
-      {
         "name": "Immaculate Bites",
         "url": "https://www.africanbites.com",
         "cuisine": "African",
