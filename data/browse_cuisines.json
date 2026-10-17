@@ -1192,14 +1192,6 @@
     "rss_url": "https://www.cookingwithria.com/feed/"
   },
   {
-    "name": "TriniGourmet",
-    "url": "https://trinigourmet.com",
-    "cuisine": "Trinidadian",
-    "tagline": "Founded 2006; endorsed by NYT's Sam Sifton; unique kosher-Caribbean angle.",
-    "image_url": "https://trinigourmet.com/wp-content/uploads/trinigourmet-og.jpg",
-    "rss_url": "https://trinigourmet.com/feed/"
-  },
-  {
     "name": "Tchakayiti",
     "url": "https://tchakayiti.com",
     "cuisine": "Haitian",

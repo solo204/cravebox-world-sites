@@ -1314,7 +1314,8 @@
     "cuisine": "Trinidadian",
     "tagline": "Founded 2006; endorsed by NYT's Sam Sifton; unique kosher-Caribbean angle.",
     "image_url": "",
-    "rss_url": "https://trinigourmet.com/feed/"
+    "rss_url": "https://trinigourmet.com/feed/",
+    "active": false
   },
   {
     "name": "Tchakayiti",
