@@ -113,15 +113,6 @@
     "rss_url": "https://pinchofyum.com/feed"
   },
   {
-    "name": "Damn Delicious",
-    "url": "https://damndelicious.net",
-    "cuisine": "American",
-    "tagline": "Quick and easy recipes for every occasion.",
-    "image_url": "https://damndelicious.net/wp-content/uploads/2026/09/Cheeseburger-Sliders-scaled.jpg",
-    "rss_url": "https://damndelicious.net/feed/",
-    "active": false
-  },
-  {
     "name": "Chopstick Chronicles",
     "url": "https://www.chopstickchronicles.com",
     "cuisine": "Japanese",
@@ -652,15 +643,6 @@
     "tagline": "Filipino, Korean, and Japanese recipes with naturalistic photography.",
     "image_url": "https://cooking.umamidays.com/wp-content/uploads/2026/10/shrimp-kimchi-fried-rice.jpg",
     "rss_url": "https://cooking.umamidays.com/feed/"
-  },
-  {
-    "name": "So Yummy Recipes",
-    "url": "https://soyummyrecipes.com",
-    "cuisine": "Indonesian",
-    "tagline": "Indonesian home cooking featured in Bon Appétit and Al Jazeera.",
-    "image_url": "https://soyummyrecipes.com/wp-content/uploads/2026/10/Chicken-Katsu-Curry-1-1024x576.jpg",
-    "rss_url": "https://soyummyrecipes.com/feed/",
-    "active": false
   },
   {
     "name": "My Colombian Recipes",
