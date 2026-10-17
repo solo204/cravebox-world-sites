@@ -1,0 +1,3143 @@
+{
+  "checked_at": "2026-10-17T19:50:32Z",
+  "results": {
+    "https://pinchofyum.com": {
+      "name": "Pinch of Yum",
+      "checked_at": "2026-10-17T19:50:32Z",
+      "fast": {
+        "status": "ok",
+        "http_code": 200,
+        "response_ms": 171,
+        "rss_ok": true,
+        "rss_items": 6,
+        "checked_at": "2026-10-17T19:50:32Z"
+      },
+      "deep": {
+        "status": "ok",
+        "tested_url": "https://pinchofyum.com/chicken-with-cajun-cream-sauce",
+        "ingredients": 12,
+        "steps": 6,
+        "confidence": "high",
+        "checked_at": "2026-10-17T18:53:40Z"
+      }
+    },
+    "https://thewoksoflife.com": {
+      "name": "The Woks of Life",
+      "checked_at": "2026-10-17T19:50:32Z",
+      "fast": {
+        "status": "dead",
+        "http_code": 403,
+        "response_ms": 159,
+        "rss_ok": true,
+        "rss_items": 10,
+        "checked_at": "2026-10-17T19:50:32Z"
+      },
+      "deep": {
+        "status": "fail",
+        "error": "extract HTTP 429",
+        "tested_url": "https://thewoksoflife.com/fennel-orange-salad/?adt_ei=*|EMAIL|*",
+        "ingredients": 0,
+        "steps": 0,
+        "checked_at": "2026-10-17T18:53:40Z"
+      }
+    },
+    "https://natashaskitchen.com": {
+      "name": "Natasha's Kitchen",
+      "checked_at": "2026-10-17T19:50:32Z",
+      "fast": {
+        "status": "ok",
+        "http_code": 200,
+        "response_ms": 167,
+        "rss_ok": true,
+        "rss_items": 10,
+        "checked_at": "2026-10-17T19:50:32Z"
+      },
+      "deep": {
+        "status": "fail",
+        "error": "extract HTTP 429",
+        "tested_url": "https://natashaskitchen.com/pumpkin-cinnamon-rolls/?adt_ei={{ subscriber.email_address }}",
+        "ingredients": 0,
+        "steps": 0,
+        "checked_at": "2026-10-17T18:53:40Z"
+      }
+    },
+    "https://sallysbakingaddiction.com": {
+      "name": "Sally's Baking Addiction",
+      "checked_at": "2026-10-17T19:50:32Z",
+      "fast": {
+        "status": "ok",
+        "http_code": 200,
+        "response_ms": 185,
+        "rss_ok": true,
+        "rss_items": 8,
+        "checked_at": "2026-10-17T19:50:32Z"
+      },
+      "deep": {
+        "status": "fail",
+        "error": "extract HTTP 429",
+        "tested_url": "https://sallysbakingaddiction.com/oatmeal-scotchies/",
+        "ingredients": 0,
+        "steps": 0,
+        "checked_at": "2026-10-17T18:53:40Z"
+      }
+    },
+    "https://grandbaby-cakes.com": {
+      "name": "Grandbaby Cakes",
+      "checked_at": "2026-10-17T19:50:32Z",
+      "fast": {
+        "status": "ok",
+        "http_code": 200,
+        "response_ms": 183,
+        "rss_ok": true,
+        "rss_items": 10,
+        "checked_at": "2026-10-17T19:50:32Z"
+      },
+      "deep": {
+        "status": "fail",
+        "error": "extract HTTP 429",
+        "tested_url": "https://grandbaby-cakes.com/chitterlings/",
+        "ingredients": 0,
+        "steps": 0,
+        "checked_at": "2026-10-17T18:53:40Z"
+      }
+    },
+    "https://minimalistbaker.com": {
+      "name": "Minimalist Baker",
+      "checked_at": "2026-10-17T19:50:32Z",
+      "fast": {
+        "status": "ok",
+        "http_code": 200,
+        "response_ms": 151,
+        "rss_ok": true,
+        "rss_items": 4,
+        "checked_at": "2026-10-17T19:50:32Z"
+      },
+      "deep": {
+        "status": "fail",
+        "error": "extract HTTP 429",
+        "tested_url": "https://minimalistbaker.com/cheesy-vegan-enchilada-skillet/",
+        "ingredients": 0,
+        "steps": 0,
+        "checked_at": "2026-10-17T18:53:40Z"
+      }
+    },
+    "https://www.africanbites.com": {
+      "name": "Immaculate Bites",
+      "checked_at": "2026-10-17T19:50:32Z",
+      "fast": {
+        "status": "ok",
+        "http_code": 200,
+        "response_ms": 246,
+        "rss_ok": true,
+        "rss_items": 5,
+        "checked_at": "2026-10-17T19:50:32Z"
+      },
+      "deep": {
+        "status": "fail",
+        "error": "extract HTTP 429",
+        "tested_url": "https://www.africanbites.com/milk-tart/",
+        "ingredients": 0,
+        "steps": 0,
+        "checked_at": "2026-10-17T18:53:40Z"
+      }
+    },
+    "https://www.hungrypaprikas.com": {
+      "name": "Hungry Paprikas",
+      "checked_at": "2026-10-17T19:50:32Z",
+      "fast": {
+        "status": "ok",
+        "http_code": 200,
+        "response_ms": 185,
+        "rss_ok": true,
+        "rss_items": 10,
+        "checked_at": "2026-10-17T19:50:32Z"
+      },
+      "deep": {
+        "status": "fail",
+        "error": "extract HTTP 429",
+        "tested_url": "https://www.hungrypaprikas.com/baked-lamb-and-vegetable/",
+        "ingredients": 0,
+        "steps": 0,
+        "checked_at": "2026-10-17T18:53:40Z"
+      }
+    },
+    "https://www.kawalingpinoy.com": {
+      "name": "Kawaling Pinoy",
+      "checked_at": "2026-10-17T19:50:32Z",
+      "fast": {
+        "status": "ok",
+        "http_code": 200,
+        "response_ms": 198,
+        "rss_ok": true,
+        "rss_items": 12,
+        "checked_at": "2026-10-17T19:50:32Z"
+      },
+      "deep": {
+        "status": "fail",
+        "error": "extract HTTP 429",
+        "tested_url": "https://www.kawalingpinoy.com/cashew-chicken/",
+        "ingredients": 0,
+        "steps": 0,
+        "checked_at": "2026-10-17T18:53:40Z"
+      }
+    },
+    "https://www.skinnytaste.com": {
+      "name": "Skinnytaste",
+      "checked_at": "2026-10-17T19:50:32Z",
+      "fast": {
+        "status": "ok",
+        "http_code": 200,
+        "response_ms": 171,
+        "rss_ok": true,
+        "rss_items": 10,
+        "checked_at": "2026-10-17T19:50:32Z"
+      },
+      "deep": {
+        "status": "fail",
+        "error": "extract HTTP 429",
+        "tested_url": "https://www.skinnytaste.com/7-day-high-protein-diet-meal-plan-55/?adt_ei=*|EMAIL|*",
+        "ingredients": 0,
+        "steps": 0,
+        "checked_at": "2026-10-17T18:53:40Z"
+      }
+    },
+    "https://www.chopstickchronicles.com": {
+      "name": "Chopstick Chronicles",
+      "checked_at": "2026-10-17T19:50:32Z",
+      "fast": {
+        "status": "ok",
+        "http_code": 200,
+        "response_ms": 174,
+        "rss_ok": true,
+        "rss_items": 10,
+        "checked_at": "2026-10-17T19:50:32Z"
+      },
+      "deep": {
+        "status": "fail",
+        "error": "extract HTTP 429",
+        "tested_url": "https://www.chopstickchronicles.com/satsumaimo-cookies-japanese-sweet-potato-cookies/",
+        "ingredients": 0,
+        "steps": 0,
+        "checked_at": "2026-10-17T18:53:40Z"
+      }
+    },
+    "https://panlasangpinoy.com": {
+      "name": "Panlasang Pinoy",
+      "checked_at": "2026-10-17T19:50:32Z",
+      "fast": {
+        "status": "ok",
+        "http_code": 200,
+        "response_ms": 140,
+        "rss_ok": true,
+        "rss_items": 10,
+        "checked_at": "2026-10-17T19:50:32Z"
+      },
+      "deep": {
+        "status": "fail",
+        "error": "0 ingredients / 0 steps",
+        "tested_url": "https://panlasangpinoy.com/batuan-batwan/",
+        "ingredients": 0,
+        "steps": 0,
+        "checked_at": "2026-10-17T18:53:40Z"
+      }
+    },
+    "https://www.themediterraneandish.com": {
+      "name": "The Mediterranean Dish",
+      "checked_at": "2026-10-17T19:50:32Z",
+      "fast": {
+        "status": "ok",
+        "http_code": 200,
+        "response_ms": 226,
+        "rss_ok": true,
+        "rss_items": 4,
+        "checked_at": "2026-10-17T19:50:32Z"
+      },
+      "deep": {
+        "status": "fail",
+        "error": "extract HTTP 429",
+        "tested_url": "https://www.themediterraneandish.com/steak-au-poivre/",
+        "ingredients": 0,
+        "steps": 0,
+        "checked_at": "2026-10-17T18:53:40Z"
+      }
+    },
+    "https://www.budgetbytes.com": {
+      "name": "Budget Bytes",
+      "checked_at": "2026-10-17T19:50:32Z",
+      "fast": {
+        "status": "ok",
+        "http_code": 200,
+        "response_ms": 189,
+        "rss_ok": true,
+        "rss_items": 10,
+        "checked_at": "2026-10-17T19:50:32Z"
+      },
+      "deep": {
+        "status": "fail",
+        "error": "This website has protection that blocks automated access. Try finding the same r",
+        "tested_url": "https://www.budgetbytes.com/italian-wedding-soup/",
+        "ingredients": 0,
+        "steps": 0,
+        "checked_at": "2026-10-17T18:53:40Z"
+      }
+    },
+    "https://www.vegrecipesofindia.com": {
+      "name": "Dassana's Veg Recipes",
+      "checked_at": "2026-10-17T19:50:32Z",
+      "fast": {
+        "status": "ok",
+        "http_code": 200,
+        "response_ms": 224,
+        "rss_ok": true,
+        "rss_items": 13,
+        "checked_at": "2026-10-17T19:50:32Z"
+      },
+      "deep": {
+        "status": "fail",
+        "error": "This website has protection that blocks automated access. Try finding the same r",
+        "tested_url": "https://www.vegrecipesofindia.com/corn-recipes-sweet-corn-recipes/",
+        "ingredients": 0,
+        "steps": 0,
+        "checked_at": "2026-10-17T18:53:40Z"
+      }
+    },
+    "https://cookieandkate.com": {
+      "name": "Cookie and Kate",
+      "checked_at": "2026-10-17T19:50:32Z",
+      "fast": {
+        "status": "ok",
+        "http_code": 200,
+        "response_ms": 106,
+        "rss_ok": true,
+        "rss_items": 10,
+        "checked_at": "2026-10-17T19:50:32Z"
+      },
+      "deep": {
+        "status": "fail",
+        "error": "This website has protection that blocks automated access. Try finding the same r",
+        "tested_url": "https://cookieandkate.com/lentil-curry/?adt_ei=*|EMAIL|*",
+        "ingredients": 0,
+        "steps": 0,
+        "checked_at": "2026-10-17T18:53:40Z"
+      }
+    },
+    "https://www.feastingathome.com": {
+      "name": "Feasting at Home",
+      "checked_at": "2026-10-17T19:50:32Z",
+      "fast": {
+        "status": "ok",
+        "http_code": 200,
+        "response_ms": 147,
+        "rss_ok": true,
+        "rss_items": 7,
+        "checked_at": "2026-10-17T19:50:32Z"
+      },
+      "deep": {
+        "status": "fail",
+        "error": "extract HTTP 429",
+        "tested_url": "https://www.feastingathome.com/creamy-chicken-noodle-soup/",
+        "ingredients": 0,
+        "steps": 0,
+        "checked_at": "2026-10-17T18:53:40Z"
+      }
+    },
+    "https://www.loveandlemons.com": {
+      "name": "Love and Lemons",
+      "checked_at": "2026-10-17T19:50:32Z",
+      "fast": {
+        "status": "ok",
+        "http_code": 200,
+        "response_ms": 121,
+        "rss_ok": true,
+        "rss_items": 10,
+        "checked_at": "2026-10-17T19:50:32Z"
+      },
+      "deep": {
+        "status": "fail",
+        "error": "0 ingredients / 0 steps",
+        "tested_url": "https://www.loveandlemons.com/pop-of-flavor-cookbook/",
+        "ingredients": 0,
+        "steps": 0,
+        "checked_at": "2026-10-17T18:53:40Z"
+      }
+    },
+    "https://www.halfbakedharvest.com": {
+      "name": "Half Baked Harvest",
+      "checked_at": "2026-10-17T19:50:32Z",
+      "fast": {
+        "status": "ok",
+        "http_code": 200,
+        "response_ms": 318,
+        "rss_ok": true,
+        "rss_items": 4,
+        "checked_at": "2026-10-17T19:50:32Z"
+      },
+      "deep": {
+        "status": "fail",
+        "error": "extract HTTP 429",
+        "tested_url": "https://www.halfbakedharvest.com/soft-pumpkin-cream-cheese-latte-bundt-cake/",
+        "ingredients": 0,
+        "steps": 0,
+        "checked_at": "2026-10-17T18:53:40Z"
+      }
+    },
+    "https://www.veganricha.com": {
+      "name": "Vegan Richa",
+      "checked_at": "2026-10-17T19:50:32Z",
+      "fast": {
+        "status": "ok",
+        "http_code": 200,
+        "response_ms": 83,
+        "rss_ok": true,
+        "rss_items": 10,
+        "checked_at": "2026-10-17T19:50:32Z"
+      },
+      "deep": {
+        "status": "fail",
+        "error": "extract HTTP 429",
+        "tested_url": "https://www.veganricha.com/somers-cream-of-mushroom-soup-vegan/",
+        "ingredients": 0,
+        "steps": 0,
+        "checked_at": "2026-10-17T18:53:40Z"
+      }
+    },
+    "https://www.oliviascuisine.com": {
+      "name": "Olivia's Cuisine",
+      "checked_at": "2026-10-17T19:50:32Z",
+      "fast": {
+        "status": "ok",
+        "http_code": 200,
+        "response_ms": 102,
+        "rss_ok": true,
+        "rss_items": 10,
+        "checked_at": "2026-10-17T19:50:32Z"
+      },
+      "deep": {
+        "status": "fail",
+        "error": "extract HTTP 429",
+        "tested_url": "https://www.oliviascuisine.com/roasted-tomato-soup/",
+        "ingredients": 0,
+        "steps": 0,
+        "checked_at": "2026-10-17T18:53:40Z"
+      }
+    },
+    "https://downshiftology.com": {
+      "name": "Downshiftology",
+      "checked_at": "2026-10-17T19:50:32Z",
+      "fast": {
+        "status": "ok",
+        "http_code": 200,
+        "response_ms": 105,
+        "rss_ok": true,
+        "rss_items": 10,
+        "checked_at": "2026-10-17T19:50:32Z"
+      },
+      "deep": {
+        "status": "fail",
+        "error": "extract HTTP 429",
+        "tested_url": "https://downshiftology.com/recipes/hamburger-soup/",
+        "ingredients": 0,
+        "steps": 0,
+        "checked_at": "2026-10-17T18:53:40Z"
+      }
+    },
+    "https://www.spendwithpennies.com": {
+      "name": "Spend With Pennies",
+      "checked_at": "2026-10-17T19:50:32Z",
+      "fast": {
+        "status": "ok",
+        "http_code": 200,
+        "response_ms": 96,
+        "rss_ok": true,
+        "rss_items": 10,
+        "checked_at": "2026-10-17T19:50:32Z"
+      },
+      "deep": {
+        "status": "fail",
+        "error": "extract HTTP 429",
+        "tested_url": "https://www.spendwithpennies.com/weekly-meal-plan-oct-19-2026/",
+        "ingredients": 0,
+        "steps": 0,
+        "checked_at": "2026-10-17T18:53:40Z"
+      }
+    },
+    "https://www.pardonyourfrench.com": {
+      "name": "Pardon Your French",
+      "checked_at": "2026-10-17T19:50:32Z",
+      "fast": {
+        "status": "ok",
+        "http_code": 200,
+        "response_ms": 264,
+        "rss_ok": true,
+        "rss_items": 10,
+        "checked_at": "2026-10-17T19:50:32Z"
+      },
+      "deep": {
+        "status": "ok",
+        "tested_url": "https://www.pardonyourfrench.com/tartiflette-recipe/?utm_source=rss&utm_medium=rss&utm_campaign=tartiflette-recipe",
+        "ingredients": 10,
+        "steps": 8,
+        "confidence": "high",
+        "checked_at": "2026-10-17T18:53:40Z"
+      }
+    },
+    "https://www.ambitiouskitchen.com": {
+      "name": "Ambitious Kitchen",
+      "checked_at": "2026-10-17T19:50:32Z",
+      "fast": {
+        "status": "ok",
+        "http_code": 200,
+        "response_ms": 92,
+        "rss_ok": true,
+        "rss_items": 12,
+        "checked_at": "2026-10-17T19:50:32Z"
+      },
+      "deep": {
+        "status": "fail",
+        "error": "This website has protection that blocks automated access. Try finding the same r",
+        "tested_url": "https://www.ambitiouskitchen.com/crispy-smashed-potatoes/",
+        "ingredients": 0,
+        "steps": 0,
+        "checked_at": "2026-10-17T18:53:40Z"
+      }
+    },
+    "https://www.recipetineats.com": {
+      "name": "RecipeTin Eats",
+      "checked_at": "2026-10-17T19:50:32Z",
+      "fast": {
+        "status": "ok",
+        "http_code": 200,
+        "response_ms": 183,
+        "rss_ok": true,
+        "rss_items": 4,
+        "checked_at": "2026-10-17T19:50:32Z"
+      },
+      "deep": {
+        "status": "ok",
+        "tested_url": "https://www.recipetineats.com/baked-macaroni-cheese-with-chicken-broccoli-one-pot/",
+        "ingredients": 19,
+        "steps": 10,
+        "confidence": "high",
+        "checked_at": "2026-10-17T18:53:40Z"
+      }
+    },
+    "https://hot-thai-kitchen.com": {
+      "name": "Hot Thai Kitchen",
+      "checked_at": "2026-10-17T19:50:32Z",
+      "fast": {
+        "status": "ok",
+        "http_code": 200,
+        "response_ms": 86,
+        "rss_ok": true,
+        "rss_items": 18,
+        "checked_at": "2026-10-17T19:50:32Z"
+      },
+      "deep": {
+        "status": "fail",
+        "error": "extract HTTP 429",
+        "tested_url": "https://hot-thai-kitchen.com/bonus-tom-yum-meatballs/",
+        "ingredients": 0,
+        "steps": 0,
+        "checked_at": "2026-10-17T18:53:40Z"
+      }
+    },
+    "https://feelgoodfoodie.net": {
+      "name": "Feel Good Foodie",
+      "checked_at": "2026-10-17T19:50:32Z",
+      "fast": {
+        "status": "ok",
+        "http_code": 200,
+        "response_ms": 86,
+        "rss_ok": true,
+        "rss_items": 10,
+        "checked_at": "2026-10-17T19:50:32Z"
+      },
+      "deep": {
+        "status": "fail",
+        "error": "extract HTTP 429",
+        "tested_url": "https://feelgoodfoodie.net/recipe/cranberry-orange-biscotti/",
+        "ingredients": 0,
+        "steps": 0,
+        "checked_at": "2026-10-17T18:53:40Z"
+      }
+    },
+    "https://maureenabood.com": {
+      "name": "Rose Water & Orange Blossoms",
+      "checked_at": "2026-10-17T19:50:32Z",
+      "fast": {
+        "status": "ok",
+        "http_code": 200,
+        "response_ms": 87,
+        "rss_ok": true,
+        "rss_items": 15,
+        "checked_at": "2026-10-17T19:50:32Z"
+      },
+      "deep": {
+        "status": "fail",
+        "error": "extract HTTP 429",
+        "tested_url": "https://maureenabood.com/homemade-steak-marinade/",
+        "ingredients": 0,
+        "steps": 0,
+        "checked_at": "2026-10-17T18:53:40Z"
+      }
+    },
+    "https://smittenkitchen.com": {
+      "name": "Smitten Kitchen",
+      "checked_at": "2026-10-17T19:50:32Z",
+      "fast": {
+        "status": "ok",
+        "http_code": 200,
+        "response_ms": 129,
+        "rss_ok": true,
+        "rss_items": 10,
+        "checked_at": "2026-10-17T19:50:32Z"
+      },
+      "deep": {
+        "status": "fail",
+        "error": "extract HTTP 429",
+        "tested_url": "https://smittenkitchen.com/2026/09/simple-chicken-tacos/",
+        "ingredients": 0,
+        "steps": 0,
+        "checked_at": "2026-10-17T18:53:40Z"
+      }
+    },
+    "https://silkroadrecipes.com": {
+      "name": "Silk Road Recipes",
+      "checked_at": "2026-10-17T19:50:32Z",
+      "fast": {
+        "status": "ok",
+        "http_code": 200,
+        "response_ms": 89,
+        "rss_ok": true,
+        "rss_items": 10,
+        "checked_at": "2026-10-17T19:50:32Z"
+      },
+      "deep": {
+        "status": "fail",
+        "error": "extract HTTP 429",
+        "tested_url": "https://silkroadrecipes.com/classic-lasagna-with-bechamel-sauce/?adt_ei={{ subscriber.email_address }}&utm_source=rss&utm_medium=rss&utm_campaign=classic-lasagna-with-bechamel-sauce",
+        "ingredients": 0,
+        "steps": 0,
+        "checked_at": "2026-10-17T18:53:40Z"
+      }
+    },
+    "https://rasamalaysia.com": {
+      "name": "Rasa Malaysia",
+      "checked_at": "2026-10-17T19:50:32Z",
+      "fast": {
+        "status": "ok",
+        "http_code": 200,
+        "response_ms": 117,
+        "rss_ok": true,
+        "rss_items": 10,
+        "checked_at": "2026-10-17T19:50:32Z"
+      },
+      "deep": {
+        "status": "fail",
+        "error": "extract HTTP 429",
+        "tested_url": "https://rasamalaysia.com/shrimp-mousse/",
+        "ingredients": 0,
+        "steps": 0,
+        "checked_at": "2026-10-17T18:53:40Z"
+      }
+    },
+    "https://www.vietworldkitchen.com": {
+      "name": "Viet World Kitchen",
+      "checked_at": "2026-10-17T19:50:32Z",
+      "fast": {
+        "status": "ok",
+        "http_code": 200,
+        "response_ms": 103,
+        "rss_ok": true,
+        "rss_items": 10,
+        "checked_at": "2026-10-17T19:50:32Z"
+      },
+      "deep": {
+        "status": "fail",
+        "error": "0 ingredients / 0 steps",
+        "tested_url": "https://www.vietworldkitchen.com/blog/2026/10/fancy-crispy-rice-treats-with-matcha-and-pretzels-from-bake-sum.html",
+        "ingredients": 0,
+        "steps": 0,
+        "checked_at": "2026-10-17T18:53:40Z"
+      }
+    },
+    "https://woonheng.com": {
+      "name": "WoonHeng",
+      "checked_at": "2026-10-17T19:50:32Z",
+      "fast": {
+        "status": "ok",
+        "http_code": 200,
+        "response_ms": 77,
+        "rss_ok": true,
+        "rss_items": 12,
+        "checked_at": "2026-10-17T19:50:32Z"
+      },
+      "deep": {
+        "status": "fail",
+        "error": "extract HTTP 429",
+        "tested_url": "https://woonheng.com/kung-pao-shan-yao-chinese-yam/?utm_source=rss&utm_medium=rss&utm_campaign=kung-pao-shan-yao-chinese-yam",
+        "ingredients": 0,
+        "steps": 0,
+        "checked_at": "2026-10-17T18:53:40Z"
+      }
+    },
+    "https://www.caribbeanpot.com": {
+      "name": "Caribbean Pot",
+      "checked_at": "2026-10-17T19:50:32Z",
+      "fast": {
+        "status": "ok",
+        "http_code": 200,
+        "response_ms": 556,
+        "rss_ok": true,
+        "rss_items": 25,
+        "checked_at": "2026-10-17T19:50:32Z"
+      },
+      "deep": {
+        "status": "fail",
+        "error": "extract HTTP 429",
+        "tested_url": "https://caribbeanpot.com/incredible-honey-jerk-salmon-easy-oven-method/",
+        "ingredients": 0,
+        "steps": 0,
+        "checked_at": "2026-10-17T18:53:40Z"
+      }
+    },
+    "https://www.isabeleats.com": {
+      "name": "Isabel Eats",
+      "checked_at": "2026-10-17T19:50:32Z",
+      "fast": {
+        "status": "ok",
+        "http_code": 200,
+        "response_ms": 118,
+        "rss_ok": true,
+        "rss_items": 10,
+        "checked_at": "2026-10-17T19:50:32Z"
+      },
+      "deep": {
+        "status": "fail",
+        "error": "extract HTTP 429",
+        "tested_url": "https://www.isabeleats.com/tres-leches-cupcakes/",
+        "ingredients": 0,
+        "steps": 0,
+        "checked_at": "2026-10-17T18:53:40Z"
+      }
+    },
+    "https://www.thecookierookie.com": {
+      "name": "The Cookie Rookie",
+      "checked_at": "2026-10-17T19:50:32Z",
+      "fast": {
+        "status": "ok",
+        "http_code": 200,
+        "response_ms": 473,
+        "rss_ok": true,
+        "rss_items": 10,
+        "checked_at": "2026-10-17T19:50:32Z"
+      },
+      "deep": {
+        "status": "fail",
+        "error": "extract HTTP 429",
+        "tested_url": "https://www.thecookierookie.com/loaded-potato-recipes/",
+        "ingredients": 0,
+        "steps": 0,
+        "checked_at": "2026-10-17T18:53:40Z"
+      }
+    },
+    "https://redhousespice.com": {
+      "name": "Red House Spice",
+      "checked_at": "2026-10-17T19:50:32Z",
+      "fast": {
+        "status": "ok",
+        "http_code": 200,
+        "response_ms": 76,
+        "rss_ok": true,
+        "rss_items": 10,
+        "checked_at": "2026-10-17T19:50:32Z"
+      },
+      "deep": {
+        "status": "fail",
+        "error": "extract HTTP 429",
+        "tested_url": "https://redhousespice.com/sesame-oil/",
+        "ingredients": 0,
+        "steps": 0,
+        "checked_at": "2026-10-17T18:53:40Z"
+      }
+    },
+    "https://cheflolaskitchen.com": {
+      "name": "Chef Lola's Kitchen",
+      "checked_at": "2026-10-17T19:50:32Z",
+      "fast": {
+        "status": "ok",
+        "http_code": 200,
+        "response_ms": 71,
+        "rss_ok": true,
+        "rss_items": 8,
+        "checked_at": "2026-10-17T19:50:32Z"
+      },
+      "deep": {
+        "status": "fail",
+        "error": "extract HTTP 429",
+        "tested_url": "https://cheflolaskitchen.com/easy-classic-stuffing-recipe-family-style-stuffing/",
+        "ingredients": 0,
+        "steps": 0,
+        "checked_at": "2026-10-17T18:53:40Z"
+      }
+    },
+    "https://www.101cookbooks.com": {
+      "name": "101 Cookbooks",
+      "checked_at": "2026-10-17T19:50:32Z",
+      "fast": {
+        "status": "ok",
+        "http_code": 200,
+        "response_ms": 111,
+        "rss_ok": true,
+        "rss_items": 15,
+        "checked_at": "2026-10-17T19:50:32Z"
+      },
+      "deep": {
+        "status": "ok",
+        "tested_url": "https://www.101cookbooks.com/lemon-roasted-potatoes/",
+        "ingredients": 6,
+        "steps": 4,
+        "confidence": "high",
+        "checked_at": "2026-10-17T18:53:40Z"
+      }
+    },
+    "https://simply-delicious-food.com": {
+      "name": "Simply Delicious",
+      "checked_at": "2026-10-17T19:50:32Z",
+      "fast": {
+        "status": "ok",
+        "http_code": 200,
+        "response_ms": 100,
+        "rss_ok": true,
+        "rss_items": 10,
+        "checked_at": "2026-10-17T19:50:32Z"
+      },
+      "deep": {
+        "status": "fail",
+        "error": "extract HTTP 429",
+        "tested_url": "https://simply-delicious-food.com/meal-plan-34-of-2026/",
+        "ingredients": 0,
+        "steps": 0,
+        "checked_at": "2026-10-17T18:53:40Z"
+      }
+    },
+    "https://whattocooktoday.com": {
+      "name": "What To Cook Today",
+      "checked_at": "2026-10-17T19:50:32Z",
+      "fast": {
+        "status": "ok",
+        "http_code": 200,
+        "response_ms": 90,
+        "rss_ok": true,
+        "rss_items": 10,
+        "checked_at": "2026-10-17T19:50:32Z"
+      },
+      "deep": {
+        "status": "fail",
+        "error": "extract HTTP 429",
+        "tested_url": "https://whattocooktoday.com/vietnamese-caramel-pork.html",
+        "ingredients": 0,
+        "steps": 0,
+        "checked_at": "2026-10-17T18:53:40Z"
+      }
+    },
+    "https://laylita.com/recipes": {
+      "name": "Laylita's Recipes",
+      "checked_at": "2026-10-17T19:50:32Z",
+      "fast": {
+        "status": "ok",
+        "http_code": 200,
+        "response_ms": 311,
+        "rss_ok": true,
+        "rss_items": 2,
+        "checked_at": "2026-10-17T19:50:32Z"
+      },
+      "deep": {
+        "status": "fail",
+        "error": "extract HTTP 429",
+        "tested_url": "https://www.laylita.com/recipes/camote-sweet-potato-empanadas/",
+        "ingredients": 0,
+        "steps": 0,
+        "checked_at": "2026-10-17T18:53:40Z"
+      }
+    },
+    "https://damndelicious.net": {
+      "name": "Damn Delicious",
+      "checked_at": "2026-10-17T19:50:32Z",
+      "fast": {
+        "status": "dead",
+        "http_code": 403,
+        "response_ms": 107,
+        "rss_ok": true,
+        "rss_items": 10,
+        "checked_at": "2026-10-17T19:50:32Z"
+      },
+      "deep": {
+        "status": "fail",
+        "error": "0 ingredients / 0 steps",
+        "tested_url": "https://damndelicious.net/2026/09/18/cheeseburger-sliders/",
+        "ingredients": 0,
+        "steps": 0,
+        "checked_at": "2026-10-17T18:53:40Z"
+      }
+    },
+    "https://japan.recipetineats.com": {
+      "name": "RecipeTin Japan",
+      "checked_at": "2026-10-17T19:50:32Z",
+      "fast": {
+        "status": "ok",
+        "http_code": 200,
+        "response_ms": 36,
+        "rss_ok": true,
+        "rss_items": 10,
+        "checked_at": "2026-10-17T19:50:32Z"
+      },
+      "deep": {
+        "status": "fail",
+        "error": "extract HTTP 429",
+        "tested_url": "https://japan.recipetineats.com/marinated-sauteed-mushrooms-and-zucchini/",
+        "ingredients": 0,
+        "steps": 0,
+        "checked_at": "2026-10-17T18:53:40Z"
+      }
+    },
+    "https://omnivorescookbook.com": {
+      "name": "Omnivore's Cookbook",
+      "checked_at": "2026-10-17T19:50:32Z",
+      "fast": {
+        "status": "ok",
+        "http_code": 200,
+        "response_ms": 83,
+        "rss_ok": true,
+        "rss_items": 10,
+        "checked_at": "2026-10-17T19:50:32Z"
+      },
+      "deep": {
+        "status": "fail",
+        "error": "extract HTTP 429",
+        "tested_url": "https://omnivorescookbook.com/sichuan-roasted-whole-chicken/",
+        "ingredients": 0,
+        "steps": 0,
+        "checked_at": "2026-10-17T18:53:40Z"
+      }
+    },
+    "https://mykoreankitchen.com": {
+      "name": "My Korean Kitchen",
+      "checked_at": "2026-10-17T19:50:32Z",
+      "fast": {
+        "status": "ok",
+        "http_code": 200,
+        "response_ms": 89,
+        "rss_ok": true,
+        "rss_items": 5,
+        "checked_at": "2026-10-17T19:50:32Z"
+      },
+      "deep": {
+        "status": "fail",
+        "error": "extract HTTP 429",
+        "tested_url": "https://mykoreankitchen.com/korean-pumpkin-salad/",
+        "ingredients": 0,
+        "steps": 0,
+        "checked_at": "2026-10-17T18:53:40Z"
+      }
+    },
+    "https://ohsheglows.com": {
+      "name": "Oh She Glows",
+      "checked_at": "2026-10-17T19:50:32Z",
+      "fast": {
+        "status": "ok",
+        "http_code": 200,
+        "response_ms": 93,
+        "rss_ok": true,
+        "rss_items": 10,
+        "checked_at": "2026-10-17T19:50:32Z"
+      },
+      "deep": {
+        "status": "ok",
+        "tested_url": "https://ohsheglows.com/my-new-cookbook-oh-she-glows-salads-is-here/",
+        "ingredients": 14,
+        "steps": 7,
+        "confidence": "high",
+        "checked_at": "2026-10-17T18:53:40Z"
+      }
+    },
+    "https://vikalinka.com": {
+      "name": "Vikalinka",
+      "checked_at": "2026-10-17T19:50:32Z",
+      "fast": {
+        "status": "ok",
+        "http_code": 200,
+        "response_ms": 94,
+        "rss_ok": true,
+        "rss_items": 10,
+        "checked_at": "2026-10-17T19:50:32Z"
+      },
+      "deep": {
+        "status": "fail",
+        "error": "extract HTTP 429",
+        "tested_url": "https://vikalinka.com/spicy-cilantro-lime-slaw/",
+        "ingredients": 0,
+        "steps": 0,
+        "checked_at": "2026-10-17T18:53:40Z"
+      }
+    },
+    "https://www.anitalianinmykitchen.com": {
+      "name": "An Italian in My Kitchen",
+      "checked_at": "2026-10-17T19:50:32Z",
+      "fast": {
+        "status": "ok",
+        "http_code": 200,
+        "response_ms": 508,
+        "rss_ok": true,
+        "rss_items": 12,
+        "checked_at": "2026-10-17T19:50:32Z"
+      },
+      "deep": {
+        "status": "fail",
+        "error": "extract HTTP 429",
+        "tested_url": "https://anitalianinmykitchen.com/savory-orange-buns/",
+        "ingredients": 0,
+        "steps": 0,
+        "checked_at": "2026-10-17T18:53:40Z"
+      }
+    },
+    "https://drizzleanddip.com": {
+      "name": "Drizzle and Dip",
+      "checked_at": "2026-10-17T19:50:32Z",
+      "fast": {
+        "status": "ok",
+        "http_code": 200,
+        "response_ms": 236,
+        "rss_ok": true,
+        "rss_items": 10,
+        "checked_at": "2026-10-17T19:50:32Z"
+      },
+      "deep": {
+        "status": "fail",
+        "error": "extract HTTP 429",
+        "tested_url": "https://drizzleanddip.com/2026/10/01/brie-burger-with-onions-caramelised-in-red-wine/",
+        "ingredients": 0,
+        "steps": 0,
+        "checked_at": "2026-10-17T18:53:40Z"
+      }
+    },
+    "https://chinasichuanfood.com": {
+      "name": "China Sichuan Food",
+      "checked_at": "2026-10-17T19:50:32Z",
+      "fast": {
+        "status": "ok",
+        "http_code": 200,
+        "response_ms": 280,
+        "rss_ok": true,
+        "rss_items": 9,
+        "checked_at": "2026-10-17T19:50:32Z"
+      },
+      "deep": {
+        "status": "fail",
+        "error": "extract HTTP 429",
+        "tested_url": "https://www.chinasichuanfood.com/hot-and-sour-cabbage-salad/",
+        "ingredients": 0,
+        "steps": 0,
+        "checked_at": "2026-10-17T18:53:40Z"
+      }
+    },
+    "https://dirndlkitchen.com": {
+      "name": "Dirndl Kitchen",
+      "checked_at": "2026-10-17T19:50:32Z",
+      "fast": {
+        "status": "ok",
+        "http_code": 200,
+        "response_ms": 90,
+        "rss_ok": true,
+        "rss_items": 10,
+        "checked_at": "2026-10-17T19:50:32Z"
+      },
+      "deep": {
+        "status": "fail",
+        "error": "extract HTTP 429",
+        "tested_url": "https://dirndlkitchen.com/yeast-pancakes/",
+        "ingredients": 0,
+        "steps": 0,
+        "checked_at": "2026-10-17T18:53:40Z"
+      }
+    },
+    "https://tatyanaseverydayfood.com": {
+      "name": "Tatyana's Everyday Food",
+      "checked_at": "2026-10-17T19:50:32Z",
+      "fast": {
+        "status": "ok",
+        "http_code": 200,
+        "response_ms": 108,
+        "rss_ok": true,
+        "rss_items": 12,
+        "checked_at": "2026-10-17T19:50:32Z"
+      },
+      "deep": {
+        "status": "fail",
+        "error": "extract HTTP 429",
+        "tested_url": "https://tatyanaseverydayfood.com/easy-lemon-raspberry-trifle/",
+        "ingredients": 0,
+        "steps": 0,
+        "checked_at": "2026-10-17T18:53:40Z"
+      }
+    },
+    "https://polishhousewife.com": {
+      "name": "Polish Housewife",
+      "checked_at": "2026-10-17T19:50:32Z",
+      "fast": {
+        "status": "ok",
+        "http_code": 200,
+        "response_ms": 77,
+        "rss_ok": true,
+        "rss_items": 10,
+        "checked_at": "2026-10-17T19:50:32Z"
+      },
+      "deep": {
+        "status": "fail",
+        "error": "extract HTTP 429",
+        "tested_url": "https://polishhousewife.com/polish-carrots-fermented-in-brine/?utm_source=rss&utm_medium=rss&utm_campaign=polish-carrots-fermented-in-brine",
+        "ingredients": 0,
+        "steps": 0,
+        "checked_at": "2026-10-17T18:53:40Z"
+      }
+    },
+    "https://www.alicaspepperpot.com": {
+      "name": "Alica's Pepperpot",
+      "checked_at": "2026-10-17T19:50:32Z",
+      "fast": {
+        "status": "ok",
+        "http_code": 200,
+        "response_ms": 268,
+        "rss_ok": true,
+        "rss_items": 10,
+        "checked_at": "2026-10-17T19:50:32Z"
+      },
+      "deep": {
+        "status": "fail",
+        "error": "extract HTTP 429",
+        "tested_url": "https://www.alicaspepperpot.com/small-batch-channa-and-aloo-curry-chickpea-and-potato/",
+        "ingredients": 0,
+        "steps": 0,
+        "checked_at": "2026-10-17T18:53:40Z"
+      }
+    },
+    "https://www.italianfoodforever.com": {
+      "name": "Italian Food Forever",
+      "checked_at": "2026-10-17T19:50:32Z",
+      "fast": {
+        "status": "ok",
+        "http_code": 200,
+        "response_ms": 635,
+        "rss_ok": true,
+        "rss_items": 8,
+        "checked_at": "2026-10-17T19:50:32Z"
+      },
+      "deep": {
+        "status": "fail",
+        "error": "extract HTTP 429",
+        "tested_url": "https://italianfoodforever.com/2026/10/spaghetti-alla-puttanesca/",
+        "ingredients": 0,
+        "steps": 0,
+        "checked_at": "2026-10-17T18:53:40Z"
+      }
+    },
+    "https://leitesculinaria.com": {
+      "name": "Leite's Culinaria",
+      "checked_at": "2026-10-17T19:50:32Z",
+      "fast": {
+        "status": "ok",
+        "http_code": 200,
+        "response_ms": 72,
+        "rss_ok": true,
+        "rss_items": 1000,
+        "checked_at": "2026-10-17T19:50:32Z"
+      },
+      "deep": {
+        "status": "fail",
+        "error": "extract HTTP 429",
+        "tested_url": "https://leitesculinaria.com/554948/writings-portuguese-food-regional-guide.html",
+        "ingredients": 0,
+        "steps": 0,
+        "checked_at": "2026-10-17T18:53:40Z"
+      }
+    },
+    "https://alexandracooks.com": {
+      "name": "Alexandra Cooks",
+      "checked_at": "2026-10-17T19:50:32Z",
+      "fast": {
+        "status": "ok",
+        "http_code": 200,
+        "response_ms": 211,
+        "rss_ok": true,
+        "rss_items": 10,
+        "checked_at": "2026-10-17T19:50:32Z"
+      },
+      "deep": {
+        "status": "fail",
+        "error": "extract HTTP 429",
+        "tested_url": "https://alexandracooks.com/2026/08/21/thin-and-crisp-zucchini-scarpaccia/",
+        "ingredients": 0,
+        "steps": 0,
+        "checked_at": "2026-10-17T18:53:40Z"
+      }
+    },
+    "https://cooklikeczechs.com": {
+      "name": "Cook Like Czechs",
+      "checked_at": "2026-10-17T19:50:32Z",
+      "fast": {
+        "status": "ok",
+        "http_code": 200,
+        "response_ms": 296,
+        "rss_ok": true,
+        "rss_items": 12,
+        "checked_at": "2026-10-17T19:50:32Z"
+      },
+      "deep": {
+        "status": "fail",
+        "error": "extract HTTP 429",
+        "tested_url": "https://www.cooklikeczechs.com/czech-plum-cake/",
+        "ingredients": 0,
+        "steps": 0,
+        "checked_at": "2026-10-17T18:53:40Z"
+      }
+    },
+    "https://scandicuisine.com": {
+      "name": "Scandicuisine",
+      "checked_at": "2026-10-17T19:50:32Z",
+      "fast": {
+        "status": "ok",
+        "http_code": 200,
+        "response_ms": 364,
+        "rss_ok": true,
+        "rss_items": 10,
+        "checked_at": "2026-10-17T19:50:32Z"
+      },
+      "deep": {
+        "status": "fail",
+        "error": "extract HTTP 429",
+        "tested_url": "https://scandicuisine.com/side-salad/",
+        "ingredients": 0,
+        "steps": 0,
+        "checked_at": "2026-10-17T18:53:40Z"
+      }
+    },
+    "https://iankewks.com": {
+      "name": "Iankewks",
+      "checked_at": "2026-10-17T19:50:32Z",
+      "fast": {
+        "status": "ok",
+        "http_code": 200,
+        "response_ms": 604,
+        "rss_ok": true,
+        "rss_items": 10,
+        "checked_at": "2026-10-17T19:50:32Z"
+      },
+      "deep": {
+        "status": "fail",
+        "error": "extract HTTP 429",
+        "tested_url": "https://www.Iankewks.com/creamy-butternut-squash-mac-and-cheese/",
+        "ingredients": 0,
+        "steps": 0,
+        "checked_at": "2026-10-17T18:53:40Z"
+      }
+    },
+    "https://veggiedesserts.com": {
+      "name": "Veggie Desserts",
+      "checked_at": "2026-10-17T19:50:32Z",
+      "fast": {
+        "status": "ok",
+        "http_code": 200,
+        "response_ms": 98,
+        "rss_ok": true,
+        "rss_items": 5,
+        "checked_at": "2026-10-17T19:50:32Z"
+      },
+      "deep": {
+        "status": "fail",
+        "error": "extract HTTP 429",
+        "tested_url": "https://veggiedesserts.com/peanut-lime-tofu-vegetable-bake/",
+        "ingredients": 0,
+        "steps": 0,
+        "checked_at": "2026-10-17T18:53:40Z"
+      }
+    },
+    "https://foreignfork.com": {
+      "name": "The Foreign Fork",
+      "checked_at": "2026-10-17T19:50:32Z",
+      "fast": {
+        "status": "ok",
+        "http_code": 200,
+        "response_ms": 114,
+        "rss_ok": true,
+        "rss_items": 10,
+        "checked_at": "2026-10-17T19:50:32Z"
+      },
+      "deep": {
+        "status": "fail",
+        "error": "extract HTTP 429",
+        "tested_url": "https://foreignfork.com/aji-de-gallina/",
+        "ingredients": 0,
+        "steps": 0,
+        "checked_at": "2026-10-17T18:53:40Z"
+      }
+    },
+    "https://justonecookbook.com": {
+      "name": "Just One Cookbook",
+      "checked_at": "2026-10-17T19:50:32Z",
+      "fast": {
+        "status": "ok",
+        "http_code": 200,
+        "response_ms": 289,
+        "rss_ok": true,
+        "rss_items": 8,
+        "checked_at": "2026-10-17T19:50:32Z"
+      },
+      "deep": {
+        "status": "fail",
+        "error": "extract HTTP 429",
+        "tested_url": "https://www.justonecookbook.com/best-instant-ramen-in-japan-what-to-buy-and-how-to-upgrade/",
+        "ingredients": 0,
+        "steps": 0,
+        "checked_at": "2026-10-17T18:53:40Z"
+      }
+    },
+    "https://updatedrecipes.com": {
+      "name": "Updated Recipes",
+      "checked_at": "2026-10-17T19:50:32Z",
+      "fast": {
+        "status": "ok",
+        "http_code": 200,
+        "response_ms": 98,
+        "rss_ok": true,
+        "rss_items": 10,
+        "checked_at": "2026-10-17T19:50:32Z"
+      },
+      "deep": {
+        "status": "fail",
+        "error": "extract HTTP 429",
+        "tested_url": "https://updatedrecipes.com/baked-shrimp-crab-lasagna-roll-ups/",
+        "ingredients": 0,
+        "steps": 0,
+        "checked_at": "2026-10-17T18:53:40Z"
+      }
+    },
+    "https://manilaspoon.com": {
+      "name": "Manila Spoon",
+      "checked_at": "2026-10-17T19:50:32Z",
+      "fast": {
+        "status": "ok",
+        "http_code": 200,
+        "response_ms": 431,
+        "rss_ok": true,
+        "rss_items": 10,
+        "checked_at": "2026-10-17T19:50:32Z"
+      },
+      "deep": {
+        "status": "fail",
+        "error": "extract HTTP 429",
+        "tested_url": "https://www.manilaspoon.com/easy-and-tasty-million-dollar-baked-spaghetti/",
+        "ingredients": 0,
+        "steps": 0,
+        "checked_at": "2026-10-17T18:53:40Z"
+      }
+    },
+    "https://www.spainonafork.com": {
+      "name": "Spain on a Fork",
+      "checked_at": "2026-10-17T19:50:32Z",
+      "fast": {
+        "status": "ok",
+        "http_code": 200,
+        "response_ms": 828,
+        "rss_ok": true,
+        "rss_items": 10,
+        "checked_at": "2026-10-17T19:50:32Z"
+      },
+      "deep": {
+        "status": "ok",
+        "tested_url": "https://spainonafork.com/spanish-potatoes-and-spinach-recipe/",
+        "ingredients": 8,
+        "steps": 10,
+        "confidence": "high",
+        "checked_at": "2026-10-17T18:53:40Z"
+      }
+    },
+    "https://thenoshery.com": {
+      "name": "The Noshery",
+      "checked_at": "2026-10-17T19:50:32Z",
+      "fast": {
+        "status": "ok",
+        "http_code": 200,
+        "response_ms": 102,
+        "rss_ok": true,
+        "rss_items": 5,
+        "checked_at": "2026-10-17T19:50:32Z"
+      },
+      "deep": {
+        "status": "fail",
+        "error": "extract HTTP 429",
+        "tested_url": "https://thenoshery.com/arroz-con-gandules-rice-and-pigeon-peas/",
+        "ingredients": 0,
+        "steps": 0,
+        "checked_at": "2026-10-17T18:53:40Z"
+      }
+    },
+    "https://www.mygreekdish.com": {
+      "name": "My Greek Dish",
+      "checked_at": "2026-10-17T19:50:32Z",
+      "fast": {
+        "status": "ok",
+        "http_code": 200,
+        "response_ms": 89,
+        "rss_ok": true,
+        "rss_items": 7,
+        "checked_at": "2026-10-17T19:50:32Z"
+      },
+      "deep": {
+        "status": "fail",
+        "error": "0 ingredients / 0 steps",
+        "tested_url": "https://www.mygreekdish.com/recipe/baked-feta-pasta-recipe/",
+        "ingredients": 0,
+        "steps": 0,
+        "checked_at": "2026-10-17T18:53:40Z"
+      }
+    },
+    "https://cooking.umamidays.com": {
+      "name": "Umami Days",
+      "checked_at": "2026-10-17T19:50:32Z",
+      "fast": {
+        "status": "ok",
+        "http_code": 200,
+        "response_ms": 501,
+        "rss_ok": true,
+        "rss_items": 3,
+        "checked_at": "2026-10-17T19:50:32Z"
+      },
+      "deep": {
+        "status": "fail",
+        "error": "extract HTTP 429",
+        "tested_url": "https://cooking.umamidays.com/10-minute-shrimp-and-kimchi-fried-rice/",
+        "ingredients": 0,
+        "steps": 0,
+        "checked_at": "2026-10-17T18:53:40Z"
+      }
+    },
+    "https://persianmama.com": {
+      "name": "Persian Mama",
+      "checked_at": "2026-10-17T19:50:32Z",
+      "fast": {
+        "status": "dead",
+        "http_code": 403,
+        "response_ms": 89,
+        "rss_ok": false,
+        "rss_items": 0,
+        "checked_at": "2026-10-17T19:50:32Z",
+        "rss_error": "HTTP 403"
+      },
+      "deep": {
+        "status": "fail",
+        "error": "no RSS item URLs",
+        "ingredients": 0,
+        "steps": 0,
+        "checked_at": "2026-10-17T18:53:40Z"
+      }
+    },
+    "https://familyspice.com": {
+      "name": "Family Spice",
+      "checked_at": "2026-10-17T19:50:32Z",
+      "fast": {
+        "status": "ok",
+        "http_code": 200,
+        "response_ms": 90,
+        "rss_ok": true,
+        "rss_items": 10,
+        "checked_at": "2026-10-17T19:50:32Z"
+      },
+      "deep": {
+        "status": "fail",
+        "error": "extract HTTP 429",
+        "tested_url": "https://familyspice.com/homemade-jam-troubleshooting/",
+        "ingredients": 0,
+        "steps": 0,
+        "checked_at": "2026-10-17T18:53:40Z"
+      }
+    },
+    "https://greatcurryrecipes.net": {
+      "name": "The Curry Guy",
+      "checked_at": "2026-10-17T19:50:32Z",
+      "fast": {
+        "status": "ok",
+        "http_code": 200,
+        "response_ms": 109,
+        "rss_ok": true,
+        "rss_items": 10,
+        "checked_at": "2026-10-17T19:50:32Z"
+      },
+      "deep": {
+        "status": "fail",
+        "error": "extract HTTP 429",
+        "tested_url": "https://greatcurryrecipes.net/2026/10/13/jerk-chicken/",
+        "ingredients": 0,
+        "steps": 0,
+        "checked_at": "2026-10-17T18:53:40Z"
+      }
+    },
+    "https://amiraspantry.com": {
+      "name": "Amira's Pantry",
+      "checked_at": "2026-10-17T19:50:32Z",
+      "fast": {
+        "status": "ok",
+        "http_code": 200,
+        "response_ms": 107,
+        "rss_ok": true,
+        "rss_items": 10,
+        "checked_at": "2026-10-17T19:50:32Z"
+      },
+      "deep": {
+        "status": "fail",
+        "error": "extract HTTP 429",
+        "tested_url": "https://amiraspantry.com/pistachio-croissants/",
+        "ingredients": 0,
+        "steps": 0,
+        "checked_at": "2026-10-17T18:53:40Z"
+      }
+    },
+    "https://koreanbapsang.com": {
+      "name": "Korean Bapsang",
+      "checked_at": "2026-10-17T19:50:32Z",
+      "fast": {
+        "status": "ok",
+        "http_code": 200,
+        "response_ms": 458,
+        "rss_ok": true,
+        "rss_items": 10,
+        "checked_at": "2026-10-17T19:50:32Z"
+      },
+      "deep": {
+        "status": "fail",
+        "error": "extract HTTP 429",
+        "tested_url": "https://www.koreanbapsang.com/jatjuk-pine-nut-porridge/",
+        "ingredients": 0,
+        "steps": 0,
+        "checked_at": "2026-10-17T18:53:40Z"
+      }
+    },
+    "https://dominicancooking.com": {
+      "name": "Dominican Cooking",
+      "checked_at": "2026-10-17T19:50:32Z",
+      "fast": {
+        "status": "ok",
+        "http_code": 200,
+        "response_ms": 328,
+        "rss_ok": true,
+        "rss_items": 10,
+        "checked_at": "2026-10-17T19:50:32Z"
+      },
+      "deep": {
+        "status": "fail",
+        "error": "extract HTTP 429",
+        "tested_url": "https://www.dominicancooking.com/leftover-rice-recipes",
+        "ingredients": 0,
+        "steps": 0,
+        "checked_at": "2026-10-17T18:53:40Z"
+      }
+    },
+    "https://littleferrarokitchen.com": {
+      "name": "The Little Ferraro Kitchen",
+      "checked_at": "2026-10-17T19:50:32Z",
+      "fast": {
+        "status": "ok",
+        "http_code": 200,
+        "response_ms": 113,
+        "rss_ok": true,
+        "rss_items": 5,
+        "checked_at": "2026-10-17T19:50:32Z"
+      },
+      "deep": {
+        "status": "fail",
+        "error": "extract HTTP 429",
+        "tested_url": "https://littleferrarokitchen.com/herb-roasted-pork-with-root-vegetables/?utm_source=rss&utm_medium=rss&utm_campaign=herb-roasted-pork-with-root-vegetables",
+        "ingredients": 0,
+        "steps": 0,
+        "checked_at": "2026-10-17T18:53:40Z"
+      }
+    },
+    "https://soyummyrecipes.com": {
+      "name": "So Yummy Recipes",
+      "checked_at": "2026-10-17T19:50:32Z",
+      "fast": {
+        "status": "ok",
+        "http_code": 200,
+        "response_ms": 83,
+        "rss_ok": true,
+        "rss_items": 10,
+        "checked_at": "2026-10-17T19:50:32Z"
+      },
+      "deep": {
+        "status": "fail",
+        "error": "extract HTTP 429",
+        "tested_url": "https://soyummyrecipes.com/chicken-katsu-curry/",
+        "ingredients": 0,
+        "steps": 0,
+        "checked_at": "2026-10-17T18:53:40Z"
+      }
+    },
+    "https://cafedelites.com": {
+      "name": "Cafe Delites",
+      "checked_at": "2026-10-17T19:50:32Z",
+      "fast": {
+        "status": "ok",
+        "http_code": 200,
+        "response_ms": 110,
+        "rss_ok": true,
+        "rss_items": 5,
+        "checked_at": "2026-10-17T19:50:32Z"
+      },
+      "deep": {
+        "status": "fail",
+        "error": "extract HTTP 429",
+        "tested_url": "https://cafedelites.com/italian-sausage-pasta/",
+        "ingredients": 0,
+        "steps": 0,
+        "checked_at": "2026-10-17T18:53:40Z"
+      }
+    },
+    "https://lilvienna.com": {
+      "name": "Little Vienna",
+      "checked_at": "2026-10-17T19:50:32Z",
+      "fast": {
+        "status": "ok",
+        "http_code": 200,
+        "response_ms": 675,
+        "rss_ok": true,
+        "rss_items": 10,
+        "checked_at": "2026-10-17T19:50:32Z"
+      },
+      "deep": {
+        "status": "fail",
+        "error": "extract HTTP 429",
+        "tested_url": "https://www.lilvienna.com/plum-crumble/",
+        "ingredients": 0,
+        "steps": 0,
+        "checked_at": "2026-10-17T18:53:40Z"
+      }
+    },
+    "https://kaluhiskitchen.com": {
+      "name": "Kaluhi's Kitchen",
+      "checked_at": "2026-10-17T19:50:32Z",
+      "fast": {
+        "status": "ok",
+        "http_code": 200,
+        "response_ms": 1262,
+        "rss_ok": true,
+        "rss_items": 6,
+        "checked_at": "2026-10-17T19:50:32Z"
+      },
+      "deep": {
+        "status": "fail",
+        "error": "extract HTTP 429",
+        "tested_url": "https://www.kaluhiskitchen.com/unbreaded-spicy-fried-chicken/",
+        "ingredients": 0,
+        "steps": 0,
+        "checked_at": "2026-10-17T18:53:40Z"
+      }
+    },
+    "https://cloudykitchen.com": {
+      "name": "Cloudy Kitchen",
+      "checked_at": "2026-10-17T19:50:32Z",
+      "fast": {
+        "status": "ok",
+        "http_code": 200,
+        "response_ms": 106,
+        "rss_ok": true,
+        "rss_items": 10,
+        "checked_at": "2026-10-17T19:50:32Z"
+      },
+      "deep": {
+        "status": "fail",
+        "error": "extract HTTP 429",
+        "tested_url": "https://cloudykitchen.com/blog/vanilla-buttercream/",
+        "ingredients": 0,
+        "steps": 0,
+        "checked_at": "2026-10-17T18:53:40Z"
+      }
+    },
+    "https://janespatisserie.com": {
+      "name": "Jane's Patisserie",
+      "checked_at": "2026-10-17T19:50:32Z",
+      "fast": {
+        "status": "ok",
+        "http_code": 200,
+        "response_ms": 897,
+        "rss_ok": true,
+        "rss_items": 14,
+        "checked_at": "2026-10-17T19:50:32Z"
+      },
+      "deep": {
+        "status": "fail",
+        "error": "extract HTTP 429",
+        "tested_url": "https://www.janespatisserie.com/2026/10/15/monster-cake/",
+        "ingredients": 0,
+        "steps": 0,
+        "checked_at": "2026-10-17T18:53:40Z"
+      }
+    },
+    "https://heygrillhey.com": {
+      "name": "Hey Grill Hey",
+      "checked_at": "2026-10-17T19:50:32Z",
+      "fast": {
+        "status": "ok",
+        "http_code": 200,
+        "response_ms": 84,
+        "rss_ok": true,
+        "rss_items": 10,
+        "checked_at": "2026-10-17T19:50:32Z"
+      },
+      "deep": {
+        "status": "fail",
+        "error": "extract HTTP 429",
+        "tested_url": "https://heygrillhey.com/blackberry-cobbler/",
+        "ingredients": 0,
+        "steps": 0,
+        "checked_at": "2026-10-17T18:53:40Z"
+      }
+    },
+    "https://thematbakh.com": {
+      "name": "The Matbakh",
+      "checked_at": "2026-10-17T19:50:32Z",
+      "fast": {
+        "status": "ok",
+        "http_code": 200,
+        "response_ms": 108,
+        "rss_ok": true,
+        "rss_items": 10,
+        "checked_at": "2026-10-17T19:50:32Z"
+      },
+      "deep": {
+        "status": "fail",
+        "error": "extract HTTP 429",
+        "tested_url": "https://thematbakh.com/sweet-potato-puree/",
+        "ingredients": 0,
+        "steps": 0,
+        "checked_at": "2026-10-17T18:53:40Z"
+      }
+    },
+    "https://ozlemsturkishtable.com": {
+      "name": "Ozlem's Turkish Table",
+      "checked_at": "2026-10-17T19:50:32Z",
+      "fast": {
+        "status": "ok",
+        "http_code": 200,
+        "response_ms": 100,
+        "rss_ok": true,
+        "rss_items": 10,
+        "checked_at": "2026-10-17T19:50:32Z"
+      },
+      "deep": {
+        "status": "fail",
+        "error": "extract HTTP 429",
+        "tested_url": "https://ozlemsturkishtable.com/2026/08/hunkar-begendi-sultans-lamb-stew-over-smoked-aubergine-and-bechamel-sauce/",
+        "ingredients": 0,
+        "steps": 0,
+        "checked_at": "2026-10-17T18:53:40Z"
+      }
+    },
+    "https://flourandspiceblog.com": {
+      "name": "Flour & Spice",
+      "checked_at": "2026-10-17T19:50:32Z",
+      "fast": {
+        "status": "ok",
+        "http_code": 200,
+        "response_ms": 173,
+        "rss_ok": true,
+        "rss_items": 10,
+        "checked_at": "2026-10-17T19:50:32Z"
+      },
+      "deep": {
+        "status": "fail",
+        "error": "extract HTTP 429",
+        "tested_url": "https://www.flourandspiceblog.com/easy-pista-kulfi-recipe/",
+        "ingredients": 0,
+        "steps": 0,
+        "checked_at": "2026-10-17T18:53:40Z"
+      }
+    },
+    "https://giverecipe.com": {
+      "name": "Give Recipe",
+      "checked_at": "2026-10-17T19:50:32Z",
+      "fast": {
+        "status": "ok",
+        "http_code": 200,
+        "response_ms": 545,
+        "rss_ok": true,
+        "rss_items": 12,
+        "checked_at": "2026-10-17T19:50:32Z"
+      },
+      "deep": {
+        "status": "fail",
+        "error": "extract HTTP 429",
+        "tested_url": "https://www.giverecipe.com/turkish-pickled-red-cabbage/",
+        "ingredients": 0,
+        "steps": 0,
+        "checked_at": "2026-10-17T18:53:40Z"
+      }
+    },
+    "https://marionskitchen.com": {
+      "name": "Marion's Kitchen",
+      "checked_at": "2026-10-17T19:50:32Z",
+      "fast": {
+        "status": "warn",
+        "http_code": 200,
+        "response_ms": 197,
+        "rss_ok": false,
+        "rss_items": 0,
+        "checked_at": "2026-10-17T19:50:32Z",
+        "rss_error": "HTTP 403"
+      },
+      "deep": {
+        "status": "fail",
+        "error": "no RSS item URLs",
+        "ingredients": 0,
+        "steps": 0,
+        "checked_at": "2026-10-17T18:53:40Z"
+      }
+    },
+    "https://cookingorgeous.com": {
+      "name": "Cooking Gorgeous",
+      "checked_at": "2026-10-17T19:50:32Z",
+      "fast": {
+        "status": "ok",
+        "http_code": 200,
+        "response_ms": 94,
+        "rss_ok": true,
+        "rss_items": 10,
+        "checked_at": "2026-10-17T19:50:32Z"
+      },
+      "deep": {
+        "status": "fail",
+        "error": "extract HTTP 429",
+        "tested_url": "https://cookingorgeous.com/blog/weekend-baking-with-apples-plums-pumpkin-and-chocolate/",
+        "ingredients": 0,
+        "steps": 0,
+        "checked_at": "2026-10-17T18:53:40Z"
+      }
+    },
+    "https://thecozycook.com": {
+      "name": "The Cozy Cook",
+      "checked_at": "2026-10-17T19:50:32Z",
+      "fast": {
+        "status": "ok",
+        "http_code": 200,
+        "response_ms": 74,
+        "rss_ok": true,
+        "rss_items": 10,
+        "checked_at": "2026-10-17T19:50:32Z"
+      },
+      "deep": {
+        "status": "fail",
+        "error": "extract HTTP 429",
+        "tested_url": "https://thecozycook.com/chicken-alfredo-pasta/",
+        "ingredients": 0,
+        "steps": 0,
+        "checked_at": "2026-10-17T18:53:40Z"
+      }
+    },
+    "https://www.thechunkychef.com": {
+      "name": "The Chunky Chef",
+      "checked_at": "2026-10-17T19:50:32Z",
+      "fast": {
+        "status": "ok",
+        "http_code": 200,
+        "response_ms": 100,
+        "rss_ok": true,
+        "rss_items": 10,
+        "checked_at": "2026-10-17T19:50:32Z"
+      },
+      "deep": {
+        "status": "fail",
+        "error": "extract HTTP 429",
+        "tested_url": "https://www.thechunkychef.com/apple-cider-donut-whoopie-pies/",
+        "ingredients": 0,
+        "steps": 0,
+        "checked_at": "2026-10-17T18:53:40Z"
+      }
+    },
+    "https://kristineskitchenblog.com": {
+      "name": "Kristine's Kitchen",
+      "checked_at": "2026-10-17T19:50:32Z",
+      "fast": {
+        "status": "ok",
+        "http_code": 200,
+        "response_ms": 101,
+        "rss_ok": true,
+        "rss_items": 20,
+        "checked_at": "2026-10-17T19:50:32Z"
+      },
+      "deep": {
+        "status": "fail",
+        "error": "extract HTTP 429",
+        "tested_url": "https://kristineskitchenblog.com/beef-ragu/",
+        "ingredients": 0,
+        "steps": 0,
+        "checked_at": "2026-10-17T18:53:40Z"
+      }
+    },
+    "https://www.yellowblissroad.com": {
+      "name": "Yellow Bliss Road",
+      "checked_at": "2026-10-17T19:50:32Z",
+      "fast": {
+        "status": "ok",
+        "http_code": 200,
+        "response_ms": 167,
+        "rss_ok": true,
+        "rss_items": 10,
+        "checked_at": "2026-10-17T19:50:32Z"
+      },
+      "deep": {
+        "status": "fail",
+        "error": "extract HTTP 429",
+        "tested_url": "https://www.yellowblissroad.com/slow-cooker-mushroom-chicken/",
+        "ingredients": 0,
+        "steps": 0,
+        "checked_at": "2026-10-17T18:53:40Z"
+      }
+    },
+    "https://www.chelseasmessyapron.com": {
+      "name": "Chelsea's Messy Apron",
+      "checked_at": "2026-10-17T19:50:32Z",
+      "fast": {
+        "status": "ok",
+        "http_code": 200,
+        "response_ms": 132,
+        "rss_ok": true,
+        "rss_items": 700,
+        "checked_at": "2026-10-17T19:50:32Z"
+      },
+      "deep": {
+        "status": "fail",
+        "error": "extract HTTP 429",
+        "tested_url": "https://www.chelseasmessyapron.com/crockpot-soup-recipes/",
+        "ingredients": 0,
+        "steps": 0,
+        "checked_at": "2026-10-17T18:53:40Z"
+      }
+    },
+    "https://weekdaypescatarian.com": {
+      "name": "Weekday Pescatarian",
+      "checked_at": "2026-10-17T19:50:32Z",
+      "fast": {
+        "status": "ok",
+        "http_code": 200,
+        "response_ms": 103,
+        "rss_ok": true,
+        "rss_items": 10,
+        "checked_at": "2026-10-17T19:50:32Z"
+      },
+      "deep": {
+        "status": "fail",
+        "error": "extract HTTP 429",
+        "tested_url": "https://weekdaypescatarian.com/octopus-pasta/?adt_ei={{ subscriber.email_address }}",
+        "ingredients": 0,
+        "steps": 0,
+        "checked_at": "2026-10-17T18:53:40Z"
+      }
+    },
+    "https://therecipecritic.com": {
+      "name": "The Recipe Critic",
+      "checked_at": "2026-10-17T19:50:32Z",
+      "fast": {
+        "status": "ok",
+        "http_code": 200,
+        "response_ms": 107,
+        "rss_ok": true,
+        "rss_items": 10,
+        "checked_at": "2026-10-17T19:50:32Z"
+      },
+      "deep": {
+        "status": "fail",
+        "error": "extract HTTP 429",
+        "tested_url": "https://therecipecritic.com/weekly-meal-plan-109/",
+        "ingredients": 0,
+        "steps": 0,
+        "checked_at": "2026-10-17T18:53:40Z"
+      }
+    },
+    "https://www.kitchensanctuary.com": {
+      "name": "Kitchen Sanctuary",
+      "checked_at": "2026-10-17T19:50:32Z",
+      "fast": {
+        "status": "dead",
+        "http_code": 403,
+        "response_ms": 117,
+        "rss_ok": true,
+        "rss_items": 11,
+        "checked_at": "2026-10-17T19:50:32Z"
+      },
+      "deep": {
+        "status": "fail",
+        "error": "extract HTTP 429",
+        "tested_url": "https://www.kitchensanctuary.com/fakeaway-recipes/",
+        "ingredients": 0,
+        "steps": 0,
+        "checked_at": "2026-10-17T18:53:40Z"
+      }
+    },
+    "https://delishdlites.com": {
+      "name": "Delish D'Lites",
+      "checked_at": "2026-10-17T19:50:32Z",
+      "fast": {
+        "status": "ok",
+        "http_code": 200,
+        "response_ms": 905,
+        "rss_ok": true,
+        "rss_items": 3,
+        "checked_at": "2026-10-17T19:50:32Z"
+      },
+      "deep": {
+        "status": "fail",
+        "error": "extract HTTP 429",
+        "tested_url": "https://www.delishdlites.com/type/gluten-free-recipes/perfect-grilled-lamb-loin-chops-recipe/",
+        "ingredients": 0,
+        "steps": 0,
+        "checked_at": "2026-10-17T18:53:40Z"
+      }
+    },
+    "https://tastesbetterfromscratch.com": {
+      "name": "Tastes Better From Scratch",
+      "checked_at": "2026-10-17T19:50:32Z",
+      "fast": {
+        "status": "ok",
+        "http_code": 200,
+        "response_ms": 96,
+        "rss_ok": true,
+        "rss_items": 6,
+        "checked_at": "2026-10-17T19:50:32Z"
+      },
+      "deep": {
+        "status": "fail",
+        "error": "extract HTTP 429",
+        "tested_url": "https://tastesbetterfromscratch.com/mm-cookie-bars/?adt_ei={{ subscriber.email_address }}",
+        "ingredients": 0,
+        "steps": 0,
+        "checked_at": "2026-10-17T18:53:40Z"
+      }
+    },
+    "https://www.davidlebovitz.com": {
+      "name": "David Lebovitz",
+      "checked_at": "2026-10-17T19:50:32Z",
+      "fast": {
+        "status": "ok",
+        "http_code": 200,
+        "response_ms": 137,
+        "rss_ok": true,
+        "rss_items": 10,
+        "checked_at": "2026-10-17T19:50:32Z"
+      },
+      "deep": {
+        "status": "fail",
+        "error": "extract HTTP 429",
+        "tested_url": "https://www.davidlebovitz.com/miso-walnut-chocolate-chip-cookies/",
+        "ingredients": 0,
+        "steps": 0,
+        "checked_at": "2026-10-17T18:53:40Z"
+      }
+    },
+    "https://mommyshomecooking.com": {
+      "name": "Mommy's Home Cooking",
+      "checked_at": "2026-10-17T19:50:32Z",
+      "fast": {
+        "status": "ok",
+        "http_code": 200,
+        "response_ms": 2133,
+        "rss_ok": true,
+        "rss_items": 10,
+        "checked_at": "2026-10-17T19:50:32Z"
+      },
+      "deep": {
+        "status": "fail",
+        "error": "extract HTTP 429",
+        "tested_url": "https://mommyshomecooking.com/eggless-pumpkin-chocolate-chip-bundt-cake/",
+        "ingredients": 0,
+        "steps": 0,
+        "checked_at": "2026-10-17T18:53:40Z"
+      }
+    },
+    "https://www.momontimeout.com": {
+      "name": "Mom on Timeout",
+      "checked_at": "2026-10-17T19:50:32Z",
+      "fast": {
+        "status": "ok",
+        "http_code": 200,
+        "response_ms": 105,
+        "rss_ok": true,
+        "rss_items": 5,
+        "checked_at": "2026-10-17T19:50:32Z"
+      },
+      "deep": {
+        "status": "fail",
+        "error": "extract HTTP 429",
+        "tested_url": "https://www.momontimeout.com/salmon-sushi-bake-recipe/",
+        "ingredients": 0,
+        "steps": 0,
+        "checked_at": "2026-10-17T18:53:40Z"
+      }
+    },
+    "https://www.hungryhuy.com": {
+      "name": "Hungry Huy",
+      "checked_at": "2026-10-17T19:50:32Z",
+      "fast": {
+        "status": "ok",
+        "http_code": 200,
+        "response_ms": 197,
+        "rss_ok": true,
+        "rss_items": 10,
+        "checked_at": "2026-10-17T19:50:32Z"
+      },
+      "deep": {
+        "status": "fail",
+        "error": "0 ingredients / 0 steps",
+        "tested_url": "https://www.hungryhuy.com/vegetarian-spring-rolls/",
+        "ingredients": 0,
+        "steps": 0,
+        "checked_at": "2026-10-17T18:53:40Z"
+      }
+    },
+    "https://supergoldenbakes.com": {
+      "name": "Supergolden Bakes",
+      "checked_at": "2026-10-17T19:50:32Z",
+      "fast": {
+        "status": "ok",
+        "http_code": 200,
+        "response_ms": 1174,
+        "rss_ok": true,
+        "rss_items": 12,
+        "checked_at": "2026-10-17T19:50:32Z"
+      },
+      "deep": {
+        "status": "fail",
+        "error": "extract HTTP 429",
+        "tested_url": "https://www.supergoldenbakes.com/oven-braised-brisket/",
+        "ingredients": 0,
+        "steps": 0,
+        "checked_at": "2026-10-17T18:53:40Z"
+      }
+    },
+    "https://www.jocooks.com": {
+      "name": "Jo Cooks",
+      "checked_at": "2026-10-17T19:50:32Z",
+      "fast": {
+        "status": "ok",
+        "http_code": 200,
+        "response_ms": 105,
+        "rss_ok": true,
+        "rss_items": 8,
+        "checked_at": "2026-10-17T19:50:32Z"
+      },
+      "deep": {
+        "status": "fail",
+        "error": "extract HTTP 429",
+        "tested_url": "https://www.jocooks.com/recipes/vegetable-tortellini-soup/?adt_ei=*|EMAIL|*",
+        "ingredients": 0,
+        "steps": 0,
+        "checked_at": "2026-10-17T18:53:40Z"
+      }
+    },
+    "https://theflavorbender.com": {
+      "name": "The Flavor Bender",
+      "checked_at": "2026-10-17T19:50:32Z",
+      "fast": {
+        "status": "ok",
+        "http_code": 200,
+        "response_ms": 562,
+        "rss_ok": true,
+        "rss_items": 10,
+        "checked_at": "2026-10-17T19:50:32Z"
+      },
+      "deep": {
+        "status": "fail",
+        "error": "extract HTTP 429",
+        "tested_url": "https://www.theflavorbender.com/brinjal-curry-sri-lankan-eggplant-curry/?utm_source=rss&utm_medium=rss&utm_campaign=brinjal-curry-sri-lankan-eggplant-curry",
+        "ingredients": 0,
+        "steps": 0,
+        "checked_at": "2026-10-17T18:53:40Z"
+      }
+    },
+    "https://mycolombianrecipes.com": {
+      "name": "My Colombian Recipes",
+      "checked_at": "2026-10-17T19:50:32Z",
+      "fast": {
+        "status": "ok",
+        "http_code": 200,
+        "response_ms": 1006,
+        "rss_ok": true,
+        "rss_items": 10,
+        "checked_at": "2026-10-17T19:50:32Z"
+      },
+      "deep": {
+        "status": "fail",
+        "error": "extract HTTP 429",
+        "tested_url": "https://www.mycolombianrecipes.com/sobrebarriga-en-salsa-criolla-flank-steak-with-colombian-creole-sauce/?adt_ei={{ email }}",
+        "ingredients": 0,
+        "steps": 0,
+        "checked_at": "2026-10-17T18:53:40Z"
+      }
+    },
+    "https://www.dimitrasdishes.com": {
+      "name": "Dimitra's Dishes",
+      "checked_at": "2026-10-17T19:50:32Z",
+      "fast": {
+        "status": "ok",
+        "http_code": 200,
+        "response_ms": 109,
+        "rss_ok": true,
+        "rss_items": 10,
+        "checked_at": "2026-10-17T19:50:32Z"
+      },
+      "deep": {
+        "status": "fail",
+        "error": "extract HTTP 429",
+        "tested_url": "https://www.dimitrasdishes.com/easy-greek-kourabiedes-sticks-traditional-greek-butter-cookies/",
+        "ingredients": 0,
+        "steps": 0,
+        "checked_at": "2026-10-17T18:53:40Z"
+      }
+    },
+    "https://memoriediangelina.com": {
+      "name": "Memorie di Angelina",
+      "checked_at": "2026-10-17T19:50:32Z",
+      "fast": {
+        "status": "dead",
+        "http_code": 403,
+        "response_ms": 398,
+        "rss_ok": true,
+        "rss_items": 6,
+        "checked_at": "2026-10-17T19:50:32Z"
+      },
+      "deep": {
+        "status": "fail",
+        "error": "extract HTTP 429",
+        "tested_url": "https://memoriediangelina.com/2026/10/16/baccala-alla-lucana-con-peperoni-cruschi/",
+        "ingredients": 0,
+        "steps": 0,
+        "checked_at": "2026-10-17T18:53:40Z"
+      }
+    },
+    "https://polonist.com": {
+      "name": "The Polonist",
+      "checked_at": "2026-10-17T19:50:32Z",
+      "fast": {
+        "status": "ok",
+        "http_code": 200,
+        "response_ms": 1342,
+        "rss_ok": true,
+        "rss_items": 10,
+        "checked_at": "2026-10-17T19:50:32Z"
+      },
+      "deep": {
+        "status": "fail",
+        "error": "extract HTTP 429",
+        "tested_url": "https://www.polonist.com/polish-christmas-food/",
+        "ingredients": 0,
+        "steps": 0,
+        "checked_at": "2026-10-17T18:53:40Z"
+      }
+    },
+    "https://www.eatingthaifood.com": {
+      "name": "Eating Thai Food",
+      "checked_at": "2026-10-17T19:50:32Z",
+      "fast": {
+        "status": "ok",
+        "http_code": 200,
+        "response_ms": 161,
+        "rss_ok": true,
+        "rss_items": 10,
+        "checked_at": "2026-10-17T19:50:32Z"
+      },
+      "deep": {
+        "status": "fail",
+        "error": "extract HTTP 429",
+        "tested_url": "https://www.eatingthaifood.com/cham-cha-market-phuket/",
+        "ingredients": 0,
+        "steps": 0,
+        "checked_at": "2026-10-17T18:53:40Z"
+      }
+    },
+    "https://twopeasandtheirpod.com": {
+      "name": "Two Peas and Their Pod",
+      "checked_at": "2026-10-17T19:50:32Z",
+      "fast": {
+        "status": "ok",
+        "http_code": 200,
+        "response_ms": 606,
+        "rss_ok": true,
+        "rss_items": 5,
+        "checked_at": "2026-10-17T19:50:32Z"
+      },
+      "deep": {
+        "status": "fail",
+        "error": "extract HTTP 429",
+        "tested_url": "https://www.twopeasandtheirpod.com/apple-pie-overnight-oats/",
+        "ingredients": 0,
+        "steps": 0,
+        "checked_at": "2026-10-17T18:53:40Z"
+      }
+    },
+    "https://gimmesomeoven.com": {
+      "name": "Gimme Some Oven",
+      "checked_at": "2026-10-17T19:50:32Z",
+      "fast": {
+        "status": "ok",
+        "http_code": 200,
+        "response_ms": 592,
+        "rss_ok": true,
+        "rss_items": 10,
+        "checked_at": "2026-10-17T19:50:32Z"
+      },
+      "deep": {
+        "status": "fail",
+        "error": "extract HTTP 429",
+        "tested_url": "https://www.gimmesomeoven.com/chicken-tortilla-soup-recipe/",
+        "ingredients": 0,
+        "steps": 0,
+        "checked_at": "2026-10-17T18:53:40Z"
+      }
+    },
+    "https://www.olivetomato.com": {
+      "name": "Olive Tomato",
+      "checked_at": "2026-10-17T19:50:32Z",
+      "fast": {
+        "status": "ok",
+        "http_code": 200,
+        "response_ms": 154,
+        "rss_ok": true,
+        "rss_items": 10,
+        "checked_at": "2026-10-17T19:50:32Z"
+      },
+      "deep": {
+        "status": "fail",
+        "error": "extract HTTP 429",
+        "tested_url": "https://www.olivetomato.com/5-mediterranean-diet-foods-i-cant-live-without/",
+        "ingredients": 0,
+        "steps": 0,
+        "checked_at": "2026-10-17T18:53:40Z"
+      }
+    },
+    "https://seriouseats.com": {
+      "name": "Serious Eats",
+      "checked_at": "2026-10-17T19:50:32Z",
+      "fast": {
+        "status": "ok",
+        "http_code": 200,
+        "response_ms": 304,
+        "rss_ok": true,
+        "rss_items": 50,
+        "checked_at": "2026-10-17T19:50:32Z"
+      },
+      "deep": {
+        "status": "fail",
+        "error": "extract HTTP 429",
+        "tested_url": "https://www.seriouseats.com/best-time-to-use-shallots-vs-onions-12179007",
+        "ingredients": 0,
+        "steps": 0,
+        "checked_at": "2026-10-17T18:53:40Z"
+      }
+    },
+    "https://www.internationalcuisine.com": {
+      "name": "International Cuisine",
+      "checked_at": "2026-10-17T19:50:32Z",
+      "fast": {
+        "status": "ok",
+        "http_code": 200,
+        "response_ms": 127,
+        "rss_ok": true,
+        "rss_items": 10,
+        "checked_at": "2026-10-17T19:50:32Z"
+      },
+      "deep": {
+        "status": "fail",
+        "error": "extract HTTP 429",
+        "tested_url": "https://www.internationalcuisine.com/sixty-candles-beneath-a-volcano/",
+        "ingredients": 0,
+        "steps": 0,
+        "checked_at": "2026-10-17T18:53:40Z"
+      }
+    },
+    "https://www.thehungrybites.com": {
+      "name": "The Hungry Bites",
+      "checked_at": "2026-10-17T19:50:32Z",
+      "fast": {
+        "status": "ok",
+        "http_code": 200,
+        "response_ms": 103,
+        "rss_ok": true,
+        "rss_items": 10,
+        "checked_at": "2026-10-17T19:50:32Z"
+      },
+      "deep": {
+        "status": "fail",
+        "error": "extract HTTP 429",
+        "tested_url": "https://www.thehungrybites.com/pizza-sauce-tomato-paste/",
+        "ingredients": 0,
+        "steps": 0,
+        "checked_at": "2026-10-17T18:53:40Z"
+      }
+    },
+    "https://evergreenkitchen.ca": {
+      "name": "Evergreen Kitchen",
+      "checked_at": "2026-10-17T19:50:32Z",
+      "fast": {
+        "status": "ok",
+        "http_code": 200,
+        "response_ms": 107,
+        "rss_ok": true,
+        "rss_items": 10,
+        "checked_at": "2026-10-17T19:50:32Z"
+      },
+      "deep": {
+        "status": "fail",
+        "error": "extract HTTP 429",
+        "tested_url": "https://evergreenkitchen.ca/pumpkin-protein-muffins/",
+        "ingredients": 0,
+        "steps": 0,
+        "checked_at": "2026-10-17T18:53:40Z"
+      }
+    },
+    "https://thefirstmess.com": {
+      "name": "The First Mess",
+      "checked_at": "2026-10-17T19:50:32Z",
+      "fast": {
+        "status": "ok",
+        "http_code": 200,
+        "response_ms": 142,
+        "rss_ok": true,
+        "rss_items": 12,
+        "checked_at": "2026-10-17T19:50:32Z"
+      },
+      "deep": {
+        "status": "fail",
+        "error": "extract HTTP 429",
+        "tested_url": "https://thefirstmess.com/2026/10/14/celery-root-apple-salad-maple-candied-walnuts/",
+        "ingredients": 0,
+        "steps": 0,
+        "checked_at": "2026-10-17T18:53:40Z"
+      }
+    },
+    "https://www.cookingclassy.com": {
+      "name": "Cooking Classy",
+      "checked_at": "2026-10-17T19:50:32Z",
+      "fast": {
+        "status": "ok",
+        "http_code": 200,
+        "response_ms": 319,
+        "rss_ok": true,
+        "rss_items": 10,
+        "checked_at": "2026-10-17T19:50:32Z"
+      },
+      "deep": {
+        "status": "fail",
+        "error": "extract HTTP 429",
+        "tested_url": "https://www.cookingclassy.com/pumpkin-bundt-cake/",
+        "ingredients": 0,
+        "steps": 0,
+        "checked_at": "2026-10-17T18:53:40Z"
+      }
+    },
+    "https://whereismyspoon.co": {
+      "name": "Where Is My Spoon",
+      "checked_at": "2026-10-17T19:50:32Z",
+      "fast": {
+        "status": "ok",
+        "http_code": 200,
+        "response_ms": 107,
+        "rss_ok": true,
+        "rss_items": 10,
+        "checked_at": "2026-10-17T19:50:32Z"
+      },
+      "deep": {
+        "status": "fail",
+        "error": "extract HTTP 429",
+        "tested_url": "https://whereismyspoon.co/german-obatzda-recipe/",
+        "ingredients": 0,
+        "steps": 0,
+        "checked_at": "2026-10-17T18:53:40Z"
+      }
+    },
+    "https://www.eatperu.com": {
+      "name": "Eat Peru",
+      "checked_at": "2026-10-17T19:50:32Z",
+      "fast": {
+        "status": "ok",
+        "http_code": 200,
+        "response_ms": 104,
+        "rss_ok": true,
+        "rss_items": 10,
+        "checked_at": "2026-10-17T19:50:32Z"
+      },
+      "deep": {
+        "status": "fail",
+        "error": "extract HTTP 429",
+        "tested_url": "https://www.eatperu.com/jamon-del-pais-peruvian-country-ham/",
+        "ingredients": 0,
+        "steps": 0,
+        "checked_at": "2026-10-17T18:53:40Z"
+      }
+    },
+    "https://islandsmile.org": {
+      "name": "Island Smile",
+      "checked_at": "2026-10-17T19:50:32Z",
+      "fast": {
+        "status": "ok",
+        "http_code": 200,
+        "response_ms": 968,
+        "rss_ok": true,
+        "rss_items": 5,
+        "checked_at": "2026-10-17T19:50:32Z"
+      },
+      "deep": {
+        "status": "fail",
+        "error": "extract HTTP 429",
+        "tested_url": "https://www.islandsmile.org/sweet-and-spicy-chicken-wings-stovetop-recipe/",
+        "ingredients": 0,
+        "steps": 0,
+        "checked_at": "2026-10-17T18:53:40Z"
+      }
+    },
+    "https://asassyspoon.com": {
+      "name": "A Sassy Spoon",
+      "checked_at": "2026-10-17T19:50:32Z",
+      "fast": {
+        "status": "ok",
+        "http_code": 200,
+        "response_ms": 223,
+        "rss_ok": true,
+        "rss_items": 6,
+        "checked_at": "2026-10-17T19:50:32Z"
+      },
+      "deep": {
+        "status": "fail",
+        "error": "extract HTTP 429",
+        "tested_url": "https://asassyspoon.com/pudin-de-pan/",
+        "ingredients": 0,
+        "steps": 0,
+        "checked_at": "2026-10-17T18:53:40Z"
+      }
+    },
+    "https://tasteofmaroc.com": {
+      "name": "Taste of Maroc",
+      "checked_at": "2026-10-17T19:50:32Z",
+      "fast": {
+        "status": "ok",
+        "http_code": 200,
+        "response_ms": 85,
+        "rss_ok": true,
+        "rss_items": 10,
+        "checked_at": "2026-10-17T19:50:32Z"
+      },
+      "deep": {
+        "status": "fail",
+        "error": "extract HTTP 429",
+        "tested_url": "https://tasteofmaroc.com/moroccan-mallow-salad/",
+        "ingredients": 0,
+        "steps": 0,
+        "checked_at": "2026-10-17T18:53:40Z"
+      }
+    },
+    "https://www.daringgourmet.com": {
+      "name": "The Daring Gourmet",
+      "checked_at": "2026-10-17T19:50:32Z",
+      "fast": {
+        "status": "ok",
+        "http_code": 200,
+        "response_ms": 118,
+        "rss_ok": true,
+        "rss_items": 3,
+        "checked_at": "2026-10-17T19:50:32Z"
+      },
+      "deep": {
+        "status": "fail",
+        "error": "extract HTTP 429",
+        "tested_url": "https://www.daringgourmet.com/pumpkin-butter/",
+        "ingredients": 0,
+        "steps": 0,
+        "checked_at": "2026-10-17T18:53:40Z"
+      }
+    },
+    "https://ministryofcurry.com": {
+      "name": "Ministry of Curry",
+      "checked_at": "2026-10-17T19:50:32Z",
+      "fast": {
+        "status": "ok",
+        "http_code": 200,
+        "response_ms": 138,
+        "rss_ok": true,
+        "rss_items": 10,
+        "checked_at": "2026-10-17T19:50:32Z"
+      },
+      "deep": {
+        "status": "fail",
+        "error": "extract HTTP 429",
+        "tested_url": "https://ministryofcurry.com/alu-chi-bhaji/",
+        "ingredients": 0,
+        "steps": 0,
+        "checked_at": "2026-10-17T18:53:40Z"
+      }
+    },
+    "https://teaforturmeric.com": {
+      "name": "Tea For Turmeric",
+      "checked_at": "2026-10-17T19:50:32Z",
+      "fast": {
+        "status": "ok",
+        "http_code": 200,
+        "response_ms": 302,
+        "rss_ok": true,
+        "rss_items": 10,
+        "checked_at": "2026-10-17T19:50:32Z"
+      },
+      "deep": {
+        "status": "fail",
+        "error": "extract HTTP 429",
+        "tested_url": "https://www.teaforturmeric.com/dum-ka-keema/",
+        "ingredients": 0,
+        "steps": 0,
+        "checked_at": "2026-10-17T18:53:40Z"
+      }
+    },
+    "https://www.mexicanplease.com": {
+      "name": "Mexican Please",
+      "checked_at": "2026-10-17T19:50:32Z",
+      "fast": {
+        "status": "ok",
+        "http_code": 200,
+        "response_ms": 435,
+        "rss_ok": true,
+        "rss_items": 10,
+        "checked_at": "2026-10-17T19:50:32Z"
+      },
+      "deep": {
+        "status": "fail",
+        "error": "extract HTTP 429",
+        "tested_url": "https://www.mexicanplease.com/12-mexican-soup-recipes-yum/?utm_source=rss&utm_medium=rss&utm_campaign=12-mexican-soup-recipes-yum",
+        "ingredients": 0,
+        "steps": 0,
+        "checked_at": "2026-10-17T18:53:40Z"
+      }
+    },
+    "https://cnz.to": {
+      "name": "Chocolate & Zucchini",
+      "checked_at": "2026-10-17T19:50:32Z",
+      "fast": {
+        "status": "ok",
+        "http_code": 200,
+        "response_ms": 948,
+        "rss_ok": true,
+        "rss_items": 10,
+        "checked_at": "2026-10-17T19:50:32Z"
+      },
+      "deep": {
+        "status": "fail",
+        "error": "extract HTTP 429",
+        "tested_url": "https://cnz.to/recipes/meat-charcuterie/springtime-pot-au-feu-beef-stew-recipe/",
+        "ingredients": 0,
+        "steps": 0,
+        "checked_at": "2026-10-17T18:53:40Z"
+      }
+    },
+    "https://perudelights.com": {
+      "name": "Peru Delights",
+      "checked_at": "2026-10-17T19:50:32Z",
+      "fast": {
+        "status": "ok",
+        "http_code": 200,
+        "response_ms": 458,
+        "rss_ok": true,
+        "rss_items": 6,
+        "checked_at": "2026-10-17T19:50:32Z"
+      },
+      "deep": {
+        "status": "fail",
+        "error": "extract HTTP 429",
+        "tested_url": "https://perudelights.com/10-kitchen-organization-tips/",
+        "ingredients": 0,
+        "steps": 0,
+        "checked_at": "2026-10-17T18:53:40Z"
+      }
+    },
+    "https://easybrazilianfood.com": {
+      "name": "Easy Brazilian Food",
+      "checked_at": "2026-10-17T19:50:32Z",
+      "fast": {
+        "status": "ok",
+        "http_code": 200,
+        "response_ms": 484,
+        "rss_ok": true,
+        "rss_items": 10,
+        "checked_at": "2026-10-17T19:50:32Z"
+      },
+      "deep": {
+        "status": "fail",
+        "error": "extract HTTP 429",
+        "tested_url": "https://easybrazilianfood.com/best-brazilian-side-dishes/",
+        "ingredients": 0,
+        "steps": 0,
+        "checked_at": "2026-10-17T18:53:40Z"
+      }
+    },
+    "https://bojongourmet.com": {
+      "name": "The Bojon Gourmet",
+      "checked_at": "2026-10-17T19:50:32Z",
+      "fast": {
+        "status": "ok",
+        "http_code": 200,
+        "response_ms": 151,
+        "rss_ok": true,
+        "rss_items": 6,
+        "checked_at": "2026-10-17T19:50:32Z"
+      },
+      "deep": {
+        "status": "fail",
+        "error": "extract HTTP 429",
+        "tested_url": "https://bojongourmet.com/gluten-free-apple-muffins-almond-oat-flour/",
+        "ingredients": 0,
+        "steps": 0,
+        "checked_at": "2026-10-17T18:53:40Z"
+      }
+    },
+    "https://www.foxyfolksy.com": {
+      "name": "Foxy Folksy",
+      "checked_at": "2026-10-17T19:50:32Z",
+      "fast": {
+        "status": "ok",
+        "http_code": 200,
+        "response_ms": 102,
+        "rss_ok": true,
+        "rss_items": 5,
+        "checked_at": "2026-10-17T19:50:32Z"
+      },
+      "deep": {
+        "status": "fail",
+        "error": "extract HTTP 429",
+        "tested_url": "https://www.foxyfolksy.com/chicken-masala/",
+        "ingredients": 0,
+        "steps": 0,
+        "checked_at": "2026-10-17T18:53:40Z"
+      }
+    },
+    "https://9jafoodie.com": {
+      "name": "9jafoodie",
+      "checked_at": "2026-10-17T19:50:32Z",
+      "fast": {
+        "status": "ok",
+        "http_code": 200,
+        "response_ms": 532,
+        "rss_ok": true,
+        "rss_items": 6,
+        "checked_at": "2026-10-17T19:50:32Z"
+      },
+      "deep": {
+        "status": "fail",
+        "error": "extract HTTP 429",
+        "tested_url": "https://9jafoodie.com/akara-waffles-a-crispy-savoury-twist-on-a-nigerian-classic/",
+        "ingredients": 0,
+        "steps": 0,
+        "checked_at": "2026-10-17T18:53:40Z"
+      }
+    },
+    "https://adventuresincooking.com": {
+      "name": "Adventures in Cooking",
+      "checked_at": "2026-10-17T19:50:32Z",
+      "fast": {
+        "status": "ok",
+        "http_code": 200,
+        "response_ms": 839,
+        "rss_ok": true,
+        "rss_items": 10,
+        "checked_at": "2026-10-17T19:50:32Z"
+      },
+      "deep": {
+        "status": "fail",
+        "error": "extract HTTP 429",
+        "tested_url": "https://adventuresincooking.com/one-pan-chicken-with-tomatoes/",
+        "ingredients": 0,
+        "steps": 0,
+        "checked_at": "2026-10-17T18:53:40Z"
+      }
+    },
+    "https://www.marocmama.com": {
+      "name": "MarocMama",
+      "checked_at": "2026-10-17T19:50:32Z",
+      "fast": {
+        "status": "ok",
+        "http_code": 200,
+        "response_ms": 758,
+        "rss_ok": true,
+        "rss_items": 10,
+        "checked_at": "2026-10-17T19:50:32Z"
+      },
+      "deep": {
+        "status": "fail",
+        "error": "extract HTTP 429",
+        "tested_url": "https://marocmama.com/moroccan-poufs/",
+        "ingredients": 0,
+        "steps": 0,
+        "checked_at": "2026-10-17T18:53:40Z"
+      }
+    },
+    "https://braziliankitchenabroad.com": {
+      "name": "Brazilian Kitchen Abroad",
+      "checked_at": "2026-10-17T19:50:32Z",
+      "fast": {
+        "status": "ok",
+        "http_code": 200,
+        "response_ms": 1094,
+        "rss_ok": true,
+        "rss_items": 6,
+        "checked_at": "2026-10-17T19:50:32Z"
+      },
+      "deep": {
+        "status": "fail",
+        "error": "extract HTTP 429",
+        "tested_url": "https://braziliankitchenabroad.com/air-fryer-picanha-recipe/",
+        "ingredients": 0,
+        "steps": 0,
+        "checked_at": "2026-10-17T18:53:40Z"
+      }
+    },
+    "https://zaatarandzaytoun.com": {
+      "name": "Zaatar & Zaytoun",
+      "checked_at": "2026-10-17T19:50:32Z",
+      "fast": {
+        "status": "ok",
+        "http_code": 200,
+        "response_ms": 616,
+        "rss_ok": true,
+        "rss_items": 10,
+        "checked_at": "2026-10-17T19:50:32Z"
+      },
+      "deep": {
+        "status": "fail",
+        "error": "extract HTTP 429",
+        "tested_url": "https://zaatarandzaytoun.com/mediterranean-baked-fish-with-thyme-and-tomato/",
+        "ingredients": 0,
+        "steps": 0,
+        "checked_at": "2026-10-17T18:53:40Z"
+      }
+    },
+    "https://www.tiffycooks.com": {
+      "name": "Tiffy Cooks",
+      "checked_at": "2026-10-17T19:50:32Z",
+      "fast": {
+        "status": "ok",
+        "http_code": 200,
+        "response_ms": 306,
+        "rss_ok": true,
+        "rss_items": 10,
+        "checked_at": "2026-10-17T19:50:32Z"
+      }
+    },
+    "https://hebbarskitchen.com": {
+      "name": "Hebbar's Kitchen",
+      "checked_at": "2026-10-17T19:50:32Z",
+      "fast": {
+        "status": "ok",
+        "http_code": 200,
+        "response_ms": 98,
+        "rss_ok": true,
+        "rss_items": 9,
+        "checked_at": "2026-10-17T19:50:32Z"
+      }
+    },
+    "https://trinigourmet.com": {
+      "name": "TriniGourmet",
+      "checked_at": "2026-10-17T19:50:32Z",
+      "fast": {
+        "status": "warn",
+        "http_code": 200,
+        "response_ms": 1828,
+        "rss_ok": false,
+        "rss_items": 0,
+        "checked_at": "2026-10-17T19:50:32Z",
+        "rss_error": "no element found: line 1, column 0"
+      }
+    },
+    "https://kimchimari.com": {
+      "name": "Kimchimari",
+      "checked_at": "2026-10-17T19:50:32Z",
+      "fast": {
+        "status": "ok",
+        "http_code": 200,
+        "response_ms": 78,
+        "rss_ok": true,
+        "rss_items": 10,
+        "checked_at": "2026-10-17T19:50:32Z"
+      }
+    },
+    "https://www.unicornsinthekitchen.com": {
+      "name": "Unicorns in the Kitchen",
+      "checked_at": "2026-10-17T19:50:32Z",
+      "fast": {
+        "status": "ok",
+        "http_code": 200,
+        "response_ms": 119,
+        "rss_ok": true,
+        "rss_items": 10,
+        "checked_at": "2026-10-17T19:50:32Z"
+      }
+    },
+    "https://www.archanaskitchen.com": {
+      "name": "Archana's Kitchen",
+      "checked_at": "2026-10-17T19:50:32Z",
+      "fast": {
+        "status": "warn",
+        "http_code": 200,
+        "response_ms": 80,
+        "rss_ok": false,
+        "rss_items": 0,
+        "checked_at": "2026-10-17T19:50:32Z",
+        "rss_error": "HTTP 404"
+      }
+    },
+    "https://www.cookingwithria.com": {
+      "name": "Cooking with Ria",
+      "checked_at": "2026-10-17T19:50:32Z",
+      "fast": {
+        "status": "ok",
+        "http_code": 200,
+        "response_ms": 787,
+        "rss_ok": true,
+        "rss_items": 10,
+        "checked_at": "2026-10-17T19:50:32Z"
+      }
+    },
+    "https://tchakayiti.com": {
+      "name": "Tchakayiti",
+      "checked_at": "2026-10-17T19:50:32Z",
+      "fast": {
+        "status": "warn",
+        "http_code": 200,
+        "response_ms": 3638,
+        "rss_ok": false,
+        "rss_items": 0,
+        "checked_at": "2026-10-17T19:50:32Z",
+        "rss_error": "HTTP 404"
+      }
+    },
+    "https://dailycookingquest.com": {
+      "name": "Daily Cooking Quest",
+      "checked_at": "2026-10-17T19:50:32Z",
+      "fast": {
+        "status": "ok",
+        "http_code": 200,
+        "response_ms": 46,
+        "rss_ok": true,
+        "rss_items": 802,
+        "checked_at": "2026-10-17T19:50:32Z"
+      }
+    },
+    "https://www.crazykoreancooking.com": {
+      "name": "Crazy Korean Cooking",
+      "checked_at": "2026-10-17T19:50:32Z",
+      "fast": {
+        "status": "ok",
+        "http_code": 200,
+        "response_ms": 723,
+        "rss_ok": true,
+        "rss_items": 10,
+        "checked_at": "2026-10-17T19:50:32Z"
+      }
+    },
+    "https://www.linsfood.com": {
+      "name": "Singaporean and Malaysian Recipes",
+      "checked_at": "2026-10-17T19:50:32Z",
+      "fast": {
+        "status": "ok",
+        "http_code": 200,
+        "response_ms": 98,
+        "rss_ok": true,
+        "rss_items": 3,
+        "checked_at": "2026-10-17T19:50:32Z"
+      }
+    },
+    "https://www.cookingwithlane.com": {
+      "name": "Cooking with Lane",
+      "checked_at": "2026-10-17T19:50:32Z",
+      "fast": {
+        "status": "ok",
+        "http_code": 200,
+        "response_ms": 314,
+        "rss_ok": true,
+        "rss_items": 10,
+        "checked_at": "2026-10-17T19:50:32Z"
+      }
+    },
+    "https://thegreekfoodie.com": {
+      "name": "The Greek Foodie",
+      "checked_at": "2026-10-17T19:50:32Z",
+      "fast": {
+        "status": "ok",
+        "http_code": 200,
+        "response_ms": 110,
+        "rss_ok": true,
+        "rss_items": 2,
+        "checked_at": "2026-10-17T19:50:32Z"
+      }
+    },
+    "https://true-north-kitchen.com": {
+      "name": "True North Kitchen",
+      "checked_at": "2026-10-17T19:50:32Z",
+      "fast": {
+        "status": "ok",
+        "http_code": 200,
+        "response_ms": 99,
+        "rss_ok": true,
+        "rss_items": 10,
+        "checked_at": "2026-10-17T19:50:32Z"
+      }
+    },
+    "https://www.jamaicanfoodsandrecipes.com": {
+      "name": "Jamaican Foods and Recipes",
+      "checked_at": "2026-10-17T19:50:32Z",
+      "fast": {
+        "status": "ok",
+        "http_code": 200,
+        "response_ms": 430,
+        "rss_ok": true,
+        "rss_items": 10,
+        "checked_at": "2026-10-17T19:50:32Z"
+      }
+    },
+    "https://wetrinifood.com": {
+      "name": "WeTrinifood",
+      "checked_at": "2026-10-17T19:50:32Z",
+      "fast": {
+        "status": "ok",
+        "http_code": 200,
+        "response_ms": 401,
+        "rss_ok": true,
+        "rss_items": 10,
+        "checked_at": "2026-10-17T19:50:32Z"
+      }
+    },
+    "https://cookingwithayeh.com": {
+      "name": "Cooking with Ayeh",
+      "checked_at": "2026-10-17T19:50:32Z",
+      "fast": {
+        "status": "ok",
+        "http_code": 200,
+        "response_ms": 159,
+        "rss_ok": true,
+        "rss_items": 10,
+        "checked_at": "2026-10-17T19:50:32Z"
+      }
+    },
+    "https://petersfoodadventures.com": {
+      "name": "Peter's Food Adventures",
+      "checked_at": "2026-10-17T19:50:32Z",
+      "fast": {
+        "status": "ok",
+        "http_code": 200,
+        "response_ms": 345,
+        "rss_ok": true,
+        "rss_items": 10,
+        "checked_at": "2026-10-17T19:50:32Z"
+      }
+    },
+    "https://helvetickitchen.com": {
+      "name": "Helvetic Kitchen",
+      "checked_at": "2026-10-17T19:50:32Z",
+      "fast": {
+        "status": "warn",
+        "http_code": 200,
+        "response_ms": 434,
+        "rss_ok": false,
+        "rss_items": 0,
+        "checked_at": "2026-10-17T19:50:32Z",
+        "rss_error": "HTTP 404"
+      }
+    },
+    "https://senseandedibility.com": {
+      "name": "Sense and Edibility",
+      "checked_at": "2026-10-17T19:50:32Z",
+      "fast": {
+        "status": "ok",
+        "http_code": 200,
+        "response_ms": 109,
+        "rss_ok": true,
+        "rss_items": 10,
+        "checked_at": "2026-10-17T19:50:32Z"
+      }
+    },
+    "https://www.chileanfoodandgarden.com": {
+      "name": "Chilean Food and Garden",
+      "checked_at": "2026-10-17T19:50:32Z",
+      "fast": {
+        "status": "warn",
+        "http_code": 200,
+        "response_ms": 101,
+        "rss_ok": false,
+        "rss_items": 0,
+        "checked_at": "2026-10-17T19:50:32Z",
+        "rss_error": "XML or text declaration not at start of entity: line 2, colu"
+      }
+    },
+    "https://www.sugaretal.com": {
+      "name": "Sugar Et Al",
+      "checked_at": "2026-10-17T19:50:32Z",
+      "fast": {
+        "status": "dead",
+        "http_code": 404,
+        "response_ms": 428,
+        "rss_ok": false,
+        "rss_items": 0,
+        "checked_at": "2026-10-17T19:50:32Z",
+        "rss_error": "HTTP 404"
+      }
+    },
+    "https://www.midiariodecocina.com/en/": {
+      "name": "Mi Diario de Cocina",
+      "checked_at": "2026-10-17T19:50:32Z",
+      "fast": {
+        "status": "ok",
+        "http_code": 200,
+        "response_ms": 444,
+        "rss_ok": true,
+        "rss_items": 10,
+        "checked_at": "2026-10-17T19:50:32Z"
+      }
+    },
+    "https://chelseawinter.co.nz": {
+      "name": "Chelsea Winter",
+      "checked_at": "2026-10-17T19:50:32Z",
+      "fast": {
+        "status": "ok",
+        "http_code": 200,
+        "response_ms": 419,
+        "rss_ok": true,
+        "rss_items": 5,
+        "checked_at": "2026-10-17T19:50:32Z"
+      }
+    },
+    "https://www.cookingwithzahra.com": {
+      "name": "Cooking with Zahra",
+      "checked_at": "2026-10-17T19:50:32Z",
+      "fast": {
+        "status": "ok",
+        "http_code": 200,
+        "response_ms": 326,
+        "rss_ok": true,
+        "rss_items": 10,
+        "checked_at": "2026-10-17T19:50:32Z"
+      }
+    },
+    "https://thekoreanvegan.com": {
+      "name": "The Korean Vegan",
+      "checked_at": "2026-10-17T19:50:32Z",
+      "fast": {
+        "status": "ok",
+        "http_code": 200,
+        "response_ms": 96,
+        "rss_ok": true,
+        "rss_items": 10,
+        "checked_at": "2026-10-17T19:50:32Z"
+      }
+    }
+  }
+}
