@@ -568,7 +568,7 @@
   {
     "name": "Dirndl Kitchen",
     "url": "https://dirndlkitchen.com",
-    "cuisine": "German",
+    "cuisine": "Central European",
     "tagline": "Authentic German recipes from a Trier native.",
     "image_url": "https://dirndlkitchen.com/wp-content/uploads/2025/10/sophes-first-german-cookpage-german-home-kitchen-out-now-scaled.png",
     "rss_url": "https://dirndlkitchen.com/feed/"
@@ -576,7 +576,7 @@
   {
     "name": "Little Vienna",
     "url": "https://lilvienna.com",
-    "cuisine": "Austrian",
+    "cuisine": "Central European",
     "tagline": "Apfelstrudel, Schnitzel, and Viennese classics at home.",
     "image_url": "https://www.lilvienna.com/wp-content/uploads/Recipe-plum-crumble-easy-560x560.jpg",
     "rss_url": "https://lilvienna.com/feed/"
@@ -1384,7 +1384,7 @@
   {
     "name": "Helvetic Kitchen",
     "url": "https://helvetickitchen.com",
-    "cuisine": "Swiss",
+    "cuisine": "Central European",
     "tagline": "314+ traditional Swiss recipes in English since 2015 by a Canadian pastry chef in Zurich.",
     "image_url": "",
     "rss_url": "https://helvetickitchen.com/feed/"
