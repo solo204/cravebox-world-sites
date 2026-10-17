@@ -3038,7 +3038,8 @@
         "rss_ok": true,
         "rss_items": 10,
         "checked_at": "2026-10-17T19:50:32Z"
-      }
+      },
+      "user_tested": true
     },
     "https://helvetickitchen.com": {
       "name": "Helvetic Kitchen",
