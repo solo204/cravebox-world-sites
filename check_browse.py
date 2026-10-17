@@ -15,6 +15,7 @@ Usage:
 import argparse
 import json
 import os
+import re
 import sys
 import time
 import xml.etree.ElementTree as ET
@@ -24,9 +25,10 @@ from pathlib import Path
 
 import requests
 
-DATA_DIR    = Path(__file__).parent / "data"
-BROWSE_PATH = DATA_DIR / "browse_cuisines.json"
-HEALTH_PATH = DATA_DIR / "site_health.json"
+DATA_DIR      = Path(__file__).parent / "data"
+BROWSE_PATH   = DATA_DIR / "browse_cuisines.json"
+HEALTH_PATH   = DATA_DIR / "site_health.json"
+CURATED_PATH  = DATA_DIR / "curated_recipe_urls.json"
 
 HEADERS = {
     "User-Agent": "Mozilla/5.0 (compatible; CraveBox-Checker/1.0)",
@@ -34,7 +36,7 @@ HEADERS = {
 }
 
 BACKEND_URL = os.environ.get("CRAVEBOX_BACKEND", "https://cravebox-backend.onrender.com")
-API_KEY     = os.environ.get("CRAVEBOX_API_KEY", "85bf5ec2371d9cc653837f288c4b1a365babbe551972063266e46e71c6c9dcc3")
+API_KEY     = os.environ.get("CRAVEBOX_API_KEY", "")  # set in GitHub Secrets / local env — never hardcode
 
 NOW = datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
 
@@ -43,6 +45,16 @@ NOW = datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
 def load_browse():
     with open(BROWSE_PATH, encoding="utf-8") as f:
         return json.load(f)
+
+def load_curated():
+    if not CURATED_PATH.exists():
+        return {}
+    with open(CURATED_PATH, encoding="utf-8") as f:
+        return json.load(f)
+
+def _clean_url(url):
+    """Strip tracking query parameters from a URL."""
+    return re.sub(r'\?.*$', '', url.strip())
 
 def load_health():
     if not HEALTH_PATH.exists():
@@ -164,7 +176,7 @@ def _print_fast_summary(results, sites):
 # ── Tier 2: Deep check ─────────────────────────────────────────────────────────
 
 def _get_rss_urls(site, max_items=5):
-    """Return up to max_items article URLs from the RSS feed."""
+    """Return up to max_items article URLs from the RSS feed, tracking params stripped."""
     rss_url = site.get("rss_url", "")
     if not rss_url:
         return []
@@ -177,8 +189,9 @@ def _get_rss_urls(site, max_items=5):
         for item in items[:max_items]:
             link = (item.findtext("link") or
                     (item.find("{http://www.w3.org/2005/Atom}link") or {}).get("href", ""))
-            if link.strip():
-                urls.append(link.strip())
+            clean = _clean_url(link)
+            if clean:
+                urls.append(clean)
         return urls
     except Exception:
         return []
@@ -190,15 +203,25 @@ def _extract_one(recipe_url):
     if API_KEY:
         headers["X-API-Key"] = API_KEY
     try:
-        resp = requests.post(
-            f"{BACKEND_URL}/extract",
-            json={"url": recipe_url},
-            headers=headers,
-            timeout=15,
-        )
-        if resp.status_code != 200:
-            return 0, 0, "", f"extract HTTP {resp.status_code}"
-        job_id = resp.json().get("job_id")
+        # Retry up to 3 times on 429 (backend rate limit)
+        for attempt in range(3):
+            resp = requests.post(
+                f"{BACKEND_URL}/extract",
+                json={"url": recipe_url},
+                headers=headers,
+                timeout=15,
+            )
+            if resp.status_code == 429:
+                wait = 130 if attempt == 0 else 260  # 2+ min gaps to clear 30/hr window
+                print(f"    ⏳ 429 rate limit — waiting {wait}s before retry {attempt+1}/2")
+                time.sleep(wait)
+                continue
+            if resp.status_code != 200:
+                return 0, 0, "", f"extract HTTP {resp.status_code}"
+            job_id = resp.json().get("job_id")
+            break
+        else:
+            return 0, 0, "", "extract 429 after retries"
     except Exception as e:
         return 0, 0, "", str(e)[:80]
 
@@ -228,22 +251,32 @@ def _extract_one(recipe_url):
         return 0, 0, "", str(e)[:80]
 
 
-def deep_check_site(site):
-    url       = site["url"]
-    result    = {}
-    rss_urls  = _get_rss_urls(site, max_items=5)
+def deep_check_site(site, curated=None):
+    url      = site["url"]
+    result   = {}
+    curated  = curated or {}
 
-    if not rss_urls:
+    # Build candidate URLs: curated first, then RSS items
+    candidate_urls = []
+    curated_url = curated.get(url.rstrip("/"))
+    if curated_url:
+        candidate_urls.append(curated_url)
+    rss_urls = _get_rss_urls(site, max_items=5)
+    for u in rss_urls:
+        if u not in candidate_urls:
+            candidate_urls.append(u)
+
+    if not candidate_urls:
         result["deep"] = {
             "status": "fail", "error": "no RSS item URLs",
             "ingredients": 0, "steps": 0, "checked_at": NOW
         }
         return url, result
 
-    # Try each RSS item until one extracts a real recipe
+    # Try each candidate until one extracts a real recipe
     last_error  = ""
-    tested_url  = rss_urls[0]
-    for recipe_url in rss_urls:
+    tested_url  = candidate_urls[0]
+    for recipe_url in candidate_urls:
         n_ing, n_step, conf, err = _extract_one(recipe_url)
         if n_ing >= 3 and n_step >= 2:
             result["deep"] = {
@@ -285,18 +318,28 @@ def deep_check_site(site):
     return url, result
 
 
-def run_deep(sites, workers=4):
-    print(f"\n── Tier 2: Deep check ({len(sites)} sites, {workers} workers) ──")
+def run_deep(sites, workers=1, inter_site_delay=30):
+    """
+    Deep check all sites.
+    inter_site_delay: seconds to sleep between each /extract call (default 30s).
+    Combined with ~90s extraction time this keeps throughput ≤ 30/hour.
+    Set to 0 to disable (only safe if the backend rate limit is raised).
+    """
+    print(f"\n── Tier 2: Deep check ({len(sites)} sites, {workers} worker(s), "
+          f"{inter_site_delay}s delay) ──")
     if not API_KEY:
         print("  ⚠  CRAVEBOX_API_KEY not set — requests will be unauthenticated")
     health  = load_health()
     results = health.get("results", {})
+    curated = load_curated()
     done    = 0
 
-    with ThreadPoolExecutor(max_workers=workers) as ex:
-        futures = {ex.submit(deep_check_site, s): s for s in sites}
-        for future in as_completed(futures):
-            site_url, result = future.result()
+    if workers == 1:
+        # Sequential loop so we can sleep between requests
+        for site in sites:
+            if done > 0 and inter_site_delay > 0:
+                time.sleep(inter_site_delay)
+            site_url, result = deep_check_site(site, curated)
             if site_url not in results:
                 results[site_url] = {}
             results[site_url].update(result)
@@ -307,11 +350,32 @@ def run_deep(sites, workers=4):
             name = results[site_url].get("name", site_url)
             ing  = deep.get("ingredients", 0)
             step = deep.get("steps", 0)
-            print(f"  [{done:3}/{len(sites)}] {icon} {name[:38]:<38}  {st}  "
-                  f"({ing} ingredients, {step} steps)")
+            eta  = (len(sites) - done) * (90 + inter_site_delay) // 60
+            print(f"  [{done:3}/{len(sites)}] {icon} {name[:36]:<36}  {st}  "
+                  f"({ing} ing, {step} steps)  ~{eta}m left")
+            # Save after every site so a crash doesn't lose progress
+            health["results"] = results
+            save_health(health)
+    else:
+        with ThreadPoolExecutor(max_workers=workers) as ex:
+            futures = {ex.submit(deep_check_site, s, curated): s for s in sites}
+            for future in as_completed(futures):
+                site_url, result = future.result()
+                if site_url not in results:
+                    results[site_url] = {}
+                results[site_url].update(result)
+                done += 1
+                deep = result.get("deep", {})
+                st   = deep.get("status", "?")
+                icon = "✓" if st == "ok" else ("⚠" if st == "warn" else "✗")
+                name = results[site_url].get("name", site_url)
+                ing  = deep.get("ingredients", 0)
+                step = deep.get("steps", 0)
+                print(f"  [{done:3}/{len(sites)}] {icon} {name[:38]:<38}  {st}  "
+                      f"({ing} ingredients, {step} steps)")
+        health["results"] = results
+        save_health(health)
 
-    health["results"] = results
-    save_health(health)
     _print_deep_summary(results, sites)
     return results
 
@@ -381,6 +445,7 @@ def main():
     parser.add_argument("--only-failed", action="store_true", help="Deep check only fast warn/dead sites")
     parser.add_argument("--site",        type=str,            help="Check a single site URL")
     parser.add_argument("--report",      action="store_true", help="Print summary from existing site_health.json")
+    parser.add_argument("--delay",       type=int, default=30, help="Seconds to sleep between deep checks (default 30)")
     args = parser.parse_args()
 
     if args.report:
@@ -396,7 +461,7 @@ def main():
             sys.exit(1)
         sites = match
         run_fast(sites, workers=1)
-        run_deep(sites, workers=1)
+        run_deep(sites, workers=1, inter_site_delay=0)
         print_report()
         return
 
@@ -412,7 +477,7 @@ def main():
         else:
             deep_sites = sites
         if deep_sites:
-            run_deep(deep_sites)
+            run_deep(deep_sites, inter_site_delay=args.delay)
 
     print_report()
 

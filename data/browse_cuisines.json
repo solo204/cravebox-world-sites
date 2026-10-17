@@ -672,14 +672,6 @@
     "rss_url": "https://cookingorgeous.com/feed/"
   },
   {
-    "name": "Persian Mama",
-    "url": "https://persianmama.com",
-    "cuisine": "Persian",
-    "tagline": "Step-by-step Persian recipes with beautiful photo tutorials.",
-    "image_url": "https://persianmama.com/wp-content/uploads/2019/02/Abdoogh-khiar-1.jpg",
-    "rss_url": "https://www.persianmama.com/feed/rss2/"
-  },
-  {
     "name": "Family Spice",
     "url": "https://familyspice.com",
     "cuisine": "Persian",
