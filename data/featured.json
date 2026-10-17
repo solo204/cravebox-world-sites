@@ -1,106 +1,120 @@
 {
-  "updated_at": "2026-10-17T20:10:44Z",
+  "updated_at": "2026-10-16T19:19:52Z",
   "slot_hours": 2,
-  "slot_idx": 5,
-  "week": 6,
+  "slot_idx": 9,
+  "week": 10,
   "featured_sites": [
     {
-      "name": "Natasha's Kitchen",
-      "url": "https://natashaskitchen.com",
+      "name": "Feasting at Home",
+      "url": "https://www.feastingathome.com",
+      "cuisine": "Global",
+      "tagline": "Fresh seasonal recipes with global inspiration.",
+      "image_url": "https://www.feastingathome.com/wp-content/uploads/2026/09/Eggplant-Tikka-Masala-13-768x1152.jpg",
+      "rss_url": "https://www.feastingathome.com/feed/"
+    },
+    {
+      "name": "Smitten Kitchen",
+      "url": "https://smittenkitchen.com",
       "cuisine": "American",
-      "tagline": "Trusted recipes for everyday cooking.",
-      "image_url": "https://natashaskitchen.com/wp-content/uploads/2026/09/Pumpkin-Cinnamon-Rolls-7.jpg",
-      "rss_url": "https://natashaskitchen.com/feed/"
+      "tagline": "Fearless cooking from a tiny kitchen.",
+      "image_url": "https://i0.wp.com/smittenkitchen.com/wp-content/uploads/2026/09/simple-chicken-tacos-09-scaled.jpg",
+      "rss_url": "https://smittenkitchen.com/feed/"
     },
     {
-      "name": "Updated Recipes",
-      "url": "https://updatedrecipes.com",
-      "cuisine": "Comfort Food",
-      "tagline": "Comfort Food That Feels Like Home",
-      "image_url": "https://updatedrecipes.com/wp-content/uploads/2026/05/roasted-king-salmon-lemon-butter-recipe-768x512.webp",
-      "rss_url": "https://updatedrecipes.com/feed/"
+      "name": "101 Cookbooks",
+      "url": "https://www.101cookbooks.com",
+      "cuisine": "Vegetarian",
+      "tagline": "Natural, whole-food recipes for healthy living.",
+      "image_url": "https://images.101cookbooks.com/LEMON-ROASTED-POTATOES-v.jpg",
+      "rss_url": "https://www.101cookbooks.com/feed/"
     },
     {
-      "name": "Downshiftology",
-      "url": "https://downshiftology.com",
-      "cuisine": "Healthy",
-      "tagline": "Simple, gluten-free recipes for healthy living.",
-      "image_url": "https://www.downshiftology.com/wp-content/uploads/2026/08/Spanish-Flan-main-800x437.jpg",
-      "rss_url": "https://downshiftology.com/feed/"
-    },
-    {
-      "name": "Pardon Your French",
-      "url": "https://www.pardonyourfrench.com",
-      "cuisine": "French",
-      "tagline": "Classic French home cooking, made approachable.",
-      "image_url": "https://i0.wp.com/www.pardonyourfrench.com/wp-content/uploads/2026/09/traditional-tartiflette-recipe-11.jpg?fit=801%2C1200&ssl=1",
-      "rss_url": "https://www.pardonyourfrench.com/feed/"
+      "name": "An Italian in My Kitchen",
+      "url": "https://www.anitalianinmykitchen.com",
+      "cuisine": "Italian",
+      "tagline": "Authentic Italian recipes from a Roman cook.",
+      "image_url": "https://anitalianinmykitchen.com/wp-content/uploads/2026/09/tiramisu-crostata-1-of-1-683x1024.jpg",
+      "rss_url": "https://www.anitalianinmykitchen.com/feed/"
     }
   ],
   "featured_recipes": {
     "Mon": {
-      "cuisine": "American",
-      "image_url": "https://natashaskitchen.com/wp-content/uploads/2026/09/Apple-Galette-SQ.jpg",
-      "recipe_url": "https://natashaskitchen.com/apple-galette/?adt_ei={{ subscriber.email_address }}",
-      "site_name": "Natasha's Kitchen",
-      "title": "This Apple Galette is Easier than Pie 🍎",
-      "url": "https://natashaskitchen.com/apple-galette/?adt_ei={{ subscriber.email_address }}"
+      "title": "Baked Eggplant Tikka Masala",
+      "url": "https://www.feastingathome.com/baked-eggplant-tikka-masala/",
+      "recipe_url": "https://www.feastingathome.com/baked-eggplant-tikka-masala/",
+      "image_url": "https://www.feastingathome.com/wp-content/uploads/2026/09/Eggplant-Tikka-Masala-13-768x1152.jpg",
+      "site_name": "Feasting at Home",
+      "site_url": "https://www.feastingathome.com",
+      "cuisine": "Global",
+      "published_at": "Tue, 06 Oct 2026 15:30:20 +0000"
     },
     "Tue": {
-      "cuisine": "Comfort Food",
-      "image_url": "https://updatedrecipes.com/wp-content/uploads/2026/10/creamy-garlic-shrimp-manicotti-featured-image.webp",
-      "recipe_url": "https://updatedrecipes.com/creamy-garlic-shrimp-manicotti/",
-      "site_name": "Updated Recipes",
-      "title": "Creamy Garlic Shrimp Manicotti",
-      "url": "https://updatedrecipes.com/creamy-garlic-shrimp-manicotti/"
+      "cuisine": "American",
+      "image_url": "https://i0.wp.com/smittenkitchen.com/wp-content/uploads/2026/06/strawberry-chiffon-shortcake-perfected-19-scaled.jpg?fit=640%2C427&amp;quality=89&amp;ssl=1",
+      "recipe_url": "https://smittenkitchen.com/2026/06/strawberry-chiffon-shortcake-perfected/",
+      "site_name": "Smitten Kitchen",
+      "title": "strawberry chiffon shortcake, perfected",
+      "url": "https://smittenkitchen.com/2026/06/strawberry-chiffon-shortcake-perfected/"
     },
     "Wed": {
-      "cuisine": "French",
-      "image_url": "https://i0.wp.com/www.pardonyourfrench.com/wp-content/uploads/2026/05/Provencal-Pork-Stew-15.jpg?fit=801%2C1200&#038;ssl=1",
-      "recipe_url": "https://www.pardonyourfrench.com/provencal-pork-stew/?utm_source=rss&utm_medium=rss&utm_campaign=provencal-pork-stew",
-      "site_name": "Pardon Your French",
-      "title": "Easy Provençal Pork Stew (French Pork Stew with Tomatoes, Peppers & Herbs)",
-      "url": "https://www.pardonyourfrench.com/provencal-pork-stew/?utm_source=rss&utm_medium=rss&utm_campaign=provencal-pork-stew"
+      "title": "Lemon Roasted Potatoes",
+      "url": "https://www.101cookbooks.com/lemon-roasted-potatoes/",
+      "recipe_url": "https://www.101cookbooks.com/lemon-roasted-potatoes/",
+      "image_url": "https://images.101cookbooks.com/LEMON-ROASTED-POTATOES-h.jpg?w=680",
+      "site_name": "101 Cookbooks",
+      "site_url": "https://www.101cookbooks.com",
+      "cuisine": "Vegetarian",
+      "published_at": "Thu, 08 Oct 2026 17:30:40 +0000"
     },
     "Thu": {
-      "cuisine": "Healthy",
-      "image_url": "https://downshiftology.com/wp-content/uploads/2026/08/Mississippi-Pot-Roast-main.jpg",
-      "recipe_url": "https://downshiftology.com/recipes/slow-cooker-mississippi-pot-roast/",
-      "site_name": "Downshiftology",
-      "title": "Slow Cooker Mississippi Pot Roast",
-      "url": "https://downshiftology.com/recipes/slow-cooker-mississippi-pot-roast/"
+      "cuisine": "Italian",
+      "image_url": "https://anitalianinmykitchen.com/wp-content/uploads/2026/09/tiramisu-crostata-1-of-1-683x1024.jpg",
+      "published_at": "Thu, 08 Oct 2026 11:52:15 +0000",
+      "recipe_url": "https://anitalianinmykitchen.com/tiramisu-crostata/",
+      "site_name": "An Italian in My Kitchen",
+      "site_url": "https://www.anitalianinmykitchen.com",
+      "title": "Tiramisu Crostata",
+      "url": "https://anitalianinmykitchen.com/tiramisu-crostata/"
     },
     "Fri": {
-      "cuisine": "Comfort Food",
-      "image_url": "https://updatedrecipes.com/wp-content/uploads/2026/10/crispy-cod-strips-tartar-sauce-featured-image.webp",
-      "recipe_url": "https://updatedrecipes.com/crispy-cod-strips-tartar-sauce/",
-      "site_name": "Updated Recipes",
-      "title": "Crispy Cod Strips with Homemade Tartar Sauce",
-      "url": "https://updatedrecipes.com/crispy-cod-strips-tartar-sauce/"
+      "title": "Chickpea Cacciatore",
+      "url": "https://www.feastingathome.com/chickpea-cacciatore/",
+      "recipe_url": "https://www.feastingathome.com/chickpea-cacciatore/",
+      "image_url": "https://www.feastingathome.com/wp-content/uploads/2026/09/Chickpea-cacciatore-11-768x1152.jpg",
+      "site_name": "Feasting at Home",
+      "site_url": "https://www.feastingathome.com",
+      "cuisine": "Global",
+      "published_at": "Thu, 01 Oct 2026 23:34:08 +0000"
     },
     "Sat": {
-      "cuisine": "Healthy",
-      "image_url": "https://i2.wp.com/www.downshiftology.com/wp-content/uploads/2026/08/Fall-Roasted-Vegetables-main.jpg",
-      "recipe_url": "https://downshiftology.com/recipes/fall-roasted-vegetables/",
-      "site_name": "Downshiftology",
-      "title": "Fall Roasted Vegetables",
-      "url": "https://downshiftology.com/recipes/fall-roasted-vegetables/"
+      "cuisine": "Vegan",
+      "image_url": "https://ohsheglows.com/wp-content/uploads/2013/04/springsaladvegan-3637.jpg",
+      "published_at": "Tue, 16 Apr 2024 17:04:28 +0000",
+      "recipe_url": "https://ohsheglows.com/warm-spring-salad/",
+      "site_name": "Oh She Glows",
+      "site_url": "https://ohsheglows.com",
+      "title": "Warm Spring Salad",
+      "url": "https://ohsheglows.com/warm-spring-salad/"
     },
     "Sun": {
-      "cuisine": "French",
-      "image_url": "https://i0.wp.com/www.pardonyourfrench.com/wp-content/uploads/2026/09/Blanquette-de-Veau-10.jpg?fit=801%2C1200&#038;ssl=1",
-      "recipe_url": "https://www.pardonyourfrench.com/blanquette-de-veau/?utm_source=rss&utm_medium=rss&utm_campaign=blanquette-de-veau",
-      "site_name": "Pardon Your French",
-      "title": "Blanquette de Veau (Classic French Veal Stew in White Sauce)",
-      "url": "https://www.pardonyourfrench.com/blanquette-de-veau/?utm_source=rss&utm_medium=rss&utm_campaign=blanquette-de-veau"
+      "title": "Butternut Squash Soup with Red Lentils",
+      "url": "https://www.101cookbooks.com/butternut-squash-soup/",
+      "recipe_url": "https://www.101cookbooks.com/butternut-squash-soup/",
+      "image_url": "https://images.101cookbooks.com/BUTTERNUT-SQUASH-SOUP-h.jpg?w=680",
+      "site_name": "101 Cookbooks",
+      "site_url": "https://www.101cookbooks.com",
+      "cuisine": "Vegetarian",
+      "published_at": "Tue, 22 Sep 2026 18:33:42 +0000"
     }
   },
   "featured_recipe": {
-    "cuisine": "French",
-    "image_url": "https://i0.wp.com/www.pardonyourfrench.com/wp-content/uploads/2026/09/Blanquette-de-Veau-10.jpg?fit=801%2C1200&#038;ssl=1",
-    "recipe_url": "https://www.pardonyourfrench.com/blanquette-de-veau/?utm_source=rss&utm_medium=rss&utm_campaign=blanquette-de-veau",
-    "site_name": "Pardon Your French",
-    "title": "Blanquette de Veau (Classic French Veal Stew in White Sauce)",
-    "url": "https://www.pardonyourfrench.com/blanquette-de-veau/?utm_source=rss&utm_medium=rss&utm_campaign=blanquette-de-veau"
+    "title": "Butternut Squash Soup with Red Lentils",
+    "url": "https://www.101cookbooks.com/butternut-squash-soup/",
+    "recipe_url": "https://www.101cookbooks.com/butternut-squash-soup/",
+    "image_url": "https://images.101cookbooks.com/BUTTERNUT-SQUASH-SOUP-h.jpg?w=680",
+    "site_name": "101 Cookbooks",
+    "site_url": "https://www.101cookbooks.com",
+    "cuisine": "Vegetarian",
+    "published_at": "Tue, 22 Sep 2026 18:33:42 +0000"
   }
 }
