@@ -1279,7 +1279,7 @@
   {
     "name": "Unicorns in the Kitchen",
     "url": "https://www.unicornsinthekitchen.com",
-    "cuisine": "Persian / Middle Eastern",
+    "cuisine": "Persian",
     "tagline": "Persian and Middle Eastern recipes by a Tehran-born creator with 215K+ Instagram followers.",
     "image_url": "",
     "rss_url": "https://www.unicornsinthekitchen.com/feed/"
@@ -1287,7 +1287,7 @@
   {
     "name": "Cooking with Zahra",
     "url": "https://www.cookingwithzahra.com",
-    "cuisine": "Arabic / Iranian",
+    "cuisine": "Persian",
     "tagline": "Gulf Arabic and Persian recipes by a Dubai-based creator with 338K+ Instagram followers.",
     "image_url": "",
     "rss_url": "https://www.cookingwithzahra.com/feed/"
@@ -1409,7 +1409,7 @@
   {
     "name": "The Korean Vegan",
     "url": "https://thekoreanvegan.com",
-    "cuisine": "Korean / Vegan",
+    "cuisine": "Korean",
     "tagline": "James Beard Award winner Joanne Molinaro; TikTok 3M, YouTube 1.4M; plant-based Korean.",
     "image_url": "",
     "rss_url": "https://thekoreanvegan.com/feed/"
@@ -1417,7 +1417,7 @@
   {
     "name": "Cooking with Ayeh",
     "url": "https://cookingwithayeh.com",
-    "cuisine": "Persian / Mediterranean",
+    "cuisine": "Persian",
     "tagline": "Australian-based Persian creator with TikTok 4.7M+; easy Persian-Mediterranean recipes.",
     "image_url": "",
     "rss_url": "https://cookingwithayeh.com/feed/"
