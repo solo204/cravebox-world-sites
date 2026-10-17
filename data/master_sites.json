@@ -789,15 +789,6 @@
     "rss_url": "https://marionskitchen.com/feed/"
   },
   {
-    "name": "Not Quite Nigella",
-    "url": "https://notquitenigella.com",
-    "cuisine": "Australian",
-    "tagline": "2000+ Australian recipes covering Japanese, Indian, and French.",
-    "image_url": "https://images.notquitenigella.com/images/pumpkin-ravioli/sp.jpg",
-    "rss_url": "https://www.notquitenigella.com/feed/",
-    "active": false
-  },
-  {
     "name": "Cafe Delites",
     "url": "https://cafedelites.com",
     "cuisine": "Australian",

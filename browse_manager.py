@@ -98,6 +98,7 @@ def save_browse(sites):
         json.dump(deduped, f, indent=2, ensure_ascii=False)
 
 def load_health():
+    """Returns the results dict from site_health.json."""
     if not HEALTH_PATH.exists():
         return {}
     try:
@@ -105,6 +106,21 @@ def load_health():
             return json.load(f).get("results", {})
     except Exception:
         return {}
+
+def set_user_tested(url, tested: bool):
+    """Toggle user_tested flag for a site in site_health.json."""
+    if HEALTH_PATH.exists():
+        try:
+            with open(HEALTH_PATH, encoding="utf-8") as f:
+                health = json.load(f)
+        except Exception:
+            health = {"results": {}}
+    else:
+        health = {"results": {}}
+    results = health.setdefault("results", {})
+    results.setdefault(url, {})["user_tested"] = tested
+    with open(HEALTH_PATH, "w", encoding="utf-8") as f:
+        json.dump(health, f, indent=2, ensure_ascii=False)
 
 def health_dot(url, health):
     """Return (dot_char, tooltip_text) for a site URL based on site_health.json."""
@@ -236,6 +252,14 @@ tr:hover td{background:#141414}
 /* Search */
 #search{max-width:300px;margin-bottom:16px}
 
+/* Tested checkbox */
+.tested-wrap{display:flex;align-items:center;gap=4px;padding:3px 8px 5px;
+             border-top:1px solid #1a1a1a}
+.tested-wrap label{font-size:9px;color:#555;cursor:pointer;display:flex;
+                   align-items:center;gap:4px;user-select:none}
+.tested-wrap input[type=checkbox]{accent-color:#ff6b35;width:11px;height:11px;cursor:pointer}
+.tested-wrap.is-tested label{color:#4ade80}
+
 /* Health badge */
 .health-dot{position:absolute;bottom:4px;right:4px;font-size:11px;line-height:1;
             cursor:default;z-index:2;filter:drop-shadow(0 0 2px #000)}
@@ -319,6 +343,14 @@ tr:hover td{background:#141414}
             </div>
             <button class="rm" onclick="removeSite({{ site.idx }}, '{{ site.name|e }}')">✕</button>
             <span class="health-dot" title="{{ site.health_tip }}">{{ site.health_dot }}</span>
+            <div class="tested-wrap {% if site.user_tested %}is-tested{% endif %}"
+                 id="tw-{{ site.idx }}">
+              <label>
+                <input type="checkbox" {% if site.user_tested %}checked{% endif %}
+                       onchange="markTested('{{ site.url|e }}', {{ site.idx }}, this.checked)">
+                tested ✓
+              </label>
+            </div>
           </div>
           {% endfor %}
         </div>
@@ -499,6 +531,15 @@ async function addSite() {
   else alert('Error: ' + data.error);
 }
 
+async function markTested(url, idx, checked) {
+  await fetch('/mark-tested', {
+    method: 'POST', headers: {'Content-Type': 'application/json'},
+    body: JSON.stringify({ url, tested: checked })
+  });
+  const wrap = document.getElementById('tw-' + idx);
+  if (wrap) wrap.classList.toggle('is-tested', checked);
+}
+
 function clearForm() {
   ['f-url','f-name','f-cuisine','f-tagline','f-rss','f-image'].forEach(
     id => document.getElementById(id).value = ''
@@ -540,8 +581,10 @@ def index():
     indexed = []
     for i, s in enumerate(sites):
         dot, tip = health_dot(s["url"], health)
+        tested = health.get(s["url"], {}).get("user_tested", False)
         indexed.append({"idx": i, "raw_cuisine": s.get("cuisine",""),
-                        "health_dot": dot, "health_tip": tip, **s})
+                        "health_dot": dot, "health_tip": tip,
+                        "user_tested": tested, **s})
     grouped = {}
     for s in indexed:
         c = display_cuisine(s.get("cuisine") or "")
@@ -615,6 +658,17 @@ def remove_site():
     sites.pop(idx)
     save_browse(sites)
     return jsonify({"ok": True, "total": len(sites)})
+
+
+@app.route("/mark-tested", methods=["POST"])
+def mark_tested():
+    data   = request.get_json()
+    url    = (data.get("url") or "").rstrip("/")
+    tested = bool(data.get("tested", False))
+    if not url:
+        return jsonify({"ok": False, "error": "url required"})
+    set_user_tested(url, tested)
+    return jsonify({"ok": True})
 
 
 @app.route("/move", methods=["POST"])

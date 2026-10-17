@@ -1,106 +1,122 @@
 {
-  "updated_at": "2026-10-17T16:51:08Z",
+  "updated_at": "2026-10-17T03:07:26Z",
   "slot_hours": 2,
-  "slot_idx": 4,
-  "week": 5,
+  "slot_idx": 13,
+  "week": 14,
   "featured_sites": [
     {
-      "name": "Ambitious Kitchen",
-      "url": "https://www.ambitiouskitchen.com",
-      "cuisine": "Healthy American",
-      "tagline": "Nutritious, feel-good recipes for real life.",
-      "image_url": "https://www.ambitiouskitchen.com/wp-content/uploads/2022/10/Peanut-Butter-Lovers-Banana-Bread-4-750x750.jpg",
-      "rss_url": "https://www.ambitiouskitchen.com/feed/"
+      "name": "Chef Lola's Kitchen",
+      "url": "https://cheflolaskitchen.com",
+      "cuisine": "Nigerian",
+      "tagline": "Authentic Nigerian recipes for everyday cooking.",
+      "image_url": "https://cheflolaskitchen.com/wp-content/uploads/2025/07/Classic-Stuffing.jpg",
+      "rss_url": "https://cheflolaskitchen.com/feed/"
     },
     {
-      "name": "Half Baked Harvest",
-      "url": "https://www.halfbakedharvest.com",
-      "cuisine": "American Comfort",
-      "tagline": "Feel-good food for every season.",
-      "image_url": "https://www.halfbakedharvest.com/wp-content/uploads/2026/10/Smothered-Chicken-in-Mushroom-Wine-Pan-Sauce-1.jpg",
-      "rss_url": "https://www.halfbakedharvest.com/feed/"
+      "name": "Afrolems",
+      "url": "https://afrolems.com",
+      "cuisine": "Nigerian",
+      "tagline": "Creative Nigerian recipes for international palates.",
+      "image_url": "https://i0.wp.com/www.afrolems.com/wp-content/uploads/2015/07/sadza-peanut-soup.jpg?resize=320%2C107&#038;ssl=1",
+      "rss_url": "https://afrolems.com/feed/"
     },
     {
-      "name": "Laylita's Recipes",
-      "url": "https://laylita.com/recipes",
-      "cuisine": "Latin American",
-      "tagline": "Ecuadorian and Latin American flavors from scratch.",
-      "image_url": "https://www.laylita.com/recipes/wp-content/uploads/2020/10/Pasta-salad-with-avocado-tomatoes-and-cheese-1024x767.jpg",
-      "rss_url": "https://laylita.com/recipes/feed/"
+      "name": "Kaluhi's Kitchen",
+      "url": "https://kaluhiskitchen.com",
+      "cuisine": "Kenyan",
+      "tagline": "Stunning Kenyan recipes with award-winning photography.",
+      "image_url": "https://www.kaluhiskitchen.com/wp-content/uploads/2026/07/FRIED-CHICKEN_UNBREADED-FRIED-CHICKEN_EASY-FRIED-CHICKEN_HOMEMADE-FRIED-CHICKEN_FRIED-CHICKEN-KENYA_KALUHISKITCHEN-1-1.jpg",
+      "rss_url": "https://kaluhiskitchen.com/feed/"
     },
     {
-      "name": "Kawaling Pinoy",
-      "url": "https://www.kawalingpinoy.com",
-      "cuisine": "Filipino",
-      "tagline": "Authentic Filipino recipes with a modern twist.",
-      "image_url": "https://www.kawalingpinoy.com/wp-content/uploads/2014/03/tortang-talong-3-680x884.jpg",
-      "rss_url": "https://www.kawalingpinoy.com/feed/"
+      "name": "Drizzle and Dip",
+      "url": "https://drizzleanddip.com",
+      "cuisine": "South African",
+      "tagline": "Cape Malay and South African cooking from a pro food stylist.",
+      "image_url": "https://drizzleanddip.com/wp-content/uploads/2026/09/Brie-burger-with-onions-cramelised-in-red-wine-1.jpg",
+      "rss_url": "https://drizzleanddip.com/feed/"
     }
   ],
   "featured_recipes": {
     "Mon": {
-      "cuisine": "Healthy American",
-      "image_url": "https://www.ambitiouskitchen.com/wp-content/uploads/2026/09/Olive-Oil-Double-Chocolate-Cookies-7-750x750.jpg",
-      "recipe_url": "https://www.ambitiouskitchen.com/double-chocolate-olive-oil-cookies/",
-      "site_name": "Ambitious Kitchen",
-      "title": "Double Chocolate Olive Oil Cookies",
-      "url": "https://www.ambitiouskitchen.com/double-chocolate-olive-oil-cookies/"
+      "cuisine": "Nigerian",
+      "image_url": "https://cheflolaskitchen.com/wp-content/uploads/2025/07/Rice-and-Beef-1.jpg",
+      "published_at": "Thu, 03 Sep 2026 20:22:51 +0000",
+      "recipe_url": "https://cheflolaskitchen.com/rice-and-beef/",
+      "site_name": "Chef Lola's Kitchen",
+      "site_url": "https://cheflolaskitchen.com",
+      "title": "Quick And Easy One-Pot Rice and Beef",
+      "url": "https://cheflolaskitchen.com/rice-and-beef/"
     },
     "Tue": {
-      "cuisine": "Healthy American",
-      "image_url": "https://www.ambitiouskitchen.com/wp-content/uploads/2026/08/Brown-Butter-Sage-Orzo-with-Sausage-Butternut-Squash-and-Goat-Cheese-6-750x750.jpg",
-      "recipe_url": "https://www.ambitiouskitchen.com/butternut-squash-orzo/",
-      "site_name": "Ambitious Kitchen",
-      "title": "Brown Butter Sage Orzo with Spicy Sausage & Butternut Squash",
-      "url": "https://www.ambitiouskitchen.com/butternut-squash-orzo/"
+      "title": "Unbreaded Spicy Fried Chicken",
+      "url": "https://www.kaluhiskitchen.com/unbreaded-spicy-fried-chicken/",
+      "recipe_url": "https://www.kaluhiskitchen.com/unbreaded-spicy-fried-chicken/",
+      "image_url": "https://www.kaluhiskitchen.com/wp-content/uploads/2026/07/FRIED-CHICKEN_UNBREADED-FRIED-CHICKEN_EASY-FRIED-CHICKEN_HOMEMADE-FRIED-CHICKEN_FRIED-CHICKEN-KENYA_KALUHISKITCHEN-1-1.jpg",
+      "site_name": "Kaluhi's Kitchen",
+      "site_url": "https://kaluhiskitchen.com",
+      "cuisine": "Kenyan",
+      "published_at": "Wed, 15 Jul 2026 08:49:00 +0000"
     },
     "Wed": {
-      "cuisine": "Healthy American",
-      "image_url": "https://www.ambitiouskitchen.com/wp-content/uploads/2025/01/Italian-Wedding-Soup-7-1-750x750.jpg",
-      "recipe_url": "https://www.ambitiouskitchen.com/italian-wedding-soup/",
-      "site_name": "Ambitious Kitchen",
-      "title": "Italian Wedding Soup",
-      "url": "https://www.ambitiouskitchen.com/italian-wedding-soup/"
+      "title": "Brie Burger With Onions Caramelised in Red Wine",
+      "url": "https://drizzleanddip.com/2026/10/01/brie-burger-with-onions-caramelised-in-red-wine/",
+      "recipe_url": "https://drizzleanddip.com/2026/10/01/brie-burger-with-onions-caramelised-in-red-wine/",
+      "image_url": "https://drizzleanddip.com/wp-content/uploads/2026/09/Brie-burger-with-onions-cramelised-in-red-wine-1.jpg",
+      "site_name": "Drizzle and Dip",
+      "site_url": "https://drizzleanddip.com",
+      "cuisine": "South African",
+      "published_at": "Thu, 01 Oct 2026 13:03:48 +0000"
     },
     "Thu": {
-      "cuisine": "Filipino",
-      "image_url": "https://www.kawalingpinoy.com/wp-content/uploads/2026/07/asian-garlic-noodles-1-768x1024.jpg",
-      "recipe_url": "https://www.kawalingpinoy.com/asian-garlic-noodles/",
-      "site_name": "Kawaling Pinoy",
-      "title": "Asian Garlic Noodles",
-      "url": "https://www.kawalingpinoy.com/asian-garlic-noodles/"
+      "cuisine": "Nigerian",
+      "image_url": "https://cheflolaskitchen.com/wp-content/uploads/2015/06/Fried-Rice-20.jpg",
+      "published_at": "Wed, 26 Aug 2026 23:31:47 +0000",
+      "recipe_url": "https://cheflolaskitchen.com/nigerian-fried-rice-recipe/",
+      "site_name": "Chef Lola's Kitchen",
+      "site_url": "https://cheflolaskitchen.com",
+      "title": "Nigerian Fried Rice Recipe",
+      "url": "https://cheflolaskitchen.com/nigerian-fried-rice-recipe/"
     },
     "Fri": {
-      "cuisine": "Healthy American",
-      "image_url": "https://www.ambitiouskitchen.com/wp-content/uploads/2020/10/Green-Chile-Chicken-Pozole-3-750x750.jpg",
-      "recipe_url": "https://www.ambitiouskitchen.com/green-chile-chicken-pozole/",
-      "site_name": "Ambitious Kitchen",
-      "title": "Green Chile Chicken Pozole",
-      "url": "https://www.ambitiouskitchen.com/green-chile-chicken-pozole/"
+      "title": "Garri Cookies",
+      "url": "https://www.afrolems.com/2025/07/02/garri-cookies/",
+      "recipe_url": "https://www.afrolems.com/2025/07/02/garri-cookies/",
+      "image_url": "https://www.afrolems.com/wp-content/uploads/2025/07/IMG_0775-2-scaled.jpg",
+      "site_name": "Afrolems",
+      "site_url": "https://afrolems.com",
+      "cuisine": "Nigerian",
+      "published_at": "Wed, 02 Jul 2025 14:45:39 +0000"
     },
     "Sat": {
-      "cuisine": "Filipino",
-      "image_url": "https://www.kawalingpinoy.com/wp-content/uploads/2023/05/cashew-chicken-with-snow-peas-stir-fry-768x1024.jpg",
-      "recipe_url": "https://www.kawalingpinoy.com/cashew-chicken/",
-      "site_name": "Kawaling Pinoy",
-      "title": "Cashew Chicken",
-      "url": "https://www.kawalingpinoy.com/cashew-chicken/"
+      "cuisine": "Kenyan",
+      "image_url": "https://www.kaluhiskitchen.com/wp-content/uploads/2025/08/carrot-muffins_easy-carrot-muffins_kaluhi-carrot-muffins_kaluhiskitchen-recipes.jpg",
+      "published_at": "Tue, 12 Aug 2025 09:14:35 +0000",
+      "recipe_url": "https://www.kaluhiskitchen.com/moist-homemade-carrot-muffins/",
+      "site_name": "Kaluhi's Kitchen",
+      "site_url": "https://kaluhiskitchen.com",
+      "title": "Moist, Homemade Carrot Muffins",
+      "url": "https://www.kaluhiskitchen.com/moist-homemade-carrot-muffins/"
     },
     "Sun": {
-      "cuisine": "Filipino",
-      "image_url": "https://www.kawalingpinoy.com/wp-content/uploads/2021/08/brazo-de-mercedes-cake-roll-683x1024.jpg",
-      "recipe_url": "https://www.kawalingpinoy.com/brazo-de-mercedes/",
-      "site_name": "Kawaling Pinoy",
-      "title": "Brazo de Mercedes",
-      "url": "https://www.kawalingpinoy.com/brazo-de-mercedes/"
+      "cuisine": "South African",
+      "image_url": "https://drizzleanddip.com/wp-content/uploads/2026/07/Chicken-pie-vol-au-vent-main.jpg",
+      "published_at": "Wed, 08 Jul 2026 10:27:30 +0000",
+      "recipe_url": "https://drizzleanddip.com/2026/07/08/the-best-chicken-leek-and-mushroom-vol-au-vent-pie-recipe/",
+      "site_name": "Drizzle and Dip",
+      "site_url": "https://drizzleanddip.com",
+      "title": "The Best Chicken, Leek and Mushroom Vol-au-Vent Pie Recipe",
+      "url": "https://drizzleanddip.com/2026/07/08/the-best-chicken-leek-and-mushroom-vol-au-vent-pie-recipe/"
     }
   },
   "featured_recipe": {
-    "cuisine": "Filipino",
-    "image_url": "https://www.kawalingpinoy.com/wp-content/uploads/2021/08/brazo-de-mercedes-cake-roll-683x1024.jpg",
-    "recipe_url": "https://www.kawalingpinoy.com/brazo-de-mercedes/",
-    "site_name": "Kawaling Pinoy",
-    "title": "Brazo de Mercedes",
-    "url": "https://www.kawalingpinoy.com/brazo-de-mercedes/"
+    "cuisine": "South African",
+    "image_url": "https://drizzleanddip.com/wp-content/uploads/2026/07/Chicken-pie-vol-au-vent-main.jpg",
+    "published_at": "Wed, 08 Jul 2026 10:27:30 +0000",
+    "recipe_url": "https://drizzleanddip.com/2026/07/08/the-best-chicken-leek-and-mushroom-vol-au-vent-pie-recipe/",
+    "site_name": "Drizzle and Dip",
+    "site_url": "https://drizzleanddip.com",
+    "title": "The Best Chicken, Leek and Mushroom Vol-au-Vent Pie Recipe",
+    "url": "https://drizzleanddip.com/2026/07/08/the-best-chicken-leek-and-mushroom-vol-au-vent-pie-recipe/"
   }
 }
