@@ -18,7 +18,7 @@
   {
     "name": "RecipeTin Eats",
     "url": "https://www.recipetineats.com",
-    "cuisine": "Global",
+    "cuisine": "Australian",
     "tagline": "Recipes that work, every time.",
     "image_url": "https://www.recipetineats.com/tachyon/2026/10/Slow-cooked-Rosemary-Lamb-Ragu-3.jpg?fit=624%2C780",
     "rss_url": "https://www.recipetineats.com/feed/"
@@ -67,7 +67,7 @@
   {
     "name": "The Mediterranean Dish",
     "url": "https://www.themediterraneandish.com",
-    "cuisine": "Mediterranean",
+    "cuisine": "Lebanese",
     "tagline": "Bold Mediterranean flavors for every table.",
     "image_url": "https://www.themediterraneandish.com/wp-content/uploads/2026/09/Turkish-Pasta-12.jpg",
     "rss_url": "https://www.themediterraneandish.com/feed/"
@@ -83,7 +83,7 @@
   {
     "name": "Grandbaby Cakes",
     "url": "https://grandbaby-cakes.com",
-    "cuisine": "Southern",
+    "cuisine": "American",
     "tagline": "Southern comfort food and soul food classics.",
     "image_url": "https://grandbaby-cakes.com/wp-content/uploads/2025/08/buttermilk-fried-chicken-15.jpg",
     "rss_url": "https://grandbaby-cakes.com/feed/"
@@ -91,7 +91,7 @@
   {
     "name": "Half Baked Harvest",
     "url": "https://www.halfbakedharvest.com",
-    "cuisine": "American Comfort",
+    "cuisine": "American",
     "tagline": "Feel-good food for every season.",
     "image_url": "https://www.halfbakedharvest.com/wp-content/uploads/2026/10/Smothered-Chicken-in-Mushroom-Wine-Pan-Sauce-1.jpg",
     "rss_url": "https://www.halfbakedharvest.com/feed/"
@@ -107,7 +107,7 @@
   {
     "name": "Pinch of Yum",
     "url": "https://pinchofyum.com",
-    "cuisine": "Global",
+    "cuisine": "American",
     "tagline": "Real food that tastes really good.",
     "image_url": "https://pinchofyum.com/tachyon/butter-chicken-3-scaled.jpg",
     "rss_url": "https://pinchofyum.com/feed"
@@ -166,7 +166,7 @@
   {
     "name": "Minimalist Baker",
     "url": "https://minimalistbaker.com",
-    "cuisine": "Plant-Based",
+    "cuisine": "Vegan",
     "tagline": "Simple vegan recipes, 10 ingredients or less.",
     "image_url": "https://minimalistbaker.com/wp-content/uploads/2023/03/Gluten-Free-Honey-Cake-15-680x1020.jpg",
     "rss_url": "https://minimalistbaker.com/feed/"
@@ -174,7 +174,7 @@
   {
     "name": "Skinnytaste",
     "url": "https://www.skinnytaste.com",
-    "cuisine": "Healthy American",
+    "cuisine": "American",
     "tagline": "Healthy recipes your whole family will love.",
     "image_url": "https://www.skinnytaste.com/wp-content/uploads/2017/10/Chicken-Marsala-Meatballs-1-3.jpg",
     "rss_url": "https://www.skinnytaste.com/feed/"
@@ -222,7 +222,7 @@
   {
     "name": "Feasting at Home",
     "url": "https://www.feastingathome.com",
-    "cuisine": "Global",
+    "cuisine": "American",
     "tagline": "Fresh seasonal recipes with global inspiration.",
     "image_url": "https://www.feastingathome.com/wp-content/uploads/2026/09/Eggplant-Tikka-Masala-13-768x1152.jpg",
     "rss_url": "https://www.feastingathome.com/feed/"
@@ -254,7 +254,7 @@
   {
     "name": "Love and Lemons",
     "url": "https://www.loveandlemons.com",
-    "cuisine": "Plant-Based",
+    "cuisine": "Vegan",
     "tagline": "Bright, seasonal plant-forward cooking.",
     "image_url": "https://cdn.loveandlemons.com/wp-content/uploads/2026/09/pumpkin-chocolate-chip-cookies-recipe.jpg",
     "rss_url": "https://www.loveandlemons.com/feed/"
@@ -262,7 +262,7 @@
   {
     "name": "Ambitious Kitchen",
     "url": "https://www.ambitiouskitchen.com",
-    "cuisine": "Healthy American",
+    "cuisine": "American",
     "tagline": "Nutritious, feel-good recipes for real life.",
     "image_url": "https://www.ambitiouskitchen.com/wp-content/uploads/2022/10/Peanut-Butter-Lovers-Banana-Bread-4-750x750.jpg",
     "rss_url": "https://www.ambitiouskitchen.com/feed/"
@@ -278,7 +278,7 @@
   {
     "name": "Vegan Richa",
     "url": "https://www.veganricha.com",
-    "cuisine": "Indian Vegan",
+    "cuisine": "Indian",
     "tagline": "Bold Indian-inspired vegan recipes with flavor.",
     "image_url": "https://www.veganricha.com/wp-content/uploads/2026/09/somosa-platter-veganricha-2224.jpg",
     "rss_url": "https://www.veganricha.com/feed/"
@@ -286,7 +286,7 @@
   {
     "name": "Downshiftology",
     "url": "https://downshiftology.com",
-    "cuisine": "Healthy",
+    "cuisine": "American",
     "tagline": "Simple, gluten-free recipes for healthy living.",
     "image_url": "https://www.downshiftology.com/wp-content/uploads/2026/08/Spanish-Flan-main-800x437.jpg",
     "rss_url": "https://downshiftology.com/recipes/feed/"
@@ -294,7 +294,7 @@
   {
     "name": "Alexandra Cooks",
     "url": "https://alexandracooks.com",
-    "cuisine": "Italian-Inspired",
+    "cuisine": "Italian",
     "tagline": "Simple Italian cooking and artisan breads.",
     "image_url": "https://alexandracooks.com/wp-content/uploads/2026/08/scarpacciaVertnew.jpg",
     "rss_url": "https://alexandracooks.com/feed/"
@@ -414,7 +414,7 @@
   {
     "name": "Updated Recipes",
     "url": "https://updatedrecipes.com",
-    "cuisine": "Comfort Food",
+    "cuisine": "American",
     "tagline": "Comfort Food That Feels Like Home",
     "image_url": "https://updatedrecipes.com/wp-content/uploads/2026/05/roasted-king-salmon-lemon-butter-recipe-768x512.webp",
     "rss_url": "https://updatedrecipes.com/feed/"
@@ -479,7 +479,7 @@
   {
     "name": "China Sichuan Food",
     "url": "https://chinasichuanfood.com",
-    "cuisine": "Sichuan Chinese",
+    "cuisine": "Chinese",
     "tagline": "Authentic Sichuan flavors with step-by-step guidance.",
     "image_url": "https://www.chinasichuanfood.com/wp-content/uploads/2026/10/Palm-Sauce-Pork-20.webp",
     "rss_url": "https://chinasichuanfood.com/feed/"
@@ -560,7 +560,7 @@
   {
     "name": "Vikalinka",
     "url": "https://vikalinka.com",
-    "cuisine": "Russian",
+    "cuisine": "Eastern European",
     "tagline": "Russian-inspired cooking featured in NYT and Forbes.",
     "image_url": "https://vikalinka.com/wp-content/uploads/2026/10/Chicken-Breast-with-Sauces-Recipe-Roundup-1-576x1024.jpg",
     "rss_url": "https://vikalinka.com/feed/"
@@ -600,7 +600,7 @@
   {
     "name": "Jane's Patisserie",
     "url": "https://janespatisserie.com",
-    "cuisine": "British",
+    "cuisine": "Baking",
     "tagline": "Britain's #1 baking blog — traybakes, cheesecakes, and classics.",
     "image_url": "https://www.janespatisserie.com/wp-content/uploads/2026/10/CookieMonsterCookies5.jpg",
     "rss_url": "https://janespatisserie.com/feed/"
@@ -608,7 +608,7 @@
   {
     "name": "The Curry Guy",
     "url": "https://greatcurryrecipes.net",
-    "cuisine": "British Indian",
+    "cuisine": "Indian",
     "tagline": "Restaurant-style British-Indian curries made at home.",
     "image_url": "https://greatcurryrecipes.net/wp-content/uploads/2026/06/Dal-Mash2.jpg",
     "rss_url": "https://greatcurryrecipes.net/feed/"
@@ -777,7 +777,7 @@
   {
     "name": "The Little Ferraro Kitchen",
     "url": "https://littleferrarokitchen.com",
-    "cuisine": "Jewish / Middle Eastern",
+    "cuisine": "Middle Eastern",
     "tagline": "Sephardic, Israeli, Persian, and Turkish recipes under one roof.",
     "image_url": "https://littleferrarokitchen.com/wp-content/uploads/2026/09/pozole-rojo-with-pork-hominy-1024x1024.jpg",
     "rss_url": "https://littleferrarokitchen.com/feed/"
@@ -785,7 +785,7 @@
   {
     "name": "Marion's Kitchen",
     "url": "https://marionskitchen.com",
-    "cuisine": "Asian-Australian",
+    "cuisine": "Australian",
     "tagline": "Thai, Korean, and pan-Asian recipes with professional photography.",
     "image_url": "https://www.marionskitchen.com/wp-content/uploads/2026/09/MK_The-Garlicky-Garlic-noodles_6.webp",
     "rss_url": "https://marionskitchen.com/feed/"
@@ -892,7 +892,7 @@
   {
     "name": "Hey Grill Hey",
     "url": "https://heygrillhey.com",
-    "cuisine": "BBQ",
+    "cuisine": "American",
     "tagline": "550+ grilling and smoking recipes by Susie Bulloch.",
     "image_url": "https://heygrillhey.com/wp-content/uploads/2026/08/Cornbread-Peach-Cobbler-Square.jpg",
     "rss_url": "https://heygrillhey.com/feed/"
@@ -900,7 +900,7 @@
   {
     "name": "Weekday Pescatarian",
     "url": "https://weekdaypescatarian.com",
-    "cuisine": "Seafood",
+    "cuisine": "American",
     "tagline": "400+ tested seafood recipes built around grocery-store fish.",
     "image_url": "https://weekdaypescatarian.com/wp-content/uploads/2026/09/IMG_4027-e1790061685850.jpg",
     "rss_url": "https://weekdaypescatarian.com/feed/"
@@ -1127,7 +1127,7 @@
   {
     "name": "The Daring Gourmet",
     "url": "https://www.daringgourmet.com",
-    "cuisine": "Global",
+    "cuisine": "American",
     "tagline": "World cuisine recipes with authentic techniques covering dishes from every corner of the globe including Ethiopian classics.",
     "rss_url": "https://www.daringgourmet.com/feed/",
     "image_url": "https://www.daringgourmet.com/wp-content/uploads/2019/12/Butter-Chicken-7-728x728.jpg"
@@ -1135,7 +1135,7 @@
   {
     "name": "International Cuisine",
     "url": "https://www.internationalcuisine.com",
-    "cuisine": "Global",
+    "cuisine": "American",
     "tagline": "Every country's national dish and traditional recipes systematically covered, a one-stop world recipe reference.",
     "rss_url": "https://www.internationalcuisine.com/feed/",
     "image_url": "https://www.internationalcuisine.com/wp-content/uploads/2024/06/KgKb2OGQ.jpeg"
@@ -1151,7 +1151,7 @@
   {
     "name": "The Bojon Gourmet",
     "url": "https://bojongourmet.com",
-    "cuisine": "Gluten-Free Baking",
+    "cuisine": "Baking",
     "tagline": "IACP award-winning gluten-free pastry and baking with moody, editorial photography.",
     "image_url": "https://bojongourmet.com/wp-content/uploads/2026/10/gluten-free-apple-muffins-almond-oat-flour-15.jpg",
     "rss_url": "https://bojongourmet.com/feed/"
@@ -1159,7 +1159,7 @@
   {
     "name": "Adventures in Cooking",
     "url": "https://adventuresincooking.com",
-    "cuisine": "Seasonal American",
+    "cuisine": "American",
     "tagline": "Fine-art food photography meets seasonal home cooking and garden-to-table storytelling.",
     "image_url": "https://adventuresincooking.com/wp-content/uploads/2026/09/One-Pan-Roast-Chicken-with-Tomatoes-12.jpg",
     "rss_url": "https://adventuresincooking.com/feed/"
@@ -1231,7 +1231,7 @@
   {
     "name": "Hebbar's Kitchen",
     "url": "https://hebbarskitchen.com",
-    "cuisine": "Indian Vegetarian",
+    "cuisine": "Indian",
     "tagline": "South Indian vegetarian recipes by a creator with 8M+ YouTube subscribers.",
     "image_url": "",
     "rss_url": "https://hebbarskitchen.com/feed/"
@@ -1263,7 +1263,7 @@
   {
     "name": "Cooking with Lane",
     "url": "https://www.cookingwithlane.com",
-    "cuisine": "Lao / Vietnamese / Thai",
+    "cuisine": "Lao",
     "tagline": "The only major English-language Lao recipe site — a uniquely underrepresented cuisine.",
     "image_url": "",
     "rss_url": "https://www.cookingwithlane.com/feed/"
@@ -1271,7 +1271,7 @@
   {
     "name": "Singaporean and Malaysian Recipes",
     "url": "https://www.linsfood.com",
-    "cuisine": "Singaporean / Malaysian",
+    "cuisine": "Malaysian",
     "tagline": "Hawker favourites and festive dishes by London-based Azlin Bloor.",
     "image_url": "",
     "rss_url": "https://www.linsfood.com/feed/"
@@ -1295,7 +1295,7 @@
   {
     "name": "Peter's Food Adventures",
     "url": "https://petersfoodadventures.com",
-    "cuisine": "Central Asian / Russian",
+    "cuisine": "Central Asian",
     "tagline": "The only active English blog with a full Central Asian section — plov, manti, lagman, and more.",
     "image_url": "",
     "rss_url": "https://petersfoodadventures.com/feed/"
@@ -1328,7 +1328,7 @@
   {
     "name": "Sense and Edibility",
     "url": "https://senseandedibility.com",
-    "cuisine": "Puerto Rican / Afro-Latinx",
+    "cuisine": "Puerto Rican",
     "tagline": "Trained chef Marta Rivera's coquito, pastélon, and arroz con gandules, updated actively.",
     "image_url": "",
     "rss_url": "https://senseandedibility.com/feed/"
@@ -1376,7 +1376,7 @@
   {
     "name": "True North Kitchen",
     "url": "https://true-north-kitchen.com",
-    "cuisine": "Nordic / Scandinavian",
+    "cuisine": "Scandinavian",
     "tagline": "Exclusively Scandinavian recipes in English — fills a gap not covered by Scandicuisine.",
     "image_url": "",
     "rss_url": "https://true-north-kitchen.com/feed/"
