@@ -25,9 +25,10 @@ except ImportError:
 import requests as req
 from validate_sites import validate_site, passed
 
-DATA_DIR    = Path(__file__).parent / "data"
-BROWSE_PATH = DATA_DIR / "browse_cuisines.json"
-HEADERS     = {"User-Agent": "CraveBox-Rotator/1.0"}
+DATA_DIR     = Path(__file__).parent / "data"
+BROWSE_PATH  = DATA_DIR / "browse_cuisines.json"
+HEALTH_PATH  = DATA_DIR / "site_health.json"
+HEADERS      = {"User-Agent": "CraveBox-Rotator/1.0"}
 
 app = Flask(__name__)
 
@@ -95,6 +96,38 @@ def save_browse(sites):
     deduped = [s for s in sites if not (s["url"] in seen or seen.add(s["url"]))]
     with open(BROWSE_PATH, "w", encoding="utf-8") as f:
         json.dump(deduped, f, indent=2, ensure_ascii=False)
+
+def load_health():
+    if not HEALTH_PATH.exists():
+        return {}
+    try:
+        with open(HEALTH_PATH, encoding="utf-8") as f:
+            return json.load(f).get("results", {})
+    except Exception:
+        return {}
+
+def health_dot(url, health):
+    """Return (dot_char, tooltip_text) for a site URL based on site_health.json."""
+    r = health.get(url) or health.get(url.rstrip("/")) or {}
+    fast = r.get("fast", {})
+    deep = r.get("deep", {})
+    fs   = fast.get("status", "")
+    ds   = deep.get("status", "")
+    if not fs:
+        return "⚪", "Not yet checked"
+    tip_parts = []
+    if fs:
+        ms  = fast.get("response_ms", "")
+        tip_parts.append(f"HTTP {fast.get('http_code','')} · {ms}ms · RSS {'ok' if fast.get('rss_ok') else 'fail'}")
+    if ds:
+        tip_parts.append(f"Deep: {ds} · {deep.get('ingredients',0)} ingredients · {deep.get('steps',0)} steps")
+    tooltip = " | ".join(tip_parts) if tip_parts else "No data"
+    # Overall colour: worst of fast + deep
+    if fs == "dead" or ds == "fail":
+        return "🔴", tooltip
+    if fs == "warn" or ds == "warn":
+        return "🟡", tooltip
+    return "🟢", tooltip
 
 def grouped_by_cuisine(sites):
     groups = {}
@@ -202,6 +235,14 @@ tr:hover td{background:#141414}
 
 /* Search */
 #search{max-width:300px;margin-bottom:16px}
+
+/* Health badge */
+.health-dot{position:absolute;bottom:4px;right:4px;font-size:11px;line-height:1;
+            cursor:default;z-index:2;filter:drop-shadow(0 0 2px #000)}
+.health-dot[title]:hover::after{
+  content:attr(title);position:absolute;right:0;bottom:20px;
+  background:#111;border:1px solid #333;border-radius:4px;padding:4px 8px;
+  font-size:10px;color:#ccc;white-space:nowrap;pointer-events:none;z-index:10}
 </style>
 </head>
 <body>
@@ -241,8 +282,14 @@ tr:hover td{background:#141414}
     <div class="panel-title">
       Preview — Grouped by Cuisine
       <span>matches how BrowseCuisinesActivity displays sites</span>
+      <label style="margin-left:auto;display:flex;align-items:center;gap:6px;
+                     font-size:11px;color:#888;cursor:pointer;font-weight:400;
+                     text-transform:none;letter-spacing:0">
+        <input type="checkbox" id="unhealthy-only" onchange="filterCards(document.getElementById('search').value)"
+               style="width:auto;accent-color:#ff6b35"> Show unhealthy only
+      </label>
       <input id="search" type="text" placeholder="Filter by name or cuisine…"
-             oninput="filterCards(this.value)" style="max-width:220px;margin-left:auto">
+             oninput="filterCards(this.value)" style="max-width:220px">
     </div>
     <div id="cuisine-groups">
       {% for cuisine, sites in grouped.items() %}
@@ -253,7 +300,7 @@ tr:hover td{background:#141414}
         </div>
         <div class="site-grid">
           {% for site in sites %}
-          <div class="card" data-name="{{ site.name|lower }}" data-cuisine="{{ cuisine|lower }}">
+          <div class="card" data-name="{{ site.name|lower }}" data-cuisine="{{ cuisine|lower }}" data-health="{{ site.health_dot }}">
             <div class="mv">
               <button onclick="moveSite({{ site.idx }}, 'up')"   title="Move up"   {% if site.idx == 0 %}disabled{% endif %}>▲</button>
               <button onclick="moveSite({{ site.idx }}, 'down')" title="Move down" {% if site.idx == loop.length - 1 %}disabled{% endif %}>▼</button>
@@ -271,6 +318,7 @@ tr:hover td{background:#141414}
               <div class="cs">{{ site.raw_cuisine }}</div>
             </div>
             <button class="rm" onclick="removeSite({{ site.idx }}, '{{ site.name|e }}')">✕</button>
+            <span class="health-dot" title="{{ site.health_tip }}">{{ site.health_dot }}</span>
           </div>
           {% endfor %}
         </div>
@@ -352,10 +400,13 @@ setInterval(() => {
 
 function filterCards(q) {
   q = q.toLowerCase();
+  const unhealthyOnly = document.getElementById('unhealthy-only').checked;
   document.querySelectorAll('.cuisine-section').forEach(section => {
     let visible = 0;
     section.querySelectorAll('.card').forEach(card => {
-      const match = !q || card.dataset.name.includes(q) || card.dataset.cuisine.includes(q);
+      const textMatch  = !q || card.dataset.name.includes(q) || card.dataset.cuisine.includes(q);
+      const healthOk   = !unhealthyOnly || card.dataset.health !== '🟢';
+      const match      = textMatch && healthOk;
       card.style.display = match ? '' : 'none';
       if (match) visible++;
     });
@@ -485,7 +536,12 @@ def proxy_image():
 def index():
     from urllib.parse import quote as urlencode
     sites   = load_browse()
-    indexed = [{"idx": i, "raw_cuisine": s.get("cuisine",""), **s} for i, s in enumerate(sites)]
+    health  = load_health()
+    indexed = []
+    for i, s in enumerate(sites):
+        dot, tip = health_dot(s["url"], health)
+        indexed.append({"idx": i, "raw_cuisine": s.get("cuisine",""),
+                        "health_dot": dot, "health_tip": tip, **s})
     grouped = {}
     for s in indexed:
         c = display_cuisine(s.get("cuisine") or "")

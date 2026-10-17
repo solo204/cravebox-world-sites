@@ -1,0 +1,36 @@
+name: Daily Site Health Check
+
+on:
+  schedule:
+    - cron: "0 6 * * *"   # 6 AM UTC daily
+  workflow_dispatch:        # allow manual trigger from GitHub Actions UI
+
+jobs:
+  fast-check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: pip install requests
+
+      - name: Run fast health check
+        env:
+          CRAVEBOX_BACKEND: ${{ secrets.CRAVEBOX_BACKEND }}
+          CRAVEBOX_API_KEY: ${{ secrets.CRAVEBOX_API_KEY }}
+        run: python check_browse.py
+
+      - name: Commit site_health.json if changed
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/site_health.json
+          git diff --cached --quiet || git commit -m "chore: daily site health check [skip ci]"
+          git push
