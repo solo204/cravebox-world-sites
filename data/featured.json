@@ -1,122 +1,106 @@
 {
-  "updated_at": "2026-10-17T03:07:26Z",
+  "updated_at": "2026-10-17T20:10:44Z",
   "slot_hours": 2,
-  "slot_idx": 13,
-  "week": 14,
+  "slot_idx": 5,
+  "week": 6,
   "featured_sites": [
     {
-      "name": "Chef Lola's Kitchen",
-      "url": "https://cheflolaskitchen.com",
-      "cuisine": "Nigerian",
-      "tagline": "Authentic Nigerian recipes for everyday cooking.",
-      "image_url": "https://cheflolaskitchen.com/wp-content/uploads/2025/07/Classic-Stuffing.jpg",
-      "rss_url": "https://cheflolaskitchen.com/feed/"
+      "name": "Natasha's Kitchen",
+      "url": "https://natashaskitchen.com",
+      "cuisine": "American",
+      "tagline": "Trusted recipes for everyday cooking.",
+      "image_url": "https://natashaskitchen.com/wp-content/uploads/2026/09/Pumpkin-Cinnamon-Rolls-7.jpg",
+      "rss_url": "https://natashaskitchen.com/feed/"
     },
     {
-      "name": "Afrolems",
-      "url": "https://afrolems.com",
-      "cuisine": "Nigerian",
-      "tagline": "Creative Nigerian recipes for international palates.",
-      "image_url": "https://i0.wp.com/www.afrolems.com/wp-content/uploads/2015/07/sadza-peanut-soup.jpg?resize=320%2C107&#038;ssl=1",
-      "rss_url": "https://afrolems.com/feed/"
+      "name": "Updated Recipes",
+      "url": "https://updatedrecipes.com",
+      "cuisine": "Comfort Food",
+      "tagline": "Comfort Food That Feels Like Home",
+      "image_url": "https://updatedrecipes.com/wp-content/uploads/2026/05/roasted-king-salmon-lemon-butter-recipe-768x512.webp",
+      "rss_url": "https://updatedrecipes.com/feed/"
     },
     {
-      "name": "Kaluhi's Kitchen",
-      "url": "https://kaluhiskitchen.com",
-      "cuisine": "Kenyan",
-      "tagline": "Stunning Kenyan recipes with award-winning photography.",
-      "image_url": "https://www.kaluhiskitchen.com/wp-content/uploads/2026/07/FRIED-CHICKEN_UNBREADED-FRIED-CHICKEN_EASY-FRIED-CHICKEN_HOMEMADE-FRIED-CHICKEN_FRIED-CHICKEN-KENYA_KALUHISKITCHEN-1-1.jpg",
-      "rss_url": "https://kaluhiskitchen.com/feed/"
+      "name": "Downshiftology",
+      "url": "https://downshiftology.com",
+      "cuisine": "Healthy",
+      "tagline": "Simple, gluten-free recipes for healthy living.",
+      "image_url": "https://www.downshiftology.com/wp-content/uploads/2026/08/Spanish-Flan-main-800x437.jpg",
+      "rss_url": "https://downshiftology.com/feed/"
     },
     {
-      "name": "Drizzle and Dip",
-      "url": "https://drizzleanddip.com",
-      "cuisine": "South African",
-      "tagline": "Cape Malay and South African cooking from a pro food stylist.",
-      "image_url": "https://drizzleanddip.com/wp-content/uploads/2026/09/Brie-burger-with-onions-cramelised-in-red-wine-1.jpg",
-      "rss_url": "https://drizzleanddip.com/feed/"
+      "name": "Pardon Your French",
+      "url": "https://www.pardonyourfrench.com",
+      "cuisine": "French",
+      "tagline": "Classic French home cooking, made approachable.",
+      "image_url": "https://i0.wp.com/www.pardonyourfrench.com/wp-content/uploads/2026/09/traditional-tartiflette-recipe-11.jpg?fit=801%2C1200&ssl=1",
+      "rss_url": "https://www.pardonyourfrench.com/feed/"
     }
   ],
   "featured_recipes": {
     "Mon": {
-      "cuisine": "Nigerian",
-      "image_url": "https://cheflolaskitchen.com/wp-content/uploads/2025/07/Rice-and-Beef-1.jpg",
-      "published_at": "Thu, 03 Sep 2026 20:22:51 +0000",
-      "recipe_url": "https://cheflolaskitchen.com/rice-and-beef/",
-      "site_name": "Chef Lola's Kitchen",
-      "site_url": "https://cheflolaskitchen.com",
-      "title": "Quick And Easy One-Pot Rice and Beef",
-      "url": "https://cheflolaskitchen.com/rice-and-beef/"
+      "cuisine": "American",
+      "image_url": "https://natashaskitchen.com/wp-content/uploads/2026/09/Apple-Galette-SQ.jpg",
+      "recipe_url": "https://natashaskitchen.com/apple-galette/?adt_ei={{ subscriber.email_address }}",
+      "site_name": "Natasha's Kitchen",
+      "title": "This Apple Galette is Easier than Pie 🍎",
+      "url": "https://natashaskitchen.com/apple-galette/?adt_ei={{ subscriber.email_address }}"
     },
     "Tue": {
-      "title": "Unbreaded Spicy Fried Chicken",
-      "url": "https://www.kaluhiskitchen.com/unbreaded-spicy-fried-chicken/",
-      "recipe_url": "https://www.kaluhiskitchen.com/unbreaded-spicy-fried-chicken/",
-      "image_url": "https://www.kaluhiskitchen.com/wp-content/uploads/2026/07/FRIED-CHICKEN_UNBREADED-FRIED-CHICKEN_EASY-FRIED-CHICKEN_HOMEMADE-FRIED-CHICKEN_FRIED-CHICKEN-KENYA_KALUHISKITCHEN-1-1.jpg",
-      "site_name": "Kaluhi's Kitchen",
-      "site_url": "https://kaluhiskitchen.com",
-      "cuisine": "Kenyan",
-      "published_at": "Wed, 15 Jul 2026 08:49:00 +0000"
+      "cuisine": "Comfort Food",
+      "image_url": "https://updatedrecipes.com/wp-content/uploads/2026/10/creamy-garlic-shrimp-manicotti-featured-image.webp",
+      "recipe_url": "https://updatedrecipes.com/creamy-garlic-shrimp-manicotti/",
+      "site_name": "Updated Recipes",
+      "title": "Creamy Garlic Shrimp Manicotti",
+      "url": "https://updatedrecipes.com/creamy-garlic-shrimp-manicotti/"
     },
     "Wed": {
-      "title": "Brie Burger With Onions Caramelised in Red Wine",
-      "url": "https://drizzleanddip.com/2026/10/01/brie-burger-with-onions-caramelised-in-red-wine/",
-      "recipe_url": "https://drizzleanddip.com/2026/10/01/brie-burger-with-onions-caramelised-in-red-wine/",
-      "image_url": "https://drizzleanddip.com/wp-content/uploads/2026/09/Brie-burger-with-onions-cramelised-in-red-wine-1.jpg",
-      "site_name": "Drizzle and Dip",
-      "site_url": "https://drizzleanddip.com",
-      "cuisine": "South African",
-      "published_at": "Thu, 01 Oct 2026 13:03:48 +0000"
+      "cuisine": "French",
+      "image_url": "https://i0.wp.com/www.pardonyourfrench.com/wp-content/uploads/2026/05/Provencal-Pork-Stew-15.jpg?fit=801%2C1200&#038;ssl=1",
+      "recipe_url": "https://www.pardonyourfrench.com/provencal-pork-stew/?utm_source=rss&utm_medium=rss&utm_campaign=provencal-pork-stew",
+      "site_name": "Pardon Your French",
+      "title": "Easy Provençal Pork Stew (French Pork Stew with Tomatoes, Peppers & Herbs)",
+      "url": "https://www.pardonyourfrench.com/provencal-pork-stew/?utm_source=rss&utm_medium=rss&utm_campaign=provencal-pork-stew"
     },
     "Thu": {
-      "cuisine": "Nigerian",
-      "image_url": "https://cheflolaskitchen.com/wp-content/uploads/2015/06/Fried-Rice-20.jpg",
-      "published_at": "Wed, 26 Aug 2026 23:31:47 +0000",
-      "recipe_url": "https://cheflolaskitchen.com/nigerian-fried-rice-recipe/",
-      "site_name": "Chef Lola's Kitchen",
-      "site_url": "https://cheflolaskitchen.com",
-      "title": "Nigerian Fried Rice Recipe",
-      "url": "https://cheflolaskitchen.com/nigerian-fried-rice-recipe/"
+      "cuisine": "Healthy",
+      "image_url": "https://downshiftology.com/wp-content/uploads/2026/08/Mississippi-Pot-Roast-main.jpg",
+      "recipe_url": "https://downshiftology.com/recipes/slow-cooker-mississippi-pot-roast/",
+      "site_name": "Downshiftology",
+      "title": "Slow Cooker Mississippi Pot Roast",
+      "url": "https://downshiftology.com/recipes/slow-cooker-mississippi-pot-roast/"
     },
     "Fri": {
-      "title": "Garri Cookies",
-      "url": "https://www.afrolems.com/2025/07/02/garri-cookies/",
-      "recipe_url": "https://www.afrolems.com/2025/07/02/garri-cookies/",
-      "image_url": "https://www.afrolems.com/wp-content/uploads/2025/07/IMG_0775-2-scaled.jpg",
-      "site_name": "Afrolems",
-      "site_url": "https://afrolems.com",
-      "cuisine": "Nigerian",
-      "published_at": "Wed, 02 Jul 2025 14:45:39 +0000"
+      "cuisine": "Comfort Food",
+      "image_url": "https://updatedrecipes.com/wp-content/uploads/2026/10/crispy-cod-strips-tartar-sauce-featured-image.webp",
+      "recipe_url": "https://updatedrecipes.com/crispy-cod-strips-tartar-sauce/",
+      "site_name": "Updated Recipes",
+      "title": "Crispy Cod Strips with Homemade Tartar Sauce",
+      "url": "https://updatedrecipes.com/crispy-cod-strips-tartar-sauce/"
     },
     "Sat": {
-      "cuisine": "Kenyan",
-      "image_url": "https://www.kaluhiskitchen.com/wp-content/uploads/2025/08/carrot-muffins_easy-carrot-muffins_kaluhi-carrot-muffins_kaluhiskitchen-recipes.jpg",
-      "published_at": "Tue, 12 Aug 2025 09:14:35 +0000",
-      "recipe_url": "https://www.kaluhiskitchen.com/moist-homemade-carrot-muffins/",
-      "site_name": "Kaluhi's Kitchen",
-      "site_url": "https://kaluhiskitchen.com",
-      "title": "Moist, Homemade Carrot Muffins",
-      "url": "https://www.kaluhiskitchen.com/moist-homemade-carrot-muffins/"
+      "cuisine": "Healthy",
+      "image_url": "https://i2.wp.com/www.downshiftology.com/wp-content/uploads/2026/08/Fall-Roasted-Vegetables-main.jpg",
+      "recipe_url": "https://downshiftology.com/recipes/fall-roasted-vegetables/",
+      "site_name": "Downshiftology",
+      "title": "Fall Roasted Vegetables",
+      "url": "https://downshiftology.com/recipes/fall-roasted-vegetables/"
     },
     "Sun": {
-      "cuisine": "South African",
-      "image_url": "https://drizzleanddip.com/wp-content/uploads/2026/07/Chicken-pie-vol-au-vent-main.jpg",
-      "published_at": "Wed, 08 Jul 2026 10:27:30 +0000",
-      "recipe_url": "https://drizzleanddip.com/2026/07/08/the-best-chicken-leek-and-mushroom-vol-au-vent-pie-recipe/",
-      "site_name": "Drizzle and Dip",
-      "site_url": "https://drizzleanddip.com",
-      "title": "The Best Chicken, Leek and Mushroom Vol-au-Vent Pie Recipe",
-      "url": "https://drizzleanddip.com/2026/07/08/the-best-chicken-leek-and-mushroom-vol-au-vent-pie-recipe/"
+      "cuisine": "French",
+      "image_url": "https://i0.wp.com/www.pardonyourfrench.com/wp-content/uploads/2026/09/Blanquette-de-Veau-10.jpg?fit=801%2C1200&#038;ssl=1",
+      "recipe_url": "https://www.pardonyourfrench.com/blanquette-de-veau/?utm_source=rss&utm_medium=rss&utm_campaign=blanquette-de-veau",
+      "site_name": "Pardon Your French",
+      "title": "Blanquette de Veau (Classic French Veal Stew in White Sauce)",
+      "url": "https://www.pardonyourfrench.com/blanquette-de-veau/?utm_source=rss&utm_medium=rss&utm_campaign=blanquette-de-veau"
     }
   },
   "featured_recipe": {
-    "cuisine": "South African",
-    "image_url": "https://drizzleanddip.com/wp-content/uploads/2026/07/Chicken-pie-vol-au-vent-main.jpg",
-    "published_at": "Wed, 08 Jul 2026 10:27:30 +0000",
-    "recipe_url": "https://drizzleanddip.com/2026/07/08/the-best-chicken-leek-and-mushroom-vol-au-vent-pie-recipe/",
-    "site_name": "Drizzle and Dip",
-    "site_url": "https://drizzleanddip.com",
-    "title": "The Best Chicken, Leek and Mushroom Vol-au-Vent Pie Recipe",
-    "url": "https://drizzleanddip.com/2026/07/08/the-best-chicken-leek-and-mushroom-vol-au-vent-pie-recipe/"
+    "cuisine": "French",
+    "image_url": "https://i0.wp.com/www.pardonyourfrench.com/wp-content/uploads/2026/09/Blanquette-de-Veau-10.jpg?fit=801%2C1200&#038;ssl=1",
+    "recipe_url": "https://www.pardonyourfrench.com/blanquette-de-veau/?utm_source=rss&utm_medium=rss&utm_campaign=blanquette-de-veau",
+    "site_name": "Pardon Your French",
+    "title": "Blanquette de Veau (Classic French Veal Stew in White Sauce)",
+    "url": "https://www.pardonyourfrench.com/blanquette-de-veau/?utm_source=rss&utm_medium=rss&utm_campaign=blanquette-de-veau"
   }
 }
