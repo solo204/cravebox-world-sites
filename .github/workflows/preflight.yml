@@ -1,9 +1,7 @@
 name: Schedule Preflight Check
 
 on:
-  schedule:
-    - cron: '0 10 * * *'   # daily 10:00 AM UTC (well before content goes live)
-  workflow_dispatch:
+  workflow_dispatch:       # manual trigger only
 
 jobs:
   preflight:
