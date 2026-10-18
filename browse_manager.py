@@ -267,6 +267,20 @@ tr:hover td{background:#141414}
   content:attr(title);position:absolute;right:0;bottom:20px;
   background:#111;border:1px solid #333;border-radius:4px;padding:4px 8px;
   font-size:10px;color:#ccc;white-space:nowrap;pointer-events:none;z-index:10}
+
+/* Multi-select */
+.card.selected{border-color:#ff6b35;box-shadow:0 0 0 1px #ff6b35}
+.card .sel-cb{position:absolute;top:4px;left:4px;z-index:5;
+              accent-color:#ff6b35;width:14px;height:14px;cursor:pointer}
+#bulk-bar{position:sticky;bottom:0;background:#1a0f00;border-top:1px solid #ff6b35;
+          padding:10px 24px;display:none;align-items:center;gap:12px;z-index:200}
+#bulk-bar.visible{display:flex}
+#bulk-count{color:#ff6b35;font-weight:700;font-size:13px}
+
+/* Health check log */
+#hc-log{background:#0a0a0a;border:1px solid #1e1e1e;border-radius:6px;padding:10px 12px;
+        font-family:monospace;font-size:11px;color:#888;max-height:220px;overflow-y:auto;
+        white-space:pre-wrap;display:none;margin-top:10px}
 </style>
 </head>
 <body>
@@ -277,6 +291,16 @@ tr:hover td{background:#141414}
   <span class="badge badge-gray" id="hdr-cuisines">{{ cuisine_count }} cuisines</span>
   <span style="margin-left:auto;font-size:11px;color:#444" id="hdr-clock"></span>
 </header>
+
+<!-- Bulk-remove sticky bar -->
+<div id="bulk-bar">
+  <span id="bulk-count">0 selected</span>
+  <button class="btn btn-ghost btn-xs" onclick="selectAllRed()">Select all 🔴</button>
+  <button class="btn btn-ghost btn-xs" onclick="selectNoImg()">Select no-image</button>
+  <button class="btn btn-ghost btn-xs" onclick="clearSelection()">Clear</button>
+  <button class="btn btn-xs" style="background:#7f1d1d;color:#fca5a5;margin-left:auto"
+          onclick="removeSelected()">Remove selected</button>
+</div>
 
 <div style="background:#0a0a0a;border-bottom:1px solid #1a1a1a;padding:8px 24px;font-size:11px;color:#888">
   <span style="color:#ff6b35;font-weight:700">browse_manager.py</span>
@@ -324,7 +348,8 @@ tr:hover td{background:#141414}
         </div>
         <div class="site-grid">
           {% for site in sites %}
-          <div class="card" data-name="{{ site.name|lower }}" data-cuisine="{{ cuisine|lower }}" data-health="{{ site.health_dot }}">
+          <div class="card" data-name="{{ site.name|lower }}" data-cuisine="{{ cuisine|lower }}" data-health="{{ site.health_dot }}" data-has-img="{{ 'yes' if site.image_url else 'no' }}" data-idx="{{ site.idx }}">
+            <input type="checkbox" class="sel-cb" onchange="toggleSelect(this)" title="Select">
             <div class="mv">
               <button onclick="moveSite({{ site.idx }}, 'up')"   title="Move up"   {% if site.idx == 0 %}disabled{% endif %}>▲</button>
               <button onclick="moveSite({{ site.idx }}, 'down')" title="Move down" {% if site.idx == loop.length - 1 %}disabled{% endif %}>▼</button>
@@ -357,6 +382,16 @@ tr:hover td{background:#141414}
       </div>
       {% endfor %}
     </div>
+  </div>
+
+  <!-- HEALTH CHECK -->
+  <div class="panel">
+    <div class="panel-title">
+      Health Check
+      <span>runs check_browse.py (fast tier) — HTTP + RSS</span>
+      <button class="btn btn-ghost btn-xs" style="margin-left:auto" id="hc-btn" onclick="runHealthCheck()">Run check</button>
+    </div>
+    <div id="hc-log"></div>
   </div>
 
   <!-- ADD NEW SITE -->
@@ -548,6 +583,88 @@ function clearForm() {
   document.getElementById('btn-add').disabled = true;
   validationPassed = false; ogImage = '';
 }
+
+// ── Multi-select ──────────────────────────────────────────────────────────────
+function toggleSelect(cb) {
+  const card = cb.closest('.card');
+  card.classList.toggle('selected', cb.checked);
+  updateBulkBar();
+}
+
+function updateBulkBar() {
+  const count = document.querySelectorAll('.card.selected').length;
+  const bar   = document.getElementById('bulk-bar');
+  document.getElementById('bulk-count').textContent = count + ' selected';
+  bar.classList.toggle('visible', count > 0);
+}
+
+function selectAllRed() {
+  document.querySelectorAll('.card[data-health="🔴"]').forEach(card => {
+    const cb = card.querySelector('.sel-cb');
+    if (cb && card.style.display !== 'none') { cb.checked = true; card.classList.add('selected'); }
+  });
+  updateBulkBar();
+}
+
+function selectNoImg() {
+  document.querySelectorAll('.card[data-has-img="no"]').forEach(card => {
+    const cb = card.querySelector('.sel-cb');
+    if (cb && card.style.display !== 'none') { cb.checked = true; card.classList.add('selected'); }
+  });
+  updateBulkBar();
+}
+
+function clearSelection() {
+  document.querySelectorAll('.card.selected').forEach(card => {
+    card.classList.remove('selected');
+    const cb = card.querySelector('.sel-cb');
+    if (cb) cb.checked = false;
+  });
+  updateBulkBar();
+}
+
+async function removeSelected() {
+  const cards = [...document.querySelectorAll('.card.selected')];
+  if (!cards.length) return;
+  const names = cards.map(c => c.querySelector('.cn')?.textContent?.trim()).filter(Boolean);
+  if (!confirm(`Remove ${cards.length} site(s)?\n\n${names.join('\n')}`)) return;
+  const idxs = cards.map(c => parseInt(c.dataset.idx)).sort((a,b) => b - a); // descending
+  for (const idx of idxs) {
+    await fetch('/remove', {
+      method:'POST', headers:{'Content-Type':'application/json'},
+      body: JSON.stringify({ idx })
+    });
+  }
+  location.reload();
+}
+
+// ── Health check ─────────────────────────────────────────────────────────────
+async function runHealthCheck() {
+  const log = document.getElementById('hc-log');
+  const btn = document.getElementById('hc-btn');
+  log.style.display = 'block';
+  log.textContent   = 'Starting health check…\n';
+  btn.disabled      = true;
+  btn.textContent   = 'Running…';
+  try {
+    const res = await fetch('/run-health-check', { method: 'POST' });
+    const reader = res.body.getReader();
+    const dec    = new TextDecoder();
+    while (true) {
+      const { done, value } = await reader.read();
+      if (done) break;
+      log.textContent += dec.decode(value);
+      log.scrollTop = log.scrollHeight;
+    }
+    log.textContent += '\n✓ Done — reloading…';
+    setTimeout(() => location.reload(), 1200);
+  } catch(e) {
+    log.textContent += '\nError: ' + e;
+  } finally {
+    btn.disabled    = false;
+    btn.textContent = 'Run check';
+  }
+}
 </script>
 </body>
 </html>"""
@@ -669,6 +786,24 @@ def mark_tested():
         return jsonify({"ok": False, "error": "url required"})
     set_user_tested(url, tested)
     return jsonify({"ok": True})
+
+
+@app.route("/run-health-check", methods=["POST"])
+def run_health_check():
+    import subprocess, sys
+    check_script = Path(__file__).parent / "check_browse.py"
+    if not check_script.exists():
+        return Response("check_browse.py not found\n", mimetype="text/plain")
+    def generate():
+        proc = subprocess.Popen(
+            [sys.executable, str(check_script)],
+            stdout=subprocess.PIPE, stderr=subprocess.STDOUT,
+            text=True, bufsize=1
+        )
+        for line in proc.stdout:
+            yield line
+        proc.wait()
+    return Response(generate(), mimetype="text/plain")
 
 
 @app.route("/move", methods=["POST"])
