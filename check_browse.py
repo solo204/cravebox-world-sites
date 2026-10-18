@@ -25,6 +25,12 @@ from pathlib import Path
 
 import requests
 
+try:
+    from dotenv import load_dotenv
+    load_dotenv(Path(__file__).parent / ".env")
+except ImportError:
+    pass  # dotenv not installed; rely on system env (GitHub Actions sets it via secrets)
+
 DATA_DIR      = Path(__file__).parent / "data"
 BROWSE_PATH   = DATA_DIR / "browse_cuisines.json"
 HEALTH_PATH   = DATA_DIR / "site_health.json"
