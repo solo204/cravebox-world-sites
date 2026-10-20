@@ -1,0 +1,537 @@
+{
+  "generated_at": "2026-10-20T22:59:19Z",
+  "site_reserves": [
+    {
+      "name": "Pardon Your French",
+      "url": "https://www.pardonyourfrench.com",
+      "cuisine": "French",
+      "tagline": "Classic French home cooking, made approachable.",
+      "image_url": "https://i0.wp.com/www.pardonyourfrench.com/wp-content/uploads/2026/09/traditional-tartiflette-recipe-11.jpg?fit=801%2C1200&ssl=1",
+      "rss_url": "https://www.pardonyourfrench.com/feed/",
+      "sites": []
+    },
+    {
+      "name": "Panlasang Pinoy",
+      "url": "https://panlasangpinoy.com",
+      "cuisine": "Filipino",
+      "tagline": "Filipino recipes, made simple.",
+      "image_url": "https://panlasangpinoy.com/wp-content/uploads/2023/03/homepage-banner-scaled-1-jpg-1440x300.webp",
+      "rss_url": "https://panlasangpinoy.com/feed/",
+      "sites": []
+    },
+    {
+      "name": "RecipeTin Eats",
+      "url": "https://www.recipetineats.com",
+      "cuisine": "Australian",
+      "tagline": "Recipes that work, every time.",
+      "image_url": "https://www.recipetineats.com/tachyon/2026/10/Slow-cooked-Rosemary-Lamb-Ragu-3.jpg?fit=624%2C780",
+      "rss_url": "https://www.recipetineats.com/feed/",
+      "sites": []
+    },
+    {
+      "name": "Kawaling Pinoy",
+      "url": "https://www.kawalingpinoy.com",
+      "cuisine": "Filipino",
+      "tagline": "Authentic Filipino recipes with a modern twist.",
+      "image_url": "https://www.kawalingpinoy.com/wp-content/uploads/2014/03/tortang-talong-3-680x884.jpg",
+      "rss_url": "https://www.kawalingpinoy.com/feed/",
+      "sites": []
+    },
+    {
+      "name": "Natasha's Kitchen",
+      "url": "https://natashaskitchen.com",
+      "cuisine": "American",
+      "tagline": "Trusted recipes for everyday cooking.",
+      "image_url": "https://natashaskitchen.com/wp-content/uploads/2026/09/Pumpkin-Cinnamon-Rolls-7.jpg",
+      "rss_url": "https://natashaskitchen.com/feed/",
+      "sites": []
+    },
+    {
+      "name": "Hungry Paprikas",
+      "url": "https://www.hungrypaprikas.com",
+      "cuisine": "Middle Eastern",
+      "tagline": "Authentic Arabic and Middle Eastern recipes.",
+      "image_url": "https://www.hungrypaprikas.com/wp-content/uploads/2026/08/Ground-Beef-Curry-2.jpg",
+      "rss_url": "https://www.hungrypaprikas.com/feed/",
+      "sites": []
+    },
+    {
+      "name": "Dassana's Veg Recipes",
+      "url": "https://www.vegrecipesofindia.com",
+      "cuisine": "Indian",
+      "tagline": "100% vegetarian Indian recipes.",
+      "image_url": "https://www.vegrecipesofindia.com/wp-content/uploads/2020/01/paneer-butter-masala-1.jpg",
+      "rss_url": "https://www.vegrecipesofindia.com/feed/",
+      "sites": []
+    },
+    {
+      "name": "The Mediterranean Dish",
+      "url": "https://www.themediterraneandish.com",
+      "cuisine": "Lebanese",
+      "tagline": "Bold Mediterranean flavors for every table.",
+      "image_url": "https://www.themediterraneandish.com/wp-content/uploads/2026/09/Turkish-Pasta-12.jpg",
+      "rss_url": "https://www.themediterraneandish.com/feed/",
+      "sites": []
+    },
+    {
+      "name": "Sally's Baking Addiction",
+      "url": "https://sallysbakingaddiction.com",
+      "cuisine": "Baking",
+      "tagline": "Trusted baking recipes since 2011.",
+      "image_url": "https://sallysbakingaddiction.com/wp-content/uploads/2012/08/warm-chocolate-chip-cookies.jpg",
+      "rss_url": "https://sallysbakingaddiction.com/feed/",
+      "sites": []
+    },
+    {
+      "name": "Grandbaby Cakes",
+      "url": "https://grandbaby-cakes.com",
+      "cuisine": "American",
+      "tagline": "Southern comfort food and soul food classics.",
+      "image_url": "https://grandbaby-cakes.com/wp-content/uploads/2025/08/buttermilk-fried-chicken-15.jpg",
+      "rss_url": "https://grandbaby-cakes.com/feed/",
+      "sites": []
+    },
+    {
+      "name": "Half Baked Harvest",
+      "url": "https://www.halfbakedharvest.com",
+      "cuisine": "American",
+      "tagline": "Feel-good food for every season.",
+      "image_url": "https://www.halfbakedharvest.com/wp-content/uploads/2026/10/Smothered-Chicken-in-Mushroom-Wine-Pan-Sauce-1.jpg",
+      "rss_url": "https://www.halfbakedharvest.com/feed/",
+      "sites": []
+    },
+    {
+      "name": "Budget Bytes",
+      "url": "https://www.budgetbytes.com",
+      "cuisine": "American",
+      "tagline": "Delicious recipes designed for small budgets.",
+      "image_url": "https://www.budgetbytes.com/wp-content/uploads/2018/06/Quick-And-Easy-Dinner-Ideas.jpg",
+      "rss_url": "https://www.budgetbytes.com/feed/",
+      "sites": []
+    },
+    {
+      "name": "Pinch of Yum",
+      "url": "https://pinchofyum.com",
+      "cuisine": "American",
+      "tagline": "Real food that tastes really good.",
+      "image_url": "https://pinchofyum.com/tachyon/butter-chicken-3-scaled.jpg",
+      "rss_url": "https://pinchofyum.com/feed",
+      "sites": []
+    },
+    {
+      "name": "Chopstick Chronicles",
+      "url": "https://www.chopstickchronicles.com",
+      "cuisine": "Japanese",
+      "tagline": "Authentic traditional and contemporary Japanese recipes.",
+      "image_url": "https://www.chopstickchronicles.com/wp-content/uploads/2026/09/kabocha-korokke-11.jpg",
+      "rss_url": "https://www.chopstickchronicles.com/feed/",
+      "sites": []
+    },
+    {
+      "name": "Immaculate Bites",
+      "url": "https://www.africanbites.com",
+      "cuisine": "African",
+      "tagline": "Bold African flavors and soul food recipes.",
+      "image_url": "https://www.africanbites.com/wp-content/uploads/2023/04/IMG_9277.jpg",
+      "rss_url": "https://www.africanbites.com/feed/",
+      "sites": []
+    },
+    {
+      "name": "Smitten Kitchen",
+      "url": "https://smittenkitchen.com",
+      "cuisine": "American",
+      "tagline": "Fearless cooking from a tiny kitchen.",
+      "image_url": "https://i0.wp.com/smittenkitchen.com/wp-content/uploads/2026/09/simple-chicken-tacos-09-scaled.jpg",
+      "rss_url": "https://smittenkitchen.com/feed/",
+      "sites": []
+    },
+    {
+      "name": "Minimalist Baker",
+      "url": "https://minimalistbaker.com",
+      "cuisine": "Vegan",
+      "tagline": "Simple vegan recipes, 10 ingredients or less.",
+      "image_url": "https://minimalistbaker.com/wp-content/uploads/2023/03/Gluten-Free-Honey-Cake-15-680x1020.jpg",
+      "rss_url": "https://minimalistbaker.com/feed/",
+      "sites": []
+    },
+    {
+      "name": "Skinnytaste",
+      "url": "https://www.skinnytaste.com",
+      "cuisine": "American",
+      "tagline": "Healthy recipes your whole family will love.",
+      "image_url": "https://www.skinnytaste.com/wp-content/uploads/2017/10/Chicken-Marsala-Meatballs-1-3.jpg",
+      "rss_url": "https://www.skinnytaste.com/feed/",
+      "sites": []
+    },
+    {
+      "name": "Cookie and Kate",
+      "url": "https://cookieandkate.com",
+      "cuisine": "Vegetarian",
+      "tagline": "Wholesome vegetarian recipes for every occasion.",
+      "image_url": "https://cookieandkate.com/images/2026/10/gluten-free-cornbread.jpg",
+      "rss_url": "https://cookieandkate.com/feed/",
+      "sites": []
+    },
+    {
+      "name": "My Greek Dish",
+      "url": "https://www.mygreekdish.com",
+      "cuisine": "Greek",
+      "tagline": "Authentic Greek recipes made simple at home.",
+      "image_url": "https://www.mygreekdish.com/wp-content/uploads/2024/09/Feta-Pasta-bake.jpeg",
+      "rss_url": "https://www.mygreekdish.com/feed/",
+      "sites": []
+    }
+  ],
+  "recipe_reserves": [
+    {
+      "title": "Baked Chicken Breast",
+      "url": "https://www.budgetbytes.com/baked-chicken-breast/",
+      "image_url": "https://www.budgetbytes.com/wp-content/uploads/2025/01/1-Baked-Chicken-Breast-Overhead-Pan-Wide.jpg",
+      "site_name": "Budget Bytes",
+      "site_url": "https://www.budgetbytes.com"
+    },
+    {
+      "title": "Crockpot Mac And Cheese",
+      "url": "https://www.budgetbytes.com/crockpot-mac-and-cheese/",
+      "image_url": "https://www.budgetbytes.com/wp-content/uploads/2024/10/1-Crock-Pot-Mac-and-Cheese-Overhead-Wide.jpg",
+      "site_name": "Budget Bytes",
+      "site_url": "https://www.budgetbytes.com"
+    },
+    {
+      "title": "Fall Freezer Meals #2",
+      "url": "https://pinchofyum.com/fall-freezer-meals-2",
+      "image_url": "https://pinchofyum.com/tachyon/Fall-Freezer-Meals-2-1.jpg",
+      "site_name": "Pinch of Yum",
+      "site_url": "https://pinchofyum.com"
+    },
+    {
+      "title": "1-Bowl Honey Almond Snack Cake (Gluten-Free)",
+      "url": "https://minimalistbaker.com/honey-almond-snack-cake/",
+      "image_url": "https://minimalistbaker.com/wp-content/uploads/2023/03/Gluten-Free-Honey-Cake-15-680x1020.jpg",
+      "site_name": "Minimalist Baker",
+      "site_url": "https://minimalistbaker.com"
+    },
+    {
+      "title": "This High-Protein Crockpot Chicken with Apples Is an Easy Fall Dinner",
+      "url": "https://www.skinnytaste.com/crockpot-chicken-with-apples/?adt_ei=*|EMAIL|*",
+      "image_url": "https://www.skinnytaste.com/wp-content/uploads/2026/10/Slow-Cooker-Chicken-Normandy-17-600x900.jpg",
+      "site_name": "Skinnytaste",
+      "site_url": "https://www.skinnytaste.com"
+    },
+    {
+      "title": "7 Day High Protein Diet Meal Plan",
+      "url": "https://www.skinnytaste.com/7-day-high-protein-diet-meal-plan-55/?adt_ei=*|EMAIL|*",
+      "image_url": "https://www.skinnytaste.com/wp-content/uploads/2026/10/Week_563_Oct-19-Oct-25_High-Protein-600x750.jpg",
+      "site_name": "Skinnytaste",
+      "site_url": "https://www.skinnytaste.com"
+    },
+    {
+      "title": "Free 7 Day Healthy Meal Plan (Oct 12-18)",
+      "url": "https://www.skinnytaste.com/free-7-day-healthy-meal-plan-oct-12-18/?adt_ei=*|EMAIL|*",
+      "image_url": "https://www.skinnytaste.com/wp-content/uploads/2026/10/Week_562_Oct-12-Oct-18-600x750.jpg",
+      "site_name": "Skinnytaste",
+      "site_url": "https://www.skinnytaste.com"
+    },
+    {
+      "title": "Savory Orange Buns",
+      "url": "https://anitalianinmykitchen.com/savory-orange-buns/",
+      "image_url": "https://anitalianinmykitchen.com/wp-content/uploads/2026/09/sav-orange-buns-pic-1-of-1-683x1024.jpg",
+      "site_name": "An Italian in My Kitchen",
+      "site_url": "https://www.anitalianinmykitchen.com"
+    },
+    {
+      "title": "Nacho Fries (Taco Bell Copycat)",
+      "url": "https://www.thecookierookie.com/nacho-fries-taco-bell-copycat/",
+      "image_url": "https://www.thecookierookie.com/wp-content/uploads/2026/10/Nacho-Fries-16.jpg",
+      "site_name": "The Cookie Rookie",
+      "site_url": "https://www.thecookierookie.com"
+    },
+    {
+      "title": "Mini Chocolate Cake (Small Batch Bakes)",
+      "url": "https://www.janespatisserie.com/2026/10/20/mini-chocolate-cake/",
+      "image_url": "https://www.janespatisserie.com/wp-content/uploads/2026/10/MiniChocolateCake5.jpg",
+      "site_name": "Jane's Patisserie",
+      "site_url": "https://janespatisserie.com"
+    },
+    {
+      "title": "Tiramisu Cookies",
+      "url": "https://www.janespatisserie.com/2026/08/23/tiramisu-cookies/",
+      "image_url": "https://www.janespatisserie.com/wp-content/uploads/2026/08/TiramisuCookies2.jpg",
+      "site_name": "Jane's Patisserie",
+      "site_url": "https://janespatisserie.com"
+    },
+    {
+      "title": "Strawberry Cheesecake Bars",
+      "url": "https://www.janespatisserie.com/2026/08/16/strawberry-cheesecake-bars/",
+      "image_url": "https://www.janespatisserie.com/wp-content/uploads/2026/08/StrawberryCheesecakeBars9.jpg",
+      "site_name": "Jane's Patisserie",
+      "site_url": "https://janespatisserie.com"
+    },
+    {
+      "title": "Salted Pecan Cookies",
+      "url": "https://www.janespatisserie.com/2026/08/09/salted-pecan-cookies/",
+      "image_url": "https://www.janespatisserie.com/wp-content/uploads/2026/08/SaltedPecanCookies2.jpg",
+      "site_name": "Jane's Patisserie",
+      "site_url": "https://janespatisserie.com"
+    },
+    {
+      "title": "Easy Meringues",
+      "url": "https://www.janespatisserie.com/2026/08/02/easy-meringues/",
+      "image_url": "https://www.janespatisserie.com/wp-content/uploads/2026/08/EasyMeringue4.jpg",
+      "site_name": "Jane's Patisserie",
+      "site_url": "https://janespatisserie.com"
+    },
+    {
+      "title": "Oatmeal Raisin Bars",
+      "url": "https://www.janespatisserie.com/2026/07/23/oatmeal-raisin-bars/",
+      "image_url": "https://www.janespatisserie.com/wp-content/uploads/2026/07/OatmealRaisinBars2.jpg",
+      "site_name": "Jane's Patisserie",
+      "site_url": "https://janespatisserie.com"
+    },
+    {
+      "title": "Here’s Every Single Item That Beginner Cooks Need (and Nothing They Don’t)",
+      "url": "https://www.seriouseats.com/basic-starter-kitchen-equipment",
+      "image_url": "https://www.seriouseats.com/thmb/NmA_Nm-UgDBWFQo5Xin1AddA4ww=/filters:no_upscale():max_bytes(150000):strip_icc():format(jpeg)/sea-tramontina-seattle-tri-ply-clad-12-frying-pan-rkilgore-0595-0f9735e90b8b48ab8f79e34d5b59e23f.jpeg",
+      "site_name": "Serious Eats",
+      "site_url": "https://seriouseats.com"
+    },
+    {
+      "title": "Forget Frozen Pot Pies—These 9 Homemade Savory Pies Are Worth the Effort",
+      "url": "https://www.seriouseats.com/savory-pies-recipes-12175416",
+      "image_url": "https://www.seriouseats.com/thmb/axFJK00C4MjfqJ3nBSFvGkEemdA=/filters:no_upscale():max_bytes(150000):strip_icc():format(jpeg)/20240826_SEA_Easy-Chicken-Pot-Pie_MorganHuntGlaze_Hero_41-ec486f49f86941b68f853745d32a85ec.jpg",
+      "site_name": "Serious Eats",
+      "site_url": "https://seriouseats.com"
+    },
+    {
+      "title": "I’ve Tried the Oven Light and Hot Water Tricks. This Is How I Proof Dough Now.",
+      "url": "https://www.seriouseats.com/cast-iron-skillet-proofing-trick-12176728",
+      "image_url": "https://www.seriouseats.com/thmb/MOBAo59XxyaXTI2ElGXtEEOm-jE=/filters:no_upscale():max_bytes(150000):strip_icc():format(jpeg)/SEA-bravetart-homemade-cinnamon-rolls-recipe-hero-04-df109d751ac34d1e8ee91a2a9e15dd9e.jpg",
+      "site_name": "Serious Eats",
+      "site_url": "https://seriouseats.com"
+    },
+    {
+      "title": "Candy Corn Is Either Delicious or Disgusting, Depending on Your Brain—Here’s Why",
+      "url": "https://www.seriouseats.com/candy-corn-science-flavor-12178594",
+      "image_url": "https://www.seriouseats.com/thmb/rYWqhnqQcUkfeKdVuOW_C1DRS3I=/filters:no_upscale():max_bytes(150000):strip_icc():format(jpeg)/GettyImages-1176224930-Nodar-Chernishev-ed0359e469774ae78b9f26f72f8e6a19.jpg",
+      "site_name": "Serious Eats",
+      "site_url": "https://seriouseats.com"
+    },
+    {
+      "title": "The Best Deep Dish Pizza Pans, According to My Very Cheesy, Seriously Saucy Testing",
+      "url": "https://www.seriouseats.com/best-pizza-pans-8713908",
+      "image_url": "https://www.seriouseats.com/thmb/R2qO9H6uMZbgRaIkGSPXLC4bZ0A=/filters:no_upscale():max_bytes(150000):strip_icc():format(jpeg)/sea-deep-dish-pizza-pans-lloyd-detroit-large-taylor-murray-05-6ad81ea1d19a4931a8862dc41cb747b2.jpeg",
+      "site_name": "Serious Eats",
+      "site_url": "https://seriouseats.com"
+    },
+    {
+      "title": "After Testing 10 Reusable Beeswax Wraps, I Found 5 That Are the Bees Knees",
+      "url": "https://www.seriouseats.com/best-reusable-beeswax-wraps-8620418",
+      "image_url": "https://www.seriouseats.com/thmb/hYn2XiwRI5YnyAo3I6AEwNrIkwM=/filters:no_upscale():max_bytes(150000):strip_icc():format(jpeg)/beeswax-wrap-1-e2f712f0bf484775844a84f365ceeae0.jpg",
+      "site_name": "Serious Eats",
+      "site_url": "https://seriouseats.com"
+    },
+    {
+      "title": "I Tested 7 Silicone Spatulas to Find the Best Ones for Scraping, Stirring, and Mixing",
+      "url": "https://www.seriouseats.com/best-silicone-spatulas-6361864",
+      "image_url": "https://www.seriouseats.com/thmb/rbF4xKEdgB4siA48P1zebfb5a9M=/filters:no_upscale():max_bytes(150000):strip_icc():format(jpeg)/20220811-siliconspatulas-amanda_suarez-00-40e1e622b0e0449aac4f558ff2bb1a08.jpeg",
+      "site_name": "Serious Eats",
+      "site_url": "https://seriouseats.com"
+    },
+    {
+      "title": "I’m a Professional Baker—These Are the 3 Cake Stands I’d Buy",
+      "url": "https://www.seriouseats.com/favorite-cake-stands",
+      "image_url": "https://www.seriouseats.com/thmb/cfZyh0F70eR1l-H8rkbUbfRXi20=/filters:no_upscale():max_bytes(150000):strip_icc():format(jpeg)/sea-cake-stands-meghan-splawn-02-0821f823311b40e08125e8880f4bef53.jpeg",
+      "site_name": "Serious Eats",
+      "site_url": "https://seriouseats.com"
+    },
+    {
+      "title": "Sear and Char! We Rounded up the Best Grilling Tools and Gear",
+      "url": "https://www.seriouseats.com/the-best-grilling-tools-guide-to-grills-chimney-starter-tongs-brush-thermometer",
+      "image_url": "https://www.seriouseats.com/thmb/sh0F_L5uWnnQx4U2TYv6C7yF-Fw=/filters:no_upscale():max_bytes(150000):strip_icc():format(jpeg)/sea-charcoal-grills-test-dyna-glo-x-large-heavy-duty-32in-rkilgore-299-89d9220f0a3b40658ac22cf067776ab7.jpg",
+      "site_name": "Serious Eats",
+      "site_url": "https://seriouseats.com"
+    },
+    {
+      "title": "We Tried 20 Food, Whiskey, and Chocolate Advent Calendars—Our Favorites Will Make the Whole Month Merry",
+      "url": "https://www.seriouseats.com/best-food-advent-calendars-8732725",
+      "image_url": "https://www.seriouseats.com/thmb/aSVCZnhDfqR7pSk1sGFE7KTRmLE=/filters:no_upscale():max_bytes(150000):strip_icc():format(jpeg)/sea-advent-calendars-october-2026-ashlee-redger-01-49cc63047e6a4b9d9c6dd8e0b636c32c.jpeg",
+      "site_name": "Serious Eats",
+      "site_url": "https://seriouseats.com"
+    },
+    {
+      "title": "Life Handed Us 32 Boxes of Chocolates—We Found the Best Ones for Gifting (or Keeping for Yourself)",
+      "url": "https://www.seriouseats.com/best-chocolate-boxes-8414371",
+      "image_url": "https://www.seriouseats.com/thmb/I1SO5ME4pYtm5tSzNRFDlngx1fU=/filters:no_upscale():max_bytes(150000):strip_icc():format(jpeg)/se-boxed-chocolates-2-gk-c6bf4ad7744547e4996eeee6874383a6.jpg",
+      "site_name": "Serious Eats",
+      "site_url": "https://seriouseats.com"
+    },
+    {
+      "title": "The 7 Best Tea Kettles for Your Morning Ritual",
+      "url": "https://www.seriouseats.com/best-tea-kettles-7506070",
+      "image_url": "https://www.seriouseats.com/thmb/ooS2d8PTDuN76Je1dHi25qNnkAc=/filters:no_upscale():max_bytes(150000):strip_icc():format(jpeg)/SeriousEats-LeCreusetClassice-JenniferCausey-042279-abc18f4d591349fbb6b942b407b9797a.jpg",
+      "site_name": "Serious Eats",
+      "site_url": "https://seriouseats.com"
+    },
+    {
+      "title": "Our Favorite Quick and Easy Noodle Recipes for When You Need Dinner Fast",
+      "url": "https://www.seriouseats.com/easy-noodle-recipes-12176730",
+      "image_url": "https://www.seriouseats.com/thmb/Y67dhlGS9bD-fDgWLuGoD5bLua0=/filters:no_upscale():max_bytes(150000):strip_icc():format(jpeg)/stir-fried-lo-mein-beef-broccoli-recipe-hero_1-fb1583fd219b4cb584af022fb9d2f2e8.JPG",
+      "site_name": "Serious Eats",
+      "site_url": "https://seriouseats.com"
+    },
+    {
+      "title": "Pumpkin Bundt Cake",
+      "url": "https://www.cookingclassy.com/pumpkin-bundt-cake/",
+      "image_url": "https://www.cookingclassy.com/wp-content/uploads/2026/10/pumpkin-bundt-cake-01-730x1095.jpg",
+      "site_name": "Cooking Classy",
+      "site_url": "https://www.cookingclassy.com"
+    },
+    {
+      "title": "Sheet Pan Dinner Recipes",
+      "url": "https://www.chelseasmessyapron.com/sheet-pan-dinner-recipes/",
+      "image_url": "https://www.chelseasmessyapron.com/wp-content/uploads/2016/09/Sausage-and-Veggies-3-768x1152.jpg",
+      "site_name": "Chelsea's Messy Apron",
+      "site_url": "https://www.chelseasmessyapron.com"
+    },
+    {
+      "title": "Chili-Garlic Broth Bowls",
+      "url": "https://www.chelseasmessyapron.com/chili-garlic-broth-bowls/",
+      "image_url": "https://www.chelseasmessyapron.com/wp-content/uploads/2026/09/Chili-Garlic-Broth-Bowls-ChelseasMessyApron-1200-2-768x1152.jpg",
+      "site_name": "Chelsea's Messy Apron",
+      "site_url": "https://www.chelseasmessyapron.com"
+    },
+    {
+      "title": "Potato Leek Soup Recipe",
+      "url": "https://www.chelseasmessyapron.com/potato-leek-soup-recipe/",
+      "image_url": "https://www.chelseasmessyapron.com/wp-content/uploads/2026/09/Potato-Leek-Soup-Recipe-ChelseasMessyApron-1200-1-768x1152.jpg",
+      "site_name": "Chelsea's Messy Apron",
+      "site_url": "https://www.chelseasmessyapron.com"
+    },
+    {
+      "title": "Pear Salad Recipe",
+      "url": "https://www.chelseasmessyapron.com/pear-salad-recipe/",
+      "image_url": "https://www.chelseasmessyapron.com/wp-content/uploads/2026/09/Pear-Salad-Recipe-ChelseasMessyApron-1200-1-768x1152.jpg",
+      "site_name": "Chelsea's Messy Apron",
+      "site_url": "https://www.chelseasmessyapron.com"
+    },
+    {
+      "title": "One Pot Pasta Recipes",
+      "url": "https://www.chelseasmessyapron.com/one-pot-pasta-recipes/",
+      "image_url": "https://www.chelseasmessyapron.com/wp-content/uploads/2026/04/Pasta-With-Peas-ChelseasMessyApron-1200-1-768x1152.jpg",
+      "site_name": "Chelsea's Messy Apron",
+      "site_url": "https://www.chelseasmessyapron.com"
+    },
+    {
+      "title": "Healthy Turkey Chili Recipe",
+      "url": "https://www.chelseasmessyapron.com/healthy-turkey-chili-recipe/",
+      "image_url": "https://www.chelseasmessyapron.com/wp-content/uploads/2021/01/TURKEY-CHILI-CHELSEASMESSYAPRON-1200-2-768x1152.jpg",
+      "site_name": "Chelsea's Messy Apron",
+      "site_url": "https://www.chelseasmessyapron.com"
+    },
+    {
+      "title": "Easy Caramel Sauce Recipe",
+      "url": "https://www.chelseasmessyapron.com/easy-caramel-sauce-recipe/",
+      "image_url": "https://www.chelseasmessyapron.com/wp-content/uploads/2026/09/Caramel-Apple-Dipping-Sauce-ChelseasMessyApron-1200-2-768x1152.jpg",
+      "site_name": "Chelsea's Messy Apron",
+      "site_url": "https://www.chelseasmessyapron.com"
+    },
+    {
+      "title": "Drop Biscuit Recipe",
+      "url": "https://www.chelseasmessyapron.com/drop-biscuit-recipe/",
+      "image_url": "https://www.chelseasmessyapron.com/wp-content/uploads/2026/09/Drop-Biscuit-Recipe-ChelseasMessyApron-1200-2-768x1152.jpg",
+      "site_name": "Chelsea's Messy Apron",
+      "site_url": "https://www.chelseasmessyapron.com"
+    },
+    {
+      "title": "Easy Crockpot Meals",
+      "url": "https://www.chelseasmessyapron.com/easy-crockpot-meals/",
+      "image_url": "https://www.chelseasmessyapron.com/wp-content/uploads/2022/02/Crockpot-Mississippi-Pot-Roast-ChelseasMessyApron-1200-2-768x1152.jpg",
+      "site_name": "Chelsea's Messy Apron",
+      "site_url": "https://www.chelseasmessyapron.com"
+    },
+    {
+      "title": "Apple Fennel Slaw",
+      "url": "https://www.chelseasmessyapron.com/apple-fennel-slaw/",
+      "image_url": "https://www.chelseasmessyapron.com/wp-content/uploads/2026/09/Apple-Fennel-Slaw-ChelseasMessyApron-1200-3-768x1152.jpg",
+      "site_name": "Chelsea's Messy Apron",
+      "site_url": "https://www.chelseasmessyapron.com"
+    },
+    {
+      "title": "Chicken Milanese",
+      "url": "https://www.chelseasmessyapron.com/chicken-milanese/",
+      "image_url": "https://www.chelseasmessyapron.com/wp-content/uploads/2026/09/Chicken-Milanese-ChelseasMessyApron-1200-1-768x1152.jpg",
+      "site_name": "Chelsea's Messy Apron",
+      "site_url": "https://www.chelseasmessyapron.com"
+    },
+    {
+      "title": "Curry Broth",
+      "url": "https://www.chelseasmessyapron.com/curry-broth/",
+      "image_url": "https://www.chelseasmessyapron.com/wp-content/uploads/2026/09/Curry-Broth-ChelseasMessyApron-1200-1-768x1152.jpg",
+      "site_name": "Chelsea's Messy Apron",
+      "site_url": "https://www.chelseasmessyapron.com"
+    },
+    {
+      "title": "Apple Nachos",
+      "url": "https://www.chelseasmessyapron.com/apple-nachos/",
+      "image_url": "https://www.chelseasmessyapron.com/wp-content/uploads/2026/09/Apple-Nachos-ChelseasMessyApron-1200-2-768x1152.jpg",
+      "site_name": "Chelsea's Messy Apron",
+      "site_url": "https://www.chelseasmessyapron.com"
+    },
+    {
+      "title": "Cherry Clafoutis",
+      "url": "https://adventuresincooking.com/cherry-clafoutis/",
+      "image_url": "https://adventuresincooking.com/wp-content/uploads/2026/07/Cherry-Clafoutis-2.jpg",
+      "site_name": "Adventures in Cooking",
+      "site_url": "https://adventuresincooking.com"
+    },
+    {
+      "title": "Chamomile Tea Shortbread Cookies",
+      "url": "https://adventuresincooking.com/chamomile-tea-shortbread-cookies/",
+      "image_url": "https://adventuresincooking.com/wp-content/uploads/2026/06/Chamomile-Shortbread-Cookies-11.jpg",
+      "site_name": "Adventures in Cooking",
+      "site_url": "https://adventuresincooking.com"
+    },
+    {
+      "title": "Elderflower Lemon Champagne",
+      "url": "https://adventuresincooking.com/elderflower-lemon-champagne/",
+      "image_url": "https://adventuresincooking.com/wp-content/uploads/2026/06/Elderflower-Lemon-Champagne-scaled.jpg",
+      "site_name": "Adventures in Cooking",
+      "site_url": "https://adventuresincooking.com"
+    },
+    {
+      "title": "Simmered Stuffed Mini Peppers",
+      "url": "https://dailycookingquest.com/simmered-stuffed-mini-peppers.html",
+      "image_url": "https://dailycookingquest.com/img/2024/09/simmered-stuffed-mini-peppers-6_hu1b93b0f09f57a0091ac3f661c8473587_2102507_600x900_resize_q75_lanczos.jpg",
+      "site_name": "Daily Cooking Quest",
+      "site_url": "https://dailycookingquest.com"
+    },
+    {
+      "title": "Shark's Fin Melon Soup",
+      "url": "https://dailycookingquest.com/sharks-fin-melon-soup.html",
+      "image_url": "https://dailycookingquest.com/img/2024/08/sharks-fin-melon-soup-6_huc0a05a7da9831943e733968e392d140b_1260904_600x900_resize_q75_lanczos.jpg",
+      "site_name": "Daily Cooking Quest",
+      "site_url": "https://dailycookingquest.com"
+    },
+    {
+      "title": "Hiyashi Chuka Somen - Japanese Cold Noodles",
+      "url": "https://dailycookingquest.com/hiyashi-chuka-somen-japanese-cold-noodles.html",
+      "image_url": "https://dailycookingquest.com/img/2024/08/hiyashi-chuka-somen-japanese-cold-noodles-5_hu38ddb4d1e9fa30bd8ad44fb3a75181c6_2027182_600x900_resize_q75_lanczos.jpg",
+      "site_name": "Daily Cooking Quest",
+      "site_url": "https://dailycookingquest.com"
+    },
+    {
+      "title": "Tofu and Octopus Meatballs",
+      "url": "https://dailycookingquest.com/tofu-octopus-meatballs.html",
+      "image_url": "https://dailycookingquest.com/img/2024/05/tofu-octopus-meatballs-4_hu55a418d664815bac6009d4036117d635_2093213_600x900_resize_q75_lanczos.jpg",
+      "site_name": "Daily Cooking Quest",
+      "site_url": "https://dailycookingquest.com"
+    },
+    {
+      "title": "Chicken Nanban - Fried Chicken with Tartar Sauce",
+      "url": "https://dailycookingquest.com/chicken-nanban-fried-chicken-tartar-sauce.html",
+      "image_url": "https://dailycookingquest.com/img/2024/04/chicken-nanban-5_huf94b802d152b015b073207d1c055cc41_1827192_600x900_resize_q75_lanczos.jpg",
+      "site_name": "Daily Cooking Quest",
+      "site_url": "https://dailycookingquest.com"
+    }
+  ]
+}

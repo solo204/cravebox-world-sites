@@ -64,8 +64,8 @@ def parse_dt(s: str) -> datetime:
     return dt
 
 def weekday_key(dt: datetime) -> str:
-    """'mon' … 'sun'"""
-    return dt.strftime("%a").lower()
+    """'Mon' … 'Sun' — matches schedule.json recipe keys"""
+    return dt.strftime("%a")
 
 
 # ── Main ─────────────────────────────────────────────────────────────────────

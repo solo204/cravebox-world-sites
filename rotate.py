@@ -54,6 +54,13 @@ def load_history():
     with open(path, encoding="utf-8") as f:
         return json.load(f)
 
+def load_reserves():
+    path = DATA_DIR / "reserves.json"
+    if not path.exists():
+        return {"site_reserves": [], "recipe_reserves": []}
+    with open(path, encoding="utf-8") as f:
+        return json.load(f)
+
 def parse_dt(s):
     if not s:
         return None
@@ -87,21 +94,21 @@ def image_is_up(url):
 
 # ── Fallback helpers ───────────────────────────────────────────────────────────
 
-def find_fallback_site(failed_site, current_sites, site_reserves, master, history):
+def find_fallback_site(failed_site, current_sites, global_site_reserves, master, history):
     """
     Find a replacement for a downed site:
-      1. Try site_reserves from this week's schedule (pre-validated at generation time)
-      2. Fall back to browse_cuisines sites (prefer previously-aired ones)
+      1. Try global site reserves (reserves.json)
+      2. Fall back to browse_cuisines pool
     """
     current_names = {s["name"] for s in current_sites}
     current_names.add(failed_site["name"])
 
-    # 1. Try week's site reserves first
-    for site in site_reserves:
+    # 1. Try global site reserves first
+    for site in global_site_reserves:
         if site["name"] in current_names:
             continue
         if site_is_up(site):
-            print(f"  [fallback] {failed_site['name']} → {site['name']} (reserve)")
+            print(f"  [fallback] {failed_site['name']} → {site['name']} (global reserve)")
             return site
 
     # 2. Fall back to browse_cuisines pool
@@ -117,13 +124,13 @@ def find_fallback_site(failed_site, current_sites, site_reserves, master, histor
     print(f"  [fallback] No replacement found for {failed_site['name']} — keeping original")
     return failed_site
 
-def find_fallback_recipe(recipe_reserves, candidates, used_urls):
+def find_fallback_recipe(candidates, global_recipe_reserves, used_urls):
     """
     Pick a fallback recipe:
-      1. Try recipe_reserves from this week's schedule first
-      2. Fall back to candidates
+      1. Try week's candidates first
+      2. Try global recipe reserves (reserves.json)
     """
-    pool = list(recipe_reserves) + list(candidates)
+    pool = list(candidates) + list(global_recipe_reserves)
     for c in pool:
         url = c.get("url") or c.get("recipe_url") or ""
         if url in used_urls:
@@ -179,13 +186,14 @@ def main():
         today_recipe = next((r for r in recipes.values() if r), None)
 
     # ── Fallback checks ────────────────────────────────────────────────────────
-    master          = load_master()
-    history         = load_history()
-    used_urls       = set(history.get("recipe_urls", []))
-    site_reserves   = entry.get("site_reserves", [])
-    recipe_reserves = entry.get("recipe_reserves", [])
-    candidates      = entry.get("candidates", [])
-    fallbacks       = []
+    master                = load_master()
+    history               = load_history()
+    reserves              = load_reserves()
+    used_urls             = set(history.get("recipe_urls", []))
+    global_site_reserves  = reserves.get("site_reserves", [])
+    global_recipe_reserves= reserves.get("recipe_reserves", [])
+    candidates            = entry.get("candidates", [])
+    fallbacks             = []
 
     # Check sites
     sites = list(entry.get("sites", []))
@@ -195,7 +203,7 @@ def main():
             print("OK")
         else:
             print("DOWN")
-            replacement = find_fallback_site(site, sites, site_reserves, master, history)
+            replacement = find_fallback_site(site, sites, global_site_reserves, master, history)
             if replacement["name"] != site["name"]:
                 sites[i] = replacement
                 fallbacks.append(f"site:{site['name']}→{replacement['name']}")
@@ -208,15 +216,15 @@ def main():
         if image_is_up(img):
             print("OK")
         else:
-            print("DOWN — searching reserves then candidates")
-            replacement = find_fallback_recipe(recipe_reserves, candidates, used_urls)
+            print("DOWN — searching candidates then global reserves")
+            replacement = find_fallback_recipe(candidates, global_recipe_reserves, used_urls)
             if replacement:
                 print(f"  [fallback] recipe → {replacement.get('title','?')[:60]}")
                 today_recipe = replacement
                 recipe_fallback = True
                 fallbacks.append(f"recipe→{replacement.get('title','?')[:40]}")
             else:
-                print("  [fallback] No valid reserve or candidate found — keeping original")
+                print("  [fallback] No valid candidate or reserve found — keeping original")
 
     # ── Write featured.json ────────────────────────────────────────────────────
     output = {
