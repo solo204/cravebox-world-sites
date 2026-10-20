@@ -1,7 +1,9 @@
 name: Rotate Featured Content
 
 on:
-  workflow_dispatch:          # manual trigger only
+  workflow_dispatch:          # manual trigger
+  schedule:
+    - cron: "5 */2 * * *"    # every 2 hours at :05 past (matches SLOT_HOURS=2 in rotate.py)
 
 jobs:
   rotate:
