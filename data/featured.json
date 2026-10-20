@@ -1,120 +1,106 @@
 {
-  "updated_at": "2026-10-20T19:12:25Z",
+  "updated_at": "2026-10-20T23:08:49Z",
   "slot_hours": 2,
-  "slot_idx": 9,
-  "week": 10,
+  "slot_idx": 3,
+  "week": 4,
   "featured_sites": [
     {
-      "name": "Feasting at Home",
-      "url": "https://www.feastingathome.com",
+      "name": "Silk Road Recipes",
+      "url": "https://silkroadrecipes.com",
+      "cuisine": "Persian",
+      "tagline": "Vibrant Persian and Central Asian flavors at home.",
+      "image_url": "https://silkroadrecipes.com/wp-content/uploads/2026/07/Shrimp-Saltimbocca-square-768x768.jpg",
+      "rss_url": "https://silkroadrecipes.com/feed/"
+    },
+    {
+      "name": "Hungry Huy",
+      "url": "https://www.hungryhuy.com",
+      "cuisine": "Vietnamese",
+      "tagline": "Vietnamese and Asian recipes made accessible.",
+      "image_url": "https://www.hungryhuy.com/wp-content/uploads/vietnamese-egg-coffee-stir2-680x1020.jpg",
+      "rss_url": "https://www.hungryhuy.com/feed/"
+    },
+    {
+      "name": "RecipeTin Eats",
+      "url": "https://www.recipetineats.com",
       "cuisine": "Global",
-      "tagline": "Fresh seasonal recipes with global inspiration.",
-      "image_url": "https://www.feastingathome.com/wp-content/uploads/2026/09/Eggplant-Tikka-Masala-13-768x1152.jpg",
-      "rss_url": "https://www.feastingathome.com/feed/"
+      "tagline": "Recipes that work, every time.",
+      "image_url": "https://www.recipetineats.com/tachyon/2026/10/Slow-cooked-Rosemary-Lamb-Ragu-3.jpg?fit=624%2C780",
+      "rss_url": "https://www.recipetineats.com/feed/"
     },
     {
-      "name": "Smitten Kitchen",
-      "url": "https://smittenkitchen.com",
-      "cuisine": "American",
-      "tagline": "Fearless cooking from a tiny kitchen.",
-      "image_url": "https://i0.wp.com/smittenkitchen.com/wp-content/uploads/2026/09/simple-chicken-tacos-09-scaled.jpg",
-      "rss_url": "https://smittenkitchen.com/feed/"
-    },
-    {
-      "name": "101 Cookbooks",
-      "url": "https://www.101cookbooks.com",
-      "cuisine": "Vegetarian",
-      "tagline": "Natural, whole-food recipes for healthy living.",
-      "image_url": "https://images.101cookbooks.com/LEMON-ROASTED-POTATOES-v.jpg",
-      "rss_url": "https://www.101cookbooks.com/feed/"
-    },
-    {
-      "name": "An Italian in My Kitchen",
-      "url": "https://www.anitalianinmykitchen.com",
-      "cuisine": "Italian",
-      "tagline": "Authentic Italian recipes from a Roman cook.",
-      "image_url": "https://anitalianinmykitchen.com/wp-content/uploads/2026/09/tiramisu-crostata-1-of-1-683x1024.jpg",
-      "rss_url": "https://www.anitalianinmykitchen.com/feed/"
+      "name": "Rose Water & Orange Blossoms",
+      "url": "https://maureenabood.com",
+      "cuisine": "Lebanese",
+      "tagline": "Lebanese cooking, stories, and Mediterranean life.",
+      "image_url": "https://maureenabood.com/wp-content/uploads/2022/12/Maza-platter-top-down-Maureen-Abood.jpg",
+      "rss_url": "https://maureenabood.com/feed/"
     }
   ],
   "featured_recipes": {
     "Mon": {
-      "title": "Baked Eggplant Tikka Masala",
-      "url": "https://www.feastingathome.com/baked-eggplant-tikka-masala/",
-      "recipe_url": "https://www.feastingathome.com/baked-eggplant-tikka-masala/",
-      "image_url": "https://www.feastingathome.com/wp-content/uploads/2026/09/Eggplant-Tikka-Masala-13-768x1152.jpg",
-      "site_name": "Feasting at Home",
-      "site_url": "https://www.feastingathome.com",
-      "cuisine": "Global",
-      "published_at": "Tue, 06 Oct 2026 15:30:20 +0000"
+      "cuisine": "Persian",
+      "image_url": "https://silkroadrecipes.com/wp-content/uploads/2026/07/Shrimp-Saltimbocca-square-768x768.jpg",
+      "recipe_url": "https://silkroadrecipes.com/shrimp-saltimbocca/?adt_ei={{ subscriber.email_address }}&utm_source=rss&utm_medium=rss&utm_campaign=shrimp-saltimbocca",
+      "site_name": "Silk Road Recipes",
+      "title": "Shrimp Saltimbocca",
+      "url": "https://silkroadrecipes.com/shrimp-saltimbocca/?adt_ei={{ subscriber.email_address }}&utm_source=rss&utm_medium=rss&utm_campaign=shrimp-saltimbocca"
     },
     "Tue": {
-      "cuisine": "American",
-      "image_url": "https://i0.wp.com/smittenkitchen.com/wp-content/uploads/2026/06/strawberry-chiffon-shortcake-perfected-19-scaled.jpg?fit=640%2C427&amp;quality=89&amp;ssl=1",
-      "recipe_url": "https://smittenkitchen.com/2026/06/strawberry-chiffon-shortcake-perfected/",
-      "site_name": "Smitten Kitchen",
-      "title": "strawberry chiffon shortcake, perfected",
-      "url": "https://smittenkitchen.com/2026/06/strawberry-chiffon-shortcake-perfected/"
+      "cuisine": "Persian",
+      "image_url": "https://silkroadrecipes.com/wp-content/uploads/2026/05/Aloo-Gobi-Recipe-Cauliflower-Potato-Curry0112-768x1152.jpg",
+      "recipe_url": "https://silkroadrecipes.com/aloo-gobi-recipe-cauliflower-potato-curry/?adt_ei={{ subscriber.email_address }}&utm_source=rss&utm_medium=rss&utm_campaign=aloo-gobi-recipe-cauliflower-potato-curry",
+      "site_name": "Silk Road Recipes",
+      "title": "Aloo Gobi Recipe (Potato Cauliflower Curry)",
+      "url": "https://silkroadrecipes.com/aloo-gobi-recipe-cauliflower-potato-curry/?adt_ei={{ subscriber.email_address }}&utm_source=rss&utm_medium=rss&utm_campaign=aloo-gobi-recipe-cauliflower-potato-curry"
     },
     "Wed": {
-      "title": "Lemon Roasted Potatoes",
-      "url": "https://www.101cookbooks.com/lemon-roasted-potatoes/",
-      "recipe_url": "https://www.101cookbooks.com/lemon-roasted-potatoes/",
-      "image_url": "https://images.101cookbooks.com/LEMON-ROASTED-POTATOES-h.jpg?w=680",
-      "site_name": "101 Cookbooks",
-      "site_url": "https://www.101cookbooks.com",
-      "cuisine": "Vegetarian",
-      "published_at": "Thu, 08 Oct 2026 17:30:40 +0000"
+      "cuisine": "Persian",
+      "image_url": "https://silkroadrecipes.com/wp-content/uploads/2026/06/Moroccan-Shortbread-Cookies-Recipe-Ghoriba-Bahla0253-square-768x768.jpg",
+      "recipe_url": "https://silkroadrecipes.com/moroccan-shortbread-cookie-recipe-ghoriba-bahla/?adt_ei={{ subscriber.email_address }}&utm_source=rss&utm_medium=rss&utm_campaign=moroccan-shortbread-cookie-recipe-ghoriba-bahla",
+      "site_name": "Silk Road Recipes",
+      "title": "Moroccan Shortbread Cookie Recipe (Ghoriba Bahla)",
+      "url": "https://silkroadrecipes.com/moroccan-shortbread-cookie-recipe-ghoriba-bahla/?adt_ei={{ subscriber.email_address }}&utm_source=rss&utm_medium=rss&utm_campaign=moroccan-shortbread-cookie-recipe-ghoriba-bahla"
     },
     "Thu": {
-      "cuisine": "Italian",
-      "image_url": "https://anitalianinmykitchen.com/wp-content/uploads/2026/09/tiramisu-crostata-1-of-1-683x1024.jpg",
-      "published_at": "Thu, 08 Oct 2026 11:52:15 +0000",
-      "recipe_url": "https://anitalianinmykitchen.com/tiramisu-crostata/",
-      "site_name": "An Italian in My Kitchen",
-      "site_url": "https://www.anitalianinmykitchen.com",
-      "title": "Tiramisu Crostata",
-      "url": "https://anitalianinmykitchen.com/tiramisu-crostata/"
+      "cuisine": "Persian",
+      "image_url": "https://silkroadrecipes.com/wp-content/uploads/2026/06/Greek-Gyros-Recipe-Parchment0160-square-768x768.jpg",
+      "recipe_url": "https://silkroadrecipes.com/greek-gyros-recipe-parchment/?adt_ei={{ subscriber.email_address }}&utm_source=rss&utm_medium=rss&utm_campaign=greek-gyros-recipe-parchment",
+      "site_name": "Silk Road Recipes",
+      "title": "Greek Gyros Recipe (Parchment)",
+      "url": "https://silkroadrecipes.com/greek-gyros-recipe-parchment/?adt_ei={{ subscriber.email_address }}&utm_source=rss&utm_medium=rss&utm_campaign=greek-gyros-recipe-parchment"
     },
     "Fri": {
-      "title": "Chickpea Cacciatore",
-      "url": "https://www.feastingathome.com/chickpea-cacciatore/",
-      "recipe_url": "https://www.feastingathome.com/chickpea-cacciatore/",
-      "image_url": "https://www.feastingathome.com/wp-content/uploads/2026/09/Chickpea-cacciatore-11-768x1152.jpg",
-      "site_name": "Feasting at Home",
-      "site_url": "https://www.feastingathome.com",
       "cuisine": "Global",
-      "published_at": "Thu, 01 Oct 2026 23:34:08 +0000"
+      "image_url": "https://www.recipetineats.com/tachyon/2026/10/Slow-cooked-Rosemary-Lamb-Ragu-3.jpg",
+      "recipe_url": "https://www.recipetineats.com/slow-cooked-lamb-ragu-pasta/",
+      "site_name": "RecipeTin Eats",
+      "title": "Slow Cooked Rosemary Lamb Ragù",
+      "url": "https://www.recipetineats.com/slow-cooked-lamb-ragu-pasta/"
     },
     "Sat": {
-      "cuisine": "Vegan",
-      "image_url": "https://ohsheglows.com/wp-content/uploads/2013/04/springsaladvegan-3637.jpg",
-      "published_at": "Tue, 16 Apr 2024 17:04:28 +0000",
-      "recipe_url": "https://ohsheglows.com/warm-spring-salad/",
-      "site_name": "Oh She Glows",
-      "site_url": "https://ohsheglows.com",
-      "title": "Warm Spring Salad",
-      "url": "https://ohsheglows.com/warm-spring-salad/"
+      "cuisine": "Global",
+      "image_url": "https://www.recipetineats.com/tachyon/2026/10/Creamy-Sausage-Gnocchi-Soup-1.jpg",
+      "recipe_url": "https://www.recipetineats.com/creamy-sausage-gnocchi-soup/",
+      "site_name": "RecipeTin Eats",
+      "title": "Creamy Sausage Gnocchi Soup",
+      "url": "https://www.recipetineats.com/creamy-sausage-gnocchi-soup/"
     },
     "Sun": {
-      "title": "Butternut Squash Soup with Red Lentils",
-      "url": "https://www.101cookbooks.com/butternut-squash-soup/",
-      "recipe_url": "https://www.101cookbooks.com/butternut-squash-soup/",
-      "image_url": "https://images.101cookbooks.com/BUTTERNUT-SQUASH-SOUP-h.jpg?w=680",
-      "site_name": "101 Cookbooks",
-      "site_url": "https://www.101cookbooks.com",
-      "cuisine": "Vegetarian",
-      "published_at": "Tue, 22 Sep 2026 18:33:42 +0000"
+      "cuisine": "Global",
+      "image_url": "https://www.recipetineats.com/tachyon/2026/10/Coconut-Lemon-Slice-Cake-7.jpg",
+      "recipe_url": "https://www.recipetineats.com/lemon-coconut-slice-cake/",
+      "site_name": "RecipeTin Eats",
+      "title": "Aussie Lemon Coconut Slice Cake",
+      "url": "https://www.recipetineats.com/lemon-coconut-slice-cake/"
     }
   },
   "featured_recipe": {
-    "title": "Butternut Squash Soup with Red Lentils",
-    "url": "https://www.101cookbooks.com/butternut-squash-soup/",
-    "recipe_url": "https://www.101cookbooks.com/butternut-squash-soup/",
-    "image_url": "https://images.101cookbooks.com/BUTTERNUT-SQUASH-SOUP-h.jpg?w=680",
-    "site_name": "101 Cookbooks",
-    "site_url": "https://www.101cookbooks.com",
-    "cuisine": "Vegetarian",
-    "published_at": "Tue, 22 Sep 2026 18:33:42 +0000"
+    "cuisine": "Global",
+    "image_url": "https://www.recipetineats.com/tachyon/2026/10/Coconut-Lemon-Slice-Cake-7.jpg",
+    "recipe_url": "https://www.recipetineats.com/lemon-coconut-slice-cake/",
+    "site_name": "RecipeTin Eats",
+    "title": "Aussie Lemon Coconut Slice Cake",
+    "url": "https://www.recipetineats.com/lemon-coconut-slice-cake/"
   }
 }
