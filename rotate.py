@@ -10,8 +10,8 @@ Slot logic (sequential):
 Fallback logic (runs on every cron tick):
   - Each of the 4 featured sites is health-checked (HEAD request, 5s timeout)
   - Today's recipe image is checked (HEAD request)
-  - Failed sites → replaced with a previously-aired site from master_sites.json that is up
-  - Failed recipe → replaced with a candidate not yet in used_history.json
+  - Failed sites → replaced from site_reserves first, then any browse_cuisines site that is up
+  - Failed recipe → replaced from recipe_reserves first, then candidates
 
 Testing:  SLOT_HOURS = 2   (cycles through schedule entries every 2 hours)
 Production: SLOT_HOURS = 168  (weekly)
@@ -41,7 +41,7 @@ def load_schedule():
         return json.load(f)
 
 def load_master():
-    path = DATA_DIR / "master_sites.json"
+    path = DATA_DIR / "browse_cuisines.json"
     if not path.exists():
         return []
     with open(path, encoding="utf-8") as f:
@@ -87,36 +87,44 @@ def image_is_up(url):
 
 # ── Fallback helpers ───────────────────────────────────────────────────────────
 
-def find_fallback_site(failed_site, current_sites, master, history):
+def find_fallback_site(failed_site, current_sites, site_reserves, master, history):
     """
     Find a replacement for a downed site:
-      - Must be in used_history site_names (previously proven to work)
-      - Must not already be in the current 4 sites
-      - Must currently respond
-    Falls back to any master site if no history match is found.
+      1. Try site_reserves from this week's schedule (pre-validated at generation time)
+      2. Fall back to browse_cuisines sites (prefer previously-aired ones)
     """
-    current_names  = {s["name"] for s in current_sites}
+    current_names = {s["name"] for s in current_sites}
     current_names.add(failed_site["name"])
-    history_names  = set(history.get("site_names", []))
 
-    # Prefer previously-aired sites first, then any master site
+    # 1. Try week's site reserves first
+    for site in site_reserves:
+        if site["name"] in current_names:
+            continue
+        if site_is_up(site):
+            print(f"  [fallback] {failed_site['name']} → {site['name']} (reserve)")
+            return site
+
+    # 2. Fall back to browse_cuisines pool
+    history_names = set(history.get("site_names", []))
     pool = sorted(master, key=lambda s: (s["name"] not in history_names))
-
     for site in pool:
         if site["name"] in current_names:
             continue
         if site_is_up(site):
-            print(f"  [fallback] {failed_site['name']} → {site['name']}")
+            print(f"  [fallback] {failed_site['name']} → {site['name']} (master pool)")
             return site
 
     print(f"  [fallback] No replacement found for {failed_site['name']} — keeping original")
     return failed_site
 
-def find_fallback_recipe(candidates, used_urls):
+def find_fallback_recipe(recipe_reserves, candidates, used_urls):
     """
-    Pick the first candidate not in used_urls whose image loads.
+    Pick a fallback recipe:
+      1. Try recipe_reserves from this week's schedule first
+      2. Fall back to candidates
     """
-    for c in candidates:
+    pool = list(recipe_reserves) + list(candidates)
+    for c in pool:
         url = c.get("url") or c.get("recipe_url") or ""
         if url in used_urls:
             continue
@@ -171,11 +179,13 @@ def main():
         today_recipe = next((r for r in recipes.values() if r), None)
 
     # ── Fallback checks ────────────────────────────────────────────────────────
-    master     = load_master()
-    history    = load_history()
-    used_urls  = set(history.get("recipe_urls", []))
-    candidates = entry.get("candidates", [])
-    fallbacks  = []
+    master          = load_master()
+    history         = load_history()
+    used_urls       = set(history.get("recipe_urls", []))
+    site_reserves   = entry.get("site_reserves", [])
+    recipe_reserves = entry.get("recipe_reserves", [])
+    candidates      = entry.get("candidates", [])
+    fallbacks       = []
 
     # Check sites
     sites = list(entry.get("sites", []))
@@ -185,7 +195,7 @@ def main():
             print("OK")
         else:
             print("DOWN")
-            replacement = find_fallback_site(site, sites, master, history)
+            replacement = find_fallback_site(site, sites, site_reserves, master, history)
             if replacement["name"] != site["name"]:
                 sites[i] = replacement
                 fallbacks.append(f"site:{site['name']}→{replacement['name']}")
@@ -198,15 +208,15 @@ def main():
         if image_is_up(img):
             print("OK")
         else:
-            print("DOWN — searching candidates")
-            replacement = find_fallback_recipe(candidates, used_urls)
+            print("DOWN — searching reserves then candidates")
+            replacement = find_fallback_recipe(recipe_reserves, candidates, used_urls)
             if replacement:
                 print(f"  [fallback] recipe → {replacement.get('title','?')[:60]}")
                 today_recipe = replacement
                 recipe_fallback = True
                 fallbacks.append(f"recipe→{replacement.get('title','?')[:40]}")
             else:
-                print("  [fallback] No valid candidate found — keeping original")
+                print("  [fallback] No valid reserve or candidate found — keeping original")
 
     # ── Write featured.json ────────────────────────────────────────────────────
     output = {

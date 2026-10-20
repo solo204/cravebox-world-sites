@@ -19,7 +19,8 @@
         "steps": 7,
         "confidence": "high",
         "checked_at": "2026-10-18T17:42:17Z"
-      }
+      },
+      "user_tested": true
     },
     "https://thewoksoflife.com": {
       "name": "The Woks of Life",
@@ -439,7 +440,8 @@
         "ingredients": 0,
         "steps": 0,
         "checked_at": "2026-10-18T17:42:17Z"
-      }
+      },
+      "user_tested": true
     },
     "https://www.spendwithpennies.com": {
       "name": "Spend With Pennies",
@@ -479,7 +481,8 @@
         "steps": 8,
         "confidence": "high",
         "checked_at": "2026-10-18T17:42:17Z"
-      }
+      },
+      "user_tested": true
     },
     "https://www.ambitiouskitchen.com": {
       "name": "Ambitious Kitchen",
@@ -519,7 +522,8 @@
         "steps": 7,
         "confidence": "high",
         "checked_at": "2026-10-18T17:42:17Z"
-      }
+      },
+      "user_tested": true
     },
     "https://hot-thai-kitchen.com": {
       "name": "Hot Thai Kitchen",
@@ -2720,7 +2724,7 @@
         "tested_url": "https://www.foxyfolksy.com/pork-adobo-recipe/",
         "ingredients": 0,
         "steps": 0,
-        "checked_at": "2026-10-18T05:35:06Z"
+        "checked_at": "2026-10-18T17:42:17Z"
       }
     },
     "https://9jafoodie.com": {
@@ -2840,7 +2844,7 @@
         "tested_url": "https://tiffycooks.com/taiwanese-scallion-pancake-extra-crispy-flakey/",
         "ingredients": 0,
         "steps": 0,
-        "checked_at": "2026-10-18T05:35:06Z"
+        "checked_at": "2026-10-18T17:42:17Z"
       }
     },
     "https://hebbarskitchen.com": {
@@ -2860,7 +2864,7 @@
         "tested_url": "https://hebbarskitchen.com/paneer-butter-masala-recipe/",
         "ingredients": 0,
         "steps": 0,
-        "checked_at": "2026-10-18T05:35:06Z"
+        "checked_at": "2026-10-18T17:42:17Z"
       }
     },
     "https://trinigourmet.com": {
@@ -2893,7 +2897,7 @@
         "tested_url": "https://kimchimari.com/kimchi-jjigae/",
         "ingredients": 0,
         "steps": 0,
-        "checked_at": "2026-10-18T05:35:06Z"
+        "checked_at": "2026-10-18T17:42:17Z"
       }
     },
     "https://www.unicornsinthekitchen.com": {
@@ -2913,7 +2917,7 @@
         "tested_url": "https://www.unicornsinthekitchen.com/tahdig-recipe-persian-crispy-rice/",
         "ingredients": 0,
         "steps": 0,
-        "checked_at": "2026-10-18T05:35:06Z"
+        "checked_at": "2026-10-18T17:42:17Z"
       }
     },
     "https://www.archanaskitchen.com": {
@@ -2934,7 +2938,7 @@
         "tested_url": "https://www.archanaskitchen.com/recipe/butter-chicken-recipe-classic-indian-chicken-gravy",
         "ingredients": 0,
         "steps": 0,
-        "checked_at": "2026-10-18T05:35:06Z"
+        "checked_at": "2026-10-18T17:42:17Z"
       }
     },
     "https://www.cookingwithria.com": {
@@ -2954,7 +2958,7 @@
         "tested_url": "https://cookingwithria.com/2018/12/how-to-make-trinidad-doubles-detailed-recipe-instructions/",
         "ingredients": 0,
         "steps": 0,
-        "checked_at": "2026-10-18T05:35:06Z"
+        "checked_at": "2026-10-18T17:42:17Z"
       }
     },
     "https://tchakayiti.com": {
@@ -2975,7 +2979,7 @@
         "ingredients": 5,
         "steps": 5,
         "confidence": "high",
-        "checked_at": "2026-10-18T05:35:06Z"
+        "checked_at": "2026-10-18T17:42:17Z"
       }
     },
     "https://dailycookingquest.com": {
@@ -2995,7 +2999,7 @@
         "ingredients": 18,
         "steps": 7,
         "confidence": "high",
-        "checked_at": "2026-10-18T05:35:06Z"
+        "checked_at": "2026-10-18T17:42:17Z"
       }
     },
     "https://www.crazykoreancooking.com": {
@@ -3015,7 +3019,7 @@
         "tested_url": "https://crazykoreancooking.com/recipe/apple-kimchi",
         "ingredients": 0,
         "steps": 0,
-        "checked_at": "2026-10-18T05:35:06Z"
+        "checked_at": "2026-10-18T17:42:17Z"
       }
     },
     "https://www.linsfood.com": {
@@ -3035,7 +3039,7 @@
         "tested_url": "https://www.linsfood.com/laksa/",
         "ingredients": 0,
         "steps": 0,
-        "checked_at": "2026-10-18T05:35:06Z"
+        "checked_at": "2026-10-18T17:42:17Z"
       }
     },
     "https://www.cookingwithlane.com": {
@@ -3055,7 +3059,7 @@
         "tested_url": "https://cookingwithlane.com/vietnamese-banh-canh/",
         "ingredients": 0,
         "steps": 0,
-        "checked_at": "2026-10-18T05:35:06Z"
+        "checked_at": "2026-10-18T17:42:17Z"
       }
     },
     "https://thegreekfoodie.com": {
@@ -3075,7 +3079,7 @@
         "tested_url": "https://thegreekfoodie.com/classic-greek-lemon-chicken-and-potatoes/",
         "ingredients": 0,
         "steps": 0,
-        "checked_at": "2026-10-18T05:35:06Z"
+        "checked_at": "2026-10-18T17:42:17Z"
       }
     },
     "https://true-north-kitchen.com": {
@@ -3095,7 +3099,7 @@
         "tested_url": "https://true-north-kitchen.com/traditional-swedish-cardamom-buns-kardemummabullar/",
         "ingredients": 0,
         "steps": 0,
-        "checked_at": "2026-10-18T05:35:06Z"
+        "checked_at": "2026-10-18T17:42:17Z"
       }
     },
     "https://www.jamaicanfoodsandrecipes.com": {
@@ -3115,7 +3119,7 @@
         "tested_url": "https://jamaicanfoodsandrecipes.com/curry-goat-recipe/",
         "ingredients": 0,
         "steps": 0,
-        "checked_at": "2026-10-18T05:35:06Z"
+        "checked_at": "2026-10-18T17:42:17Z"
       }
     },
     "https://wetrinifood.com": {
@@ -3135,7 +3139,7 @@
         "tested_url": "https://wetrinifood.com/pholourie-recipe/",
         "ingredients": 0,
         "steps": 0,
-        "checked_at": "2026-10-18T05:35:06Z"
+        "checked_at": "2026-10-18T17:42:17Z"
       }
     },
     "https://cookingwithayeh.com": {
@@ -3155,7 +3159,7 @@
         "tested_url": "https://cookingwithayeh.com/turkish-lentil-soup/",
         "ingredients": 0,
         "steps": 0,
-        "checked_at": "2026-10-18T05:35:06Z"
+        "checked_at": "2026-10-18T17:42:17Z"
       }
     },
     "https://petersfoodadventures.com": {
@@ -3172,11 +3176,11 @@
       "user_tested": true,
       "deep": {
         "status": "ok",
-        "tested_url": "https://petersfoodadventures.com/chicken-pho-soup/",
-        "ingredients": 20,
+        "tested_url": "https://petersfoodadventures.com/smoked-tri-tip/",
+        "ingredients": 10,
         "steps": 10,
         "confidence": "high",
-        "checked_at": "2026-10-18T05:35:06Z"
+        "checked_at": "2026-10-18T17:42:17Z"
       }
     },
     "https://helvetickitchen.com": {
@@ -3197,7 +3201,7 @@
         "ingredients": 8,
         "steps": 8,
         "confidence": "high",
-        "checked_at": "2026-10-18T05:35:06Z"
+        "checked_at": "2026-10-18T17:42:17Z"
       }
     },
     "https://senseandedibility.com": {
@@ -3217,7 +3221,7 @@
         "tested_url": "https://senseandedibility.com/mallorcas/",
         "ingredients": 0,
         "steps": 0,
-        "checked_at": "2026-10-18T05:35:06Z"
+        "checked_at": "2026-10-18T17:42:17Z"
       }
     },
     "https://www.chileanfoodandgarden.com": {
@@ -3238,7 +3242,7 @@
         "tested_url": "https://www.chileanfoodandgarden.com/chilean-charquican/",
         "ingredients": 0,
         "steps": 0,
-        "checked_at": "2026-10-18T05:35:06Z"
+        "checked_at": "2026-10-18T17:42:17Z"
       }
     },
     "https://www.sugaretal.com": {
@@ -3271,7 +3275,7 @@
         "ingredients": 10,
         "steps": 7,
         "confidence": "high",
-        "checked_at": "2026-10-18T05:35:06Z"
+        "checked_at": "2026-10-18T17:42:17Z"
       }
     },
     "https://chelseawinter.co.nz": {
@@ -3291,7 +3295,7 @@
         "tested_url": "https://chelseawinter.co.nz/thai-chicken-curry/",
         "ingredients": 0,
         "steps": 0,
-        "checked_at": "2026-10-18T05:35:06Z"
+        "checked_at": "2026-10-18T17:42:17Z"
       }
     },
     "https://www.cookingwithzahra.com": {
@@ -3311,7 +3315,7 @@
         "tested_url": "https://cookingwithzahra.com/adas-polo-persian-style-lentil-and-rice/",
         "ingredients": 0,
         "steps": 0,
-        "checked_at": "2026-10-18T05:35:06Z"
+        "checked_at": "2026-10-18T17:42:17Z"
       }
     },
     "https://thekoreanvegan.com": {
@@ -3331,7 +3335,7 @@
         "tested_url": "https://thekoreanvegan.com/easy-traditional-vegetarian-japchae/",
         "ingredients": 0,
         "steps": 0,
-        "checked_at": "2026-10-18T05:35:06Z"
+        "checked_at": "2026-10-18T17:42:17Z"
       }
     }
   }

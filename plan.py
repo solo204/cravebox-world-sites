@@ -1,17 +1,21 @@
 """
 plan.py — CraveBox 4-week content planner
 
-Generates a rolling 4-week schedule from master_sites.json:
+Generates a rolling 4-week schedule from browse_cuisines.json:
   - Assigns 4 validated sites per week (image confirmed, skips broken)
+  - Picks 10 site reserves per week (rotate.py auto-promotes if a primary dies)
   - Auto-picks 7 validated recipes (Mon–Sun), each with a loadable image
   - Fetches 20 more validated candidates as a replacement bench
+  - Picks 10 recipe reserves per week (rotate.py auto-promotes if a daily dies)
   - Writes data/schedule.json
 
 Usage:
-  python plan.py                  # build / refresh all 4 weeks
-  python plan.py --weeks 6        # plan 6 weeks ahead
-  python plan.py --week 2         # regenerate only week 2 in-place
-  python plan.py --dry-run        # print plan without writing
+  python plan.py                       # build / refresh all 4 weeks
+  python plan.py --weeks 6             # plan 6 weeks ahead
+  python plan.py --week 2              # regenerate only week 2 in-place
+  python plan.py --dry-run             # print plan without writing
+  python plan.py --append --weeks 36   # append weeks after existing schedule
+  python plan.py --allow-site-reuse    # cycle site pool after exhaustion
 
 Requires: pip install requests
 """
@@ -37,15 +41,17 @@ except ImportError:
 # ── Config ─────────────────────────────────────────────────────────────────────
 
 DATA_DIR             = Path(__file__).parent / "data"
-MASTER_PATH          = DATA_DIR / "master_sites.json"
+MASTER_PATH          = DATA_DIR / "browse_cuisines.json"
 SCHED_PATH           = DATA_DIR / "schedule.json"
 HEADERS              = {"User-Agent": "CraveBox-Planner/1.0"}
 TIMEOUT              = 8
 RECIPES_PER_WEEK     = 7
 CANDIDATES_PER_WEEK  = 20
-TOTAL_NEEDED         = RECIPES_PER_WEEK + CANDIDATES_PER_WEEK   # 27
+RESERVES_PER_WEEK    = 10   # recipe reserves (auto-fallback for dead daily recipes)
+SITE_RESERVES        = 10   # site reserves (auto-fallback for dead primary sites)
+TOTAL_NEEDED         = RECIPES_PER_WEEK + CANDIDATES_PER_WEEK + RESERVES_PER_WEEK  # 37
 DAYS                 = ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"]
-RSS_ITEMS_PER_SITE   = 12   # how many RSS items to pull per site (need ~27 total)
+RSS_ITEMS_PER_SITE   = 15   # how many RSS items to pull per site (need ~37 total)
 
 # ── I/O ────────────────────────────────────────────────────────────────────────
 
@@ -259,15 +265,16 @@ def validate_recipe(recipe):
 
 # ── Week builder ───────────────────────────────────────────────────────────────
 
-def build_week(master, week_start, pool_idx, week_num, used_urls=None, used_sites=None):
+def build_week(master, week_start, pool_idx, week_num, used_urls=None, used_sites=None,
+               allow_site_reuse=False):
     """
     Build one week's schedule:
-    - Select 4 sites with validated images (starting from pool, wrapping if needed)
-    - Fetch RSS from those sites, validate recipes
-    - Auto-pick 7 (Mon–Sun) + 20 candidates
+    - Select 4 primary sites + 10 site reserves (auto-fallback for dead primaries)
+    - Fetch RSS from primary + reserve sites, validate recipes
+    - Auto-pick 7 (Mon–Sun) + 20 candidates + 10 recipe reserves (auto-fallback for dead dailies)
     """
-    used_urls  = set(used_urls  or [])
-    used_sites = set(used_sites or [])
+    if used_urls  is None: used_urls  = set()
+    if used_sites is None: used_sites = set()
     num_pools  = len(master) // 4
     print(f"\n{'='*60}")
     print(f"  Week {week_num}  |  {week_start}  |  Pool {pool_idx + 1}/{num_pools}")
@@ -277,28 +284,46 @@ def build_week(master, week_start, pool_idx, week_num, used_urls=None, used_site
         print(f"  Skipping {len(used_urls)} previously aired recipes")
     print(f"{'='*60}")
 
-    # ── 1. Select 4 sites with valid images ───────────────────────────────
+    # ── 1. Select 4 primary sites + 10 site reserves ─────────────────────
     print("\n[Sites]")
-    pool_start   = pool_idx * 4
-    site_pool    = [master[(pool_start + i) % len(master)] for i in range(len(master))]
-    valid_sites  = []
+    pool_start  = pool_idx * 4
+    site_pool   = [master[(pool_start + i) % len(master)] for i in range(len(master))]
+
+    # If pool is exhausted and reuse is allowed, reset used_sites for site selection
+    available = [s for s in site_pool if s.get("name") not in used_sites]
+    if allow_site_reuse and len(available) < (4 + SITE_RESERVES):
+        print(f"  ℹ Site pool nearly exhausted — cycling (allow_site_reuse=True)")
+        used_sites.clear()
+
+    valid_sites    = []   # 4 primaries
+    site_reserves  = []   # 10 backups
+    sites_needed   = 4 + SITE_RESERVES
+    seen_site_names = set()
     for site in site_pool:
-        if len(valid_sites) >= 4:
+        if len(valid_sites) + len(site_reserves) >= sites_needed:
             break
-        if site.get("name") in used_sites:
-            print(f"    ↷ {site['name']} — skipped (aired before)")
+        name = site.get("name", "")
+        if name in used_sites or name in seen_site_names:
+            if name not in seen_site_names:
+                print(f"    ↷ {name} — skipped (aired before)")
             continue
+        seen_site_names.add(name)
         result = validate_site(site)
         if result:
-            valid_sites.append(result)
+            if len(valid_sites) < 4:
+                valid_sites.append(result)
+            else:
+                site_reserves.append(result)
 
     if len(valid_sites) < 4:
-        print(f"  WARNING: only {len(valid_sites)} valid sites found for this week")
+        print(f"  WARNING: only {len(valid_sites)} valid primary sites found for this week")
+    print(f"  Primaries: {len(valid_sites)}  ·  Reserves: {len(site_reserves)}")
 
-    # ── 2. Fetch RSS from all valid sites ─────────────────────────────────
-    print(f"\n[Recipes] fetching RSS from {len(valid_sites)} sites…")
+    # ── 2. Fetch RSS from primaries + reserves for recipe pool ────────────
+    all_sites_this_week = valid_sites + site_reserves
+    print(f"\n[Recipes] fetching RSS from {len(all_sites_this_week)} sites…")
     site_buckets = []
-    for site in valid_sites:
+    for site in all_sites_this_week:
         items = fetch_rss_items(site)
         site_buckets.append(items)
         print(f"  {site['name']}: {len(items)} items")
@@ -331,9 +356,11 @@ def build_week(master, week_start, pool_idx, week_num, used_urls=None, used_site
 
     print(f"\n  Result: {len(validated)} valid  ·  {skipped} skipped")
 
-    # ── 4. Split into assigned (7) + candidates (20) ─────────────────────
-    assigned   = validated[:RECIPES_PER_WEEK]
-    candidates = validated[RECIPES_PER_WEEK:RECIPES_PER_WEEK + CANDIDATES_PER_WEEK]
+    # ── 4. Split into assigned (7) + candidates (20) + reserves (10) ─────
+    assigned         = validated[:RECIPES_PER_WEEK]
+    candidates       = validated[RECIPES_PER_WEEK:RECIPES_PER_WEEK + CANDIDATES_PER_WEEK]
+    recipe_reserves  = validated[RECIPES_PER_WEEK + CANDIDATES_PER_WEEK:
+                                 RECIPES_PER_WEEK + CANDIDATES_PER_WEEK + RESERVES_PER_WEEK]
 
     recipes = {day: (assigned[i] if i < len(assigned) else None)
                for i, day in enumerate(DAYS)}
@@ -341,15 +368,25 @@ def build_week(master, week_start, pool_idx, week_num, used_urls=None, used_site
     if len(assigned) < RECIPES_PER_WEEK:
         print(f"  WARNING: only {len(assigned)}/{RECIPES_PER_WEEK} recipes assigned "
               f"(not enough valid RSS items)")
+    print(f"  Recipe reserves: {len(recipe_reserves)}")
+
+    # Update caller's sets so subsequent weeks skip these sites/recipes
+    for site in valid_sites + site_reserves:
+        used_sites.add(site.get("name", ""))
+    for recipe in assigned + candidates + recipe_reserves:
+        if recipe:
+            used_urls.add(recipe.get("url", ""))
 
     return {
-        "week":         week_num,
-        "starts":       week_start.isoformat(),
-        "pool":         pool_idx + 1,
-        "sites":        valid_sites,
-        "recipes":      recipes,
-        "candidates":   candidates,
-        "generated_at": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
+        "week":            week_num,
+        "starts":          week_start.isoformat(),
+        "pool":            pool_idx + 1,
+        "sites":           valid_sites,
+        "site_reserves":   site_reserves,
+        "recipes":         recipes,
+        "candidates":      candidates,
+        "recipe_reserves": recipe_reserves,
+        "generated_at":    datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
     }
 
 # ── Main ───────────────────────────────────────────────────────────────────────
@@ -370,6 +407,8 @@ def main():
                         help="Print plan without writing schedule.json")
     parser.add_argument("--append", action="store_true",
                         help="Append new weeks after existing schedule (never overwrites)")
+    parser.add_argument("--allow-site-reuse", action="store_true",
+                        help="Allow sites to repeat after pool is exhausted (recipes stay unique)")
     args = parser.parse_args()
 
     master    = load_master()
@@ -392,7 +431,7 @@ def main():
 
     num_pools = len(master) // 4
     if num_pools == 0:
-        print("ERROR: Need at least 4 sites in master_sites.json")
+        print("ERROR: Need at least 4 sites in browse_cuisines.json")
         sys.exit(1)
 
     print(f"Master list: {len(master)} sites - {num_pools} pools")
@@ -407,7 +446,9 @@ def main():
             week_start = datetime.now(timezone.utc).date()
         week_num   = idx + 1
         pool_idx   = pool_for_week(week_start, num_pools)
-        entry      = build_week(master, week_start, pool_idx, week_num, used_urls, used_sites)
+        reuse  = args.allow_site_reuse
+        entry  = build_week(master, week_start, pool_idx, week_num, used_urls, used_sites,
+                            allow_site_reuse=reuse)
         if not args.dry_run:
             sched = load_schedule()
             while len(sched) <= idx:
@@ -429,7 +470,9 @@ def main():
             mondays.append(mondays[-1] + timedelta(weeks=1))
         week_start = mondays[idx]
         pool_idx   = pool_for_week(week_start, num_pools)
-        entry      = build_week(master, week_start, pool_idx, args.week, used_urls, used_sites)
+        reuse      = args.allow_site_reuse
+        entry      = build_week(master, week_start, pool_idx, args.week, used_urls, used_sites,
+                                allow_site_reuse=reuse)
         if not args.dry_run:
             sched = load_schedule()
             while len(sched) <= idx:
@@ -454,10 +497,12 @@ def main():
                 last_date = datetime.now(timezone.utc).date()
             mondays = [last_date + timedelta(weeks=i+1) for i in range(args.weeks)]
 
+        reuse = args.allow_site_reuse
         for i, week_start in enumerate(mondays):
             pool_idx = pool_for_week(week_start, num_pools)
             week_num = start_week_num + i
-            entry    = build_week(master, week_start, pool_idx, week_num, used_urls, used_sites)
+            entry    = build_week(master, week_start, pool_idx, week_num, used_urls, used_sites,
+                                  allow_site_reuse=reuse)
             sched.append(entry)
 
         if not args.dry_run:
