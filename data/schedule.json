@@ -341,6 +341,14 @@
         "tagline": "Indian recipes that work every time.",
         "image_url": "https://www.indianhealthyrecipes.com/wp-content/uploads/2026/10/quinoa-khichdi.jpg",
         "rss_url": "https://www.indianhealthyrecipes.com/feed/"
+      },
+      {
+        "name": "Damn Delicious",
+        "url": "https://damndelicious.net",
+        "cuisine": "American",
+        "tagline": "Quick and easy recipes for busy weeknights.",
+        "image_url": "https://damndelicious.net/wp-content/uploads/2026/06/251218_DD_Honey-BBQ-Chicken-Bites_691-480x720.jpg.webp",
+        "rss_url": "https://damndelicious.net/feed/"
       }
     ],
     "recipes": {
