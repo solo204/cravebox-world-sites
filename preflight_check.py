@@ -40,14 +40,14 @@ def check_url(url: str) -> tuple[bool, str]:
 
     try:
         status = _head(url)
-        return status < 400, f"HTTP {status}"
+        return status < 500, f"HTTP {status}"
     except urllib.error.HTTPError as e:
-        if e.code < 400:
+        if e.code < 500:
             return True, f"HTTP {e.code}"
         # Some servers reject HEAD — retry with a byte-range GET
         try:
             status = _get_range(url)
-            return status < 400, f"HTTP {status} (GET)"
+            return status < 500, f"HTTP {status} (GET)"
         except Exception as e2:
             return False, f"HTTP {e.code} + GET failed: {e2}"
     except Exception as e:
