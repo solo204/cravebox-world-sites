@@ -24,7 +24,8 @@
     "tagline": "Recipes that work, every time.",
     "image_url": "https://www.recipetineats.com/tachyon/2026/10/Slow-cooked-Rosemary-Lamb-Ragu-3.jpg?fit=624%2C780",
     "rss_url": "https://www.recipetineats.com/feed/",
-    "sites": []
+    "sites": [],
+    "featured": true
   },
   {
     "name": "Kawaling Pinoy",
@@ -42,7 +43,8 @@
     "tagline": "Trusted recipes for everyday cooking.",
     "image_url": "https://natashaskitchen.com/wp-content/uploads/2026/09/Pumpkin-Cinnamon-Rolls-7.jpg",
     "rss_url": "https://natashaskitchen.com/feed/",
-    "sites": []
+    "sites": [],
+    "featured": true
   },
   {
     "name": "Hungry Paprikas",
@@ -114,7 +116,8 @@
     "tagline": "Real food that tastes really good.",
     "image_url": "https://pinchofyum.com/tachyon/butter-chicken-3-scaled.jpg",
     "rss_url": "https://pinchofyum.com/feed",
-    "sites": []
+    "sites": [],
+    "featured": true
   },
   {
     "name": "Chopstick Chronicles",
@@ -123,7 +126,8 @@
     "tagline": "Authentic traditional and contemporary Japanese recipes.",
     "image_url": "https://www.chopstickchronicles.com/wp-content/uploads/2026/09/kabocha-korokke-11.jpg",
     "rss_url": "https://www.chopstickchronicles.com/feed/",
-    "sites": []
+    "sites": [],
+    "featured": true
   },
   {
     "name": "Immaculate Bites",
@@ -249,7 +253,8 @@
     "tagline": "Bright, seasonal plant-forward cooking.",
     "image_url": "https://cdn.loveandlemons.com/wp-content/uploads/2026/09/pumpkin-chocolate-chip-cookies-recipe.jpg",
     "rss_url": "https://www.loveandlemons.com/feed/",
-    "sites": []
+    "sites": [],
+    "featured": true
   },
   {
     "name": "Ambitious Kitchen",
@@ -285,7 +290,8 @@
     "tagline": "Simple, gluten-free recipes for healthy living.",
     "image_url": "https://www.downshiftology.com/wp-content/uploads/2026/08/Spanish-Flan-main-800x437.jpg",
     "rss_url": "https://downshiftology.com/recipes/feed/",
-    "sites": []
+    "sites": [],
+    "featured": true
   },
   {
     "name": "Alexandra Cooks",
@@ -501,7 +507,8 @@
     "tagline": "The most popular English-language Japanese recipe site.",
     "image_url": "https://www.justonecookbook.com/wp-content/uploads/2027/09/Yuzu-Kosho-Edamame-6535-I-1-1200x800.jpg",
     "rss_url": "https://justonecookbook.com/feed/",
-    "sites": []
+    "sites": [],
+    "featured": true
   },
   {
     "name": "RecipeTin Japan",
@@ -672,7 +679,8 @@
     "tagline": "Filipino, Korean, and Japanese recipes with naturalistic photography.",
     "image_url": "https://cooking.umamidays.com/wp-content/uploads/2026/10/shrimp-kimchi-fried-rice.jpg",
     "rss_url": "https://cooking.umamidays.com/feed/",
-    "sites": []
+    "sites": [],
+    "featured": true
   },
   {
     "name": "My Colombian Recipes",
@@ -807,7 +815,8 @@
     "tagline": "Visually striking one-pan family meals from Sydney.",
     "image_url": "https://cafedelites.com/wp-content/uploads/2026/10/Shrimp-Dumpling-9-768x1024-1.jpg",
     "rss_url": "https://cafedelites.com/feed/",
-    "sites": []
+    "sites": [],
+    "featured": true
   },
   {
     "name": "Cloudy Kitchen",
@@ -879,7 +888,8 @@
     "tagline": "Everything from Vietnamese noodles to peanut butter cookies.",
     "image_url": "https://www.gimmesomeoven.com/wp-content/uploads/2025/11/GSOChaiCookies_Shot2_86-scaled.jpg",
     "rss_url": "https://gimmesomeoven.com/feed/",
-    "sites": []
+    "sites": [],
+    "featured": true
   },
   {
     "name": "Hey Grill Hey",
@@ -915,7 +925,8 @@
     "tagline": "Easy recipes for busy home cooks.",
     "image_url": "https://thecozycook.com/wp-content/uploads/2026/05/Beef-Stroganoff-2.jpg",
     "rss_url": "https://thecozycook.com/feed/",
-    "sites": []
+    "sites": [],
+    "featured": true
   },
   {
     "name": "Jo Cooks",
@@ -924,7 +935,8 @@
     "tagline": "Simple, easy, comfort food recipes everyone will love.",
     "image_url": "https://www.jocooks.com/wp-content/uploads/2024/11/roast-turkey-1-1.jpg",
     "rss_url": "https://www.jocooks.com/feed/",
-    "sites": []
+    "sites": [],
+    "featured": true
   },
   {
     "name": "The Chunky Chef",
@@ -978,7 +990,8 @@
     "tagline": "Tried and true recipes for families.",
     "image_url": "https://therecipecritic.com/wp-content/uploads/2026/10/chicken-mississippi-spaghetti.jpg",
     "rss_url": "https://therecipecritic.com/feed/",
-    "sites": []
+    "sites": [],
+    "featured": true
   },
   {
     "name": "Tastes Better From Scratch",
@@ -1005,7 +1018,8 @@
     "tagline": "Cuban and Latin-inspired recipes for home cooks.",
     "image_url": "https://asassyspoon.com/wp-content/uploads/2025/10/pudin-de-pan-cuban-bread-pudding-asassyspoon-1-2.jpg",
     "rss_url": "https://asassyspoon.com/feed/",
-    "sites": []
+    "sites": [],
+    "featured": true
   },
   {
     "name": "Peru Delights",
@@ -1167,7 +1181,8 @@
     "tagline": "Authentic Maharashtrian and Indian recipes, with a specialty in Instant Pot cooking.",
     "image_url": "https://ministryofcurry.com/wp-content/uploads/2024/06/chicken-biryani-9.jpg",
     "rss_url": "https://ministryofcurry.com/feed/",
-    "sites": []
+    "sites": [],
+    "featured": true
   },
   {
     "name": "Zaatar & Zaytoun",
@@ -1221,7 +1236,8 @@
     "tagline": "The best English-language Indonesian recipe blog, updated weekly.",
     "image_url": "https://dailycookingquest.com/img/2024/12/thit-kho-7_hu7cbc751567a5e24874317a65c19fa60d_1988893_600x900_resize_q75_lanczos.jpg",
     "rss_url": "https://dailycookingquest.com/index.xml",
-    "sites": []
+    "sites": [],
+    "featured": true
   },
   {
     "name": "Hebbar's Kitchen",
@@ -1374,7 +1390,8 @@
     "tagline": "Authentic Greek and Mediterranean recipes in English; RSS confirmed active.",
     "image_url": "https://thegreekfoodie.com/wp-content/uploads/2023/06/Chicken_skewers_SOC.jpg",
     "rss_url": "https://thegreekfoodie.com/feed/",
-    "sites": []
+    "sites": [],
+    "featured": true
   },
   {
     "name": "True North Kitchen",
@@ -1420,5 +1437,15 @@
     "image_url": "https://cookingwithayeh.com/wp-content/uploads/2023/01/Cooking-With-Ayeh-Logo-Stack.png",
     "rss_url": "https://cookingwithayeh.com/feed/",
     "sites": []
+  },
+  {
+    "name": "Damn Delicious",
+    "url": "https://damndelicious.net",
+    "cuisine": "American",
+    "tagline": "Quick, easy, and outrageously delicious recipes.",
+    "image_url": "https://damndelicious.net/wp-content/uploads/2026/06/251218_DD_Honey-BBQ-Chicken-Bites_691-480x720.jpg.webp",
+    "rss_url": "https://damndelicious.net/feed/",
+    "sites": [],
+    "featured": true
   }
 ]
