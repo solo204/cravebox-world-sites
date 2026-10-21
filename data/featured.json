@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-21T21:05:18Z",
+  "updated_at": "2026-10-21T21:30:29Z",
   "slot_hours": 1,
   "slot_idx": 1,
   "week": 2,
@@ -108,13 +108,11 @@
     }
   },
   "featured_recipe": {
-    "cuisine": "African",
-    "image_url": "https://www.africanbites.com/wp-content/uploads/2026/10/Slow-Cooker-Pork-Chops-1.jpg",
-    "published_at": "Mon, 05 Oct 2026 07:30:00 +0000",
-    "recipe_url": "https://www.africanbites.com/slow-cooker-pork-chops/",
-    "site_name": "Immaculate Bites",
-    "site_url": "https://www.africanbites.com",
-    "title": "Slow Cooker Pork Chops",
-    "url": "https://www.africanbites.com/slow-cooker-pork-chops/"
+    "cuisine": "American",
+    "image_url": "https://damndelicious.net/wp-content/uploads/2026/06/251218_DD_Honey-BBQ-Chicken-Bites_691-768x1152.jpg",
+    "recipe_url": "https://damndelicious.net/2026/08/21/honey-bbq-chicken-bites/",
+    "site_name": "Damn Delicious",
+    "title": "Honey BBQ Chicken Bites",
+    "url": "https://damndelicious.net/2026/08/21/honey-bbq-chicken-bites/"
   }
 }
