@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-21T20:53:46Z",
+  "updated_at": "2026-10-21T21:05:18Z",
   "slot_hours": 1,
   "slot_idx": 1,
   "week": 2,
@@ -109,12 +109,12 @@
   },
   "featured_recipe": {
     "cuisine": "African",
-    "image_url": "https://www.africanbites.com/wp-content/uploads/2026/10/Roast-Turkey-Wings-1.jpg",
-    "published_at": "Tue, 06 Oct 2026 07:30:00 +0000",
-    "recipe_url": "https://www.africanbites.com/baked-turkey-wings/",
+    "image_url": "https://www.africanbites.com/wp-content/uploads/2026/10/Slow-Cooker-Pork-Chops-1.jpg",
+    "published_at": "Mon, 05 Oct 2026 07:30:00 +0000",
+    "recipe_url": "https://www.africanbites.com/slow-cooker-pork-chops/",
     "site_name": "Immaculate Bites",
     "site_url": "https://www.africanbites.com",
-    "title": "Roast Turkey Wings",
-    "url": "https://www.africanbites.com/baked-turkey-wings/"
+    "title": "Slow Cooker Pork Chops",
+    "url": "https://www.africanbites.com/slow-cooker-pork-chops/"
   }
 }
