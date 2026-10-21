@@ -152,18 +152,16 @@ def main():
         return
 
     # ── Find current slot ──────────────────────────────────────────────────────
-    first_dt = parse_dt(sched[0].get("starts", ""))
-    if first_dt is None:
-        first_dt = now
-
-    elapsed_hours = max(0.0, (now - first_dt).total_seconds() / 3600)
-    slot_idx      = int(elapsed_hours // SLOT_HOURS)
-
-    if slot_idx >= len(sched):
-        slot_idx = slot_idx % len(sched)
-        print(f"[rotate] Schedule wrapped → restarting from slot {slot_idx + 1}/{len(sched)}")
-    else:
-        print(f"[rotate] Slot {slot_idx + 1}/{len(sched)}")
+    # Use starts timestamps — find the last entry whose start is <= now.
+    # This is immune to SLOT_HOURS wrapping bugs.
+    slot_idx = 0
+    for i, e in enumerate(sched):
+        entry_dt = parse_dt(e.get("starts", ""))
+        if entry_dt and entry_dt <= now:
+            slot_idx = i
+        else:
+            break  # schedule is ordered; no need to continue
+    print(f"[rotate] Slot {slot_idx + 1}/{len(sched)}")
 
     entry = sched[slot_idx]
     print(f"[rotate] Week {entry.get('week','?')} · starts {entry.get('starts','?')}")
@@ -173,7 +171,8 @@ def main():
     day_names = ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"]
 
     if SLOT_HOURS < 168:
-        elapsed_in_slot = (now - first_dt).total_seconds() / 3600 - (slot_idx * SLOT_HOURS)
+        slot_start_dt = parse_dt(entry.get("starts", "")) or now
+        elapsed_in_slot = max(0.0, (now - slot_start_dt).total_seconds() / 3600)
         recipe_idx  = int(elapsed_in_slot / SLOT_HOURS * 7)
         recipe_idx  = min(recipe_idx, 6)
         today_day   = day_names[recipe_idx]
