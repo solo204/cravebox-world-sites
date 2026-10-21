@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-21T23:05:13Z",
+  "updated_at": "2026-10-21T23:58:21Z",
   "slot_hours": 1,
   "slot_idx": 3,
   "week": 4,
@@ -96,11 +96,11 @@
     }
   },
   "featured_recipe": {
-    "cuisine": "Persian",
-    "image_url": "https://silkroadrecipes.com/wp-content/uploads/2026/07/Shrimp-Saltimbocca-square-768x768.jpg",
-    "recipe_url": "https://silkroadrecipes.com/shrimp-saltimbocca/?adt_ei={{ subscriber.email_address }}&utm_source=rss&utm_medium=rss&utm_campaign=shrimp-saltimbocca",
-    "site_name": "Silk Road Recipes",
-    "title": "Shrimp Saltimbocca",
-    "url": "https://silkroadrecipes.com/shrimp-saltimbocca/?adt_ei={{ subscriber.email_address }}&utm_source=rss&utm_medium=rss&utm_campaign=shrimp-saltimbocca"
+    "cuisine": "Global",
+    "image_url": "https://www.recipetineats.com/tachyon/2026/10/Coconut-Lemon-Slice-Cake-7.jpg",
+    "recipe_url": "https://www.recipetineats.com/lemon-coconut-slice-cake/",
+    "site_name": "RecipeTin Eats",
+    "title": "Aussie Lemon Coconut Slice Cake",
+    "url": "https://www.recipetineats.com/lemon-coconut-slice-cake/"
   }
 }
