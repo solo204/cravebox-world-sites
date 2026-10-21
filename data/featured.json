@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-10-21T20:41:56Z",
-  "slot_hours": 2,
+  "updated_at": "2026-10-21T20:53:46Z",
+  "slot_hours": 1,
   "slot_idx": 1,
   "week": 2,
   "featured_sites": [
@@ -108,13 +108,13 @@
     }
   },
   "featured_recipe": {
-    "title": "Chashu (Braised Pork Belly)",
-    "url": "https://www.chopstickchronicles.com/ramen-pork-chashu/",
-    "recipe_url": "https://www.chopstickchronicles.com/ramen-pork-chashu/",
-    "image_url": "https://www.chopstickchronicles.com/wp-content/uploads/2020/01/Chashu-update-10.jpg",
-    "site_name": "Chopstick Chronicles",
-    "site_url": "https://www.chopstickchronicles.com",
-    "cuisine": "Japanese",
-    "published_at": "Wed, 16 Sep 2026 11:33:42 +0000"
+    "cuisine": "African",
+    "image_url": "https://www.africanbites.com/wp-content/uploads/2026/10/Roast-Turkey-Wings-1.jpg",
+    "published_at": "Tue, 06 Oct 2026 07:30:00 +0000",
+    "recipe_url": "https://www.africanbites.com/baked-turkey-wings/",
+    "site_name": "Immaculate Bites",
+    "site_url": "https://www.africanbites.com",
+    "title": "Roast Turkey Wings",
+    "url": "https://www.africanbites.com/baked-turkey-wings/"
   }
 }
