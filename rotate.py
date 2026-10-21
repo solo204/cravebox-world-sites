@@ -26,7 +26,7 @@ from pathlib import Path
 
 # ── Config ─────────────────────────────────────────────────────────────────────
 
-SLOT_HOURS = 2     # testing: 2  |  production: 168
+SLOT_HOURS = 1     # testing: 1  |  production: 168
 DATA_DIR   = Path(__file__).parent / "data"
 HEADERS    = {"User-Agent": "CraveBox-Rotator/1.0"}
 HEALTH_TIMEOUT = 5   # seconds per health check
@@ -152,15 +152,10 @@ def main():
         return
 
     # ── Find current slot ──────────────────────────────────────────────────────
-    # Use starts timestamps — find the last entry whose start is <= now.
-    # This is immune to SLOT_HOURS wrapping bugs.
-    slot_idx = 0
-    for i, e in enumerate(sched):
-        entry_dt = parse_dt(e.get("starts", ""))
-        if entry_dt and entry_dt <= now:
-            slot_idx = i
-        else:
-            break  # schedule is ordered; no need to continue
+    # Use elapsed hours from first entry + modulo so schedule loops indefinitely.
+    first_dt = parse_dt(sched[0].get("starts", "")) or now
+    elapsed_hours = max(0.0, (now - first_dt).total_seconds() / 3600)
+    slot_idx = int(elapsed_hours // SLOT_HOURS) % len(sched)
     print(f"[rotate] Slot {slot_idx + 1}/{len(sched)}")
 
     entry = sched[slot_idx]
