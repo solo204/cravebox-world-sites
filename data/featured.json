@@ -1,113 +1,116 @@
 {
-  "updated_at": "2026-10-22T19:10:41Z",
+  "updated_at": "2026-10-22T20:05:13Z",
   "slot_hours": 1,
-  "slot_idx": 23,
-  "week": 24,
+  "slot_idx": 24,
+  "week": 25,
   "featured_sites": [
     {
-      "name": "Manila Spoon",
-      "url": "https://manilaspoon.com",
-      "cuisine": "Filipino",
-      "tagline": "Filipino classics featured on Food Network and BuzzFeed.",
-      "image_url": "https://www.manilaspoon.com/wp-content/uploads/2024/10/No-Bake-Raspberry-Cheesecake-1.jpg",
-      "rss_url": "https://manilaspoon.com/feed/"
-    },
-    {
-      "name": "Dominican Cooking",
-      "url": "https://dominicancooking.com",
-      "cuisine": "Dominican",
-      "tagline": "The oldest and largest Dominican recipe website in English.",
-      "image_url": "https://www.dominicancooking.com/wp-content/uploads/air-fryer-mofongo-GLZ4434.jpg",
-      "rss_url": "https://dominicancooking.com/feed/",
+      "name": "Mommy's Home Cooking",
+      "url": "https://mommyshomecooking.com",
+      "cuisine": "Venezuelan",
+      "tagline": "Venezuelan and Latin recipes from a Caracas-born cook.",
+      "image_url": "https://mommyshomecooking.com/wp-content/uploads/2026/10/Eggless-Pumpkin-Chocolate-Chip-Bundt-Cake-10.jpg",
+      "rss_url": "https://mommyshomecooking.com/feed/",
       "sites": []
     },
     {
-      "name": "Delish D'Lites",
-      "url": "https://delishdlites.com",
-      "cuisine": "Puerto Rican",
-      "tagline": "Puerto Rican recipes from scratch by Jannese Torres.",
-      "image_url": "https://www.delishdlites.com/wp-content/uploads/2018/03/DSC_0664labelled-1024x940.jpg",
-      "rss_url": "https://delishdlites.com/feed/",
+      "name": "Give Recipe",
+      "url": "https://giverecipe.com",
+      "cuisine": "Turkish",
+      "tagline": "The best Turkish food blog in English — kebabs to mezes.",
+      "image_url": "https://www.giverecipe.com/wp-content/uploads/2021/04/Turkish-Chicken-Kebab-Recipe-360x480.jpg",
+      "rss_url": "https://giverecipe.com/feed/",
       "sites": []
     },
     {
-      "name": "The Noshery",
-      "url": "https://thenoshery.com",
-      "cuisine": "Puerto Rican",
-      "tagline": "Puerto Rican recipes from scratch since 2008.",
-      "image_url": "https://thenoshery.com/wp-content/uploads/2015/12/Arroz-con-Gandules-34-643x900.jpg",
-      "rss_url": "https://thenoshery.com/feed/",
-      "sites": []
+      "name": "Marion's Kitchen",
+      "url": "https://marionskitchen.com",
+      "cuisine": "Australian",
+      "tagline": "Thai, Korean, and pan-Asian recipes with professional photography.",
+      "image_url": "https://www.marionskitchen.com/wp-content/uploads/2026/09/MK_The-Garlicky-Garlic-noodles_6.webp",
+      "rss_url": "https://marionskitchen.com/feed/"
+    },
+    {
+      "name": "The First Mess",
+      "url": "https://thefirstmess.com",
+      "cuisine": "Vegan",
+      "tagline": "Beautiful plant-based cooking with luminous, magazine-quality photography.",
+      "image_url": "https://thefirstmess.com/wp-content/uploads/2026/09/eggplant-curry-chickpeas-vegan-02.jpg",
+      "rss_url": "https://thefirstmess.com/feed/"
     }
   ],
   "featured_recipes": {
     "Mon": {
-      "cuisine": "Filipino",
-      "image_url": "https://www.manilaspoon.com/wp-content/uploads/2021/03/MillionDollarSpaghetti-9.jpg",
-      "recipe_url": "https://www.manilaspoon.com/easy-and-tasty-million-dollar-baked-spaghetti/",
-      "site_name": "Manila Spoon",
-      "title": "Easy and Tasty Million Dollar Baked Spaghetti",
-      "url": "https://www.manilaspoon.com/easy-and-tasty-million-dollar-baked-spaghetti/"
+      "title": "Eggless Pumpkin Chocolate Chip Bundt Cake (with Chocolate Glaze)",
+      "url": "https://mommyshomecooking.com/eggless-pumpkin-chocolate-chip-bundt-cake/",
+      "recipe_url": "https://mommyshomecooking.com/eggless-pumpkin-chocolate-chip-bundt-cake/",
+      "image_url": "https://mommyshomecooking.com/wp-content/uploads/2026/10/Eggless-Pumpkin-Chocolate-Chip-Bundt-Cake-10.jpg",
+      "site_name": "Mommy's Home Cooking",
+      "site_url": "https://mommyshomecooking.com",
+      "cuisine": "Venezuelan",
+      "published_at": "Fri, 09 Oct 2026 11:57:36 +0000"
     },
     "Tue": {
-      "cuisine": "Dominican",
-      "image_url": "https://www.dominicancooking.com/wp-content/uploads/cocadas-recipe-GLZ3529.jpg",
-      "recipe_url": "https://www.dominicancooking.com/cocadas",
-      "site_name": "Dominican Cooking",
-      "title": "Cocadas (Coconut Candy)",
-      "url": "https://www.dominicancooking.com/cocadas"
+      "cuisine": "Turkish",
+      "image_url": "https://www.giverecipe.com/wp-content/uploads/2026/05/Sucuk-and-Eggs.jpg",
+      "recipe_url": "https://www.giverecipe.com/sucuk-and-eggs-sucuklu-yumurta/",
+      "site_name": "Give Recipe",
+      "title": "Sucuk and Eggs (Sucuklu Yumurta)",
+      "url": "https://www.giverecipe.com/sucuk-and-eggs-sucuklu-yumurta/"
     },
     "Wed": {
-      "title": "Garlic & Rosemary Grilled Lamb Chops",
-      "url": "https://www.delishdlites.com/type/gluten-free-recipes/perfect-grilled-lamb-loin-chops-recipe/",
-      "recipe_url": "https://www.delishdlites.com/type/gluten-free-recipes/perfect-grilled-lamb-loin-chops-recipe/",
-      "image_url": "https://www.delishdlites.com/wp-content/uploads/2018/03/DSC_0664labelled-1024x940.jpg",
-      "site_name": "Delish D'Lites",
-      "site_url": "https://delishdlites.com",
-      "cuisine": "Puerto Rican",
-      "published_at": "Sat, 04 Apr 2026 12:47:36 +0000"
+      "cuisine": "Vegan",
+      "image_url": "https://thefirstmess.com/wp-content/uploads/2026/09/eggplant-curry-chickpeas-vegan-02.jpg",
+      "recipe_url": "https://thefirstmess.com/2026/09/09/roasted-eggplant-curry-chickpeas-vegan/",
+      "site_name": "The First Mess",
+      "title": "Roasted Eggplant Curry with Chickpeas (Vegan)",
+      "url": "https://thefirstmess.com/2026/09/09/roasted-eggplant-curry-chickpeas-vegan/"
     },
     "Thu": {
-      "title": "Arroz Con Gandules | How To Make Puerto Rican Christmas Rice",
-      "url": "https://thenoshery.com/arroz-con-gandules-rice-and-pigeon-peas/",
-      "recipe_url": "https://thenoshery.com/arroz-con-gandules-rice-and-pigeon-peas/",
-      "image_url": "https://thenoshery.com/wp-content/uploads/2015/12/Arroz-con-Gandules-34-643x900.jpg",
-      "site_name": "The Noshery",
-      "site_url": "https://thenoshery.com",
-      "cuisine": "Puerto Rican",
-      "published_at": "Mon, 27 Nov 2023 18:39:17 +0000"
+      "cuisine": "Vegan",
+      "image_url": "https://thefirstmess.com/wp-content/uploads/2026/09/spicy-peanut-kale-salad-charred-corn-crispy-tofu-2.jpg",
+      "recipe_url": "https://thefirstmess.com/2026/09/16/spicy-peanut-kale-salad-crispy-tofu-charred-corn/",
+      "site_name": "The First Mess",
+      "title": "Spicy Peanut Kale Salad with Crispy Tofu & Charred Corn",
+      "url": "https://thefirstmess.com/2026/09/16/spicy-peanut-kale-salad-crispy-tofu-charred-corn/"
     },
     "Fri": {
-      "cuisine": "Filipino",
-      "image_url": "https://www.manilaspoon.com/wp-content/uploads/2026/08/BulgogiKimbap-6.jpg",
-      "recipe_url": "https://www.manilaspoon.com/bulgogi-kimbap/",
-      "site_name": "Manila Spoon",
-      "title": "Bulgogi Kimbap (Korean Beef Seaweed Rice Roll)",
-      "url": "https://www.manilaspoon.com/bulgogi-kimbap/"
+      "title": "Eggless Biscoff Pumpkin Cheesecake Pie (No Water Bath!)",
+      "url": "https://mommyshomecooking.com/eggless-biscoff-pumpkin-cheesecake-pie/",
+      "recipe_url": "https://mommyshomecooking.com/eggless-biscoff-pumpkin-cheesecake-pie/",
+      "image_url": "https://mommyshomecooking.com/wp-content/uploads/2026/09/Eggless-Biscoff-Pumpkin-Cheesecake-Pie-12.jpg",
+      "site_name": "Mommy's Home Cooking",
+      "site_url": "https://mommyshomecooking.com",
+      "cuisine": "Venezuelan",
+      "published_at": "Fri, 25 Sep 2026 10:59:13 +0000"
     },
     "Sat": {
-      "cuisine": "Dominican",
-      "image_url": "https://www.dominicancooking.com/wp-content/uploads/dominican-cupcakes-recipes-GLZ3896-1.jpg",
-      "recipe_url": "https://www.dominicancooking.com/dominican-cupcakes",
-      "site_name": "Dominican Cooking",
-      "title": "Dominican Bizcocho Cupcakes",
-      "url": "https://www.dominicancooking.com/dominican-cupcakes"
+      "title": "Fresh Fig Cake",
+      "url": "https://www.giverecipe.com/fresh-fig-cake/",
+      "recipe_url": "https://www.giverecipe.com/fresh-fig-cake/",
+      "image_url": "https://www.giverecipe.com/wp-content/uploads/2026/09/Fresh-Fig-Cake-Featured-1.jpg",
+      "site_name": "Give Recipe",
+      "site_url": "https://giverecipe.com",
+      "cuisine": "Turkish",
+      "published_at": "Mon, 21 Sep 2026 22:50:44 +0000"
     },
     "Sun": {
-      "cuisine": "Filipino",
-      "image_url": "https://www.manilaspoon.com/wp-content/uploads/2017/11/CurriedChickenSalad-5.jpg",
-      "recipe_url": "https://www.manilaspoon.com/curried-chicken-salad-2/",
-      "site_name": "Manila Spoon",
-      "title": "Curried Chicken Salad",
-      "url": "https://www.manilaspoon.com/curried-chicken-salad-2/"
+      "cuisine": "Australian",
+      "image_url": "https://www.marionskitchen.com/wp-content/uploads/2026/09/MK_Crispy-Chilli-Meatball-Noodles_4.webp",
+      "recipe_url": "https://www.marionskitchen.com/crispy-chilli-meatball-noodles/",
+      "site_name": "Marion's Kitchen",
+      "title": "Crispy Chilli Meatball Noodles",
+      "url": "https://www.marionskitchen.com/crispy-chilli-meatball-noodles/"
     }
   },
   "featured_recipe": {
-    "cuisine": "Filipino",
-    "image_url": "https://www.manilaspoon.com/wp-content/uploads/2021/03/MillionDollarSpaghetti-9.jpg",
-    "recipe_url": "https://www.manilaspoon.com/easy-and-tasty-million-dollar-baked-spaghetti/",
-    "site_name": "Manila Spoon",
-    "title": "Easy and Tasty Million Dollar Baked Spaghetti",
-    "url": "https://www.manilaspoon.com/easy-and-tasty-million-dollar-baked-spaghetti/"
+    "title": "Eggless Pumpkin Chocolate Chip Bundt Cake (with Chocolate Glaze)",
+    "url": "https://mommyshomecooking.com/eggless-pumpkin-chocolate-chip-bundt-cake/",
+    "recipe_url": "https://mommyshomecooking.com/eggless-pumpkin-chocolate-chip-bundt-cake/",
+    "image_url": "https://mommyshomecooking.com/wp-content/uploads/2026/10/Eggless-Pumpkin-Chocolate-Chip-Bundt-Cake-10.jpg",
+    "site_name": "Mommy's Home Cooking",
+    "site_url": "https://mommyshomecooking.com",
+    "cuisine": "Venezuelan",
+    "published_at": "Fri, 09 Oct 2026 11:57:36 +0000"
   }
 }
