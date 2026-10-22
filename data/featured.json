@@ -1,122 +1,120 @@
 {
-  "updated_at": "2026-10-22T07:05:13Z",
+  "updated_at": "2026-10-22T08:05:18Z",
   "slot_hours": 1,
-  "slot_idx": 11,
-  "week": 12,
+  "slot_idx": 12,
+  "week": 13,
   "featured_sites": [
     {
-      "name": "Family Spice",
-      "url": "https://familyspice.com",
-      "cuisine": "Persian",
-      "tagline": "500+ family-friendly recipes with Persian flair.",
-      "image_url": "https://familyspice.com/wp-content/uploads/2024/08/2024-familspice-artichoke-1200.jpg",
-      "rss_url": "https://familyspice.com/feed/"
+      "name": "The Woks of Life",
+      "url": "https://thewoksoflife.com",
+      "cuisine": "Chinese",
+      "tagline": "The online authority on Chinese home cooking.",
+      "image_url": "https://thewoksoflife.com/wp-content/uploads/2023/05/lo-mein-20.jpg",
+      "rss_url": "https://thewoksoflife.com/feed/"
     },
     {
-      "name": "The Matbakh",
-      "url": "https://thematbakh.com",
-      "cuisine": "Lebanese",
-      "tagline": "Lebanese, Egyptian, and Syrian recipes in one kitchen.",
-      "image_url": "https://thematbakh.com/wp-content/uploads/2026/07/homemade-sweet-potato-baby-food-2.jpg",
-      "rss_url": "https://thematbakh.com/feed/"
+      "name": "Hungry Paprikas",
+      "url": "https://www.hungrypaprikas.com",
+      "cuisine": "Middle Eastern",
+      "tagline": "Authentic Arabic and Middle Eastern recipes.",
+      "image_url": "https://www.hungrypaprikas.com/wp-content/uploads/2026/08/Ground-Beef-Curry-2.jpg",
+      "rss_url": "https://www.hungrypaprikas.com/feed/"
     },
     {
-      "name": "Amira's Pantry",
-      "url": "https://amiraspantry.com",
-      "cuisine": "Egyptian",
-      "tagline": "Egyptian and Middle Eastern recipes from an Egyptian-born cook.",
-      "image_url": "https://amiraspantry.com/wp-content/uploads/2024/03/breakfast-biscuit-pizza-featured-360x480.jpg",
-      "rss_url": "https://amiraspantry.com/feed/"
+      "name": "Mexico in My Kitchen",
+      "url": "https://www.mexicoinmykitchen.com",
+      "cuisine": "Mexican",
+      "tagline": "100% authentic Mexican recipes.",
+      "image_url": "https://www.mexicoinmykitchen.com/wp-content/uploads/2026/03/Aguachile-Recipe-6.jpg",
+      "rss_url": "https://www.mexicoinmykitchen.com/feed/"
     },
     {
-      "name": "The Little Ferraro Kitchen",
-      "url": "https://littleferrarokitchen.com",
-      "cuisine": "Jewish / Middle Eastern",
-      "tagline": "Sephardic, Israeli, Persian, and Turkish recipes under one roof.",
-      "image_url": "https://littleferrarokitchen.com/wp-content/uploads/2026/09/pozole-rojo-with-pork-hominy-1024x1024.jpg",
-      "rss_url": "https://littleferrarokitchen.com/feed/"
+      "name": "The Flavor Bender",
+      "url": "https://theflavorbender.com",
+      "cuisine": "Sri Lankan",
+      "tagline": "Sri Lankan curries and multi-cuisine cooking with pro photography.",
+      "image_url": "https://www.theflavorbender.com/wp-content/uploads/2026/10/French-shortcrust-pastry-featured-1.jpg",
+      "rss_url": "https://theflavorbender.com/feed/"
     }
   ],
   "featured_recipes": {
     "Mon": {
-      "cuisine": "Jewish / Middle Eastern",
-      "image_url": "https://littleferrarokitchen.com/wp-content/uploads/2023/12/sweet-sour-cabbage-rolls-1024x1024.jpg",
-      "published_at": "Tue, 08 Sep 2026 10:48:00 +0000",
-      "recipe_url": "https://littleferrarokitchen.com/sweet-and-sour-stuffed-cabbage-rolls/?utm_source=rss&utm_medium=rss&utm_campaign=sweet-and-sour-stuffed-cabbage-rolls",
-      "site_name": "The Little Ferraro Kitchen",
-      "site_url": "https://littleferrarokitchen.com",
-      "title": "Sweet and Sour Cabbage Rolls",
-      "url": "https://littleferrarokitchen.com/sweet-and-sour-stuffed-cabbage-rolls/?utm_source=rss&utm_medium=rss&utm_campaign=sweet-and-sour-stuffed-cabbage-rolls"
+      "title": "Kaitlin’s Most Excellent Spaghetti Bolognese",
+      "url": "https://thewoksoflife.com/spaghetti-bolognese/?adt_ei=*|EMAIL|*",
+      "recipe_url": "https://thewoksoflife.com/spaghetti-bolognese/?adt_ei=*|EMAIL|*",
+      "image_url": "https://thewoksoflife.com/wp-content/uploads/2026/06/spaghetti-bolognese-17.jpg",
+      "site_name": "The Woks of Life",
+      "site_url": "https://thewoksoflife.com",
+      "cuisine": "Chinese",
+      "published_at": "Sun, 11 Oct 2026 08:29:00 +0000"
     },
     "Tue": {
-      "cuisine": "Lebanese",
-      "image_url": "https://thematbakh.com/wp-content/uploads/2026/02/lemon-spatchcock-roasted-chicken-7.jpg",
-      "published_at": "Wed, 25 Feb 2026 20:53:35 +0000",
-      "recipe_url": "https://thematbakh.com/spatchcock-lemon-chicken/",
-      "site_name": "The Matbakh",
-      "site_url": "https://thematbakh.com",
-      "title": "Oven Roasted Spatchcock Lemon Chicken",
-      "url": "https://thematbakh.com/spatchcock-lemon-chicken/"
+      "title": "Ground Beef Curry With Potatoes (Iraqi Style)",
+      "url": "https://www.hungrypaprikas.com/ground-beef-curry-with-potatoes/",
+      "recipe_url": "https://www.hungrypaprikas.com/ground-beef-curry-with-potatoes/",
+      "image_url": "https://www.hungrypaprikas.com/wp-content/uploads/2026/08/Ground-Beef-Curry-2.jpg",
+      "site_name": "Hungry Paprikas",
+      "site_url": "https://www.hungrypaprikas.com",
+      "cuisine": "Middle Eastern",
+      "published_at": "Wed, 30 Sep 2026 14:45:28 +0000"
     },
     "Wed": {
-      "cuisine": "Egyptian",
-      "image_url": "https://amiraspantry.com/wp-content/uploads/2026/10/slow-cooker-cottage-pie-social.jpg",
-      "published_at": "Thu, 01 Oct 2026 19:07:35 +0000",
-      "recipe_url": "https://amiraspantry.com/slow-cooker-cottage-pie/",
-      "site_name": "Amira's Pantry",
-      "site_url": "https://amiraspantry.com",
-      "title": "Slow Cooker Cottage Pie",
-      "url": "https://amiraspantry.com/slow-cooker-cottage-pie/"
+      "cuisine": "Sri Lankan",
+      "image_url": "https://www.theflavorbender.com/wp-content/uploads/2026/09/Tomato-tart-featured-2.jpg",
+      "recipe_url": "https://www.theflavorbender.com/french-tomato-tart/?utm_source=rss&utm_medium=rss&utm_campaign=french-tomato-tart",
+      "site_name": "The Flavor Bender",
+      "title": "Simple Tomato Tart",
+      "url": "https://www.theflavorbender.com/french-tomato-tart/?utm_source=rss&utm_medium=rss&utm_campaign=french-tomato-tart"
     },
     "Thu": {
-      "title": "Pozole Rojo (Mexican Pork and Hominy Stew)",
-      "url": "https://littleferrarokitchen.com/pozole-rojo-mexican-stew-pork-hominy/?utm_source=rss&utm_medium=rss&utm_campaign=pozole-rojo-mexican-stew-pork-hominy",
-      "recipe_url": "https://littleferrarokitchen.com/pozole-rojo-mexican-stew-pork-hominy/?utm_source=rss&utm_medium=rss&utm_campaign=pozole-rojo-mexican-stew-pork-hominy",
-      "image_url": "https://littleferrarokitchen.com/wp-content/uploads/2026/09/pozole-rojo-with-pork-hominy-1024x1024.jpg",
-      "site_name": "The Little Ferraro Kitchen",
-      "site_url": "https://littleferrarokitchen.com",
-      "cuisine": "Jewish / Middle Eastern",
-      "published_at": "Mon, 28 Sep 2026 11:00:00 +0000"
+      "title": "Sheet Pan Red Curry Chicken",
+      "url": "https://thewoksoflife.com/sheet-pan-red-curry-chicken/?adt_ei=*|EMAIL|*",
+      "recipe_url": "https://thewoksoflife.com/sheet-pan-red-curry-chicken/?adt_ei=*|EMAIL|*",
+      "image_url": "https://thewoksoflife.com/wp-content/uploads/2026/05/thai-red-curry-sheet-pan-chicken-6.jpg",
+      "site_name": "The Woks of Life",
+      "site_url": "https://thewoksoflife.com",
+      "cuisine": "Chinese",
+      "published_at": "Fri, 09 Oct 2026 07:19:00 +0000"
     },
     "Fri": {
-      "title": "Olive Oil Pumpkin Bread",
-      "url": "https://familyspice.com/olive-oil-pumpkin-bread-2/",
-      "recipe_url": "https://familyspice.com/olive-oil-pumpkin-bread-2/",
-      "image_url": "https://familyspice.com/wp-content/uploads/2026/10/evoo-pumpkin-bread3-1200.jpg",
-      "site_name": "Family Spice",
-      "site_url": "https://familyspice.com",
-      "cuisine": "Persian",
-      "published_at": "Wed, 07 Oct 2026 02:00:29 +0000"
+      "title": "Fall Apart Beef Short Ribs With Pomegranate (No Wine)",
+      "url": "https://www.hungrypaprikas.com/beef-short-ribs/",
+      "recipe_url": "https://www.hungrypaprikas.com/beef-short-ribs/",
+      "image_url": "https://www.hungrypaprikas.com/wp-content/uploads/2026/09/Pomegranate-Short-Ribs-1-1.jpg",
+      "site_name": "Hungry Paprikas",
+      "site_url": "https://www.hungrypaprikas.com",
+      "cuisine": "Middle Eastern",
+      "published_at": "Thu, 17 Sep 2026 16:09:10 +0000"
     },
     "Sat": {
-      "title": "Iced Strawberry Matcha Latte",
-      "url": "https://thematbakh.com/iced-strawberry-matcha-latte/",
-      "recipe_url": "https://thematbakh.com/iced-strawberry-matcha-latte/",
-      "image_url": "https://thematbakh.com/wp-content/uploads/2026/05/Iced-strawberry-matcha-latte.jpg",
-      "site_name": "The Matbakh",
-      "site_url": "https://thematbakh.com",
-      "cuisine": "Lebanese",
-      "published_at": "Mon, 01 Jun 2026 19:37:08 +0000"
+      "title": "Coconut Curry Beans and Greens",
+      "url": "https://www.budgetbytes.com/coconut-curry-beans-and-greens/",
+      "recipe_url": "https://www.budgetbytes.com/coconut-curry-beans-and-greens/",
+      "image_url": "https://www.budgetbytes.com/wp-content/uploads/2026/10/Coconut-Curry-Beans-and-Greens-Overhead-Wide.jpg",
+      "site_name": "Budget Bytes",
+      "site_url": "https://www.budgetbytes.com",
+      "cuisine": "American",
+      "published_at": "Fri, 09 Oct 2026 13:30:00 +0000"
     },
     "Sun": {
-      "title": "Instant Pot Beef and Barley Soup",
-      "url": "https://amiraspantry.com/instant-pot-beef-and-barley-soup/",
-      "recipe_url": "https://amiraspantry.com/instant-pot-beef-and-barley-soup/",
-      "image_url": "https://amiraspantry.com/wp-content/uploads/2022/03/instant-pot-beef-barley-soup-social.jpg",
-      "site_name": "Amira's Pantry",
-      "site_url": "https://amiraspantry.com",
-      "cuisine": "Egyptian",
-      "published_at": "Sat, 10 Oct 2026 07:28:00 +0000"
+      "title": "Pineapple Chicken",
+      "url": "https://thewoksoflife.com/pineapple-chicken/?adt_ei=*|EMAIL|*",
+      "recipe_url": "https://thewoksoflife.com/pineapple-chicken/?adt_ei=*|EMAIL|*",
+      "image_url": "https://thewoksoflife.com/wp-content/uploads/2026/07/pineapple-chicken-17.jpg",
+      "site_name": "The Woks of Life",
+      "site_url": "https://thewoksoflife.com",
+      "cuisine": "Chinese",
+      "published_at": "Mon, 05 Oct 2026 07:51:00 +0000"
     }
   },
   "featured_recipe": {
-    "cuisine": "Jewish / Middle Eastern",
-    "image_url": "https://littleferrarokitchen.com/wp-content/uploads/2023/12/sweet-sour-cabbage-rolls-1024x1024.jpg",
-    "published_at": "Tue, 08 Sep 2026 10:48:00 +0000",
-    "recipe_url": "https://littleferrarokitchen.com/sweet-and-sour-stuffed-cabbage-rolls/?utm_source=rss&utm_medium=rss&utm_campaign=sweet-and-sour-stuffed-cabbage-rolls",
-    "site_name": "The Little Ferraro Kitchen",
-    "site_url": "https://littleferrarokitchen.com",
-    "title": "Sweet and Sour Cabbage Rolls",
-    "url": "https://littleferrarokitchen.com/sweet-and-sour-stuffed-cabbage-rolls/?utm_source=rss&utm_medium=rss&utm_campaign=sweet-and-sour-stuffed-cabbage-rolls"
+    "title": "Kaitlin’s Most Excellent Spaghetti Bolognese",
+    "url": "https://thewoksoflife.com/spaghetti-bolognese/?adt_ei=*|EMAIL|*",
+    "recipe_url": "https://thewoksoflife.com/spaghetti-bolognese/?adt_ei=*|EMAIL|*",
+    "image_url": "https://thewoksoflife.com/wp-content/uploads/2026/06/spaghetti-bolognese-17.jpg",
+    "site_name": "The Woks of Life",
+    "site_url": "https://thewoksoflife.com",
+    "cuisine": "Chinese",
+    "published_at": "Sun, 11 Oct 2026 08:29:00 +0000"
   }
 }
