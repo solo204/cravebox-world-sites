@@ -1,120 +1,126 @@
 {
-  "updated_at": "2026-10-22T08:05:18Z",
+  "updated_at": "2026-10-22T09:05:16Z",
   "slot_hours": 1,
-  "slot_idx": 12,
-  "week": 13,
+  "slot_idx": 13,
+  "week": 14,
   "featured_sites": [
     {
-      "name": "The Woks of Life",
-      "url": "https://thewoksoflife.com",
-      "cuisine": "Chinese",
-      "tagline": "The online authority on Chinese home cooking.",
-      "image_url": "https://thewoksoflife.com/wp-content/uploads/2023/05/lo-mein-20.jpg",
-      "rss_url": "https://thewoksoflife.com/feed/"
+      "name": "Chef Lola's Kitchen",
+      "url": "https://cheflolaskitchen.com",
+      "cuisine": "Nigerian",
+      "tagline": "Authentic Nigerian recipes for everyday cooking.",
+      "image_url": "https://cheflolaskitchen.com/wp-content/uploads/2025/07/Classic-Stuffing.jpg",
+      "rss_url": "https://cheflolaskitchen.com/feed/"
     },
     {
-      "name": "Hungry Paprikas",
-      "url": "https://www.hungrypaprikas.com",
-      "cuisine": "Middle Eastern",
-      "tagline": "Authentic Arabic and Middle Eastern recipes.",
-      "image_url": "https://www.hungrypaprikas.com/wp-content/uploads/2026/08/Ground-Beef-Curry-2.jpg",
-      "rss_url": "https://www.hungrypaprikas.com/feed/"
+      "name": "Afrolems",
+      "url": "https://afrolems.com",
+      "cuisine": "Nigerian",
+      "tagline": "Creative Nigerian recipes for international palates.",
+      "image_url": "https://i0.wp.com/www.afrolems.com/wp-content/uploads/2015/07/sadza-peanut-soup.jpg?resize=320%2C107&#038;ssl=1",
+      "rss_url": "https://afrolems.com/feed/"
     },
     {
-      "name": "Mexico in My Kitchen",
-      "url": "https://www.mexicoinmykitchen.com",
-      "cuisine": "Mexican",
-      "tagline": "100% authentic Mexican recipes.",
-      "image_url": "https://www.mexicoinmykitchen.com/wp-content/uploads/2026/03/Aguachile-Recipe-6.jpg",
-      "rss_url": "https://www.mexicoinmykitchen.com/feed/"
+      "name": "Kaluhi's Kitchen",
+      "url": "https://kaluhiskitchen.com",
+      "cuisine": "Kenyan",
+      "tagline": "Stunning Kenyan recipes with award-winning photography.",
+      "image_url": "https://www.kaluhiskitchen.com/wp-content/uploads/2026/07/FRIED-CHICKEN_UNBREADED-FRIED-CHICKEN_EASY-FRIED-CHICKEN_HOMEMADE-FRIED-CHICKEN_FRIED-CHICKEN-KENYA_KALUHISKITCHEN-1-1.jpg",
+      "rss_url": "https://kaluhiskitchen.com/feed/"
     },
     {
-      "name": "The Flavor Bender",
-      "url": "https://theflavorbender.com",
-      "cuisine": "Sri Lankan",
-      "tagline": "Sri Lankan curries and multi-cuisine cooking with pro photography.",
-      "image_url": "https://www.theflavorbender.com/wp-content/uploads/2026/10/French-shortcrust-pastry-featured-1.jpg",
-      "rss_url": "https://theflavorbender.com/feed/"
+      "name": "Pardon Your French",
+      "url": "https://www.pardonyourfrench.com",
+      "cuisine": "French",
+      "tagline": "Classic French home cooking, made approachable.",
+      "image_url": "https://i0.wp.com/www.pardonyourfrench.com/wp-content/uploads/2026/09/traditional-tartiflette-recipe-11.jpg?fit=801%2C1200&ssl=1",
+      "rss_url": "https://www.pardonyourfrench.com/feed/",
+      "sites": []
     }
   ],
   "featured_recipes": {
     "Mon": {
-      "title": "Kaitlin’s Most Excellent Spaghetti Bolognese",
-      "url": "https://thewoksoflife.com/spaghetti-bolognese/?adt_ei=*|EMAIL|*",
-      "recipe_url": "https://thewoksoflife.com/spaghetti-bolognese/?adt_ei=*|EMAIL|*",
-      "image_url": "https://thewoksoflife.com/wp-content/uploads/2026/06/spaghetti-bolognese-17.jpg",
-      "site_name": "The Woks of Life",
-      "site_url": "https://thewoksoflife.com",
-      "cuisine": "Chinese",
-      "published_at": "Sun, 11 Oct 2026 08:29:00 +0000"
+      "cuisine": "Nigerian",
+      "image_url": "https://cheflolaskitchen.com/wp-content/uploads/2025/07/Rice-and-Beef-1.jpg",
+      "published_at": "Thu, 03 Sep 2026 20:22:51 +0000",
+      "recipe_url": "https://cheflolaskitchen.com/rice-and-beef/",
+      "site_name": "Chef Lola's Kitchen",
+      "site_url": "https://cheflolaskitchen.com",
+      "title": "Quick And Easy One-Pot Rice and Beef",
+      "url": "https://cheflolaskitchen.com/rice-and-beef/"
     },
     "Tue": {
-      "title": "Ground Beef Curry With Potatoes (Iraqi Style)",
-      "url": "https://www.hungrypaprikas.com/ground-beef-curry-with-potatoes/",
-      "recipe_url": "https://www.hungrypaprikas.com/ground-beef-curry-with-potatoes/",
-      "image_url": "https://www.hungrypaprikas.com/wp-content/uploads/2026/08/Ground-Beef-Curry-2.jpg",
-      "site_name": "Hungry Paprikas",
-      "site_url": "https://www.hungrypaprikas.com",
-      "cuisine": "Middle Eastern",
-      "published_at": "Wed, 30 Sep 2026 14:45:28 +0000"
+      "title": "Unbreaded Spicy Fried Chicken",
+      "url": "https://www.kaluhiskitchen.com/unbreaded-spicy-fried-chicken/",
+      "recipe_url": "https://www.kaluhiskitchen.com/unbreaded-spicy-fried-chicken/",
+      "image_url": "https://www.kaluhiskitchen.com/wp-content/uploads/2026/07/FRIED-CHICKEN_UNBREADED-FRIED-CHICKEN_EASY-FRIED-CHICKEN_HOMEMADE-FRIED-CHICKEN_FRIED-CHICKEN-KENYA_KALUHISKITCHEN-1-1.jpg",
+      "site_name": "Kaluhi's Kitchen",
+      "site_url": "https://kaluhiskitchen.com",
+      "cuisine": "Kenyan",
+      "published_at": "Wed, 15 Jul 2026 08:49:00 +0000"
     },
     "Wed": {
-      "cuisine": "Sri Lankan",
-      "image_url": "https://www.theflavorbender.com/wp-content/uploads/2026/09/Tomato-tart-featured-2.jpg",
-      "recipe_url": "https://www.theflavorbender.com/french-tomato-tart/?utm_source=rss&utm_medium=rss&utm_campaign=french-tomato-tart",
-      "site_name": "The Flavor Bender",
-      "title": "Simple Tomato Tart",
-      "url": "https://www.theflavorbender.com/french-tomato-tart/?utm_source=rss&utm_medium=rss&utm_campaign=french-tomato-tart"
+      "title": "Brie Burger With Onions Caramelised in Red Wine",
+      "url": "https://drizzleanddip.com/2026/10/01/brie-burger-with-onions-caramelised-in-red-wine/",
+      "recipe_url": "https://drizzleanddip.com/2026/10/01/brie-burger-with-onions-caramelised-in-red-wine/",
+      "image_url": "https://drizzleanddip.com/wp-content/uploads/2026/09/Brie-burger-with-onions-cramelised-in-red-wine-1.jpg",
+      "site_name": "Drizzle and Dip",
+      "site_url": "https://drizzleanddip.com",
+      "cuisine": "South African",
+      "published_at": "Thu, 01 Oct 2026 13:03:48 +0000"
     },
     "Thu": {
-      "title": "Sheet Pan Red Curry Chicken",
-      "url": "https://thewoksoflife.com/sheet-pan-red-curry-chicken/?adt_ei=*|EMAIL|*",
-      "recipe_url": "https://thewoksoflife.com/sheet-pan-red-curry-chicken/?adt_ei=*|EMAIL|*",
-      "image_url": "https://thewoksoflife.com/wp-content/uploads/2026/05/thai-red-curry-sheet-pan-chicken-6.jpg",
-      "site_name": "The Woks of Life",
-      "site_url": "https://thewoksoflife.com",
-      "cuisine": "Chinese",
-      "published_at": "Fri, 09 Oct 2026 07:19:00 +0000"
+      "cuisine": "Nigerian",
+      "image_url": "https://cheflolaskitchen.com/wp-content/uploads/2015/06/Fried-Rice-20.jpg",
+      "published_at": "Wed, 26 Aug 2026 23:31:47 +0000",
+      "recipe_url": "https://cheflolaskitchen.com/nigerian-fried-rice-recipe/",
+      "site_name": "Chef Lola's Kitchen",
+      "site_url": "https://cheflolaskitchen.com",
+      "title": "Nigerian Fried Rice Recipe",
+      "url": "https://cheflolaskitchen.com/nigerian-fried-rice-recipe/"
     },
     "Fri": {
-      "title": "Fall Apart Beef Short Ribs With Pomegranate (No Wine)",
-      "url": "https://www.hungrypaprikas.com/beef-short-ribs/",
-      "recipe_url": "https://www.hungrypaprikas.com/beef-short-ribs/",
-      "image_url": "https://www.hungrypaprikas.com/wp-content/uploads/2026/09/Pomegranate-Short-Ribs-1-1.jpg",
-      "site_name": "Hungry Paprikas",
-      "site_url": "https://www.hungrypaprikas.com",
-      "cuisine": "Middle Eastern",
-      "published_at": "Thu, 17 Sep 2026 16:09:10 +0000"
+      "title": "Garri Cookies",
+      "url": "https://www.afrolems.com/2025/07/02/garri-cookies/",
+      "recipe_url": "https://www.afrolems.com/2025/07/02/garri-cookies/",
+      "image_url": "https://www.afrolems.com/wp-content/uploads/2025/07/IMG_0775-2-scaled.jpg",
+      "site_name": "Afrolems",
+      "site_url": "https://afrolems.com",
+      "cuisine": "Nigerian",
+      "published_at": "Wed, 02 Jul 2025 14:45:39 +0000"
     },
     "Sat": {
-      "title": "Coconut Curry Beans and Greens",
-      "url": "https://www.budgetbytes.com/coconut-curry-beans-and-greens/",
-      "recipe_url": "https://www.budgetbytes.com/coconut-curry-beans-and-greens/",
-      "image_url": "https://www.budgetbytes.com/wp-content/uploads/2026/10/Coconut-Curry-Beans-and-Greens-Overhead-Wide.jpg",
-      "site_name": "Budget Bytes",
-      "site_url": "https://www.budgetbytes.com",
-      "cuisine": "American",
-      "published_at": "Fri, 09 Oct 2026 13:30:00 +0000"
+      "cuisine": "Kenyan",
+      "image_url": "https://www.kaluhiskitchen.com/wp-content/uploads/2025/08/carrot-muffins_easy-carrot-muffins_kaluhi-carrot-muffins_kaluhiskitchen-recipes.jpg",
+      "published_at": "Tue, 12 Aug 2025 09:14:35 +0000",
+      "recipe_url": "https://www.kaluhiskitchen.com/moist-homemade-carrot-muffins/",
+      "site_name": "Kaluhi's Kitchen",
+      "site_url": "https://kaluhiskitchen.com",
+      "title": "Moist, Homemade Carrot Muffins",
+      "url": "https://www.kaluhiskitchen.com/moist-homemade-carrot-muffins/"
     },
     "Sun": {
-      "title": "Pineapple Chicken",
-      "url": "https://thewoksoflife.com/pineapple-chicken/?adt_ei=*|EMAIL|*",
-      "recipe_url": "https://thewoksoflife.com/pineapple-chicken/?adt_ei=*|EMAIL|*",
-      "image_url": "https://thewoksoflife.com/wp-content/uploads/2026/07/pineapple-chicken-17.jpg",
-      "site_name": "The Woks of Life",
-      "site_url": "https://thewoksoflife.com",
-      "cuisine": "Chinese",
-      "published_at": "Mon, 05 Oct 2026 07:51:00 +0000"
+      "cuisine": "South African",
+      "image_url": "https://drizzleanddip.com/wp-content/uploads/2026/07/Chicken-pie-vol-au-vent-main.jpg",
+      "published_at": "Wed, 08 Jul 2026 10:27:30 +0000",
+      "recipe_url": "https://drizzleanddip.com/2026/07/08/the-best-chicken-leek-and-mushroom-vol-au-vent-pie-recipe/",
+      "site_name": "Drizzle and Dip",
+      "site_url": "https://drizzleanddip.com",
+      "title": "The Best Chicken, Leek and Mushroom Vol-au-Vent Pie Recipe",
+      "url": "https://drizzleanddip.com/2026/07/08/the-best-chicken-leek-and-mushroom-vol-au-vent-pie-recipe/"
     }
   },
   "featured_recipe": {
-    "title": "Kaitlin’s Most Excellent Spaghetti Bolognese",
-    "url": "https://thewoksoflife.com/spaghetti-bolognese/?adt_ei=*|EMAIL|*",
-    "recipe_url": "https://thewoksoflife.com/spaghetti-bolognese/?adt_ei=*|EMAIL|*",
-    "image_url": "https://thewoksoflife.com/wp-content/uploads/2026/06/spaghetti-bolognese-17.jpg",
-    "site_name": "The Woks of Life",
-    "site_url": "https://thewoksoflife.com",
-    "cuisine": "Chinese",
-    "published_at": "Sun, 11 Oct 2026 08:29:00 +0000"
-  }
+    "cuisine": "Nigerian",
+    "image_url": "https://cheflolaskitchen.com/wp-content/uploads/2025/07/Rice-and-Beef-1.jpg",
+    "published_at": "Thu, 03 Sep 2026 20:22:51 +0000",
+    "recipe_url": "https://cheflolaskitchen.com/rice-and-beef/",
+    "site_name": "Chef Lola's Kitchen",
+    "site_url": "https://cheflolaskitchen.com",
+    "title": "Quick And Easy One-Pot Rice and Beef",
+    "url": "https://cheflolaskitchen.com/rice-and-beef/"
+  },
+  "fallbacks": [
+    "site:Drizzle and Dip→Pardon Your French"
+  ]
 }
