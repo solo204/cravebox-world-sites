@@ -1,115 +1,126 @@
 {
-  "updated_at": "2026-10-22T21:05:13Z",
+  "updated_at": "2026-10-22T22:05:13Z",
   "slot_hours": 1,
-  "slot_idx": 25,
-  "week": 26,
+  "slot_idx": 26,
+  "week": 27,
   "featured_sites": [
     {
-      "name": "Cooking Gorgeous",
-      "url": "https://cookingorgeous.com",
-      "cuisine": "Turkish",
-      "tagline": "Turkish and Mediterranean dishes, FeedSpot #1 Turkish blog.",
-      "image_url": "https://cookingorgeous.com/wp-content/uploads/2022/03/menemen-turkish-scrambled-eggs-25.jpg",
-      "rss_url": "https://cookingorgeous.com/feed/"
-    },
-    {
-      "name": "Cafe Delites",
-      "url": "https://cafedelites.com",
-      "cuisine": "Australian",
-      "tagline": "Visually striking one-pan family meals from Sydney.",
-      "image_url": "https://cafedelites.com/wp-content/uploads/2026/10/Shrimp-Dumpling-9-768x1024-1.jpg",
-      "rss_url": "https://cafedelites.com/feed/",
+      "name": "Island Smile",
+      "url": "https://islandsmile.org",
+      "cuisine": "Sri Lankan",
+      "tagline": "Nearly all Sri Lankan — 49 pages of curries, desserts, and snacks.",
+      "image_url": "https://www.islandsmile.org/wp-content/uploads/2026/01/Snapshot_36-1024x576.jpg",
+      "rss_url": "https://islandsmile.org/feed/",
       "sites": []
     },
     {
-      "name": "Cloudy Kitchen",
-      "url": "https://cloudykitchen.com",
-      "cuisine": "New Zealand",
-      "tagline": "Rigorously tested NZ baking and desserts — Saveur finalist.",
-      "image_url": "https://cloudykitchen.com/wp-content/uploads/2026/08/vanilla-frosting-piped-on-cupcake.jpg",
-      "rss_url": "https://cloudykitchen.com/feed/",
+      "name": "Serious Eats",
+      "url": "https://seriouseats.com",
+      "cuisine": "American",
+      "tagline": "In-depth tested recipes and food science — the benchmark.",
+      "image_url": "https://www.seriouseats.com/thmb/2eDheo2F1-nYEbQxZLGUiPjqhRs=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/Serious_Eats_Social_Default-72cf0bc11b434461b62c6ffc85b4298f.jpg",
+      "rss_url": "https://feeds-api.dotdashmeredith.com/v1/rss/google/ad57d421-0ff5-41e7-a5da-f2167b6d7f7a",
       "sites": []
     },
     {
-      "name": "Tea For Turmeric",
-      "url": "https://teaforturmeric.com",
-      "cuisine": "Pakistani",
-      "tagline": "Pakistani recipes featured in NPR, Parade, and Saveur.",
-      "image_url": "https://www.teaforturmeric.com/wp-content/uploads/2026/06/Dum-Ka-Keema-2-728x1092.jpg",
-      "rss_url": "https://teaforturmeric.com/feed/",
+      "name": "Two Peas and Their Pod",
+      "url": "https://twopeasandtheirpod.com",
+      "cuisine": "American",
+      "tagline": "Family cooking with 200+ cookie recipes.",
+      "image_url": "https://www.twopeasandtheirpod.com/wp-content/uploads/2026/10/dahlias-97.jpg",
+      "rss_url": "https://twopeasandtheirpod.com/feed/",
+      "sites": []
+    },
+    {
+      "name": "Gimme Some Oven",
+      "url": "https://gimmesomeoven.com",
+      "cuisine": "American",
+      "tagline": "Everything from Vietnamese noodles to peanut butter cookies.",
+      "image_url": "https://www.gimmesomeoven.com/wp-content/uploads/2025/11/GSOChaiCookies_Shot2_86-scaled.jpg",
+      "rss_url": "https://gimmesomeoven.com/feed/",
       "sites": []
     }
   ],
   "featured_recipes": {
     "Mon": {
-      "cuisine": "Turkish",
-      "image_url": "https://cookingorgeous.com/wp-content/uploads/2022/05/adana-kebab-30.jpg",
-      "recipe_url": "https://cookingorgeous.com/blog/kebab-shop-favourites-you-can-make-at-home/",
-      "site_name": "Cooking Gorgeous",
-      "title": "Kebab Shop Favourites You Can Make at Home",
-      "url": "https://cookingorgeous.com/blog/kebab-shop-favourites-you-can-make-at-home/"
+      "title": "Stove top chicken wings recipe (sticky, sweet and spicy)",
+      "url": "https://www.islandsmile.org/sweet-and-spicy-chicken-wings-stovetop-recipe/",
+      "recipe_url": "https://www.islandsmile.org/sweet-and-spicy-chicken-wings-stovetop-recipe/",
+      "image_url": "https://www.islandsmile.org/wp-content/uploads/2026/01/Snapshot_36-1024x576.jpg",
+      "site_name": "Island Smile",
+      "site_url": "https://islandsmile.org",
+      "cuisine": "Sri Lankan",
+      "published_at": "Mon, 05 Jan 2026 14:18:33 +0000"
     },
     "Tue": {
-      "title": "Italian Sausage Pasta (Easy Orzo Recipe)",
-      "url": "https://cafedelites.com/italian-sausage-pasta/",
-      "recipe_url": "https://cafedelites.com/italian-sausage-pasta/",
-      "image_url": "https://cafedelites.com/wp-content/uploads/2026/10/Creamy-Orzo-Pasta-with-Italian-Sausage-16-768x1024.jpg",
-      "site_name": "Cafe Delites",
-      "site_url": "https://cafedelites.com",
-      "cuisine": "Australian",
-      "published_at": "Thu, 15 Oct 2026 04:41:53 +0000"
+      "cuisine": "American",
+      "image_url": "https://www.seriouseats.com/thmb/vquKmoBjGqO1Sylw9cKC4IX5Uho=/filters:no_upscale():max_bytes(150000):strip_icc():format(jpeg)/__opt__aboutcom__coeus__resources__content_migration__serious_eats__seriouseats.com__recipes__images__2012__04__20120413-wakeandbake-strawberry-rhubarb-streusel-muffins-0be098f5a99d44b5a499b5b876616581.JPG",
+      "published_at": "Mon, 19 Oct 2026 18:02:44 +0000",
+      "recipe_url": "https://www.seriouseats.com/strawberry-rhubarb-streusel-muffins-recipe",
+      "site_name": "Serious Eats",
+      "site_url": "https://seriouseats.com",
+      "title": "Strawberry Rhubarb Streusel Muffins Recipe",
+      "url": "https://www.seriouseats.com/strawberry-rhubarb-streusel-muffins-recipe"
     },
     "Wed": {
-      "cuisine": "Pakistani",
-      "image_url": "https://www.teaforturmeric.com/wp-content/uploads/2025/11/Bagare-Baingan-03.jpg",
-      "recipe_url": "https://www.teaforturmeric.com/bagara-baingan/",
-      "site_name": "Tea For Turmeric",
-      "title": "Bagara Baingan (South Indian Eggplant Curry) – Simplified!",
-      "url": "https://www.teaforturmeric.com/bagara-baingan/"
+      "title": "Turkey Pumpkin Pasta Bake",
+      "url": "https://www.twopeasandtheirpod.com/turkey-pumpkin-pasta-bake/",
+      "recipe_url": "https://www.twopeasandtheirpod.com/turkey-pumpkin-pasta-bake/",
+      "image_url": "https://www.twopeasandtheirpod.com/wp-content/uploads/2026/10/Turkey-Pumpkin-Pasta-Bake-0152.jpg",
+      "site_name": "Two Peas and Their Pod",
+      "site_url": "https://twopeasandtheirpod.com",
+      "cuisine": "American",
+      "published_at": "Mon, 19 Oct 2026 10:00:00 +0000"
     },
     "Thu": {
-      "title": "Dum Ka Keema (Smoked Ground Beef)",
-      "url": "https://www.teaforturmeric.com/dum-ka-keema/",
-      "recipe_url": "https://www.teaforturmeric.com/dum-ka-keema/",
-      "image_url": "https://www.teaforturmeric.com/wp-content/uploads/2026/06/Dum-Ka-Keema-5.jpg",
-      "site_name": "Tea For Turmeric",
-      "site_url": "https://teaforturmeric.com",
-      "cuisine": "Pakistani",
-      "published_at": "Thu, 16 Jul 2026 23:08:02 +0000"
+      "title": "Falafel",
+      "url": "https://www.gimmesomeoven.com/falafel-recipe/",
+      "recipe_url": "https://www.gimmesomeoven.com/falafel-recipe/",
+      "image_url": "https://www.gimmesomeoven.com/wp-content/uploads/2019/06/Falafel-9.jpg",
+      "site_name": "Gimme Some Oven",
+      "site_url": "https://gimmesomeoven.com",
+      "cuisine": "American",
+      "published_at": "Mon, 19 Oct 2026 17:38:00 +0000"
     },
     "Fri": {
-      "cuisine": "Turkish",
-      "image_url": "https://cookingorgeous.com/wp-content/uploads/2022/02/imam-bayildi-turkish-stuffed-eggplant-10.jpg",
-      "recipe_url": "https://cookingorgeous.com/blog/mediterranean-diet-dinners-for-the-week-ahead/",
-      "site_name": "Cooking Gorgeous",
-      "title": "Mediterranean Diet Dinners for the Week Ahead",
-      "url": "https://cookingorgeous.com/blog/mediterranean-diet-dinners-for-the-week-ahead/"
+      "title": "Sri Lankan Spicy prawn stir fry.",
+      "url": "https://www.islandsmile.org/sri-lankan-spicy-prawn-stir-fry/",
+      "recipe_url": "https://www.islandsmile.org/sri-lankan-spicy-prawn-stir-fry/",
+      "image_url": "https://www.islandsmile.org/wp-content/uploads/2026/01/Snapshot_49-1024x576.jpg",
+      "site_name": "Island Smile",
+      "site_url": "https://islandsmile.org",
+      "cuisine": "Sri Lankan",
+      "published_at": "Fri, 02 Jan 2026 05:33:04 +0000"
     },
     "Sat": {
-      "title": "Easy Shrimp Dumplings (No Dough Required)",
-      "url": "https://cafedelites.com/shrimp-dumplings/",
-      "recipe_url": "https://cafedelites.com/shrimp-dumplings/",
-      "image_url": "https://cafedelites.com/wp-content/uploads/2026/10/Shrimp-Dumpling-9-768x1024-1.jpg",
-      "site_name": "Cafe Delites",
-      "site_url": "https://cafedelites.com",
-      "cuisine": "Australian",
-      "published_at": "Thu, 08 Oct 2026 05:41:40 +0000"
+      "cuisine": "American",
+      "image_url": "https://www.gimmesomeoven.com/wp-content/uploads/2026/10/GSOHeuvosRancheros_Shot6_99-scaled.jpg",
+      "published_at": "Thu, 08 Oct 2026 16:43:32 +0000",
+      "recipe_url": "https://www.gimmesomeoven.com/huevos-rancheros/",
+      "site_name": "Gimme Some Oven",
+      "site_url": "https://gimmesomeoven.com",
+      "title": "Huevos Rancheros",
+      "url": "https://www.gimmesomeoven.com/huevos-rancheros/"
     },
     "Sun": {
-      "cuisine": "New Zealand",
-      "image_url": "https://cloudykitchen.com/wp-content/uploads/2026/07/side-on-shot-of-cookie.jpg",
-      "recipe_url": "https://cloudykitchen.com/blog/brownie-chunk-cookies/",
-      "site_name": "Cloudy Kitchen",
-      "title": "Brownie Chunk Chocolate Chip Cookies",
-      "url": "https://cloudykitchen.com/blog/brownie-chunk-cookies/"
+      "title": "Apple Pie Overnight Oats",
+      "url": "https://www.twopeasandtheirpod.com/apple-pie-overnight-oats/",
+      "recipe_url": "https://www.twopeasandtheirpod.com/apple-pie-overnight-oats/",
+      "image_url": "https://www.twopeasandtheirpod.com/wp-content/uploads/2026/10/Apple-Pie-Overnight-Oats-6.jpg",
+      "site_name": "Two Peas and Their Pod",
+      "site_url": "https://twopeasandtheirpod.com",
+      "cuisine": "American",
+      "published_at": "Fri, 16 Oct 2026 10:00:00 +0000"
     }
   },
   "featured_recipe": {
-    "cuisine": "Turkish",
-    "image_url": "https://cookingorgeous.com/wp-content/uploads/2022/05/adana-kebab-30.jpg",
-    "recipe_url": "https://cookingorgeous.com/blog/kebab-shop-favourites-you-can-make-at-home/",
-    "site_name": "Cooking Gorgeous",
-    "title": "Kebab Shop Favourites You Can Make at Home",
-    "url": "https://cookingorgeous.com/blog/kebab-shop-favourites-you-can-make-at-home/"
+    "title": "Stove top chicken wings recipe (sticky, sweet and spicy)",
+    "url": "https://www.islandsmile.org/sweet-and-spicy-chicken-wings-stovetop-recipe/",
+    "recipe_url": "https://www.islandsmile.org/sweet-and-spicy-chicken-wings-stovetop-recipe/",
+    "image_url": "https://www.islandsmile.org/wp-content/uploads/2026/01/Snapshot_36-1024x576.jpg",
+    "site_name": "Island Smile",
+    "site_url": "https://islandsmile.org",
+    "cuisine": "Sri Lankan",
+    "published_at": "Mon, 05 Jan 2026 14:18:33 +0000"
   }
 }
