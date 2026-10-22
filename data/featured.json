@@ -1,106 +1,106 @@
 {
-  "updated_at": "2026-10-21T23:58:21Z",
+  "updated_at": "2026-10-22T00:05:11Z",
   "slot_hours": 1,
-  "slot_idx": 3,
-  "week": 4,
+  "slot_idx": 4,
+  "week": 5,
   "featured_sites": [
     {
-      "name": "Silk Road Recipes",
-      "url": "https://silkroadrecipes.com",
-      "cuisine": "Persian",
-      "tagline": "Vibrant Persian and Central Asian flavors at home.",
-      "image_url": "https://silkroadrecipes.com/wp-content/uploads/2026/07/Shrimp-Saltimbocca-square-768x768.jpg",
-      "rss_url": "https://silkroadrecipes.com/feed/"
+      "name": "Ambitious Kitchen",
+      "url": "https://www.ambitiouskitchen.com",
+      "cuisine": "Healthy American",
+      "tagline": "Nutritious, feel-good recipes for real life.",
+      "image_url": "https://www.ambitiouskitchen.com/wp-content/uploads/2022/10/Peanut-Butter-Lovers-Banana-Bread-4-750x750.jpg",
+      "rss_url": "https://www.ambitiouskitchen.com/feed/"
     },
     {
-      "name": "Hungry Huy",
-      "url": "https://www.hungryhuy.com",
-      "cuisine": "Vietnamese",
-      "tagline": "Vietnamese and Asian recipes made accessible.",
-      "image_url": "https://www.hungryhuy.com/wp-content/uploads/vietnamese-egg-coffee-stir2-680x1020.jpg",
-      "rss_url": "https://www.hungryhuy.com/feed/"
+      "name": "Half Baked Harvest",
+      "url": "https://www.halfbakedharvest.com",
+      "cuisine": "American Comfort",
+      "tagline": "Feel-good food for every season.",
+      "image_url": "https://www.halfbakedharvest.com/wp-content/uploads/2026/10/Smothered-Chicken-in-Mushroom-Wine-Pan-Sauce-1.jpg",
+      "rss_url": "https://www.halfbakedharvest.com/feed/"
     },
     {
-      "name": "RecipeTin Eats",
-      "url": "https://www.recipetineats.com",
-      "cuisine": "Global",
-      "tagline": "Recipes that work, every time.",
-      "image_url": "https://www.recipetineats.com/tachyon/2026/10/Slow-cooked-Rosemary-Lamb-Ragu-3.jpg?fit=624%2C780",
-      "rss_url": "https://www.recipetineats.com/feed/"
+      "name": "Laylita's Recipes",
+      "url": "https://laylita.com/recipes",
+      "cuisine": "Latin American",
+      "tagline": "Ecuadorian and Latin American flavors from scratch.",
+      "image_url": "https://www.laylita.com/recipes/wp-content/uploads/2020/10/Pasta-salad-with-avocado-tomatoes-and-cheese-1024x767.jpg",
+      "rss_url": "https://laylita.com/recipes/feed/"
     },
     {
-      "name": "Rose Water & Orange Blossoms",
-      "url": "https://maureenabood.com",
-      "cuisine": "Lebanese",
-      "tagline": "Lebanese cooking, stories, and Mediterranean life.",
-      "image_url": "https://maureenabood.com/wp-content/uploads/2022/12/Maza-platter-top-down-Maureen-Abood.jpg",
-      "rss_url": "https://maureenabood.com/feed/"
+      "name": "Kawaling Pinoy",
+      "url": "https://www.kawalingpinoy.com",
+      "cuisine": "Filipino",
+      "tagline": "Authentic Filipino recipes with a modern twist.",
+      "image_url": "https://www.kawalingpinoy.com/wp-content/uploads/2014/03/tortang-talong-3-680x884.jpg",
+      "rss_url": "https://www.kawalingpinoy.com/feed/"
     }
   ],
   "featured_recipes": {
     "Mon": {
-      "cuisine": "Persian",
-      "image_url": "https://silkroadrecipes.com/wp-content/uploads/2026/07/Shrimp-Saltimbocca-square-768x768.jpg",
-      "recipe_url": "https://silkroadrecipes.com/shrimp-saltimbocca/?adt_ei={{ subscriber.email_address }}&utm_source=rss&utm_medium=rss&utm_campaign=shrimp-saltimbocca",
-      "site_name": "Silk Road Recipes",
-      "title": "Shrimp Saltimbocca",
-      "url": "https://silkroadrecipes.com/shrimp-saltimbocca/?adt_ei={{ subscriber.email_address }}&utm_source=rss&utm_medium=rss&utm_campaign=shrimp-saltimbocca"
+      "cuisine": "Healthy American",
+      "image_url": "https://www.ambitiouskitchen.com/wp-content/uploads/2026/09/Olive-Oil-Double-Chocolate-Cookies-7-750x750.jpg",
+      "recipe_url": "https://www.ambitiouskitchen.com/double-chocolate-olive-oil-cookies/",
+      "site_name": "Ambitious Kitchen",
+      "title": "Double Chocolate Olive Oil Cookies",
+      "url": "https://www.ambitiouskitchen.com/double-chocolate-olive-oil-cookies/"
     },
     "Tue": {
-      "cuisine": "Persian",
-      "image_url": "https://silkroadrecipes.com/wp-content/uploads/2026/05/Aloo-Gobi-Recipe-Cauliflower-Potato-Curry0112-768x1152.jpg",
-      "recipe_url": "https://silkroadrecipes.com/aloo-gobi-recipe-cauliflower-potato-curry/?adt_ei={{ subscriber.email_address }}&utm_source=rss&utm_medium=rss&utm_campaign=aloo-gobi-recipe-cauliflower-potato-curry",
-      "site_name": "Silk Road Recipes",
-      "title": "Aloo Gobi Recipe (Potato Cauliflower Curry)",
-      "url": "https://silkroadrecipes.com/aloo-gobi-recipe-cauliflower-potato-curry/?adt_ei={{ subscriber.email_address }}&utm_source=rss&utm_medium=rss&utm_campaign=aloo-gobi-recipe-cauliflower-potato-curry"
+      "cuisine": "Healthy American",
+      "image_url": "https://www.ambitiouskitchen.com/wp-content/uploads/2026/08/Brown-Butter-Sage-Orzo-with-Sausage-Butternut-Squash-and-Goat-Cheese-6-750x750.jpg",
+      "recipe_url": "https://www.ambitiouskitchen.com/butternut-squash-orzo/",
+      "site_name": "Ambitious Kitchen",
+      "title": "Brown Butter Sage Orzo with Spicy Sausage & Butternut Squash",
+      "url": "https://www.ambitiouskitchen.com/butternut-squash-orzo/"
     },
     "Wed": {
-      "cuisine": "Persian",
-      "image_url": "https://silkroadrecipes.com/wp-content/uploads/2026/06/Moroccan-Shortbread-Cookies-Recipe-Ghoriba-Bahla0253-square-768x768.jpg",
-      "recipe_url": "https://silkroadrecipes.com/moroccan-shortbread-cookie-recipe-ghoriba-bahla/?adt_ei={{ subscriber.email_address }}&utm_source=rss&utm_medium=rss&utm_campaign=moroccan-shortbread-cookie-recipe-ghoriba-bahla",
-      "site_name": "Silk Road Recipes",
-      "title": "Moroccan Shortbread Cookie Recipe (Ghoriba Bahla)",
-      "url": "https://silkroadrecipes.com/moroccan-shortbread-cookie-recipe-ghoriba-bahla/?adt_ei={{ subscriber.email_address }}&utm_source=rss&utm_medium=rss&utm_campaign=moroccan-shortbread-cookie-recipe-ghoriba-bahla"
+      "cuisine": "Healthy American",
+      "image_url": "https://www.ambitiouskitchen.com/wp-content/uploads/2025/01/Italian-Wedding-Soup-7-1-750x750.jpg",
+      "recipe_url": "https://www.ambitiouskitchen.com/italian-wedding-soup/",
+      "site_name": "Ambitious Kitchen",
+      "title": "Italian Wedding Soup",
+      "url": "https://www.ambitiouskitchen.com/italian-wedding-soup/"
     },
     "Thu": {
-      "cuisine": "Persian",
-      "image_url": "https://silkroadrecipes.com/wp-content/uploads/2026/06/Greek-Gyros-Recipe-Parchment0160-square-768x768.jpg",
-      "recipe_url": "https://silkroadrecipes.com/greek-gyros-recipe-parchment/?adt_ei={{ subscriber.email_address }}&utm_source=rss&utm_medium=rss&utm_campaign=greek-gyros-recipe-parchment",
-      "site_name": "Silk Road Recipes",
-      "title": "Greek Gyros Recipe (Parchment)",
-      "url": "https://silkroadrecipes.com/greek-gyros-recipe-parchment/?adt_ei={{ subscriber.email_address }}&utm_source=rss&utm_medium=rss&utm_campaign=greek-gyros-recipe-parchment"
+      "cuisine": "Filipino",
+      "image_url": "https://www.kawalingpinoy.com/wp-content/uploads/2026/07/asian-garlic-noodles-1-768x1024.jpg",
+      "recipe_url": "https://www.kawalingpinoy.com/asian-garlic-noodles/",
+      "site_name": "Kawaling Pinoy",
+      "title": "Asian Garlic Noodles",
+      "url": "https://www.kawalingpinoy.com/asian-garlic-noodles/"
     },
     "Fri": {
-      "cuisine": "Global",
-      "image_url": "https://www.recipetineats.com/tachyon/2026/10/Slow-cooked-Rosemary-Lamb-Ragu-3.jpg",
-      "recipe_url": "https://www.recipetineats.com/slow-cooked-lamb-ragu-pasta/",
-      "site_name": "RecipeTin Eats",
-      "title": "Slow Cooked Rosemary Lamb Ragù",
-      "url": "https://www.recipetineats.com/slow-cooked-lamb-ragu-pasta/"
+      "cuisine": "Healthy American",
+      "image_url": "https://www.ambitiouskitchen.com/wp-content/uploads/2020/10/Green-Chile-Chicken-Pozole-3-750x750.jpg",
+      "recipe_url": "https://www.ambitiouskitchen.com/green-chile-chicken-pozole/",
+      "site_name": "Ambitious Kitchen",
+      "title": "Green Chile Chicken Pozole",
+      "url": "https://www.ambitiouskitchen.com/green-chile-chicken-pozole/"
     },
     "Sat": {
-      "cuisine": "Global",
-      "image_url": "https://www.recipetineats.com/tachyon/2026/10/Creamy-Sausage-Gnocchi-Soup-1.jpg",
-      "recipe_url": "https://www.recipetineats.com/creamy-sausage-gnocchi-soup/",
-      "site_name": "RecipeTin Eats",
-      "title": "Creamy Sausage Gnocchi Soup",
-      "url": "https://www.recipetineats.com/creamy-sausage-gnocchi-soup/"
+      "cuisine": "Filipino",
+      "image_url": "https://www.kawalingpinoy.com/wp-content/uploads/2023/05/cashew-chicken-with-snow-peas-stir-fry-768x1024.jpg",
+      "recipe_url": "https://www.kawalingpinoy.com/cashew-chicken/",
+      "site_name": "Kawaling Pinoy",
+      "title": "Cashew Chicken",
+      "url": "https://www.kawalingpinoy.com/cashew-chicken/"
     },
     "Sun": {
-      "cuisine": "Global",
-      "image_url": "https://www.recipetineats.com/tachyon/2026/10/Coconut-Lemon-Slice-Cake-7.jpg",
-      "recipe_url": "https://www.recipetineats.com/lemon-coconut-slice-cake/",
-      "site_name": "RecipeTin Eats",
-      "title": "Aussie Lemon Coconut Slice Cake",
-      "url": "https://www.recipetineats.com/lemon-coconut-slice-cake/"
+      "cuisine": "Filipino",
+      "image_url": "https://www.kawalingpinoy.com/wp-content/uploads/2021/08/brazo-de-mercedes-cake-roll-683x1024.jpg",
+      "recipe_url": "https://www.kawalingpinoy.com/brazo-de-mercedes/",
+      "site_name": "Kawaling Pinoy",
+      "title": "Brazo de Mercedes",
+      "url": "https://www.kawalingpinoy.com/brazo-de-mercedes/"
     }
   },
   "featured_recipe": {
-    "cuisine": "Global",
-    "image_url": "https://www.recipetineats.com/tachyon/2026/10/Coconut-Lemon-Slice-Cake-7.jpg",
-    "recipe_url": "https://www.recipetineats.com/lemon-coconut-slice-cake/",
-    "site_name": "RecipeTin Eats",
-    "title": "Aussie Lemon Coconut Slice Cake",
-    "url": "https://www.recipetineats.com/lemon-coconut-slice-cake/"
+    "cuisine": "Healthy American",
+    "image_url": "https://www.ambitiouskitchen.com/wp-content/uploads/2026/09/Olive-Oil-Double-Chocolate-Cookies-7-750x750.jpg",
+    "recipe_url": "https://www.ambitiouskitchen.com/double-chocolate-olive-oil-cookies/",
+    "site_name": "Ambitious Kitchen",
+    "title": "Double Chocolate Olive Oil Cookies",
+    "url": "https://www.ambitiouskitchen.com/double-chocolate-olive-oil-cookies/"
   }
 }
