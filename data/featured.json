@@ -1,106 +1,118 @@
 {
-  "updated_at": "2026-10-22T01:05:13Z",
+  "updated_at": "2026-10-22T02:05:13Z",
   "slot_hours": 1,
-  "slot_idx": 5,
-  "week": 6,
+  "slot_idx": 6,
+  "week": 7,
   "featured_sites": [
     {
-      "name": "Natasha's Kitchen",
-      "url": "https://natashaskitchen.com",
-      "cuisine": "American",
-      "tagline": "Trusted recipes for everyday cooking.",
-      "image_url": "https://natashaskitchen.com/wp-content/uploads/2026/09/Pumpkin-Cinnamon-Rolls-7.jpg",
-      "rss_url": "https://natashaskitchen.com/feed/"
+      "name": "Alexandra Cooks",
+      "url": "https://alexandracooks.com",
+      "cuisine": "Italian-Inspired",
+      "tagline": "Simple Italian cooking and artisan breads.",
+      "image_url": "https://alexandracooks.com/wp-content/uploads/2026/08/scarpacciaVertnew.jpg",
+      "rss_url": "https://alexandracooks.com/feed/"
     },
     {
-      "name": "Updated Recipes",
-      "url": "https://updatedrecipes.com",
-      "cuisine": "Comfort Food",
-      "tagline": "Comfort Food That Feels Like Home",
-      "image_url": "https://updatedrecipes.com/wp-content/uploads/2026/05/roasted-king-salmon-lemon-butter-recipe-768x512.webp",
-      "rss_url": "https://updatedrecipes.com/feed/"
+      "name": "Italian Food Forever",
+      "url": "https://www.italianfoodforever.com",
+      "cuisine": "Italian",
+      "tagline": "Classic regional Italian recipes done right.",
+      "image_url": "https://italianfoodforever.com/wp-content/uploads/2026/09/fallfigsalad9.jpg",
+      "rss_url": "https://www.italianfoodforever.com/feed/"
     },
     {
-      "name": "Downshiftology",
-      "url": "https://downshiftology.com",
-      "cuisine": "Healthy",
-      "tagline": "Simple, gluten-free recipes for healthy living.",
-      "image_url": "https://www.downshiftology.com/wp-content/uploads/2026/08/Spanish-Flan-main-800x437.jpg",
-      "rss_url": "https://downshiftology.com/feed/"
+      "name": "Hot Thai Kitchen",
+      "url": "https://hot-thai-kitchen.com",
+      "cuisine": "Thai",
+      "tagline": "Authentic Thai recipes with a modern touch.",
+      "image_url": "https://hot-thai-kitchen.com/wp-content/uploads/2026/10/bonus-tom-yum-moo-sub-blog.jpg",
+      "rss_url": "https://hot-thai-kitchen.com/feed/"
     },
     {
-      "name": "Pardon Your French",
-      "url": "https://www.pardonyourfrench.com",
-      "cuisine": "French",
-      "tagline": "Classic French home cooking, made approachable.",
-      "image_url": "https://i0.wp.com/www.pardonyourfrench.com/wp-content/uploads/2026/09/traditional-tartiflette-recipe-11.jpg?fit=801%2C1200&ssl=1",
-      "rss_url": "https://www.pardonyourfrench.com/feed/"
+      "name": "WoonHeng",
+      "url": "https://woonheng.com",
+      "cuisine": "Malaysian",
+      "tagline": "Plant-based Singaporean and Malaysian home cooking.",
+      "image_url": "https://woonheng.com/wp-content/uploads/2026/06/KungPao-Chinese-Yam-2-819x1024.jpg",
+      "rss_url": "https://woonheng.com/feed/"
     }
   ],
   "featured_recipes": {
     "Mon": {
-      "cuisine": "American",
-      "image_url": "https://natashaskitchen.com/wp-content/uploads/2026/09/Apple-Galette-SQ.jpg",
-      "recipe_url": "https://natashaskitchen.com/apple-galette/?adt_ei={{ subscriber.email_address }}",
-      "site_name": "Natasha's Kitchen",
-      "title": "This Apple Galette is Easier than Pie 🍎",
-      "url": "https://natashaskitchen.com/apple-galette/?adt_ei={{ subscriber.email_address }}"
+      "title": "Thin and Crisp Zucchini Scarpaccia",
+      "url": "https://alexandracooks.com/2026/08/21/thin-and-crisp-zucchini-scarpaccia/",
+      "recipe_url": "https://alexandracooks.com/2026/08/21/thin-and-crisp-zucchini-scarpaccia/",
+      "image_url": "https://alexandracooks.com/wp-content/uploads/2026/08/scarpaccia_GD.jpg",
+      "site_name": "Alexandra Cooks",
+      "site_url": "https://alexandracooks.com",
+      "cuisine": "Italian-Inspired",
+      "published_at": "Sat, 22 Aug 2026 01:39:43 +0000"
     },
     "Tue": {
-      "cuisine": "Comfort Food",
-      "image_url": "https://updatedrecipes.com/wp-content/uploads/2026/10/creamy-garlic-shrimp-manicotti-featured-image.webp",
-      "recipe_url": "https://updatedrecipes.com/creamy-garlic-shrimp-manicotti/",
-      "site_name": "Updated Recipes",
-      "title": "Creamy Garlic Shrimp Manicotti",
-      "url": "https://updatedrecipes.com/creamy-garlic-shrimp-manicotti/"
+      "cuisine": "Italian",
+      "image_url": "https://italianfoodforever.com/wp-content/uploads/2011/11/squashsausagepasta6_1-1.jpg",
+      "recipe_url": "https://italianfoodforever.com/2026/09/spaghetti-with-sausage-squash/",
+      "site_name": "Italian Food Forever",
+      "title": "Spaghetti With Sausage & Butternut Squash",
+      "url": "https://italianfoodforever.com/2026/09/spaghetti-with-sausage-squash/"
     },
     "Wed": {
-      "cuisine": "French",
-      "image_url": "https://i0.wp.com/www.pardonyourfrench.com/wp-content/uploads/2026/05/Provencal-Pork-Stew-15.jpg?fit=801%2C1200&#038;ssl=1",
-      "recipe_url": "https://www.pardonyourfrench.com/provencal-pork-stew/?utm_source=rss&utm_medium=rss&utm_campaign=provencal-pork-stew",
-      "site_name": "Pardon Your French",
-      "title": "Easy Provençal Pork Stew (French Pork Stew with Tomatoes, Peppers & Herbs)",
-      "url": "https://www.pardonyourfrench.com/provencal-pork-stew/?utm_source=rss&utm_medium=rss&utm_campaign=provencal-pork-stew"
+      "title": "BONUS: Easy Tom Yum Soup with Meatballs",
+      "url": "https://hot-thai-kitchen.com/bonus-tom-yum-meatballs/",
+      "recipe_url": "https://hot-thai-kitchen.com/bonus-tom-yum-meatballs/",
+      "image_url": "https://hot-thai-kitchen.com/wp-content/uploads/2026/10/bonus-tom-yum-moo-sub-blog.jpg",
+      "site_name": "Hot Thai Kitchen",
+      "site_url": "https://hot-thai-kitchen.com",
+      "cuisine": "Thai",
+      "published_at": "Mon, 05 Oct 2026 21:37:28 +0000"
     },
     "Thu": {
-      "cuisine": "Healthy",
-      "image_url": "https://downshiftology.com/wp-content/uploads/2026/08/Mississippi-Pot-Roast-main.jpg",
-      "recipe_url": "https://downshiftology.com/recipes/slow-cooker-mississippi-pot-roast/",
-      "site_name": "Downshiftology",
-      "title": "Slow Cooker Mississippi Pot Roast",
-      "url": "https://downshiftology.com/recipes/slow-cooker-mississippi-pot-roast/"
+      "cuisine": "Malaysian",
+      "image_url": "https://woonheng.com/wp-content/uploads/2023/01/Vegan-Yu-Xiang-Rou-Si-6702-e1673017934796.jpg",
+      "recipe_url": "https://woonheng.com/vegan-yu-xiang-shredded-pork/?utm_source=rss&utm_medium=rss&utm_campaign=vegan-yu-xiang-shredded-pork",
+      "site_name": "WoonHeng",
+      "title": "Vegan Yu Xiang Rou Si – Fish Fragrant Shredded ‘Pork’",
+      "url": "https://woonheng.com/vegan-yu-xiang-shredded-pork/?utm_source=rss&utm_medium=rss&utm_campaign=vegan-yu-xiang-shredded-pork"
     },
     "Fri": {
-      "cuisine": "Comfort Food",
-      "image_url": "https://updatedrecipes.com/wp-content/uploads/2026/10/crispy-cod-strips-tartar-sauce-featured-image.webp",
-      "recipe_url": "https://updatedrecipes.com/crispy-cod-strips-tartar-sauce/",
-      "site_name": "Updated Recipes",
-      "title": "Crispy Cod Strips with Homemade Tartar Sauce",
-      "url": "https://updatedrecipes.com/crispy-cod-strips-tartar-sauce/"
+      "title": "Simple Summery Frittata with Sweet Corn & Chorizo",
+      "url": "https://alexandracooks.com/2026/08/08/simple-summery-frittata-with-sweet-corn-chorizo/",
+      "recipe_url": "https://alexandracooks.com/2026/08/08/simple-summery-frittata-with-sweet-corn-chorizo/",
+      "image_url": "https://alexandracooks.com/wp-content/uploads/2026/08/platedfrittata_ak.jpg",
+      "site_name": "Alexandra Cooks",
+      "site_url": "https://alexandracooks.com",
+      "cuisine": "Italian-Inspired",
+      "published_at": "Sat, 08 Aug 2026 11:13:11 +0000"
     },
     "Sat": {
-      "cuisine": "Healthy",
-      "image_url": "https://i2.wp.com/www.downshiftology.com/wp-content/uploads/2026/08/Fall-Roasted-Vegetables-main.jpg",
-      "recipe_url": "https://downshiftology.com/recipes/fall-roasted-vegetables/",
-      "site_name": "Downshiftology",
-      "title": "Fall Roasted Vegetables",
-      "url": "https://downshiftology.com/recipes/fall-roasted-vegetables/"
+      "title": "Spiced Butternut Squash & Hazelnut Muffins",
+      "url": "https://italianfoodforever.com/2026/10/spiced-butternut-squash-hazelnut-muffins/",
+      "recipe_url": "https://italianfoodforever.com/2026/10/spiced-butternut-squash-hazelnut-muffins/",
+      "image_url": "https://italianfoodforever.com/wp-content/uploads/2019/10/pumpkinmuffinstop.jpg",
+      "site_name": "Italian Food Forever",
+      "site_url": "https://www.italianfoodforever.com",
+      "cuisine": "Italian",
+      "published_at": "Mon, 05 Oct 2026 11:00:00 +0000"
     },
     "Sun": {
-      "cuisine": "French",
-      "image_url": "https://i0.wp.com/www.pardonyourfrench.com/wp-content/uploads/2026/09/Blanquette-de-Veau-10.jpg?fit=801%2C1200&#038;ssl=1",
-      "recipe_url": "https://www.pardonyourfrench.com/blanquette-de-veau/?utm_source=rss&utm_medium=rss&utm_campaign=blanquette-de-veau",
-      "site_name": "Pardon Your French",
-      "title": "Blanquette de Veau (Classic French Veal Stew in White Sauce)",
-      "url": "https://www.pardonyourfrench.com/blanquette-de-veau/?utm_source=rss&utm_medium=rss&utm_campaign=blanquette-de-veau"
+      "title": "Authentic Thai Laab - Just Like in Thailand! (Laab Moo)",
+      "url": "https://hot-thai-kitchen.com/laab-moo/",
+      "recipe_url": "https://hot-thai-kitchen.com/laab-moo/",
+      "image_url": "https://hot-thai-kitchen.com/wp-content/uploads/2026/09/Laab-moo-blog-pa-version.jpg",
+      "site_name": "Hot Thai Kitchen",
+      "site_url": "https://hot-thai-kitchen.com",
+      "cuisine": "Thai",
+      "published_at": "Fri, 25 Sep 2026 13:00:00 +0000"
     }
   },
   "featured_recipe": {
-    "cuisine": "American",
-    "image_url": "https://natashaskitchen.com/wp-content/uploads/2026/09/Apple-Galette-SQ.jpg",
-    "recipe_url": "https://natashaskitchen.com/apple-galette/?adt_ei={{ subscriber.email_address }}",
-    "site_name": "Natasha's Kitchen",
-    "title": "This Apple Galette is Easier than Pie 🍎",
-    "url": "https://natashaskitchen.com/apple-galette/?adt_ei={{ subscriber.email_address }}"
+    "title": "Thin and Crisp Zucchini Scarpaccia",
+    "url": "https://alexandracooks.com/2026/08/21/thin-and-crisp-zucchini-scarpaccia/",
+    "recipe_url": "https://alexandracooks.com/2026/08/21/thin-and-crisp-zucchini-scarpaccia/",
+    "image_url": "https://alexandracooks.com/wp-content/uploads/2026/08/scarpaccia_GD.jpg",
+    "site_name": "Alexandra Cooks",
+    "site_url": "https://alexandracooks.com",
+    "cuisine": "Italian-Inspired",
+    "published_at": "Sat, 22 Aug 2026 01:39:43 +0000"
   }
 }
