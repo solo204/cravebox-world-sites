@@ -1,126 +1,114 @@
 {
-  "updated_at": "2026-10-22T17:05:22Z",
+  "updated_at": "2026-10-22T18:05:12Z",
   "slot_hours": 1,
-  "slot_idx": 21,
-  "week": 22,
+  "slot_idx": 22,
+  "week": 23,
   "featured_sites": [
     {
-      "name": "Jane's Patisserie",
-      "url": "https://janespatisserie.com",
-      "cuisine": "Baking",
-      "tagline": "Britain's #1 baking blog — traybakes, cheesecakes, and classics.",
-      "image_url": "https://www.janespatisserie.com/wp-content/uploads/2026/10/CookieMonsterCookies5.jpg",
-      "rss_url": "https://janespatisserie.com/feed/",
+      "name": "The Foreign Fork",
+      "url": "https://foreignfork.com",
+      "cuisine": "Latin American",
+      "tagline": "Argentine, Peruvian, Chilean, and pan-Latin recipes weekly.",
+      "image_url": "https://foreignfork.com/wp-content/uploads/2026/09/Feature-Image-Aji-de-Gallina-17.jpg",
+      "rss_url": "https://foreignfork.com/feed/"
+    },
+    {
+      "name": "Downshiftology",
+      "url": "https://downshiftology.com",
+      "cuisine": "American",
+      "tagline": "Simple, gluten-free recipes for healthy living.",
+      "image_url": "https://www.downshiftology.com/wp-content/uploads/2026/08/Spanish-Flan-main-800x437.jpg",
+      "rss_url": "https://downshiftology.com/recipes/feed/"
+    },
+    {
+      "name": "Umami Days",
+      "url": "https://cooking.umamidays.com",
+      "cuisine": "Filipino",
+      "tagline": "Filipino, Korean, and Japanese recipes with naturalistic photography.",
+      "image_url": "https://cooking.umamidays.com/wp-content/uploads/2026/10/shrimp-kimchi-fried-rice.jpg",
+      "rss_url": "https://cooking.umamidays.com/feed/",
       "sites": []
     },
     {
-      "name": "The Curry Guy",
-      "url": "https://greatcurryrecipes.net",
-      "cuisine": "Indian",
-      "tagline": "Restaurant-style British-Indian curries made at home.",
-      "image_url": "https://greatcurryrecipes.net/wp-content/uploads/2026/06/Dal-Mash2.jpg",
-      "rss_url": "https://greatcurryrecipes.net/feed/",
-      "sites": []
-    },
-    {
-      "name": "Leite's Culinaria",
-      "url": "https://leitesculinaria.com",
-      "cuisine": "Portuguese",
-      "tagline": "James Beard Award–winning Portuguese and global recipes.",
-      "image_url": "https://leitesculinaria.com/wp-content/uploads/2022/12/IMG_1391-1.jpg",
-      "rss_url": "https://leitesculinaria.com/feed/",
-      "sites": []
-    },
-    {
-      "name": "Veggie Desserts",
-      "url": "https://veggiedesserts.com",
-      "cuisine": "British",
-      "tagline": "Creative vegetable-based baking and desserts.",
-      "image_url": "https://veggiedesserts.com/wp-content/uploads/2026/10/halloween-black-cocoa-cheesecake-dip-2sq-1024x1024.jpg",
-      "rss_url": "https://veggiedesserts.com/feed/",
+      "name": "My Colombian Recipes",
+      "url": "https://mycolombianrecipes.com",
+      "cuisine": "Colombian",
+      "tagline": "The largest Colombian recipe collection in English.",
+      "image_url": "https://www.mycolombianrecipes.com/wp-content/uploads/2014/04/Ensalada-de-Aguacate.jpg",
+      "rss_url": "https://mycolombianrecipes.com/feed/",
       "sites": []
     }
   ],
   "featured_recipes": {
     "Mon": {
-      "title": "Homemade Toffee (Easy 3 Ingredient Recipe)",
-      "url": "https://www.janespatisserie.com/2026/10/18/homemade-toffee/",
-      "recipe_url": "https://www.janespatisserie.com/2026/10/18/homemade-toffee/",
-      "image_url": "https://www.janespatisserie.com/wp-content/uploads/2026/10/HomemadeToffee5.jpg",
-      "site_name": "Jane's Patisserie",
-      "site_url": "https://janespatisserie.com",
-      "cuisine": "Baking",
-      "published_at": "Sun, 18 Oct 2026 06:45:00 +0000"
+      "cuisine": "Latin American",
+      "image_url": "https://foreignfork.com/wp-content/uploads/2026/08/Feature-Image-Vermicelli-Porridge-3.jpg",
+      "recipe_url": "https://foreignfork.com/bitterballen/",
+      "site_name": "The Foreign Fork",
+      "title": "Dutch Bitterballen Recipe",
+      "url": "https://foreignfork.com/bitterballen/"
     },
     "Tue": {
-      "title": "Jerk Chicken",
-      "url": "https://greatcurryrecipes.net/2026/10/13/jerk-chicken/",
-      "recipe_url": "https://greatcurryrecipes.net/2026/10/13/jerk-chicken/",
-      "image_url": "https://greatcurryrecipes.net/wp-content/uploads/2026/10/Jerk-chicken_08.jpg",
-      "site_name": "The Curry Guy",
-      "site_url": "https://greatcurryrecipes.net",
-      "cuisine": "Indian",
-      "published_at": "Tue, 13 Oct 2026 07:52:54 +0000"
+      "cuisine": "American",
+      "image_url": "https://i2.wp.com/www.downshiftology.com/wp-content/uploads/2026/09/Hamburger-Soup-main.jpg",
+      "recipe_url": "https://downshiftology.com/recipes/hamburger-soup/",
+      "site_name": "Downshiftology",
+      "title": "Hamburger Soup",
+      "url": "https://downshiftology.com/recipes/hamburger-soup/"
     },
     "Wed": {
-      "cuisine": "Portuguese",
-      "image_url": "https://leitesculinaria.com/wp-content/uploads/2021/09/macedonian-spiced-chicken-fp.jpg",
-      "published_at": "Thu, 25 Sep 2025 16:50:43 +0000",
-      "recipe_url": "https://leitesculinaria.com/540875/recipes-macedonian-spiced-chicken.html",
-      "site_name": "Leite's Culinaria",
-      "site_url": "https://leitesculinaria.com",
-      "title": "Macedonian Spiced Chicken",
-      "url": "https://leitesculinaria.com/540875/recipes-macedonian-spiced-chicken.html"
+      "title": "10-minute shrimp and kimchi fried rice",
+      "url": "https://cooking.umamidays.com/10-minute-shrimp-and-kimchi-fried-rice/",
+      "recipe_url": "https://cooking.umamidays.com/10-minute-shrimp-and-kimchi-fried-rice/",
+      "image_url": "https://cooking.umamidays.com/wp-content/uploads/2026/10/shrimp-kimchi-fried-rice.jpg",
+      "site_name": "Umami Days",
+      "site_url": "https://cooking.umamidays.com",
+      "cuisine": "Filipino",
+      "published_at": "Sat, 10 Oct 2026 11:46:43 +0000"
     },
     "Thu": {
-      "title": "Peanut Lime Tofu and Vegetable Bake",
-      "url": "https://veggiedesserts.com/peanut-lime-tofu-vegetable-bake/",
-      "recipe_url": "https://veggiedesserts.com/peanut-lime-tofu-vegetable-bake/",
-      "image_url": "https://veggiedesserts.com/wp-content/uploads/2026/10/Peanut-Lime-Tofu-Bake-3sq-1024x1024.jpg",
-      "site_name": "Veggie Desserts",
-      "site_url": "https://veggiedesserts.com",
-      "cuisine": "British",
-      "published_at": "Fri, 16 Oct 2026 11:04:07 +0000"
+      "title": "Sobrebarriga en Salsa Criolla (Flank Steak with Creole Sauce)",
+      "url": "https://www.mycolombianrecipes.com/sobrebarriga-en-salsa-criolla-flank-steak-with-colombian-creole-sauce/?adt_ei={{ email }}",
+      "recipe_url": "https://www.mycolombianrecipes.com/sobrebarriga-en-salsa-criolla-flank-steak-with-colombian-creole-sauce/?adt_ei={{ email }}",
+      "image_url": "https://www.mycolombianrecipes.com/wp-content/uploads/2022/09/sobrebarriga-a-la-criolla-771x1024.jpg",
+      "site_name": "My Colombian Recipes",
+      "site_url": "https://mycolombianrecipes.com",
+      "cuisine": "Colombian",
+      "published_at": "Thu, 15 Oct 2026 13:19:00 +0000"
     },
     "Fri": {
-      "title": "Monster Cake",
-      "url": "https://www.janespatisserie.com/2026/10/15/monster-cake/",
-      "recipe_url": "https://www.janespatisserie.com/2026/10/15/monster-cake/",
-      "image_url": "https://www.janespatisserie.com/wp-content/uploads/2026/10/MonsterCake4.jpg",
-      "site_name": "Jane's Patisserie",
-      "site_url": "https://janespatisserie.com",
-      "cuisine": "Baking",
-      "published_at": "Thu, 15 Oct 2026 06:46:00 +0000"
+      "cuisine": "Latin American",
+      "image_url": "https://foreignfork.com/wp-content/uploads/2026/05/Feature-Image-Bun-Cha.jpg",
+      "recipe_url": "https://foreignfork.com/bun-cha/",
+      "site_name": "The Foreign Fork",
+      "title": "Bún Chả Hanoi with Caramelized Meatballs and Herbs",
+      "url": "https://foreignfork.com/bun-cha/"
     },
     "Sat": {
-      "title": "Chicken Tikka Biryani",
-      "url": "https://greatcurryrecipes.net/2026/10/13/chicken-tikka-biryani/",
-      "recipe_url": "https://greatcurryrecipes.net/2026/10/13/chicken-tikka-biryani/",
-      "image_url": "https://greatcurryrecipes.net/wp-content/uploads/2026/10/Chicken-tikka-biryani.jpg",
-      "site_name": "The Curry Guy",
-      "site_url": "https://greatcurryrecipes.net",
-      "cuisine": "Indian",
-      "published_at": "Tue, 13 Oct 2026 07:36:08 +0000"
+      "cuisine": "Colombian",
+      "image_url": "https://www.mycolombianrecipes.com/wp-content/uploads/2009/06/Chuleta-Valluna-Colombiana.jpg",
+      "recipe_url": "https://www.mycolombianrecipes.com/chuleta-valluna-colombian-breaded-pork-cutlets/?adt_ei={{ email }}",
+      "site_name": "My Colombian Recipes",
+      "title": "Chuleta Valluna (Colombian Breaded Pork Cutlets)",
+      "url": "https://www.mycolombianrecipes.com/chuleta-valluna-colombian-breaded-pork-cutlets/?adt_ei={{ email }}"
     },
     "Sun": {
-      "cuisine": "Portuguese",
-      "image_url": "https://leitesculinaria.com/wp-content/uploads/2025/05/chicken-piccata-meatballs-social-horizontal.jpg",
-      "published_at": "Tue, 20 May 2025 23:41:23 +0000",
-      "recipe_url": "https://leitesculinaria.com/533928/recipes-chicken-piccata-meatballs.html",
-      "site_name": "Leite's Culinaria",
-      "site_url": "https://leitesculinaria.com",
-      "title": "Chicken Piccata Meatballs",
-      "url": "https://leitesculinaria.com/533928/recipes-chicken-piccata-meatballs.html"
+      "title": "Fried chicken fillets with chili honey mustard glaze",
+      "url": "https://cooking.umamidays.com/fried-chicken-fillets-with-chili-honey-mustard-glaze/",
+      "recipe_url": "https://cooking.umamidays.com/fried-chicken-fillets-with-chili-honey-mustard-glaze/",
+      "image_url": "https://cooking.umamidays.com/wp-content/uploads/2026/10/chicken-chili-honey-mustard.jpg",
+      "site_name": "Umami Days",
+      "site_url": "https://cooking.umamidays.com",
+      "cuisine": "Filipino",
+      "published_at": "Wed, 07 Oct 2026 14:56:26 +0000"
     }
   },
   "featured_recipe": {
-    "title": "Homemade Toffee (Easy 3 Ingredient Recipe)",
-    "url": "https://www.janespatisserie.com/2026/10/18/homemade-toffee/",
-    "recipe_url": "https://www.janespatisserie.com/2026/10/18/homemade-toffee/",
-    "image_url": "https://www.janespatisserie.com/wp-content/uploads/2026/10/HomemadeToffee5.jpg",
-    "site_name": "Jane's Patisserie",
-    "site_url": "https://janespatisserie.com",
-    "cuisine": "Baking",
-    "published_at": "Sun, 18 Oct 2026 06:45:00 +0000"
+    "cuisine": "Latin American",
+    "image_url": "https://foreignfork.com/wp-content/uploads/2026/08/Feature-Image-Vermicelli-Porridge-3.jpg",
+    "recipe_url": "https://foreignfork.com/bitterballen/",
+    "site_name": "The Foreign Fork",
+    "title": "Dutch Bitterballen Recipe",
+    "url": "https://foreignfork.com/bitterballen/"
   }
 }
