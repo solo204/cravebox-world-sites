@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-22T14:05:12Z",
+  "updated_at": "2026-10-22T15:03:20Z",
   "slot_hours": 1,
   "slot_idx": 18,
   "week": 19,
@@ -110,13 +110,13 @@
     }
   },
   "featured_recipe": {
-    "cuisine": "Japanese",
-    "image_url": "https://www.justonecookbook.com/wp-content/uploads/2021/03/Stir-Fry-Miso-Eggplant-5169.jpg",
-    "published_at": "Thu, 10 Sep 2026 07:00:00 +0000",
-    "recipe_url": "https://www.justonecookbook.com/stir-fry-miso-eggplant/",
-    "site_name": "Just One Cookbook",
-    "site_url": "https://justonecookbook.com",
-    "title": "Miso Eggplant Stir-Fryナスの味噌炒め",
-    "url": "https://www.justonecookbook.com/stir-fry-miso-eggplant/"
+    "title": "Kkakdugi (Cubed Radish Kimchi)",
+    "url": "https://www.koreanbapsang.com/kkakdugi-cubed-radish-kimchi/",
+    "recipe_url": "https://www.koreanbapsang.com/kkakdugi-cubed-radish-kimchi/",
+    "image_url": "https://www.koreanbapsang.com/wp-content/uploads/2018/06/DSC9458-6.jpg",
+    "site_name": "Korean Bapsang",
+    "site_url": "https://koreanbapsang.com",
+    "cuisine": "Korean",
+    "published_at": "Sat, 08 Feb 2025 08:40:00 +0000"
   }
 }
