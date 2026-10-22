@@ -1,115 +1,126 @@
 {
-  "updated_at": "2026-10-22T12:05:14Z",
+  "updated_at": "2026-10-22T13:05:14Z",
   "slot_hours": 1,
-  "slot_idx": 16,
-  "week": 17,
+  "slot_idx": 17,
+  "week": 18,
   "featured_sites": [
     {
-      "name": "Family Spice",
-      "url": "https://familyspice.com",
-      "cuisine": "Persian",
-      "tagline": "500+ family-friendly recipes with Persian flair.",
-      "image_url": "https://familyspice.com/wp-content/uploads/2024/08/2024-familspice-artichoke-1200.jpg",
-      "rss_url": "https://familyspice.com/feed/"
-    },
-    {
-      "name": "Spend With Pennies",
-      "url": "https://www.spendwithpennies.com",
-      "cuisine": "American",
-      "tagline": "Easy, family-friendly recipes using simple, everyday ingredients.",
-      "image_url": "https://www.spendwithpennies.com/wp-content/uploads/2026/09/Philly-Cheesesteak-Casserole-SpendWithPennies-11.jpg",
-      "rss_url": "https://www.spendwithpennies.com/feed/",
+      "name": "Simply Delicious",
+      "url": "https://simply-delicious-food.com",
+      "cuisine": "South African",
+      "tagline": "Peri-peri, bobotie, and South African classics made simple.",
+      "image_url": "https://simply-delicious-food.com/wp-content/uploads/2026/10/Easy-Greek-Meatball-Bowls3.jpg",
+      "rss_url": "https://simply-delicious-food.com/feed/",
       "sites": []
     },
     {
-      "name": "Viet World Kitchen",
-      "url": "https://www.vietworldkitchen.com",
-      "cuisine": "Vietnamese",
-      "tagline": "Vietnamese cooking and pan-Asian flavors explored.",
-      "image_url": "https://www.vietworldkitchen.com/wp-content/uploads/2026/09/chicken-stock-liquid-gold.jpeg",
-      "rss_url": "https://www.vietworldkitchen.com/feed",
+      "name": "Omnivore's Cookbook",
+      "url": "https://omnivorescookbook.com",
+      "cuisine": "Chinese",
+      "tagline": "Authentic Chinese home cooking since 2013.",
+      "image_url": "https://omnivorescookbook.com/wp-content/uploads/2026/09/260923_Wonton-Soup_14.jpg",
+      "rss_url": "https://omnivorescookbook.com/feed/",
       "sites": []
     },
     {
-      "name": "Alica's Pepperpot",
-      "url": "https://www.alicaspepperpot.com",
-      "cuisine": "Caribbean",
-      "tagline": "Authentic Caribbean and Guyanese home cooking.",
-      "image_url": "https://www.alicaspepperpot.com/wp-content/uploads/2026/08/Small-batch-Channa-Curry-curry-in-pot.jpg",
-      "rss_url": "https://www.alicaspepperpot.com/feed/",
+      "name": "Red House Spice",
+      "url": "https://redhousespice.com",
+      "cuisine": "Chinese",
+      "tagline": "Vibrant Chinese recipes rooted in home tradition.",
+      "image_url": "https://redhousespice.com/wp-content/uploads/2026/06/sesame-oil-scaled.jpg",
+      "rss_url": "https://redhousespice.com/feed/",
+      "sites": []
+    },
+    {
+      "name": "China Sichuan Food",
+      "url": "https://chinasichuanfood.com",
+      "cuisine": "Chinese",
+      "tagline": "Authentic Sichuan flavors with step-by-step guidance.",
+      "image_url": "https://www.chinasichuanfood.com/wp-content/uploads/2026/10/Palm-Sauce-Pork-20.webp",
+      "rss_url": "https://chinasichuanfood.com/feed/",
       "sites": []
     }
   ],
   "featured_recipes": {
     "Mon": {
-      "cuisine": "Persian",
-      "image_url": "https://familyspice.com/wp-content/uploads/2026/08/chicken-chimichurri1-1200.jpg",
-      "recipe_url": "https://familyspice.com/sheet-pan-chicken-chimichurri/",
-      "site_name": "Family Spice",
-      "title": "Sheet Pan Chicken Chimichurri",
-      "url": "https://familyspice.com/sheet-pan-chicken-chimichurri/"
+      "cuisine": "South African",
+      "image_url": "https://simply-delicious-food.com/wp-content/uploads/2026/10/Easy-Greek-Meatball-Bowls3.jpg",
+      "published_at": "Sun, 11 Oct 2026 08:39:17 +0000",
+      "recipe_url": "https://simply-delicious-food.com/easy-greek-meatball-bowls/",
+      "site_name": "Simply Delicious",
+      "site_url": "https://simply-delicious-food.com",
+      "title": "Easy Greek Meatball Bowls",
+      "url": "https://simply-delicious-food.com/easy-greek-meatball-bowls/"
     },
     "Tue": {
-      "cuisine": "American",
-      "image_url": "https://www.spendwithpennies.com/wp-content/uploads/2026/09/Philly-Cheesesteak-Casserole-SpendWithPennies-11.jpg",
-      "recipe_url": "https://www.spendwithpennies.com/philly-cheesesteak-casserole/",
-      "site_name": "Spend With Pennies",
-      "title": "Quick & Easy Philly Cheesesteak Casserole",
-      "url": "https://www.spendwithpennies.com/philly-cheesesteak-casserole/"
+      "cuisine": "Chinese",
+      "image_url": "https://omnivorescookbook.com/wp-content/uploads/2026/09/200219_Instant-Pot-Chinese-Meatballs_YouTube-scaled.jpg",
+      "published_at": "Wed, 14 Oct 2026 14:13:00 +0000",
+      "recipe_url": "https://omnivorescookbook.com/instant-pot-meatballs/",
+      "site_name": "Omnivore's Cookbook",
+      "site_url": "https://omnivorescookbook.com",
+      "title": "Instant Pot Meatballs (Chinese Style)",
+      "url": "https://omnivorescookbook.com/instant-pot-meatballs/"
     },
     "Wed": {
-      "title": "Fancy Crispy Rice Treats with Matcha and Pretzels from Bake Sum",
-      "url": "https://www.vietworldkitchen.com/blog/2026/10/fancy-crispy-rice-treats-with-matcha-and-pretzels-from-bake-sum.html",
-      "recipe_url": "https://www.vietworldkitchen.com/blog/2026/10/fancy-crispy-rice-treats-with-matcha-and-pretzels-from-bake-sum.html",
-      "image_url": "https://www.vietworldkitchen.com/wp-content/uploads/2026/10/Bakesum_FancyRiceKrispyTreats-wide.jpeg",
-      "site_name": "Viet World Kitchen",
-      "site_url": "https://www.vietworldkitchen.com",
-      "cuisine": "Vietnamese",
-      "published_at": "Thu, 15 Oct 2026 03:04:46 +0000"
+      "cuisine": "Chinese",
+      "image_url": "https://redhousespice.com/wp-content/uploads/2025/10/taiwanese-beef-noodle-soup-4-scaled.jpg",
+      "published_at": "Sat, 11 Oct 2025 13:57:42 +0000",
+      "recipe_url": "https://redhousespice.com/taiwanese-beef-noodle-soup/",
+      "site_name": "Red House Spice",
+      "site_url": "https://redhousespice.com",
+      "title": "Taiwanese Beef Noodle Soup (红烧牛肉面)",
+      "url": "https://redhousespice.com/taiwanese-beef-noodle-soup/"
     },
     "Thu": {
-      "title": "Small Batch Channa and Aloo Curry (chickpea and potato)",
-      "url": "https://www.alicaspepperpot.com/small-batch-channa-and-aloo-curry-chickpea-and-potato/",
-      "recipe_url": "https://www.alicaspepperpot.com/small-batch-channa-and-aloo-curry-chickpea-and-potato/",
-      "image_url": "https://www.alicaspepperpot.com/wp-content/uploads/2026/08/Small-Batch-Channa-Curry-thumbnail.jpg",
-      "site_name": "Alica's Pepperpot",
-      "site_url": "https://www.alicaspepperpot.com",
-      "cuisine": "Caribbean",
-      "published_at": "Fri, 14 Aug 2026 22:18:15 +0000"
+      "title": "Hot and Sour Cabbage Salad",
+      "url": "https://www.chinasichuanfood.com/hot-and-sour-cabbage-salad/",
+      "recipe_url": "https://www.chinasichuanfood.com/hot-and-sour-cabbage-salad/",
+      "image_url": "https://www.chinasichuanfood.com/wp-content/uploads/2026/10/hot-and-sour-cabbage-salad-scaled.webp",
+      "site_name": "China Sichuan Food",
+      "site_url": "https://chinasichuanfood.com",
+      "cuisine": "Chinese",
+      "published_at": "Fri, 16 Oct 2026 00:00:02 +0000"
     },
     "Fri": {
-      "cuisine": "Persian",
-      "image_url": "https://familyspice.com/wp-content/uploads/2026/08/oven-sheet-pan-koobideh2-1200.jpg",
-      "recipe_url": "https://familyspice.com/sheet-pan-koobideh-kabob/",
-      "site_name": "Family Spice",
-      "title": "Sheet Pan Koobideh Kabob",
-      "url": "https://familyspice.com/sheet-pan-koobideh-kabob/"
+      "cuisine": "South African",
+      "image_url": "https://simply-delicious-food.com/wp-content/uploads/2026/09/Peppermint-Crisp-Tart3.jpg",
+      "published_at": "Sun, 20 Sep 2026 07:28:31 +0000",
+      "recipe_url": "https://simply-delicious-food.com/the-best-peppermint-crisp-tart/",
+      "site_name": "Simply Delicious",
+      "site_url": "https://simply-delicious-food.com",
+      "title": "The BEST Peppermint Crisp Tart",
+      "url": "https://simply-delicious-food.com/the-best-peppermint-crisp-tart/"
     },
     "Sat": {
-      "title": "A Restaurant Favorite That’s Surprisingly Easy",
-      "url": "https://www.spendwithpennies.com/honey-walnut-shrimp/",
-      "recipe_url": "https://www.spendwithpennies.com/honey-walnut-shrimp/",
-      "image_url": "https://www.spendwithpennies.com/wp-content/uploads/2026/09/Honey-Walnut-Shrimp-SpendWithPennies-11.jpg",
-      "site_name": "Spend With Pennies",
-      "site_url": "https://www.spendwithpennies.com",
-      "cuisine": "American",
-      "published_at": "Mon, 12 Oct 2026 14:54:00 +0000"
+      "title": "Sichuan Roasted Whole Chicken",
+      "url": "https://omnivorescookbook.com/sichuan-roasted-whole-chicken/",
+      "recipe_url": "https://omnivorescookbook.com/sichuan-roasted-whole-chicken/",
+      "image_url": "https://omnivorescookbook.com/wp-content/uploads/2026/09/191206_Sichuan-Roast-Whole-Chicken_YouTube-scaled.jpg",
+      "site_name": "Omnivore's Cookbook",
+      "site_url": "https://omnivorescookbook.com",
+      "cuisine": "Chinese",
+      "published_at": "Fri, 16 Oct 2026 14:00:00 +0000"
     },
     "Sun": {
-      "cuisine": "Caribbean",
-      "image_url": "https://www.alicaspepperpot.com/wp-content/uploads/2026/06/Bara-for-thumbnail.png",
-      "recipe_url": "https://www.alicaspepperpot.com/guyanese-bara-recipe/",
-      "site_name": "Alica's Pepperpot",
-      "title": "Guyanese Bara Recipe",
-      "url": "https://www.alicaspepperpot.com/guyanese-bara-recipe/"
+      "title": "Cashew Chicken Stir-Fry (腰果鸡丁)",
+      "url": "https://redhousespice.com/cashew-chicken-stir-fry/",
+      "recipe_url": "https://redhousespice.com/cashew-chicken-stir-fry/",
+      "image_url": "https://redhousespice.com/wp-content/uploads/2026/05/cashew-chicken-stir-fry-3-scaled.jpg",
+      "site_name": "Red House Spice",
+      "site_url": "https://redhousespice.com",
+      "cuisine": "Chinese",
+      "published_at": "Thu, 14 May 2026 15:14:56 +0000"
     }
   },
   "featured_recipe": {
-    "cuisine": "Persian",
-    "image_url": "https://familyspice.com/wp-content/uploads/2026/08/chicken-chimichurri1-1200.jpg",
-    "recipe_url": "https://familyspice.com/sheet-pan-chicken-chimichurri/",
-    "site_name": "Family Spice",
-    "title": "Sheet Pan Chicken Chimichurri",
-    "url": "https://familyspice.com/sheet-pan-chicken-chimichurri/"
+    "cuisine": "South African",
+    "image_url": "https://simply-delicious-food.com/wp-content/uploads/2026/10/Easy-Greek-Meatball-Bowls3.jpg",
+    "published_at": "Sun, 11 Oct 2026 08:39:17 +0000",
+    "recipe_url": "https://simply-delicious-food.com/easy-greek-meatball-bowls/",
+    "site_name": "Simply Delicious",
+    "site_url": "https://simply-delicious-food.com",
+    "title": "Easy Greek Meatball Bowls",
+    "url": "https://simply-delicious-food.com/easy-greek-meatball-bowls/"
   }
 }
