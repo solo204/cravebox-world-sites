@@ -1,118 +1,122 @@
 {
-  "updated_at": "2026-10-22T02:05:13Z",
+  "updated_at": "2026-10-22T03:05:11Z",
   "slot_hours": 1,
-  "slot_idx": 6,
-  "week": 7,
+  "slot_idx": 7,
+  "week": 8,
   "featured_sites": [
     {
-      "name": "Alexandra Cooks",
-      "url": "https://alexandracooks.com",
-      "cuisine": "Italian-Inspired",
-      "tagline": "Simple Italian cooking and artisan breads.",
-      "image_url": "https://alexandracooks.com/wp-content/uploads/2026/08/scarpacciaVertnew.jpg",
-      "rss_url": "https://alexandracooks.com/feed/"
+      "name": "The Cookie Rookie",
+      "url": "https://www.thecookierookie.com",
+      "cuisine": "Baking",
+      "tagline": "Easy recipes for confident beginner cooks.",
+      "image_url": "https://www.thecookierookie.com/wp-content/uploads/2023/09/Pumpkin-recipes-Featured.jpg",
+      "rss_url": "https://www.thecookierookie.com/feed/"
     },
     {
-      "name": "Italian Food Forever",
-      "url": "https://www.italianfoodforever.com",
-      "cuisine": "Italian",
-      "tagline": "Classic regional Italian recipes done right.",
-      "image_url": "https://italianfoodforever.com/wp-content/uploads/2026/09/fallfigsalad9.jpg",
-      "rss_url": "https://www.italianfoodforever.com/feed/"
-    },
-    {
-      "name": "Hot Thai Kitchen",
-      "url": "https://hot-thai-kitchen.com",
-      "cuisine": "Thai",
-      "tagline": "Authentic Thai recipes with a modern touch.",
-      "image_url": "https://hot-thai-kitchen.com/wp-content/uploads/2026/10/bonus-tom-yum-moo-sub-blog.jpg",
-      "rss_url": "https://hot-thai-kitchen.com/feed/"
-    },
-    {
-      "name": "WoonHeng",
-      "url": "https://woonheng.com",
+      "name": "Rasa Malaysia",
+      "url": "https://rasamalaysia.com",
       "cuisine": "Malaysian",
-      "tagline": "Plant-based Singaporean and Malaysian home cooking.",
-      "image_url": "https://woonheng.com/wp-content/uploads/2026/06/KungPao-Chinese-Yam-2-819x1024.jpg",
-      "rss_url": "https://woonheng.com/feed/"
+      "tagline": "Easy Asian recipes for the home cook.",
+      "image_url": "https://rasamalaysia.com/wp-content/uploads/2026/10/how-to-make-matcha-2.jpg",
+      "rss_url": "https://rasamalaysia.com/feed/"
+    },
+    {
+      "name": "Isabel Eats",
+      "url": "https://www.isabeleats.com",
+      "cuisine": "Mexican",
+      "tagline": "Mexican recipes made simple and delicious.",
+      "image_url": "https://www.isabeleats.com/wp-content/uploads/2026/10/cilantro-lime-rice-small-26-6-400x600.jpg",
+      "rss_url": "https://www.isabeleats.com/feed/"
+    },
+    {
+      "name": "Panlasang Pinoy",
+      "url": "https://panlasangpinoy.com",
+      "cuisine": "Filipino",
+      "tagline": "Filipino recipes, made simple.",
+      "image_url": "https://panlasangpinoy.com/wp-content/uploads/2023/03/homepage-banner-scaled-1-jpg-1440x300.webp",
+      "rss_url": "https://panlasangpinoy.com/feed/"
     }
   ],
   "featured_recipes": {
     "Mon": {
-      "title": "Thin and Crisp Zucchini Scarpaccia",
-      "url": "https://alexandracooks.com/2026/08/21/thin-and-crisp-zucchini-scarpaccia/",
-      "recipe_url": "https://alexandracooks.com/2026/08/21/thin-and-crisp-zucchini-scarpaccia/",
-      "image_url": "https://alexandracooks.com/wp-content/uploads/2026/08/scarpaccia_GD.jpg",
-      "site_name": "Alexandra Cooks",
-      "site_url": "https://alexandracooks.com",
-      "cuisine": "Italian-Inspired",
-      "published_at": "Sat, 22 Aug 2026 01:39:43 +0000"
+      "cuisine": "Baking",
+      "image_url": "https://www.thecookierookie.com/wp-content/uploads/2026/09/crockpot-potato-soup-1-17.jpg",
+      "published_at": "Wed, 23 Sep 2026 13:30:00 +0000",
+      "recipe_url": "https://www.thecookierookie.com/slow-cooker-skinny-loaded-potato-soup/",
+      "site_name": "The Cookie Rookie",
+      "site_url": "https://www.thecookierookie.com",
+      "title": "Crockpot Potato Soup",
+      "url": "https://www.thecookierookie.com/slow-cooker-skinny-loaded-potato-soup/"
     },
     "Tue": {
-      "cuisine": "Italian",
-      "image_url": "https://italianfoodforever.com/wp-content/uploads/2011/11/squashsausagepasta6_1-1.jpg",
-      "recipe_url": "https://italianfoodforever.com/2026/09/spaghetti-with-sausage-squash/",
-      "site_name": "Italian Food Forever",
-      "title": "Spaghetti With Sausage & Butternut Squash",
-      "url": "https://italianfoodforever.com/2026/09/spaghetti-with-sausage-squash/"
+      "cuisine": "Malaysian",
+      "image_url": "https://rasamalaysia.com/wp-content/uploads/2026/09/crab-fried-rice-2-2026.jpg",
+      "published_at": "Thu, 24 Sep 2026 03:16:23 +0000",
+      "recipe_url": "https://rasamalaysia.com/crab-fried-rice-recipe/",
+      "site_name": "Rasa Malaysia",
+      "site_url": "https://rasamalaysia.com",
+      "title": "Crab Fried Rice",
+      "url": "https://rasamalaysia.com/crab-fried-rice-recipe/"
     },
     "Wed": {
-      "title": "BONUS: Easy Tom Yum Soup with Meatballs",
-      "url": "https://hot-thai-kitchen.com/bonus-tom-yum-meatballs/",
-      "recipe_url": "https://hot-thai-kitchen.com/bonus-tom-yum-meatballs/",
-      "image_url": "https://hot-thai-kitchen.com/wp-content/uploads/2026/10/bonus-tom-yum-moo-sub-blog.jpg",
-      "site_name": "Hot Thai Kitchen",
-      "site_url": "https://hot-thai-kitchen.com",
-      "cuisine": "Thai",
-      "published_at": "Mon, 05 Oct 2026 21:37:28 +0000"
+      "cuisine": "Mexican",
+      "image_url": "https://www.isabeleats.com/wp-content/uploads/2021/02/pollo-en-chipotle-small-3-400x600.jpg",
+      "published_at": "Mon, 17 Aug 2026 20:07:27 +0000",
+      "recipe_url": "https://www.isabeleats.com/pollo-en-chipotle/",
+      "site_name": "Isabel Eats",
+      "site_url": "https://www.isabeleats.com",
+      "title": "Pollo en Crema de Chipotle",
+      "url": "https://www.isabeleats.com/pollo-en-chipotle/"
     },
     "Thu": {
-      "cuisine": "Malaysian",
-      "image_url": "https://woonheng.com/wp-content/uploads/2023/01/Vegan-Yu-Xiang-Rou-Si-6702-e1673017934796.jpg",
-      "recipe_url": "https://woonheng.com/vegan-yu-xiang-shredded-pork/?utm_source=rss&utm_medium=rss&utm_campaign=vegan-yu-xiang-shredded-pork",
-      "site_name": "WoonHeng",
-      "title": "Vegan Yu Xiang Rou Si – Fish Fragrant Shredded ‘Pork’",
-      "url": "https://woonheng.com/vegan-yu-xiang-shredded-pork/?utm_source=rss&utm_medium=rss&utm_campaign=vegan-yu-xiang-shredded-pork"
+      "cuisine": "Filipino",
+      "image_url": "https://panlasangpinoy.com/wp-content/uploads/2026/08/Eggplant-adobo-339x500.jpg",
+      "published_at": "Fri, 14 Aug 2026 00:36:59 +0000",
+      "recipe_url": "https://panlasangpinoy.com/adobong-talong-eggplant-adobo-recipe/",
+      "site_name": "Panlasang Pinoy",
+      "site_url": "https://panlasangpinoy.com",
+      "title": "Eggplant Adobo Recipe (Adobong Talong)",
+      "url": "https://panlasangpinoy.com/adobong-talong-eggplant-adobo-recipe/"
     },
     "Fri": {
-      "title": "Simple Summery Frittata with Sweet Corn & Chorizo",
-      "url": "https://alexandracooks.com/2026/08/08/simple-summery-frittata-with-sweet-corn-chorizo/",
-      "recipe_url": "https://alexandracooks.com/2026/08/08/simple-summery-frittata-with-sweet-corn-chorizo/",
-      "image_url": "https://alexandracooks.com/wp-content/uploads/2026/08/platedfrittata_ak.jpg",
-      "site_name": "Alexandra Cooks",
-      "site_url": "https://alexandracooks.com",
-      "cuisine": "Italian-Inspired",
-      "published_at": "Sat, 08 Aug 2026 11:13:11 +0000"
+      "title": "Crockpot Chicken and Dumplings",
+      "url": "https://www.thecookierookie.com/crockpot-chicken-and-dumplings-recipe/",
+      "recipe_url": "https://www.thecookierookie.com/crockpot-chicken-and-dumplings-recipe/",
+      "image_url": "https://www.thecookierookie.com/wp-content/uploads/2026/10/crockpot-chicken-and-dumplings-1-14.jpg",
+      "site_name": "The Cookie Rookie",
+      "site_url": "https://www.thecookierookie.com",
+      "cuisine": "Baking",
+      "published_at": "Wed, 07 Oct 2026 13:30:00 +0000"
     },
     "Sat": {
-      "title": "Spiced Butternut Squash & Hazelnut Muffins",
-      "url": "https://italianfoodforever.com/2026/10/spiced-butternut-squash-hazelnut-muffins/",
-      "recipe_url": "https://italianfoodforever.com/2026/10/spiced-butternut-squash-hazelnut-muffins/",
-      "image_url": "https://italianfoodforever.com/wp-content/uploads/2019/10/pumpkinmuffinstop.jpg",
-      "site_name": "Italian Food Forever",
-      "site_url": "https://www.italianfoodforever.com",
-      "cuisine": "Italian",
-      "published_at": "Mon, 05 Oct 2026 11:00:00 +0000"
+      "cuisine": "Malaysian",
+      "image_url": "https://rasamalaysia.com/wp-content/uploads/2026/10/sausage-gravy-1.jpg",
+      "published_at": "Tue, 06 Oct 2026 07:36:05 +0000",
+      "recipe_url": "https://rasamalaysia.com/sausage-gravy/",
+      "site_name": "Rasa Malaysia",
+      "site_url": "https://rasamalaysia.com",
+      "title": "Sausage Gravy",
+      "url": "https://rasamalaysia.com/sausage-gravy/"
     },
     "Sun": {
-      "title": "Authentic Thai Laab - Just Like in Thailand! (Laab Moo)",
-      "url": "https://hot-thai-kitchen.com/laab-moo/",
-      "recipe_url": "https://hot-thai-kitchen.com/laab-moo/",
-      "image_url": "https://hot-thai-kitchen.com/wp-content/uploads/2026/09/Laab-moo-blog-pa-version.jpg",
-      "site_name": "Hot Thai Kitchen",
-      "site_url": "https://hot-thai-kitchen.com",
-      "cuisine": "Thai",
-      "published_at": "Fri, 25 Sep 2026 13:00:00 +0000"
+      "title": "Cemitas Poblanas (Mexican Cemita Sandwich)",
+      "url": "https://www.isabeleats.com/cemitas-poblanas/",
+      "recipe_url": "https://www.isabeleats.com/cemitas-poblanas/",
+      "image_url": "https://www.isabeleats.com/wp-content/uploads/2026/09/cemitas-poblanas-small-5-400x600.jpg",
+      "site_name": "Isabel Eats",
+      "site_url": "https://www.isabeleats.com",
+      "cuisine": "Mexican",
+      "published_at": "Wed, 30 Sep 2026 07:00:00 +0000"
     }
   },
   "featured_recipe": {
-    "title": "Thin and Crisp Zucchini Scarpaccia",
-    "url": "https://alexandracooks.com/2026/08/21/thin-and-crisp-zucchini-scarpaccia/",
-    "recipe_url": "https://alexandracooks.com/2026/08/21/thin-and-crisp-zucchini-scarpaccia/",
-    "image_url": "https://alexandracooks.com/wp-content/uploads/2026/08/scarpaccia_GD.jpg",
-    "site_name": "Alexandra Cooks",
-    "site_url": "https://alexandracooks.com",
-    "cuisine": "Italian-Inspired",
-    "published_at": "Sat, 22 Aug 2026 01:39:43 +0000"
+    "cuisine": "Baking",
+    "image_url": "https://www.thecookierookie.com/wp-content/uploads/2026/09/crockpot-potato-soup-1-17.jpg",
+    "published_at": "Wed, 23 Sep 2026 13:30:00 +0000",
+    "recipe_url": "https://www.thecookierookie.com/slow-cooker-skinny-loaded-potato-soup/",
+    "site_name": "The Cookie Rookie",
+    "site_url": "https://www.thecookierookie.com",
+    "title": "Crockpot Potato Soup",
+    "url": "https://www.thecookierookie.com/slow-cooker-skinny-loaded-potato-soup/"
   }
 }
