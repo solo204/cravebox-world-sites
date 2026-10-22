@@ -1,116 +1,115 @@
 {
-  "updated_at": "2026-10-22T20:05:13Z",
+  "updated_at": "2026-10-22T21:05:13Z",
   "slot_hours": 1,
-  "slot_idx": 24,
-  "week": 25,
+  "slot_idx": 25,
+  "week": 26,
   "featured_sites": [
     {
-      "name": "Mommy's Home Cooking",
-      "url": "https://mommyshomecooking.com",
-      "cuisine": "Venezuelan",
-      "tagline": "Venezuelan and Latin recipes from a Caracas-born cook.",
-      "image_url": "https://mommyshomecooking.com/wp-content/uploads/2026/10/Eggless-Pumpkin-Chocolate-Chip-Bundt-Cake-10.jpg",
-      "rss_url": "https://mommyshomecooking.com/feed/",
-      "sites": []
-    },
-    {
-      "name": "Give Recipe",
-      "url": "https://giverecipe.com",
+      "name": "Cooking Gorgeous",
+      "url": "https://cookingorgeous.com",
       "cuisine": "Turkish",
-      "tagline": "The best Turkish food blog in English — kebabs to mezes.",
-      "image_url": "https://www.giverecipe.com/wp-content/uploads/2021/04/Turkish-Chicken-Kebab-Recipe-360x480.jpg",
-      "rss_url": "https://giverecipe.com/feed/",
+      "tagline": "Turkish and Mediterranean dishes, FeedSpot #1 Turkish blog.",
+      "image_url": "https://cookingorgeous.com/wp-content/uploads/2022/03/menemen-turkish-scrambled-eggs-25.jpg",
+      "rss_url": "https://cookingorgeous.com/feed/"
+    },
+    {
+      "name": "Cafe Delites",
+      "url": "https://cafedelites.com",
+      "cuisine": "Australian",
+      "tagline": "Visually striking one-pan family meals from Sydney.",
+      "image_url": "https://cafedelites.com/wp-content/uploads/2026/10/Shrimp-Dumpling-9-768x1024-1.jpg",
+      "rss_url": "https://cafedelites.com/feed/",
       "sites": []
     },
     {
-      "name": "Marion's Kitchen",
-      "url": "https://marionskitchen.com",
-      "cuisine": "Australian",
-      "tagline": "Thai, Korean, and pan-Asian recipes with professional photography.",
-      "image_url": "https://www.marionskitchen.com/wp-content/uploads/2026/09/MK_The-Garlicky-Garlic-noodles_6.webp",
-      "rss_url": "https://marionskitchen.com/feed/"
+      "name": "Cloudy Kitchen",
+      "url": "https://cloudykitchen.com",
+      "cuisine": "New Zealand",
+      "tagline": "Rigorously tested NZ baking and desserts — Saveur finalist.",
+      "image_url": "https://cloudykitchen.com/wp-content/uploads/2026/08/vanilla-frosting-piped-on-cupcake.jpg",
+      "rss_url": "https://cloudykitchen.com/feed/",
+      "sites": []
     },
     {
-      "name": "The First Mess",
-      "url": "https://thefirstmess.com",
-      "cuisine": "Vegan",
-      "tagline": "Beautiful plant-based cooking with luminous, magazine-quality photography.",
-      "image_url": "https://thefirstmess.com/wp-content/uploads/2026/09/eggplant-curry-chickpeas-vegan-02.jpg",
-      "rss_url": "https://thefirstmess.com/feed/"
+      "name": "Tea For Turmeric",
+      "url": "https://teaforturmeric.com",
+      "cuisine": "Pakistani",
+      "tagline": "Pakistani recipes featured in NPR, Parade, and Saveur.",
+      "image_url": "https://www.teaforturmeric.com/wp-content/uploads/2026/06/Dum-Ka-Keema-2-728x1092.jpg",
+      "rss_url": "https://teaforturmeric.com/feed/",
+      "sites": []
     }
   ],
   "featured_recipes": {
     "Mon": {
-      "title": "Eggless Pumpkin Chocolate Chip Bundt Cake (with Chocolate Glaze)",
-      "url": "https://mommyshomecooking.com/eggless-pumpkin-chocolate-chip-bundt-cake/",
-      "recipe_url": "https://mommyshomecooking.com/eggless-pumpkin-chocolate-chip-bundt-cake/",
-      "image_url": "https://mommyshomecooking.com/wp-content/uploads/2026/10/Eggless-Pumpkin-Chocolate-Chip-Bundt-Cake-10.jpg",
-      "site_name": "Mommy's Home Cooking",
-      "site_url": "https://mommyshomecooking.com",
-      "cuisine": "Venezuelan",
-      "published_at": "Fri, 09 Oct 2026 11:57:36 +0000"
+      "cuisine": "Turkish",
+      "image_url": "https://cookingorgeous.com/wp-content/uploads/2022/05/adana-kebab-30.jpg",
+      "recipe_url": "https://cookingorgeous.com/blog/kebab-shop-favourites-you-can-make-at-home/",
+      "site_name": "Cooking Gorgeous",
+      "title": "Kebab Shop Favourites You Can Make at Home",
+      "url": "https://cookingorgeous.com/blog/kebab-shop-favourites-you-can-make-at-home/"
     },
     "Tue": {
-      "cuisine": "Turkish",
-      "image_url": "https://www.giverecipe.com/wp-content/uploads/2026/05/Sucuk-and-Eggs.jpg",
-      "recipe_url": "https://www.giverecipe.com/sucuk-and-eggs-sucuklu-yumurta/",
-      "site_name": "Give Recipe",
-      "title": "Sucuk and Eggs (Sucuklu Yumurta)",
-      "url": "https://www.giverecipe.com/sucuk-and-eggs-sucuklu-yumurta/"
+      "title": "Italian Sausage Pasta (Easy Orzo Recipe)",
+      "url": "https://cafedelites.com/italian-sausage-pasta/",
+      "recipe_url": "https://cafedelites.com/italian-sausage-pasta/",
+      "image_url": "https://cafedelites.com/wp-content/uploads/2026/10/Creamy-Orzo-Pasta-with-Italian-Sausage-16-768x1024.jpg",
+      "site_name": "Cafe Delites",
+      "site_url": "https://cafedelites.com",
+      "cuisine": "Australian",
+      "published_at": "Thu, 15 Oct 2026 04:41:53 +0000"
     },
     "Wed": {
-      "cuisine": "Vegan",
-      "image_url": "https://thefirstmess.com/wp-content/uploads/2026/09/eggplant-curry-chickpeas-vegan-02.jpg",
-      "recipe_url": "https://thefirstmess.com/2026/09/09/roasted-eggplant-curry-chickpeas-vegan/",
-      "site_name": "The First Mess",
-      "title": "Roasted Eggplant Curry with Chickpeas (Vegan)",
-      "url": "https://thefirstmess.com/2026/09/09/roasted-eggplant-curry-chickpeas-vegan/"
+      "cuisine": "Pakistani",
+      "image_url": "https://www.teaforturmeric.com/wp-content/uploads/2025/11/Bagare-Baingan-03.jpg",
+      "recipe_url": "https://www.teaforturmeric.com/bagara-baingan/",
+      "site_name": "Tea For Turmeric",
+      "title": "Bagara Baingan (South Indian Eggplant Curry) – Simplified!",
+      "url": "https://www.teaforturmeric.com/bagara-baingan/"
     },
     "Thu": {
-      "cuisine": "Vegan",
-      "image_url": "https://thefirstmess.com/wp-content/uploads/2026/09/spicy-peanut-kale-salad-charred-corn-crispy-tofu-2.jpg",
-      "recipe_url": "https://thefirstmess.com/2026/09/16/spicy-peanut-kale-salad-crispy-tofu-charred-corn/",
-      "site_name": "The First Mess",
-      "title": "Spicy Peanut Kale Salad with Crispy Tofu & Charred Corn",
-      "url": "https://thefirstmess.com/2026/09/16/spicy-peanut-kale-salad-crispy-tofu-charred-corn/"
+      "title": "Dum Ka Keema (Smoked Ground Beef)",
+      "url": "https://www.teaforturmeric.com/dum-ka-keema/",
+      "recipe_url": "https://www.teaforturmeric.com/dum-ka-keema/",
+      "image_url": "https://www.teaforturmeric.com/wp-content/uploads/2026/06/Dum-Ka-Keema-5.jpg",
+      "site_name": "Tea For Turmeric",
+      "site_url": "https://teaforturmeric.com",
+      "cuisine": "Pakistani",
+      "published_at": "Thu, 16 Jul 2026 23:08:02 +0000"
     },
     "Fri": {
-      "title": "Eggless Biscoff Pumpkin Cheesecake Pie (No Water Bath!)",
-      "url": "https://mommyshomecooking.com/eggless-biscoff-pumpkin-cheesecake-pie/",
-      "recipe_url": "https://mommyshomecooking.com/eggless-biscoff-pumpkin-cheesecake-pie/",
-      "image_url": "https://mommyshomecooking.com/wp-content/uploads/2026/09/Eggless-Biscoff-Pumpkin-Cheesecake-Pie-12.jpg",
-      "site_name": "Mommy's Home Cooking",
-      "site_url": "https://mommyshomecooking.com",
-      "cuisine": "Venezuelan",
-      "published_at": "Fri, 25 Sep 2026 10:59:13 +0000"
+      "cuisine": "Turkish",
+      "image_url": "https://cookingorgeous.com/wp-content/uploads/2022/02/imam-bayildi-turkish-stuffed-eggplant-10.jpg",
+      "recipe_url": "https://cookingorgeous.com/blog/mediterranean-diet-dinners-for-the-week-ahead/",
+      "site_name": "Cooking Gorgeous",
+      "title": "Mediterranean Diet Dinners for the Week Ahead",
+      "url": "https://cookingorgeous.com/blog/mediterranean-diet-dinners-for-the-week-ahead/"
     },
     "Sat": {
-      "title": "Fresh Fig Cake",
-      "url": "https://www.giverecipe.com/fresh-fig-cake/",
-      "recipe_url": "https://www.giverecipe.com/fresh-fig-cake/",
-      "image_url": "https://www.giverecipe.com/wp-content/uploads/2026/09/Fresh-Fig-Cake-Featured-1.jpg",
-      "site_name": "Give Recipe",
-      "site_url": "https://giverecipe.com",
-      "cuisine": "Turkish",
-      "published_at": "Mon, 21 Sep 2026 22:50:44 +0000"
+      "title": "Easy Shrimp Dumplings (No Dough Required)",
+      "url": "https://cafedelites.com/shrimp-dumplings/",
+      "recipe_url": "https://cafedelites.com/shrimp-dumplings/",
+      "image_url": "https://cafedelites.com/wp-content/uploads/2026/10/Shrimp-Dumpling-9-768x1024-1.jpg",
+      "site_name": "Cafe Delites",
+      "site_url": "https://cafedelites.com",
+      "cuisine": "Australian",
+      "published_at": "Thu, 08 Oct 2026 05:41:40 +0000"
     },
     "Sun": {
-      "cuisine": "Australian",
-      "image_url": "https://www.marionskitchen.com/wp-content/uploads/2026/09/MK_Crispy-Chilli-Meatball-Noodles_4.webp",
-      "recipe_url": "https://www.marionskitchen.com/crispy-chilli-meatball-noodles/",
-      "site_name": "Marion's Kitchen",
-      "title": "Crispy Chilli Meatball Noodles",
-      "url": "https://www.marionskitchen.com/crispy-chilli-meatball-noodles/"
+      "cuisine": "New Zealand",
+      "image_url": "https://cloudykitchen.com/wp-content/uploads/2026/07/side-on-shot-of-cookie.jpg",
+      "recipe_url": "https://cloudykitchen.com/blog/brownie-chunk-cookies/",
+      "site_name": "Cloudy Kitchen",
+      "title": "Brownie Chunk Chocolate Chip Cookies",
+      "url": "https://cloudykitchen.com/blog/brownie-chunk-cookies/"
     }
   },
   "featured_recipe": {
-    "title": "Eggless Pumpkin Chocolate Chip Bundt Cake (with Chocolate Glaze)",
-    "url": "https://mommyshomecooking.com/eggless-pumpkin-chocolate-chip-bundt-cake/",
-    "recipe_url": "https://mommyshomecooking.com/eggless-pumpkin-chocolate-chip-bundt-cake/",
-    "image_url": "https://mommyshomecooking.com/wp-content/uploads/2026/10/Eggless-Pumpkin-Chocolate-Chip-Bundt-Cake-10.jpg",
-    "site_name": "Mommy's Home Cooking",
-    "site_url": "https://mommyshomecooking.com",
-    "cuisine": "Venezuelan",
-    "published_at": "Fri, 09 Oct 2026 11:57:36 +0000"
+    "cuisine": "Turkish",
+    "image_url": "https://cookingorgeous.com/wp-content/uploads/2022/05/adana-kebab-30.jpg",
+    "recipe_url": "https://cookingorgeous.com/blog/kebab-shop-favourites-you-can-make-at-home/",
+    "site_name": "Cooking Gorgeous",
+    "title": "Kebab Shop Favourites You Can Make at Home",
+    "url": "https://cookingorgeous.com/blog/kebab-shop-favourites-you-can-make-at-home/"
   }
 }
