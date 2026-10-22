@@ -1,122 +1,122 @@
 {
-  "updated_at": "2026-10-22T03:05:11Z",
+  "updated_at": "2026-10-22T04:05:11Z",
   "slot_hours": 1,
-  "slot_idx": 7,
-  "week": 8,
+  "slot_idx": 8,
+  "week": 9,
   "featured_sites": [
     {
-      "name": "The Cookie Rookie",
-      "url": "https://www.thecookierookie.com",
-      "cuisine": "Baking",
-      "tagline": "Easy recipes for confident beginner cooks.",
-      "image_url": "https://www.thecookierookie.com/wp-content/uploads/2023/09/Pumpkin-recipes-Featured.jpg",
-      "rss_url": "https://www.thecookierookie.com/feed/"
+      "name": "My Greek Dish",
+      "url": "https://www.mygreekdish.com",
+      "cuisine": "Greek",
+      "tagline": "Authentic Greek recipes made simple at home.",
+      "image_url": "https://www.mygreekdish.com/wp-content/uploads/2024/09/Feta-Pasta-bake.jpeg",
+      "rss_url": "https://www.mygreekdish.com/feed/"
     },
     {
-      "name": "Rasa Malaysia",
-      "url": "https://rasamalaysia.com",
-      "cuisine": "Malaysian",
-      "tagline": "Easy Asian recipes for the home cook.",
-      "image_url": "https://rasamalaysia.com/wp-content/uploads/2026/10/how-to-make-matcha-2.jpg",
-      "rss_url": "https://rasamalaysia.com/feed/"
+      "name": "Caribbean Pot",
+      "url": "https://www.caribbeanpot.com",
+      "cuisine": "Caribbean",
+      "tagline": "Genuine Caribbean cooking and comfort food.",
+      "image_url": "https://caribbeanpot.com/wp-content/uploads/2026/10/chicken-rasta-pasta-14.jpg",
+      "rss_url": "https://caribbeanpot.com/feed/"
     },
     {
-      "name": "Isabel Eats",
-      "url": "https://www.isabeleats.com",
-      "cuisine": "Mexican",
-      "tagline": "Mexican recipes made simple and delicious.",
-      "image_url": "https://www.isabeleats.com/wp-content/uploads/2026/10/cilantro-lime-rice-small-26-6-400x600.jpg",
-      "rss_url": "https://www.isabeleats.com/feed/"
+      "name": "Spain on a Fork",
+      "url": "https://www.spainonafork.com",
+      "cuisine": "Spanish",
+      "tagline": "Authentic Spanish recipes for the home cook.",
+      "image_url": "https://i0.wp.com/spainonafork.com/wp-content/uploads/2024/02/image7-4-11.png",
+      "rss_url": "https://www.spainonafork.com/feed/"
     },
     {
-      "name": "Panlasang Pinoy",
-      "url": "https://panlasangpinoy.com",
-      "cuisine": "Filipino",
-      "tagline": "Filipino recipes, made simple.",
-      "image_url": "https://panlasangpinoy.com/wp-content/uploads/2023/03/homepage-banner-scaled-1-jpg-1440x300.webp",
-      "rss_url": "https://panlasangpinoy.com/feed/"
+      "name": "Olivia's Cuisine",
+      "url": "https://www.oliviascuisine.com",
+      "cuisine": "Brazilian",
+      "tagline": "Brazilian recipes and global comfort food.",
+      "image_url": "https://www.oliviascuisine.com/wp-content/uploads/2026/10/apple-honey-crumble-bars-300x375.jpg",
+      "rss_url": "https://www.oliviascuisine.com/feed/"
     }
   ],
   "featured_recipes": {
     "Mon": {
-      "cuisine": "Baking",
-      "image_url": "https://www.thecookierookie.com/wp-content/uploads/2026/09/crockpot-potato-soup-1-17.jpg",
-      "published_at": "Wed, 23 Sep 2026 13:30:00 +0000",
-      "recipe_url": "https://www.thecookierookie.com/slow-cooker-skinny-loaded-potato-soup/",
-      "site_name": "The Cookie Rookie",
-      "site_url": "https://www.thecookierookie.com",
-      "title": "Crockpot Potato Soup",
-      "url": "https://www.thecookierookie.com/slow-cooker-skinny-loaded-potato-soup/"
+      "title": "Baked Feta Pasta recipe",
+      "url": "https://www.mygreekdish.com/recipe/baked-feta-pasta-recipe/",
+      "recipe_url": "https://www.mygreekdish.com/recipe/baked-feta-pasta-recipe/",
+      "image_url": "https://www.mygreekdish.com/wp-content/uploads/2024/06/Baked-Feta-Pasta-recipe.jpeg",
+      "site_name": "My Greek Dish",
+      "site_url": "https://www.mygreekdish.com",
+      "cuisine": "Greek",
+      "published_at": "Wed, 16 Oct 2024 23:15:14 +0000"
     },
     "Tue": {
-      "cuisine": "Malaysian",
-      "image_url": "https://rasamalaysia.com/wp-content/uploads/2026/09/crab-fried-rice-2-2026.jpg",
-      "published_at": "Thu, 24 Sep 2026 03:16:23 +0000",
-      "recipe_url": "https://rasamalaysia.com/crab-fried-rice-recipe/",
-      "site_name": "Rasa Malaysia",
-      "site_url": "https://rasamalaysia.com",
-      "title": "Crab Fried Rice",
-      "url": "https://rasamalaysia.com/crab-fried-rice-recipe/"
+      "title": "Chicken Rasta Pasta Recipe",
+      "url": "https://caribbeanpot.com/chicken-rasta-pasta-recipe/",
+      "recipe_url": "https://caribbeanpot.com/chicken-rasta-pasta-recipe/",
+      "image_url": "https://caribbeanpot.com/wp-content/uploads/2026/10/chicken-rasta-pasta-14.jpg",
+      "site_name": "Caribbean Pot",
+      "site_url": "https://www.caribbeanpot.com",
+      "cuisine": "Caribbean",
+      "published_at": "Mon, 05 Oct 2026 16:41:38 +0000"
     },
     "Wed": {
-      "cuisine": "Mexican",
-      "image_url": "https://www.isabeleats.com/wp-content/uploads/2021/02/pollo-en-chipotle-small-3-400x600.jpg",
-      "published_at": "Mon, 17 Aug 2026 20:07:27 +0000",
-      "recipe_url": "https://www.isabeleats.com/pollo-en-chipotle/",
-      "site_name": "Isabel Eats",
-      "site_url": "https://www.isabeleats.com",
-      "title": "Pollo en Crema de Chipotle",
-      "url": "https://www.isabeleats.com/pollo-en-chipotle/"
+      "title": "One-Pan Spanish Chicken Pasta | One of the Most Underrated Pasta Recipes",
+      "url": "https://spainonafork.com/one-pan-spanish-chicken-pasta-recipe/",
+      "recipe_url": "https://spainonafork.com/one-pan-spanish-chicken-pasta-recipe/",
+      "image_url": "https://i0.wp.com/spainonafork.com/wp-content/uploads/2026/10/DSC_0637-1-11.png?fit=750%2C750&ssl=1",
+      "site_name": "Spain on a Fork",
+      "site_url": "https://www.spainonafork.com",
+      "cuisine": "Spanish",
+      "published_at": "Fri, 09 Oct 2026 14:00:43 +0000"
     },
     "Thu": {
-      "cuisine": "Filipino",
-      "image_url": "https://panlasangpinoy.com/wp-content/uploads/2026/08/Eggplant-adobo-339x500.jpg",
-      "published_at": "Fri, 14 Aug 2026 00:36:59 +0000",
-      "recipe_url": "https://panlasangpinoy.com/adobong-talong-eggplant-adobo-recipe/",
-      "site_name": "Panlasang Pinoy",
-      "site_url": "https://panlasangpinoy.com",
-      "title": "Eggplant Adobo Recipe (Adobong Talong)",
-      "url": "https://panlasangpinoy.com/adobong-talong-eggplant-adobo-recipe/"
+      "title": "Apple Crumble Bars",
+      "url": "https://www.oliviascuisine.com/apple-crumble-bars/",
+      "recipe_url": "https://www.oliviascuisine.com/apple-crumble-bars/",
+      "image_url": "https://www.oliviascuisine.com/wp-content/uploads/2026/10/apple-honey-crumble-bars-300x375.jpg",
+      "site_name": "Olivia's Cuisine",
+      "site_url": "https://www.oliviascuisine.com",
+      "cuisine": "Brazilian",
+      "published_at": "Thu, 08 Oct 2026 17:16:14 +0000"
     },
     "Fri": {
-      "title": "Crockpot Chicken and Dumplings",
-      "url": "https://www.thecookierookie.com/crockpot-chicken-and-dumplings-recipe/",
-      "recipe_url": "https://www.thecookierookie.com/crockpot-chicken-and-dumplings-recipe/",
-      "image_url": "https://www.thecookierookie.com/wp-content/uploads/2026/10/crockpot-chicken-and-dumplings-1-14.jpg",
-      "site_name": "The Cookie Rookie",
-      "site_url": "https://www.thecookierookie.com",
-      "cuisine": "Baking",
-      "published_at": "Wed, 07 Oct 2026 13:30:00 +0000"
+      "title": "Greek Lemon Chicken Soup with Orzo (Avgolemono)",
+      "url": "https://www.mygreekdish.com/recipe/greek-lemon-chicken-soup-with-orzo-avgolemono/",
+      "recipe_url": "https://www.mygreekdish.com/recipe/greek-lemon-chicken-soup-with-orzo-avgolemono/",
+      "image_url": "https://www.mygreekdish.com/wp-content/uploads/2023/11/Greek-Lemon-Chicken-Soup-with-Orzo-Avgolemono.jpeg",
+      "site_name": "My Greek Dish",
+      "site_url": "https://www.mygreekdish.com",
+      "cuisine": "Greek",
+      "published_at": "Fri, 03 Nov 2023 18:35:34 +0000"
     },
     "Sat": {
-      "cuisine": "Malaysian",
-      "image_url": "https://rasamalaysia.com/wp-content/uploads/2026/10/sausage-gravy-1.jpg",
-      "published_at": "Tue, 06 Oct 2026 07:36:05 +0000",
-      "recipe_url": "https://rasamalaysia.com/sausage-gravy/",
-      "site_name": "Rasa Malaysia",
-      "site_url": "https://rasamalaysia.com",
-      "title": "Sausage Gravy",
-      "url": "https://rasamalaysia.com/sausage-gravy/"
+      "title": "Easy Comforting Roasted Butternut and Carrot Soup",
+      "url": "https://caribbeanpot.com/easy-comforting-roasted-butternut-and-carrot-soup/",
+      "recipe_url": "https://caribbeanpot.com/easy-comforting-roasted-butternut-and-carrot-soup/",
+      "image_url": "https://caribbeanpot.com/wp-content/uploads/2026/09/roasted-butternut-squash-and-carrot-soup-1.jpeg",
+      "site_name": "Caribbean Pot",
+      "site_url": "https://www.caribbeanpot.com",
+      "cuisine": "Caribbean",
+      "published_at": "Tue, 29 Sep 2026 21:35:57 +0000"
     },
     "Sun": {
-      "title": "Cemitas Poblanas (Mexican Cemita Sandwich)",
-      "url": "https://www.isabeleats.com/cemitas-poblanas/",
-      "recipe_url": "https://www.isabeleats.com/cemitas-poblanas/",
-      "image_url": "https://www.isabeleats.com/wp-content/uploads/2026/09/cemitas-poblanas-small-5-400x600.jpg",
-      "site_name": "Isabel Eats",
-      "site_url": "https://www.isabeleats.com",
-      "cuisine": "Mexican",
-      "published_at": "Wed, 30 Sep 2026 07:00:00 +0000"
+      "title": "Spanish Chickpeas with Chorizo | One of Spain’s Most Iconic Recipes",
+      "url": "https://spainonafork.com/spanish-chickpeas-with-chorizo-recipe/",
+      "recipe_url": "https://spainonafork.com/spanish-chickpeas-with-chorizo-recipe/",
+      "image_url": "https://i0.wp.com/spainonafork.com/wp-content/uploads/2026/10/DSC_0612-111.png?fit=750%2C750&ssl=1",
+      "site_name": "Spain on a Fork",
+      "site_url": "https://www.spainonafork.com",
+      "cuisine": "Spanish",
+      "published_at": "Wed, 07 Oct 2026 14:00:57 +0000"
     }
   },
   "featured_recipe": {
-    "cuisine": "Baking",
-    "image_url": "https://www.thecookierookie.com/wp-content/uploads/2026/09/crockpot-potato-soup-1-17.jpg",
-    "published_at": "Wed, 23 Sep 2026 13:30:00 +0000",
-    "recipe_url": "https://www.thecookierookie.com/slow-cooker-skinny-loaded-potato-soup/",
-    "site_name": "The Cookie Rookie",
-    "site_url": "https://www.thecookierookie.com",
-    "title": "Crockpot Potato Soup",
-    "url": "https://www.thecookierookie.com/slow-cooker-skinny-loaded-potato-soup/"
+    "title": "Baked Feta Pasta recipe",
+    "url": "https://www.mygreekdish.com/recipe/baked-feta-pasta-recipe/",
+    "recipe_url": "https://www.mygreekdish.com/recipe/baked-feta-pasta-recipe/",
+    "image_url": "https://www.mygreekdish.com/wp-content/uploads/2024/06/Baked-Feta-Pasta-recipe.jpeg",
+    "site_name": "My Greek Dish",
+    "site_url": "https://www.mygreekdish.com",
+    "cuisine": "Greek",
+    "published_at": "Wed, 16 Oct 2024 23:15:14 +0000"
   }
 }
