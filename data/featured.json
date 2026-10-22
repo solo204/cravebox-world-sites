@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-22T09:05:16Z",
+  "updated_at": "2026-10-22T10:00:41Z",
   "slot_hours": 1,
   "slot_idx": 13,
   "week": 14,
@@ -111,14 +111,14 @@
     }
   },
   "featured_recipe": {
-    "cuisine": "Nigerian",
-    "image_url": "https://cheflolaskitchen.com/wp-content/uploads/2025/07/Rice-and-Beef-1.jpg",
-    "published_at": "Thu, 03 Sep 2026 20:22:51 +0000",
-    "recipe_url": "https://cheflolaskitchen.com/rice-and-beef/",
-    "site_name": "Chef Lola's Kitchen",
-    "site_url": "https://cheflolaskitchen.com",
-    "title": "Quick And Easy One-Pot Rice and Beef",
-    "url": "https://cheflolaskitchen.com/rice-and-beef/"
+    "cuisine": "South African",
+    "image_url": "https://drizzleanddip.com/wp-content/uploads/2026/07/Chicken-pie-vol-au-vent-main.jpg",
+    "published_at": "Wed, 08 Jul 2026 10:27:30 +0000",
+    "recipe_url": "https://drizzleanddip.com/2026/07/08/the-best-chicken-leek-and-mushroom-vol-au-vent-pie-recipe/",
+    "site_name": "Drizzle and Dip",
+    "site_url": "https://drizzleanddip.com",
+    "title": "The Best Chicken, Leek and Mushroom Vol-au-Vent Pie Recipe",
+    "url": "https://drizzleanddip.com/2026/07/08/the-best-chicken-leek-and-mushroom-vol-au-vent-pie-recipe/"
   },
   "fallbacks": [
     "site:Drizzle and Dip→Pardon Your French"
