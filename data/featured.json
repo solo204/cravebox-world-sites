@@ -1,108 +1,108 @@
 {
-  "updated_at": "2026-10-22T10:05:12Z",
+  "updated_at": "2026-10-22T11:05:18Z",
   "slot_hours": 1,
-  "slot_idx": 14,
-  "week": 15,
+  "slot_idx": 15,
+  "week": 16,
   "featured_sites": [
     {
-      "name": "Hey Grill Hey",
-      "url": "https://heygrillhey.com",
-      "cuisine": "BBQ",
-      "tagline": "550+ grilling and smoking recipes by Susie Bulloch.",
-      "image_url": "https://heygrillhey.com/wp-content/uploads/2026/08/Cornbread-Peach-Cobbler-Square.jpg",
-      "rss_url": "https://heygrillhey.com/feed/"
+      "name": "Immaculate Bites",
+      "url": "https://www.africanbites.com",
+      "cuisine": "African",
+      "tagline": "Bold African flavors and soul food recipes.",
+      "image_url": "https://www.africanbites.com/wp-content/uploads/2023/04/IMG_9277.jpg",
+      "rss_url": "https://www.africanbites.com/feed/"
+    },
+    {
+      "name": "My Korean Kitchen",
+      "url": "https://mykoreankitchen.com",
+      "cuisine": "Korean",
+      "tagline": "Step-by-step authentic Korean recipes for everyone.",
+      "image_url": "https://mykoreankitchen.com/wp-content/uploads/2020/02/My-Korean-Kitchen-Twitter-1024x512-1.png",
+      "rss_url": "https://mykoreankitchen.com/feed/"
     },
     {
       "name": "Damn Delicious",
       "url": "https://damndelicious.net",
       "cuisine": "American",
       "tagline": "Quick and easy recipes for every occasion.",
-      "image_url": "https://damndelicious.net/wp-content/uploads/2026/08/260712_DD_cheeseburger-sliders_525-768x1151.jpg",
+      "image_url": "https://damndelicious.net/wp-content/uploads/2026/09/Cheeseburger-Sliders-scaled.jpg",
       "rss_url": "https://damndelicious.net/feed/"
     },
     {
-      "name": "Natasha's Kitchen",
-      "url": "https://natashaskitchen.com",
-      "cuisine": "American",
-      "tagline": "Trusted recipes for everyday cooking.",
-      "image_url": "https://natashaskitchen.com/wp-content/uploads/2026/09/Pumpkin-Cinnamon-Rolls-7.jpg",
-      "rss_url": "https://natashaskitchen.com/feed/"
-    },
-    {
-      "name": "Feasting at Home",
-      "url": "https://www.feastingathome.com",
-      "cuisine": "Global",
-      "tagline": "Fresh seasonal recipes with global inspiration.",
-      "image_url": "https://www.feastingathome.com/wp-content/uploads/2026/09/Eggplant-Tikka-Masala-13-768x1152.jpg",
-      "rss_url": "https://www.feastingathome.com/feed/"
+      "name": "Feel Good Foodie",
+      "url": "https://feelgoodfoodie.net",
+      "cuisine": "Lebanese",
+      "tagline": "Fresh wholesome recipes with Middle Eastern flair.",
+      "image_url": "https://feelgoodfoodie.net/wp-content/uploads/2026/09/Peanut-Butter-Pancakes-08.jpg",
+      "rss_url": "https://feelgoodfoodie.net/recipe/feed/"
     }
   ],
   "featured_recipes": {
     "Mon": {
-      "cuisine": "BBQ",
-      "image_url": "https://heygrillhey.com/wp-content/uploads/2026/08/Cornbread-Peach-Cobbler-Square.jpg",
-      "recipe_url": "https://heygrillhey.com/cornbread-peach-cobbler/",
-      "site_name": "Hey Grill Hey",
-      "title": "Cornbread Peach Cobbler",
-      "url": "https://heygrillhey.com/cornbread-peach-cobbler/"
+      "cuisine": "African",
+      "image_url": "https://www.africanbites.com/wp-content/uploads/2026/10/Smoked-Brisket-Chili-1.jpg",
+      "recipe_url": "https://www.africanbites.com/smoked-brisket-chili/",
+      "site_name": "Immaculate Bites",
+      "title": "Smoked Brisket Chili",
+      "url": "https://www.africanbites.com/smoked-brisket-chili/"
     },
     "Tue": {
-      "title": "Cheeseburger Sliders",
-      "url": "https://damndelicious.net/2026/09/18/cheeseburger-sliders/",
-      "recipe_url": "https://damndelicious.net/2026/09/18/cheeseburger-sliders/",
-      "image_url": "https://damndelicious.net/wp-content/uploads/2026/08/260712_DD_cheeseburger-sliders_525-768x1151.jpg",
-      "site_name": "Damn Delicious",
-      "site_url": "https://damndelicious.net",
-      "cuisine": "American",
-      "published_at": "Sat, 19 Sep 2026 04:00:00 +0000"
+      "cuisine": "Korean",
+      "image_url": "https://mykoreankitchen.com/wp-content/uploads/2026/08/1.-dakjuk-korean-chicken-porridge.jpg",
+      "recipe_url": "https://mykoreankitchen.com/dakjuk-korean-chicken-porridge/",
+      "site_name": "My Korean Kitchen",
+      "title": "Dakjuk (Korean Chicken Porridge)",
+      "url": "https://mykoreankitchen.com/dakjuk-korean-chicken-porridge/"
     },
     "Wed": {
-      "cuisine": "American",
-      "image_url": "https://natashaskitchen.com/wp-content/uploads/2026/06/Salmon-Bowls-5.jpg",
-      "recipe_url": "https://natashaskitchen.com/salmon-bowls/?adt_ei={{ subscriber.email_address }}",
-      "site_name": "Natasha's Kitchen",
-      "title": "Crispy Salmon Bowls with the Best Sauce",
-      "url": "https://natashaskitchen.com/salmon-bowls/?adt_ei={{ subscriber.email_address }}"
+      "cuisine": "African",
+      "image_url": "https://www.africanbites.com/wp-content/uploads/2023/04/IMG_9277.jpg",
+      "recipe_url": "https://www.africanbites.com/sweet-potato-cornbread/",
+      "site_name": "Immaculate Bites",
+      "title": "Sweet Potato Cornbread",
+      "url": "https://www.africanbites.com/sweet-potato-cornbread/"
     },
     "Thu": {
-      "cuisine": "Global",
-      "image_url": "https://www.feastingathome.com/wp-content/uploads/2026/09/Tofu-Shawarma-8-768x1152.jpg",
-      "recipe_url": "https://www.feastingathome.com/tofu-shawarma-bowls/",
-      "site_name": "Feasting at Home",
-      "title": "Tofu Shawarma Bowls",
-      "url": "https://www.feastingathome.com/tofu-shawarma-bowls/"
+      "title": "Peanut Butter Pancakes",
+      "url": "https://feelgoodfoodie.net/recipe/peanut-butter-pancakes/",
+      "recipe_url": "https://feelgoodfoodie.net/recipe/peanut-butter-pancakes/",
+      "image_url": "https://feelgoodfoodie.net/wp-content/uploads/2026/09/Peanut-Butter-Pancakes-08.jpg",
+      "site_name": "Feel Good Foodie",
+      "site_url": "https://feelgoodfoodie.net",
+      "cuisine": "Lebanese",
+      "published_at": "Fri, 09 Oct 2026 13:00:00 +0000"
     },
     "Fri": {
-      "cuisine": "American",
-      "image_url": "https://damndelicious.net/wp-content/uploads/2026/06/260401_DD_air-fryer-chicken_704-768x1152.jpg",
-      "recipe_url": "https://damndelicious.net/2026/09/04/air-fryer-chicken/",
-      "site_name": "Damn Delicious",
-      "title": "Air Fryer Chicken",
-      "url": "https://damndelicious.net/2026/09/04/air-fryer-chicken/"
+      "cuisine": "Lebanese",
+      "image_url": "https://feelgoodfoodie.net/wp-content/uploads/2026/09/Applesauce-Cake-8.jpg",
+      "recipe_url": "https://feelgoodfoodie.net/recipe/applesauce-cake/",
+      "site_name": "Feel Good Foodie",
+      "title": "Applesauce Cake",
+      "url": "https://feelgoodfoodie.net/recipe/applesauce-cake/"
     },
     "Sat": {
-      "cuisine": "BBQ",
-      "image_url": "https://heygrillhey.com/wp-content/uploads/2026/05/Cornbread-Chili-Casserole-Square.jpg",
-      "recipe_url": "https://heygrillhey.com/smoked-cornbread-chili-casserole/",
-      "site_name": "Hey Grill Hey",
-      "title": "Smoked Cornbread Chili Casserole",
-      "url": "https://heygrillhey.com/smoked-cornbread-chili-casserole/"
+      "cuisine": "Lebanese",
+      "image_url": "https://feelgoodfoodie.net/wp-content/uploads/2026/09/Persian-Love-Cake-08.jpg",
+      "recipe_url": "https://feelgoodfoodie.net/recipe/persian-love-cake/",
+      "site_name": "Feel Good Foodie",
+      "title": "Persian Love Cake",
+      "url": "https://feelgoodfoodie.net/recipe/persian-love-cake/"
     },
     "Sun": {
-      "cuisine": "BBQ",
-      "image_url": "https://heygrillhey.com/wp-content/uploads/2026/05/Grilled-Breakfast-Kabobs-Square.jpg",
-      "recipe_url": "https://heygrillhey.com/grilled-breakfast-kabobs/",
-      "site_name": "Hey Grill Hey",
-      "title": "Grilled Breakfast Kabobs",
-      "url": "https://heygrillhey.com/grilled-breakfast-kabobs/"
+      "cuisine": "American",
+      "image_url": "https://damndelicious.net/wp-content/uploads/2026/03/Chicken-Fajitas-Quesadillas_545-768x1152.jpg",
+      "recipe_url": "https://damndelicious.net/2026/06/12/chicken-fajita-quesadillas/",
+      "site_name": "Damn Delicious",
+      "title": "Chicken Fajita Quesadillas",
+      "url": "https://damndelicious.net/2026/06/12/chicken-fajita-quesadillas/"
     }
   },
   "featured_recipe": {
-    "cuisine": "BBQ",
-    "image_url": "https://heygrillhey.com/wp-content/uploads/2026/08/Cornbread-Peach-Cobbler-Square.jpg",
-    "recipe_url": "https://heygrillhey.com/cornbread-peach-cobbler/",
-    "site_name": "Hey Grill Hey",
-    "title": "Cornbread Peach Cobbler",
-    "url": "https://heygrillhey.com/cornbread-peach-cobbler/"
+    "cuisine": "African",
+    "image_url": "https://www.africanbites.com/wp-content/uploads/2026/10/Smoked-Brisket-Chili-1.jpg",
+    "recipe_url": "https://www.africanbites.com/smoked-brisket-chili/",
+    "site_name": "Immaculate Bites",
+    "title": "Smoked Brisket Chili",
+    "url": "https://www.africanbites.com/smoked-brisket-chili/"
   }
 }
