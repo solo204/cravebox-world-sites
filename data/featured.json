@@ -1,126 +1,108 @@
 {
-  "updated_at": "2026-10-22T10:00:41Z",
+  "updated_at": "2026-10-22T10:05:12Z",
   "slot_hours": 1,
-  "slot_idx": 13,
-  "week": 14,
+  "slot_idx": 14,
+  "week": 15,
   "featured_sites": [
     {
-      "name": "Chef Lola's Kitchen",
-      "url": "https://cheflolaskitchen.com",
-      "cuisine": "Nigerian",
-      "tagline": "Authentic Nigerian recipes for everyday cooking.",
-      "image_url": "https://cheflolaskitchen.com/wp-content/uploads/2025/07/Classic-Stuffing.jpg",
-      "rss_url": "https://cheflolaskitchen.com/feed/"
+      "name": "Hey Grill Hey",
+      "url": "https://heygrillhey.com",
+      "cuisine": "BBQ",
+      "tagline": "550+ grilling and smoking recipes by Susie Bulloch.",
+      "image_url": "https://heygrillhey.com/wp-content/uploads/2026/08/Cornbread-Peach-Cobbler-Square.jpg",
+      "rss_url": "https://heygrillhey.com/feed/"
     },
     {
-      "name": "Afrolems",
-      "url": "https://afrolems.com",
-      "cuisine": "Nigerian",
-      "tagline": "Creative Nigerian recipes for international palates.",
-      "image_url": "https://i0.wp.com/www.afrolems.com/wp-content/uploads/2015/07/sadza-peanut-soup.jpg?resize=320%2C107&#038;ssl=1",
-      "rss_url": "https://afrolems.com/feed/"
+      "name": "Damn Delicious",
+      "url": "https://damndelicious.net",
+      "cuisine": "American",
+      "tagline": "Quick and easy recipes for every occasion.",
+      "image_url": "https://damndelicious.net/wp-content/uploads/2026/08/260712_DD_cheeseburger-sliders_525-768x1151.jpg",
+      "rss_url": "https://damndelicious.net/feed/"
     },
     {
-      "name": "Kaluhi's Kitchen",
-      "url": "https://kaluhiskitchen.com",
-      "cuisine": "Kenyan",
-      "tagline": "Stunning Kenyan recipes with award-winning photography.",
-      "image_url": "https://www.kaluhiskitchen.com/wp-content/uploads/2026/07/FRIED-CHICKEN_UNBREADED-FRIED-CHICKEN_EASY-FRIED-CHICKEN_HOMEMADE-FRIED-CHICKEN_FRIED-CHICKEN-KENYA_KALUHISKITCHEN-1-1.jpg",
-      "rss_url": "https://kaluhiskitchen.com/feed/"
+      "name": "Natasha's Kitchen",
+      "url": "https://natashaskitchen.com",
+      "cuisine": "American",
+      "tagline": "Trusted recipes for everyday cooking.",
+      "image_url": "https://natashaskitchen.com/wp-content/uploads/2026/09/Pumpkin-Cinnamon-Rolls-7.jpg",
+      "rss_url": "https://natashaskitchen.com/feed/"
     },
     {
-      "name": "Pardon Your French",
-      "url": "https://www.pardonyourfrench.com",
-      "cuisine": "French",
-      "tagline": "Classic French home cooking, made approachable.",
-      "image_url": "https://i0.wp.com/www.pardonyourfrench.com/wp-content/uploads/2026/09/traditional-tartiflette-recipe-11.jpg?fit=801%2C1200&ssl=1",
-      "rss_url": "https://www.pardonyourfrench.com/feed/",
-      "sites": []
+      "name": "Feasting at Home",
+      "url": "https://www.feastingathome.com",
+      "cuisine": "Global",
+      "tagline": "Fresh seasonal recipes with global inspiration.",
+      "image_url": "https://www.feastingathome.com/wp-content/uploads/2026/09/Eggplant-Tikka-Masala-13-768x1152.jpg",
+      "rss_url": "https://www.feastingathome.com/feed/"
     }
   ],
   "featured_recipes": {
     "Mon": {
-      "cuisine": "Nigerian",
-      "image_url": "https://cheflolaskitchen.com/wp-content/uploads/2025/07/Rice-and-Beef-1.jpg",
-      "published_at": "Thu, 03 Sep 2026 20:22:51 +0000",
-      "recipe_url": "https://cheflolaskitchen.com/rice-and-beef/",
-      "site_name": "Chef Lola's Kitchen",
-      "site_url": "https://cheflolaskitchen.com",
-      "title": "Quick And Easy One-Pot Rice and Beef",
-      "url": "https://cheflolaskitchen.com/rice-and-beef/"
+      "cuisine": "BBQ",
+      "image_url": "https://heygrillhey.com/wp-content/uploads/2026/08/Cornbread-Peach-Cobbler-Square.jpg",
+      "recipe_url": "https://heygrillhey.com/cornbread-peach-cobbler/",
+      "site_name": "Hey Grill Hey",
+      "title": "Cornbread Peach Cobbler",
+      "url": "https://heygrillhey.com/cornbread-peach-cobbler/"
     },
     "Tue": {
-      "title": "Unbreaded Spicy Fried Chicken",
-      "url": "https://www.kaluhiskitchen.com/unbreaded-spicy-fried-chicken/",
-      "recipe_url": "https://www.kaluhiskitchen.com/unbreaded-spicy-fried-chicken/",
-      "image_url": "https://www.kaluhiskitchen.com/wp-content/uploads/2026/07/FRIED-CHICKEN_UNBREADED-FRIED-CHICKEN_EASY-FRIED-CHICKEN_HOMEMADE-FRIED-CHICKEN_FRIED-CHICKEN-KENYA_KALUHISKITCHEN-1-1.jpg",
-      "site_name": "Kaluhi's Kitchen",
-      "site_url": "https://kaluhiskitchen.com",
-      "cuisine": "Kenyan",
-      "published_at": "Wed, 15 Jul 2026 08:49:00 +0000"
+      "title": "Cheeseburger Sliders",
+      "url": "https://damndelicious.net/2026/09/18/cheeseburger-sliders/",
+      "recipe_url": "https://damndelicious.net/2026/09/18/cheeseburger-sliders/",
+      "image_url": "https://damndelicious.net/wp-content/uploads/2026/08/260712_DD_cheeseburger-sliders_525-768x1151.jpg",
+      "site_name": "Damn Delicious",
+      "site_url": "https://damndelicious.net",
+      "cuisine": "American",
+      "published_at": "Sat, 19 Sep 2026 04:00:00 +0000"
     },
     "Wed": {
-      "title": "Brie Burger With Onions Caramelised in Red Wine",
-      "url": "https://drizzleanddip.com/2026/10/01/brie-burger-with-onions-caramelised-in-red-wine/",
-      "recipe_url": "https://drizzleanddip.com/2026/10/01/brie-burger-with-onions-caramelised-in-red-wine/",
-      "image_url": "https://drizzleanddip.com/wp-content/uploads/2026/09/Brie-burger-with-onions-cramelised-in-red-wine-1.jpg",
-      "site_name": "Drizzle and Dip",
-      "site_url": "https://drizzleanddip.com",
-      "cuisine": "South African",
-      "published_at": "Thu, 01 Oct 2026 13:03:48 +0000"
+      "cuisine": "American",
+      "image_url": "https://natashaskitchen.com/wp-content/uploads/2026/06/Salmon-Bowls-5.jpg",
+      "recipe_url": "https://natashaskitchen.com/salmon-bowls/?adt_ei={{ subscriber.email_address }}",
+      "site_name": "Natasha's Kitchen",
+      "title": "Crispy Salmon Bowls with the Best Sauce",
+      "url": "https://natashaskitchen.com/salmon-bowls/?adt_ei={{ subscriber.email_address }}"
     },
     "Thu": {
-      "cuisine": "Nigerian",
-      "image_url": "https://cheflolaskitchen.com/wp-content/uploads/2015/06/Fried-Rice-20.jpg",
-      "published_at": "Wed, 26 Aug 2026 23:31:47 +0000",
-      "recipe_url": "https://cheflolaskitchen.com/nigerian-fried-rice-recipe/",
-      "site_name": "Chef Lola's Kitchen",
-      "site_url": "https://cheflolaskitchen.com",
-      "title": "Nigerian Fried Rice Recipe",
-      "url": "https://cheflolaskitchen.com/nigerian-fried-rice-recipe/"
+      "cuisine": "Global",
+      "image_url": "https://www.feastingathome.com/wp-content/uploads/2026/09/Tofu-Shawarma-8-768x1152.jpg",
+      "recipe_url": "https://www.feastingathome.com/tofu-shawarma-bowls/",
+      "site_name": "Feasting at Home",
+      "title": "Tofu Shawarma Bowls",
+      "url": "https://www.feastingathome.com/tofu-shawarma-bowls/"
     },
     "Fri": {
-      "title": "Garri Cookies",
-      "url": "https://www.afrolems.com/2025/07/02/garri-cookies/",
-      "recipe_url": "https://www.afrolems.com/2025/07/02/garri-cookies/",
-      "image_url": "https://www.afrolems.com/wp-content/uploads/2025/07/IMG_0775-2-scaled.jpg",
-      "site_name": "Afrolems",
-      "site_url": "https://afrolems.com",
-      "cuisine": "Nigerian",
-      "published_at": "Wed, 02 Jul 2025 14:45:39 +0000"
+      "cuisine": "American",
+      "image_url": "https://damndelicious.net/wp-content/uploads/2026/06/260401_DD_air-fryer-chicken_704-768x1152.jpg",
+      "recipe_url": "https://damndelicious.net/2026/09/04/air-fryer-chicken/",
+      "site_name": "Damn Delicious",
+      "title": "Air Fryer Chicken",
+      "url": "https://damndelicious.net/2026/09/04/air-fryer-chicken/"
     },
     "Sat": {
-      "cuisine": "Kenyan",
-      "image_url": "https://www.kaluhiskitchen.com/wp-content/uploads/2025/08/carrot-muffins_easy-carrot-muffins_kaluhi-carrot-muffins_kaluhiskitchen-recipes.jpg",
-      "published_at": "Tue, 12 Aug 2025 09:14:35 +0000",
-      "recipe_url": "https://www.kaluhiskitchen.com/moist-homemade-carrot-muffins/",
-      "site_name": "Kaluhi's Kitchen",
-      "site_url": "https://kaluhiskitchen.com",
-      "title": "Moist, Homemade Carrot Muffins",
-      "url": "https://www.kaluhiskitchen.com/moist-homemade-carrot-muffins/"
+      "cuisine": "BBQ",
+      "image_url": "https://heygrillhey.com/wp-content/uploads/2026/05/Cornbread-Chili-Casserole-Square.jpg",
+      "recipe_url": "https://heygrillhey.com/smoked-cornbread-chili-casserole/",
+      "site_name": "Hey Grill Hey",
+      "title": "Smoked Cornbread Chili Casserole",
+      "url": "https://heygrillhey.com/smoked-cornbread-chili-casserole/"
     },
     "Sun": {
-      "cuisine": "South African",
-      "image_url": "https://drizzleanddip.com/wp-content/uploads/2026/07/Chicken-pie-vol-au-vent-main.jpg",
-      "published_at": "Wed, 08 Jul 2026 10:27:30 +0000",
-      "recipe_url": "https://drizzleanddip.com/2026/07/08/the-best-chicken-leek-and-mushroom-vol-au-vent-pie-recipe/",
-      "site_name": "Drizzle and Dip",
-      "site_url": "https://drizzleanddip.com",
-      "title": "The Best Chicken, Leek and Mushroom Vol-au-Vent Pie Recipe",
-      "url": "https://drizzleanddip.com/2026/07/08/the-best-chicken-leek-and-mushroom-vol-au-vent-pie-recipe/"
+      "cuisine": "BBQ",
+      "image_url": "https://heygrillhey.com/wp-content/uploads/2026/05/Grilled-Breakfast-Kabobs-Square.jpg",
+      "recipe_url": "https://heygrillhey.com/grilled-breakfast-kabobs/",
+      "site_name": "Hey Grill Hey",
+      "title": "Grilled Breakfast Kabobs",
+      "url": "https://heygrillhey.com/grilled-breakfast-kabobs/"
     }
   },
   "featured_recipe": {
-    "cuisine": "South African",
-    "image_url": "https://drizzleanddip.com/wp-content/uploads/2026/07/Chicken-pie-vol-au-vent-main.jpg",
-    "published_at": "Wed, 08 Jul 2026 10:27:30 +0000",
-    "recipe_url": "https://drizzleanddip.com/2026/07/08/the-best-chicken-leek-and-mushroom-vol-au-vent-pie-recipe/",
-    "site_name": "Drizzle and Dip",
-    "site_url": "https://drizzleanddip.com",
-    "title": "The Best Chicken, Leek and Mushroom Vol-au-Vent Pie Recipe",
-    "url": "https://drizzleanddip.com/2026/07/08/the-best-chicken-leek-and-mushroom-vol-au-vent-pie-recipe/"
-  },
-  "fallbacks": [
-    "site:Drizzle and Dip→Pardon Your French"
-  ]
+    "cuisine": "BBQ",
+    "image_url": "https://heygrillhey.com/wp-content/uploads/2026/08/Cornbread-Peach-Cobbler-Square.jpg",
+    "recipe_url": "https://heygrillhey.com/cornbread-peach-cobbler/",
+    "site_name": "Hey Grill Hey",
+    "title": "Cornbread Peach Cobbler",
+    "url": "https://heygrillhey.com/cornbread-peach-cobbler/"
+  }
 }
