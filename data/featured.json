@@ -1,122 +1,126 @@
 {
-  "updated_at": "2026-10-22T15:03:20Z",
+  "updated_at": "2026-10-22T15:05:20Z",
   "slot_hours": 1,
-  "slot_idx": 18,
-  "week": 19,
+  "slot_idx": 19,
+  "week": 20,
   "featured_sites": [
     {
-      "name": "Just One Cookbook",
-      "url": "https://justonecookbook.com",
-      "cuisine": "Japanese",
-      "tagline": "The most popular English-language Japanese recipe site.",
-      "image_url": "https://www.justonecookbook.com/wp-content/uploads/2027/09/Yuzu-Kosho-Edamame-6535-I-1-1200x800.jpg",
-      "rss_url": "https://justonecookbook.com/feed/",
-      "sites": []
-    },
-    {
-      "name": "RecipeTin Japan",
-      "url": "https://japan.recipetineats.com",
-      "cuisine": "Japanese",
-      "tagline": "Authentic Japanese home cooking from a native cook.",
-      "image_url": "https://japan.recipetineats.com/wp-content/uploads/2026/09/Spicy_Miso_Marinated_Chicken_1991a.jpg",
-      "rss_url": "https://japan.recipetineats.com/feed/",
-      "sites": []
-    },
-    {
-      "name": "Korean Bapsang",
-      "url": "https://koreanbapsang.com",
-      "cuisine": "Korean",
-      "tagline": "Traditional Korean home cooking since 2009.",
-      "image_url": "https://www.koreanbapsang.com/wp-content/uploads/2025/03/DSC0092-e1741919814351.jpg",
-      "rss_url": "https://koreanbapsang.com/feed/",
-      "sites": []
-    },
-    {
-      "name": "The Polonist",
-      "url": "https://polonist.com",
+      "name": "Polish Housewife",
+      "url": "https://polishhousewife.com",
       "cuisine": "Polish",
-      "tagline": "Beautiful, authentic Polish recipes with stunning visuals.",
-      "image_url": "https://www.polonist.com/wp-content/uploads/2020/12/polish-xmas-recipes-fb.jpg",
-      "rss_url": "https://polonist.com/feed/",
+      "tagline": "Classic Polish recipes every week from an American Polonophile.",
+      "image_url": "https://polishhousewife.com/wp-content/uploads/2026/06/86D9F6FE-76AC-432A-ACD1-DC2B6A289A6D-1024x768.jpg",
+      "rss_url": "https://polishhousewife.com/feed/",
+      "sites": []
+    },
+    {
+      "name": "Cook Like Czechs",
+      "url": "https://cooklikeczechs.com",
+      "cuisine": "Czech",
+      "tagline": "Czech, Slovak, and Central European recipes done right.",
+      "image_url": "https://www.cooklikeczechs.com/wp-content/uploads/2026/08/czech-plum-cake.jpg",
+      "rss_url": "https://cooklikeczechs.com/feed/",
+      "sites": []
+    },
+    {
+      "name": "Tatyana's Everyday Food",
+      "url": "https://tatyanaseverydayfood.com",
+      "cuisine": "Ukrainian",
+      "tagline": "Ukrainian and Eastern European classics from a TODAY Show chef.",
+      "image_url": "https://tatyanaseverydayfood.com/wp-content/uploads/2026/04/Lemon-Raspberry-Trifle-Recipe-1.jpg",
+      "rss_url": "https://tatyanaseverydayfood.com/feed/",
+      "sites": []
+    },
+    {
+      "name": "Vikalinka",
+      "url": "https://vikalinka.com",
+      "cuisine": "Eastern European",
+      "tagline": "Russian-inspired cooking featured in NYT and Forbes.",
+      "image_url": "https://vikalinka.com/wp-content/uploads/2026/10/Chicken-Breast-with-Sauces-Recipe-Roundup-1-576x1024.jpg",
+      "rss_url": "https://vikalinka.com/feed/",
       "sites": []
     }
   ],
   "featured_recipes": {
     "Mon": {
-      "cuisine": "Japanese",
-      "image_url": "https://www.justonecookbook.com/wp-content/uploads/2021/03/Stir-Fry-Miso-Eggplant-5169.jpg",
-      "published_at": "Thu, 10 Sep 2026 07:00:00 +0000",
-      "recipe_url": "https://www.justonecookbook.com/stir-fry-miso-eggplant/",
-      "site_name": "Just One Cookbook",
-      "site_url": "https://justonecookbook.com",
-      "title": "Miso Eggplant Stir-Fryナスの味噌炒め",
-      "url": "https://www.justonecookbook.com/stir-fry-miso-eggplant/"
+      "cuisine": "Polish",
+      "image_url": "https://polishhousewife.com/wp-content/uploads/2026/05/6796F09E-9741-407F-940F-EA28F53D025C_1_201_a-1024x768.jpg",
+      "published_at": "Thu, 14 May 2026 17:13:23 +0000",
+      "recipe_url": "https://polishhousewife.com/polish-cream-horns-rurki-z-kremem/?utm_source=rss&utm_medium=rss&utm_campaign=polish-cream-horns-rurki-z-kremem",
+      "site_name": "Polish Housewife",
+      "site_url": "https://polishhousewife.com",
+      "title": "How to Make Traditional Polish Cream Horns (Rurki z Kremem)",
+      "url": "https://polishhousewife.com/polish-cream-horns-rurki-z-kremem/?utm_source=rss&utm_medium=rss&utm_campaign=polish-cream-horns-rurki-z-kremem"
     },
     "Tue": {
-      "title": "Marinated Sautéed Mushrooms and Zucchini",
-      "url": "https://japan.recipetineats.com/marinated-sauteed-mushrooms-and-zucchini/",
-      "recipe_url": "https://japan.recipetineats.com/marinated-sauteed-mushrooms-and-zucchini/",
-      "image_url": "https://japan.recipetineats.com/wp-content/uploads/2026/10/Marinated_Sauteed_Mushrooms_and_Zucchini_2019.jpg",
-      "site_name": "RecipeTin Japan",
-      "site_url": "https://japan.recipetineats.com",
-      "cuisine": "Japanese",
-      "published_at": "Wed, 14 Oct 2026 02:00:43 +0000"
+      "title": "Czech Plum Cake",
+      "url": "https://www.cooklikeczechs.com/czech-plum-cake/",
+      "recipe_url": "https://www.cooklikeczechs.com/czech-plum-cake/",
+      "image_url": "https://www.cooklikeczechs.com/wp-content/uploads/2026/08/czech-plum-cake.jpg",
+      "site_name": "Cook Like Czechs",
+      "site_url": "https://cooklikeczechs.com",
+      "cuisine": "Czech",
+      "published_at": "Fri, 14 Aug 2026 07:27:59 +0000"
     },
     "Wed": {
-      "cuisine": "Korean",
-      "image_url": "https://www.koreanbapsang.com/wp-content/uploads/2013/08/DSC8866-5-e1707539703959.jpg",
-      "published_at": "Sat, 10 Feb 2024 18:30:00 +0000",
-      "recipe_url": "https://www.koreanbapsang.com/la-galbi-gui-grilled-la-style-short-ribs/",
-      "site_name": "Korean Bapsang",
-      "site_url": "https://koreanbapsang.com",
-      "title": "LA Galbi (Korean BBQ Short Ribs)",
-      "url": "https://www.koreanbapsang.com/la-galbi-gui-grilled-la-style-short-ribs/"
+      "title": "Easy, No-Bake Lemon Raspberry Trifle Recipe (video)",
+      "url": "https://tatyanaseverydayfood.com/easy-lemon-raspberry-trifle/",
+      "recipe_url": "https://tatyanaseverydayfood.com/easy-lemon-raspberry-trifle/",
+      "image_url": "https://tatyanaseverydayfood.com/wp-content/uploads/2026/04/Lemon-Raspberry-Trifle-Recipe-1.jpg",
+      "site_name": "Tatyana's Everyday Food",
+      "site_url": "https://tatyanaseverydayfood.com",
+      "cuisine": "Ukrainian",
+      "published_at": "Fri, 03 Apr 2026 15:00:00 +0000"
     },
     "Thu": {
-      "cuisine": "Japanese",
-      "image_url": "https://japan.recipetineats.com/wp-content/uploads/2026/09/Japanese_Butter_Rolls_1875.jpg",
-      "recipe_url": "https://japan.recipetineats.com/japanese-butter-rolls/",
-      "site_name": "RecipeTin Japan",
-      "title": "Japanese Butter Rolls",
-      "url": "https://japan.recipetineats.com/japanese-butter-rolls/"
+      "cuisine": "Eastern European",
+      "image_url": "https://vikalinka.com/wp-content/uploads/2015/07/MG_5922.jpg",
+      "published_at": "Wed, 07 Oct 2026 10:00:00 +0000",
+      "recipe_url": "https://vikalinka.com/how-to-throw-a-wine-and-tapas-party/",
+      "site_name": "Vikalinka",
+      "site_url": "https://vikalinka.com",
+      "title": "Chorizo in Red Wine",
+      "url": "https://vikalinka.com/how-to-throw-a-wine-and-tapas-party/"
     },
     "Fri": {
-      "cuisine": "Korean",
-      "image_url": "https://www.koreanbapsang.com/wp-content/uploads/2023/07/DSC6976-e1688600997977.jpg",
-      "recipe_url": "https://www.koreanbapsang.com/gochu-doenjang-muchim/",
-      "site_name": "Korean Bapsang",
-      "title": "Gochu Doenjang Muchim (Green Chili Peppers Seasoned with Doenjang)",
-      "url": "https://www.koreanbapsang.com/gochu-doenjang-muchim/"
+      "cuisine": "Eastern European",
+      "image_url": "https://vikalinka.com/wp-content/uploads/2026/08/Baked-Halloumi-with-Hot-Honey-3.jpg",
+      "published_at": "Fri, 02 Oct 2026 10:00:00 +0000",
+      "recipe_url": "https://vikalinka.com/baked-halloumi-hot-honey/",
+      "site_name": "Vikalinka",
+      "site_url": "https://vikalinka.com",
+      "title": "Baked Halloumi with Hot Honey",
+      "url": "https://vikalinka.com/baked-halloumi-hot-honey/"
     },
     "Sat": {
-      "title": "Spicy Miso Marinated Chicken",
-      "url": "https://japan.recipetineats.com/spicy-miso-marinated-chicken/",
-      "recipe_url": "https://japan.recipetineats.com/spicy-miso-marinated-chicken/",
-      "image_url": "https://japan.recipetineats.com/wp-content/uploads/2026/09/Spicy_Miso_Marinated_Chicken_1991.jpg",
-      "site_name": "RecipeTin Japan",
-      "site_url": "https://japan.recipetineats.com",
-      "cuisine": "Japanese",
-      "published_at": "Wed, 23 Sep 2026 04:30:48 +0000"
+      "cuisine": "Czech",
+      "image_url": "https://www.cooklikeczechs.com/wp-content/uploads/2026/04/lomnicke-krouzky-czech-recipe.jpg",
+      "published_at": "Fri, 17 Apr 2026 14:39:39 +0000",
+      "recipe_url": "https://www.cooklikeczechs.com/lomnice-rings-czech-lomnicke-krouzky/",
+      "site_name": "Cook Like Czechs",
+      "site_url": "https://cooklikeczechs.com",
+      "title": "Lomnice Rings (Czech Lomnické kroužky)",
+      "url": "https://www.cooklikeczechs.com/lomnice-rings-czech-lomnicke-krouzky/"
     },
     "Sun": {
-      "title": "Kkakdugi (Cubed Radish Kimchi)",
-      "url": "https://www.koreanbapsang.com/kkakdugi-cubed-radish-kimchi/",
-      "recipe_url": "https://www.koreanbapsang.com/kkakdugi-cubed-radish-kimchi/",
-      "image_url": "https://www.koreanbapsang.com/wp-content/uploads/2018/06/DSC9458-6.jpg",
-      "site_name": "Korean Bapsang",
-      "site_url": "https://koreanbapsang.com",
-      "cuisine": "Korean",
-      "published_at": "Sat, 08 Feb 2025 08:40:00 +0000"
+      "cuisine": "Ukrainian",
+      "image_url": "https://tatyanaseverydayfood.com/wp-content/uploads/2026/03/Smoked-Ham-Cheese-Croissant-Casserole-1.jpg",
+      "published_at": "Fri, 20 Mar 2026 15:00:00 +0000",
+      "recipe_url": "https://tatyanaseverydayfood.com/ham-cheese-croissant-casserole/",
+      "site_name": "Tatyana's Everyday Food",
+      "site_url": "https://tatyanaseverydayfood.com",
+      "title": "Smoky Ham & Cheese Croissant Casserole (video)",
+      "url": "https://tatyanaseverydayfood.com/ham-cheese-croissant-casserole/"
     }
   },
   "featured_recipe": {
-    "title": "Kkakdugi (Cubed Radish Kimchi)",
-    "url": "https://www.koreanbapsang.com/kkakdugi-cubed-radish-kimchi/",
-    "recipe_url": "https://www.koreanbapsang.com/kkakdugi-cubed-radish-kimchi/",
-    "image_url": "https://www.koreanbapsang.com/wp-content/uploads/2018/06/DSC9458-6.jpg",
-    "site_name": "Korean Bapsang",
-    "site_url": "https://koreanbapsang.com",
-    "cuisine": "Korean",
-    "published_at": "Sat, 08 Feb 2025 08:40:00 +0000"
+    "cuisine": "Polish",
+    "image_url": "https://polishhousewife.com/wp-content/uploads/2026/05/6796F09E-9741-407F-940F-EA28F53D025C_1_201_a-1024x768.jpg",
+    "published_at": "Thu, 14 May 2026 17:13:23 +0000",
+    "recipe_url": "https://polishhousewife.com/polish-cream-horns-rurki-z-kremem/?utm_source=rss&utm_medium=rss&utm_campaign=polish-cream-horns-rurki-z-kremem",
+    "site_name": "Polish Housewife",
+    "site_url": "https://polishhousewife.com",
+    "title": "How to Make Traditional Polish Cream Horns (Rurki z Kremem)",
+    "url": "https://polishhousewife.com/polish-cream-horns-rurki-z-kremem/?utm_source=rss&utm_medium=rss&utm_campaign=polish-cream-horns-rurki-z-kremem"
   }
 }
