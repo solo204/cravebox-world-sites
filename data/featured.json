@@ -1,114 +1,113 @@
 {
-  "updated_at": "2026-10-22T18:05:12Z",
+  "updated_at": "2026-10-22T19:05:15Z",
   "slot_hours": 1,
-  "slot_idx": 22,
-  "week": 23,
+  "slot_idx": 23,
+  "week": 24,
   "featured_sites": [
     {
-      "name": "The Foreign Fork",
-      "url": "https://foreignfork.com",
-      "cuisine": "Latin American",
-      "tagline": "Argentine, Peruvian, Chilean, and pan-Latin recipes weekly.",
-      "image_url": "https://foreignfork.com/wp-content/uploads/2026/09/Feature-Image-Aji-de-Gallina-17.jpg",
-      "rss_url": "https://foreignfork.com/feed/"
-    },
-    {
-      "name": "Downshiftology",
-      "url": "https://downshiftology.com",
-      "cuisine": "American",
-      "tagline": "Simple, gluten-free recipes for healthy living.",
-      "image_url": "https://www.downshiftology.com/wp-content/uploads/2026/08/Spanish-Flan-main-800x437.jpg",
-      "rss_url": "https://downshiftology.com/recipes/feed/"
-    },
-    {
-      "name": "Umami Days",
-      "url": "https://cooking.umamidays.com",
+      "name": "Manila Spoon",
+      "url": "https://manilaspoon.com",
       "cuisine": "Filipino",
-      "tagline": "Filipino, Korean, and Japanese recipes with naturalistic photography.",
-      "image_url": "https://cooking.umamidays.com/wp-content/uploads/2026/10/shrimp-kimchi-fried-rice.jpg",
-      "rss_url": "https://cooking.umamidays.com/feed/",
+      "tagline": "Filipino classics featured on Food Network and BuzzFeed.",
+      "image_url": "https://www.manilaspoon.com/wp-content/uploads/2024/10/No-Bake-Raspberry-Cheesecake-1.jpg",
+      "rss_url": "https://manilaspoon.com/feed/"
+    },
+    {
+      "name": "Dominican Cooking",
+      "url": "https://dominicancooking.com",
+      "cuisine": "Dominican",
+      "tagline": "The oldest and largest Dominican recipe website in English.",
+      "image_url": "https://www.dominicancooking.com/wp-content/uploads/air-fryer-mofongo-GLZ4434.jpg",
+      "rss_url": "https://dominicancooking.com/feed/",
       "sites": []
     },
     {
-      "name": "My Colombian Recipes",
-      "url": "https://mycolombianrecipes.com",
-      "cuisine": "Colombian",
-      "tagline": "The largest Colombian recipe collection in English.",
-      "image_url": "https://www.mycolombianrecipes.com/wp-content/uploads/2014/04/Ensalada-de-Aguacate.jpg",
-      "rss_url": "https://mycolombianrecipes.com/feed/",
+      "name": "Delish D'Lites",
+      "url": "https://delishdlites.com",
+      "cuisine": "Puerto Rican",
+      "tagline": "Puerto Rican recipes from scratch by Jannese Torres.",
+      "image_url": "https://www.delishdlites.com/wp-content/uploads/2018/03/DSC_0664labelled-1024x940.jpg",
+      "rss_url": "https://delishdlites.com/feed/",
+      "sites": []
+    },
+    {
+      "name": "The Noshery",
+      "url": "https://thenoshery.com",
+      "cuisine": "Puerto Rican",
+      "tagline": "Puerto Rican recipes from scratch since 2008.",
+      "image_url": "https://thenoshery.com/wp-content/uploads/2015/12/Arroz-con-Gandules-34-643x900.jpg",
+      "rss_url": "https://thenoshery.com/feed/",
       "sites": []
     }
   ],
   "featured_recipes": {
     "Mon": {
-      "cuisine": "Latin American",
-      "image_url": "https://foreignfork.com/wp-content/uploads/2026/08/Feature-Image-Vermicelli-Porridge-3.jpg",
-      "recipe_url": "https://foreignfork.com/bitterballen/",
-      "site_name": "The Foreign Fork",
-      "title": "Dutch Bitterballen Recipe",
-      "url": "https://foreignfork.com/bitterballen/"
+      "cuisine": "Filipino",
+      "image_url": "https://www.manilaspoon.com/wp-content/uploads/2021/03/MillionDollarSpaghetti-9.jpg",
+      "recipe_url": "https://www.manilaspoon.com/easy-and-tasty-million-dollar-baked-spaghetti/",
+      "site_name": "Manila Spoon",
+      "title": "Easy and Tasty Million Dollar Baked Spaghetti",
+      "url": "https://www.manilaspoon.com/easy-and-tasty-million-dollar-baked-spaghetti/"
     },
     "Tue": {
-      "cuisine": "American",
-      "image_url": "https://i2.wp.com/www.downshiftology.com/wp-content/uploads/2026/09/Hamburger-Soup-main.jpg",
-      "recipe_url": "https://downshiftology.com/recipes/hamburger-soup/",
-      "site_name": "Downshiftology",
-      "title": "Hamburger Soup",
-      "url": "https://downshiftology.com/recipes/hamburger-soup/"
+      "cuisine": "Dominican",
+      "image_url": "https://www.dominicancooking.com/wp-content/uploads/cocadas-recipe-GLZ3529.jpg",
+      "recipe_url": "https://www.dominicancooking.com/cocadas",
+      "site_name": "Dominican Cooking",
+      "title": "Cocadas (Coconut Candy)",
+      "url": "https://www.dominicancooking.com/cocadas"
     },
     "Wed": {
-      "title": "10-minute shrimp and kimchi fried rice",
-      "url": "https://cooking.umamidays.com/10-minute-shrimp-and-kimchi-fried-rice/",
-      "recipe_url": "https://cooking.umamidays.com/10-minute-shrimp-and-kimchi-fried-rice/",
-      "image_url": "https://cooking.umamidays.com/wp-content/uploads/2026/10/shrimp-kimchi-fried-rice.jpg",
-      "site_name": "Umami Days",
-      "site_url": "https://cooking.umamidays.com",
-      "cuisine": "Filipino",
-      "published_at": "Sat, 10 Oct 2026 11:46:43 +0000"
+      "title": "Garlic & Rosemary Grilled Lamb Chops",
+      "url": "https://www.delishdlites.com/type/gluten-free-recipes/perfect-grilled-lamb-loin-chops-recipe/",
+      "recipe_url": "https://www.delishdlites.com/type/gluten-free-recipes/perfect-grilled-lamb-loin-chops-recipe/",
+      "image_url": "https://www.delishdlites.com/wp-content/uploads/2018/03/DSC_0664labelled-1024x940.jpg",
+      "site_name": "Delish D'Lites",
+      "site_url": "https://delishdlites.com",
+      "cuisine": "Puerto Rican",
+      "published_at": "Sat, 04 Apr 2026 12:47:36 +0000"
     },
     "Thu": {
-      "title": "Sobrebarriga en Salsa Criolla (Flank Steak with Creole Sauce)",
-      "url": "https://www.mycolombianrecipes.com/sobrebarriga-en-salsa-criolla-flank-steak-with-colombian-creole-sauce/?adt_ei={{ email }}",
-      "recipe_url": "https://www.mycolombianrecipes.com/sobrebarriga-en-salsa-criolla-flank-steak-with-colombian-creole-sauce/?adt_ei={{ email }}",
-      "image_url": "https://www.mycolombianrecipes.com/wp-content/uploads/2022/09/sobrebarriga-a-la-criolla-771x1024.jpg",
-      "site_name": "My Colombian Recipes",
-      "site_url": "https://mycolombianrecipes.com",
-      "cuisine": "Colombian",
-      "published_at": "Thu, 15 Oct 2026 13:19:00 +0000"
+      "title": "Arroz Con Gandules | How To Make Puerto Rican Christmas Rice",
+      "url": "https://thenoshery.com/arroz-con-gandules-rice-and-pigeon-peas/",
+      "recipe_url": "https://thenoshery.com/arroz-con-gandules-rice-and-pigeon-peas/",
+      "image_url": "https://thenoshery.com/wp-content/uploads/2015/12/Arroz-con-Gandules-34-643x900.jpg",
+      "site_name": "The Noshery",
+      "site_url": "https://thenoshery.com",
+      "cuisine": "Puerto Rican",
+      "published_at": "Mon, 27 Nov 2023 18:39:17 +0000"
     },
     "Fri": {
-      "cuisine": "Latin American",
-      "image_url": "https://foreignfork.com/wp-content/uploads/2026/05/Feature-Image-Bun-Cha.jpg",
-      "recipe_url": "https://foreignfork.com/bun-cha/",
-      "site_name": "The Foreign Fork",
-      "title": "Bún Chả Hanoi with Caramelized Meatballs and Herbs",
-      "url": "https://foreignfork.com/bun-cha/"
+      "cuisine": "Filipino",
+      "image_url": "https://www.manilaspoon.com/wp-content/uploads/2026/08/BulgogiKimbap-6.jpg",
+      "recipe_url": "https://www.manilaspoon.com/bulgogi-kimbap/",
+      "site_name": "Manila Spoon",
+      "title": "Bulgogi Kimbap (Korean Beef Seaweed Rice Roll)",
+      "url": "https://www.manilaspoon.com/bulgogi-kimbap/"
     },
     "Sat": {
-      "cuisine": "Colombian",
-      "image_url": "https://www.mycolombianrecipes.com/wp-content/uploads/2009/06/Chuleta-Valluna-Colombiana.jpg",
-      "recipe_url": "https://www.mycolombianrecipes.com/chuleta-valluna-colombian-breaded-pork-cutlets/?adt_ei={{ email }}",
-      "site_name": "My Colombian Recipes",
-      "title": "Chuleta Valluna (Colombian Breaded Pork Cutlets)",
-      "url": "https://www.mycolombianrecipes.com/chuleta-valluna-colombian-breaded-pork-cutlets/?adt_ei={{ email }}"
+      "cuisine": "Dominican",
+      "image_url": "https://www.dominicancooking.com/wp-content/uploads/dominican-cupcakes-recipes-GLZ3896-1.jpg",
+      "recipe_url": "https://www.dominicancooking.com/dominican-cupcakes",
+      "site_name": "Dominican Cooking",
+      "title": "Dominican Bizcocho Cupcakes",
+      "url": "https://www.dominicancooking.com/dominican-cupcakes"
     },
     "Sun": {
-      "title": "Fried chicken fillets with chili honey mustard glaze",
-      "url": "https://cooking.umamidays.com/fried-chicken-fillets-with-chili-honey-mustard-glaze/",
-      "recipe_url": "https://cooking.umamidays.com/fried-chicken-fillets-with-chili-honey-mustard-glaze/",
-      "image_url": "https://cooking.umamidays.com/wp-content/uploads/2026/10/chicken-chili-honey-mustard.jpg",
-      "site_name": "Umami Days",
-      "site_url": "https://cooking.umamidays.com",
       "cuisine": "Filipino",
-      "published_at": "Wed, 07 Oct 2026 14:56:26 +0000"
+      "image_url": "https://www.manilaspoon.com/wp-content/uploads/2017/11/CurriedChickenSalad-5.jpg",
+      "recipe_url": "https://www.manilaspoon.com/curried-chicken-salad-2/",
+      "site_name": "Manila Spoon",
+      "title": "Curried Chicken Salad",
+      "url": "https://www.manilaspoon.com/curried-chicken-salad-2/"
     }
   },
   "featured_recipe": {
-    "cuisine": "Latin American",
-    "image_url": "https://foreignfork.com/wp-content/uploads/2026/08/Feature-Image-Vermicelli-Porridge-3.jpg",
-    "recipe_url": "https://foreignfork.com/bitterballen/",
-    "site_name": "The Foreign Fork",
-    "title": "Dutch Bitterballen Recipe",
-    "url": "https://foreignfork.com/bitterballen/"
+    "cuisine": "Filipino",
+    "image_url": "https://www.manilaspoon.com/wp-content/uploads/2021/03/MillionDollarSpaghetti-9.jpg",
+    "recipe_url": "https://www.manilaspoon.com/easy-and-tasty-million-dollar-baked-spaghetti/",
+    "site_name": "Manila Spoon",
+    "title": "Easy and Tasty Million Dollar Baked Spaghetti",
+    "url": "https://www.manilaspoon.com/easy-and-tasty-million-dollar-baked-spaghetti/"
   }
 }
