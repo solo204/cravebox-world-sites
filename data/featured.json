@@ -1,120 +1,120 @@
 {
-  "updated_at": "2026-10-22T05:05:11Z",
+  "updated_at": "2026-10-22T06:05:14Z",
   "slot_hours": 1,
-  "slot_idx": 9,
-  "week": 10,
+  "slot_idx": 10,
+  "week": 11,
   "featured_sites": [
     {
-      "name": "Feasting at Home",
-      "url": "https://www.feastingathome.com",
-      "cuisine": "Global",
-      "tagline": "Fresh seasonal recipes with global inspiration.",
-      "image_url": "https://www.feastingathome.com/wp-content/uploads/2026/09/Eggplant-Tikka-Masala-13-768x1152.jpg",
-      "rss_url": "https://www.feastingathome.com/feed/"
+      "name": "Love and Lemons",
+      "url": "https://www.loveandlemons.com",
+      "cuisine": "Plant-Based",
+      "tagline": "Bright, seasonal plant-forward cooking.",
+      "image_url": "https://cdn.loveandlemons.com/wp-content/uploads/2026/09/pumpkin-chocolate-chip-cookies-recipe.jpg",
+      "rss_url": "https://www.loveandlemons.com/feed/"
     },
     {
-      "name": "Smitten Kitchen",
-      "url": "https://smittenkitchen.com",
-      "cuisine": "American",
-      "tagline": "Fearless cooking from a tiny kitchen.",
-      "image_url": "https://i0.wp.com/smittenkitchen.com/wp-content/uploads/2026/09/simple-chicken-tacos-09-scaled.jpg",
-      "rss_url": "https://smittenkitchen.com/feed/"
+      "name": "Vegan Richa",
+      "url": "https://www.veganricha.com",
+      "cuisine": "Indian Vegan",
+      "tagline": "Bold Indian-inspired vegan recipes with flavor.",
+      "image_url": "https://www.veganricha.com/wp-content/uploads/2026/09/somosa-platter-veganricha-2224.jpg",
+      "rss_url": "https://www.veganricha.com/feed/"
     },
     {
-      "name": "101 Cookbooks",
-      "url": "https://www.101cookbooks.com",
-      "cuisine": "Vegetarian",
-      "tagline": "Natural, whole-food recipes for healthy living.",
-      "image_url": "https://images.101cookbooks.com/LEMON-ROASTED-POTATOES-v.jpg",
-      "rss_url": "https://www.101cookbooks.com/feed/"
+      "name": "Flour & Spice",
+      "url": "https://flourandspiceblog.com",
+      "cuisine": "Pakistani",
+      "tagline": "Near-professional Pakistani cooking from a Canadian-Pakistani blogger.",
+      "image_url": "https://www.flourandspiceblog.com/wp-content/uploads/2025/06/IMG_4075.jpg",
+      "rss_url": "https://flourandspiceblog.com/feed/"
     },
     {
-      "name": "An Italian in My Kitchen",
-      "url": "https://www.anitalianinmykitchen.com",
-      "cuisine": "Italian",
-      "tagline": "Authentic Italian recipes from a Roman cook.",
-      "image_url": "https://anitalianinmykitchen.com/wp-content/uploads/2026/09/tiramisu-crostata-1-of-1-683x1024.jpg",
-      "rss_url": "https://www.anitalianinmykitchen.com/feed/"
+      "name": "What To Cook Today",
+      "url": "https://whattocooktoday.com",
+      "cuisine": "Indonesian",
+      "tagline": "Indonesian and Southeast Asian recipes made easy.",
+      "image_url": "https://whattocooktoday.com/wp-content/uploads/2026/10/creamy-miso-curry-risotto-1-1.jpg",
+      "rss_url": "https://whattocooktoday.com/feed"
     }
   ],
   "featured_recipes": {
     "Mon": {
-      "title": "Baked Eggplant Tikka Masala",
-      "url": "https://www.feastingathome.com/baked-eggplant-tikka-masala/",
-      "recipe_url": "https://www.feastingathome.com/baked-eggplant-tikka-masala/",
-      "image_url": "https://www.feastingathome.com/wp-content/uploads/2026/09/Eggplant-Tikka-Masala-13-768x1152.jpg",
-      "site_name": "Feasting at Home",
-      "site_url": "https://www.feastingathome.com",
-      "cuisine": "Global",
-      "published_at": "Tue, 06 Oct 2026 15:30:20 +0000"
+      "title": "Pumpkin Chocolate Chip Cookies",
+      "url": "https://www.loveandlemons.com/pumpkin-chocolate-chip-cookies/",
+      "recipe_url": "https://www.loveandlemons.com/pumpkin-chocolate-chip-cookies/",
+      "image_url": "https://cdn.loveandlemons.com/wp-content/uploads/2026/09/pumpkin-chocolate-chip-cookies-recipe.jpg",
+      "site_name": "Love and Lemons",
+      "site_url": "https://www.loveandlemons.com",
+      "cuisine": "Plant-Based",
+      "published_at": "Thu, 13 Oct 2022 12:49:18 +0000"
     },
     "Tue": {
-      "cuisine": "American",
-      "image_url": "https://i0.wp.com/smittenkitchen.com/wp-content/uploads/2026/06/strawberry-chiffon-shortcake-perfected-19-scaled.jpg?fit=640%2C427&amp;quality=89&amp;ssl=1",
-      "recipe_url": "https://smittenkitchen.com/2026/06/strawberry-chiffon-shortcake-perfected/",
-      "site_name": "Smitten Kitchen",
-      "title": "strawberry chiffon shortcake, perfected",
-      "url": "https://smittenkitchen.com/2026/06/strawberry-chiffon-shortcake-perfected/"
+      "title": "Samosa Dip with Spiced Potatoes, Crispy Chickpeas, Chutneys and Yogurt",
+      "url": "https://www.veganricha.com/samosa-platter/",
+      "recipe_url": "https://www.veganricha.com/samosa-platter/",
+      "image_url": "https://www.veganricha.com/wp-content/uploads/2026/09/somosa-platter-veganricha-2225.jpg",
+      "site_name": "Vegan Richa",
+      "site_url": "https://www.veganricha.com",
+      "cuisine": "Indian Vegan",
+      "published_at": "Wed, 07 Oct 2026 15:19:00 +0000"
     },
     "Wed": {
-      "title": "Lemon Roasted Potatoes",
-      "url": "https://www.101cookbooks.com/lemon-roasted-potatoes/",
-      "recipe_url": "https://www.101cookbooks.com/lemon-roasted-potatoes/",
-      "image_url": "https://images.101cookbooks.com/LEMON-ROASTED-POTATOES-h.jpg?w=680",
-      "site_name": "101 Cookbooks",
-      "site_url": "https://www.101cookbooks.com",
-      "cuisine": "Vegetarian",
-      "published_at": "Thu, 08 Oct 2026 17:30:40 +0000"
+      "cuisine": "Pakistani",
+      "image_url": "https://www.flourandspiceblog.com/wp-content/uploads/2025/03/IMG_6685-1.jpg",
+      "recipe_url": "https://www.flourandspiceblog.com/handi-kabab-masala-easy-fancy/",
+      "site_name": "Flour & Spice",
+      "title": "Handi Kabab Masala: Easy + Fancy",
+      "url": "https://www.flourandspiceblog.com/handi-kabab-masala-easy-fancy/"
     },
     "Thu": {
-      "cuisine": "Italian",
-      "image_url": "https://anitalianinmykitchen.com/wp-content/uploads/2026/09/tiramisu-crostata-1-of-1-683x1024.jpg",
-      "published_at": "Thu, 08 Oct 2026 11:52:15 +0000",
-      "recipe_url": "https://anitalianinmykitchen.com/tiramisu-crostata/",
-      "site_name": "An Italian in My Kitchen",
-      "site_url": "https://www.anitalianinmykitchen.com",
-      "title": "Tiramisu Crostata",
-      "url": "https://anitalianinmykitchen.com/tiramisu-crostata/"
+      "title": "Creamy Miso Curry Risotto",
+      "url": "https://whattocooktoday.com/creamy-miso-curry-risotto.html",
+      "recipe_url": "https://whattocooktoday.com/creamy-miso-curry-risotto.html",
+      "image_url": "https://whattocooktoday.com/wp-content/uploads/2026/10/creamy-miso-curry-risotto-1-1.jpg",
+      "site_name": "What To Cook Today",
+      "site_url": "https://whattocooktoday.com",
+      "cuisine": "Indonesian",
+      "published_at": "Fri, 09 Oct 2026 02:47:09 +0000"
     },
     "Fri": {
-      "title": "Chickpea Cacciatore",
-      "url": "https://www.feastingathome.com/chickpea-cacciatore/",
-      "recipe_url": "https://www.feastingathome.com/chickpea-cacciatore/",
-      "image_url": "https://www.feastingathome.com/wp-content/uploads/2026/09/Chickpea-cacciatore-11-768x1152.jpg",
-      "site_name": "Feasting at Home",
-      "site_url": "https://www.feastingathome.com",
-      "cuisine": "Global",
-      "published_at": "Thu, 01 Oct 2026 23:34:08 +0000"
+      "title": "Butternut Squash Gnocchi",
+      "url": "https://www.loveandlemons.com/butternut-squash-gnocchi/",
+      "recipe_url": "https://www.loveandlemons.com/butternut-squash-gnocchi/",
+      "image_url": "https://cdn.loveandlemons.com/wp-content/uploads/2026/09/butternut-squash-gnocchi-1.jpg",
+      "site_name": "Love and Lemons",
+      "site_url": "https://www.loveandlemons.com",
+      "cuisine": "Plant-Based",
+      "published_at": "Tue, 06 Oct 2026 13:54:22 +0000"
     },
     "Sat": {
-      "cuisine": "Vegan",
-      "image_url": "https://ohsheglows.com/wp-content/uploads/2013/04/springsaladvegan-3637.jpg",
-      "published_at": "Tue, 16 Apr 2024 17:04:28 +0000",
-      "recipe_url": "https://ohsheglows.com/warm-spring-salad/",
-      "site_name": "Oh She Glows",
-      "site_url": "https://ohsheglows.com",
-      "title": "Warm Spring Salad",
-      "url": "https://ohsheglows.com/warm-spring-salad/"
+      "title": "Moroccan Harira with Chickpeas and Lentils",
+      "url": "https://www.veganricha.com/moroccan-harira/",
+      "recipe_url": "https://www.veganricha.com/moroccan-harira/",
+      "image_url": "https://www.veganricha.com/wp-content/uploads/2026/09/morrocon-soup-veganricha-2439.jpg",
+      "site_name": "Vegan Richa",
+      "site_url": "https://www.veganricha.com",
+      "cuisine": "Indian Vegan",
+      "published_at": "Wed, 30 Sep 2026 15:10:00 +0000"
     },
     "Sun": {
-      "title": "Butternut Squash Soup with Red Lentils",
-      "url": "https://www.101cookbooks.com/butternut-squash-soup/",
-      "recipe_url": "https://www.101cookbooks.com/butternut-squash-soup/",
-      "image_url": "https://images.101cookbooks.com/BUTTERNUT-SQUASH-SOUP-h.jpg?w=680",
-      "site_name": "101 Cookbooks",
-      "site_url": "https://www.101cookbooks.com",
-      "cuisine": "Vegetarian",
-      "published_at": "Tue, 22 Sep 2026 18:33:42 +0000"
+      "title": "Fudgy Red Dates Brownies",
+      "url": "https://whattocooktoday.com/red-dates-brownies.html",
+      "recipe_url": "https://whattocooktoday.com/red-dates-brownies.html",
+      "image_url": "https://whattocooktoday.com/wp-content/uploads/2026/10/fudgy-red-dates-brownies-3.jpg",
+      "site_name": "What To Cook Today",
+      "site_url": "https://whattocooktoday.com",
+      "cuisine": "Indonesian",
+      "published_at": "Fri, 09 Oct 2026 00:55:28 +0000"
     }
   },
   "featured_recipe": {
-    "title": "Baked Eggplant Tikka Masala",
-    "url": "https://www.feastingathome.com/baked-eggplant-tikka-masala/",
-    "recipe_url": "https://www.feastingathome.com/baked-eggplant-tikka-masala/",
-    "image_url": "https://www.feastingathome.com/wp-content/uploads/2026/09/Eggplant-Tikka-Masala-13-768x1152.jpg",
-    "site_name": "Feasting at Home",
-    "site_url": "https://www.feastingathome.com",
-    "cuisine": "Global",
-    "published_at": "Tue, 06 Oct 2026 15:30:20 +0000"
+    "title": "Pumpkin Chocolate Chip Cookies",
+    "url": "https://www.loveandlemons.com/pumpkin-chocolate-chip-cookies/",
+    "recipe_url": "https://www.loveandlemons.com/pumpkin-chocolate-chip-cookies/",
+    "image_url": "https://cdn.loveandlemons.com/wp-content/uploads/2026/09/pumpkin-chocolate-chip-cookies-recipe.jpg",
+    "site_name": "Love and Lemons",
+    "site_url": "https://www.loveandlemons.com",
+    "cuisine": "Plant-Based",
+    "published_at": "Thu, 13 Oct 2022 12:49:18 +0000"
   }
 }
