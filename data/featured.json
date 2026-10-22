@@ -1,122 +1,120 @@
 {
-  "updated_at": "2026-10-22T04:27:17Z",
+  "updated_at": "2026-10-22T05:05:11Z",
   "slot_hours": 1,
-  "slot_idx": 8,
-  "week": 9,
+  "slot_idx": 9,
+  "week": 10,
   "featured_sites": [
     {
-      "name": "My Greek Dish",
-      "url": "https://www.mygreekdish.com",
-      "cuisine": "Greek",
-      "tagline": "Authentic Greek recipes made simple at home.",
-      "image_url": "https://www.mygreekdish.com/wp-content/uploads/2024/09/Feta-Pasta-bake.jpeg",
-      "rss_url": "https://www.mygreekdish.com/feed/"
+      "name": "Feasting at Home",
+      "url": "https://www.feastingathome.com",
+      "cuisine": "Global",
+      "tagline": "Fresh seasonal recipes with global inspiration.",
+      "image_url": "https://www.feastingathome.com/wp-content/uploads/2026/09/Eggplant-Tikka-Masala-13-768x1152.jpg",
+      "rss_url": "https://www.feastingathome.com/feed/"
     },
     {
-      "name": "Caribbean Pot",
-      "url": "https://www.caribbeanpot.com",
-      "cuisine": "Caribbean",
-      "tagline": "Genuine Caribbean cooking and comfort food.",
-      "image_url": "https://caribbeanpot.com/wp-content/uploads/2026/10/chicken-rasta-pasta-14.jpg",
-      "rss_url": "https://caribbeanpot.com/feed/"
+      "name": "Smitten Kitchen",
+      "url": "https://smittenkitchen.com",
+      "cuisine": "American",
+      "tagline": "Fearless cooking from a tiny kitchen.",
+      "image_url": "https://i0.wp.com/smittenkitchen.com/wp-content/uploads/2026/09/simple-chicken-tacos-09-scaled.jpg",
+      "rss_url": "https://smittenkitchen.com/feed/"
     },
     {
-      "name": "Spain on a Fork",
-      "url": "https://www.spainonafork.com",
-      "cuisine": "Spanish",
-      "tagline": "Authentic Spanish recipes for the home cook.",
-      "image_url": "https://i0.wp.com/spainonafork.com/wp-content/uploads/2024/02/image7-4-11.png",
-      "rss_url": "https://www.spainonafork.com/feed/"
+      "name": "101 Cookbooks",
+      "url": "https://www.101cookbooks.com",
+      "cuisine": "Vegetarian",
+      "tagline": "Natural, whole-food recipes for healthy living.",
+      "image_url": "https://images.101cookbooks.com/LEMON-ROASTED-POTATOES-v.jpg",
+      "rss_url": "https://www.101cookbooks.com/feed/"
     },
     {
-      "name": "Olivia's Cuisine",
-      "url": "https://www.oliviascuisine.com",
-      "cuisine": "Brazilian",
-      "tagline": "Brazilian recipes and global comfort food.",
-      "image_url": "https://www.oliviascuisine.com/wp-content/uploads/2026/10/apple-honey-crumble-bars-300x375.jpg",
-      "rss_url": "https://www.oliviascuisine.com/feed/"
+      "name": "An Italian in My Kitchen",
+      "url": "https://www.anitalianinmykitchen.com",
+      "cuisine": "Italian",
+      "tagline": "Authentic Italian recipes from a Roman cook.",
+      "image_url": "https://anitalianinmykitchen.com/wp-content/uploads/2026/09/tiramisu-crostata-1-of-1-683x1024.jpg",
+      "rss_url": "https://www.anitalianinmykitchen.com/feed/"
     }
   ],
   "featured_recipes": {
     "Mon": {
-      "title": "Baked Feta Pasta recipe",
-      "url": "https://www.mygreekdish.com/recipe/baked-feta-pasta-recipe/",
-      "recipe_url": "https://www.mygreekdish.com/recipe/baked-feta-pasta-recipe/",
-      "image_url": "https://www.mygreekdish.com/wp-content/uploads/2024/06/Baked-Feta-Pasta-recipe.jpeg",
-      "site_name": "My Greek Dish",
-      "site_url": "https://www.mygreekdish.com",
-      "cuisine": "Greek",
-      "published_at": "Wed, 16 Oct 2024 23:15:14 +0000"
+      "title": "Baked Eggplant Tikka Masala",
+      "url": "https://www.feastingathome.com/baked-eggplant-tikka-masala/",
+      "recipe_url": "https://www.feastingathome.com/baked-eggplant-tikka-masala/",
+      "image_url": "https://www.feastingathome.com/wp-content/uploads/2026/09/Eggplant-Tikka-Masala-13-768x1152.jpg",
+      "site_name": "Feasting at Home",
+      "site_url": "https://www.feastingathome.com",
+      "cuisine": "Global",
+      "published_at": "Tue, 06 Oct 2026 15:30:20 +0000"
     },
     "Tue": {
-      "title": "Chicken Rasta Pasta Recipe",
-      "url": "https://caribbeanpot.com/chicken-rasta-pasta-recipe/",
-      "recipe_url": "https://caribbeanpot.com/chicken-rasta-pasta-recipe/",
-      "image_url": "https://caribbeanpot.com/wp-content/uploads/2026/10/chicken-rasta-pasta-14.jpg",
-      "site_name": "Caribbean Pot",
-      "site_url": "https://www.caribbeanpot.com",
-      "cuisine": "Caribbean",
-      "published_at": "Mon, 05 Oct 2026 16:41:38 +0000"
+      "cuisine": "American",
+      "image_url": "https://i0.wp.com/smittenkitchen.com/wp-content/uploads/2026/06/strawberry-chiffon-shortcake-perfected-19-scaled.jpg?fit=640%2C427&amp;quality=89&amp;ssl=1",
+      "recipe_url": "https://smittenkitchen.com/2026/06/strawberry-chiffon-shortcake-perfected/",
+      "site_name": "Smitten Kitchen",
+      "title": "strawberry chiffon shortcake, perfected",
+      "url": "https://smittenkitchen.com/2026/06/strawberry-chiffon-shortcake-perfected/"
     },
     "Wed": {
-      "title": "One-Pan Spanish Chicken Pasta | One of the Most Underrated Pasta Recipes",
-      "url": "https://spainonafork.com/one-pan-spanish-chicken-pasta-recipe/",
-      "recipe_url": "https://spainonafork.com/one-pan-spanish-chicken-pasta-recipe/",
-      "image_url": "https://i0.wp.com/spainonafork.com/wp-content/uploads/2026/10/DSC_0637-1-11.png?fit=750%2C750&ssl=1",
-      "site_name": "Spain on a Fork",
-      "site_url": "https://www.spainonafork.com",
-      "cuisine": "Spanish",
-      "published_at": "Fri, 09 Oct 2026 14:00:43 +0000"
+      "title": "Lemon Roasted Potatoes",
+      "url": "https://www.101cookbooks.com/lemon-roasted-potatoes/",
+      "recipe_url": "https://www.101cookbooks.com/lemon-roasted-potatoes/",
+      "image_url": "https://images.101cookbooks.com/LEMON-ROASTED-POTATOES-h.jpg?w=680",
+      "site_name": "101 Cookbooks",
+      "site_url": "https://www.101cookbooks.com",
+      "cuisine": "Vegetarian",
+      "published_at": "Thu, 08 Oct 2026 17:30:40 +0000"
     },
     "Thu": {
-      "title": "Apple Crumble Bars",
-      "url": "https://www.oliviascuisine.com/apple-crumble-bars/",
-      "recipe_url": "https://www.oliviascuisine.com/apple-crumble-bars/",
-      "image_url": "https://www.oliviascuisine.com/wp-content/uploads/2026/10/apple-honey-crumble-bars-300x375.jpg",
-      "site_name": "Olivia's Cuisine",
-      "site_url": "https://www.oliviascuisine.com",
-      "cuisine": "Brazilian",
-      "published_at": "Thu, 08 Oct 2026 17:16:14 +0000"
+      "cuisine": "Italian",
+      "image_url": "https://anitalianinmykitchen.com/wp-content/uploads/2026/09/tiramisu-crostata-1-of-1-683x1024.jpg",
+      "published_at": "Thu, 08 Oct 2026 11:52:15 +0000",
+      "recipe_url": "https://anitalianinmykitchen.com/tiramisu-crostata/",
+      "site_name": "An Italian in My Kitchen",
+      "site_url": "https://www.anitalianinmykitchen.com",
+      "title": "Tiramisu Crostata",
+      "url": "https://anitalianinmykitchen.com/tiramisu-crostata/"
     },
     "Fri": {
-      "title": "Greek Lemon Chicken Soup with Orzo (Avgolemono)",
-      "url": "https://www.mygreekdish.com/recipe/greek-lemon-chicken-soup-with-orzo-avgolemono/",
-      "recipe_url": "https://www.mygreekdish.com/recipe/greek-lemon-chicken-soup-with-orzo-avgolemono/",
-      "image_url": "https://www.mygreekdish.com/wp-content/uploads/2023/11/Greek-Lemon-Chicken-Soup-with-Orzo-Avgolemono.jpeg",
-      "site_name": "My Greek Dish",
-      "site_url": "https://www.mygreekdish.com",
-      "cuisine": "Greek",
-      "published_at": "Fri, 03 Nov 2023 18:35:34 +0000"
+      "title": "Chickpea Cacciatore",
+      "url": "https://www.feastingathome.com/chickpea-cacciatore/",
+      "recipe_url": "https://www.feastingathome.com/chickpea-cacciatore/",
+      "image_url": "https://www.feastingathome.com/wp-content/uploads/2026/09/Chickpea-cacciatore-11-768x1152.jpg",
+      "site_name": "Feasting at Home",
+      "site_url": "https://www.feastingathome.com",
+      "cuisine": "Global",
+      "published_at": "Thu, 01 Oct 2026 23:34:08 +0000"
     },
     "Sat": {
-      "title": "Easy Comforting Roasted Butternut and Carrot Soup",
-      "url": "https://caribbeanpot.com/easy-comforting-roasted-butternut-and-carrot-soup/",
-      "recipe_url": "https://caribbeanpot.com/easy-comforting-roasted-butternut-and-carrot-soup/",
-      "image_url": "https://caribbeanpot.com/wp-content/uploads/2026/09/roasted-butternut-squash-and-carrot-soup-1.jpeg",
-      "site_name": "Caribbean Pot",
-      "site_url": "https://www.caribbeanpot.com",
-      "cuisine": "Caribbean",
-      "published_at": "Tue, 29 Sep 2026 21:35:57 +0000"
+      "cuisine": "Vegan",
+      "image_url": "https://ohsheglows.com/wp-content/uploads/2013/04/springsaladvegan-3637.jpg",
+      "published_at": "Tue, 16 Apr 2024 17:04:28 +0000",
+      "recipe_url": "https://ohsheglows.com/warm-spring-salad/",
+      "site_name": "Oh She Glows",
+      "site_url": "https://ohsheglows.com",
+      "title": "Warm Spring Salad",
+      "url": "https://ohsheglows.com/warm-spring-salad/"
     },
     "Sun": {
-      "title": "Spanish Chickpeas with Chorizo | One of Spain’s Most Iconic Recipes",
-      "url": "https://spainonafork.com/spanish-chickpeas-with-chorizo-recipe/",
-      "recipe_url": "https://spainonafork.com/spanish-chickpeas-with-chorizo-recipe/",
-      "image_url": "https://i0.wp.com/spainonafork.com/wp-content/uploads/2026/10/DSC_0612-111.png?fit=750%2C750&ssl=1",
-      "site_name": "Spain on a Fork",
-      "site_url": "https://www.spainonafork.com",
-      "cuisine": "Spanish",
-      "published_at": "Wed, 07 Oct 2026 14:00:57 +0000"
+      "title": "Butternut Squash Soup with Red Lentils",
+      "url": "https://www.101cookbooks.com/butternut-squash-soup/",
+      "recipe_url": "https://www.101cookbooks.com/butternut-squash-soup/",
+      "image_url": "https://images.101cookbooks.com/BUTTERNUT-SQUASH-SOUP-h.jpg?w=680",
+      "site_name": "101 Cookbooks",
+      "site_url": "https://www.101cookbooks.com",
+      "cuisine": "Vegetarian",
+      "published_at": "Tue, 22 Sep 2026 18:33:42 +0000"
     }
   },
   "featured_recipe": {
-    "title": "One-Pan Spanish Chicken Pasta | One of the Most Underrated Pasta Recipes",
-    "url": "https://spainonafork.com/one-pan-spanish-chicken-pasta-recipe/",
-    "recipe_url": "https://spainonafork.com/one-pan-spanish-chicken-pasta-recipe/",
-    "image_url": "https://i0.wp.com/spainonafork.com/wp-content/uploads/2026/10/DSC_0637-1-11.png?fit=750%2C750&ssl=1",
-    "site_name": "Spain on a Fork",
-    "site_url": "https://www.spainonafork.com",
-    "cuisine": "Spanish",
-    "published_at": "Fri, 09 Oct 2026 14:00:43 +0000"
+    "title": "Baked Eggplant Tikka Masala",
+    "url": "https://www.feastingathome.com/baked-eggplant-tikka-masala/",
+    "recipe_url": "https://www.feastingathome.com/baked-eggplant-tikka-masala/",
+    "image_url": "https://www.feastingathome.com/wp-content/uploads/2026/09/Eggplant-Tikka-Masala-13-768x1152.jpg",
+    "site_name": "Feasting at Home",
+    "site_url": "https://www.feastingathome.com",
+    "cuisine": "Global",
+    "published_at": "Tue, 06 Oct 2026 15:30:20 +0000"
   }
 }
