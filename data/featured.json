@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-22T04:05:11Z",
+  "updated_at": "2026-10-22T04:27:17Z",
   "slot_hours": 1,
   "slot_idx": 8,
   "week": 9,
@@ -110,13 +110,13 @@
     }
   },
   "featured_recipe": {
-    "title": "Baked Feta Pasta recipe",
-    "url": "https://www.mygreekdish.com/recipe/baked-feta-pasta-recipe/",
-    "recipe_url": "https://www.mygreekdish.com/recipe/baked-feta-pasta-recipe/",
-    "image_url": "https://www.mygreekdish.com/wp-content/uploads/2024/06/Baked-Feta-Pasta-recipe.jpeg",
-    "site_name": "My Greek Dish",
-    "site_url": "https://www.mygreekdish.com",
-    "cuisine": "Greek",
-    "published_at": "Wed, 16 Oct 2024 23:15:14 +0000"
+    "title": "One-Pan Spanish Chicken Pasta | One of the Most Underrated Pasta Recipes",
+    "url": "https://spainonafork.com/one-pan-spanish-chicken-pasta-recipe/",
+    "recipe_url": "https://spainonafork.com/one-pan-spanish-chicken-pasta-recipe/",
+    "image_url": "https://i0.wp.com/spainonafork.com/wp-content/uploads/2026/10/DSC_0637-1-11.png?fit=750%2C750&ssl=1",
+    "site_name": "Spain on a Fork",
+    "site_url": "https://www.spainonafork.com",
+    "cuisine": "Spanish",
+    "published_at": "Fri, 09 Oct 2026 14:00:43 +0000"
   }
 }
