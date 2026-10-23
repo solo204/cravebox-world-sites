@@ -1,118 +1,118 @@
 {
-  "updated_at": "2026-10-23T10:05:14Z",
+  "updated_at": "2026-10-23T11:05:12Z",
   "slot_hours": 1,
-  "slot_idx": 38,
-  "week": 39,
+  "slot_idx": 39,
+  "week": 40,
   "featured_sites": [
     {
-      "name": "Peter's Food Adventures",
-      "url": "https://petersfoodadventures.com",
-      "cuisine": "Eastern European",
-      "tagline": "An Australian-Russian blog mixing Eastern European comfort food with Asian and American flavours — plov, borscht, and BBQ.",
-      "image_url": "https://petersfoodadventures.com/wp-content/uploads/2022/01/Peters-Food-Adventures.jpg",
-      "rss_url": "https://petersfoodadventures.com/feed/",
+      "name": "Tchakayiti",
+      "url": "https://tchakayiti.com",
+      "cuisine": "Haitian",
+      "tagline": "The only major English-language Haitian food blog; SAVEUR Best Food Culture finalist.",
+      "image_url": "https://tchakayiti.com/home/wp-content/uploads/2022/10/SoupJoumou-Tchakayiti-Haitian-Food-Blog-Food-Photography-Haiti-819x1024.jpg",
+      "rss_url": "https://tchakayiti.com/feed/",
       "sites": []
     },
     {
-      "name": "Cooking with Ria",
-      "url": "https://www.cookingwithria.com",
+      "name": "WeTrinifood",
+      "url": "https://wetrinifood.com",
       "cuisine": "Trinidadian",
-      "tagline": "100K+ YouTube; roti and curry tutorials with over 1M views each.",
-      "image_url": "https://cookingwithria.com/wp-content/uploads/2024/09/trinidad-shrimp-roti-with-paratha-1024x683.jpg",
-      "rss_url": "https://www.cookingwithria.com/feed/",
+      "tagline": "Trinidad-based (not diaspora) with YouTube, TikTok, and Instagram presence.",
+      "image_url": "https://wetrinifood.com/wp-content/uploads/2022/05/pholourie-in-bowl-and-cloth.jpg",
+      "rss_url": "https://wetrinifood.com/feed/",
       "sites": []
     },
     {
-      "name": "RecipeTin Japan",
-      "url": "https://japan.recipetineats.com",
-      "cuisine": "Japanese",
-      "tagline": "Authentic Japanese home cooking from a native cook.",
-      "image_url": "https://japan.recipetineats.com/wp-content/uploads/2026/09/Spicy_Miso_Marinated_Chicken_1991a.jpg",
-      "rss_url": "https://japan.recipetineats.com/feed/"
+      "name": "The Greek Foodie",
+      "url": "https://thegreekfoodie.com",
+      "cuisine": "Greek",
+      "tagline": "Authentic Greek and Mediterranean recipes in English; RSS confirmed active.",
+      "image_url": "https://thegreekfoodie.com/wp-content/uploads/2023/06/Chicken_skewers_SOC.jpg",
+      "rss_url": "https://thegreekfoodie.com/feed/",
+      "sites": []
     },
     {
-      "name": "Foxy Folksy",
-      "url": "https://www.foxyfolksy.com",
-      "cuisine": "Filipino",
-      "tagline": "Classic and contemporary Filipino and Asian recipes.",
-      "image_url": "https://www.foxyfolksy.com/wp-content/uploads/2025/07/sisig-matua-recipe-1200t-640x640.webp",
-      "rss_url": "https://www.foxyfolksy.com/feed/"
+      "name": "True North Kitchen",
+      "url": "https://true-north-kitchen.com",
+      "cuisine": "Scandinavian",
+      "tagline": "Exclusively Scandinavian recipes in English — fills a gap not covered by Scandicuisine.",
+      "image_url": "https://true-north-kitchen.com/wp-content/uploads/2026/05/about-page-photo.jpg",
+      "rss_url": "https://true-north-kitchen.com/feed/",
+      "sites": []
     }
   ],
   "featured_recipes": {
     "Mon": {
-      "title": "Chicken Pho Soup",
-      "url": "https://petersfoodadventures.com/chicken-pho-soup/",
-      "recipe_url": "https://petersfoodadventures.com/chicken-pho-soup/",
-      "image_url": "https://petersfoodadventures.com/wp-content/uploads/2026/09/Chicken-Pho-Soup.jpg",
-      "site_name": "Peter's Food Adventures",
-      "site_url": "https://petersfoodadventures.com",
-      "cuisine": "Eastern European",
-      "published_at": "Mon, 14 Sep 2026 16:02:18 +0000"
+      "cuisine": "Trinidadian",
+      "image_url": "https://wetrinifood.com/wp-content/uploads/2024/04/ayurvedic-stewed-apples-in-bowl.jpg",
+      "recipe_url": "https://wetrinifood.com/ayurvedic-spiced-apples-recipe/",
+      "site_name": "WeTrinifood",
+      "title": "Ayurvedic Stewed Apples Recipe for Gut Health: Simple Breakfast",
+      "url": "https://wetrinifood.com/ayurvedic-spiced-apples-recipe/"
     },
     "Tue": {
-      "title": "Top Vegan and Vegetarian Diwali Recipes from Trinidad",
-      "url": "https://cookingwithria.com/2026/10/trinidad-diwali-recipes/?utm_source=rss&utm_medium=rss&utm_campaign=trinidad-diwali-recipes",
-      "recipe_url": "https://cookingwithria.com/2026/10/trinidad-diwali-recipes/?utm_source=rss&utm_medium=rss&utm_campaign=trinidad-diwali-recipes",
-      "image_url": "https://cookingwithria.com/wp-content/uploads/2026/05/trinidad-dasheen-bush-bhagi-prep_-11.jpg",
-      "site_name": "Cooking with Ria",
-      "site_url": "https://www.cookingwithria.com",
-      "cuisine": "Trinidadian",
-      "published_at": "Wed, 14 Oct 2026 19:19:06 +0000"
+      "title": "33 Greek Side Dishes (Easy, Authentic Recipes)",
+      "url": "https://thegreekfoodie.com/greek-side-dishes/",
+      "recipe_url": "https://thegreekfoodie.com/greek-side-dishes/",
+      "image_url": "https://thegreekfoodie.com/wp-content/uploads/2026/10/greek-side-dishes-social.jpg",
+      "site_name": "The Greek Foodie",
+      "site_url": "https://thegreekfoodie.com",
+      "cuisine": "Greek",
+      "published_at": "Mon, 19 Oct 2026 12:55:46 +0000"
     },
     "Wed": {
-      "title": "Smoked Tri Tip",
-      "url": "https://petersfoodadventures.com/smoked-tri-tip/",
-      "recipe_url": "https://petersfoodadventures.com/smoked-tri-tip/",
-      "image_url": "https://petersfoodadventures.com/wp-content/uploads/2026/08/Sliced-Smoked-Tri-Tip.jpg",
-      "site_name": "Peter's Food Adventures",
-      "site_url": "https://petersfoodadventures.com",
-      "cuisine": "Eastern European",
-      "published_at": "Sun, 23 Aug 2026 16:02:50 +0000"
+      "title": "Easy Swedish Oven Pancake (Ugnspannkaka)",
+      "url": "https://true-north-kitchen.com/easy-swedish-oven-pancake-ugnspannkaka/",
+      "recipe_url": "https://true-north-kitchen.com/easy-swedish-oven-pancake-ugnspannkaka/",
+      "image_url": "https://true-north-kitchen.com/wp-content/uploads/2026/10/swedish-oven-pancake-featured-image.jpg",
+      "site_name": "True North Kitchen",
+      "site_url": "https://true-north-kitchen.com",
+      "cuisine": "Scandinavian",
+      "published_at": "Tue, 13 Oct 2026 14:24:46 +0000"
     },
     "Thu": {
-      "cuisine": "Trinidadian",
-      "image_url": "https://cookingwithria.com/wp-content/uploads/2026/09/caribbean-chicken-soup-no-stewing-2.jpg",
-      "recipe_url": "https://cookingwithria.com/2026/09/caribbean-chicken-soup/?utm_source=rss&utm_medium=rss&utm_campaign=caribbean-chicken-soup",
-      "site_name": "Cooking with Ria",
-      "title": "Caribbean Chicken Soup (Easy No-Stewing Method)",
-      "url": "https://cookingwithria.com/2026/09/caribbean-chicken-soup/?utm_source=rss&utm_medium=rss&utm_campaign=caribbean-chicken-soup"
+      "cuisine": "Scandinavian",
+      "image_url": "https://true-north-kitchen.com/wp-content/uploads/2026/06/danish-cream-puffs-featured-image-2.jpg",
+      "recipe_url": "https://true-north-kitchen.com/danish-cream-puffs-vandbakkelser/",
+      "site_name": "True North Kitchen",
+      "title": "Danish Cream Puffs (Vandbakkelser)",
+      "url": "https://true-north-kitchen.com/danish-cream-puffs-vandbakkelser/"
     },
     "Fri": {
-      "title": "Salmon Rice Bowl (Crispy Skin Salmon)",
-      "url": "https://petersfoodadventures.com/salmon-rice-bowl/",
-      "recipe_url": "https://petersfoodadventures.com/salmon-rice-bowl/",
-      "image_url": "https://petersfoodadventures.com/wp-content/uploads/2026/08/salmon-rice-bowl.jpg",
-      "site_name": "Peter's Food Adventures",
-      "site_url": "https://petersfoodadventures.com",
-      "cuisine": "Eastern European",
-      "published_at": "Fri, 07 Aug 2026 15:26:37 +0000"
+      "title": "38 Greek Mediterranean Diet Dinner Recipes",
+      "url": "https://thegreekfoodie.com/mediterranean-diet-dinner-recipes/",
+      "recipe_url": "https://thegreekfoodie.com/mediterranean-diet-dinner-recipes/",
+      "image_url": "https://thegreekfoodie.com/wp-content/uploads/2021/03/greek-spatchcocked-chicken-and-potatoes-facebook.jpg",
+      "site_name": "The Greek Foodie",
+      "site_url": "https://thegreekfoodie.com",
+      "cuisine": "Greek",
+      "published_at": "Thu, 15 Oct 2026 06:39:21 +0000"
     },
     "Sat": {
-      "cuisine": "Japanese",
-      "image_url": "https://japan.recipetineats.com/wp-content/uploads/2026/10/Marinated_Sauteed_Mushrooms_and_Zucchini_2019.jpg",
-      "recipe_url": "https://japan.recipetineats.com/marinated-sauteed-mushrooms-and-zucchini/",
-      "site_name": "RecipeTin Japan",
-      "title": "Marinated Sautéed Mushrooms and Zucchini",
-      "url": "https://japan.recipetineats.com/marinated-sauteed-mushrooms-and-zucchini/"
+      "title": "Homemade Lingonberry Jam (No Canning Refrigerator/Freezer Version)",
+      "url": "https://true-north-kitchen.com/homemade-lingonberry-jam-no-canning-refrigerator-freezer-version/",
+      "recipe_url": "https://true-north-kitchen.com/homemade-lingonberry-jam-no-canning-refrigerator-freezer-version/",
+      "image_url": "https://true-north-kitchen.com/wp-content/uploads/2026/09/homemade-lingonberry-jam-featured-image.jpg",
+      "site_name": "True North Kitchen",
+      "site_url": "https://true-north-kitchen.com",
+      "cuisine": "Scandinavian",
+      "published_at": "Mon, 05 Oct 2026 17:07:30 +0000"
     },
     "Sun": {
-      "cuisine": "Filipino",
-      "image_url": "https://www.foxyfolksy.com/wp-content/uploads/2024/05/lumpiang-hubad-recipe-1-640x960.jpg",
-      "recipe_url": "https://www.foxyfolksy.com/lumpiang-hubad/",
-      "site_name": "Foxy Folksy",
-      "title": "Lumpiang Hubad",
-      "url": "https://www.foxyfolksy.com/lumpiang-hubad/"
+      "cuisine": "Trinidadian",
+      "image_url": "https://wetrinifood.com/wp-content/uploads/2026/06/strawberry-banana-nice-cream-ft.jpg",
+      "recipe_url": "https://wetrinifood.com/strawberry-banana-nice-cream-recipe/",
+      "site_name": "WeTrinifood",
+      "title": "Strawberry Banana Nice Cream: Easy Strawberry and Banana Dessert",
+      "url": "https://wetrinifood.com/strawberry-banana-nice-cream-recipe/"
     }
   },
   "featured_recipe": {
-    "title": "Chicken Pho Soup",
-    "url": "https://petersfoodadventures.com/chicken-pho-soup/",
-    "recipe_url": "https://petersfoodadventures.com/chicken-pho-soup/",
-    "image_url": "https://petersfoodadventures.com/wp-content/uploads/2026/09/Chicken-Pho-Soup.jpg",
-    "site_name": "Peter's Food Adventures",
-    "site_url": "https://petersfoodadventures.com",
-    "cuisine": "Eastern European",
-    "published_at": "Mon, 14 Sep 2026 16:02:18 +0000"
+    "cuisine": "Trinidadian",
+    "image_url": "https://wetrinifood.com/wp-content/uploads/2024/04/ayurvedic-stewed-apples-in-bowl.jpg",
+    "recipe_url": "https://wetrinifood.com/ayurvedic-spiced-apples-recipe/",
+    "site_name": "WeTrinifood",
+    "title": "Ayurvedic Stewed Apples Recipe for Gut Health: Simple Breakfast",
+    "url": "https://wetrinifood.com/ayurvedic-spiced-apples-recipe/"
   }
 }
