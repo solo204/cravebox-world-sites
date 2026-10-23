@@ -1,126 +1,121 @@
 {
-  "updated_at": "2026-10-23T00:05:12Z",
+  "updated_at": "2026-10-23T01:05:12Z",
   "slot_hours": 1,
-  "slot_idx": 28,
-  "week": 29,
+  "slot_idx": 29,
+  "week": 30,
   "featured_sites": [
     {
-      "name": "The Chunky Chef",
-      "url": "https://www.thechunkychef.com",
+      "name": "Yellow Bliss Road",
+      "url": "https://www.yellowblissroad.com",
       "cuisine": "American",
-      "tagline": "Comforting, restaurant-quality recipes made at home.",
-      "image_url": "https://www.thechunkychef.com/wp-content/uploads/2026/10/Honey-Miso-Soy-Steak-Bites-feat.jpg",
-      "rss_url": "https://www.thechunkychef.com/feed/",
+      "tagline": "Easy, approachable, family-friendly recipes for any home cook.",
+      "image_url": "https://www.yellowblissroad.com/wp-content/uploads/2026/10/Apple-fritters-21-social.jpg",
+      "rss_url": "https://www.yellowblissroad.com/feed/",
       "sites": []
     },
     {
-      "name": "Kristine's Kitchen",
-      "url": "https://kristineskitchenblog.com",
+      "name": "Peru Delights",
+      "url": "https://perudelights.com",
+      "cuisine": "Peruvian",
+      "tagline": "Authentic Peruvian cuisine with step-by-step recipes.",
+      "image_url": "https://perudelights.com/wp-content/uploads/2017/01/SalsahuancainaIIR.jpg",
+      "rss_url": "https://perudelights.com/feed/"
+    },
+    {
+      "name": "Tastes Better From Scratch",
+      "url": "https://tastesbetterfromscratch.com",
       "cuisine": "American",
-      "tagline": "Trusted, family-friendly recipes for every occasion.",
-      "image_url": "https://kristineskitchenblog.com/wp-content/uploads/2026/09/chewy-pumpkin-cookies-25.jpg",
-      "rss_url": "https://kristineskitchenblog.com/feed/",
+      "tagline": "Everything tastes better homemade.",
+      "image_url": "https://tastesbetterfromscratch.com/wp-content/uploads/2026/10/Brown-Sugar-17.jpg",
+      "rss_url": "https://tastesbetterfromscratch.com/feed/",
       "sites": []
     },
     {
-      "name": "Chelsea's Messy Apron",
-      "url": "https://www.chelseasmessyapron.com",
-      "cuisine": "American",
-      "tagline": "Simple, healthy recipes without sacrificing taste.",
-      "image_url": "https://www.chelseasmessyapron.com/wp-content/uploads/2026/09/Easy-Focaccia-Recipe-ChelseasMessyApron-1200-1.jpg",
-      "rss_url": "https://www.chelseasmessyapron.com/feed/",
-      "sites": []
-    },
-    {
-      "name": "Mom on Timeout",
-      "url": "https://www.momontimeout.com",
-      "cuisine": "American",
-      "tagline": "Real food for real families — simple and delicious.",
-      "image_url": "https://www.momontimeout.com/wp-content/uploads/2019/09/monterey-chicken-squared.jpg",
-      "rss_url": "https://www.momontimeout.com/feed/",
+      "name": "David Lebovitz",
+      "url": "https://www.davidlebovitz.com",
+      "cuisine": "French",
+      "tagline": "Baking and cooking from a pastry chef's Paris kitchen.",
+      "image_url": "https://www.davidlebovitz.com/wp-content/uploads/2026/09/IMG_4552.jpg",
+      "rss_url": "https://www.davidlebovitz.com/feed/",
       "sites": []
     }
   ],
   "featured_recipes": {
     "Mon": {
-      "title": "Apple Cider Donut Whoopie Pies",
-      "url": "https://www.thechunkychef.com/apple-cider-donut-whoopie-pies/",
-      "recipe_url": "https://www.thechunkychef.com/apple-cider-donut-whoopie-pies/",
-      "image_url": "https://www.thechunkychef.com/wp-content/uploads/2026/10/Apple-Cider-Donut-Whoopie-Pies-feat-220x275.jpg",
-      "site_name": "The Chunky Chef",
-      "site_url": "https://www.thechunkychef.com",
+      "title": "Roasted Butternut Squash Soup",
+      "url": "https://www.yellowblissroad.com/butternut-squash-soup/",
+      "recipe_url": "https://www.yellowblissroad.com/butternut-squash-soup/",
+      "image_url": "https://www.yellowblissroad.com/wp-content/uploads/2026/10/Butternut-squash-soup-18-social-300x300.jpg",
+      "site_name": "Yellow Bliss Road",
+      "site_url": "https://www.yellowblissroad.com",
       "cuisine": "American",
-      "published_at": "Fri, 16 Oct 2026 00:44:21 +0000"
+      "published_at": "Sun, 18 Oct 2026 11:00:00 +0000"
     },
     "Tue": {
-      "title": "Beef Ragu",
-      "url": "https://kristineskitchenblog.com/beef-ragu/",
-      "recipe_url": "https://kristineskitchenblog.com/beef-ragu/",
-      "image_url": "https://kristineskitchenblog.com/wp-content/uploads/2026/10/beef-ragu-recipe-01.jpg",
-      "site_name": "Kristine's Kitchen",
-      "site_url": "https://kristineskitchenblog.com",
-      "cuisine": "American",
-      "published_at": "Tue, 13 Oct 2026 20:54:04 +0000"
+      "cuisine": "Peruvian",
+      "image_url": "https://www.perudelights.com/wp-content/uploads/2018/05/kWLdgGD1-720.jpg",
+      "recipe_url": "https://perudelights.com/picarones-recipe/",
+      "site_name": "Peru Delights",
+      "title": "Picarones Recipe",
+      "url": "https://perudelights.com/picarones-recipe/"
     },
     "Wed": {
-      "title": "Cream Cheese Ball Recipe",
-      "url": "https://www.chelseasmessyapron.com/cream-cheese-ball-recipe/",
-      "recipe_url": "https://www.chelseasmessyapron.com/cream-cheese-ball-recipe/",
-      "image_url": "https://www.chelseasmessyapron.com/wp-content/uploads/2016/10/Bacon-Ranch-Cheeseball-768x1152.jpg",
-      "site_name": "Chelsea's Messy Apron",
-      "site_url": "https://www.chelseasmessyapron.com",
-      "cuisine": "American",
-      "published_at": "Mon, 19 Oct 2026 14:00:00 +0000"
+      "cuisine": "French",
+      "image_url": "https://www.davidlebovitz.com/wp-content/uploads/2026/09/IMG_4552-scaled.jpg",
+      "published_at": "Sat, 19 Sep 2026 08:20:33 +0000",
+      "recipe_url": "https://www.davidlebovitz.com/miso-walnut-chocolate-chip-cookies/",
+      "site_name": "David Lebovitz",
+      "site_url": "https://www.davidlebovitz.com",
+      "title": "Miso walnut chocolate chip cookies",
+      "url": "https://www.davidlebovitz.com/miso-walnut-chocolate-chip-cookies/"
     },
     "Thu": {
-      "title": "Salmon Sushi Bake",
-      "url": "https://www.momontimeout.com/salmon-sushi-bake-recipe/",
-      "recipe_url": "https://www.momontimeout.com/salmon-sushi-bake-recipe/",
-      "image_url": "https://www.momontimeout.com/wp-content/uploads/2026/10/sushi-casserole-square-500x500.jpg",
-      "site_name": "Mom on Timeout",
-      "site_url": "https://www.momontimeout.com",
-      "cuisine": "American",
-      "published_at": "Thu, 01 Oct 2026 21:48:03 +0000"
+      "title": "Lamb Tagine recipe",
+      "url": "https://www.davidlebovitz.com/i-dream-of-tagi/",
+      "recipe_url": "https://www.davidlebovitz.com/i-dream-of-tagi/",
+      "image_url": "https://www.davidlebovitz.com/wp-content/uploads/2006/08/IMG_0098-scaled.jpg",
+      "site_name": "David Lebovitz",
+      "site_url": "https://www.davidlebovitz.com",
+      "cuisine": "French",
+      "published_at": "Sun, 18 Oct 2026 13:50:12 +0000"
     },
     "Fri": {
-      "title": "Honey Miso Soy Steak Bites",
-      "url": "https://www.thechunkychef.com/honey-miso-soy-steak-bites/",
-      "recipe_url": "https://www.thechunkychef.com/honey-miso-soy-steak-bites/",
-      "image_url": "https://www.thechunkychef.com/wp-content/uploads/2026/10/Honey-Miso-Soy-Steak-Bites-feat-220x275.jpg",
-      "site_name": "The Chunky Chef",
-      "site_url": "https://www.thechunkychef.com",
+      "title": "Slow Cooker Mushroom Chicken",
+      "url": "https://www.yellowblissroad.com/slow-cooker-mushroom-chicken/",
+      "recipe_url": "https://www.yellowblissroad.com/slow-cooker-mushroom-chicken/",
+      "image_url": "https://www.yellowblissroad.com/wp-content/uploads/2023/05/Slow-Cooker-Mushroom-Chicken-social-300x300.jpg",
+      "site_name": "Yellow Bliss Road",
+      "site_url": "https://www.yellowblissroad.com",
       "cuisine": "American",
-      "published_at": "Fri, 09 Oct 2026 00:12:34 +0000"
+      "published_at": "Sat, 17 Oct 2026 11:00:00 +0000"
     },
     "Sat": {
-      "title": "Soft and Chewy Pumpkin Cookies",
-      "url": "https://kristineskitchenblog.com/pumpkin-cookies/",
-      "recipe_url": "https://kristineskitchenblog.com/pumpkin-cookies/",
-      "image_url": "https://kristineskitchenblog.com/wp-content/uploads/2026/09/chewy-pumpkin-cookies-25.jpg",
-      "site_name": "Kristine's Kitchen",
-      "site_url": "https://kristineskitchenblog.com",
-      "cuisine": "American",
-      "published_at": "Fri, 25 Sep 2026 21:20:41 +0000"
+      "cuisine": "Peruvian",
+      "image_url": "https://www.perudelights.com/wp-content/uploads/2017/08/papa_a_la_huancaina.jpg",
+      "recipe_url": "https://perudelights.com/salsa-huancaina-ii/",
+      "site_name": "Peru Delights",
+      "title": "Salsa Huancaina II (Peruvian Chili Cheese Sauce)",
+      "url": "https://perudelights.com/salsa-huancaina-ii/"
     },
     "Sun": {
       "cuisine": "American",
-      "image_url": "https://www.chelseasmessyapron.com/wp-content/uploads/2026/10/Cabbage-Roll-Soup-ChelseasMessyApron-1200-12-768x1152.jpg",
-      "published_at": "Sat, 10 Oct 2026 13:00:00 +0000",
-      "recipe_url": "https://www.chelseasmessyapron.com/cabbage-roll-soup/",
-      "site_name": "Chelsea's Messy Apron",
-      "site_url": "https://www.chelseasmessyapron.com",
-      "title": "Stuffed Cabbage Soup",
-      "url": "https://www.chelseasmessyapron.com/cabbage-roll-soup/"
+      "image_url": "https://tastesbetterfromscratch.com/wp-content/uploads/2022/05/Beef-Birria-Tacos-High-Web-7.jpg",
+      "published_at": "Tue, 13 Oct 2026 11:00:00 +0000",
+      "recipe_url": "https://tastesbetterfromscratch.com/birria-tacos/?adt_ei={{ subscriber.email_address }}",
+      "site_name": "Tastes Better From Scratch",
+      "site_url": "https://tastesbetterfromscratch.com",
+      "title": "These Crispy Birria Tacos Come with the Best Part: Dipping Broth",
+      "url": "https://tastesbetterfromscratch.com/birria-tacos/?adt_ei={{ subscriber.email_address }}"
     }
   },
   "featured_recipe": {
-    "title": "Apple Cider Donut Whoopie Pies",
-    "url": "https://www.thechunkychef.com/apple-cider-donut-whoopie-pies/",
-    "recipe_url": "https://www.thechunkychef.com/apple-cider-donut-whoopie-pies/",
-    "image_url": "https://www.thechunkychef.com/wp-content/uploads/2026/10/Apple-Cider-Donut-Whoopie-Pies-feat-220x275.jpg",
-    "site_name": "The Chunky Chef",
-    "site_url": "https://www.thechunkychef.com",
+    "title": "Roasted Butternut Squash Soup",
+    "url": "https://www.yellowblissroad.com/butternut-squash-soup/",
+    "recipe_url": "https://www.yellowblissroad.com/butternut-squash-soup/",
+    "image_url": "https://www.yellowblissroad.com/wp-content/uploads/2026/10/Butternut-squash-soup-18-social-300x300.jpg",
+    "site_name": "Yellow Bliss Road",
+    "site_url": "https://www.yellowblissroad.com",
     "cuisine": "American",
-    "published_at": "Fri, 16 Oct 2026 00:44:21 +0000"
+    "published_at": "Sun, 18 Oct 2026 11:00:00 +0000"
   }
 }
