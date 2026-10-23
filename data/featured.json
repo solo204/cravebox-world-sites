@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-23T04:05:12Z",
+  "updated_at": "2026-10-23T04:32:45Z",
   "slot_hours": 1,
   "slot_idx": 32,
   "week": 33,
@@ -105,11 +105,11 @@
     }
   },
   "featured_recipe": {
-    "cuisine": "Greek",
-    "image_url": "https://www.thehungrybites.com/wp-content/uploads/2026/07/Tiropita-recipe-feat.jpg",
-    "recipe_url": "https://www.thehungrybites.com/tiropita/",
-    "site_name": "The Hungry Bites",
-    "title": "Easy Tiropita recipe (Greek Feta Cheese Pie)",
-    "url": "https://www.thehungrybites.com/tiropita/"
+    "cuisine": "Baking",
+    "image_url": "https://bojongourmet.com/wp-content/uploads/2026/04/coconut-flour-pancakes-on-plate-berries-yogurt-maple-syrup-3.jpg",
+    "recipe_url": "https://bojongourmet.com/golden-lacy-coconut-flour-pancakes-dairy-free/",
+    "site_name": "The Bojon Gourmet",
+    "title": "Golden & Lacy Coconut Flour Pancakes (Dairy-Free)",
+    "url": "https://bojongourmet.com/golden-lacy-coconut-flour-pancakes-dairy-free/"
   }
 }
