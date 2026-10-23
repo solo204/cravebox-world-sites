@@ -1,126 +1,126 @@
 {
-  "updated_at": "2026-10-23T08:05:14Z",
+  "updated_at": "2026-10-23T09:05:13Z",
   "slot_hours": 1,
-  "slot_idx": 36,
-  "week": 37,
+  "slot_idx": 37,
+  "week": 38,
   "featured_sites": [
     {
-      "name": "Daily Cooking Quest",
-      "url": "https://dailycookingquest.com",
-      "cuisine": "Indonesian",
-      "tagline": "The best English-language Indonesian recipe blog, updated weekly.",
-      "image_url": "https://dailycookingquest.com/img/2024/12/thit-kho-7_hu7cbc751567a5e24874317a65c19fa60d_1988893_600x900_resize_q75_lanczos.jpg",
-      "rss_url": "https://dailycookingquest.com/index.xml",
-      "sites": []
-    },
-    {
-      "name": "Hebbar's Kitchen",
-      "url": "https://hebbarskitchen.com",
-      "cuisine": "Indian",
-      "tagline": "South Indian vegetarian recipes by a creator with 8M+ YouTube subscribers.",
-      "image_url": "https://hebbarskitchen.com/wp-content/uploads/2022/02/challa-punugulu-recipe-bullet-bonda-recipe-dahi-bonda-bullet-bajji-1-400x300.jpeg",
-      "rss_url": "https://hebbarskitchen.com/feed/",
-      "sites": []
-    },
-    {
-      "name": "Archana's Kitchen",
-      "url": "https://www.archanaskitchen.com",
-      "cuisine": "Indian",
-      "tagline": "Multi-regional Indian cuisine with dedicated Bengali, Tamil, and Maharashtrian sections.",
-      "image_url": "https://www.archanaskitchen.com/logo.png",
-      "rss_url": "https://www.archanaskitchen.com/feed/",
-      "sites": []
-    },
-    {
-      "name": "Crazy Korean Cooking",
-      "url": "https://www.crazykoreancooking.com",
+      "name": "Kimchimari",
+      "url": "https://kimchimari.com",
       "cuisine": "Korean",
-      "tagline": "Authentic Korean recipes with 4.6M+ combined social followers.",
-      "image_url": "https://crazykoreancooking.com/wp-content/uploads/2023/07/web-banner.jpeg",
-      "rss_url": "https://www.crazykoreancooking.com/feed/",
+      "tagline": "Health-focused Korean cooking — gluten-free and MSG-free angle since 2010.",
+      "image_url": "https://kimchimari.com/wp-content/uploads/2026/05/salt-bread-close-up-h-150x150.jpg",
+      "rss_url": "https://kimchimari.com/feed/",
+      "sites": []
+    },
+    {
+      "name": "Cooking with Lane",
+      "url": "https://www.cookingwithlane.com",
+      "cuisine": "Lao",
+      "tagline": "The only major English-language Lao recipe site — a uniquely underrepresented cuisine.",
+      "image_url": "https://cookingwithlane.com/wp-content/uploads/2021/07/cooking-with-lane-feature-image.png",
+      "rss_url": "https://www.cookingwithlane.com/feed/",
+      "sites": []
+    },
+    {
+      "name": "Singaporean and Malaysian Recipes",
+      "url": "https://www.linsfood.com",
+      "cuisine": "Malaysian",
+      "tagline": "Hawker favourites and festive dishes by London-based Azlin Bloor.",
+      "image_url": "https://www.linsfood.com/wp-content/uploads/2012/07/Paella-by-Azlin-Bloor.jpg",
+      "rss_url": "https://www.linsfood.com/feed/",
+      "sites": []
+    },
+    {
+      "name": "Unicorns in the Kitchen",
+      "url": "https://www.unicornsinthekitchen.com",
+      "cuisine": "Persian",
+      "tagline": "Persian and Middle Eastern recipes by a Tehran-born creator with 215K+ Instagram followers.",
+      "image_url": "https://www.unicornsinthekitchen.com/wp-content/uploads/2021/01/Feature-Image.jpg",
+      "rss_url": "https://www.unicornsinthekitchen.com/feed/",
       "sites": []
     }
   ],
   "featured_recipes": {
     "Mon": {
-      "title": "Thit Kho - Vietnamese Pork Belly in Coconut Water",
-      "url": "https://dailycookingquest.com/thit-kho-vietnamese-pork-belly-coconut-water.html",
-      "recipe_url": "https://dailycookingquest.com/thit-kho-vietnamese-pork-belly-coconut-water.html",
-      "image_url": "https://dailycookingquest.com/img/2024/12/thit-kho-7_hu7cbc751567a5e24874317a65c19fa60d_1988893_600x900_resize_q75_lanczos.jpg",
-      "site_name": "Daily Cooking Quest",
-      "site_url": "https://dailycookingquest.com",
-      "cuisine": "Indonesian",
-      "published_at": "Mon, 09 Dec 2024 09:00:00 +0700"
+      "cuisine": "Persian",
+      "image_url": "https://www.unicornsinthekitchen.com/wp-content/uploads/2026/09/Dopiazeh-aloo-Featured-Photo.jpg",
+      "published_at": "Thu, 08 Oct 2026 23:33:04 +0000",
+      "recipe_url": "https://www.unicornsinthekitchen.com/fried-potatoes-and-onions-persian-style/?utm_source=rss&utm_medium=rss&utm_campaign=fried-potatoes-and-onions-persian-style",
+      "site_name": "Unicorns in the Kitchen",
+      "site_url": "https://www.unicornsinthekitchen.com",
+      "title": "Persian Potatoes and Onions (Dopiazeh Aloo)",
+      "url": "https://www.unicornsinthekitchen.com/fried-potatoes-and-onions-persian-style/?utm_source=rss&utm_medium=rss&utm_campaign=fried-potatoes-and-onions-persian-style"
     },
     "Tue": {
-      "title": "Challa Punugulu Recipe | Bullet Dahi Bonda | Bullet Bajji",
-      "url": "https://hebbarskitchen.com/challa-punugulu-recipe-bullet-bajji/",
-      "recipe_url": "https://hebbarskitchen.com/challa-punugulu-recipe-bullet-bajji/",
-      "image_url": "https://hebbarskitchen.com/wp-content/uploads/2022/02/challa-punugulu-recipe-bullet-bonda-recipe-dahi-bonda-bullet-bajji-1-400x300.jpeg",
-      "site_name": "Hebbar's Kitchen",
-      "site_url": "https://hebbarskitchen.com",
-      "cuisine": "Indian",
-      "published_at": "Tue, 25 Aug 2026 01:02:50 +0000"
+      "cuisine": "Lao",
+      "image_url": "https://cookingwithlane.com/wp-content/uploads/2023/03/vietnamese-suon-ram-001.jpg",
+      "published_at": "Mon, 27 Mar 2023 14:32:49 +0000",
+      "recipe_url": "https://cookingwithlane.com/vietnamese-suon-ram/",
+      "site_name": "Cooking with Lane",
+      "site_url": "https://www.cookingwithlane.com",
+      "title": "Vietnamese Suon Ram",
+      "url": "https://cookingwithlane.com/vietnamese-suon-ram/"
     },
     "Wed": {
-      "title": "Apple Kimchi 사과 김치",
-      "url": "https://crazykoreancooking.com/recipe/apple-kimchi",
-      "recipe_url": "https://crazykoreancooking.com/recipe/apple-kimchi",
-      "image_url": "https://crazykoreancooking.com/wp-content/uploads/2026/06/Screenshot-2026-06-23-at-4.44.10-PM.png",
-      "site_name": "Crazy Korean Cooking",
-      "site_url": "https://www.crazykoreancooking.com",
-      "cuisine": "Korean",
-      "published_at": "Tue, 23 Jun 2026 20:45:27 +0000"
+      "title": "Creamy Masala Salmon",
+      "url": "https://www.linsfood.com/creamy-masala-salmon/",
+      "recipe_url": "https://www.linsfood.com/creamy-masala-salmon/",
+      "image_url": "https://www.linsfood.com/wp-content/uploads/2026/10/creamy-masala-salmon-facebook.jpg",
+      "site_name": "Singaporean and Malaysian Recipes",
+      "site_url": "https://www.linsfood.com",
+      "cuisine": "Malaysian",
+      "published_at": "Wed, 14 Oct 2026 16:21:41 +0000"
     },
     "Thu": {
-      "title": "Kyoto Style Tofu and Shimeji in Ankake Sauce",
-      "url": "https://dailycookingquest.com/kyoto-style-tofu-and-shimeji-in-ankake-sauce.html",
-      "recipe_url": "https://dailycookingquest.com/kyoto-style-tofu-and-shimeji-in-ankake-sauce.html",
-      "image_url": "https://dailycookingquest.com/img/2024/12/kyoto-tofu-shimeji-ankake-sauce-3_hu11496c9fb0280a58a1c6d95428affad5_1603322_600x900_resize_q75_lanczos.jpg",
-      "site_name": "Daily Cooking Quest",
-      "site_url": "https://dailycookingquest.com",
-      "cuisine": "Indonesian",
-      "published_at": "Mon, 02 Dec 2024 09:00:00 +0800"
+      "title": "Castelvetrano Olive Salad with Sun-Dried Tomatoes",
+      "url": "https://www.unicornsinthekitchen.com/castelvetrano-olive-salad/?utm_source=rss&utm_medium=rss&utm_campaign=castelvetrano-olive-salad",
+      "recipe_url": "https://www.unicornsinthekitchen.com/castelvetrano-olive-salad/?utm_source=rss&utm_medium=rss&utm_campaign=castelvetrano-olive-salad",
+      "image_url": "https://www.unicornsinthekitchen.com/wp-content/uploads/2026/10/Olive-salad-featured-photo.jpg",
+      "site_name": "Unicorns in the Kitchen",
+      "site_url": "https://www.unicornsinthekitchen.com",
+      "cuisine": "Persian",
+      "published_at": "Mon, 19 Oct 2026 21:13:20 +0000"
     },
     "Fri": {
-      "title": "Baingan Masala Recipe | Eggplant Masala Curry",
-      "url": "https://hebbarskitchen.com/baingan-masala-recipe-brinjal-masala/",
-      "recipe_url": "https://hebbarskitchen.com/baingan-masala-recipe-brinjal-masala/",
-      "image_url": "https://hebbarskitchen.com/wp-content/uploads/2017/04/baingan-masala-recipe-brinjal-masala-recipe-eggplant-masala-curry-1-356x220.jpeg",
-      "site_name": "Hebbar's Kitchen",
-      "site_url": "https://hebbarskitchen.com",
-      "cuisine": "Indian",
-      "published_at": "Tue, 11 Aug 2026 16:23:04 +0000"
+      "cuisine": "Korean",
+      "image_url": "https://kimchimari.com/wp-content/uploads/2025/11/Chocolate-Mochi-Brownie-Tteokppang-150x150.jpg",
+      "published_at": "Wed, 19 Nov 2025 05:34:21 +0000",
+      "recipe_url": "https://kimchimari.com/mochi-brownie-chocolate-tteokppang/",
+      "site_name": "Kimchimari",
+      "site_url": "https://kimchimari.com",
+      "title": "Mochi Brownie (Chocolate Tteokppang)",
+      "url": "https://kimchimari.com/mochi-brownie-chocolate-tteokppang/"
     },
     "Sat": {
-      "title": "Collard Greens Kimchi 콜라드그린 김치",
-      "url": "https://crazykoreancooking.com/recipe/collard-green-kimchi",
-      "recipe_url": "https://crazykoreancooking.com/recipe/collard-green-kimchi",
-      "image_url": "https://crazykoreancooking.com/wp-content/uploads/2026/05/Screenshot-2026-05-23-at-6.46.26-PM-1024x900.png",
-      "site_name": "Crazy Korean Cooking",
-      "site_url": "https://www.crazykoreancooking.com",
-      "cuisine": "Korean",
-      "published_at": "Sat, 23 May 2026 22:45:03 +0000"
+      "cuisine": "Lao",
+      "image_url": "https://cookingwithlane.com/wp-content/uploads/2022/03/banh-canh-gio-heo-014.jpg",
+      "published_at": "Sat, 26 Mar 2022 23:28:57 +0000",
+      "recipe_url": "https://cookingwithlane.com/authentic-vietnamese-banh-canh-gio-heo/",
+      "site_name": "Cooking with Lane",
+      "site_url": "https://www.cookingwithlane.com",
+      "title": "Authentic Vietnamese Banh Canh Gio Heo",
+      "url": "https://cookingwithlane.com/authentic-vietnamese-banh-canh-gio-heo/"
     },
     "Sun": {
-      "title": "Dubu Jorim - Braised Tofu and Ground Meat",
-      "url": "https://dailycookingquest.com/dubu-jorim-braised-tofu-and-ground-beef.html",
-      "recipe_url": "https://dailycookingquest.com/dubu-jorim-braised-tofu-and-ground-beef.html",
-      "image_url": "https://dailycookingquest.com/img/2024/11/dubu-jorim-braised-tofu-ground-meat-4_hu46b17f818003735fb994eb6eea6b69b7_2215588_600x900_resize_q75_lanczos.jpg",
-      "site_name": "Daily Cooking Quest",
-      "site_url": "https://dailycookingquest.com",
-      "cuisine": "Indonesian",
-      "published_at": "Mon, 25 Nov 2024 09:00:00 +0800"
+      "cuisine": "Persian",
+      "image_url": "https://www.unicornsinthekitchen.com/wp-content/uploads/2026/09/Feta-and-olive-oil-dipping-sauce-1200-x-1800-px-1.jpg",
+      "published_at": "Tue, 29 Sep 2026 15:01:17 +0000",
+      "recipe_url": "https://www.unicornsinthekitchen.com/feta-and-olive-oil-dip/?utm_source=rss&utm_medium=rss&utm_campaign=feta-and-olive-oil-dip",
+      "site_name": "Unicorns in the Kitchen",
+      "site_url": "https://www.unicornsinthekitchen.com",
+      "title": "Feta And Olive Oil Dip (5 Minutes!)",
+      "url": "https://www.unicornsinthekitchen.com/feta-and-olive-oil-dip/?utm_source=rss&utm_medium=rss&utm_campaign=feta-and-olive-oil-dip"
     }
   },
   "featured_recipe": {
-    "title": "Thit Kho - Vietnamese Pork Belly in Coconut Water",
-    "url": "https://dailycookingquest.com/thit-kho-vietnamese-pork-belly-coconut-water.html",
-    "recipe_url": "https://dailycookingquest.com/thit-kho-vietnamese-pork-belly-coconut-water.html",
-    "image_url": "https://dailycookingquest.com/img/2024/12/thit-kho-7_hu7cbc751567a5e24874317a65c19fa60d_1988893_600x900_resize_q75_lanczos.jpg",
-    "site_name": "Daily Cooking Quest",
-    "site_url": "https://dailycookingquest.com",
-    "cuisine": "Indonesian",
-    "published_at": "Mon, 09 Dec 2024 09:00:00 +0700"
+    "cuisine": "Persian",
+    "image_url": "https://www.unicornsinthekitchen.com/wp-content/uploads/2026/09/Dopiazeh-aloo-Featured-Photo.jpg",
+    "published_at": "Thu, 08 Oct 2026 23:33:04 +0000",
+    "recipe_url": "https://www.unicornsinthekitchen.com/fried-potatoes-and-onions-persian-style/?utm_source=rss&utm_medium=rss&utm_campaign=fried-potatoes-and-onions-persian-style",
+    "site_name": "Unicorns in the Kitchen",
+    "site_url": "https://www.unicornsinthekitchen.com",
+    "title": "Persian Potatoes and Onions (Dopiazeh Aloo)",
+    "url": "https://www.unicornsinthekitchen.com/fried-potatoes-and-onions-persian-style/?utm_source=rss&utm_medium=rss&utm_campaign=fried-potatoes-and-onions-persian-style"
   }
 }
