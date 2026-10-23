@@ -1,119 +1,111 @@
 {
-  "updated_at": "2026-10-23T02:05:14Z",
+  "updated_at": "2026-10-23T03:05:13Z",
   "slot_hours": 1,
-  "slot_idx": 30,
-  "week": 31,
+  "slot_idx": 31,
+  "week": 32,
   "featured_sites": [
     {
-      "name": "A Sassy Spoon",
-      "url": "https://asassyspoon.com",
-      "cuisine": "Cuban",
-      "tagline": "Cuban and Latin-inspired recipes for home cooks.",
-      "image_url": "https://asassyspoon.com/wp-content/uploads/2025/10/pudin-de-pan-cuban-bread-pudding-asassyspoon-1-2.jpg",
-      "rss_url": "https://asassyspoon.com/feed/",
-      "sites": []
-    },
-    {
-      "name": "The Recipe Critic",
-      "url": "https://therecipecritic.com",
-      "cuisine": "American",
-      "tagline": "Tried and true recipes for families.",
-      "image_url": "https://therecipecritic.com/wp-content/uploads/2026/10/chicken-mississippi-spaghetti.jpg",
-      "rss_url": "https://therecipecritic.com/feed/"
-    },
-    {
-      "name": "Eat Peru",
-      "url": "https://www.eatperu.com",
-      "cuisine": "Peruvian",
-      "tagline": "Authentic Peruvian food and recipes.",
-      "image_url": "https://www.eatperu.com/wp-content/uploads/2026/02/jamon-del-pais-butifarra-overhead.jpg",
-      "rss_url": "https://www.eatperu.com/feed/",
-      "sites": []
-    },
-    {
-      "name": "Brazilian Kitchen Abroad",
-      "url": "https://braziliankitchenabroad.com",
+      "name": "Easy Brazilian Food",
+      "url": "https://easybrazilianfood.com",
       "cuisine": "Brazilian",
-      "tagline": "Brazilian flavors for everyday cooking.",
-      "image_url": "https://braziliankitchenabroad.com/wp-content/uploads/2026/06/Air-Fryer-Picanha_Churrasco-Air-Fryer-18.jpg",
-      "rss_url": "https://braziliankitchenabroad.com/feed/",
+      "tagline": "Easy Brazilian recipes from an American transplant.",
+      "image_url": "https://easybrazilianfood.com/wp-content/uploads/2026/09/Bolinhos-de-Chuva-POST-angle-COVER.jpeg",
+      "rss_url": "https://easybrazilianfood.com/feed/",
       "sites": []
+    },
+    {
+      "name": "Eating Thai Food",
+      "url": "https://www.eatingthaifood.com",
+      "cuisine": "Thai",
+      "tagline": "Authentic street-food-style Thai recipes by Bangkok-based food writer Mark Wiens, sourced from real Thai family cooking.",
+      "rss_url": "https://www.eatingthaifood.com/feed/",
+      "image_url": "https://www.eatingthaifood.com/wp-content/uploads/2017/05/thai-cashew-chicken-recipe.jpg",
+      "sites": []
+    },
+    {
+      "name": "Olive Tomato",
+      "url": "https://www.olivetomato.com",
+      "cuisine": "Greek",
+      "tagline": "Authentic Greek and Mediterranean diet recipes from Greek-born registered dietitian Elena Paravantes.",
+      "rss_url": "https://www.olivetomato.com/feed/",
+      "image_url": "https://www.olivetomato.com/wp-content/uploads/2026/05/SAM_8948.jpeg",
+      "sites": []
+    },
+    {
+      "name": "International Cuisine",
+      "url": "https://www.internationalcuisine.com",
+      "cuisine": "American",
+      "tagline": "Every country's national dish and traditional recipes systematically covered, a one-stop world recipe reference.",
+      "rss_url": "https://www.internationalcuisine.com/feed/",
+      "image_url": "https://www.internationalcuisine.com/wp-content/uploads/2024/06/KgKb2OGQ.jpeg"
     }
   ],
   "featured_recipes": {
     "Mon": {
-      "title": "Pudin de Pan (Classic Cuban Bread Pudding)",
-      "url": "https://asassyspoon.com/pudin-de-pan/",
-      "recipe_url": "https://asassyspoon.com/pudin-de-pan/",
-      "image_url": "https://asassyspoon.com/wp-content/uploads/2025/10/pudin-de-pan-cuban-bread-pudding-asassyspoon-1-2.jpg",
-      "site_name": "A Sassy Spoon",
-      "site_url": "https://asassyspoon.com",
-      "cuisine": "Cuban",
-      "published_at": "Tue, 11 Nov 2025 12:00:00 +0000"
+      "cuisine": "Brazilian",
+      "image_url": "https://easybrazilianfood.com/wp-content/uploads/2026/07/Pork-Chops-with-Onions-POST-Pan-OH-SQUARE2.jpeg",
+      "recipe_url": "https://easybrazilianfood.com/pork-chops-with-onions/",
+      "site_name": "Easy Brazilian Food",
+      "title": "Pork Chops with Onions ~ Costeletas de Porco com Cebolas",
+      "url": "https://easybrazilianfood.com/pork-chops-with-onions/"
     },
     "Tue": {
-      "cuisine": "American",
-      "image_url": "https://therecipecritic.com/wp-content/uploads/2026/10/slow-cooker-honey-garlic-chicken-noodles-4-1.jpg",
-      "recipe_url": "https://therecipecritic.com/slow-cooker-honey-garlic-chicken-noodles/",
-      "site_name": "The Recipe Critic",
-      "title": "Slow Cooker Honey Garlic Chicken Noodles",
-      "url": "https://therecipecritic.com/slow-cooker-honey-garlic-chicken-noodles/"
+      "cuisine": "Thai",
+      "image_url": "https://www.eatingthaifood.com/wp-content/uploads/2017/02/authentic-thai-green-curry-recipe.jpg",
+      "recipe_url": "https://www.eatingthaifood.com/thai-green-curry-recipe/",
+      "site_name": "Eating Thai Food",
+      "title": "Authentic Thai Green Curry Recipe (แกงเขียวหวาน) by My Mother-In-Law",
+      "url": "https://www.eatingthaifood.com/thai-green-curry-recipe/"
     },
     "Wed": {
-      "title": "Jamón del País (Peruvian Country Ham)",
-      "url": "https://www.eatperu.com/jamon-del-pais-peruvian-country-ham/",
-      "recipe_url": "https://www.eatperu.com/jamon-del-pais-peruvian-country-ham/",
-      "image_url": "https://www.eatperu.com/wp-content/uploads/2026/02/jamon-del-pais-butifarra-overhead.jpg",
-      "site_name": "Eat Peru",
-      "site_url": "https://www.eatperu.com",
-      "cuisine": "Peruvian",
-      "published_at": "Sun, 01 Mar 2026 09:40:09 +0000"
+      "cuisine": "Greek",
+      "image_url": "https://www.olivetomato.com/wp-content/uploads/2026/05/Roasted-asparagus-with-feta-and-almonds-1.jpeg",
+      "recipe_url": "https://www.olivetomato.com/oven-roasted-asparagus-with-feta-and-almonds/",
+      "site_name": "Olive Tomato",
+      "title": "Oven Roasted Asparagus with Feta-Almond Crunchy Topping",
+      "url": "https://www.olivetomato.com/oven-roasted-asparagus-with-feta-and-almonds/"
     },
     "Thu": {
-      "cuisine": "Brazilian",
-      "image_url": "https://braziliankitchenabroad.com/wp-content/uploads/2025/12/Banana-Parfait-13.jpg",
-      "recipe_url": "https://braziliankitchenabroad.com/banana-parfait-with-banana-mousse/",
-      "site_name": "Brazilian Kitchen Abroad",
-      "title": "Banana Parfait with Banana Mousse",
-      "url": "https://braziliankitchenabroad.com/banana-parfait-with-banana-mousse/"
+      "cuisine": "American",
+      "image_url": "https://www.internationalcuisine.com/wp-content/uploads/2024/01/Turkey-2.jpg",
+      "recipe_url": "https://www.internationalcuisine.com/turkish-stuffed-mussels-recipe/",
+      "site_name": "International Cuisine",
+      "title": "Turkish Stuffed Mussels Recipe (Midye Dolma)",
+      "url": "https://www.internationalcuisine.com/turkish-stuffed-mussels-recipe/"
     },
     "Fri": {
-      "title": "Flan de Calabaza (Cuban-Style Pumpkin Flan)",
-      "url": "https://asassyspoon.com/pumpkin-flan/",
-      "recipe_url": "https://asassyspoon.com/pumpkin-flan/",
-      "image_url": "https://asassyspoon.com/wp-content/uploads/2022/09/cuban-flan-de-calabaza-pumpkin-asassyspoon-8.jpg",
-      "site_name": "A Sassy Spoon",
-      "site_url": "https://asassyspoon.com",
-      "cuisine": "Cuban",
-      "published_at": "Wed, 22 Oct 2025 11:00:00 +0000"
+      "cuisine": "Brazilian",
+      "image_url": "https://easybrazilianfood.com/wp-content/uploads/2025/10/Ham-and-Leek-Pie-POST-Piece-Out-OH-SQUARE.jpeg",
+      "recipe_url": "https://easybrazilianfood.com/ham-and-leek-pie/",
+      "site_name": "Easy Brazilian Food",
+      "title": "Ham and Leek Pie",
+      "url": "https://easybrazilianfood.com/ham-and-leek-pie/"
     },
     "Sat": {
-      "cuisine": "American",
-      "image_url": "https://therecipecritic.com/wp-content/uploads/2026/10/chicken-gnocchi.jpg",
-      "recipe_url": "https://therecipecritic.com/creamy-chicken-gnocchi-soup-olive-garden-copycat/",
-      "site_name": "The Recipe Critic",
-      "title": "Creamy Chicken Gnocchi Soup (Olive Garden Copycat)",
-      "url": "https://therecipecritic.com/creamy-chicken-gnocchi-soup-olive-garden-copycat/"
+      "cuisine": "Thai",
+      "image_url": "https://www.eatingthaifood.com/wp-content/uploads/2017/05/thai-cashew-chicken-recipe.jpg",
+      "recipe_url": "https://www.eatingthaifood.com/thai-cashew-chicken-recipe/",
+      "site_name": "Eating Thai Food",
+      "title": "Amazing Thai Cashew Chicken Recipe – Authentic and Easy to Make!",
+      "url": "https://www.eatingthaifood.com/thai-cashew-chicken-recipe/"
     },
     "Sun": {
-      "title": "Quinoa Fried Rice: A Nutritious Peruvian Twist on a Classic Dish",
-      "url": "https://www.eatperu.com/quinoa-fried-rice/",
-      "recipe_url": "https://www.eatperu.com/quinoa-fried-rice/",
-      "image_url": "https://www.eatperu.com/wp-content/uploads/2025/01/Nutty-Quinoa-Fried-Rice-Garnished-with-Green-Onions.jpg",
-      "site_name": "Eat Peru",
-      "site_url": "https://www.eatperu.com",
-      "cuisine": "Peruvian",
-      "published_at": "Sun, 19 Jan 2025 13:56:49 +0000"
+      "title": "The Colorful Foods You Should Pay Attention To. What New Research Shows.",
+      "url": "https://www.olivetomato.com/the-colorful-foods-you-should-pay-attention-to/",
+      "recipe_url": "https://www.olivetomato.com/the-colorful-foods-you-should-pay-attention-to/",
+      "image_url": "https://www.olivetomato.com/wp-content/uploads/2026/09/cherries-plus-yogurt.jpg",
+      "site_name": "Olive Tomato",
+      "site_url": "https://www.olivetomato.com",
+      "cuisine": "Greek",
+      "published_at": "Tue, 04 Aug 2026 11:18:19 +0000"
     }
   },
   "featured_recipe": {
-    "title": "Pudin de Pan (Classic Cuban Bread Pudding)",
-    "url": "https://asassyspoon.com/pudin-de-pan/",
-    "recipe_url": "https://asassyspoon.com/pudin-de-pan/",
-    "image_url": "https://asassyspoon.com/wp-content/uploads/2025/10/pudin-de-pan-cuban-bread-pudding-asassyspoon-1-2.jpg",
-    "site_name": "A Sassy Spoon",
-    "site_url": "https://asassyspoon.com",
-    "cuisine": "Cuban",
-    "published_at": "Tue, 11 Nov 2025 12:00:00 +0000"
+    "cuisine": "Brazilian",
+    "image_url": "https://easybrazilianfood.com/wp-content/uploads/2026/07/Pork-Chops-with-Onions-POST-Pan-OH-SQUARE2.jpeg",
+    "recipe_url": "https://easybrazilianfood.com/pork-chops-with-onions/",
+    "site_name": "Easy Brazilian Food",
+    "title": "Pork Chops with Onions ~ Costeletas de Porco com Cebolas",
+    "url": "https://easybrazilianfood.com/pork-chops-with-onions/"
   }
 }
