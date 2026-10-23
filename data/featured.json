@@ -1,126 +1,117 @@
 {
-  "updated_at": "2026-10-23T22:05:13Z",
+  "updated_at": "2026-10-23T23:05:15Z",
   "slot_hours": 1,
-  "slot_idx": 50,
-  "week": 51,
+  "slot_idx": 51,
+  "week": 52,
   "featured_sites": [
     {
-      "name": "Cookie and Kate",
-      "url": "https://cookieandkate.com",
-      "cuisine": "Vegetarian",
-      "tagline": "Wholesome vegetarian recipes for every occasion.",
-      "image_url": "https://cookieandkate.com/images/2026/10/gluten-free-cornbread.jpg",
-      "rss_url": "https://cookieandkate.com/feed/",
+      "name": "China Sichuan Food",
+      "url": "https://chinasichuanfood.com",
+      "cuisine": "Chinese",
+      "tagline": "Authentic Sichuan flavors with step-by-step guidance.",
+      "image_url": "https://www.chinasichuanfood.com/wp-content/uploads/2026/10/Palm-Sauce-Pork-20.webp",
+      "rss_url": "https://chinasichuanfood.com/feed/"
+    },
+    {
+      "name": "Hungry Paprikas",
+      "url": "https://www.hungrypaprikas.com",
+      "cuisine": "Middle Eastern",
+      "tagline": "Authentic Arabic and Middle Eastern recipes.",
+      "image_url": "https://www.hungrypaprikas.com/wp-content/uploads/2026/08/Ground-Beef-Curry-2.jpg",
+      "rss_url": "https://www.hungrypaprikas.com/feed/",
       "sites": []
     },
     {
-      "name": "My Greek Dish",
-      "url": "https://www.mygreekdish.com",
-      "cuisine": "Greek",
-      "tagline": "Authentic Greek recipes made simple at home.",
-      "image_url": "https://www.mygreekdish.com/wp-content/uploads/2024/09/Feta-Pasta-bake.jpeg",
-      "rss_url": "https://www.mygreekdish.com/feed/",
+      "name": "Dassana's Veg Recipes",
+      "url": "https://www.vegrecipesofindia.com",
+      "cuisine": "Indian",
+      "tagline": "100% vegetarian Indian recipes.",
+      "image_url": "https://www.vegrecipesofindia.com/wp-content/uploads/2020/01/paneer-butter-masala-1.jpg",
+      "rss_url": "https://www.vegrecipesofindia.com/feed/",
       "sites": []
     },
     {
-      "name": "Caribbean Pot",
-      "url": "https://www.caribbeanpot.com",
-      "cuisine": "Caribbean",
-      "tagline": "Genuine Caribbean cooking and comfort food.",
-      "image_url": "https://caribbeanpot.com/wp-content/uploads/2026/10/chicken-rasta-pasta-14.jpg",
-      "rss_url": "https://caribbeanpot.com/feed/",
-      "sites": []
-    },
-    {
-      "name": "Spain on a Fork",
-      "url": "https://www.spainonafork.com",
-      "cuisine": "Spanish",
-      "tagline": "Authentic Spanish recipes for the home cook.",
-      "image_url": "https://i0.wp.com/spainonafork.com/wp-content/uploads/2024/02/image7-4-11.png",
-      "rss_url": "https://www.spainonafork.com/feed/",
+      "name": "The Mediterranean Dish",
+      "url": "https://www.themediterraneandish.com",
+      "cuisine": "Lebanese",
+      "tagline": "Bold Mediterranean flavors for every table.",
+      "image_url": "https://www.themediterraneandish.com/wp-content/uploads/2026/09/Turkish-Pasta-12.jpg",
+      "rss_url": "https://www.themediterraneandish.com/feed/",
       "sites": []
     }
   ],
   "featured_recipes": {
     "Mon": {
-      "title": "Authentic Caribbean Kitchri Recipe (One-Pot Comfort Food)",
-      "url": "https://caribbeanpot.com/authentic-caribbean-kitchri-recipe-one-pot-comfort-food/",
-      "recipe_url": "https://caribbeanpot.com/authentic-caribbean-kitchri-recipe-one-pot-comfort-food/",
-      "image_url": "https://caribbeanpot.com/wp-content/uploads/2026/10/trinidad-kitchri-recipe-1.jpg",
-      "site_name": "Caribbean Pot",
-      "site_url": "https://www.caribbeanpot.com",
-      "cuisine": "Caribbean",
-      "published_at": "Mon, 19 Oct 2026 16:33:23 +0000"
+      "cuisine": "Middle Eastern",
+      "image_url": "https://www.hungrypaprikas.com/wp-content/uploads/2026/09/Beef-Stuffed-Flatbread-3.jpg",
+      "recipe_url": "https://www.hungrypaprikas.com/beef-stuffed-flatbread/",
+      "site_name": "Hungry Paprikas",
+      "title": "Oven Baked Beef Stuffed Flatbread (From Scratch Dough)",
+      "url": "https://www.hungrypaprikas.com/beef-stuffed-flatbread/"
     },
     "Tue": {
-      "title": "COZY Butter Bean and Rice Soup | Heartwarming One-Pot Recipe",
-      "url": "https://spainonafork.com/cozy-butter-bean-and-rice-soup-recipe/",
-      "recipe_url": "https://spainonafork.com/cozy-butter-bean-and-rice-soup-recipe/",
-      "image_url": "https://i0.wp.com/spainonafork.com/wp-content/uploads/2026/10/image6-2-11.png?fit=750%2C750&ssl=1",
-      "site_name": "Spain on a Fork",
-      "site_url": "https://www.spainonafork.com",
-      "cuisine": "Spanish",
-      "published_at": "Mon, 19 Oct 2026 14:00:35 +0000"
+      "title": "Italian Wedding Soup",
+      "url": "https://www.budgetbytes.com/italian-wedding-soup/",
+      "recipe_url": "https://www.budgetbytes.com/italian-wedding-soup/",
+      "image_url": "https://www.budgetbytes.com/wp-content/uploads/2023/12/Italian-Wedding-Soup-Overhead-Wide.jpg",
+      "site_name": "Budget Bytes",
+      "site_url": "https://www.budgetbytes.com",
+      "cuisine": "American",
+      "published_at": "Sat, 17 Oct 2026 13:30:00 +0000"
     },
     "Wed": {
-      "title": "Roasted Tomato Soup with Grilled Cheese Croutons",
-      "url": "https://www.oliviascuisine.com/roasted-tomato-soup/",
-      "recipe_url": "https://www.oliviascuisine.com/roasted-tomato-soup/",
-      "image_url": "https://www.oliviascuisine.com/wp-content/uploads/2026/10/roasted-tomato-soup-recipe-300x375.jpg",
-      "site_name": "Olivia's Cuisine",
-      "site_url": "https://www.oliviascuisine.com",
-      "cuisine": "Brazilian",
-      "published_at": "Fri, 16 Oct 2026 21:02:09 +0000"
+      "title": "Apple Streusel Meal Prep Muffins",
+      "url": "https://pinchofyum.com/apple-streusel-meal-prep-muffins",
+      "recipe_url": "https://pinchofyum.com/apple-streusel-meal-prep-muffins",
+      "image_url": "https://pinchofyum.com/tachyon/Apple-Streusel-Muffins-scaled.jpg",
+      "site_name": "Pinch of Yum",
+      "site_url": "https://pinchofyum.com",
+      "cuisine": "American",
+      "published_at": "Fri, 09 Oct 2026 16:17:51 +0000"
     },
     "Thu": {
-      "title": "Creamy Chicken Noodle Soup",
-      "url": "https://www.feastingathome.com/creamy-chicken-noodle-soup/",
-      "recipe_url": "https://www.feastingathome.com/creamy-chicken-noodle-soup/",
-      "image_url": "https://www.feastingathome.com/wp-content/uploads/2026/09/Creamy-Chicken-Noodle-Soup-10-768x1152.jpg",
-      "site_name": "Feasting at Home",
-      "site_url": "https://www.feastingathome.com",
-      "cuisine": "American",
-      "published_at": "Wed, 14 Oct 2026 23:07:43 +0000"
+      "cuisine": "Chinese",
+      "image_url": "https://www.chinasichuanfood.com/wp-content/uploads/2026/09/Mala-Pork-Belly-16.webp",
+      "recipe_url": "https://www.chinasichuanfood.com/spicy-pork-belly-stir-fry-mala-pork-belly/",
+      "site_name": "China Sichuan Food",
+      "title": "Spicy Pork Belly Stir Fry – Mala Pork Belly",
+      "url": "https://www.chinasichuanfood.com/spicy-pork-belly-stir-fry-mala-pork-belly/"
     },
     "Fri": {
-      "cuisine": "American",
-      "image_url": "https://www.ambitiouskitchen.com/wp-content/uploads/2024/11/Salted-Brown-Butter-Pumpkin-Oatmeal-Cream-Pies-6-750x750.jpg",
-      "published_at": "Sun, 11 Oct 2026 16:00:23 +0000",
-      "recipe_url": "https://www.ambitiouskitchen.com/pumpkin-oatmeal-cream-pies/",
-      "site_name": "Ambitious Kitchen",
-      "site_url": "https://www.ambitiouskitchen.com",
-      "title": "Salted Brown Butter Pumpkin Oatmeal Cream Pies with Brown Butter Cream Cheese Filling",
-      "url": "https://www.ambitiouskitchen.com/pumpkin-oatmeal-cream-pies/"
+      "cuisine": "Middle Eastern",
+      "image_url": "https://www.hungrypaprikas.com/wp-content/uploads/2025/11/Beyti-Kebab-2.jpg",
+      "recipe_url": "https://www.hungrypaprikas.com/beyti-kebab/",
+      "site_name": "Hungry Paprikas",
+      "title": "Weeknight Beyti Kebab (with Tortillas)",
+      "url": "https://www.hungrypaprikas.com/beyti-kebab/"
     },
     "Sat": {
-      "title": "Roasted Vegetable Recipes",
-      "url": "https://www.101cookbooks.com/roasted-vegetable-recipes/",
-      "recipe_url": "https://www.101cookbooks.com/roasted-vegetable-recipes/",
-      "image_url": "https://images.101cookbooks.com/roasted-vegetable-recipes-h.jpg?w=680",
-      "site_name": "101 Cookbooks",
-      "site_url": "https://www.101cookbooks.com",
-      "cuisine": "Vegetarian",
-      "published_at": "Tue, 13 Oct 2026 02:57:53 +0000"
+      "title": "Apple Spice Cake",
+      "url": "https://www.budgetbytes.com/apple-spice-cake/",
+      "recipe_url": "https://www.budgetbytes.com/apple-spice-cake/",
+      "image_url": "https://www.budgetbytes.com/wp-content/uploads/2026/10/Apple-Spice-Cake-Overhead-Wide.jpg",
+      "site_name": "Budget Bytes",
+      "site_url": "https://www.budgetbytes.com",
+      "cuisine": "American",
+      "published_at": "Fri, 16 Oct 2026 13:30:00 +0000"
     },
     "Sun": {
-      "cuisine": "Caribbean",
-      "image_url": "https://caribbeanpot.com/wp-content/uploads/2026/10/easy-honey-jerk-salmon-4.jpg?wsr",
-      "published_at": "Wed, 14 Oct 2026 18:10:38 +0000",
-      "recipe_url": "https://caribbeanpot.com/incredible-honey-jerk-salmon-easy-oven-method/",
-      "site_name": "Caribbean Pot",
-      "site_url": "https://www.caribbeanpot.com",
-      "title": "Incredible Honey Jerk Salmon (Easy Oven Method)",
-      "url": "https://caribbeanpot.com/incredible-honey-jerk-salmon-easy-oven-method/"
+      "title": "Pastina Soup (Italian Penicillin)",
+      "url": "https://pinchofyum.com/pastina-soup-italian-penicillin",
+      "recipe_url": "https://pinchofyum.com/pastina-soup-italian-penicillin",
+      "image_url": "https://pinchofyum.com/tachyon/Pastina-Soup-scaled.jpg",
+      "site_name": "Pinch of Yum",
+      "site_url": "https://pinchofyum.com",
+      "cuisine": "American",
+      "published_at": "Thu, 01 Oct 2026 14:58:20 +0000"
     }
   },
   "featured_recipe": {
-    "title": "Authentic Caribbean Kitchri Recipe (One-Pot Comfort Food)",
-    "url": "https://caribbeanpot.com/authentic-caribbean-kitchri-recipe-one-pot-comfort-food/",
-    "recipe_url": "https://caribbeanpot.com/authentic-caribbean-kitchri-recipe-one-pot-comfort-food/",
-    "image_url": "https://caribbeanpot.com/wp-content/uploads/2026/10/trinidad-kitchri-recipe-1.jpg",
-    "site_name": "Caribbean Pot",
-    "site_url": "https://www.caribbeanpot.com",
-    "cuisine": "Caribbean",
-    "published_at": "Mon, 19 Oct 2026 16:33:23 +0000"
+    "cuisine": "Middle Eastern",
+    "image_url": "https://www.hungrypaprikas.com/wp-content/uploads/2026/09/Beef-Stuffed-Flatbread-3.jpg",
+    "recipe_url": "https://www.hungrypaprikas.com/beef-stuffed-flatbread/",
+    "site_name": "Hungry Paprikas",
+    "title": "Oven Baked Beef Stuffed Flatbread (From Scratch Dough)",
+    "url": "https://www.hungrypaprikas.com/beef-stuffed-flatbread/"
   }
 }
