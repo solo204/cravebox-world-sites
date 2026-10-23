@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-23T18:05:13Z",
+  "updated_at": "2026-10-23T19:04:07Z",
   "slot_hours": 1,
   "slot_idx": 46,
   "week": 47,
@@ -114,13 +114,13 @@
     }
   },
   "featured_recipe": {
-    "title": "Hünkar Beğendi; Sultan’s Lamb Stew Over Smoked Aubergine and Béchamel Sauce",
-    "url": "https://ozlemsturkishtable.com/2026/08/hunkar-begendi-sultans-lamb-stew-over-smoked-aubergine-and-bechamel-sauce/",
-    "recipe_url": "https://ozlemsturkishtable.com/2026/08/hunkar-begendi-sultans-lamb-stew-over-smoked-aubergine-and-bechamel-sauce/",
-    "image_url": "https://ozlemsturkishtable.com/wp-content/uploads/2026/01/Hunkar-Begendi-537x700.jpg",
+    "cuisine": "Turkish",
+    "image_url": "https://ozlemsturkishtable.com/wp-content/uploads/2026/01/yengen-toast-536x700.jpg",
+    "published_at": "Mon, 24 Aug 2026 11:18:51 +0000",
+    "recipe_url": "https://ozlemsturkishtable.com/2026/08/yengen-tost-toastie-with-cheese-sucuk-tomato-and-pickles/",
     "site_name": "Ozlem's Turkish Table",
     "site_url": "https://ozlemsturkishtable.com",
-    "cuisine": "Turkish",
-    "published_at": "Mon, 24 Aug 2026 14:10:49 +0000"
+    "title": "Yengen Tost; Toastie with Cheese, Sucuk, Tomato and Pickles",
+    "url": "https://ozlemsturkishtable.com/2026/08/yengen-tost-toastie-with-cheese-sucuk-tomato-and-pickles/"
   }
 }
