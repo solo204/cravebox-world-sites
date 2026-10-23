@@ -1,109 +1,126 @@
 {
-  "updated_at": "2026-10-23T05:05:12Z",
+  "updated_at": "2026-10-23T06:05:12Z",
   "slot_hours": 1,
-  "slot_idx": 33,
-  "week": 34,
+  "slot_idx": 34,
+  "week": 35,
   "featured_sites": [
     {
-      "name": "The Daring Gourmet",
-      "url": "https://www.daringgourmet.com",
+      "name": "Adventures in Cooking",
+      "url": "https://adventuresincooking.com",
       "cuisine": "American",
-      "tagline": "World cuisine recipes with authentic techniques covering dishes from every corner of the globe including Ethiopian classics.",
-      "rss_url": "https://www.daringgourmet.com/feed/",
-      "image_url": "https://www.daringgourmet.com/wp-content/uploads/2019/12/Butter-Chicken-7-728x728.jpg",
+      "tagline": "Fine-art food photography meets seasonal home cooking and garden-to-table storytelling.",
+      "image_url": "https://adventuresincooking.com/wp-content/uploads/2026/09/One-Pan-Roast-Chicken-with-Tomatoes-12.jpg",
+      "rss_url": "https://adventuresincooking.com/feed/",
       "sites": []
     },
     {
-      "name": "Dimitra's Dishes",
-      "url": "https://www.dimitrasdishes.com",
-      "cuisine": "Greek",
-      "tagline": "Approachable Greek classics and crowd-pleasing Mediterranean recipes with video tutorials by Dimitra Darris.",
-      "rss_url": "https://www.dimitrasdishes.com/feed/",
-      "image_url": "https://www.dimitrasdishes.com/wp-content/uploads/2026/10/FINAL_avgolemono_pot_REAL_PHOTO-768x1024.jpg"
+      "name": "Evergreen Kitchen",
+      "url": "https://evergreenkitchen.ca",
+      "cuisine": "Vegetarian",
+      "tagline": "Professional photographer-stylist duo behind consistently editorial vegetarian cooking.",
+      "image_url": "https://evergreenkitchen.ca/wp-content/uploads/2024/02/Butter-Bean-Salad-Evergreen-Kitchen-1C.jpg",
+      "rss_url": "https://evergreenkitchen.ca/feed/",
+      "sites": []
     },
     {
-      "name": "Ozlem's Turkish Table",
-      "url": "https://ozlemsturkishtable.com",
-      "cuisine": "Turkish",
-      "tagline": "Award-winning Turkish recipes from a Gourmand cookbook author.",
-      "image_url": "https://ozlemsturkishtable.com/wp-content/uploads/2026/01/Hunkar-Begendi-537x700.jpg",
-      "rss_url": "https://ozlemsturkishtable.com/feed/"
+      "name": "Ministry of Curry",
+      "url": "https://ministryofcurry.com",
+      "cuisine": "Indian",
+      "tagline": "Authentic Maharashtrian and Indian recipes, with a specialty in Instant Pot cooking.",
+      "image_url": "https://ministryofcurry.com/wp-content/uploads/2024/06/chicken-biryani-9.jpg",
+      "rss_url": "https://ministryofcurry.com/feed/",
+      "sites": []
     },
     {
-      "name": "MarocMama",
-      "url": "https://www.marocmama.com",
-      "cuisine": "Moroccan",
-      "tagline": "An American expat living in Morocco shares her Moroccan family recipes alongside travel and cultural stories.",
-      "rss_url": "https://www.marocmama.com/feed/",
-      "image_url": "https://marocmama.com/wp-content/uploads/2009/11/Moroccan-Taktouka-with-Bread-480x270.jpg"
+      "name": "Zaatar & Zaytoun",
+      "url": "https://zaatarandzaytoun.com",
+      "cuisine": "Lebanese",
+      "tagline": "Traditional and modern Lebanese recipes from a London-based home cook.",
+      "image_url": "https://zaatarandzaytoun.com/wp-content/uploads/2026/09/fish-thyme-tomato-105-scaled.jpg",
+      "rss_url": "https://zaatarandzaytoun.com/feed/",
+      "sites": []
     }
   ],
   "featured_recipes": {
     "Mon": {
+      "title": "One Pan Chicken with Tomatoes and Herbs",
+      "url": "https://adventuresincooking.com/one-pan-chicken-with-tomatoes/",
+      "recipe_url": "https://adventuresincooking.com/one-pan-chicken-with-tomatoes/",
+      "image_url": "https://adventuresincooking.com/wp-content/uploads/2026/09/One-Pan-Roast-Chicken-with-Tomatoes-12.jpg",
+      "site_name": "Adventures in Cooking",
+      "site_url": "https://adventuresincooking.com",
       "cuisine": "American",
-      "image_url": "https://www.daringgourmet.com/wp-content/uploads/2026/10/Bavarian-Cream-Donuts-Square-2.jpg",
-      "recipe_url": "https://www.daringgourmet.com/bavarian-cream-creme-bavaroise/",
-      "site_name": "The Daring Gourmet",
-      "title": "Bavarian Cream (Crème Bavaroise)",
-      "url": "https://www.daringgourmet.com/bavarian-cream-creme-bavaroise/"
+      "published_at": "Fri, 18 Sep 2026 01:53:45 +0000"
     },
     "Tue": {
-      "cuisine": "Greek",
-      "image_url": "https://www.dimitrasdishes.com/wp-content/uploads/2026/10/featured-Golden-Greek-Roast-Chicken-and-Lemon-Potatoes.png",
-      "recipe_url": "https://www.dimitrasdishes.com/dutch-oven-greek-roast-chicken-and-lemon-potatoes/",
-      "site_name": "Dimitra's Dishes",
-      "title": "Dutch Oven Greek Roast Chicken and Lemon Potatoes",
-      "url": "https://www.dimitrasdishes.com/dutch-oven-greek-roast-chicken-and-lemon-potatoes/"
+      "cuisine": "American",
+      "image_url": "https://adventuresincooking.com/wp-content/uploads/2026/08/Savory-Pie-Filling1.jpg",
+      "published_at": "Tue, 11 Aug 2026 15:02:04 +0000",
+      "recipe_url": "https://adventuresincooking.com/tamale-pie-with-jalapeno-cornbread-crust/",
+      "site_name": "Adventures in Cooking",
+      "site_url": "https://adventuresincooking.com",
+      "title": "Tamale Pie with Jalapeno Cornbread Crust",
+      "url": "https://adventuresincooking.com/tamale-pie-with-jalapeno-cornbread-crust/"
     },
     "Wed": {
-      "cuisine": "Greek",
-      "image_url": "https://www.dimitrasdishes.com/wp-content/uploads/2026/10/cheesy-potato-bake-table.jpg",
-      "recipe_url": "https://www.dimitrasdishes.com/cheesy-beef-and-potato-bake/",
-      "site_name": "Dimitra's Dishes",
-      "title": "Greek Cheesy Beef and Potato Bake",
-      "url": "https://www.dimitrasdishes.com/cheesy-beef-and-potato-bake/"
+      "title": "Alu Chi Bhaji (Maharashtrian Colocasia Leaves Curry)",
+      "url": "https://ministryofcurry.com/alu-chi-bhaji/",
+      "recipe_url": "https://ministryofcurry.com/alu-chi-bhaji/",
+      "image_url": "https://ministryofcurry.com/wp-content/uploads/2026/09/alu-chi-bhaji-4.jpg",
+      "site_name": "Ministry of Curry",
+      "site_url": "https://ministryofcurry.com",
+      "cuisine": "Indian",
+      "published_at": "Thu, 08 Oct 2026 00:52:52 +0000"
     },
     "Thu": {
-      "cuisine": "Moroccan",
-      "image_url": "https://marocmama.com/wp-content/uploads/2012/12/Moroccan-Jewish-Dafina.jpg",
-      "recipe_url": "https://marocmama.com/skinha-or-dafina-the-slow-slow-cooked-meal/",
-      "site_name": "MarocMama",
-      "title": "Skinha or Dafina – The Slow – Slow Cooked Meal",
-      "url": "https://marocmama.com/skinha-or-dafina-the-slow-slow-cooked-meal/"
+      "title": "Mediterranean baked fish with thyme and tomato",
+      "url": "https://zaatarandzaytoun.com/mediterranean-baked-fish-with-thyme-and-tomato/",
+      "recipe_url": "https://zaatarandzaytoun.com/mediterranean-baked-fish-with-thyme-and-tomato/",
+      "image_url": "https://zaatarandzaytoun.com/wp-content/uploads/2026/09/fish-tomato-thyme.jpg",
+      "site_name": "Zaatar & Zaytoun",
+      "site_url": "https://zaatarandzaytoun.com",
+      "cuisine": "Lebanese",
+      "published_at": "Mon, 21 Sep 2026 14:22:11 +0000"
     },
     "Fri": {
-      "title": "Authentic Bienenstich (German Bee Sting Cake)",
-      "url": "https://www.daringgourmet.com/authentic-bienenstich-german-bee-sting-cake/",
-      "recipe_url": "https://www.daringgourmet.com/authentic-bienenstich-german-bee-sting-cake/",
-      "image_url": "https://www.daringgourmet.com/wp-content/uploads/2026/10/Bienenstich-Recipe-16.jpg",
-      "site_name": "The Daring Gourmet",
-      "site_url": "https://www.daringgourmet.com",
+      "title": "Roast Potatoes with Maple Miso Butter",
+      "url": "https://adventuresincooking.com/roast-potatoes-with-maple-miso-butter/",
+      "recipe_url": "https://adventuresincooking.com/roast-potatoes-with-maple-miso-butter/",
+      "image_url": "https://adventuresincooking.com/wp-content/uploads/2026/09/Roast-Potatoes-with-Maple-Miso-Butter-4.jpg",
+      "site_name": "Adventures in Cooking",
+      "site_url": "https://adventuresincooking.com",
       "cuisine": "American",
-      "published_at": "Sat, 10 Oct 2026 19:32:07 +0000"
+      "published_at": "Fri, 04 Sep 2026 13:46:40 +0000"
     },
     "Sat": {
-      "cuisine": "Greek",
-      "image_url": "https://www.dimitrasdishes.com/wp-content/uploads/2026/10/WEB-Salmon-Puff-3.png",
-      "recipe_url": "https://www.dimitrasdishes.com/salmon-with-spinach-feta-in-puff-pastry/",
-      "site_name": "Dimitra's Dishes",
-      "title": "Salmon with Spinach & Feta in Puff Pastry",
-      "url": "https://www.dimitrasdishes.com/salmon-with-spinach-feta-in-puff-pastry/"
+      "title": "Panzanella Salad with Beans",
+      "url": "https://evergreenkitchen.ca/panzanella-salad-with-beans/",
+      "recipe_url": "https://evergreenkitchen.ca/panzanella-salad-with-beans/",
+      "image_url": "https://evergreenkitchen.ca/wp-content/uploads/2026/08/Tomato-Panzanella-Salad-with-Beans-Evergreen-Kitchen-1.jpg",
+      "site_name": "Evergreen Kitchen",
+      "site_url": "https://evergreenkitchen.ca",
+      "cuisine": "Vegetarian",
+      "published_at": "Sat, 29 Aug 2026 04:15:44 +0000"
     },
     "Sun": {
-      "cuisine": "Moroccan",
-      "image_url": "https://marocmama.com/wp-content/uploads/2009/11/Moroccan-Taktouka-with-Bread.jpg",
-      "recipe_url": "https://marocmama.com/taktouka-green-pepper-and-tomato-salad/",
-      "site_name": "MarocMama",
-      "title": "Taktouka – Green Pepper and Tomato Salad",
-      "url": "https://marocmama.com/taktouka-green-pepper-and-tomato-salad/"
+      "title": "Thecha Paneer (Spicy Green Chilli Garlic Paneer Bites)",
+      "url": "https://ministryofcurry.com/thecha-paneer/",
+      "recipe_url": "https://ministryofcurry.com/thecha-paneer/",
+      "image_url": "https://ministryofcurry.com/wp-content/uploads/2026/10/Thecha-Paneer-3.jpg",
+      "site_name": "Ministry of Curry",
+      "site_url": "https://ministryofcurry.com",
+      "cuisine": "Indian",
+      "published_at": "Tue, 06 Oct 2026 14:58:37 +0000"
     }
   },
   "featured_recipe": {
+    "title": "One Pan Chicken with Tomatoes and Herbs",
+    "url": "https://adventuresincooking.com/one-pan-chicken-with-tomatoes/",
+    "recipe_url": "https://adventuresincooking.com/one-pan-chicken-with-tomatoes/",
+    "image_url": "https://adventuresincooking.com/wp-content/uploads/2026/09/One-Pan-Roast-Chicken-with-Tomatoes-12.jpg",
+    "site_name": "Adventures in Cooking",
+    "site_url": "https://adventuresincooking.com",
     "cuisine": "American",
-    "image_url": "https://www.daringgourmet.com/wp-content/uploads/2026/10/Bavarian-Cream-Donuts-Square-2.jpg",
-    "recipe_url": "https://www.daringgourmet.com/bavarian-cream-creme-bavaroise/",
-    "site_name": "The Daring Gourmet",
-    "title": "Bavarian Cream (Crème Bavaroise)",
-    "url": "https://www.daringgourmet.com/bavarian-cream-creme-bavaroise/"
+    "published_at": "Fri, 18 Sep 2026 01:53:45 +0000"
   }
 }
