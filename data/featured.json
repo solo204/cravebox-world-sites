@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-23T09:05:13Z",
+  "updated_at": "2026-10-23T09:55:30Z",
   "slot_hours": 1,
   "slot_idx": 37,
   "week": 38,
@@ -114,13 +114,13 @@
     }
   },
   "featured_recipe": {
-    "cuisine": "Persian",
-    "image_url": "https://www.unicornsinthekitchen.com/wp-content/uploads/2026/09/Dopiazeh-aloo-Featured-Photo.jpg",
-    "published_at": "Thu, 08 Oct 2026 23:33:04 +0000",
-    "recipe_url": "https://www.unicornsinthekitchen.com/fried-potatoes-and-onions-persian-style/?utm_source=rss&utm_medium=rss&utm_campaign=fried-potatoes-and-onions-persian-style",
-    "site_name": "Unicorns in the Kitchen",
-    "site_url": "https://www.unicornsinthekitchen.com",
-    "title": "Persian Potatoes and Onions (Dopiazeh Aloo)",
-    "url": "https://www.unicornsinthekitchen.com/fried-potatoes-and-onions-persian-style/?utm_source=rss&utm_medium=rss&utm_campaign=fried-potatoes-and-onions-persian-style"
+    "cuisine": "Lao",
+    "image_url": "https://cookingwithlane.com/wp-content/uploads/2022/03/banh-canh-gio-heo-014.jpg",
+    "published_at": "Sat, 26 Mar 2022 23:28:57 +0000",
+    "recipe_url": "https://cookingwithlane.com/authentic-vietnamese-banh-canh-gio-heo/",
+    "site_name": "Cooking with Lane",
+    "site_url": "https://www.cookingwithlane.com",
+    "title": "Authentic Vietnamese Banh Canh Gio Heo",
+    "url": "https://cookingwithlane.com/authentic-vietnamese-banh-canh-gio-heo/"
   }
 }
