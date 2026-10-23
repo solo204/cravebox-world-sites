@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-23T14:05:12Z",
+  "updated_at": "2026-10-23T14:53:44Z",
   "slot_hours": 1,
   "slot_idx": 42,
   "week": 43,
@@ -111,13 +111,13 @@
     }
   },
   "featured_recipe": {
-    "title": "Quick Thai Chicken and Ginger Carrot Ramen.",
-    "url": "https://www.halfbakedharvest.com/quick-thai-chicken-and-ginger-carrot-ramen/",
-    "recipe_url": "https://www.halfbakedharvest.com/quick-thai-chicken-and-ginger-carrot-ramen/",
-    "image_url": "https://www.halfbakedharvest.com/wp-content/uploads/2026/10/Quick-Thai-Chicken-and-Ginger-Carrot-Ramen-1-scaled.jpg",
-    "site_name": "Half Baked Harvest",
-    "site_url": "https://www.halfbakedharvest.com",
+    "title": "These Cheesy Turkey and Black Bean Enchiladas Pack 15 Grams of Fiber per Serving",
+    "url": "https://www.skinnytaste.com/turkey-and-black-bean-enchiladas/?adt_ei=*|EMAIL|*",
+    "recipe_url": "https://www.skinnytaste.com/turkey-and-black-bean-enchiladas/?adt_ei=*|EMAIL|*",
+    "image_url": "https://www.skinnytaste.com/wp-content/uploads/2026/10/Turkey-Black-Bean-Enchiladas-14-600x900.jpg",
+    "site_name": "Skinnytaste",
+    "site_url": "https://www.skinnytaste.com",
     "cuisine": "American",
-    "published_at": "Mon, 19 Oct 2026 07:00:00 +0000"
+    "published_at": "Tue, 20 Oct 2026 15:45:15 +0000"
   }
 }
