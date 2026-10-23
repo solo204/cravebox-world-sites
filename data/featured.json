@@ -1,126 +1,120 @@
 {
-  "updated_at": "2026-10-23T19:05:17Z",
+  "updated_at": "2026-10-23T20:05:15Z",
   "slot_hours": 1,
-  "slot_idx": 47,
-  "week": 48,
+  "slot_idx": 48,
+  "week": 49,
   "featured_sites": [
     {
-      "name": "The Flavor Bender",
-      "url": "https://theflavorbender.com",
-      "cuisine": "Sri Lankan",
-      "tagline": "Sri Lankan curries and multi-cuisine cooking with pro photography.",
-      "image_url": "https://www.theflavorbender.com/wp-content/uploads/2026/10/French-shortcrust-pastry-featured-1.jpg",
-      "rss_url": "https://theflavorbender.com/feed/",
+      "name": "Natasha's Kitchen",
+      "url": "https://natashaskitchen.com",
+      "cuisine": "American",
+      "tagline": "Trusted recipes for everyday cooking.",
+      "image_url": "https://natashaskitchen.com/wp-content/uploads/2026/09/Pumpkin-Cinnamon-Rolls-7.jpg",
+      "rss_url": "https://natashaskitchen.com/feed/"
+    },
+    {
+      "name": "Panlasang Pinoy",
+      "url": "https://panlasangpinoy.com",
+      "cuisine": "Filipino",
+      "tagline": "Filipino recipes, made simple.",
+      "image_url": "https://panlasangpinoy.com/wp-content/uploads/2023/03/homepage-banner-scaled-1-jpg-1440x300.webp",
+      "rss_url": "https://panlasangpinoy.com/feed/",
       "sites": []
     },
     {
-      "name": "Serious Eats",
-      "url": "https://seriouseats.com",
-      "cuisine": "American",
-      "tagline": "In-depth tested recipes and food science — the benchmark.",
-      "image_url": "https://www.seriouseats.com/thmb/2eDheo2F1-nYEbQxZLGUiPjqhRs=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/Serious_Eats_Social_Default-72cf0bc11b434461b62c6ffc85b4298f.jpg",
-      "rss_url": "https://feeds-api.dotdashmeredith.com/v1/rss/google/ad57d421-0ff5-41e7-a5da-f2167b6d7f7a",
+      "name": "RecipeTin Eats",
+      "url": "https://www.recipetineats.com",
+      "cuisine": "Australian",
+      "tagline": "Recipes that work, every time.",
+      "image_url": "https://www.recipetineats.com/tachyon/2026/10/Slow-cooked-Rosemary-Lamb-Ragu-3.jpg?fit=624%2C780",
+      "rss_url": "https://www.recipetineats.com/feed/",
       "sites": []
     },
     {
-      "name": "Two Peas and Their Pod",
-      "url": "https://twopeasandtheirpod.com",
-      "cuisine": "American",
-      "tagline": "Family cooking with 200+ cookie recipes.",
-      "image_url": "https://www.twopeasandtheirpod.com/wp-content/uploads/2026/10/dahlias-97.jpg",
-      "rss_url": "https://twopeasandtheirpod.com/feed/",
-      "sites": []
-    },
-    {
-      "name": "Gimme Some Oven",
-      "url": "https://gimmesomeoven.com",
-      "cuisine": "American",
-      "tagline": "Everything from Vietnamese noodles to peanut butter cookies.",
-      "image_url": "https://www.gimmesomeoven.com/wp-content/uploads/2025/11/GSOChaiCookies_Shot2_86-scaled.jpg",
-      "rss_url": "https://gimmesomeoven.com/feed/",
-      "sites": []
+      "name": "Immaculate Bites",
+      "url": "https://www.africanbites.com",
+      "cuisine": "African",
+      "tagline": "Bold African flavors and soul food recipes.",
+      "image_url": "https://www.africanbites.com/wp-content/uploads/2023/04/IMG_9277.jpg",
+      "rss_url": "https://www.africanbites.com/feed/"
     }
   ],
   "featured_recipes": {
     "Mon": {
-      "title": "Brinjal Curry (Sri Lankan Eggplant Curry)",
-      "url": "https://www.theflavorbender.com/brinjal-curry-sri-lankan-eggplant-curry/?utm_source=rss&utm_medium=rss&utm_campaign=brinjal-curry-sri-lankan-eggplant-curry",
-      "recipe_url": "https://www.theflavorbender.com/brinjal-curry-sri-lankan-eggplant-curry/?utm_source=rss&utm_medium=rss&utm_campaign=brinjal-curry-sri-lankan-eggplant-curry",
-      "image_url": "https://www.theflavorbender.com/wp-content/uploads/2026/10/Eggplant-curry-featured-1.jpg",
-      "site_name": "The Flavor Bender",
-      "site_url": "https://theflavorbender.com",
-      "cuisine": "Sri Lankan",
-      "published_at": "Thu, 15 Oct 2026 20:23:33 +0000"
+      "title": "Bangsilog",
+      "url": "https://panlasangpinoy.com/bangsilog-bangus-sinangag-itlog/",
+      "recipe_url": "https://panlasangpinoy.com/bangsilog-bangus-sinangag-itlog/",
+      "image_url": "https://panlasangpinoy.com/wp-content/uploads/2026/06/Breakfast-Silog-333x500.jpg",
+      "site_name": "Panlasang Pinoy",
+      "site_url": "https://panlasangpinoy.com",
+      "cuisine": "Filipino",
+      "published_at": "Wed, 10 Jun 2026 22:04:12 +0000"
     },
     "Tue": {
+      "title": "Savory Pumpkin Fritters",
+      "url": "https://www.budgetbytes.com/savory-pumpkin-fritters/",
+      "recipe_url": "https://www.budgetbytes.com/savory-pumpkin-fritters/",
+      "image_url": "https://www.budgetbytes.com/wp-content/uploads/2026/10/Savory-Pumpkin-Fritters-Overhead.jpg",
+      "site_name": "Budget Bytes",
+      "site_url": "https://www.budgetbytes.com",
       "cuisine": "American",
-      "image_url": "https://heygrillhey.com/wp-content/uploads/2026/08/Skillet-Cherry-Crisp-Square.jpg",
-      "published_at": "Mon, 12 Oct 2026 14:00:00 +0000",
-      "recipe_url": "https://heygrillhey.com/skillet-cherry-crisp/",
-      "site_name": "Hey Grill Hey",
-      "site_url": "https://heygrillhey.com",
-      "title": "Skillet Cherry Crisp",
-      "url": "https://heygrillhey.com/skillet-cherry-crisp/"
+      "published_at": "Wed, 07 Oct 2026 13:30:00 +0000"
     },
     "Wed": {
-      "title": "Skillet Blackberry Cobbler",
-      "url": "https://heygrillhey.com/blackberry-cobbler/",
-      "recipe_url": "https://heygrillhey.com/blackberry-cobbler/",
-      "image_url": "https://heygrillhey.com/wp-content/uploads/2026/08/Skillet-Blackberry-Cobbler-Square.jpg",
-      "site_name": "Hey Grill Hey",
-      "site_url": "https://heygrillhey.com",
-      "cuisine": "American",
-      "published_at": "Thu, 15 Oct 2026 14:00:00 +0000"
+      "title": "Cucumber Tomato Salad",
+      "url": "https://panlasangpinoy.com/cucumber-tomato-salad/",
+      "recipe_url": "https://panlasangpinoy.com/cucumber-tomato-salad/",
+      "image_url": "https://panlasangpinoy.com/wp-content/uploads/2026/05/Cucumber-Tomato-Salad-Recipe-333x500.jpg",
+      "site_name": "Panlasang Pinoy",
+      "site_url": "https://panlasangpinoy.com",
+      "cuisine": "Filipino",
+      "published_at": "Sun, 10 May 2026 12:05:05 +0000"
     },
     "Thu": {
-      "cuisine": "American",
-      "image_url": "https://www.cookingclassy.com/wp-content/uploads/2026/08/burritos-02-730x1095.jpg",
-      "published_at": "Sun, 23 Aug 2026 00:24:56 +0000",
-      "recipe_url": "https://www.cookingclassy.com/beef-burritos/",
-      "site_name": "Cooking Classy",
-      "site_url": "https://www.cookingclassy.com",
-      "title": "Easy Burritos",
-      "url": "https://www.cookingclassy.com/beef-burritos/"
+      "cuisine": "African",
+      "image_url": "https://www.africanbites.com/wp-content/uploads/2026/10/Loaded-Holiday-Brussels-Sprouts-Feature.jpg",
+      "recipe_url": "https://www.africanbites.com/loaded-holiday-brussels-sprouts/",
+      "site_name": "Immaculate Bites",
+      "title": "Loaded Holiday Brussels Sprouts",
+      "url": "https://www.africanbites.com/loaded-holiday-brussels-sprouts/"
     },
     "Fri": {
-      "title": "Honey Garlic Chicken and Potato Bake",
-      "url": "https://www.jocooks.com/recipes/honey-garlic-chicken-and-potato-bake/?adt_ei=*|EMAIL|*",
-      "recipe_url": "https://www.jocooks.com/recipes/honey-garlic-chicken-and-potato-bake/?adt_ei=*|EMAIL|*",
-      "image_url": "https://www.jocooks.com/wp-content/uploads/2026/10/honey-garlic-chicken-and-potato-bake-1-10.jpg",
-      "site_name": "Jo Cooks",
-      "site_url": "https://www.jocooks.com",
       "cuisine": "American",
-      "published_at": "Tue, 20 Oct 2026 19:41:24 +0000"
+      "image_url": "https://natashaskitchen.com/wp-content/uploads/2026/06/Salmon-Bowls-5.jpg",
+      "recipe_url": "https://natashaskitchen.com/salmon-bowls/?adt_ei={{ subscriber.email_address }}",
+      "site_name": "Natasha's Kitchen",
+      "title": "Crispy Salmon Bowls with the Best Sauce",
+      "url": "https://natashaskitchen.com/salmon-bowls/?adt_ei={{ subscriber.email_address }}"
     },
     "Sat": {
-      "title": "White Chicken Chili",
-      "url": "https://kristineskitchenblog.com/white-chicken-chili/",
-      "recipe_url": "https://kristineskitchenblog.com/white-chicken-chili/",
-      "image_url": "https://kristineskitchenblog.com/wp-content/uploads/2026/10/white-chicken-chili-1863.jpg",
-      "site_name": "Kristine's Kitchen",
-      "site_url": "https://kristineskitchenblog.com",
-      "cuisine": "American",
-      "published_at": "Tue, 20 Oct 2026 19:38:21 +0000"
+      "title": "Mawa Peda (Khoya Peda)",
+      "url": "https://www.vegrecipesofindia.com/mawa-peda/",
+      "recipe_url": "https://www.vegrecipesofindia.com/mawa-peda/",
+      "image_url": "https://i2.wp.com/www.vegrecipesofindia.com/wp-content/uploads/2026/08/mawa-peda.jpg",
+      "site_name": "Dassana's Veg Recipes",
+      "site_url": "https://www.vegrecipesofindia.com",
+      "cuisine": "Indian",
+      "published_at": "Tue, 18 Aug 2026 16:10:39 +0000"
     },
     "Sun": {
-      "title": "Creamy Chicken Pasta Recipe",
-      "url": "https://www.chelseasmessyapron.com/creamy-chicken-pasta-recipe/",
-      "recipe_url": "https://www.chelseasmessyapron.com/creamy-chicken-pasta-recipe/",
-      "image_url": "https://www.chelseasmessyapron.com/wp-content/uploads/2026/10/Creamy-Chicken-Pasta-Recipe-1200-20-768x1152.jpg",
-      "site_name": "Chelsea's Messy Apron",
-      "site_url": "https://www.chelseasmessyapron.com",
+      "title": "Greek Chicken Soup",
+      "url": "https://www.budgetbytes.com/greek-chicken-soup/",
+      "recipe_url": "https://www.budgetbytes.com/greek-chicken-soup/",
+      "image_url": "https://www.budgetbytes.com/wp-content/uploads/2026/09/Greek-Chicken-Soup-Overhead-Wide.jpg",
+      "site_name": "Budget Bytes",
+      "site_url": "https://www.budgetbytes.com",
       "cuisine": "American",
-      "published_at": "Tue, 20 Oct 2026 13:00:00 +0000"
+      "published_at": "Sat, 03 Oct 2026 13:30:00 +0000"
     }
   },
   "featured_recipe": {
-    "title": "Brinjal Curry (Sri Lankan Eggplant Curry)",
-    "url": "https://www.theflavorbender.com/brinjal-curry-sri-lankan-eggplant-curry/?utm_source=rss&utm_medium=rss&utm_campaign=brinjal-curry-sri-lankan-eggplant-curry",
-    "recipe_url": "https://www.theflavorbender.com/brinjal-curry-sri-lankan-eggplant-curry/?utm_source=rss&utm_medium=rss&utm_campaign=brinjal-curry-sri-lankan-eggplant-curry",
-    "image_url": "https://www.theflavorbender.com/wp-content/uploads/2026/10/Eggplant-curry-featured-1.jpg",
-    "site_name": "The Flavor Bender",
-    "site_url": "https://theflavorbender.com",
-    "cuisine": "Sri Lankan",
-    "published_at": "Thu, 15 Oct 2026 20:23:33 +0000"
+    "title": "Bangsilog",
+    "url": "https://panlasangpinoy.com/bangsilog-bangus-sinangag-itlog/",
+    "recipe_url": "https://panlasangpinoy.com/bangsilog-bangus-sinangag-itlog/",
+    "image_url": "https://panlasangpinoy.com/wp-content/uploads/2026/06/Breakfast-Silog-333x500.jpg",
+    "site_name": "Panlasang Pinoy",
+    "site_url": "https://panlasangpinoy.com",
+    "cuisine": "Filipino",
+    "published_at": "Wed, 10 Jun 2026 22:04:12 +0000"
   }
 }
