@@ -1,120 +1,126 @@
 {
-  "updated_at": "2026-10-23T20:05:15Z",
+  "updated_at": "2026-10-23T21:05:19Z",
   "slot_hours": 1,
-  "slot_idx": 48,
-  "week": 49,
+  "slot_idx": 49,
+  "week": 50,
   "featured_sites": [
-    {
-      "name": "Natasha's Kitchen",
-      "url": "https://natashaskitchen.com",
-      "cuisine": "American",
-      "tagline": "Trusted recipes for everyday cooking.",
-      "image_url": "https://natashaskitchen.com/wp-content/uploads/2026/09/Pumpkin-Cinnamon-Rolls-7.jpg",
-      "rss_url": "https://natashaskitchen.com/feed/"
-    },
-    {
-      "name": "Panlasang Pinoy",
-      "url": "https://panlasangpinoy.com",
-      "cuisine": "Filipino",
-      "tagline": "Filipino recipes, made simple.",
-      "image_url": "https://panlasangpinoy.com/wp-content/uploads/2023/03/homepage-banner-scaled-1-jpg-1440x300.webp",
-      "rss_url": "https://panlasangpinoy.com/feed/",
-      "sites": []
-    },
-    {
-      "name": "RecipeTin Eats",
-      "url": "https://www.recipetineats.com",
-      "cuisine": "Australian",
-      "tagline": "Recipes that work, every time.",
-      "image_url": "https://www.recipetineats.com/tachyon/2026/10/Slow-cooked-Rosemary-Lamb-Ragu-3.jpg?fit=624%2C780",
-      "rss_url": "https://www.recipetineats.com/feed/",
-      "sites": []
-    },
     {
       "name": "Immaculate Bites",
       "url": "https://www.africanbites.com",
       "cuisine": "African",
       "tagline": "Bold African flavors and soul food recipes.",
       "image_url": "https://www.africanbites.com/wp-content/uploads/2023/04/IMG_9277.jpg",
-      "rss_url": "https://www.africanbites.com/feed/"
+      "rss_url": "https://www.africanbites.com/feed/",
+      "sites": []
+    },
+    {
+      "name": "Smitten Kitchen",
+      "url": "https://smittenkitchen.com",
+      "cuisine": "American",
+      "tagline": "Fearless cooking from a tiny kitchen.",
+      "image_url": "https://i0.wp.com/smittenkitchen.com/wp-content/uploads/2026/09/simple-chicken-tacos-09-scaled.jpg",
+      "rss_url": "https://smittenkitchen.com/feed/",
+      "sites": []
+    },
+    {
+      "name": "Minimalist Baker",
+      "url": "https://minimalistbaker.com",
+      "cuisine": "Vegan",
+      "tagline": "Simple vegan recipes, 10 ingredients or less.",
+      "image_url": "https://minimalistbaker.com/wp-content/uploads/2023/03/Gluten-Free-Honey-Cake-15-680x1020.jpg",
+      "rss_url": "https://minimalistbaker.com/feed/",
+      "sites": []
+    },
+    {
+      "name": "Skinnytaste",
+      "url": "https://www.skinnytaste.com",
+      "cuisine": "American",
+      "tagline": "Healthy recipes your whole family will love.",
+      "image_url": "https://www.skinnytaste.com/wp-content/uploads/2017/10/Chicken-Marsala-Meatballs-1-3.jpg",
+      "rss_url": "https://www.skinnytaste.com/feed/",
+      "sites": []
     }
   ],
   "featured_recipes": {
     "Mon": {
-      "title": "Bangsilog",
-      "url": "https://panlasangpinoy.com/bangsilog-bangus-sinangag-itlog/",
-      "recipe_url": "https://panlasangpinoy.com/bangsilog-bangus-sinangag-itlog/",
-      "image_url": "https://panlasangpinoy.com/wp-content/uploads/2026/06/Breakfast-Silog-333x500.jpg",
-      "site_name": "Panlasang Pinoy",
-      "site_url": "https://panlasangpinoy.com",
-      "cuisine": "Filipino",
-      "published_at": "Wed, 10 Jun 2026 22:04:12 +0000"
+      "cuisine": "Caribbean",
+      "image_url": "https://caribbeanpot.com/wp-content/uploads/2026/09/DSC01888-Copy.jpg",
+      "published_at": "Wed, 02 Sep 2026 19:39:40 +0000",
+      "recipe_url": "https://caribbeanpot.com/easy-one-pan-herb-roasted-chicken-and-vegetables/",
+      "site_name": "Caribbean Pot",
+      "site_url": "https://www.caribbeanpot.com",
+      "title": "Easy One-Pan Herb-Roasted Chicken and Vegetables",
+      "url": "https://caribbeanpot.com/easy-one-pan-herb-roasted-chicken-and-vegetables/"
     },
     "Tue": {
-      "title": "Savory Pumpkin Fritters",
-      "url": "https://www.budgetbytes.com/savory-pumpkin-fritters/",
-      "recipe_url": "https://www.budgetbytes.com/savory-pumpkin-fritters/",
-      "image_url": "https://www.budgetbytes.com/wp-content/uploads/2026/10/Savory-Pumpkin-Fritters-Overhead.jpg",
-      "site_name": "Budget Bytes",
-      "site_url": "https://www.budgetbytes.com",
-      "cuisine": "American",
-      "published_at": "Wed, 07 Oct 2026 13:30:00 +0000"
+      "title": "Chicken Piccata Meatballs",
+      "url": "https://www.oliviascuisine.com/chicken-piccata-meatballs/",
+      "recipe_url": "https://www.oliviascuisine.com/chicken-piccata-meatballs/",
+      "image_url": "https://www.oliviascuisine.com/wp-content/uploads/2026/04/easy-chicken-piccata-meatballs-300x450.jpg",
+      "site_name": "Olivia's Cuisine",
+      "site_url": "https://www.oliviascuisine.com",
+      "cuisine": "Brazilian",
+      "published_at": "Thu, 30 Apr 2026 16:25:58 +0000"
     },
     "Wed": {
-      "title": "Cucumber Tomato Salad",
-      "url": "https://panlasangpinoy.com/cucumber-tomato-salad/",
-      "recipe_url": "https://panlasangpinoy.com/cucumber-tomato-salad/",
-      "image_url": "https://panlasangpinoy.com/wp-content/uploads/2026/05/Cucumber-Tomato-Salad-Recipe-333x500.jpg",
-      "site_name": "Panlasang Pinoy",
-      "site_url": "https://panlasangpinoy.com",
-      "cuisine": "Filipino",
-      "published_at": "Sun, 10 May 2026 12:05:05 +0000"
+      "title": "Panisses (Chickpea Fries)",
+      "url": "https://cookieandkate.com/panisse/?adt_ei=*|EMAIL|*",
+      "recipe_url": "https://cookieandkate.com/panisse/?adt_ei=*|EMAIL|*",
+      "image_url": "https://cookieandkate.com/images/2026/06/panisse-recipe.jpg",
+      "site_name": "Cookie and Kate",
+      "site_url": "https://cookieandkate.com",
+      "cuisine": "Vegetarian",
+      "published_at": "Mon, 27 Jul 2026 17:59:06 +0000"
     },
     "Thu": {
-      "cuisine": "African",
-      "image_url": "https://www.africanbites.com/wp-content/uploads/2026/10/Loaded-Holiday-Brussels-Sprouts-Feature.jpg",
-      "recipe_url": "https://www.africanbites.com/loaded-holiday-brussels-sprouts/",
-      "site_name": "Immaculate Bites",
-      "title": "Loaded Holiday Brussels Sprouts",
-      "url": "https://www.africanbites.com/loaded-holiday-brussels-sprouts/"
+      "title": "Arroz Biro-Biro (Brazilian Fried Rice)",
+      "url": "https://www.oliviascuisine.com/brazilian-arroz-biro-biro/",
+      "recipe_url": "https://www.oliviascuisine.com/brazilian-arroz-biro-biro/",
+      "image_url": "https://www.oliviascuisine.com/wp-content/uploads/2026/04/biro-biro-rice-300x450.jpg",
+      "site_name": "Olivia's Cuisine",
+      "site_url": "https://www.oliviascuisine.com",
+      "cuisine": "Brazilian",
+      "published_at": "Thu, 23 Apr 2026 14:33:35 +0000"
     },
     "Fri": {
-      "cuisine": "American",
-      "image_url": "https://natashaskitchen.com/wp-content/uploads/2026/06/Salmon-Bowls-5.jpg",
-      "recipe_url": "https://natashaskitchen.com/salmon-bowls/?adt_ei={{ subscriber.email_address }}",
-      "site_name": "Natasha's Kitchen",
-      "title": "Crispy Salmon Bowls with the Best Sauce",
-      "url": "https://natashaskitchen.com/salmon-bowls/?adt_ei={{ subscriber.email_address }}"
+      "cuisine": "Caribbean",
+      "image_url": "https://caribbeanpot.com/wp-content/uploads/2026/08/caribbean-pepper-chicken-2.jpg",
+      "published_at": "Wed, 19 Aug 2026 20:01:07 +0000",
+      "recipe_url": "https://caribbeanpot.com/incredible-caribbean-pepper-chicken/",
+      "site_name": "Caribbean Pot",
+      "site_url": "https://www.caribbeanpot.com",
+      "title": "Incredible Caribbean Pepper Chicken",
+      "url": "https://caribbeanpot.com/incredible-caribbean-pepper-chicken/"
     },
     "Sat": {
-      "title": "Mawa Peda (Khoya Peda)",
-      "url": "https://www.vegrecipesofindia.com/mawa-peda/",
-      "recipe_url": "https://www.vegrecipesofindia.com/mawa-peda/",
-      "image_url": "https://i2.wp.com/www.vegrecipesofindia.com/wp-content/uploads/2026/08/mawa-peda.jpg",
-      "site_name": "Dassana's Veg Recipes",
-      "site_url": "https://www.vegrecipesofindia.com",
-      "cuisine": "Indian",
-      "published_at": "Tue, 18 Aug 2026 16:10:39 +0000"
+      "title": "Easy Crab Apple Chow (Spicy Pickle)",
+      "url": "https://caribbeanpot.com/easy-crab-apple-chow-spicy-pickle/",
+      "recipe_url": "https://caribbeanpot.com/easy-crab-apple-chow-spicy-pickle/",
+      "image_url": "https://caribbeanpot.com/wp-content/uploads/2026/09/crab-apple-chow-pickle-2.jpg",
+      "site_name": "Caribbean Pot",
+      "site_url": "https://www.caribbeanpot.com",
+      "cuisine": "Caribbean",
+      "published_at": "Thu, 03 Sep 2026 17:12:45 +0000"
     },
     "Sun": {
-      "title": "Greek Chicken Soup",
-      "url": "https://www.budgetbytes.com/greek-chicken-soup/",
-      "recipe_url": "https://www.budgetbytes.com/greek-chicken-soup/",
-      "image_url": "https://www.budgetbytes.com/wp-content/uploads/2026/09/Greek-Chicken-Soup-Overhead-Wide.jpg",
-      "site_name": "Budget Bytes",
-      "site_url": "https://www.budgetbytes.com",
-      "cuisine": "American",
-      "published_at": "Sat, 03 Oct 2026 13:30:00 +0000"
+      "cuisine": "Caribbean",
+      "image_url": "https://caribbeanpot.com/wp-content/uploads/2026/09/simple-jerk-chicken-pasta-salad-2.jpg",
+      "published_at": "Tue, 01 Sep 2026 17:05:56 +0000",
+      "recipe_url": "https://caribbeanpot.com/easy-jerk-chicken-pasta-salad-recipe-quick-tasty/",
+      "site_name": "Caribbean Pot",
+      "site_url": "https://www.caribbeanpot.com",
+      "title": "Easy Jerk Chicken Pasta Salad Recipe (Quick & Tasty)",
+      "url": "https://caribbeanpot.com/easy-jerk-chicken-pasta-salad-recipe-quick-tasty/"
     }
   },
   "featured_recipe": {
-    "title": "Bangsilog",
-    "url": "https://panlasangpinoy.com/bangsilog-bangus-sinangag-itlog/",
-    "recipe_url": "https://panlasangpinoy.com/bangsilog-bangus-sinangag-itlog/",
-    "image_url": "https://panlasangpinoy.com/wp-content/uploads/2026/06/Breakfast-Silog-333x500.jpg",
-    "site_name": "Panlasang Pinoy",
-    "site_url": "https://panlasangpinoy.com",
-    "cuisine": "Filipino",
-    "published_at": "Wed, 10 Jun 2026 22:04:12 +0000"
+    "cuisine": "Caribbean",
+    "image_url": "https://caribbeanpot.com/wp-content/uploads/2026/09/DSC01888-Copy.jpg",
+    "published_at": "Wed, 02 Sep 2026 19:39:40 +0000",
+    "recipe_url": "https://caribbeanpot.com/easy-one-pan-herb-roasted-chicken-and-vegetables/",
+    "site_name": "Caribbean Pot",
+    "site_url": "https://www.caribbeanpot.com",
+    "title": "Easy One-Pan Herb-Roasted Chicken and Vegetables",
+    "url": "https://caribbeanpot.com/easy-one-pan-herb-roasted-chicken-and-vegetables/"
   }
 }
