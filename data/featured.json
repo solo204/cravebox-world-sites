@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-10-24T00:05:13Z",
-  "slot_hours": 1,
+  "updated_at": "2026-10-24T00:32:06Z",
+  "slot_hours": 7,
   "slot_idx": 0,
   "week": 1,
   "featured_sites": [
@@ -110,13 +110,13 @@
     }
   },
   "featured_recipe": {
-    "title": "Baked Pretzel-Crusted Chicken",
-    "url": "https://sallysbakingaddiction.com/pretzel-crusted-chicken/",
-    "recipe_url": "https://sallysbakingaddiction.com/pretzel-crusted-chicken/",
-    "image_url": "https://sallysbakingaddiction.com/wp-content/uploads/2014/08/pretzel-chicken.jpg",
-    "site_name": "Sally's Baking Addiction",
-    "site_url": "https://sallysbakingaddiction.com",
-    "cuisine": "Baking",
-    "published_at": "Fri, 09 Oct 2026 10:00:00 +0000"
+    "cuisine": "Mediterranean",
+    "image_url": "https://www.themediterraneandish.com/wp-content/uploads/2026/09/TMD-Mushroom-Gnocchi-Leads-02-Angle.jpg",
+    "published_at": "Fri, 02 Oct 2026 12:00:00 +0000",
+    "recipe_url": "https://www.themediterraneandish.com/mushroom-gnocchi/",
+    "site_name": "The Mediterranean Dish",
+    "site_url": "https://www.themediterraneandish.com",
+    "title": "Mushroom Gnocchi in Creamy Parmesan Sauce (Without Cream!)",
+    "url": "https://www.themediterraneandish.com/mushroom-gnocchi/"
   }
 }
