@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-24T13:05:12Z",
+  "updated_at": "2026-10-24T14:05:13Z",
   "slot_hours": 7,
   "slot_idx": 1,
   "week": 2,
@@ -108,13 +108,13 @@
     }
   },
   "featured_recipe": {
-    "cuisine": "Japanese",
-    "image_url": "https://www.chopstickchronicles.com/wp-content/uploads/2016/05/ika-ring-fry-17.jpg",
-    "published_at": "Wed, 20 May 2026 01:05:35 +0000",
-    "recipe_url": "https://www.chopstickchronicles.com/fried-calamari-with-wasabi-mayo/",
+    "title": "Chashu (Braised Pork Belly)",
+    "url": "https://www.chopstickchronicles.com/ramen-pork-chashu/",
+    "recipe_url": "https://www.chopstickchronicles.com/ramen-pork-chashu/",
+    "image_url": "https://www.chopstickchronicles.com/wp-content/uploads/2020/01/Chashu-update-10.jpg",
     "site_name": "Chopstick Chronicles",
     "site_url": "https://www.chopstickchronicles.com",
-    "title": "Fried Calamari with Wasabi Mayo",
-    "url": "https://www.chopstickchronicles.com/fried-calamari-with-wasabi-mayo/"
+    "cuisine": "Japanese",
+    "published_at": "Wed, 16 Sep 2026 11:33:42 +0000"
   }
 }
