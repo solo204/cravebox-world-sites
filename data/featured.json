@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-24T19:05:13Z",
+  "updated_at": "2026-10-24T20:05:13Z",
   "slot_hours": 7,
   "slot_idx": 2,
   "week": 3,
@@ -110,13 +110,13 @@
     }
   },
   "featured_recipe": {
-    "title": "tomato risotto with frizzled red onions",
-    "url": "https://smittenkitchen.com/2026/09/tomato-risotto-with-frizzled-red-onions/",
-    "recipe_url": "https://smittenkitchen.com/2026/09/tomato-risotto-with-frizzled-red-onions/",
-    "image_url": "https://i0.wp.com/smittenkitchen.com/wp-content/uploads/2026/09/tomato-risotto-with-frizzled-onions-14-scaled.jpg?fit=640%2C427&amp;quality=89&amp;ssl=1",
-    "site_name": "Smitten Kitchen",
-    "site_url": "https://smittenkitchen.com",
-    "cuisine": "American",
-    "published_at": "Wed, 16 Sep 2026 15:28:36 +0000"
+    "title": "Easy Eggplant Bolognese (1 Pot!)",
+    "url": "https://minimalistbaker.com/eggplant-bolognese/",
+    "recipe_url": "https://minimalistbaker.com/eggplant-bolognese/",
+    "image_url": "https://minimalistbaker.com/wp-content/uploads/2026/02/Easy-Vegetarian-Eggplant-Bolognese-9-680x1020.jpg",
+    "site_name": "Minimalist Baker",
+    "site_url": "https://minimalistbaker.com",
+    "cuisine": "Plant-Based",
+    "published_at": "Tue, 18 Aug 2026 08:00:00 +0000"
   }
 }
