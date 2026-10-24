@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-24T03:05:15Z",
+  "updated_at": "2026-10-24T04:05:12Z",
   "slot_hours": 7,
   "slot_idx": 0,
   "week": 1,
@@ -110,13 +110,13 @@
     }
   },
   "featured_recipe": {
-    "title": "Mini Pumpkin Chocolate Chip Muffins",
-    "url": "https://sallysbakingaddiction.com/mini-pumpkin-chocolate-chip-muffins/",
-    "recipe_url": "https://sallysbakingaddiction.com/mini-pumpkin-chocolate-chip-muffins/",
-    "image_url": "https://sallysbakingaddiction.com/wp-content/uploads/2015/10/mini-chocolate-chip-pumpkin-muffins.jpg",
-    "site_name": "Sally's Baking Addiction",
-    "site_url": "https://sallysbakingaddiction.com",
-    "cuisine": "Baking",
-    "published_at": "Sun, 11 Oct 2026 10:00:00 +0000"
+    "title": "Salisbury Steak",
+    "url": "https://grandbaby-cakes.com/salisbury-steak/",
+    "recipe_url": "https://grandbaby-cakes.com/salisbury-steak/",
+    "image_url": "https://grandbaby-cakes.com/wp-content/uploads/2023/10/72dpi-Salisbury-Steak-22.jpg",
+    "site_name": "Grandbaby Cakes",
+    "site_url": "https://grandbaby-cakes.com",
+    "cuisine": "Southern",
+    "published_at": "Fri, 09 Oct 2026 14:00:00 +0000"
   }
 }
