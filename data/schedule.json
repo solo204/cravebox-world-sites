@@ -1,7 +1,7 @@
 [
   {
     "week": 1,
-    "starts": "2026-10-21T20:05:00+00:00",
+    "starts": "2026-10-24T00:13:45+00:00",
     "pool": 3,
     "sites": [
       {
@@ -89,7 +89,7 @@
         "published_at": "Fri, 11 Sep 2026 19:44:29 +0000"
       },
       "Sat": {
-        "title": "Turkish Pasta (Yoğurtlu Kıymalı Makarna)",
+        "title": "Turkish Pasta (Yo\u011furtlu K\u0131ymal\u0131 Makarna)",
         "url": "https://www.themediterraneandish.com/turkish-pasta/",
         "recipe_url": "https://www.themediterraneandish.com/turkish-pasta/",
         "image_url": "https://www.themediterraneandish.com/wp-content/uploads/2026/09/Turkish-Pasta-12.jpg",
@@ -111,7 +111,7 @@
     },
     "candidates": [
       {
-        "title": "Big Mama’s Sweet Potato Pie",
+        "title": "Big Mama\u2019s Sweet Potato Pie",
         "url": "https://grandbaby-cakes.com/sweet-potato-pie/",
         "recipe_url": "https://grandbaby-cakes.com/sweet-potato-pie/",
         "image_url": "https://grandbaby-cakes.com/wp-content/uploads/2024/08/Sweet-Potato-Pie22-scaled.jpg",
@@ -171,7 +171,7 @@
         "published_at": "Wed, 02 Sep 2026 19:09:31 +0000"
       },
       {
-        "title": "Turkish Sheet Pan Chicken and Vegetables (Sebzeli, Tavuklu Türlü)",
+        "title": "Turkish Sheet Pan Chicken and Vegetables (Sebzeli, Tavuklu T\u00fcrl\u00fc)",
         "url": "https://www.themediterraneandish.com/turkish-sheet-pan-chicken-and-vegetables/",
         "recipe_url": "https://www.themediterraneandish.com/turkish-sheet-pan-chicken-and-vegetables/",
         "image_url": "https://www.themediterraneandish.com/wp-content/uploads/2026/09/TMD-Sheet-Pan-Chicken-and-Vegetables-Leads-01-Overhead.jpg",
@@ -181,7 +181,7 @@
         "published_at": "Sat, 26 Sep 2026 12:00:00 +0000"
       },
       {
-        "title": "The Best Pumpkin Cake I’ve Ever Had",
+        "title": "The Best Pumpkin Cake I\u2019ve Ever Had",
         "url": "https://sallysbakingaddiction.com/best-pumpkin-cake/",
         "recipe_url": "https://sallysbakingaddiction.com/best-pumpkin-cake/",
         "image_url": "https://sallysbakingaddiction.com/wp-content/uploads/2017/10/pumpkin-three-layer-cake.jpg",
@@ -757,7 +757,7 @@
         "published_at": "Fri, 28 Aug 2026 12:07:56 +0000"
       },
       {
-        "title": "Easy Jalapeño Corn Fritters (Vegan)",
+        "title": "Easy Jalape\u00f1o Corn Fritters (Vegan)",
         "url": "https://minimalistbaker.com/easy-vegan-corn-fritters/",
         "recipe_url": "https://minimalistbaker.com/easy-vegan-corn-fritters/",
         "image_url": "https://minimalistbaker.com/wp-content/uploads/2025/10/Easy-Jalapeno-Corn-Fritters-Vegan-Gluten-Free-9-680x1020.jpg",
@@ -1015,7 +1015,7 @@
         "image_url": "https://www.recipetineats.com/tachyon/2026/10/Slow-cooked-Rosemary-Lamb-Ragu-3.jpg",
         "recipe_url": "https://www.recipetineats.com/slow-cooked-lamb-ragu-pasta/",
         "site_name": "RecipeTin Eats",
-        "title": "Slow Cooked Rosemary Lamb Ragù",
+        "title": "Slow Cooked Rosemary Lamb Rag\u00f9",
         "url": "https://www.recipetineats.com/slow-cooked-lamb-ragu-pasta/"
       },
       "Sat": {
@@ -1053,7 +1053,7 @@
         "cuisine": "Persian"
       },
       {
-        "title": "Lebanese Green Beans with Walnuts (Loubieh B’Joz)",
+        "title": "Lebanese Green Beans with Walnuts (Loubieh B\u2019Joz)",
         "url": "https://silkroadrecipes.com/lebanese-green-beans-with-walnuts-loubieh-bjoz/?adt_ei={{ subscriber.email_address }}&utm_source=rss&utm_medium=rss&utm_campaign=lebanese-green-beans-with-walnuts-loubieh-bjoz",
         "recipe_url": "https://silkroadrecipes.com/lebanese-green-beans-with-walnuts-loubieh-bjoz/?adt_ei={{ subscriber.email_address }}&utm_source=rss&utm_medium=rss&utm_campaign=lebanese-green-beans-with-walnuts-loubieh-bjoz",
         "image_url": "https://silkroadrecipes.com/wp-content/uploads/2026/07/Lebanese-Green-Beans-with-Walnuts-Loubieh-BJoz0315-square-768x768.jpg",
@@ -1117,7 +1117,7 @@
         "cuisine": "Persian"
       },
       {
-        "title": "Vietnamese Egg Coffee (Cà Phê Trứng)",
+        "title": "Vietnamese Egg Coffee (C\u00e0 Ph\u00ea\u00a0Tr\u1ee9ng)",
         "url": "https://www.hungryhuy.com/vietnamese-egg-coffee/",
         "recipe_url": "https://www.hungryhuy.com/vietnamese-egg-coffee/",
         "image_url": "",
@@ -1133,7 +1133,7 @@
         "cuisine": "Vietnamese"
       },
       {
-        "title": "How to Cook Rice Noodles (Bún)",
+        "title": "How to Cook Rice Noodles (B\u00fan)",
         "url": "https://www.hungryhuy.com/how-to-cook-rice-noodles/",
         "recipe_url": "https://www.hungryhuy.com/how-to-cook-rice-noodles/",
         "image_url": "",
@@ -1197,7 +1197,7 @@
         "cuisine": "Vietnamese"
       },
       {
-        "title": "Slow Cooked Rosemary Lamb Ragù",
+        "title": "Slow Cooked Rosemary Lamb Rag\u00f9",
         "url": "https://www.recipetineats.com/slow-cooked-lamb-ragu-pasta/",
         "recipe_url": "https://www.recipetineats.com/slow-cooked-lamb-ragu-pasta/",
         "image_url": "https://www.recipetineats.com/tachyon/2026/10/Slow-cooked-Rosemary-Lamb-Ragu-3.jpg",
@@ -1449,7 +1449,7 @@
     },
     "candidates": [
       {
-        "title": "Kale Recipes You’ll Actually Want to Make",
+        "title": "Kale Recipes You\u2019ll Actually Want to Make",
         "url": "https://www.ambitiouskitchen.com/kale-recipes/",
         "recipe_url": "https://www.ambitiouskitchen.com/kale-recipes/",
         "image_url": "https://www.ambitiouskitchen.com/wp-content/uploads/2024/12/Roasted-Harvest-Vegetable-Couscous-Salad-4-750x750.jpg",
@@ -1457,7 +1457,7 @@
         "cuisine": "Healthy American"
       },
       {
-        "title": "Peanut Butter Lover’s Banana Bread",
+        "title": "Peanut Butter Lover\u2019s Banana Bread",
         "url": "https://www.ambitiouskitchen.com/peanut-butter-banana-bread/",
         "recipe_url": "https://www.ambitiouskitchen.com/peanut-butter-banana-bread/",
         "image_url": "https://www.ambitiouskitchen.com/wp-content/uploads/2022/10/Peanut-Butter-Lovers-Banana-Bread-4-750x750.jpg",
@@ -1473,7 +1473,7 @@
         "cuisine": "Healthy American"
       },
       {
-        "title": "Scallion Jalapeño Popper Stuffed Mushrooms",
+        "title": "Scallion Jalape\u00f1o Popper Stuffed Mushrooms",
         "url": "https://www.ambitiouskitchen.com/jalapeno-popper-stuffed-mushrooms/",
         "recipe_url": "https://www.ambitiouskitchen.com/jalapeno-popper-stuffed-mushrooms/",
         "image_url": "https://www.ambitiouskitchen.com/wp-content/uploads/2021/11/Scallion-Jalapeno-Popper-Stuffed-Mushrooms-5-750x750.jpg",
@@ -1577,7 +1577,7 @@
         "cuisine": "American Comfort"
       },
       {
-        "title": "Buñuelos de Manzana (Apple Beignet Fritters)",
+        "title": "Bu\u00f1uelos de Manzana (Apple Beignet Fritters)",
         "url": "https://www.laylita.com/recipes/bunuelos-de-manzana-apple-beignet-fritters/",
         "recipe_url": "https://www.laylita.com/recipes/bunuelos-de-manzana-apple-beignet-fritters/",
         "image_url": "",
@@ -1735,7 +1735,7 @@
         "image_url": "https://natashaskitchen.com/wp-content/uploads/2026/09/Apple-Galette-SQ.jpg",
         "recipe_url": "https://natashaskitchen.com/apple-galette/?adt_ei={{ subscriber.email_address }}",
         "site_name": "Natasha's Kitchen",
-        "title": "This Apple Galette is Easier than Pie 🍎",
+        "title": "This Apple Galette is Easier than Pie \ud83c\udf4e",
         "url": "https://natashaskitchen.com/apple-galette/?adt_ei={{ subscriber.email_address }}"
       },
       "Tue": {
@@ -1751,7 +1751,7 @@
         "image_url": "https://i0.wp.com/www.pardonyourfrench.com/wp-content/uploads/2026/05/Provencal-Pork-Stew-15.jpg?fit=801%2C1200&#038;ssl=1",
         "recipe_url": "https://www.pardonyourfrench.com/provencal-pork-stew/?utm_source=rss&utm_medium=rss&utm_campaign=provencal-pork-stew",
         "site_name": "Pardon Your French",
-        "title": "Easy Provençal Pork Stew (French Pork Stew with Tomatoes, Peppers & Herbs)",
+        "title": "Easy Proven\u00e7al Pork Stew (French Pork Stew with Tomatoes, Peppers & Herbs)",
         "url": "https://www.pardonyourfrench.com/provencal-pork-stew/?utm_source=rss&utm_medium=rss&utm_campaign=provencal-pork-stew"
       },
       "Thu": {
@@ -1789,7 +1789,7 @@
     },
     "candidates": [
       {
-        "title": "Pumpkin Cinnamon Rolls + That Maple Frosting 😍",
+        "title": "Pumpkin Cinnamon Rolls + That Maple Frosting \ud83d\ude0d",
         "url": "https://natashaskitchen.com/pumpkin-cinnamon-rolls/?adt_ei={{ subscriber.email_address }}",
         "recipe_url": "https://natashaskitchen.com/pumpkin-cinnamon-rolls/?adt_ei={{ subscriber.email_address }}",
         "image_url": "https://natashaskitchen.com/wp-content/uploads/2026/09/Pumpkin-Cinnamon-Rolls-7.jpg",
@@ -1805,7 +1805,7 @@
         "cuisine": "American"
       },
       {
-        "title": "This Apple Galette is Easier than Pie 🍎",
+        "title": "This Apple Galette is Easier than Pie \ud83c\udf4e",
         "url": "https://natashaskitchen.com/apple-galette/?adt_ei={{ subscriber.email_address }}",
         "recipe_url": "https://natashaskitchen.com/apple-galette/?adt_ei={{ subscriber.email_address }}",
         "image_url": "https://natashaskitchen.com/wp-content/uploads/2026/09/Apple-Galette-SQ.jpg",
@@ -1813,7 +1813,7 @@
         "cuisine": "American"
       },
       {
-        "title": "I Think I Have a Bagel Problem 👀",
+        "title": "I Think I Have a Bagel Problem \ud83d\udc40",
         "url": "https://natashaskitchen.com/sourdough-bagels/?adt_ei={{ subscriber.email_address }}",
         "recipe_url": "https://natashaskitchen.com/sourdough-bagels/?adt_ei={{ subscriber.email_address }}",
         "image_url": "https://natashaskitchen.com/wp-content/uploads/2026/09/Sourdough-Bagels-7.jpg",
@@ -1829,7 +1829,7 @@
         "cuisine": "American"
       },
       {
-        "title": "I Tried the Viral Salty Canadian—and Now I Get It",
+        "title": "I Tried the Viral Salty Canadian\u2014and Now I Get It",
         "url": "https://natashaskitchen.com/iced-latte/?adt_ei={{ subscriber.email_address }}",
         "recipe_url": "https://natashaskitchen.com/iced-latte/?adt_ei={{ subscriber.email_address }}",
         "image_url": "https://natashaskitchen.com/wp-content/uploads/2026/08/Iced-Latte-Salty-Canadian-4.jpg",
@@ -2053,7 +2053,7 @@
         "cuisine": "French"
       },
       {
-        "title": "Classic French Yogurt Cake (Gâteau au Yaourt)",
+        "title": "Classic French Yogurt Cake (G\u00e2teau au Yaourt)",
         "url": "https://www.pardonyourfrench.com/classic-french-yogurt-cake-gateau-au-yaourt/?utm_source=rss&utm_medium=rss&utm_campaign=classic-french-yogurt-cake-gateau-au-yaourt",
         "recipe_url": "https://www.pardonyourfrench.com/classic-french-yogurt-cake-gateau-au-yaourt/?utm_source=rss&utm_medium=rss&utm_campaign=classic-french-yogurt-cake-gateau-au-yaourt",
         "image_url": "https://i0.wp.com/www.pardonyourfrench.com/wp-content/uploads/2026/08/classic-french-yogurt-cake-19.jpg?fit=800%2C1200&#038;ssl=1",
@@ -2085,7 +2085,7 @@
         "cuisine": "French"
       },
       {
-        "title": "Easy Provençal Pork Stew (French Pork Stew with Tomatoes, Peppers & Herbs)",
+        "title": "Easy Proven\u00e7al Pork Stew (French Pork Stew with Tomatoes, Peppers & Herbs)",
         "url": "https://www.pardonyourfrench.com/provencal-pork-stew/?utm_source=rss&utm_medium=rss&utm_campaign=provencal-pork-stew",
         "recipe_url": "https://www.pardonyourfrench.com/provencal-pork-stew/?utm_source=rss&utm_medium=rss&utm_campaign=provencal-pork-stew",
         "image_url": "https://i0.wp.com/www.pardonyourfrench.com/wp-content/uploads/2026/05/Provencal-Pork-Stew-15.jpg?fit=801%2C1200&#038;ssl=1",
@@ -2183,7 +2183,7 @@
         "image_url": "https://woonheng.com/wp-content/uploads/2023/01/Vegan-Yu-Xiang-Rou-Si-6702-e1673017934796.jpg",
         "recipe_url": "https://woonheng.com/vegan-yu-xiang-shredded-pork/?utm_source=rss&utm_medium=rss&utm_campaign=vegan-yu-xiang-shredded-pork",
         "site_name": "WoonHeng",
-        "title": "Vegan Yu Xiang Rou Si – Fish Fragrant Shredded ‘Pork’",
+        "title": "Vegan Yu Xiang Rou Si \u2013 Fish Fragrant Shredded \u2018Pork\u2019",
         "url": "https://woonheng.com/vegan-yu-xiang-shredded-pork/?utm_source=rss&utm_medium=rss&utm_campaign=vegan-yu-xiang-shredded-pork"
       },
       "Fri": {
@@ -2243,7 +2243,7 @@
         "cuisine": "Italian-Inspired"
       },
       {
-        "title": "Life-Changing Cheater’s Croissant Dough",
+        "title": "Life-Changing Cheater\u2019s Croissant Dough",
         "url": "https://alexandracooks.com/2026/06/27/life-changing-cheaters-croissant-dough/",
         "recipe_url": "https://alexandracooks.com/2026/06/27/life-changing-cheaters-croissant-dough/",
         "image_url": "https://alexandracooks.com/wp-content/uploads/2026/06/croissantsonsheetpan_1200_ak.jpg",
@@ -2475,7 +2475,7 @@
         "cuisine": "Thai"
       },
       {
-        "title": "Kung Pao Shan Yao (Chinese Yam) – 宫保山药",
+        "title": "Kung Pao Shan Yao (Chinese Yam) \u2013 \u5bab\u4fdd\u5c71\u836f",
         "url": "https://woonheng.com/kung-pao-shan-yao-chinese-yam/?utm_source=rss&utm_medium=rss&utm_campaign=kung-pao-shan-yao-chinese-yam",
         "recipe_url": "https://woonheng.com/kung-pao-shan-yao-chinese-yam/?utm_source=rss&utm_medium=rss&utm_campaign=kung-pao-shan-yao-chinese-yam",
         "image_url": "https://woonheng.com/wp-content/uploads/2026/06/KungPao-Chinese-Yam-4.jpg",
@@ -2483,7 +2483,7 @@
         "cuisine": "Malaysian"
       },
       {
-        "title": "Osmanthus Konnyaku Jelly Balls – 桂花果冻",
+        "title": "Osmanthus Konnyaku Jelly Balls \u2013 \u6842\u82b1\u679c\u51bb",
         "url": "https://woonheng.com/osmanthus-konnyaku-jelly-balls/?utm_source=rss&utm_medium=rss&utm_campaign=osmanthus-konnyaku-jelly-balls",
         "recipe_url": "https://woonheng.com/osmanthus-konnyaku-jelly-balls/?utm_source=rss&utm_medium=rss&utm_campaign=osmanthus-konnyaku-jelly-balls",
         "image_url": "https://woonheng.com/wp-content/uploads/2026/06/Osmanthus-Konnyaku-Jelly-Balls-2.jpg",
@@ -2491,7 +2491,7 @@
         "cuisine": "Malaysian"
       },
       {
-        "title": "Tian Shui Mian (甜水面) — Sweet Water Noodles",
+        "title": "Tian Shui Mian (\u751c\u6c34\u9762) \u2014 Sweet Water Noodles",
         "url": "https://woonheng.com/sweet-water-noodles-tian-shui-mian/?utm_source=rss&utm_medium=rss&utm_campaign=sweet-water-noodles-tian-shui-mian",
         "recipe_url": "https://woonheng.com/sweet-water-noodles-tian-shui-mian/?utm_source=rss&utm_medium=rss&utm_campaign=sweet-water-noodles-tian-shui-mian",
         "image_url": "https://woonheng.com/wp-content/uploads/2026/05/Tian-Sui-Mian-4-of-4.jpg",
@@ -2507,7 +2507,7 @@
         "cuisine": "Malaysian"
       },
       {
-        "title": "Easy Spicy Cumin Potatoes (孜然土豆）",
+        "title": "Easy Spicy Cumin Potatoes (\u5b5c\u7136\u571f\u8c46\uff09",
         "url": "https://woonheng.com/spicy-cumin-potatoes/?utm_source=rss&utm_medium=rss&utm_campaign=spicy-cumin-potatoes",
         "recipe_url": "https://woonheng.com/spicy-cumin-potatoes/?utm_source=rss&utm_medium=rss&utm_campaign=spicy-cumin-potatoes",
         "image_url": "https://woonheng.com/wp-content/uploads/2026/04/Spicy-Cumin-Potatoes-1-of-2.jpg",
@@ -2515,7 +2515,7 @@
         "cuisine": "Malaysian"
       },
       {
-        "title": "Crispy Vegan Goose (Chai Ngor) – Easy At-Home Version",
+        "title": "Crispy Vegan Goose (Chai Ngor) \u2013 Easy At-Home Version",
         "url": "https://woonheng.com/vegan-goose-chai-ngor/?utm_source=rss&utm_medium=rss&utm_campaign=vegan-goose-chai-ngor",
         "recipe_url": "https://woonheng.com/vegan-goose-chai-ngor/?utm_source=rss&utm_medium=rss&utm_campaign=vegan-goose-chai-ngor",
         "image_url": "https://woonheng.com/wp-content/uploads/2026/03/Vegan-Goose-3-of-3.jpg",
@@ -2523,7 +2523,7 @@
         "cuisine": "Malaysian"
       },
       {
-        "title": "Vegan Sichuan Mouthwatering Doubao ‘Chicken’ (素口水鸡)",
+        "title": "Vegan Sichuan Mouthwatering Doubao \u2018Chicken\u2019 (\u7d20\u53e3\u6c34\u9e21)",
         "url": "https://woonheng.com/vegan-sichuan-mouthwatering-chicken/?utm_source=rss&utm_medium=rss&utm_campaign=vegan-sichuan-mouthwatering-chicken",
         "recipe_url": "https://woonheng.com/vegan-sichuan-mouthwatering-chicken/?utm_source=rss&utm_medium=rss&utm_campaign=vegan-sichuan-mouthwatering-chicken",
         "image_url": "https://woonheng.com/wp-content/uploads/2026/02/Mouthwatering-chicken-1-of-1.jpg",
@@ -2539,7 +2539,7 @@
         "cuisine": "Malaysian"
       },
       {
-        "title": "Easy 15 minute Peanut Sprouts Stir-Fry 花生芽",
+        "title": "Easy 15 minute Peanut Sprouts Stir-Fry \u82b1\u751f\u82bd",
         "url": "https://woonheng.com/peanut-sprouts-stir-fry/?utm_source=rss&utm_medium=rss&utm_campaign=peanut-sprouts-stir-fry",
         "recipe_url": "https://woonheng.com/peanut-sprouts-stir-fry/?utm_source=rss&utm_medium=rss&utm_campaign=peanut-sprouts-stir-fry",
         "image_url": "https://woonheng.com/wp-content/uploads/2023/02/Peanut-Sprouts-Stir-Fry-7015-e1676009909121.jpg",
@@ -2547,7 +2547,7 @@
         "cuisine": "Malaysian"
       },
       {
-        "title": "Vegan Yu Xiang Rou Si – Fish Fragrant Shredded ‘Pork’",
+        "title": "Vegan Yu Xiang Rou Si \u2013 Fish Fragrant Shredded \u2018Pork\u2019",
         "url": "https://woonheng.com/vegan-yu-xiang-shredded-pork/?utm_source=rss&utm_medium=rss&utm_campaign=vegan-yu-xiang-shredded-pork",
         "recipe_url": "https://woonheng.com/vegan-yu-xiang-shredded-pork/?utm_source=rss&utm_medium=rss&utm_campaign=vegan-yu-xiang-shredded-pork",
         "image_url": "https://woonheng.com/wp-content/uploads/2023/01/Vegan-Yu-Xiang-Rou-Si-6702-e1673017934796.jpg",
@@ -2987,7 +2987,7 @@
         "published_at": "Tue, 29 Sep 2026 21:35:57 +0000"
       },
       "Sun": {
-        "title": "Spanish Chickpeas with Chorizo | One of Spain’s Most Iconic Recipes",
+        "title": "Spanish Chickpeas with Chorizo | One of Spain\u2019s Most Iconic Recipes",
         "url": "https://spainonafork.com/spanish-chickpeas-with-chorizo-recipe/",
         "recipe_url": "https://spainonafork.com/spanish-chickpeas-with-chorizo-recipe/",
         "image_url": "https://i0.wp.com/spainonafork.com/wp-content/uploads/2026/10/DSC_0612-111.png?fit=750%2C750&ssl=1",
@@ -3029,7 +3029,7 @@
         "published_at": "Fri, 25 Sep 2026 17:50:28 +0000"
       },
       {
-        "title": "CREAMY “Marry Me” White Bean Soup | Heartwarming 30 Minute Recipe",
+        "title": "CREAMY \u201cMarry Me\u201d White Bean Soup | Heartwarming 30 Minute Recipe",
         "url": "https://spainonafork.com/creamy-marry-me-white-bean-soup-recipe/",
         "recipe_url": "https://spainonafork.com/creamy-marry-me-white-bean-soup-recipe/",
         "image_url": "https://i0.wp.com/spainonafork.com/wp-content/uploads/2026/10/DSC_0479-11.png?fit=750%2C750&ssl=1",
@@ -3109,7 +3109,7 @@
         "published_at": "Mon, 14 Sep 2026 18:09:27 +0000"
       },
       {
-        "title": "The BEST Spanish Rice You’ve Never Had | Arroz Empedrado Granadino",
+        "title": "The BEST Spanish Rice You\u2019ve Never Had | Arroz Empedrado Granadino",
         "url": "https://spainonafork.com/the-best-spanish-rice-youve-never-had-arroz-empedrado-granadino/",
         "recipe_url": "https://spainonafork.com/the-best-spanish-rice-youve-never-had-arroz-empedrado-granadino/",
         "image_url": "https://i0.wp.com/spainonafork.com/wp-content/uploads/2026/09/DSC_0324-11.png?fit=750%2C750&ssl=1",
@@ -3791,7 +3791,7 @@
         "cuisine": "Plant-Based"
       },
       {
-        "title": "October Cooking Club – A Cookbook Sneak Peek!",
+        "title": "October Cooking Club \u2013 A Cookbook Sneak Peek!",
         "url": "https://www.loveandlemons.com/pop-of-flavor-cooking-club/",
         "recipe_url": "https://www.loveandlemons.com/pop-of-flavor-cooking-club/",
         "image_url": "https://cdn.loveandlemons.com/wp-content/uploads/2026/10/cover-1.jpg",
@@ -3935,7 +3935,7 @@
         "cuisine": "Indian Vegan"
       },
       {
-        "title": "Easy Pista Kulfi Recipe – No Cook, 6 Ingredients",
+        "title": "Easy Pista Kulfi Recipe \u2013 No Cook, 6 Ingredients",
         "url": "https://www.flourandspiceblog.com/easy-pista-kulfi-recipe/",
         "recipe_url": "https://www.flourandspiceblog.com/easy-pista-kulfi-recipe/",
         "image_url": "https://www.flourandspiceblog.com/wp-content/uploads/2025/07/IMG_4075.jpg",
@@ -4451,7 +4451,7 @@
     ],
     "recipes": {
       "Mon": {
-        "title": "Kaitlin’s Most Excellent Spaghetti Bolognese",
+        "title": "Kaitlin\u2019s Most Excellent Spaghetti Bolognese",
         "url": "https://thewoksoflife.com/spaghetti-bolognese/?adt_ei=*|EMAIL|*",
         "recipe_url": "https://thewoksoflife.com/spaghetti-bolognese/?adt_ei=*|EMAIL|*",
         "image_url": "https://thewoksoflife.com/wp-content/uploads/2026/06/spaghetti-bolognese-17.jpg",
@@ -4521,7 +4521,7 @@
     },
     "candidates": [
       {
-        "title": "Kaitlin’s Most Excellent Spaghetti Bolognese",
+        "title": "Kaitlin\u2019s Most Excellent Spaghetti Bolognese",
         "url": "https://thewoksoflife.com/spaghetti-bolognese/?adt_ei=*|EMAIL|*",
         "recipe_url": "https://thewoksoflife.com/spaghetti-bolognese/?adt_ei=*|EMAIL|*",
         "image_url": "https://thewoksoflife.com/wp-content/uploads/2026/06/spaghetti-bolognese-17.jpg",
@@ -4561,7 +4561,7 @@
         "cuisine": "Chinese"
       },
       {
-        "title": "Scallion Pepper Stir-Fry (葱炒辣椒)",
+        "title": "Scallion Pepper Stir-Fry (\u8471\u7092\u8fa3\u6912)",
         "url": "https://thewoksoflife.com/scallion-pepper-stir-fry/?adt_ei=*|EMAIL|*",
         "recipe_url": "https://thewoksoflife.com/scallion-pepper-stir-fry/?adt_ei=*|EMAIL|*",
         "image_url": "https://thewoksoflife.com/wp-content/uploads/2026/09/scallion-pepper-stir-fry-11.jpg",
@@ -4681,7 +4681,7 @@
         "cuisine": "Middle Eastern"
       },
       {
-        "title": "French Shortcrust Pastry (Pâte Brisée)",
+        "title": "French Shortcrust Pastry (P\u00e2te Bris\u00e9e)",
         "url": "https://www.theflavorbender.com/french-shortcrust-pastry-pate-brisee/?utm_source=rss&utm_medium=rss&utm_campaign=french-shortcrust-pastry-pate-brisee",
         "recipe_url": "https://www.theflavorbender.com/french-shortcrust-pastry-pate-brisee/?utm_source=rss&utm_medium=rss&utm_campaign=french-shortcrust-pastry-pate-brisee",
         "image_url": "https://www.theflavorbender.com/wp-content/uploads/2026/10/French-shortcrust-pastry-featured-1.jpg",
@@ -4895,7 +4895,7 @@
         "published_at": "Tue, 22 Apr 2025 17:35:50 +0000"
       },
       {
-        "title": "Back To Basics – The Perfect Coleslaw",
+        "title": "Back To Basics \u2013 The Perfect Coleslaw",
         "url": "https://www.kaluhiskitchen.com/back-to-basics-coleslaw/",
         "recipe_url": "https://www.kaluhiskitchen.com/back-to-basics-coleslaw/",
         "image_url": "https://www.kaluhiskitchen.com/wp-content/uploads/2023/01/BEST-COLESLAW-RECIPE_HOMEMADE-COLESLAW_EASY-HOMEMADE-COLESLAW_KALUHI_KALUHISKITCHEN-12.jpg",
@@ -4965,7 +4965,7 @@
         "published_at": "Thu, 27 Aug 2026 13:00:00 +0000"
       },
       {
-        "title": "Ncha – Nkwobi Sauce",
+        "title": "Ncha \u2013 Nkwobi Sauce",
         "url": "https://www.afrolems.com/2023/09/20/ncha-nkwobi-sauce/",
         "recipe_url": "https://www.afrolems.com/2023/09/20/ncha-nkwobi-sauce/",
         "image_url": "https://i2.wp.com/www.afrolems.com/wp-content/uploads/2023/09/NCHA-SAUCE-scaled.jpg?fit=1920%2C2560&ssl=1",
@@ -5337,7 +5337,7 @@
         "cuisine": "American"
       },
       {
-        "title": "Pumpkin Cinnamon Rolls + That Maple Frosting 😍",
+        "title": "Pumpkin Cinnamon Rolls + That Maple Frosting \ud83d\ude0d",
         "url": "https://natashaskitchen.com/pumpkin-cinnamon-rolls/?adt_ei={{ subscriber.email_address }}",
         "recipe_url": "https://natashaskitchen.com/pumpkin-cinnamon-rolls/?adt_ei={{ subscriber.email_address }}",
         "image_url": "https://natashaskitchen.com/wp-content/uploads/2026/09/Pumpkin-Cinnamon-Rolls-7.jpg",
@@ -5353,7 +5353,7 @@
         "cuisine": "American"
       },
       {
-        "title": "This Apple Galette is Easier than Pie 🍎",
+        "title": "This Apple Galette is Easier than Pie \ud83c\udf4e",
         "url": "https://natashaskitchen.com/apple-galette/?adt_ei={{ subscriber.email_address }}",
         "recipe_url": "https://natashaskitchen.com/apple-galette/?adt_ei={{ subscriber.email_address }}",
         "image_url": "https://natashaskitchen.com/wp-content/uploads/2026/09/Apple-Galette-SQ.jpg",
@@ -5361,7 +5361,7 @@
         "cuisine": "American"
       },
       {
-        "title": "I Think I Have a Bagel Problem 👀",
+        "title": "I Think I Have a Bagel Problem \ud83d\udc40",
         "url": "https://natashaskitchen.com/sourdough-bagels/?adt_ei={{ subscriber.email_address }}",
         "recipe_url": "https://natashaskitchen.com/sourdough-bagels/?adt_ei={{ subscriber.email_address }}",
         "image_url": "https://natashaskitchen.com/wp-content/uploads/2026/09/Sourdough-Bagels-7.jpg",
@@ -5377,7 +5377,7 @@
         "cuisine": "American"
       },
       {
-        "title": "I Tried the Viral Salty Canadian—and Now I Get It",
+        "title": "I Tried the Viral Salty Canadian\u2014and Now I Get It",
         "url": "https://natashaskitchen.com/iced-latte/?adt_ei={{ subscriber.email_address }}",
         "recipe_url": "https://natashaskitchen.com/iced-latte/?adt_ei={{ subscriber.email_address }}",
         "image_url": "https://natashaskitchen.com/wp-content/uploads/2026/08/Iced-Latte-Salty-Canadian-4.jpg",
@@ -5904,7 +5904,7 @@
         "url": "https://familyspice.com/sheet-pan-koobideh-kabob/"
       },
       "Sat": {
-        "title": "A Restaurant Favorite That’s Surprisingly Easy",
+        "title": "A Restaurant Favorite That\u2019s Surprisingly Easy",
         "url": "https://www.spendwithpennies.com/honey-walnut-shrimp/",
         "recipe_url": "https://www.spendwithpennies.com/honey-walnut-shrimp/",
         "image_url": "https://www.spendwithpennies.com/wp-content/uploads/2026/09/Honey-Walnut-Shrimp-SpendWithPennies-11.jpg",
@@ -6012,7 +6012,7 @@
         "cuisine": "American"
       },
       {
-        "title": "A Restaurant Favorite That’s Surprisingly Easy",
+        "title": "A Restaurant Favorite That\u2019s Surprisingly Easy",
         "url": "https://www.spendwithpennies.com/honey-walnut-shrimp/",
         "recipe_url": "https://www.spendwithpennies.com/honey-walnut-shrimp/",
         "image_url": "https://www.spendwithpennies.com/wp-content/uploads/2026/09/Honey-Walnut-Shrimp-SpendWithPennies-11.jpg",
@@ -6316,7 +6316,7 @@
         "recipe_url": "https://redhousespice.com/taiwanese-beef-noodle-soup/",
         "site_name": "Red House Spice",
         "site_url": "https://redhousespice.com",
-        "title": "Taiwanese Beef Noodle Soup (红烧牛肉面)",
+        "title": "Taiwanese Beef Noodle Soup (\u7ea2\u70e7\u725b\u8089\u9762)",
         "url": "https://redhousespice.com/taiwanese-beef-noodle-soup/"
       },
       "Thu": {
@@ -6350,7 +6350,7 @@
         "published_at": "Fri, 16 Oct 2026 14:00:00 +0000"
       },
       "Sun": {
-        "title": "Cashew Chicken Stir-Fry (腰果鸡丁)",
+        "title": "Cashew Chicken Stir-Fry (\u8170\u679c\u9e21\u4e01)",
         "url": "https://redhousespice.com/cashew-chicken-stir-fry/",
         "recipe_url": "https://redhousespice.com/cashew-chicken-stir-fry/",
         "image_url": "https://redhousespice.com/wp-content/uploads/2026/05/cashew-chicken-stir-fry-3-scaled.jpg",
@@ -6382,7 +6382,7 @@
         "published_at": "Sun, 11 Oct 2026 08:39:17 +0000"
       },
       {
-        "title": "Red Bean Soup (红豆汤)",
+        "title": "Red Bean Soup (\u7ea2\u8c46\u6c64)",
         "url": "https://omnivorescookbook.com/red-bean-soup/",
         "recipe_url": "https://omnivorescookbook.com/red-bean-soup/",
         "image_url": "https://omnivorescookbook.com/wp-content/uploads/2026/09/260915_Red-Bean-Soup_YouTube-scaled.jpg",
@@ -6402,7 +6402,7 @@
         "published_at": "Mon, 04 May 2026 10:21:04 +0000"
       },
       {
-        "title": "Spicy Pork Belly Stir Fry – Mala Pork Belly",
+        "title": "Spicy Pork Belly Stir Fry \u2013 Mala Pork Belly",
         "url": "https://www.chinasichuanfood.com/spicy-pork-belly-stir-fry-mala-pork-belly/",
         "recipe_url": "https://www.chinasichuanfood.com/spicy-pork-belly-stir-fry-mala-pork-belly/",
         "image_url": "https://www.chinasichuanfood.com/wp-content/uploads/2026/09/Mala-Pork-Belly-16.webp",
@@ -6432,7 +6432,7 @@
         "published_at": "Wed, 14 Oct 2026 14:13:00 +0000"
       },
       {
-        "title": "Northeast Tiger Salad (东北老虎菜)",
+        "title": "Northeast Tiger Salad (\u4e1c\u5317\u8001\u864e\u83dc)",
         "url": "https://redhousespice.com/northeast-tiger-salad/",
         "recipe_url": "https://redhousespice.com/northeast-tiger-salad/",
         "image_url": "https://redhousespice.com/wp-content/uploads/2026/05/northwest-tiger-salad-mixing-scaled.jpg",
@@ -6512,7 +6512,7 @@
         "published_at": "Thu, 08 Oct 2026 14:33:00 +0000"
       },
       {
-        "title": "Taiwanese Beef Noodle Soup (红烧牛肉面)",
+        "title": "Taiwanese Beef Noodle Soup (\u7ea2\u70e7\u725b\u8089\u9762)",
         "url": "https://redhousespice.com/taiwanese-beef-noodle-soup/",
         "recipe_url": "https://redhousespice.com/taiwanese-beef-noodle-soup/",
         "image_url": "https://redhousespice.com/wp-content/uploads/2025/10/taiwanese-beef-noodle-soup-4-scaled.jpg",
@@ -6614,11 +6614,11 @@
         "recipe_url": "https://www.justonecookbook.com/stir-fry-miso-eggplant/",
         "site_name": "Just One Cookbook",
         "site_url": "https://justonecookbook.com",
-        "title": "Miso Eggplant Stir-Fryナスの味噌炒め",
+        "title": "Miso Eggplant Stir-Fry\u30ca\u30b9\u306e\u5473\u564c\u7092\u3081",
         "url": "https://www.justonecookbook.com/stir-fry-miso-eggplant/"
       },
       "Tue": {
-        "title": "Marinated Sautéed Mushrooms and Zucchini",
+        "title": "Marinated Saut\u00e9ed Mushrooms and Zucchini",
         "url": "https://japan.recipetineats.com/marinated-sauteed-mushrooms-and-zucchini/",
         "recipe_url": "https://japan.recipetineats.com/marinated-sauteed-mushrooms-and-zucchini/",
         "image_url": "https://japan.recipetineats.com/wp-content/uploads/2026/10/Marinated_Sauteed_Mushrooms_and_Zucchini_2019.jpg",
@@ -6676,7 +6676,7 @@
     },
     "candidates": [
       {
-        "title": "How to Cook Brown Rice in a Donabe 玄米の炊き方 (土鍋)",
+        "title": "How to Cook Brown Rice in a Donabe \u7384\u7c73\u306e\u708a\u304d\u65b9 (\u571f\u934b)",
         "url": "https://www.justonecookbook.com/how-to-cook-brown-rice-in-a-donabe/",
         "recipe_url": "https://www.justonecookbook.com/how-to-cook-brown-rice-in-a-donabe/",
         "image_url": "https://www.justonecookbook.com/wp-content/uploads/2026/10/How-to-Cook-Brown-Rice-in-a-Donabe-7590-I-1-1200x800.jpg",
@@ -6692,7 +6692,7 @@
         "cuisine": "Japanese"
       },
       {
-        "title": "Yuzu Kosho Edamame 柚子こしょう枝豆",
+        "title": "Yuzu Kosho Edamame \u67da\u5b50\u3053\u3057\u3087\u3046\u679d\u8c46",
         "url": "https://www.justonecookbook.com/yuzu-kosho-edamame/",
         "recipe_url": "https://www.justonecookbook.com/yuzu-kosho-edamame/",
         "image_url": "https://www.justonecookbook.com/wp-content/uploads/2027/09/Yuzu-Kosho-Edamame-6535-I-1-1200x800.jpg",
@@ -6700,7 +6700,7 @@
         "cuisine": "Japanese"
       },
       {
-        "title": "Japanese Shredded Cabbage Salad キャベツの千切り",
+        "title": "Japanese Shredded Cabbage Salad \u30ad\u30e3\u30d9\u30c4\u306e\u5343\u5207\u308a",
         "url": "https://www.justonecookbook.com/japanese-shredded-cabbage-salad/",
         "recipe_url": "https://www.justonecookbook.com/japanese-shredded-cabbage-salad/",
         "image_url": "https://www.justonecookbook.com/wp-content/uploads/2027/09/Japanese-Shredded-Cabbage-Salad-6631-I-1-1200x800.jpg",
@@ -6716,7 +6716,7 @@
         "cuisine": "Japanese"
       },
       {
-        "title": "Miso Eggplant Stir-Fryナスの味噌炒め",
+        "title": "Miso Eggplant Stir-Fry\u30ca\u30b9\u306e\u5473\u564c\u7092\u3081",
         "url": "https://www.justonecookbook.com/stir-fry-miso-eggplant/",
         "recipe_url": "https://www.justonecookbook.com/stir-fry-miso-eggplant/",
         "image_url": "https://www.justonecookbook.com/wp-content/uploads/2021/03/Stir-Fry-Miso-Eggplant-5169.jpg",
@@ -6724,7 +6724,7 @@
         "cuisine": "Japanese"
       },
       {
-        "title": "Tokoroten (Japanese Jelly Noodles) ところてん",
+        "title": "Tokoroten (Japanese Jelly Noodles) \u3068\u3053\u308d\u3066\u3093",
         "url": "https://www.justonecookbook.com/tokoroten/",
         "recipe_url": "https://www.justonecookbook.com/tokoroten/",
         "image_url": "https://www.justonecookbook.com/wp-content/uploads/2026/08/Tokoroten-Japanese-Jelly-Noodles-5961-I-1-1200x800.jpg",
@@ -6740,7 +6740,7 @@
         "cuisine": "Japanese"
       },
       {
-        "title": "Marinated Sautéed Mushrooms and Zucchini",
+        "title": "Marinated Saut\u00e9ed Mushrooms and Zucchini",
         "url": "https://japan.recipetineats.com/marinated-sauteed-mushrooms-and-zucchini/",
         "recipe_url": "https://japan.recipetineats.com/marinated-sauteed-mushrooms-and-zucchini/",
         "image_url": "https://japan.recipetineats.com/wp-content/uploads/2026/10/Marinated_Sauteed_Mushrooms_and_Zucchini_2019.jpg",
@@ -6940,7 +6940,7 @@
         "cuisine": "Polish"
       },
       {
-        "title": "Włoszczyzna: Aromatic Flavour-Bomb, Polish-style",
+        "title": "W\u0142oszczyzna: Aromatic Flavour-Bomb, Polish-style",
         "url": "https://www.polonist.com/wloszczyzna-polish-aromatic-vegetables/",
         "recipe_url": "https://www.polonist.com/wloszczyzna-polish-aromatic-vegetables/",
         "image_url": "https://www.polonist.com/wp-content/uploads/2022/03/wloszczyzna_1200x630_FB-o.jpg",
@@ -6972,7 +6972,7 @@
         "cuisine": "Polish"
       },
       {
-        "title": "Beginner’s Guide to Polish Vodka",
+        "title": "Beginner\u2019s Guide to Polish Vodka",
         "url": "https://www.polonist.com/best-polish-vodka/",
         "recipe_url": "https://www.polonist.com/best-polish-vodka/",
         "image_url": "https://www.polonist.com/wp-content/uploads/2019/02/polish-vodka-best-brands-types-500x500.jpg",
@@ -7082,7 +7082,7 @@
         "recipe_url": "https://www.cooklikeczechs.com/lomnice-rings-czech-lomnicke-krouzky/",
         "site_name": "Cook Like Czechs",
         "site_url": "https://cooklikeczechs.com",
-        "title": "Lomnice Rings (Czech Lomnické kroužky)",
+        "title": "Lomnice Rings (Czech Lomnick\u00e9 krou\u017eky)",
         "url": "https://www.cooklikeczechs.com/lomnice-rings-czech-lomnicke-krouzky/"
       },
       "Sun": {
@@ -7118,7 +7118,7 @@
         "published_at": "Thu, 14 May 2026 17:13:23 +0000"
       },
       {
-        "title": "Czech Beer Soup (Pivní polévka)",
+        "title": "Czech Beer Soup (Pivn\u00ed pol\u00e9vka)",
         "url": "https://www.cooklikeczechs.com/beer-soup-pivni-polevka/",
         "recipe_url": "https://www.cooklikeczechs.com/beer-soup-pivni-polevka/",
         "image_url": "https://www.cooklikeczechs.com/wp-content/uploads/2026/06/czech-beer-soup.jpg",
@@ -7158,7 +7158,7 @@
         "published_at": "Mon, 01 Dec 2025 04:30:59 +0000"
       },
       {
-        "title": "Chive Sauce (Czech Pažitková omáčka)",
+        "title": "Chive Sauce (Czech Pa\u017eitkov\u00e1 om\u00e1\u010dka)",
         "url": "https://www.cooklikeczechs.com/chive-sauce-czech-pazitkova-omacka/",
         "recipe_url": "https://www.cooklikeczechs.com/chive-sauce-czech-pazitkova-omacka/",
         "image_url": "https://www.cooklikeczechs.com/wp-content/uploads/2026/05/czech-pazitkova-omacka-chive-sauce-2.jpg",
@@ -7188,7 +7188,7 @@
         "published_at": "Wed, 07 Oct 2026 10:00:00 +0000"
       },
       {
-        "title": "Polish Cabbage Rolls with Tomato Sauce (Gołąbki w sosie pomidorowym)",
+        "title": "Polish Cabbage Rolls with Tomato Sauce (Go\u0142\u0105bki w sosie pomidorowym)",
         "url": "https://polishhousewife.com/polish-cabbage-rolls-with-tomato-sauce-golabki-w-sosie-pomidorowym/?utm_source=rss&utm_medium=rss&utm_campaign=polish-cabbage-rolls-with-tomato-sauce-golabki-w-sosie-pomidorowym",
         "recipe_url": "https://polishhousewife.com/polish-cabbage-rolls-with-tomato-sauce-golabki-w-sosie-pomidorowym/?utm_source=rss&utm_medium=rss&utm_campaign=polish-cabbage-rolls-with-tomato-sauce-golabki-w-sosie-pomidorowym",
         "image_url": "https://polishhousewife.com/wp-content/uploads/2025/06/IMG_0146-scaled.jpg",
@@ -7238,7 +7238,7 @@
         "published_at": "Fri, 21 Mar 2025 04:00:03 +0000"
       },
       {
-        "title": "Lomnice Rings (Czech Lomnické kroužky)",
+        "title": "Lomnice Rings (Czech Lomnick\u00e9 krou\u017eky)",
         "url": "https://www.cooklikeczechs.com/lomnice-rings-czech-lomnicke-krouzky/",
         "recipe_url": "https://www.cooklikeczechs.com/lomnice-rings-czech-lomnicke-krouzky/",
         "image_url": "https://www.cooklikeczechs.com/wp-content/uploads/2026/04/lomnicke-krouzky-czech-recipe.jpg",
@@ -7248,7 +7248,7 @@
         "published_at": "Fri, 17 Apr 2026 14:39:39 +0000"
       },
       {
-        "title": "Valentine’s Day Heart-Shaped Butter Cookies (video)",
+        "title": "Valentine\u2019s Day Heart-Shaped Butter Cookies (video)",
         "url": "https://tatyanaseverydayfood.com/valentines-day-butter-cookies/",
         "recipe_url": "https://tatyanaseverydayfood.com/valentines-day-butter-cookies/",
         "image_url": "https://tatyanaseverydayfood.com/wp-content/uploads/2026/02/Valentines-Day-Butter-Cookies-Recipe-1.jpg",
@@ -7278,7 +7278,7 @@
         "published_at": "Fri, 31 Jan 2025 23:00:07 +0000"
       },
       {
-        "title": "Hrutka – Slovak Egg Cheese",
+        "title": "Hrutka \u2013 Slovak Egg Cheese",
         "url": "https://www.cooklikeczechs.com/hrutka-slovak-easter-egg-cheese/",
         "recipe_url": "https://www.cooklikeczechs.com/hrutka-slovak-easter-egg-cheese/",
         "image_url": "https://www.cooklikeczechs.com/wp-content/uploads/2026/03/slovak-hrutka-cheese.jpg",
@@ -7288,7 +7288,7 @@
         "published_at": "Sat, 21 Mar 2026 12:57:40 +0000"
       },
       {
-        "title": "Soft & Chewy Brown Butter Valentine’s Day Cookies (video)",
+        "title": "Soft & Chewy Brown Butter Valentine\u2019s Day Cookies (video)",
         "url": "https://tatyanaseverydayfood.com/brown-butter-valentine-cookies/",
         "recipe_url": "https://tatyanaseverydayfood.com/brown-butter-valentine-cookies/",
         "image_url": "https://tatyanaseverydayfood.com/wp-content/uploads/2026/02/Brown-Butter-Valentines-Day-Cookies-Recipe-1.jpg",
@@ -7506,7 +7506,7 @@
         "published_at": "Fri, 09 Oct 2026 17:30:08 +0000"
       },
       {
-        "title": "German Whole Grain Seeded Bread Recipe (Dunkles Körnerbrot)",
+        "title": "German Whole Grain Seeded Bread Recipe (Dunkles K\u00f6rnerbrot)",
         "url": "https://dirndlkitchen.com/kornerbrot/",
         "recipe_url": "https://dirndlkitchen.com/kornerbrot/",
         "image_url": "https://dirndlkitchen.com/wp-content/uploads/2026/05/german-whole-grain-seeded-bread-dirndl-kitchen25.jpg",
@@ -7627,7 +7627,7 @@
         "name": "Jane's Patisserie",
         "url": "https://janespatisserie.com",
         "cuisine": "Baking",
-        "tagline": "Britain's #1 baking blog — traybakes, cheesecakes, and classics.",
+        "tagline": "Britain's #1 baking blog \u2014 traybakes, cheesecakes, and classics.",
         "image_url": "https://www.janespatisserie.com/wp-content/uploads/2026/10/CookieMonsterCookies5.jpg",
         "rss_url": "https://janespatisserie.com/feed/",
         "sites": []
@@ -7645,7 +7645,7 @@
         "name": "Leite's Culinaria",
         "url": "https://leitesculinaria.com",
         "cuisine": "Portuguese",
-        "tagline": "James Beard Award–winning Portuguese and global recipes.",
+        "tagline": "James Beard Award\u2013winning Portuguese and global recipes.",
         "image_url": "https://leitesculinaria.com/wp-content/uploads/2022/12/IMG_1391-1.jpg",
         "rss_url": "https://leitesculinaria.com/feed/",
         "sites": []
@@ -8018,7 +8018,7 @@
         "image_url": "https://foreignfork.com/wp-content/uploads/2026/05/Feature-Image-Bun-Cha.jpg",
         "recipe_url": "https://foreignfork.com/bun-cha/",
         "site_name": "The Foreign Fork",
-        "title": "Bún Chả Hanoi with Caramelized Meatballs and Herbs",
+        "title": "B\u00fan Ch\u1ea3 Hanoi with Caramelized Meatballs and Herbs",
         "url": "https://foreignfork.com/bun-cha/"
       },
       "Sat": {
@@ -8074,7 +8074,7 @@
         "cuisine": "Latin American"
       },
       {
-        "title": "Bucatini all’Amatriciana​ with Extra Crispy Guanciale",
+        "title": "Bucatini all\u2019Amatriciana\u200b with Extra Crispy Guanciale",
         "url": "https://foreignfork.com/amatriciana/",
         "recipe_url": "https://foreignfork.com/amatriciana/",
         "image_url": "https://foreignfork.com/wp-content/uploads/2026/06/Feature-Image-Amatriciana.jpg",
@@ -8098,7 +8098,7 @@
         "cuisine": "Latin American"
       },
       {
-        "title": "Bún Chả Hanoi with Caramelized Meatballs and Herbs",
+        "title": "B\u00fan Ch\u1ea3 Hanoi with Caramelized Meatballs and Herbs",
         "url": "https://foreignfork.com/bun-cha/",
         "recipe_url": "https://foreignfork.com/bun-cha/",
         "image_url": "https://foreignfork.com/wp-content/uploads/2026/05/Feature-Image-Bun-Cha.jpg",
@@ -8290,7 +8290,7 @@
         "cuisine": "Colombian"
       },
       {
-        "title": "Coffee Granita with Sweet Condensed Milk (Granizado de Café con Lechera)",
+        "title": "Coffee Granita with Sweet Condensed Milk (Granizado de Caf\u00e9 con Lechera)",
         "url": "https://www.mycolombianrecipes.com/coffee-granita-with-sweet-condensed-milk-granizado-de-cafe-con-lechera/?adt_ei={{ email }}",
         "recipe_url": "https://www.mycolombianrecipes.com/coffee-granita-with-sweet-condensed-milk-granizado-de-cafe-con-lechera/?adt_ei={{ email }}",
         "image_url": "https://www.mycolombianrecipes.com/wp-content/uploads/2011/06/Coffee-Granita-1-771x1024.jpg",
@@ -8657,7 +8657,7 @@
         "name": "Give Recipe",
         "url": "https://giverecipe.com",
         "cuisine": "Turkish",
-        "tagline": "The best Turkish food blog in English — kebabs to mezes.",
+        "tagline": "The best Turkish food blog in English \u2014 kebabs to mezes.",
         "image_url": "https://www.giverecipe.com/wp-content/uploads/2021/04/Turkish-Chicken-Kebab-Recipe-360x480.jpg",
         "rss_url": "https://giverecipe.com/feed/",
         "sites": []
@@ -8841,10 +8841,10 @@
         "cuisine": "Turkish"
       },
       {
-        "title": "Pişi – Turkish Fried Dough for Breakfast",
+        "title": "Pi\u015fi \u2013 Turkish Fried Dough for Breakfast",
         "url": "https://www.giverecipe.com/pisi-turkish-fried-dough-for-breakfast/",
         "recipe_url": "https://www.giverecipe.com/pisi-turkish-fried-dough-for-breakfast/",
-        "image_url": "https://www.giverecipe.com/wp-content/uploads/2026/09/Pisi-–-Turkish-Fried-Dough-Featured.jpg",
+        "image_url": "https://www.giverecipe.com/wp-content/uploads/2026/09/Pisi-\u2013-Turkish-Fried-Dough-Featured.jpg",
         "site_name": "Give Recipe",
         "cuisine": "Turkish"
       },
@@ -8913,7 +8913,7 @@
         "cuisine": "Turkish"
       },
       {
-        "title": "Turkish Leeks Recipe (Zeytinyağlı Pırasa)",
+        "title": "Turkish Leeks Recipe (Zeytinya\u011fl\u0131 P\u0131rasa)",
         "url": "https://www.giverecipe.com/turkish-leeks-recipe/",
         "recipe_url": "https://www.giverecipe.com/turkish-leeks-recipe/",
         "image_url": "https://www.giverecipe.com/wp-content/uploads/2026/03/Turkish-Leeks-Recipe-Featured-1.jpg",
@@ -9141,7 +9141,7 @@
         "name": "Cloudy Kitchen",
         "url": "https://cloudykitchen.com",
         "cuisine": "New Zealand",
-        "tagline": "Rigorously tested NZ baking and desserts — Saveur finalist.",
+        "tagline": "Rigorously tested NZ baking and desserts \u2014 Saveur finalist.",
         "image_url": "https://cloudykitchen.com/wp-content/uploads/2026/08/vanilla-frosting-piped-on-cupcake.jpg",
         "rss_url": "https://cloudykitchen.com/feed/",
         "sites": []
@@ -9180,7 +9180,7 @@
         "image_url": "https://www.teaforturmeric.com/wp-content/uploads/2025/11/Bagare-Baingan-03.jpg",
         "recipe_url": "https://www.teaforturmeric.com/bagara-baingan/",
         "site_name": "Tea For Turmeric",
-        "title": "Bagara Baingan (South Indian Eggplant Curry) – Simplified!",
+        "title": "Bagara Baingan (South Indian Eggplant Curry) \u2013 Simplified!",
         "url": "https://www.teaforturmeric.com/bagara-baingan/"
       },
       "Thu": {
@@ -9430,7 +9430,7 @@
         "cuisine": "Pakistani"
       },
       {
-        "title": "Mom-in-Law’s Aloo Methi (Potato & Fenugreek Leaves)",
+        "title": "Mom-in-Law\u2019s Aloo Methi (Potato & Fenugreek Leaves)",
         "url": "https://www.teaforturmeric.com/aloo-methi-potato-fenugreek-leaves/",
         "recipe_url": "https://www.teaforturmeric.com/aloo-methi-potato-fenugreek-leaves/",
         "image_url": "https://www.teaforturmeric.com/wp-content/uploads/2026/05/Aloo-Methi-02.jpg",
@@ -9446,7 +9446,7 @@
         "cuisine": "Pakistani"
       },
       {
-        "title": "Mooli Paratha (Daikon Radish Paratha) – Beginner-Friendly Recipe!",
+        "title": "Mooli Paratha (Daikon Radish Paratha) \u2013 Beginner-Friendly Recipe!",
         "url": "https://www.teaforturmeric.com/simple-mooli-wala-paratha-daikon-stuffed-flatbread-step-step-photos/",
         "recipe_url": "https://www.teaforturmeric.com/simple-mooli-wala-paratha-daikon-stuffed-flatbread-step-step-photos/",
         "image_url": "https://www.teaforturmeric.com/wp-content/uploads/2018/02/Mooli-Paratha-03.jpg",
@@ -9454,7 +9454,7 @@
         "cuisine": "Pakistani"
       },
       {
-        "title": "Meethi Seviyan (Sweet Vermicelli) – Dry/Sukhi version!",
+        "title": "Meethi Seviyan (Sweet Vermicelli) \u2013 Dry/Sukhi version!",
         "url": "https://www.teaforturmeric.com/meethi-seviyan-sweet-vermicelli/",
         "recipe_url": "https://www.teaforturmeric.com/meethi-seviyan-sweet-vermicelli/",
         "image_url": "https://www.teaforturmeric.com/wp-content/uploads/2025/10/Sukhi-Seviyan-03.jpg",
@@ -9470,7 +9470,7 @@
         "cuisine": "Pakistani"
       },
       {
-        "title": "Bagara Baingan (South Indian Eggplant Curry) – Simplified!",
+        "title": "Bagara Baingan (South Indian Eggplant Curry) \u2013 Simplified!",
         "url": "https://www.teaforturmeric.com/bagara-baingan/",
         "recipe_url": "https://www.teaforturmeric.com/bagara-baingan/",
         "image_url": "https://www.teaforturmeric.com/wp-content/uploads/2025/11/Bagare-Baingan-03.jpg",
@@ -9478,7 +9478,7 @@
         "cuisine": "Pakistani"
       },
       {
-        "title": "Karela (Bitter Melon Curry) – No Bitterness!",
+        "title": "Karela (Bitter Melon Curry) \u2013 No Bitterness!",
         "url": "https://www.teaforturmeric.com/karela-bitter-melon-curry/",
         "recipe_url": "https://www.teaforturmeric.com/karela-bitter-melon-curry/",
         "image_url": "https://www.teaforturmeric.com/wp-content/uploads/2025/10/Karela-01.jpg",
@@ -9513,7 +9513,7 @@
         "name": "Island Smile",
         "url": "https://islandsmile.org",
         "cuisine": "Sri Lankan",
-        "tagline": "Nearly all Sri Lankan — 49 pages of curries, desserts, and snacks.",
+        "tagline": "Nearly all Sri Lankan \u2014 49 pages of curries, desserts, and snacks.",
         "image_url": "https://www.islandsmile.org/wp-content/uploads/2026/01/Snapshot_36-1024x576.jpg",
         "rss_url": "https://islandsmile.org/feed/",
         "sites": []
@@ -9522,7 +9522,7 @@
         "name": "Serious Eats",
         "url": "https://seriouseats.com",
         "cuisine": "American",
-        "tagline": "In-depth tested recipes and food science — the benchmark.",
+        "tagline": "In-depth tested recipes and food science \u2014 the benchmark.",
         "image_url": "https://www.seriouseats.com/thmb/2eDheo2F1-nYEbQxZLGUiPjqhRs=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/Serious_Eats_Social_Default-72cf0bc11b434461b62c6ffc85b4298f.jpg",
         "rss_url": "https://feeds-api.dotdashmeredith.com/v1/rss/google/ad57d421-0ff5-41e7-a5da-f2167b6d7f7a",
         "sites": []
@@ -9630,7 +9630,7 @@
         "published_at": "Fri, 16 Oct 2026 15:16:08 +0000"
       },
       {
-        "title": "Boiled vegetable recipes — cooking time and seasoning ideas.",
+        "title": "Boiled vegetable recipes \u2014 cooking time and seasoning ideas.",
         "url": "https://www.islandsmile.org/boiled-vegetables/",
         "recipe_url": "https://www.islandsmile.org/boiled-vegetables/",
         "image_url": "https://www.islandsmile.org/wp-content/uploads/2024/08/IMG_9185-2-1-791x1024.jpg",
@@ -9720,7 +9720,7 @@
         "published_at": "Wed, 14 Aug 2024 11:28:38 +0000"
       },
       {
-        "title": "We Tested More Than a Dozen Nonstick Skillets—These 6 Are the Best",
+        "title": "We Tested More Than a Dozen Nonstick Skillets\u2014These 6 Are the Best",
         "url": "https://www.seriouseats.com/best-nonstick-skillets-6746059",
         "recipe_url": "https://www.seriouseats.com/best-nonstick-skillets-6746059",
         "image_url": "https://www.seriouseats.com/thmb/tms_dLPySpPZGtoeGybSjGihWp4=/filters:no_upscale():max_bytes(150000):strip_icc():format(jpeg)/sea-nonstick-pans-group-photo-2024-ashia-aubourg-1-60547566b33348f1af7f126e0d5b1445.jpeg",
@@ -9770,7 +9770,7 @@
         "published_at": "Mon, 05 Oct 2026 18:03:30 +0000"
       },
       {
-        "title": "Can You Still Eat a Potato That’s Turned Green? A Food Safety Expert Explains",
+        "title": "Can You Still Eat a Potato That\u2019s Turned Green? A Food Safety Expert Explains",
         "url": "https://www.seriouseats.com/it-is-safe-to-eat-green-potatoes-12181262",
         "recipe_url": "https://www.seriouseats.com/it-is-safe-to-eat-green-potatoes-12181262",
         "image_url": "https://www.seriouseats.com/thmb/xi5j_HiVsD0PBBa3LTpj-3i9lao=/filters:no_upscale():max_bytes(150000):strip_icc():format(jpeg)/20240823-GreenPotatoes-GettyImages-HelinLoikTomson-54c3056b7397448282fae958ee12b635.jpg",
@@ -9790,7 +9790,7 @@
         "published_at": "Mon, 28 Sep 2026 17:00:57 +0000"
       },
       {
-        "title": "14 Baking Recipes So Good, You’ll Want to Cancel Your Weekend Plans",
+        "title": "14 Baking Recipes So Good, You\u2019ll Want to Cancel Your Weekend Plans",
         "url": "https://www.seriouseats.com/baking-project-recipes-12178032",
         "recipe_url": "https://www.seriouseats.com/baking-project-recipes-12178032",
         "image_url": "https://www.seriouseats.com/thmb/Nhmeosnrx3ZESNWNs18-coLgQL4=/filters:no_upscale():max_bytes(150000):strip_icc():format(jpeg)/__opt__aboutcom__coeus__resources__content_migration__serious_eats__seriouseats.com__2019__05__20190225-olive-oil-cake-vicky-wasik-31-174e0c687837465f976bb791d55d4bc4.jpg",
@@ -9810,7 +9810,7 @@
         "published_at": "Fri, 25 Sep 2026 15:34:00 +0000"
       },
       {
-        "title": "I’m a Professional Chef—This Is the Knife Skill I Think Every Home Cook Should Know",
+        "title": "I\u2019m a Professional Chef\u2014This Is the Knife Skill I Think Every Home Cook Should Know",
         "url": "https://www.seriouseats.com/how-to-fillet-a-whole-fish-12178031",
         "recipe_url": "https://www.seriouseats.com/how-to-fillet-a-whole-fish-12178031",
         "image_url": "https://www.seriouseats.com/thmb/5nkpEjG27g2VrxtdwA6chGyvpq8=/filters:no_upscale():max_bytes(150000):strip_icc():format(jpeg)/__opt__aboutcom__coeus__resources__content_migration__serious_eats__seriouseats.com__images__2015__09__20150922-how-to-fillet-fish-17-10a5de3113864dd6a8f8736021c82002.jpg",
@@ -10176,7 +10176,7 @@
         "name": "Mom on Timeout",
         "url": "https://www.momontimeout.com",
         "cuisine": "American",
-        "tagline": "Real food for real families — simple and delicious.",
+        "tagline": "Real food for real families \u2014 simple and delicious.",
         "image_url": "https://www.momontimeout.com/wp-content/uploads/2019/09/monterey-chicken-squared.jpg",
         "rss_url": "https://www.momontimeout.com/feed/",
         "sites": []
@@ -10296,7 +10296,7 @@
         "published_at": "Thu, 15 Oct 2026 13:00:00 +0000"
       },
       {
-        "title": "Reese’s Muddy Buddies",
+        "title": "Reese\u2019s Muddy Buddies",
         "url": "https://www.momontimeout.com/reeses-muddy-buddies-recipe/",
         "recipe_url": "https://www.momontimeout.com/reeses-muddy-buddies-recipe/",
         "image_url": "https://www.momontimeout.com/wp-content/uploads/2015/04/reeses-muddy-buddies-recipe-square-500x500.jpg",
@@ -10657,7 +10657,7 @@
         "cuisine": "Peruvian"
       },
       {
-        "title": "Latin American Street Food Championship – Ceviche vs Tlayuda vs Choripan – Netflix",
+        "title": "Latin American Street Food Championship \u2013 Ceviche vs Tlayuda vs Choripan \u2013 Netflix",
         "url": "https://perudelights.com/latin-american-street-food-championship-ceviche-vs-tlayuda-vs-choripan-netflix/",
         "recipe_url": "https://perudelights.com/latin-american-street-food-championship-ceviche-vs-tlayuda-vs-choripan-netflix/",
         "image_url": "https://www.perudelights.com/wp-content/uploads/2020/07/netflix-ceviche.png",
@@ -10888,7 +10888,7 @@
         "url": "https://therecipecritic.com/slow-cooker-honey-garlic-chicken-noodles/"
       },
       "Wed": {
-        "title": "Jamón del País (Peruvian Country Ham)",
+        "title": "Jam\u00f3n del Pa\u00eds (Peruvian Country Ham)",
         "url": "https://www.eatperu.com/jamon-del-pais-peruvian-country-ham/",
         "recipe_url": "https://www.eatperu.com/jamon-del-pais-peruvian-country-ham/",
         "image_url": "https://www.eatperu.com/wp-content/uploads/2026/02/jamon-del-pais-butifarra-overhead.jpg",
@@ -11064,7 +11064,7 @@
         "cuisine": "American"
       },
       {
-        "title": "Jamón del País (Peruvian Country Ham)",
+        "title": "Jam\u00f3n del Pa\u00eds (Peruvian Country Ham)",
         "url": "https://www.eatperu.com/jamon-del-pais-peruvian-country-ham/",
         "recipe_url": "https://www.eatperu.com/jamon-del-pais-peruvian-country-ham/",
         "image_url": "https://www.eatperu.com/wp-content/uploads/2026/02/jamon-del-pais-butifarra-overhead.jpg",
@@ -11128,7 +11128,7 @@
         "cuisine": "Peruvian"
       },
       {
-        "title": "Pepián de Choclo – delicious chicken & corn stew with a spicy kick",
+        "title": "Pepi\u00e1n de Choclo \u2013 delicious chicken & corn stew with a spicy kick",
         "url": "https://www.eatperu.com/pepian-de-choclo/",
         "recipe_url": "https://www.eatperu.com/pepian-de-choclo/",
         "image_url": "https://www.eatperu.com/wp-content/uploads/2023/04/Peruvian-pepian-de-choclo-chicken-and-corn-stew.jpg",
@@ -11136,7 +11136,7 @@
         "cuisine": "Peruvian"
       },
       {
-        "title": "Seco de Chabelo: Northern Peru’s flavorful fusion of beef and plantains",
+        "title": "Seco de Chabelo: Northern Peru\u2019s flavorful fusion of beef and plantains",
         "url": "https://www.eatperu.com/seco-de-chabelo/",
         "recipe_url": "https://www.eatperu.com/seco-de-chabelo/",
         "image_url": "https://www.eatperu.com/wp-content/uploads/2023/03/Peruvian-Beef-and-Plantain-main-course.jpg",
@@ -11152,7 +11152,7 @@
         "cuisine": "Brazilian"
       },
       {
-        "title": "Manjar de Coco – Brazilian Coconut Pudding Recipe",
+        "title": "Manjar de Coco \u2013 Brazilian Coconut Pudding Recipe",
         "url": "https://braziliankitchenabroad.com/manjar-de-coco-brazilian-coconut-pudding-recipe/",
         "recipe_url": "https://braziliankitchenabroad.com/manjar-de-coco-brazilian-coconut-pudding-recipe/",
         "image_url": "https://braziliankitchenabroad.com/wp-content/uploads/2026/06/Manjar-de-Coco_Coconut-Pudding-26.jpg",
@@ -11176,7 +11176,7 @@
         "cuisine": "Brazilian"
       },
       {
-        "title": "Brigadeirão – Brazilian Chocolate Flan",
+        "title": "Brigadeir\u00e3o \u2013 Brazilian Chocolate Flan",
         "url": "https://braziliankitchenabroad.com/brigadeirao-brazilian-chocolate-flan/",
         "recipe_url": "https://braziliankitchenabroad.com/brigadeirao-brazilian-chocolate-flan/",
         "image_url": "https://braziliankitchenabroad.com/wp-content/uploads/2026/02/brigadeirao_brazilian-chocolate-flan-34.jpg",
@@ -11249,7 +11249,7 @@
         "image_url": "https://www.eatingthaifood.com/wp-content/uploads/2017/02/authentic-thai-green-curry-recipe.jpg",
         "recipe_url": "https://www.eatingthaifood.com/thai-green-curry-recipe/",
         "site_name": "Eating Thai Food",
-        "title": "Authentic Thai Green Curry Recipe (แกงเขียวหวาน) by My Mother-In-Law",
+        "title": "Authentic Thai Green Curry Recipe (\u0e41\u0e01\u0e07\u0e40\u0e02\u0e35\u0e22\u0e27\u0e2b\u0e27\u0e32\u0e19) by My Mother-In-Law",
         "url": "https://www.eatingthaifood.com/thai-green-curry-recipe/"
       },
       "Wed": {
@@ -11281,7 +11281,7 @@
         "image_url": "https://www.eatingthaifood.com/wp-content/uploads/2017/05/thai-cashew-chicken-recipe.jpg",
         "recipe_url": "https://www.eatingthaifood.com/thai-cashew-chicken-recipe/",
         "site_name": "Eating Thai Food",
-        "title": "Amazing Thai Cashew Chicken Recipe – Authentic and Easy to Make!",
+        "title": "Amazing Thai Cashew Chicken Recipe \u2013 Authentic and Easy to Make!",
         "url": "https://www.eatingthaifood.com/thai-cashew-chicken-recipe/"
       },
       "Sun": {
@@ -11337,7 +11337,7 @@
         "cuisine": "Brazilian"
       },
       {
-        "title": "Brazilian Peanut Candy ~ Paçoca",
+        "title": "Brazilian Peanut Candy ~ Pa\u00e7oca",
         "url": "https://easybrazilianfood.com/brazilian-peanut-candy-pacoca/",
         "recipe_url": "https://easybrazilianfood.com/brazilian-peanut-candy-pacoca/",
         "image_url": "https://easybrazilianfood.com/wp-content/uploads/2025/12/Brazilian-Peanut-Candy-Pacoca-POST-side-SQUARE.jpeg",
@@ -11353,7 +11353,7 @@
         "cuisine": "Brazilian"
       },
       {
-        "title": "Honey Loaf Cake ~ Variation on Pão de Mel",
+        "title": "Honey Loaf Cake ~ Variation on P\u00e3o de Mel",
         "url": "https://easybrazilianfood.com/honey-loaf-cake/",
         "recipe_url": "https://easybrazilianfood.com/honey-loaf-cake/",
         "image_url": "https://easybrazilianfood.com/wp-content/uploads/2025/09/Honey-Loaf-POST-Front-Sliced-SQUARE.jpeg",
@@ -11377,7 +11377,7 @@
         "cuisine": "Brazilian"
       },
       {
-        "title": "5 Foods to Eat at Phuket’s Cham Cha Market (ตลาดฉำฉา)",
+        "title": "5 Foods to Eat at Phuket\u2019s Cham Cha Market (\u0e15\u0e25\u0e32\u0e14\u0e09\u0e33\u0e09\u0e32)",
         "url": "https://www.eatingthaifood.com/cham-cha-market-phuket/",
         "recipe_url": "https://www.eatingthaifood.com/cham-cha-market-phuket/",
         "image_url": "https://www.eatingthaifood.com/wp-content/uploads/2021/08/cham-cha-market.jpg",
@@ -11385,7 +11385,7 @@
         "cuisine": "Thai"
       },
       {
-        "title": "Authentic Thai Recipe – Shrimp Chili Dip and Morning Glory with Fresh Coconut Cream",
+        "title": "Authentic Thai Recipe \u2013 Shrimp Chili Dip and Morning Glory with Fresh Coconut Cream",
         "url": "https://www.eatingthaifood.com/shrimp-chili-dip-and-morning-glory-with-coconut-cream/",
         "recipe_url": "https://www.eatingthaifood.com/shrimp-chili-dip-and-morning-glory-with-coconut-cream/",
         "image_url": "https://www.eatingthaifood.com/wp-content/uploads/2018/12/recipe-nam-prik-goong-sot.jpg",
@@ -11393,7 +11393,7 @@
         "cuisine": "Thai"
       },
       {
-        "title": "How to Make Coconut Milk – Authentic Thai Recipes",
+        "title": "How to Make Coconut Milk \u2013 Authentic Thai Recipes",
         "url": "https://www.eatingthaifood.com/how-to-make-coconut-milk/",
         "recipe_url": "https://www.eatingthaifood.com/how-to-make-coconut-milk/",
         "image_url": "https://www.eatingthaifood.com/wp-content/uploads/2019/03/how-to-make-coconut-milk.jpg",
@@ -11409,7 +11409,7 @@
         "cuisine": "Thai"
       },
       {
-        "title": "Amazing Thai Cashew Chicken Recipe – Authentic and Easy to Make!",
+        "title": "Amazing Thai Cashew Chicken Recipe \u2013 Authentic and Easy to Make!",
         "url": "https://www.eatingthaifood.com/thai-cashew-chicken-recipe/",
         "recipe_url": "https://www.eatingthaifood.com/thai-cashew-chicken-recipe/",
         "image_url": "https://www.eatingthaifood.com/wp-content/uploads/2017/05/thai-cashew-chicken-recipe.jpg",
@@ -11417,7 +11417,7 @@
         "cuisine": "Thai"
       },
       {
-        "title": "Authentic Thai Recipes – Dry Chili Pork Ribs Curry (แกงคั่วพริกซี่โครงหมู)",
+        "title": "Authentic Thai Recipes \u2013 Dry Chili Pork Ribs Curry (\u0e41\u0e01\u0e07\u0e04\u0e31\u0e48\u0e27\u0e1e\u0e23\u0e34\u0e01\u0e0b\u0e35\u0e48\u0e42\u0e04\u0e23\u0e07\u0e2b\u0e21\u0e39)",
         "url": "https://www.eatingthaifood.com/thai-pork-ribs-curry-recipe/",
         "recipe_url": "https://www.eatingthaifood.com/thai-pork-ribs-curry-recipe/",
         "image_url": "https://www.eatingthaifood.com/wp-content/uploads/2017/03/authentic-thai-recipes-chili-ribs-1.jpg",
@@ -11433,7 +11433,7 @@
         "cuisine": "Thai"
       },
       {
-        "title": "Thai Stir Fry Chili Duck Recipe (ผัดเผ็ดนกเป็ดน้ำ) – One of the Spiciest Thai Dishes!",
+        "title": "Thai Stir Fry Chili Duck Recipe (\u0e1c\u0e31\u0e14\u0e40\u0e1c\u0e47\u0e14\u0e19\u0e01\u0e40\u0e1b\u0e47\u0e14\u0e19\u0e49\u0e33) \u2013 One of the Spiciest Thai Dishes!",
         "url": "https://www.eatingthaifood.com/thai-chili-stir-fry-recipe/",
         "recipe_url": "https://www.eatingthaifood.com/thai-chili-stir-fry-recipe/",
         "image_url": "https://www.eatingthaifood.com/wp-content/uploads/2017/02/thai-chili-duck-recipe.jpg",
@@ -11441,7 +11441,7 @@
         "cuisine": "Thai"
       },
       {
-        "title": "Authentic Thai Green Curry Recipe (แกงเขียวหวาน) by My Mother-In-Law",
+        "title": "Authentic Thai Green Curry Recipe (\u0e41\u0e01\u0e07\u0e40\u0e02\u0e35\u0e22\u0e27\u0e2b\u0e27\u0e32\u0e19) by My Mother-In-Law",
         "url": "https://www.eatingthaifood.com/thai-green-curry-recipe/",
         "recipe_url": "https://www.eatingthaifood.com/thai-green-curry-recipe/",
         "image_url": "https://www.eatingthaifood.com/wp-content/uploads/2017/02/authentic-thai-green-curry-recipe.jpg",
@@ -11457,7 +11457,7 @@
         "cuisine": "Thai"
       },
       {
-        "title": "5 Mediterranean Diet Foods I Can’t Live Without",
+        "title": "5 Mediterranean Diet Foods I Can\u2019t Live Without",
         "url": "https://www.olivetomato.com/5-mediterranean-diet-foods-i-cant-live-without/",
         "recipe_url": "https://www.olivetomato.com/5-mediterranean-diet-foods-i-cant-live-without/",
         "image_url": "https://www.olivetomato.com/wp-content/uploads/2026/09/Italian-Summer-Vegetable-Barley-Salad.jpeg",
@@ -11489,7 +11489,7 @@
         "cuisine": "Greek"
       },
       {
-        "title": "Are Olives Healthy? A Nutritionist’s Guide to The Healthiest Olives.",
+        "title": "Are Olives Healthy? A Nutritionist\u2019s Guide to The Healthiest Olives.",
         "url": "https://www.olivetomato.com/are-olives-healthy-a-greek-nutritionists-guide-to-the-healthiest-olives/",
         "recipe_url": "https://www.olivetomato.com/are-olives-healthy-a-greek-nutritionists-guide-to-the-healthiest-olives/",
         "image_url": "https://www.olivetomato.com/wp-content/uploads/2026/05/Are-olives-healthy-scaled.jpeg",
@@ -11678,7 +11678,7 @@
         "url": "https://www.mexicanplease.com/spicy-chicken-tinga/?utm_source=rss&utm_medium=rss&utm_campaign=spicy-chicken-tinga"
       },
       "Wed": {
-        "title": "Moroccan Mallow Salad Recipe – Khoubiza or Bakkoula",
+        "title": "Moroccan Mallow Salad Recipe \u2013 Khoubiza or Bakkoula",
         "url": "https://tasteofmaroc.com/moroccan-mallow-salad/",
         "recipe_url": "https://tasteofmaroc.com/moroccan-mallow-salad/",
         "image_url": "https://tasteofmaroc.com/wp-content/uploads/2021/10/khoubiza-bakoula-moroccan-mallow-salad-1200w-opt.jpg",
@@ -11720,13 +11720,13 @@
         "image_url": "https://tasteofmaroc.com/wp-content/uploads/2020/10/fish-balls-in-tomato-sauce.jpg",
         "recipe_url": "https://tasteofmaroc.com/moroccan-sardine-fish-balls-in-tomato-sauce/",
         "site_name": "Taste of Maroc",
-        "title": "Moroccan Sardine Balls Recipe – Fish Meatballs in Tomato Sauce",
+        "title": "Moroccan Sardine Balls Recipe \u2013 Fish Meatballs in Tomato Sauce",
         "url": "https://tasteofmaroc.com/moroccan-sardine-fish-balls-in-tomato-sauce/"
       }
     },
     "candidates": [
       {
-        "title": "1-minute easy pizza sauce from tomato paste 🍅",
+        "title": "1-minute easy pizza sauce from tomato paste \ud83c\udf45",
         "url": "https://www.thehungrybites.com/pizza-sauce-tomato-paste/",
         "recipe_url": "https://www.thehungrybites.com/pizza-sauce-tomato-paste/",
         "image_url": "https://www.thehungrybites.com/wp-content/uploads/2026/09/easy-pizza-sauce-tomato-paste-feat.jpg",
@@ -11886,7 +11886,7 @@
         "cuisine": "Mexican"
       },
       {
-        "title": "Moroccan Mallow Salad Recipe – Khoubiza or Bakkoula",
+        "title": "Moroccan Mallow Salad Recipe \u2013 Khoubiza or Bakkoula",
         "url": "https://tasteofmaroc.com/moroccan-mallow-salad/",
         "recipe_url": "https://tasteofmaroc.com/moroccan-mallow-salad/",
         "image_url": "https://tasteofmaroc.com/wp-content/uploads/2021/10/khoubiza-bakoula-moroccan-mallow-salad-1200w-opt.jpg",
@@ -11902,7 +11902,7 @@
         "cuisine": "Moroccan"
       },
       {
-        "title": "Moroccan Orange Cake Recipe – Meskouta with Oranges",
+        "title": "Moroccan Orange Cake Recipe \u2013 Meskouta with Oranges",
         "url": "https://tasteofmaroc.com/moroccan-orange-cake-recipe/",
         "recipe_url": "https://tasteofmaroc.com/moroccan-orange-cake-recipe/",
         "image_url": "https://tasteofmaroc.com/wp-content/uploads/2021/05/moroccan-orange-cake-1200w-opt.jpg",
@@ -11918,7 +11918,7 @@
         "cuisine": "Moroccan"
       },
       {
-        "title": "Moroccan Zaalouk Recipe – Eggplant and Tomato Salad or Dip",
+        "title": "Moroccan Zaalouk Recipe \u2013 Eggplant and Tomato Salad or Dip",
         "url": "https://tasteofmaroc.com/moroccan-zaalouk-recipe/",
         "recipe_url": "https://tasteofmaroc.com/moroccan-zaalouk-recipe/",
         "image_url": "https://tasteofmaroc.com/wp-content/uploads/2021/02/zaalouk-on-plate-2-1200w-opt.jpg",
@@ -11926,7 +11926,7 @@
         "cuisine": "Moroccan"
       },
       {
-        "title": "Moroccan Sardine Balls Recipe – Fish Meatballs in Tomato Sauce",
+        "title": "Moroccan Sardine Balls Recipe \u2013 Fish Meatballs in Tomato Sauce",
         "url": "https://tasteofmaroc.com/moroccan-sardine-fish-balls-in-tomato-sauce/",
         "recipe_url": "https://tasteofmaroc.com/moroccan-sardine-fish-balls-in-tomato-sauce/",
         "image_url": "https://tasteofmaroc.com/wp-content/uploads/2020/10/fish-balls-in-tomato-sauce.jpg",
@@ -11934,7 +11934,7 @@
         "cuisine": "Moroccan"
       },
       {
-        "title": "Moroccan Dried Fava Bean Dip or Soup – Bessara (Bissara)",
+        "title": "Moroccan Dried Fava Bean Dip or Soup \u2013 Bessara (Bissara)",
         "url": "https://tasteofmaroc.com/bessara-fava-bean-dip-or-soup/",
         "recipe_url": "https://tasteofmaroc.com/bessara-fava-bean-dip-or-soup/",
         "image_url": "https://tasteofmaroc.com/wp-content/uploads/2020/10/bessara-soup-picturepartners-bigstock.jpg",
@@ -12061,7 +12061,7 @@
         "image_url": "https://www.daringgourmet.com/wp-content/uploads/2026/10/Bavarian-Cream-Donuts-Square-2.jpg",
         "recipe_url": "https://www.daringgourmet.com/bavarian-cream-creme-bavaroise/",
         "site_name": "The Daring Gourmet",
-        "title": "Bavarian Cream (Crème Bavaroise)",
+        "title": "Bavarian Cream (Cr\u00e8me Bavaroise)",
         "url": "https://www.daringgourmet.com/bavarian-cream-creme-bavaroise/"
       },
       "Tue": {
@@ -12085,7 +12085,7 @@
         "image_url": "https://marocmama.com/wp-content/uploads/2012/12/Moroccan-Jewish-Dafina.jpg",
         "recipe_url": "https://marocmama.com/skinha-or-dafina-the-slow-slow-cooked-meal/",
         "site_name": "MarocMama",
-        "title": "Skinha or Dafina – The Slow – Slow Cooked Meal",
+        "title": "Skinha or Dafina \u2013 The Slow \u2013 Slow Cooked Meal",
         "url": "https://marocmama.com/skinha-or-dafina-the-slow-slow-cooked-meal/"
       },
       "Fri": {
@@ -12111,7 +12111,7 @@
         "image_url": "https://marocmama.com/wp-content/uploads/2009/11/Moroccan-Taktouka-with-Bread.jpg",
         "recipe_url": "https://marocmama.com/taktouka-green-pepper-and-tomato-salad/",
         "site_name": "MarocMama",
-        "title": "Taktouka – Green Pepper and Tomato Salad",
+        "title": "Taktouka \u2013 Green Pepper and Tomato Salad",
         "url": "https://marocmama.com/taktouka-green-pepper-and-tomato-salad/"
       }
     },
@@ -12133,7 +12133,7 @@
         "cuisine": "American"
       },
       {
-        "title": "Bavarian Cream (Crème Bavaroise)",
+        "title": "Bavarian Cream (Cr\u00e8me Bavaroise)",
         "url": "https://www.daringgourmet.com/bavarian-cream-creme-bavaroise/",
         "recipe_url": "https://www.daringgourmet.com/bavarian-cream-creme-bavaroise/",
         "image_url": "https://www.daringgourmet.com/wp-content/uploads/2026/10/Bavarian-Cream-Donuts-Square-2.jpg",
@@ -12229,7 +12229,7 @@
         "cuisine": "Moroccan"
       },
       {
-        "title": "Skinha or Dafina – The Slow – Slow Cooked Meal",
+        "title": "Skinha or Dafina \u2013 The Slow \u2013 Slow Cooked Meal",
         "url": "https://marocmama.com/skinha-or-dafina-the-slow-slow-cooked-meal/",
         "recipe_url": "https://marocmama.com/skinha-or-dafina-the-slow-slow-cooked-meal/",
         "image_url": "https://marocmama.com/wp-content/uploads/2012/12/Moroccan-Jewish-Dafina.jpg",
@@ -12237,7 +12237,7 @@
         "cuisine": "Moroccan"
       },
       {
-        "title": "Taktouka – Green Pepper and Tomato Salad",
+        "title": "Taktouka \u2013 Green Pepper and Tomato Salad",
         "url": "https://marocmama.com/taktouka-green-pepper-and-tomato-salad/",
         "recipe_url": "https://marocmama.com/taktouka-green-pepper-and-tomato-salad/",
         "image_url": "https://marocmama.com/wp-content/uploads/2009/11/Moroccan-Taktouka-with-Bread.jpg",
@@ -12245,7 +12245,7 @@
         "cuisine": "Moroccan"
       },
       {
-        "title": "Morocco’s New Laptop Life: How to Work From Coworking Spaces and Cafés Without Losing Half Your Day to Wi-Fi Problems",
+        "title": "Morocco\u2019s New Laptop Life: How to Work From Coworking Spaces and Caf\u00e9s Without Losing Half Your Day to Wi-Fi Problems",
         "url": "https://marocmama.com/wifi-problems-in-morocco/",
         "recipe_url": "https://marocmama.com/wifi-problems-in-morocco/",
         "image_url": "https://marocmama.com/wp-content/uploads/2024/10/Moving-to-Marrakech-image-1.jpg",
@@ -12725,7 +12725,7 @@
         "published_at": "Wed, 07 Oct 2026 05:49:42 +0000"
       },
       "Sun": {
-        "title": "German Kale Recipe (Grünkohl with Sausages)",
+        "title": "German Kale Recipe (Gr\u00fcnkohl with Sausages)",
         "url": "https://whereismyspoon.co/german-kale-recipe/",
         "recipe_url": "https://whereismyspoon.co/german-kale-recipe/",
         "image_url": "https://whereismyspoon.co/wp-content/uploads/2026/09/german-kale-recipe.jpg",
@@ -12817,7 +12817,7 @@
         "published_at": "Tue, 29 Sep 2026 04:56:29 +0000"
       },
       {
-        "title": "German Kohlrabi – Kohlrabigemüse Recipe",
+        "title": "German Kohlrabi \u2013 Kohlrabigem\u00fcse Recipe",
         "url": "https://whereismyspoon.co/german-kohlrabi-recipe/",
         "recipe_url": "https://whereismyspoon.co/german-kohlrabi-recipe/",
         "image_url": "https://whereismyspoon.co/wp-content/uploads/2026/08/german-kohlrabigemuse.jpg",
@@ -12887,7 +12887,7 @@
         "published_at": "Thu, 02 Jul 2026 13:52:17 +0000"
       },
       {
-        "title": "Taiwanese Five Spice Soy Chicken 五香煎雞排",
+        "title": "Taiwanese Five Spice Soy Chicken \u4e94\u9999\u714e\u96de\u6392",
         "url": "https://tiffycooks.com/taiwanese-five-spice-soy-chicken/",
         "recipe_url": "https://tiffycooks.com/taiwanese-five-spice-soy-chicken/",
         "image_url": "https://tiffycooks.com/wp-content/uploads/2026/09/taiwanese-five-spice-soy-chicken-Serve_12-G5DeU67IkBN_wIs_YsM8eGN410ksWD.webp",
@@ -12983,7 +12983,7 @@
         "published_at": "Tue, 25 Aug 2026 01:02:50 +0000"
       },
       "Wed": {
-        "title": "Apple Kimchi 사과 김치",
+        "title": "Apple Kimchi \uc0ac\uacfc \uae40\uce58",
         "url": "https://crazykoreancooking.com/recipe/apple-kimchi",
         "recipe_url": "https://crazykoreancooking.com/recipe/apple-kimchi",
         "image_url": "https://crazykoreancooking.com/wp-content/uploads/2026/06/Screenshot-2026-06-23-at-4.44.10-PM.png",
@@ -13013,7 +13013,7 @@
         "published_at": "Tue, 11 Aug 2026 16:23:04 +0000"
       },
       "Sat": {
-        "title": "Collard Greens Kimchi 콜라드그린 김치",
+        "title": "Collard Greens Kimchi \ucf5c\ub77c\ub4dc\uadf8\ub9b0 \uae40\uce58",
         "url": "https://crazykoreancooking.com/recipe/collard-green-kimchi",
         "recipe_url": "https://crazykoreancooking.com/recipe/collard-green-kimchi",
         "image_url": "https://crazykoreancooking.com/wp-content/uploads/2026/05/Screenshot-2026-05-23-at-6.46.26-PM-1024x900.png",
@@ -13045,7 +13045,7 @@
         "published_at": "Wed, 29 Jul 2026 08:56:13 +0000"
       },
       {
-        "title": "Vegan Collard Greens Kimchi 비건 콜라드그린 김치",
+        "title": "Vegan Collard Greens Kimchi \ube44\uac74 \ucf5c\ub77c\ub4dc\uadf8\ub9b0 \uae40\uce58",
         "url": "https://crazykoreancooking.com/recipe/vegan-collard-green-kimchi",
         "recipe_url": "https://crazykoreancooking.com/recipe/vegan-collard-green-kimchi",
         "image_url": "https://crazykoreancooking.com/wp-content/uploads/2026/05/Screenshot-2026-05-23-at-6.11.10-PM-1003x1024.png",
@@ -13075,7 +13075,7 @@
         "published_at": "Mon, 27 Jul 2026 06:32:18 +0000"
       },
       {
-        "title": "Kimchi, Napa Cabbage 배추 김치",
+        "title": "Kimchi, Napa Cabbage \ubc30\ucd94 \uae40\uce58",
         "url": "https://crazykoreancooking.com/recipe/kimchi-spicy-pickled-cabbage",
         "recipe_url": "https://crazykoreancooking.com/recipe/kimchi-spicy-pickled-cabbage",
         "image_url": "https://crazykoreancooking.com/wp-content/uploads/2025/12/1.14.16-Kimchi1862-1-scaled.jpg",
@@ -13095,7 +13095,7 @@
         "published_at": "Mon, 11 Nov 2024 09:00:00 +0800"
       },
       {
-        "title": "Beetroot Cutlet Recipe | Beetroot Tikki – Healthy Kabab",
+        "title": "Beetroot Cutlet Recipe | Beetroot Tikki \u2013 Healthy Kabab",
         "url": "https://hebbarskitchen.com/beetroot-cutlet-recipe-beetroot-tikki/",
         "recipe_url": "https://hebbarskitchen.com/beetroot-cutlet-recipe-beetroot-tikki/",
         "image_url": "https://hebbarskitchen.com/wp-content/uploads/mainPhotos/beetroot-cutlet-recipe-beetroot-tikki-recipe-beetroot-patties-2-356x220.jpg",
@@ -13105,7 +13105,7 @@
         "published_at": "Mon, 13 Jul 2026 06:16:11 +0000"
       },
       {
-        "title": "Braised Tofu, Dubu Jorim 두부조림",
+        "title": "Braised Tofu, Dubu Jorim \ub450\ubd80\uc870\ub9bc",
         "url": "https://crazykoreancooking.com/recipe/tofu-braised",
         "recipe_url": "https://crazykoreancooking.com/recipe/tofu-braised",
         "image_url": "https://crazykoreancooking.com/wp-content/uploads/2025/11/Screenshot-2025-11-11-at-7.45.57-PM-826x1024.png",
@@ -13135,7 +13135,7 @@
         "published_at": "Wed, 08 Jul 2026 06:21:40 +0000"
       },
       {
-        "title": "Braised Mackerel, Godeungeo Jorim 고등어조림",
+        "title": "Braised Mackerel, Godeungeo Jorim \uace0\ub4f1\uc5b4\uc870\ub9bc",
         "url": "https://crazykoreancooking.com/recipe/braised-mackerel",
         "recipe_url": "https://crazykoreancooking.com/recipe/braised-mackerel",
         "image_url": "https://crazykoreancooking.com/wp-content/uploads/2025/09/Thumbnail-e1757106470447.png",
@@ -13195,7 +13195,7 @@
         "published_at": "Mon, 29 Jun 2026 07:56:06 +0000"
       },
       {
-        "title": "Cucumber Kimchi, Oi Sobagi 오이소박이",
+        "title": "Cucumber Kimchi, Oi Sobagi \uc624\uc774\uc18c\ubc15\uc774",
         "url": "https://crazykoreancooking.com/recipe/cucumber-kimchi",
         "recipe_url": "https://crazykoreancooking.com/recipe/cucumber-kimchi",
         "image_url": "https://crazykoreancooking.com/wp-content/uploads/2025/07/Screenshot-2025-07-21-at-6.50.03-PM-958x1024.png",
@@ -13215,7 +13215,7 @@
         "published_at": "Mon, 09 Sep 2024 09:00:00 +0800"
       },
       {
-        "title": "Dal Fry Recipe – Dhaba Style with Secret tadka",
+        "title": "Dal Fry Recipe \u2013 Dhaba Style with Secret tadka",
         "url": "https://hebbarskitchen.com/dal-fry-recipe-dal-recipe-arhar-dal-fry/",
         "recipe_url": "https://hebbarskitchen.com/dal-fry-recipe-dal-recipe-arhar-dal-fry/",
         "image_url": "https://hebbarskitchen.com/wp-content/uploads/mainPhotos/dal-fry-recipe-dal-recipe-toor-dal-fry-or-arhar-dal-fry-2-356x220.jpeg",
@@ -13228,7 +13228,7 @@
         "title": "Spicy Korean Pork Jerky",
         "url": "https://crazykoreancooking.com/recipe/spicy-korean-pork-jerky",
         "recipe_url": "https://crazykoreancooking.com/recipe/spicy-korean-pork-jerky",
-        "image_url": "https://crazykoreancooking.com/wp-content/uploads/2025/06/Screenshot-2025-06-14-at-3.05.23 PM-760x1024.png",
+        "image_url": "https://crazykoreancooking.com/wp-content/uploads/2025/06/Screenshot-2025-06-14-at-3.05.23\u202fPM-760x1024.png",
         "site_name": "Crazy Korean Cooking",
         "site_url": "https://www.crazykoreancooking.com",
         "cuisine": "Korean",
@@ -13246,7 +13246,7 @@
         "name": "Kimchimari",
         "url": "https://kimchimari.com",
         "cuisine": "Korean",
-        "tagline": "Health-focused Korean cooking — gluten-free and MSG-free angle since 2010.",
+        "tagline": "Health-focused Korean cooking \u2014 gluten-free and MSG-free angle since 2010.",
         "image_url": "https://kimchimari.com/wp-content/uploads/2026/05/salt-bread-close-up-h-150x150.jpg",
         "rss_url": "https://kimchimari.com/feed/",
         "sites": []
@@ -13255,7 +13255,7 @@
         "name": "Cooking with Lane",
         "url": "https://www.cookingwithlane.com",
         "cuisine": "Lao",
-        "tagline": "The only major English-language Lao recipe site — a uniquely underrepresented cuisine.",
+        "tagline": "The only major English-language Lao recipe site \u2014 a uniquely underrepresented cuisine.",
         "image_url": "https://cookingwithlane.com/wp-content/uploads/2021/07/cooking-with-lane-feature-image.png",
         "rss_url": "https://www.cookingwithlane.com/feed/",
         "sites": []
@@ -13373,7 +13373,7 @@
         "published_at": "Fri, 27 Mar 2026 22:34:03 +0000"
       },
       {
-        "title": "Prime Big Deal Days – Kitchen Edition",
+        "title": "Prime Big Deal Days \u2013 Kitchen Edition",
         "url": "https://cookingwithlane.com/prime-big-deal-days-kitchen/",
         "recipe_url": "https://cookingwithlane.com/prime-big-deal-days-kitchen/",
         "image_url": "https://cookingwithlane.com/wp-content/uploads/2023/10/utensils-on-sale.jpg",
@@ -13383,7 +13383,7 @@
         "published_at": "Wed, 11 Oct 2023 20:38:28 +0000"
       },
       {
-        "title": "What you pay for an Austin coffee shop – and what actually decides value",
+        "title": "What you pay for an Austin coffee shop \u2013 and what actually decides value",
         "url": "https://www.linsfood.com/austin-coffee/",
         "recipe_url": "https://www.linsfood.com/austin-coffee/",
         "image_url": "https://www.linsfood.com/wp-content/uploads/2022/05/caramel-coffee.jpg",
@@ -13413,7 +13413,7 @@
         "published_at": "Wed, 19 Nov 2025 05:34:21 +0000"
       },
       {
-        "title": "Vietnamese Bun Bo Hue Noodle Dish – Toppings Explained",
+        "title": "Vietnamese Bun Bo Hue Noodle Dish \u2013 Toppings Explained",
         "url": "https://cookingwithlane.com/vietnamese-bun-bo-hue-toppings/",
         "recipe_url": "https://cookingwithlane.com/vietnamese-bun-bo-hue-toppings/",
         "image_url": "https://cookingwithlane.com/wp-content/uploads/2023/08/bun-bo-hue-toppings.jpg",
@@ -13433,7 +13433,7 @@
         "published_at": "Sun, 04 Oct 2026 11:44:00 +0000"
       },
       {
-        "title": "Campania, Italy – Sorrento, Amalfi Coast, Pompeii and Capri",
+        "title": "Campania, Italy \u2013 Sorrento, Amalfi Coast, Pompeii and Capri",
         "url": "https://kimchimari.com/campania-italy-sorrento-amalfi-coast-pompeii-and-capri/",
         "recipe_url": "https://kimchimari.com/campania-italy-sorrento-amalfi-coast-pompeii-and-capri/",
         "image_url": "https://kimchimari.com/wp-content/uploads/2025/10/Sorrento-Amalfi-Coast-Pompeii-Capri-Travel-150x150.jpg",
@@ -13523,7 +13523,7 @@
         "published_at": "Mon, 10 Aug 2026 21:35:10 +0000"
       },
       {
-        "title": "Danmuji (Pickled Yellow Radish – Korean Style)",
+        "title": "Danmuji (Pickled Yellow Radish \u2013 Korean Style)",
         "url": "https://kimchimari.com/danmuji-pickled-yellow-radish-korean-style/",
         "recipe_url": "https://kimchimari.com/danmuji-pickled-yellow-radish-korean-style/",
         "image_url": "https://kimchimari.com/wp-content/uploads/2025/03/Korean-Yellow-Radish-Pickled-Danmuji-Dakkwang-150x150.jpg",
@@ -13564,7 +13564,7 @@
         "name": "Peter's Food Adventures",
         "url": "https://petersfoodadventures.com",
         "cuisine": "Eastern European",
-        "tagline": "An Australian-Russian blog mixing Eastern European comfort food with Asian and American flavours — plov, borscht, and BBQ.",
+        "tagline": "An Australian-Russian blog mixing Eastern European comfort food with Asian and American flavours \u2014 plov, borscht, and BBQ.",
         "image_url": "https://petersfoodadventures.com/wp-content/uploads/2022/01/Peters-Food-Adventures.jpg",
         "rss_url": "https://petersfoodadventures.com/feed/",
         "sites": []
@@ -13650,7 +13650,7 @@
         "image_url": "https://japan.recipetineats.com/wp-content/uploads/2026/10/Marinated_Sauteed_Mushrooms_and_Zucchini_2019.jpg",
         "recipe_url": "https://japan.recipetineats.com/marinated-sauteed-mushrooms-and-zucchini/",
         "site_name": "RecipeTin Japan",
-        "title": "Marinated Sautéed Mushrooms and Zucchini",
+        "title": "Marinated Saut\u00e9ed Mushrooms and Zucchini",
         "url": "https://japan.recipetineats.com/marinated-sauteed-mushrooms-and-zucchini/"
       },
       "Sun": {
@@ -13776,7 +13776,7 @@
         "cuisine": "Trinidadian"
       },
       {
-        "title": "Channa Puri – The Easiest Trinidad-Style Filled Roti",
+        "title": "Channa Puri \u2013 The Easiest Trinidad-Style Filled Roti",
         "url": "https://cookingwithria.com/2026/10/channa-puri-the-easiest-trinidad-style-filled-roti/?utm_source=rss&utm_medium=rss&utm_campaign=channa-puri-the-easiest-trinidad-style-filled-roti",
         "recipe_url": "https://cookingwithria.com/2026/10/channa-puri-the-easiest-trinidad-style-filled-roti/?utm_source=rss&utm_medium=rss&utm_campaign=channa-puri-the-easiest-trinidad-style-filled-roti",
         "image_url": "https://cookingwithria.com/wp-content/uploads/2026/10/channa-puri-trinidad-filled-roti.webp",
@@ -13824,7 +13824,7 @@
         "cuisine": "Trinidadian"
       },
       {
-        "title": "Marinated Sautéed Mushrooms and Zucchini",
+        "title": "Marinated Saut\u00e9ed Mushrooms and Zucchini",
         "url": "https://japan.recipetineats.com/marinated-sauteed-mushrooms-and-zucchini/",
         "recipe_url": "https://japan.recipetineats.com/marinated-sauteed-mushrooms-and-zucchini/",
         "image_url": "https://japan.recipetineats.com/wp-content/uploads/2026/10/Marinated_Sauteed_Mushrooms_and_Zucchini_2019.jpg",
@@ -13983,7 +13983,7 @@
         "name": "True North Kitchen",
         "url": "https://true-north-kitchen.com",
         "cuisine": "Scandinavian",
-        "tagline": "Exclusively Scandinavian recipes in English — fills a gap not covered by Scandicuisine.",
+        "tagline": "Exclusively Scandinavian recipes in English \u2014 fills a gap not covered by Scandicuisine.",
         "image_url": "https://true-north-kitchen.com/wp-content/uploads/2026/05/about-page-photo.jpg",
         "rss_url": "https://true-north-kitchen.com/feed/",
         "sites": []
@@ -14236,7 +14236,7 @@
         "cuisine": "Scandinavian"
       },
       {
-        "title": "Swedish Love Cake (Kärleksmums)",
+        "title": "Swedish Love Cake (K\u00e4rleksmums)",
         "url": "https://true-north-kitchen.com/swedish-love-cake-karleksmums/",
         "recipe_url": "https://true-north-kitchen.com/swedish-love-cake-karleksmums/",
         "image_url": "https://true-north-kitchen.com/wp-content/uploads/2026/02/swedish-love-cake-karleksmums-featured-image.jpg",
@@ -14256,7 +14256,7 @@
         "name": "Sense and Edibility",
         "url": "https://senseandedibility.com",
         "cuisine": "Puerto Rican",
-        "tagline": "Trained chef Marta Rivera's coquito, pastélon, and arroz con gandules, updated actively.",
+        "tagline": "Trained chef Marta Rivera's coquito, past\u00e9lon, and arroz con gandules, updated actively.",
         "image_url": "https://senseandedibility.com/wp-content/uploads/2023/09/Prosciutto-Fig-and-Chevre-Ciabatta-Flatbread-Preview.jpg",
         "rss_url": "https://senseandedibility.com/feed/",
         "sites": []
@@ -14420,7 +14420,7 @@
         "cuisine": "Puerto Rican"
       },
       {
-        "title": "Lemon Pepper Adobo Seasoning (Adobo con Limón y Pimienta)",
+        "title": "Lemon Pepper Adobo Seasoning (Adobo con Lim\u00f3n y Pimienta)",
         "url": "https://senseandedibility.com/lemon-pepper-adobo-seasoning/",
         "recipe_url": "https://senseandedibility.com/lemon-pepper-adobo-seasoning/",
         "image_url": "https://senseandedibility.com/wp-content/uploads/2026/05/Lemon-Pepper-Adobo-Seasoning-IG-FB-2.jpg",
@@ -14476,10 +14476,10 @@
         "cuisine": "Chilean"
       },
       {
-        "title": "Ideas para menú de año nuevo",
+        "title": "Ideas para men\u00fa de a\u00f1o nuevo",
         "url": "https://www.midiariodecocina.com/ideas-para-menu-de-ano-nuevo/",
         "recipe_url": "https://www.midiariodecocina.com/ideas-para-menu-de-ano-nuevo/",
-        "image_url": "https://www.midiariodecocina.com/wp-content/uploads/2022/12/Ideas-menu-año-nuevo-320x320.jpg",
+        "image_url": "https://www.midiariodecocina.com/wp-content/uploads/2022/12/Ideas-menu-an\u0303o-nuevo-320x320.jpg",
         "site_name": "Mi Diario de Cocina",
         "cuisine": "Chilean"
       },
@@ -14516,7 +14516,7 @@
         "cuisine": "Chilean"
       },
       {
-        "title": "Sabayón con frutos rojos",
+        "title": "Sabay\u00f3n con frutos rojos",
         "url": "https://www.midiariodecocina.com/sabayon-con-frutos-rojos/",
         "recipe_url": "https://www.midiariodecocina.com/sabayon-con-frutos-rojos/",
         "image_url": "https://www.midiariodecocina.com/wp-content/uploads/2025/09/Sabayon-con-frutos-rojos-05-320x320.jpg",
@@ -14524,7 +14524,7 @@
         "cuisine": "Chilean"
       },
       {
-        "title": "Budín de arroz y zapallo italiano",
+        "title": "Bud\u00edn de arroz y zapallo italiano",
         "url": "https://www.midiariodecocina.com/budin-de-arroz-y-zapallo-italiano/",
         "recipe_url": "https://www.midiariodecocina.com/budin-de-arroz-y-zapallo-italiano/",
         "image_url": "https://www.midiariodecocina.com/wp-content/uploads/2025/10/Budin-de-arroz-y-zapallo-italiano04-320x320.jpg",
@@ -14767,7 +14767,7 @@
         "recipe_url": "https://www.recipetineats.com/mille-feuille-recipe/",
         "site_name": "RecipeTin Eats",
         "site_url": "https://www.recipetineats.com",
-        "title": "JB’s Mille-Feuille (Napoleon Pastry)",
+        "title": "JB\u2019s Mille-Feuille (Napoleon Pastry)",
         "url": "https://www.recipetineats.com/mille-feuille-recipe/"
       },
       "Wed": {
@@ -14843,7 +14843,7 @@
         "published_at": "Fri, 02 Oct 2026 18:41:14 +0000"
       },
       {
-        "title": "JB’s Mille-Feuille (Napoleon Pastry)",
+        "title": "JB\u2019s Mille-Feuille (Napoleon Pastry)",
         "url": "https://www.recipetineats.com/mille-feuille-recipe/",
         "recipe_url": "https://www.recipetineats.com/mille-feuille-recipe/",
         "image_url": "https://www.recipetineats.com/tachyon/2026/10/Mille-Feuille_8a.jpg",
@@ -15095,7 +15095,7 @@
         "published_at": "Sat, 29 Aug 2026 09:17:24 +0000"
       },
       {
-        "title": "Filipino Vinegar: A Home Cook’s Guide",
+        "title": "Filipino Vinegar: A Home Cook\u2019s Guide",
         "url": "https://panlasangpinoy.com/filipino-vinegar-a-home-cooks-guide/",
         "recipe_url": "https://panlasangpinoy.com/filipino-vinegar-a-home-cooks-guide/",
         "image_url": "https://panlasangpinoy.com/wp-content/uploads/2026/06/Pouring-sukang-tuba-into-a-bowl-303x500.jpg",
@@ -15115,7 +15115,7 @@
         "published_at": "Mon, 12 Oct 2026 14:00:00 +0000"
       },
       {
-        "title": "Gut Healthy Korean Multigrain Rice – Japgokbap (잡곡밥)",
+        "title": "Gut Healthy Korean Multigrain Rice \u2013 Japgokbap (\uc7a1\uace1\ubc25)",
         "url": "https://thekoreanvegan.com/gut-healthy-korean-multigrain-rice-japgokbap/",
         "recipe_url": "https://thekoreanvegan.com/gut-healthy-korean-multigrain-rice-japgokbap/",
         "image_url": "https://thekoreanvegan.com/wp-content/uploads/2026/04/20260414-Screenshot-2026-04-14-at-2.25.00-PM.jpg",
@@ -15838,7 +15838,7 @@
         "recipe_url": "https://www.hungryhuy.com/vegetarian-spring-rolls/",
         "site_name": "Hungry Huy",
         "site_url": "https://www.hungryhuy.com",
-        "title": "Vegetarian Spring Rolls (Gỏi Cuốn Chay)",
+        "title": "Vegetarian Spring Rolls (G\u1ecfi Cu\u1ed1n Chay)",
         "url": "https://www.hungryhuy.com/vegetarian-spring-rolls/"
       },
       "Thu": {
@@ -15964,7 +15964,7 @@
         "published_at": "Wed, 14 Oct 2026 11:00:00 +0000"
       },
       {
-        "title": "Vegetarian Spring Rolls (Gỏi Cuốn Chay)",
+        "title": "Vegetarian Spring Rolls (G\u1ecfi Cu\u1ed1n Chay)",
         "url": "https://www.hungryhuy.com/vegetarian-spring-rolls/",
         "recipe_url": "https://www.hungryhuy.com/vegetarian-spring-rolls/",
         "image_url": "https://www.hungryhuy.com/wp-content/uploads/vegetarian-spring-rolls.jpg",
@@ -16024,7 +16024,7 @@
         "published_at": "Thu, 15 Oct 2026 16:00:31 +0000"
       },
       {
-        "title": "How To Roast Perfect Pumpkin Seeds – Easy, Crunchy, Addictive!",
+        "title": "How To Roast Perfect Pumpkin Seeds \u2013 Easy, Crunchy, Addictive!",
         "url": "https://ohsheglows.com/how-to-roast-perfect-pumpkin-seeds-easy-crunchy-addictive/",
         "recipe_url": "https://ohsheglows.com/how-to-roast-perfect-pumpkin-seeds-easy-crunchy-addictive/",
         "image_url": "https://ohsheglows.com/wp-content/uploads/2012/09/How_To_Roast_Pumpkin_Seeds_5151-scaled.jpg",
@@ -16054,7 +16054,7 @@
         "published_at": "Tue, 13 Oct 2026 16:00:00 +0000"
       },
       {
-        "title": "Mother’s Day Gift Guide",
+        "title": "Mother\u2019s Day Gift Guide",
         "url": "https://alexandracooks.com/2026/04/25/mothers-day-gift-guide-4/",
         "recipe_url": "https://alexandracooks.com/2026/04/25/mothers-day-gift-guide-4/",
         "image_url": "https://alexandracooks.com/wp-content/uploads/2026/04/mothersdaymontage.jpg",
@@ -16588,7 +16588,7 @@
         "published_at": "Sat, 12 Sep 2026 17:46:24 +0000"
       },
       {
-        "title": "The Best Father’s Day Recipes | A Full Menu from Starter to Dessert",
+        "title": "The Best Father\u2019s Day Recipes | A Full Menu from Starter to Dessert",
         "url": "https://drizzleanddip.com/2026/05/29/the-best-fathers-day-recipes-a-full-menu-from-starter-to-dessert/",
         "recipe_url": "https://drizzleanddip.com/2026/05/29/the-best-fathers-day-recipes-a-full-menu-from-starter-to-dessert/",
         "image_url": "https://drizzleanddip.com/wp-content/uploads/2024/05/7O9A2391.jpg",
@@ -16776,7 +16776,7 @@
         "published_at": "Mon, 19 Oct 2026 14:04:00 +0000"
       },
       "Tue": {
-        "title": "Yellow Braised Chicken (黄焖鸡)",
+        "title": "Yellow Braised Chicken (\u9ec4\u7116\u9e21)",
         "url": "https://redhousespice.com/yellow-braised-chicken/",
         "recipe_url": "https://redhousespice.com/yellow-braised-chicken/",
         "image_url": "https://redhousespice.com/wp-content/uploads/2026/10/Yellow-Braised-chicken-5-scaled.jpg",
@@ -16822,7 +16822,7 @@
         "recipe_url": "https://omnivorescookbook.com/vegetable-chow-fun/",
         "site_name": "Omnivore's Cookbook",
         "site_url": "https://omnivorescookbook.com",
-        "title": "Vegetable Chow Fun (蔬菜炒河粉)",
+        "title": "Vegetable Chow Fun (\u852c\u83dc\u7092\u6cb3\u7c89)",
         "url": "https://omnivorescookbook.com/vegetable-chow-fun/"
       },
       "Sun": {
@@ -16838,7 +16838,7 @@
     },
     "candidates": [
       {
-        "title": "Czech Bread Soup (Chlebová polévka)",
+        "title": "Czech Bread Soup (Chlebov\u00e1 pol\u00e9vka)",
         "url": "https://www.cooklikeczechs.com/bread-soup/",
         "recipe_url": "https://www.cooklikeczechs.com/bread-soup/",
         "image_url": "https://www.cooklikeczechs.com/wp-content/uploads/2026/06/czech-bread-soup-chlebova-polevka-1.jpg",
@@ -16888,7 +16888,7 @@
         "published_at": "Wed, 23 Sep 2026 10:00:00 +0000"
       },
       {
-        "title": "Vegetable Chow Fun (蔬菜炒河粉)",
+        "title": "Vegetable Chow Fun (\u852c\u83dc\u7092\u6cb3\u7c89)",
         "url": "https://omnivorescookbook.com/vegetable-chow-fun/",
         "recipe_url": "https://omnivorescookbook.com/vegetable-chow-fun/",
         "image_url": "https://omnivorescookbook.com/wp-content/uploads/2021/12/211005_Vegetable-Chow-Fun_3.jpg",
@@ -16898,7 +16898,7 @@
         "published_at": "Fri, 02 Oct 2026 15:13:45 +0000"
       },
       {
-        "title": "Chinese Vegetable Rice – A Vegan Version",
+        "title": "Chinese Vegetable Rice \u2013 A Vegan Version",
         "url": "https://www.chinasichuanfood.com/chinese-vegetable-rice-a-vegan-version/",
         "recipe_url": "https://www.chinasichuanfood.com/chinese-vegetable-rice-a-vegan-version/",
         "image_url": "https://www.chinasichuanfood.com/wp-content/uploads/2026/07/garlic-oi-rice.webp",
@@ -16978,7 +16978,7 @@
         "published_at": "Wed, 30 Sep 2026 13:57:00 +0000"
       },
       {
-        "title": "Taiwanese Popcorn Chicken (盐酥鸡)",
+        "title": "Taiwanese Popcorn Chicken (\u76d0\u9165\u9e21)",
         "url": "https://redhousespice.com/popcorn-chicken/",
         "recipe_url": "https://redhousespice.com/popcorn-chicken/",
         "image_url": "https://redhousespice.com/wp-content/uploads/2025/09/popcorn-chicken-6-scaled.jpg",
@@ -16988,7 +16988,7 @@
         "published_at": "Sat, 13 Sep 2025 15:29:06 +0000"
       },
       {
-        "title": "Garlic Oil – Suàn Tóu Yóu",
+        "title": "Garlic Oil \u2013 Su\u00e0n T\u00f3u Y\u00f3u",
         "url": "https://www.chinasichuanfood.com/garlic-oil-suan-tou-you/",
         "recipe_url": "https://www.chinasichuanfood.com/garlic-oil-suan-tou-you/",
         "image_url": "https://www.chinasichuanfood.com/wp-content/uploads/2026/07/garlic-oil-17-.webp",
@@ -17008,7 +17008,7 @@
         "published_at": "Sun, 05 Jan 2025 18:38:38 +0000"
       },
       {
-        "title": "Czech Fried Šišky",
+        "title": "Czech Fried \u0160i\u0161ky",
         "url": "https://www.cooklikeczechs.com/czech-fried-sisky/",
         "recipe_url": "https://www.cooklikeczechs.com/czech-fried-sisky/",
         "image_url": "https://www.cooklikeczechs.com/wp-content/uploads/2026/01/fried-sisky.jpg",
@@ -17060,7 +17060,7 @@
         "published_at": "Tue, 24 Dec 2024 15:41:09 +0000"
       },
       {
-        "title": "Chinese Braised Oxtail (红烧牛尾)",
+        "title": "Chinese Braised Oxtail (\u7ea2\u70e7\u725b\u5c3e)",
         "url": "https://omnivorescookbook.com/chinese-braised-oxtail/",
         "recipe_url": "https://omnivorescookbook.com/chinese-braised-oxtail/",
         "image_url": "https://omnivorescookbook.com/wp-content/uploads/2026/09/260915_Chinese-Braised-Oxtail_YouTube-scaled.jpg",
@@ -17070,7 +17070,7 @@
         "published_at": "Mon, 28 Sep 2026 14:15:57 +0000"
       },
       {
-        "title": "Chicken Corn Soup (鸡茸粟米羹)",
+        "title": "Chicken Corn Soup (\u9e21\u8338\u7c9f\u7c73\u7fb9)",
         "url": "https://redhousespice.com/chicken-corn-soup/",
         "recipe_url": "https://redhousespice.com/chicken-corn-soup/",
         "image_url": "https://redhousespice.com/wp-content/uploads/2025/08/chicken-corn-soup-4-scaled.jpg",
@@ -17090,7 +17090,7 @@
         "published_at": "Sat, 04 Jan 2025 23:29:56 +0000"
       },
       {
-        "title": "Fish Soup (Czech Rybí polévka)",
+        "title": "Fish Soup (Czech Ryb\u00ed pol\u00e9vka)",
         "url": "https://www.cooklikeczechs.com/fish-soup-czech-rybi-polevka/",
         "recipe_url": "https://www.cooklikeczechs.com/fish-soup-czech-rybi-polevka/",
         "image_url": "https://www.cooklikeczechs.com/wp-content/uploads/2025/12/czech-rybi-polevka-fish-soup-for-christmas.jpg",
@@ -17120,7 +17120,7 @@
         "published_at": "Wed, 09 Sep 2026 10:00:00 +0000"
       },
       {
-        "title": "Easy German Pork Soup (Kasslersuppe)",
+        "title": "Easy\u00a0German Pork Soup (Kasslersuppe)",
         "url": "https://dirndlkitchen.com/kasslersuppe/",
         "recipe_url": "https://dirndlkitchen.com/kasslersuppe/",
         "image_url": "https://dirndlkitchen.com/wp-content/uploads/2026/03/easy-german-pork-soup-dirndl-kitchen5.jpg",
@@ -17160,7 +17160,7 @@
         "name": "Give Recipe",
         "url": "https://giverecipe.com",
         "cuisine": "Turkish",
-        "tagline": "The best Turkish food blog in English — kebabs to mezes.",
+        "tagline": "The best Turkish food blog in English \u2014 kebabs to mezes.",
         "image_url": "https://www.giverecipe.com/wp-content/uploads/2021/04/Turkish-Chicken-Kebab-Recipe-360x480.jpg",
         "rss_url": "https://giverecipe.com/feed/",
         "sites": []
@@ -17243,7 +17243,7 @@
         "name": "Cloudy Kitchen",
         "url": "https://cloudykitchen.com",
         "cuisine": "New Zealand",
-        "tagline": "Rigorously tested NZ baking and desserts — Saveur finalist.",
+        "tagline": "Rigorously tested NZ baking and desserts \u2014 Saveur finalist.",
         "image_url": "https://cloudykitchen.com/wp-content/uploads/2026/08/vanilla-frosting-piped-on-cupcake.jpg",
         "rss_url": "https://cloudykitchen.com/feed/",
         "sites": []
@@ -17270,7 +17270,7 @@
         "name": "Island Smile",
         "url": "https://islandsmile.org",
         "cuisine": "Sri Lankan",
-        "tagline": "Nearly all Sri Lankan — 49 pages of curries, desserts, and snacks.",
+        "tagline": "Nearly all Sri Lankan \u2014 49 pages of curries, desserts, and snacks.",
         "image_url": "https://www.islandsmile.org/wp-content/uploads/2026/01/Snapshot_36-1024x576.jpg",
         "rss_url": "https://islandsmile.org/feed/",
         "sites": []
@@ -17278,7 +17278,7 @@
     ],
     "recipes": {
       "Mon": {
-        "title": "Hünkar Beğendi; Sultan’s Lamb Stew Over Smoked Aubergine and Béchamel Sauce",
+        "title": "H\u00fcnkar Be\u011fendi; Sultan\u2019s Lamb Stew Over Smoked Aubergine and B\u00e9chamel Sauce",
         "url": "https://ozlemsturkishtable.com/2026/08/hunkar-begendi-sultans-lamb-stew-over-smoked-aubergine-and-bechamel-sauce/",
         "recipe_url": "https://ozlemsturkishtable.com/2026/08/hunkar-begendi-sultans-lamb-stew-over-smoked-aubergine-and-bechamel-sauce/",
         "image_url": "https://ozlemsturkishtable.com/wp-content/uploads/2026/01/Hunkar-Begendi-537x700.jpg",
@@ -17318,7 +17318,7 @@
         "published_at": "Tue, 13 Oct 2026 14:24:00 +0000"
       },
       "Fri": {
-        "title": "Şekerpare; Tender Semolina Cookies in Syrup",
+        "title": "\u015eekerpare; Tender Semolina Cookies in Syrup",
         "url": "https://ozlemsturkishtable.com/2026/08/sekerpare-tender-semolina-cookies-in-syrup/",
         "recipe_url": "https://ozlemsturkishtable.com/2026/08/sekerpare-tender-semolina-cookies-in-syrup/",
         "image_url": "https://ozlemsturkishtable.com/wp-content/uploads/2026/01/sekerpare-537x700.jpg",
@@ -17380,7 +17380,7 @@
         "published_at": "Fri, 16 Oct 2026 17:43:06 +0000"
       },
       {
-        "title": "Fırın Mücveri – Baked courgettes with feta, herbs",
+        "title": "F\u0131r\u0131n M\u00fccveri \u2013 Baked courgettes with feta, herbs",
         "url": "https://ozlemsturkishtable.com/2026/08/firin-mucveri-baked-courgettes-with-feta-herbs/",
         "recipe_url": "https://ozlemsturkishtable.com/2026/08/firin-mucveri-baked-courgettes-with-feta-herbs/",
         "image_url": "https://ozlemsturkishtable.com/wp-content/uploads/2026/02/Istanbul-IG-556x700.jpg",
@@ -17420,7 +17420,7 @@
         "published_at": "Sun, 11 Oct 2026 07:59:00 +0000"
       },
       {
-        "title": "Cheat’s Yağlama; Layered flatbreads with meat sauce and garlic yoghurt",
+        "title": "Cheat\u2019s Ya\u011flama; Layered flatbreads with meat sauce and garlic yoghurt",
         "url": "https://ozlemsturkishtable.com/2026/04/yaglama-layered-flatbreads-with-meat-sauce-and-garlic-yoghurt/",
         "recipe_url": "https://ozlemsturkishtable.com/2026/04/yaglama-layered-flatbreads-with-meat-sauce-and-garlic-yoghurt/",
         "image_url": "https://ozlemsturkishtable.com/wp-content/uploads/2026/02/Istanbul-IG-556x700.jpg",
@@ -17430,7 +17430,7 @@
         "published_at": "Tue, 14 Apr 2026 08:23:29 +0000"
       },
       {
-        "title": "İzmir Köfte; Turkish meatballs with potatoes, tomatoes, peppers",
+        "title": "\u0130zmir K\u00f6fte; Turkish meatballs with potatoes, tomatoes, peppers",
         "url": "https://ozlemsturkishtable.com/2026/03/izmir-kofte-turkish-meatballs-with-potatoes-tomatoes-peppers/",
         "recipe_url": "https://ozlemsturkishtable.com/2026/03/izmir-kofte-turkish-meatballs-with-potatoes-tomatoes-peppers/",
         "image_url": "https://ozlemsturkishtable.com/wp-content/uploads/2026/02/Istanbul-IG-556x700.jpg",
@@ -17450,7 +17450,7 @@
         "published_at": "Thu, 12 Feb 2026 12:05:00 +0000"
       },
       {
-        "title": "Some of my favourite things do to in İstanbul",
+        "title": "Some of my favourite things do to in \u0130stanbul",
         "url": "https://ozlemsturkishtable.com/2026/02/some-of-my-favourite-things-do-to-in-istanbul/",
         "recipe_url": "https://ozlemsturkishtable.com/2026/02/some-of-my-favourite-things-do-to-in-istanbul/",
         "image_url": "https://ozlemsturkishtable.com/wp-content/uploads/2026/02/Istanbul-IG-556x700.jpg",
@@ -17460,7 +17460,7 @@
         "published_at": "Tue, 24 Feb 2026 16:09:27 +0000"
       },
       {
-        "title": "Crème Caramel with Condensed Milk",
+        "title": "Cr\u00e8me Caramel with Condensed Milk",
         "url": "https://thematbakh.com/creme-caramel/",
         "recipe_url": "https://thematbakh.com/creme-caramel/",
         "image_url": "https://thematbakh.com/wp-content/uploads/2026/02/creme-caramel-15.jpg",
@@ -17470,7 +17470,7 @@
         "published_at": "Tue, 03 Feb 2026 18:30:43 +0000"
       },
       {
-        "title": "Soğan Dolması – Stuffed onions with aromatic rice and meat",
+        "title": "So\u011fan Dolmas\u0131 \u2013 Stuffed onions with aromatic rice and meat",
         "url": "https://ozlemsturkishtable.com/2026/02/sogan-dolmasi-stuffed-onions-with-aromatic-rice-and-meat/",
         "recipe_url": "https://ozlemsturkishtable.com/2026/02/sogan-dolmasi-stuffed-onions-with-aromatic-rice-and-meat/",
         "image_url": "https://ozlemsturkishtable.com/wp-content/uploads/2026/02/Istanbul-IG-556x700.jpg",
@@ -17511,7 +17511,7 @@
         "name": "Serious Eats",
         "url": "https://seriouseats.com",
         "cuisine": "American",
-        "tagline": "In-depth tested recipes and food science — the benchmark.",
+        "tagline": "In-depth tested recipes and food science \u2014 the benchmark.",
         "image_url": "https://www.seriouseats.com/thmb/2eDheo2F1-nYEbQxZLGUiPjqhRs=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/Serious_Eats_Social_Default-72cf0bc11b434461b62c6ffc85b4298f.jpg",
         "rss_url": "https://feeds-api.dotdashmeredith.com/v1/rss/google/ad57d421-0ff5-41e7-a5da-f2167b6d7f7a",
         "sites": []
@@ -17612,7 +17612,7 @@
         "name": "Mom on Timeout",
         "url": "https://www.momontimeout.com",
         "cuisine": "American",
-        "tagline": "Real food for real families — simple and delicious.",
+        "tagline": "Real food for real families \u2014 simple and delicious.",
         "image_url": "https://www.momontimeout.com/wp-content/uploads/2019/09/monterey-chicken-squared.jpg",
         "rss_url": "https://www.momontimeout.com/feed/",
         "sites": []
@@ -17701,7 +17701,7 @@
     },
     "candidates": [
       {
-        "title": "My Grandmother’s Vintage Kitchen Gadget Makes Vegetables Crunchier, Crispier, and Better for Dipping",
+        "title": "My Grandmother\u2019s Vintage Kitchen Gadget Makes Vegetables Crunchier, Crispier, and Better for Dipping",
         "url": "https://www.seriouseats.com/crinkle-cutter-explainer-12184863",
         "recipe_url": "https://www.seriouseats.com/crinkle-cutter-explainer-12184863",
         "image_url": "https://www.seriouseats.com/thmb/rauVncTgvcBxIBbQfa9E7GWk224=/filters:no_upscale():max_bytes(150000):strip_icc():format(jpeg)/GettyImages-1496156677--imagedepotpro-ba452a58c91d4f77b63c02c8d85c18d9.jpg",
@@ -17731,7 +17731,7 @@
         "published_at": "Mon, 05 Oct 2026 10:00:07 +0000"
       },
       {
-        "title": "We Tested 27 Vacuum Sealers—These 7 Earned Our Seal of Approval",
+        "title": "We Tested 27 Vacuum Sealers\u2014These 7 Earned Our Seal of Approval",
         "url": "https://www.seriouseats.com/best-vacuum-sealers-6260074",
         "recipe_url": "https://www.seriouseats.com/best-vacuum-sealers-6260074",
         "image_url": "https://www.seriouseats.com/thmb/RYdgLdIluVehAgyYRjo0cpMZibE=/filters:no_upscale():max_bytes(150000):strip_icc():format(jpeg)/sea-primary-vacuum-sealers-aug-24-nsimpson-349-d5ee6a0848fb4328b3cfd383845bdbf1.jpeg",
@@ -17751,7 +17751,7 @@
         "published_at": "Sat, 17 Oct 2026 14:00:00 +0000"
       },
       {
-        "title": "I Tested Over 40 Pepper Mills—My Favorites Grind Piles of Pepper in Seconds",
+        "title": "I Tested Over 40 Pepper Mills\u2014My Favorites Grind Piles of Pepper in Seconds",
         "url": "https://www.seriouseats.com/the-best-pepper-mills-kitchen-equipment-review",
         "recipe_url": "https://www.seriouseats.com/the-best-pepper-mills-kitchen-equipment-review",
         "image_url": "https://www.seriouseats.com/thmb/AfkoAQJRJRrKGDlNsIVreRe1RuM=/filters:no_upscale():max_bytes(150000):strip_icc():format(jpeg)/sea-pepper-mills-group-ashlee-redger-02-6516f491110748b8ae0677fac47796eb.jpeg",
@@ -17871,7 +17871,7 @@
         "published_at": "Thu, 08 Oct 2026 13:00:00 +0000"
       },
       {
-        "title": "A Week Of Trader Joe’s Dinners",
+        "title": "A Week Of Trader Joe\u2019s Dinners",
         "url": "https://www.gimmesomeoven.com/trader-joes-dinners/",
         "recipe_url": "https://www.gimmesomeoven.com/trader-joes-dinners/",
         "image_url": "https://www.gimmesomeoven.com/wp-content/uploads/2026/09/Ali-Trader-Joes-1.jpg",
@@ -17963,7 +17963,7 @@
         "published_at": "Mon, 05 Oct 2026 13:00:00 +0000"
       },
       {
-        "title": "I Buy These Frozen Vegetables Instead of Fresh—They’re Sweeter, More Convenient, and Less Work",
+        "title": "I Buy These Frozen Vegetables Instead of Fresh\u2014They\u2019re Sweeter, More Convenient, and Less Work",
         "url": "https://www.seriouseats.com/vegetables-better-frozen-than-fresh-12179806",
         "recipe_url": "https://www.seriouseats.com/vegetables-better-frozen-than-fresh-12179806",
         "image_url": "https://www.seriouseats.com/thmb/2pOMb9iLwcI3hsFZlULdtopHuT4=/filters:no_upscale():max_bytes(150000):strip_icc():format(jpeg)/GettyImages-2233338252-8cab7812093c4460a523f9c079ce323f.jpg",
@@ -17993,7 +17993,7 @@
         "published_at": "Sun, 04 Oct 2026 13:00:00 +0000"
       },
       {
-        "title": "Shallots Can Cost 3 Times as Much as Onions—Here’s When They’re Actually Worth It",
+        "title": "Shallots Can Cost 3 Times as Much as Onions\u2014Here\u2019s When They\u2019re Actually Worth It",
         "url": "https://www.seriouseats.com/best-time-to-use-shallots-vs-onions-12179007",
         "recipe_url": "https://www.seriouseats.com/best-time-to-use-shallots-vs-onions-12179007",
         "image_url": "https://www.seriouseats.com/thmb/cWxBshtsih8ulJawDNTunlhqNOU=/filters:no_upscale():max_bytes(150000):strip_icc():format(jpeg)/SEA-SHALLOTSVSONIONS-GETTYIMAGES-208bbec027e7451fa98b3a61aa75ed9a.jpg",
@@ -18207,7 +18207,7 @@
     },
     "candidates": [
       {
-        "title": "Pumpkin Cinnamon Rolls + That Maple Frosting 😍",
+        "title": "Pumpkin Cinnamon Rolls + That Maple Frosting \ud83d\ude0d",
         "url": "https://natashaskitchen.com/pumpkin-cinnamon-rolls/?adt_ei={{ subscriber.email_address }}",
         "recipe_url": "https://natashaskitchen.com/pumpkin-cinnamon-rolls/?adt_ei={{ subscriber.email_address }}",
         "image_url": "https://natashaskitchen.com/wp-content/uploads/2026/09/Pumpkin-Cinnamon-Rolls-7.jpg",
@@ -18223,7 +18223,7 @@
         "cuisine": "American"
       },
       {
-        "title": "This Apple Galette is Easier than Pie 🍎",
+        "title": "This Apple Galette is Easier than Pie \ud83c\udf4e",
         "url": "https://natashaskitchen.com/apple-galette/?adt_ei={{ subscriber.email_address }}",
         "recipe_url": "https://natashaskitchen.com/apple-galette/?adt_ei={{ subscriber.email_address }}",
         "image_url": "https://natashaskitchen.com/wp-content/uploads/2026/09/Apple-Galette-SQ.jpg",
@@ -18231,7 +18231,7 @@
         "cuisine": "American"
       },
       {
-        "title": "I Think I Have a Bagel Problem 👀",
+        "title": "I Think I Have a Bagel Problem \ud83d\udc40",
         "url": "https://natashaskitchen.com/sourdough-bagels/?adt_ei={{ subscriber.email_address }}",
         "recipe_url": "https://natashaskitchen.com/sourdough-bagels/?adt_ei={{ subscriber.email_address }}",
         "image_url": "https://natashaskitchen.com/wp-content/uploads/2026/09/Sourdough-Bagels-7.jpg",
@@ -18247,7 +18247,7 @@
         "cuisine": "American"
       },
       {
-        "title": "I Tried the Viral Salty Canadian—and Now I Get It",
+        "title": "I Tried the Viral Salty Canadian\u2014and Now I Get It",
         "url": "https://natashaskitchen.com/iced-latte/?adt_ei={{ subscriber.email_address }}",
         "recipe_url": "https://natashaskitchen.com/iced-latte/?adt_ei={{ subscriber.email_address }}",
         "image_url": "https://natashaskitchen.com/wp-content/uploads/2026/08/Iced-Latte-Salty-Canadian-4.jpg",
@@ -18335,7 +18335,7 @@
         "cuisine": "Filipino"
       },
       {
-        "title": "Filipino Vinegar: A Home Cook’s Guide",
+        "title": "Filipino Vinegar: A Home Cook\u2019s Guide",
         "url": "https://panlasangpinoy.com/filipino-vinegar-a-home-cooks-guide/",
         "recipe_url": "https://panlasangpinoy.com/filipino-vinegar-a-home-cooks-guide/",
         "image_url": "https://panlasangpinoy.com/wp-content/uploads/2026/06/Pouring-sukang-tuba-into-a-bowl-303x500.jpg",
@@ -18375,7 +18375,7 @@
         "cuisine": "Australian"
       },
       {
-        "title": "JB’s Mille-Feuille (Napoleon Pastry)",
+        "title": "JB\u2019s Mille-Feuille (Napoleon Pastry)",
         "url": "https://www.recipetineats.com/mille-feuille-recipe/",
         "recipe_url": "https://www.recipetineats.com/mille-feuille-recipe/",
         "image_url": "https://www.recipetineats.com/tachyon/2026/10/Mille-Feuille_8a.jpg",
@@ -18391,7 +18391,7 @@
         "cuisine": "Australian"
       },
       {
-        "title": "Slow Cooked Rosemary Lamb Ragù",
+        "title": "Slow Cooked Rosemary Lamb Rag\u00f9",
         "url": "https://www.recipetineats.com/slow-cooked-lamb-ragu-pasta/",
         "recipe_url": "https://www.recipetineats.com/slow-cooked-lamb-ragu-pasta/",
         "image_url": "https://www.recipetineats.com/tachyon/2026/10/Slow-cooked-Rosemary-Lamb-Ragu-3.jpg",
@@ -18931,7 +18931,7 @@
         "published_at": "Fri, 16 Oct 2026 14:00:19 +0000"
       },
       {
-        "title": "Andalusian Fish Stew | One of Spain’s Best-Kept Secrets",
+        "title": "Andalusian Fish Stew | One of Spain\u2019s Best-Kept Secrets",
         "url": "https://spainonafork.com/andalusian-fish-stew-pescado-en-amarillo-recipe/",
         "recipe_url": "https://spainonafork.com/andalusian-fish-stew-pescado-en-amarillo-recipe/",
         "image_url": "https://i0.wp.com/spainonafork.com/wp-content/uploads/2026/10/image9-11.png?fit=750%2C750&ssl=1",
@@ -19181,7 +19181,7 @@
         "image_url": "https://www.chinasichuanfood.com/wp-content/uploads/2026/09/Mala-Pork-Belly-16.webp",
         "recipe_url": "https://www.chinasichuanfood.com/spicy-pork-belly-stir-fry-mala-pork-belly/",
         "site_name": "China Sichuan Food",
-        "title": "Spicy Pork Belly Stir Fry – Mala Pork Belly",
+        "title": "Spicy Pork Belly Stir Fry \u2013 Mala Pork Belly",
         "url": "https://www.chinasichuanfood.com/spicy-pork-belly-stir-fry-mala-pork-belly/"
       },
       "Fri": {
@@ -19231,7 +19231,7 @@
         "cuisine": "Chinese"
       },
       {
-        "title": "Spicy Pork Belly Stir Fry – Mala Pork Belly",
+        "title": "Spicy Pork Belly Stir Fry \u2013 Mala Pork Belly",
         "url": "https://www.chinasichuanfood.com/spicy-pork-belly-stir-fry-mala-pork-belly/",
         "recipe_url": "https://www.chinasichuanfood.com/spicy-pork-belly-stir-fry-mala-pork-belly/",
         "image_url": "https://www.chinasichuanfood.com/wp-content/uploads/2026/09/Mala-Pork-Belly-16.webp",
@@ -19271,7 +19271,7 @@
         "cuisine": "Chinese"
       },
       {
-        "title": "Chinese Vegetable Rice – A Vegan Version",
+        "title": "Chinese Vegetable Rice \u2013 A Vegan Version",
         "url": "https://www.chinasichuanfood.com/chinese-vegetable-rice-a-vegan-version/",
         "recipe_url": "https://www.chinasichuanfood.com/chinese-vegetable-rice-a-vegan-version/",
         "image_url": "https://www.chinasichuanfood.com/wp-content/uploads/2026/07/garlic-oi-rice.webp",
@@ -19279,7 +19279,7 @@
         "cuisine": "Chinese"
       },
       {
-        "title": "Garlic Oil – Suàn Tóu Yóu",
+        "title": "Garlic Oil \u2013 Su\u00e0n T\u00f3u Y\u00f3u",
         "url": "https://www.chinasichuanfood.com/garlic-oil-suan-tou-you/",
         "recipe_url": "https://www.chinasichuanfood.com/garlic-oil-suan-tou-you/",
         "image_url": "https://www.chinasichuanfood.com/wp-content/uploads/2026/07/garlic-oil-17-.webp",

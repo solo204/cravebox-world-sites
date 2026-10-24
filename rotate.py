@@ -26,7 +26,7 @@ from pathlib import Path
 
 # ── Config ─────────────────────────────────────────────────────────────────────
 
-SLOT_HOURS = 1     # testing: 1  |  production: 168
+SLOT_HOURS = 7     # testing: 1  |  production: 168
 DATA_DIR   = Path(__file__).parent / "data"
 HEADERS    = {"User-Agent": "CraveBox-Rotator/1.0"}
 HEALTH_TIMEOUT = 5   # seconds per health check
