@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-24T17:05:12Z",
+  "updated_at": "2026-10-24T18:01:54Z",
   "slot_hours": 7,
   "slot_idx": 2,
   "week": 3,
@@ -110,13 +110,13 @@
     }
   },
   "featured_recipe": {
-    "cuisine": "American",
-    "image_url": "https://i0.wp.com/smittenkitchen.com/wp-content/uploads/2026/07/spaghetti-alio-e-olio-6-scaled.jpg?fit=640%2C427&amp;quality=89&amp;ssl=1",
-    "published_at": "Tue, 28 Jul 2026 20:15:40 +0000",
-    "recipe_url": "https://smittenkitchen.com/2026/07/spaghetti-aglio-e-olio/",
-    "site_name": "Smitten Kitchen",
-    "site_url": "https://smittenkitchen.com",
-    "title": "spaghetti aglio e olio",
-    "url": "https://smittenkitchen.com/2026/07/spaghetti-aglio-e-olio/"
+    "title": "Gluten-Free Cornbread",
+    "url": "https://cookieandkate.com/gluten-free-cornbread/?adt_ei=*|EMAIL|*",
+    "recipe_url": "https://cookieandkate.com/gluten-free-cornbread/?adt_ei=*|EMAIL|*",
+    "image_url": "https://cookieandkate.com/images/2026/10/gluten-free-cornbread.jpg",
+    "site_name": "Cookie and Kate",
+    "site_url": "https://cookieandkate.com",
+    "cuisine": "Vegetarian",
+    "published_at": "Wed, 07 Oct 2026 16:33:56 +0000"
   }
 }
