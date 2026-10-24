@@ -696,8 +696,8 @@
       },
       "Thu": {
         "title": "Gluten-Free Cornbread",
-        "url": "https://cookieandkate.com/gluten-free-cornbread/?adt_ei=*|EMAIL|*",
-        "recipe_url": "https://cookieandkate.com/gluten-free-cornbread/?adt_ei=*|EMAIL|*",
+        "url": "https://cookieandkate.com/gluten-free-cornbread",
+        "recipe_url": "https://cookieandkate.com/gluten-free-cornbread",
         "image_url": "https://cookieandkate.com/images/2026/10/gluten-free-cornbread.jpg",
         "site_name": "Cookie and Kate",
         "site_url": "https://cookieandkate.com",
@@ -726,8 +726,8 @@
       },
       "Sun": {
         "title": "These Easy Baked Apples Taste Like Individual Apple Crisps Without the Fuss",
-        "url": "https://www.skinnytaste.com/delightfully-baked-apples/?adt_ei=*|EMAIL|*",
-        "recipe_url": "https://www.skinnytaste.com/delightfully-baked-apples/?adt_ei=*|EMAIL|*",
+        "url": "https://www.skinnytaste.com/delightfully-baked-apples",
+        "recipe_url": "https://www.skinnytaste.com/delightfully-baked-apples",
         "image_url": "https://www.skinnytaste.com/wp-content/uploads/2017/09/Baked-Apples-7-600x900.jpg",
         "site_name": "Skinnytaste",
         "site_url": "https://www.skinnytaste.com",
@@ -981,7 +981,7 @@
       "Mon": {
         "cuisine": "Persian",
         "image_url": "https://silkroadrecipes.com/wp-content/uploads/2026/07/Shrimp-Saltimbocca-square-768x768.jpg",
-        "recipe_url": "https://silkroadrecipes.com/shrimp-saltimbocca/?adt_ei={{ subscriber.email_address }}&utm_source=rss&utm_medium=rss&utm_campaign=shrimp-saltimbocca",
+        "recipe_url": "https://silkroadrecipes.com/shrimp-saltimbocca",
         "site_name": "Silk Road Recipes",
         "title": "Shrimp Saltimbocca",
         "url": "https://silkroadrecipes.com/shrimp-saltimbocca/"
@@ -989,7 +989,7 @@
       "Tue": {
         "cuisine": "Persian",
         "image_url": "https://silkroadrecipes.com/wp-content/uploads/2026/05/Aloo-Gobi-Recipe-Cauliflower-Potato-Curry0112-768x1152.jpg",
-        "recipe_url": "https://silkroadrecipes.com/aloo-gobi-recipe-cauliflower-potato-curry/?adt_ei={{ subscriber.email_address }}&utm_source=rss&utm_medium=rss&utm_campaign=aloo-gobi-recipe-cauliflower-potato-curry",
+        "recipe_url": "https://silkroadrecipes.com/aloo-gobi-recipe-cauliflower-potato-curry",
         "site_name": "Silk Road Recipes",
         "title": "Aloo Gobi Recipe (Potato Cauliflower Curry)",
         "url": "https://silkroadrecipes.com/aloo-gobi-recipe-cauliflower-potato-curry/"
@@ -997,7 +997,7 @@
       "Wed": {
         "cuisine": "Persian",
         "image_url": "https://silkroadrecipes.com/wp-content/uploads/2026/06/Moroccan-Shortbread-Cookies-Recipe-Ghoriba-Bahla0253-square-768x768.jpg",
-        "recipe_url": "https://silkroadrecipes.com/moroccan-shortbread-cookie-recipe-ghoriba-bahla/?adt_ei={{ subscriber.email_address }}&utm_source=rss&utm_medium=rss&utm_campaign=moroccan-shortbread-cookie-recipe-ghoriba-bahla",
+        "recipe_url": "https://silkroadrecipes.com/moroccan-shortbread-cookie-recipe-ghoriba-bahla",
         "site_name": "Silk Road Recipes",
         "title": "Moroccan Shortbread Cookie Recipe (Ghoriba Bahla)",
         "url": "https://silkroadrecipes.com/moroccan-shortbread-cookie-recipe-ghoriba-bahla/"
@@ -1005,7 +1005,7 @@
       "Thu": {
         "cuisine": "Persian",
         "image_url": "https://silkroadrecipes.com/wp-content/uploads/2026/06/Greek-Gyros-Recipe-Parchment0160-square-768x768.jpg",
-        "recipe_url": "https://silkroadrecipes.com/greek-gyros-recipe-parchment/?adt_ei={{ subscriber.email_address }}&utm_source=rss&utm_medium=rss&utm_campaign=greek-gyros-recipe-parchment",
+        "recipe_url": "https://silkroadrecipes.com/greek-gyros-recipe-parchment",
         "site_name": "Silk Road Recipes",
         "title": "Greek Gyros Recipe (Parchment)",
         "url": "https://silkroadrecipes.com/greek-gyros-recipe-parchment/"
@@ -1733,7 +1733,7 @@
       "Mon": {
         "cuisine": "American",
         "image_url": "https://natashaskitchen.com/wp-content/uploads/2026/09/Apple-Galette-SQ.jpg",
-        "recipe_url": "https://natashaskitchen.com/apple-galette/?adt_ei={{ subscriber.email_address }}",
+        "recipe_url": "https://natashaskitchen.com/apple-galette",
         "site_name": "Natasha's Kitchen",
         "title": "This Apple Galette is Easier than Pie 🍎",
         "url": "https://natashaskitchen.com/apple-galette/"
@@ -4452,8 +4452,8 @@
     "recipes": {
       "Mon": {
         "title": "Kaitlin’s Most Excellent Spaghetti Bolognese",
-        "url": "https://thewoksoflife.com/spaghetti-bolognese/?adt_ei=*|EMAIL|*",
-        "recipe_url": "https://thewoksoflife.com/spaghetti-bolognese/?adt_ei=*|EMAIL|*",
+        "url": "https://thewoksoflife.com/spaghetti-bolognese",
+        "recipe_url": "https://thewoksoflife.com/spaghetti-bolognese",
         "image_url": "https://thewoksoflife.com/wp-content/uploads/2026/06/spaghetti-bolognese-17.jpg",
         "site_name": "The Woks of Life",
         "site_url": "https://thewoksoflife.com",
@@ -4480,8 +4480,8 @@
       },
       "Thu": {
         "title": "Sheet Pan Red Curry Chicken",
-        "url": "https://thewoksoflife.com/sheet-pan-red-curry-chicken/?adt_ei=*|EMAIL|*",
-        "recipe_url": "https://thewoksoflife.com/sheet-pan-red-curry-chicken/?adt_ei=*|EMAIL|*",
+        "url": "https://thewoksoflife.com/sheet-pan-red-curry-chicken",
+        "recipe_url": "https://thewoksoflife.com/sheet-pan-red-curry-chicken",
         "image_url": "https://thewoksoflife.com/wp-content/uploads/2026/05/thai-red-curry-sheet-pan-chicken-6.jpg",
         "site_name": "The Woks of Life",
         "site_url": "https://thewoksoflife.com",
@@ -4510,8 +4510,8 @@
       },
       "Sun": {
         "title": "Pineapple Chicken",
-        "url": "https://thewoksoflife.com/pineapple-chicken/?adt_ei=*|EMAIL|*",
-        "recipe_url": "https://thewoksoflife.com/pineapple-chicken/?adt_ei=*|EMAIL|*",
+        "url": "https://thewoksoflife.com/pineapple-chicken",
+        "recipe_url": "https://thewoksoflife.com/pineapple-chicken",
         "image_url": "https://thewoksoflife.com/wp-content/uploads/2026/07/pineapple-chicken-17.jpg",
         "site_name": "The Woks of Life",
         "site_url": "https://thewoksoflife.com",
@@ -5137,7 +5137,7 @@
       "Wed": {
         "cuisine": "American",
         "image_url": "https://natashaskitchen.com/wp-content/uploads/2026/06/Salmon-Bowls-5.jpg",
-        "recipe_url": "https://natashaskitchen.com/salmon-bowls/?adt_ei={{ subscriber.email_address }}",
+        "recipe_url": "https://natashaskitchen.com/salmon-bowls",
         "site_name": "Natasha's Kitchen",
         "title": "Crispy Salmon Bowls with the Best Sauce",
         "url": "https://natashaskitchen.com/salmon-bowls/"
@@ -8006,7 +8006,7 @@
       "Thu": {
         "title": "Sobrebarriga en Salsa Criolla (Flank Steak with Creole Sauce)",
         "url": "https://www.mycolombianrecipes.com/sobrebarriga-en-salsa-criolla-flank-steak-with-colombian-creole-sauce/",
-        "recipe_url": "https://www.mycolombianrecipes.com/sobrebarriga-en-salsa-criolla-flank-steak-with-colombian-creole-sauce/?adt_ei={{ email }}",
+        "recipe_url": "https://www.mycolombianrecipes.com/sobrebarriga-en-salsa-criolla-flank-steak-with-colombian-creole-sauce",
         "image_url": "https://www.mycolombianrecipes.com/wp-content/uploads/2022/09/sobrebarriga-a-la-criolla-771x1024.jpg",
         "site_name": "My Colombian Recipes",
         "site_url": "https://mycolombianrecipes.com",
@@ -8024,7 +8024,7 @@
       "Sat": {
         "cuisine": "Colombian",
         "image_url": "https://www.mycolombianrecipes.com/wp-content/uploads/2009/06/Chuleta-Valluna-Colombiana.jpg",
-        "recipe_url": "https://www.mycolombianrecipes.com/chuleta-valluna-colombian-breaded-pork-cutlets/?adt_ei={{ email }}",
+        "recipe_url": "https://www.mycolombianrecipes.com/chuleta-valluna-colombian-breaded-pork-cutlets",
         "site_name": "My Colombian Recipes",
         "title": "Chuleta Valluna (Colombian Breaded Pork Cutlets)",
         "url": "https://www.mycolombianrecipes.com/chuleta-valluna-colombian-breaded-pork-cutlets/"
@@ -9868,7 +9868,7 @@
       "Mon": {
         "title": "Octopus Pasta (Tinned Octopus Ragu with Pappardelle)",
         "url": "https://weekdaypescatarian.com/octopus-pasta/",
-        "recipe_url": "https://weekdaypescatarian.com/octopus-pasta/?adt_ei={{ subscriber.email_address }}",
+        "recipe_url": "https://weekdaypescatarian.com/octopus-pasta",
         "image_url": "https://weekdaypescatarian.com/wp-content/uploads/2026/10/Feature-Images-1200-x-1200-px-40.jpg",
         "site_name": "Weekday Pescatarian",
         "site_url": "https://weekdaypescatarian.com",
@@ -9897,8 +9897,8 @@
       },
       "Thu": {
         "title": "Stuffed Pepper Soup",
-        "url": "https://www.jocooks.com/recipes/stuffed-pepper-soup/?adt_ei=*|EMAIL|*",
-        "recipe_url": "https://www.jocooks.com/recipes/stuffed-pepper-soup/?adt_ei=*|EMAIL|*",
+        "url": "https://www.jocooks.com/recipes/stuffed-pepper-soup",
+        "recipe_url": "https://www.jocooks.com/recipes/stuffed-pepper-soup",
         "image_url": "https://www.jocooks.com/wp-content/uploads/2022/10/stuffed-pepper-soup-1-3.jpg",
         "site_name": "Jo Cooks",
         "site_url": "https://www.jocooks.com",
@@ -9908,7 +9908,7 @@
       "Fri": {
         "title": "Crispy Fried Calamari with Lemon-Herb Gremolata",
         "url": "https://weekdaypescatarian.com/fried-calamari-recipe/",
-        "recipe_url": "https://weekdaypescatarian.com/fried-calamari-recipe/?adt_ei={{ subscriber.email_address }}",
+        "recipe_url": "https://weekdaypescatarian.com/fried-calamari-recipe",
         "image_url": "https://weekdaypescatarian.com/wp-content/uploads/2026/10/Feature-Images-1200-x-1200-px-39.jpg",
         "site_name": "Weekday Pescatarian",
         "site_url": "https://weekdaypescatarian.com",
@@ -10560,7 +10560,7 @@
         "cuisine": "American",
         "image_url": "https://tastesbetterfromscratch.com/wp-content/uploads/2022/05/Beef-Birria-Tacos-High-Web-7.jpg",
         "published_at": "Tue, 13 Oct 2026 11:00:00 +0000",
-        "recipe_url": "https://tastesbetterfromscratch.com/birria-tacos/?adt_ei={{ subscriber.email_address }}",
+        "recipe_url": "https://tastesbetterfromscratch.com/birria-tacos",
         "site_name": "Tastes Better From Scratch",
         "site_url": "https://tastesbetterfromscratch.com",
         "title": "These Crispy Birria Tacos Come with the Best Part: Dipping Broth",
@@ -15307,8 +15307,8 @@
       },
       "Sat": {
         "title": "These Cheesy Turkey and Black Bean Enchiladas Pack 15 Grams of Fiber per Serving",
-        "url": "https://www.skinnytaste.com/turkey-and-black-bean-enchiladas/?adt_ei=*|EMAIL|*",
-        "recipe_url": "https://www.skinnytaste.com/turkey-and-black-bean-enchiladas/?adt_ei=*|EMAIL|*",
+        "url": "https://www.skinnytaste.com/turkey-and-black-bean-enchiladas",
+        "recipe_url": "https://www.skinnytaste.com/turkey-and-black-bean-enchiladas",
         "image_url": "https://www.skinnytaste.com/wp-content/uploads/2026/10/Turkey-Black-Bean-Enchiladas-14-600x900.jpg",
         "site_name": "Skinnytaste",
         "site_url": "https://www.skinnytaste.com",
@@ -15317,8 +15317,8 @@
       },
       "Sun": {
         "title": "Lentil Curry",
-        "url": "https://cookieandkate.com/lentil-curry/?adt_ei=*|EMAIL|*",
-        "recipe_url": "https://cookieandkate.com/lentil-curry/?adt_ei=*|EMAIL|*",
+        "url": "https://cookieandkate.com/lentil-curry",
+        "recipe_url": "https://cookieandkate.com/lentil-curry",
         "image_url": "https://cookieandkate.com/images/2026/10/lentil-curry-scaled.jpg",
         "site_name": "Cookie and Kate",
         "site_url": "https://cookieandkate.com",
@@ -16292,7 +16292,7 @@
       "Thu": {
         "title": "Sambar (Lentil and Vegetable Soup)",
         "url": "https://silkroadrecipes.com/sambar-lentil-and-vegetable-soup/",
-        "recipe_url": "https://silkroadrecipes.com/sambar-lentil-and-vegetable-soup/?adt_ei={{ subscriber.email_address }}&utm_source=rss&utm_medium=rss&utm_campaign=sambar-lentil-and-vegetable-soup",
+        "recipe_url": "https://silkroadrecipes.com/sambar-lentil-and-vegetable-soup",
         "image_url": "https://silkroadrecipes.com/wp-content/uploads/2026/09/Sambar0461-square-768x768.jpg",
         "site_name": "Silk Road Recipes",
         "site_url": "https://silkroadrecipes.com",
@@ -17666,8 +17666,8 @@
       },
       "Fri": {
         "title": "Honey Garlic Chicken and Potato Bake",
-        "url": "https://www.jocooks.com/recipes/honey-garlic-chicken-and-potato-bake/?adt_ei=*|EMAIL|*",
-        "recipe_url": "https://www.jocooks.com/recipes/honey-garlic-chicken-and-potato-bake/?adt_ei=*|EMAIL|*",
+        "url": "https://www.jocooks.com/recipes/honey-garlic-chicken-and-potato-bake",
+        "recipe_url": "https://www.jocooks.com/recipes/honey-garlic-chicken-and-potato-bake",
         "image_url": "https://www.jocooks.com/wp-content/uploads/2026/10/honey-garlic-chicken-and-potato-bake-1-10.jpg",
         "site_name": "Jo Cooks",
         "site_url": "https://www.jocooks.com",
@@ -18175,7 +18175,7 @@
       "Fri": {
         "cuisine": "American",
         "image_url": "https://natashaskitchen.com/wp-content/uploads/2026/07/Caramelized-Baked-Sweet-Potato-Halves-4.jpg",
-        "recipe_url": "https://natashaskitchen.com/roasted-sweet-potato-halves/?adt_ei={{ subscriber.email_address }}",
+        "recipe_url": "https://natashaskitchen.com/roasted-sweet-potato-halves",
         "site_name": "Natasha's Kitchen",
         "title": "The Lazy-Genius Way to Roast Sweet Potatoes",
         "url": "https://natashaskitchen.com/roasted-sweet-potato-halves/"
@@ -18595,8 +18595,8 @@
       },
       "Wed": {
         "title": "Panisses (Chickpea Fries)",
-        "url": "https://cookieandkate.com/panisse/?adt_ei=*|EMAIL|*",
-        "recipe_url": "https://cookieandkate.com/panisse/?adt_ei=*|EMAIL|*",
+        "url": "https://cookieandkate.com/panisse",
+        "recipe_url": "https://cookieandkate.com/panisse",
         "image_url": "https://cookieandkate.com/images/2026/06/panisse-recipe.jpg",
         "site_name": "Cookie and Kate",
         "site_url": "https://cookieandkate.com",
