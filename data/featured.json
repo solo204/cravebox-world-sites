@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-24T05:05:13Z",
+  "updated_at": "2026-10-24T05:39:14Z",
   "slot_hours": 7,
   "slot_idx": 0,
   "week": 1,
@@ -110,13 +110,13 @@
     }
   },
   "featured_recipe": {
-    "title": "Crispy Corn Recipe",
-    "url": "https://www.vegrecipesofindia.com/crispy-corn/",
-    "recipe_url": "https://www.vegrecipesofindia.com/crispy-corn/",
-    "image_url": "https://i2.wp.com/www.vegrecipesofindia.com/wp-content/uploads/2026/09/crispy-corn.jpg",
-    "site_name": "Dassana's Veg Recipes",
-    "site_url": "https://www.vegrecipesofindia.com",
-    "cuisine": "Indian",
-    "published_at": "Fri, 11 Sep 2026 19:44:29 +0000"
+    "title": "Turkish Pasta (Yoğurtlu Kıymalı Makarna)",
+    "url": "https://www.themediterraneandish.com/turkish-pasta/",
+    "recipe_url": "https://www.themediterraneandish.com/turkish-pasta/",
+    "image_url": "https://www.themediterraneandish.com/wp-content/uploads/2026/09/Turkish-Pasta-12.jpg",
+    "site_name": "The Mediterranean Dish",
+    "site_url": "https://www.themediterraneandish.com",
+    "cuisine": "Mediterranean",
+    "published_at": "Mon, 05 Oct 2026 12:00:00 +0000"
   }
 }
