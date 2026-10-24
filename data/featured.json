@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-24T16:05:13Z",
+  "updated_at": "2026-10-24T17:05:12Z",
   "slot_hours": 7,
   "slot_idx": 2,
   "week": 3,
@@ -111,12 +111,12 @@
   },
   "featured_recipe": {
     "cuisine": "American",
-    "image_url": "https://i0.wp.com/smittenkitchen.com/wp-content/uploads/2026/08/peach-cobbler-loaf-08-scaled.jpg?fit=640%2C427&amp;quality=89&amp;ssl=1",
-    "published_at": "Fri, 28 Aug 2026 12:07:56 +0000",
-    "recipe_url": "https://smittenkitchen.com/2026/08/peach-cobbler-loaf/",
+    "image_url": "https://i0.wp.com/smittenkitchen.com/wp-content/uploads/2026/07/spaghetti-alio-e-olio-6-scaled.jpg?fit=640%2C427&amp;quality=89&amp;ssl=1",
+    "published_at": "Tue, 28 Jul 2026 20:15:40 +0000",
+    "recipe_url": "https://smittenkitchen.com/2026/07/spaghetti-aglio-e-olio/",
     "site_name": "Smitten Kitchen",
     "site_url": "https://smittenkitchen.com",
-    "title": "peach cobbler loaf",
-    "url": "https://smittenkitchen.com/2026/08/peach-cobbler-loaf/"
+    "title": "spaghetti aglio e olio",
+    "url": "https://smittenkitchen.com/2026/07/spaghetti-aglio-e-olio/"
   }
 }
