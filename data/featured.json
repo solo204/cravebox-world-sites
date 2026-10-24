@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-24T22:05:11Z",
+  "updated_at": "2026-10-24T23:04:55Z",
   "slot_hours": 7,
   "slot_idx": 3,
   "week": 4,
@@ -97,10 +97,10 @@
   },
   "featured_recipe": {
     "cuisine": "Persian",
-    "image_url": "https://silkroadrecipes.com/wp-content/uploads/2026/07/Shrimp-Saltimbocca-square-768x768.jpg",
-    "recipe_url": "https://silkroadrecipes.com/shrimp-saltimbocca",
+    "image_url": "https://silkroadrecipes.com/wp-content/uploads/2026/05/Aloo-Gobi-Recipe-Cauliflower-Potato-Curry0112-768x1152.jpg",
+    "recipe_url": "https://silkroadrecipes.com/aloo-gobi-recipe-cauliflower-potato-curry",
     "site_name": "Silk Road Recipes",
-    "title": "Shrimp Saltimbocca",
-    "url": "https://silkroadrecipes.com/shrimp-saltimbocca/"
+    "title": "Aloo Gobi Recipe (Potato Cauliflower Curry)",
+    "url": "https://silkroadrecipes.com/aloo-gobi-recipe-cauliflower-potato-curry/"
   }
 }
