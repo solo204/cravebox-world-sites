@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-24T20:05:13Z",
+  "updated_at": "2026-10-24T20:39:02Z",
   "slot_hours": 7,
   "slot_idx": 2,
   "week": 3,
@@ -110,13 +110,13 @@
     }
   },
   "featured_recipe": {
-    "title": "Easy Eggplant Bolognese (1 Pot!)",
-    "url": "https://minimalistbaker.com/eggplant-bolognese/",
-    "recipe_url": "https://minimalistbaker.com/eggplant-bolognese/",
-    "image_url": "https://minimalistbaker.com/wp-content/uploads/2026/02/Easy-Vegetarian-Eggplant-Bolognese-9-680x1020.jpg",
-    "site_name": "Minimalist Baker",
-    "site_url": "https://minimalistbaker.com",
-    "cuisine": "Plant-Based",
-    "published_at": "Tue, 18 Aug 2026 08:00:00 +0000"
+    "title": "These Easy Baked Apples Taste Like Individual Apple Crisps Without the Fuss",
+    "url": "https://www.skinnytaste.com/delightfully-baked-apples/?adt_ei=*|EMAIL|*",
+    "recipe_url": "https://www.skinnytaste.com/delightfully-baked-apples/?adt_ei=*|EMAIL|*",
+    "image_url": "https://www.skinnytaste.com/wp-content/uploads/2017/09/Baked-Apples-7-600x900.jpg",
+    "site_name": "Skinnytaste",
+    "site_url": "https://www.skinnytaste.com",
+    "cuisine": "Healthy American",
+    "published_at": "Thu, 08 Oct 2026 19:10:42 +0000"
   }
 }
