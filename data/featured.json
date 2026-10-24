@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-24T18:05:14Z",
+  "updated_at": "2026-10-24T19:05:13Z",
   "slot_hours": 7,
   "slot_idx": 2,
   "week": 3,
@@ -110,13 +110,13 @@
     }
   },
   "featured_recipe": {
-    "title": "Gluten-Free Cornbread",
-    "url": "https://cookieandkate.com/gluten-free-cornbread/?adt_ei=*|EMAIL|*",
-    "recipe_url": "https://cookieandkate.com/gluten-free-cornbread/?adt_ei=*|EMAIL|*",
-    "image_url": "https://cookieandkate.com/images/2026/10/gluten-free-cornbread.jpg",
-    "site_name": "Cookie and Kate",
-    "site_url": "https://cookieandkate.com",
-    "cuisine": "Vegetarian",
-    "published_at": "Wed, 07 Oct 2026 16:33:56 +0000"
+    "title": "tomato risotto with frizzled red onions",
+    "url": "https://smittenkitchen.com/2026/09/tomato-risotto-with-frizzled-red-onions/",
+    "recipe_url": "https://smittenkitchen.com/2026/09/tomato-risotto-with-frizzled-red-onions/",
+    "image_url": "https://i0.wp.com/smittenkitchen.com/wp-content/uploads/2026/09/tomato-risotto-with-frizzled-onions-14-scaled.jpg?fit=640%2C427&amp;quality=89&amp;ssl=1",
+    "site_name": "Smitten Kitchen",
+    "site_url": "https://smittenkitchen.com",
+    "cuisine": "American",
+    "published_at": "Wed, 16 Sep 2026 15:28:36 +0000"
   }
 }
