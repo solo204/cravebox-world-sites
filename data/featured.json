@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-24T06:05:12Z",
+  "updated_at": "2026-10-24T07:05:15Z",
   "slot_hours": 7,
   "slot_idx": 0,
   "week": 1,
@@ -50,13 +50,13 @@
     },
     "Tue": {
       "cuisine": "Baking",
-      "image_url": "https://sallysbakingaddiction.com/wp-content/uploads/2024/10/apple-cider-chicken-fall-dinner-2.jpg",
-      "published_at": "Thu, 08 Oct 2026 10:00:00 +0000",
-      "recipe_url": "https://sallysbakingaddiction.com/fall-dinner-recipes/",
+      "image_url": "https://sallysbakingaddiction.com/wp-content/uploads/2026/09/maple-oat-scones.jpg",
+      "published_at": "Thu, 01 Oct 2026 10:00:00 +0000",
+      "recipe_url": "https://sallysbakingaddiction.com/maple-oat-pecan-scones/",
       "site_name": "Sally's Baking Addiction",
       "site_url": "https://sallysbakingaddiction.com",
-      "title": "30 Delicious Fall Dinner Recipe Ideas",
-      "url": "https://sallysbakingaddiction.com/fall-dinner-recipes/"
+      "title": "Maple Oat Pecan Scones",
+      "url": "https://sallysbakingaddiction.com/maple-oat-pecan-scones/"
     },
     "Wed": {
       "title": "Mini Pumpkin Chocolate Chip Muffins",
@@ -110,13 +110,13 @@
     }
   },
   "featured_recipe": {
-    "title": "Turkish Pasta (Yoğurtlu Kıymalı Makarna)",
-    "url": "https://www.themediterraneandish.com/turkish-pasta/",
-    "recipe_url": "https://www.themediterraneandish.com/turkish-pasta/",
-    "image_url": "https://www.themediterraneandish.com/wp-content/uploads/2026/09/Turkish-Pasta-12.jpg",
-    "site_name": "The Mediterranean Dish",
-    "site_url": "https://www.themediterraneandish.com",
-    "cuisine": "Mediterranean",
-    "published_at": "Mon, 05 Oct 2026 12:00:00 +0000"
+    "title": "Baked Pretzel-Crusted Chicken",
+    "url": "https://sallysbakingaddiction.com/pretzel-crusted-chicken/",
+    "recipe_url": "https://sallysbakingaddiction.com/pretzel-crusted-chicken/",
+    "image_url": "https://sallysbakingaddiction.com/wp-content/uploads/2014/08/pretzel-chicken.jpg",
+    "site_name": "Sally's Baking Addiction",
+    "site_url": "https://sallysbakingaddiction.com",
+    "cuisine": "Baking",
+    "published_at": "Fri, 09 Oct 2026 10:00:00 +0000"
   }
 }
