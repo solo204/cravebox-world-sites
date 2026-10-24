@@ -166,7 +166,9 @@ def main():
     day_names = ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"]
 
     if SLOT_HOURS < 168:
-        slot_start_dt = parse_dt(entry.get("starts", "")) or now
+        # Use the computed slot boundary, not entry["starts"] — those are the original
+        # 52-week scheduled dates which don't align with the test slot cadence.
+        slot_start_dt = first_dt + __import__('datetime').timedelta(hours=slot_idx * SLOT_HOURS)
         elapsed_in_slot = max(0.0, (now - slot_start_dt).total_seconds() / 3600)
         recipe_idx  = int(elapsed_in_slot / SLOT_HOURS * 7)
         recipe_idx  = min(recipe_idx, 6)
