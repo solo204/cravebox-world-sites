@@ -1,117 +1,122 @@
 {
-  "updated_at": "2026-10-23T23:05:15Z",
+  "updated_at": "2026-10-24T00:05:13Z",
   "slot_hours": 1,
-  "slot_idx": 51,
-  "week": 52,
+  "slot_idx": 0,
+  "week": 1,
   "featured_sites": [
-    {
-      "name": "China Sichuan Food",
-      "url": "https://chinasichuanfood.com",
-      "cuisine": "Chinese",
-      "tagline": "Authentic Sichuan flavors with step-by-step guidance.",
-      "image_url": "https://www.chinasichuanfood.com/wp-content/uploads/2026/10/Palm-Sauce-Pork-20.webp",
-      "rss_url": "https://chinasichuanfood.com/feed/"
-    },
-    {
-      "name": "Hungry Paprikas",
-      "url": "https://www.hungrypaprikas.com",
-      "cuisine": "Middle Eastern",
-      "tagline": "Authentic Arabic and Middle Eastern recipes.",
-      "image_url": "https://www.hungrypaprikas.com/wp-content/uploads/2026/08/Ground-Beef-Curry-2.jpg",
-      "rss_url": "https://www.hungrypaprikas.com/feed/",
-      "sites": []
-    },
     {
       "name": "Dassana's Veg Recipes",
       "url": "https://www.vegrecipesofindia.com",
       "cuisine": "Indian",
       "tagline": "100% vegetarian Indian recipes.",
       "image_url": "https://www.vegrecipesofindia.com/wp-content/uploads/2020/01/paneer-butter-masala-1.jpg",
-      "rss_url": "https://www.vegrecipesofindia.com/feed/",
-      "sites": []
+      "rss_url": "https://www.vegrecipesofindia.com/feed/"
     },
     {
       "name": "The Mediterranean Dish",
       "url": "https://www.themediterraneandish.com",
-      "cuisine": "Lebanese",
+      "cuisine": "Mediterranean",
       "tagline": "Bold Mediterranean flavors for every table.",
       "image_url": "https://www.themediterraneandish.com/wp-content/uploads/2026/09/Turkish-Pasta-12.jpg",
-      "rss_url": "https://www.themediterraneandish.com/feed/",
-      "sites": []
+      "rss_url": "https://www.themediterraneandish.com/feed/"
+    },
+    {
+      "name": "Sally's Baking Addiction",
+      "url": "https://sallysbakingaddiction.com",
+      "cuisine": "Baking",
+      "tagline": "Trusted baking recipes since 2011.",
+      "image_url": "https://sallysbakingaddiction.com/wp-content/uploads/2012/08/warm-chocolate-chip-cookies.jpg",
+      "rss_url": "https://sallysbakingaddiction.com/feed/"
+    },
+    {
+      "name": "Grandbaby Cakes",
+      "url": "https://grandbaby-cakes.com",
+      "cuisine": "Southern",
+      "tagline": "Southern comfort food and soul food classics.",
+      "image_url": "https://grandbaby-cakes.com/wp-content/uploads/2025/08/buttermilk-fried-chicken-15.jpg",
+      "rss_url": "https://grandbaby-cakes.com/feed/"
     }
   ],
   "featured_recipes": {
     "Mon": {
-      "cuisine": "Middle Eastern",
-      "image_url": "https://www.hungrypaprikas.com/wp-content/uploads/2026/09/Beef-Stuffed-Flatbread-3.jpg",
-      "recipe_url": "https://www.hungrypaprikas.com/beef-stuffed-flatbread/",
-      "site_name": "Hungry Paprikas",
-      "title": "Oven Baked Beef Stuffed Flatbread (From Scratch Dough)",
-      "url": "https://www.hungrypaprikas.com/beef-stuffed-flatbread/"
+      "cuisine": "Mediterranean",
+      "image_url": "https://www.themediterraneandish.com/wp-content/uploads/2026/09/TMD-Mushroom-Gnocchi-Leads-02-Angle.jpg",
+      "published_at": "Fri, 02 Oct 2026 12:00:00 +0000",
+      "recipe_url": "https://www.themediterraneandish.com/mushroom-gnocchi/",
+      "site_name": "The Mediterranean Dish",
+      "site_url": "https://www.themediterraneandish.com",
+      "title": "Mushroom Gnocchi in Creamy Parmesan Sauce (Without Cream!)",
+      "url": "https://www.themediterraneandish.com/mushroom-gnocchi/"
     },
     "Tue": {
-      "title": "Italian Wedding Soup",
-      "url": "https://www.budgetbytes.com/italian-wedding-soup/",
-      "recipe_url": "https://www.budgetbytes.com/italian-wedding-soup/",
-      "image_url": "https://www.budgetbytes.com/wp-content/uploads/2023/12/Italian-Wedding-Soup-Overhead-Wide.jpg",
-      "site_name": "Budget Bytes",
-      "site_url": "https://www.budgetbytes.com",
-      "cuisine": "American",
-      "published_at": "Sat, 17 Oct 2026 13:30:00 +0000"
+      "cuisine": "Baking",
+      "image_url": "https://sallysbakingaddiction.com/wp-content/uploads/2024/10/apple-cider-chicken-fall-dinner-2.jpg",
+      "published_at": "Thu, 08 Oct 2026 10:00:00 +0000",
+      "recipe_url": "https://sallysbakingaddiction.com/fall-dinner-recipes/",
+      "site_name": "Sally's Baking Addiction",
+      "site_url": "https://sallysbakingaddiction.com",
+      "title": "30 Delicious Fall Dinner Recipe Ideas",
+      "url": "https://sallysbakingaddiction.com/fall-dinner-recipes/"
     },
     "Wed": {
-      "title": "Apple Streusel Meal Prep Muffins",
-      "url": "https://pinchofyum.com/apple-streusel-meal-prep-muffins",
-      "recipe_url": "https://pinchofyum.com/apple-streusel-meal-prep-muffins",
-      "image_url": "https://pinchofyum.com/tachyon/Apple-Streusel-Muffins-scaled.jpg",
-      "site_name": "Pinch of Yum",
-      "site_url": "https://pinchofyum.com",
-      "cuisine": "American",
-      "published_at": "Fri, 09 Oct 2026 16:17:51 +0000"
+      "title": "Mini Pumpkin Chocolate Chip Muffins",
+      "url": "https://sallysbakingaddiction.com/mini-pumpkin-chocolate-chip-muffins/",
+      "recipe_url": "https://sallysbakingaddiction.com/mini-pumpkin-chocolate-chip-muffins/",
+      "image_url": "https://sallysbakingaddiction.com/wp-content/uploads/2015/10/mini-chocolate-chip-pumpkin-muffins.jpg",
+      "site_name": "Sally's Baking Addiction",
+      "site_url": "https://sallysbakingaddiction.com",
+      "cuisine": "Baking",
+      "published_at": "Sun, 11 Oct 2026 10:00:00 +0000"
     },
     "Thu": {
-      "cuisine": "Chinese",
-      "image_url": "https://www.chinasichuanfood.com/wp-content/uploads/2026/09/Mala-Pork-Belly-16.webp",
-      "recipe_url": "https://www.chinasichuanfood.com/spicy-pork-belly-stir-fry-mala-pork-belly/",
-      "site_name": "China Sichuan Food",
-      "title": "Spicy Pork Belly Stir Fry – Mala Pork Belly",
-      "url": "https://www.chinasichuanfood.com/spicy-pork-belly-stir-fry-mala-pork-belly/"
+      "title": "Salisbury Steak",
+      "url": "https://grandbaby-cakes.com/salisbury-steak/",
+      "recipe_url": "https://grandbaby-cakes.com/salisbury-steak/",
+      "image_url": "https://grandbaby-cakes.com/wp-content/uploads/2023/10/72dpi-Salisbury-Steak-22.jpg",
+      "site_name": "Grandbaby Cakes",
+      "site_url": "https://grandbaby-cakes.com",
+      "cuisine": "Southern",
+      "published_at": "Fri, 09 Oct 2026 14:00:00 +0000"
     },
     "Fri": {
-      "cuisine": "Middle Eastern",
-      "image_url": "https://www.hungrypaprikas.com/wp-content/uploads/2025/11/Beyti-Kebab-2.jpg",
-      "recipe_url": "https://www.hungrypaprikas.com/beyti-kebab/",
-      "site_name": "Hungry Paprikas",
-      "title": "Weeknight Beyti Kebab (with Tortillas)",
-      "url": "https://www.hungrypaprikas.com/beyti-kebab/"
+      "title": "Crispy Corn Recipe",
+      "url": "https://www.vegrecipesofindia.com/crispy-corn/",
+      "recipe_url": "https://www.vegrecipesofindia.com/crispy-corn/",
+      "image_url": "https://i2.wp.com/www.vegrecipesofindia.com/wp-content/uploads/2026/09/crispy-corn.jpg",
+      "site_name": "Dassana's Veg Recipes",
+      "site_url": "https://www.vegrecipesofindia.com",
+      "cuisine": "Indian",
+      "published_at": "Fri, 11 Sep 2026 19:44:29 +0000"
     },
     "Sat": {
-      "title": "Apple Spice Cake",
-      "url": "https://www.budgetbytes.com/apple-spice-cake/",
-      "recipe_url": "https://www.budgetbytes.com/apple-spice-cake/",
-      "image_url": "https://www.budgetbytes.com/wp-content/uploads/2026/10/Apple-Spice-Cake-Overhead-Wide.jpg",
-      "site_name": "Budget Bytes",
-      "site_url": "https://www.budgetbytes.com",
-      "cuisine": "American",
-      "published_at": "Fri, 16 Oct 2026 13:30:00 +0000"
+      "title": "Turkish Pasta (Yoğurtlu Kıymalı Makarna)",
+      "url": "https://www.themediterraneandish.com/turkish-pasta/",
+      "recipe_url": "https://www.themediterraneandish.com/turkish-pasta/",
+      "image_url": "https://www.themediterraneandish.com/wp-content/uploads/2026/09/Turkish-Pasta-12.jpg",
+      "site_name": "The Mediterranean Dish",
+      "site_url": "https://www.themediterraneandish.com",
+      "cuisine": "Mediterranean",
+      "published_at": "Mon, 05 Oct 2026 12:00:00 +0000"
     },
     "Sun": {
-      "title": "Pastina Soup (Italian Penicillin)",
-      "url": "https://pinchofyum.com/pastina-soup-italian-penicillin",
-      "recipe_url": "https://pinchofyum.com/pastina-soup-italian-penicillin",
-      "image_url": "https://pinchofyum.com/tachyon/Pastina-Soup-scaled.jpg",
-      "site_name": "Pinch of Yum",
-      "site_url": "https://pinchofyum.com",
-      "cuisine": "American",
-      "published_at": "Thu, 01 Oct 2026 14:58:20 +0000"
+      "title": "Baked Pretzel-Crusted Chicken",
+      "url": "https://sallysbakingaddiction.com/pretzel-crusted-chicken/",
+      "recipe_url": "https://sallysbakingaddiction.com/pretzel-crusted-chicken/",
+      "image_url": "https://sallysbakingaddiction.com/wp-content/uploads/2014/08/pretzel-chicken.jpg",
+      "site_name": "Sally's Baking Addiction",
+      "site_url": "https://sallysbakingaddiction.com",
+      "cuisine": "Baking",
+      "published_at": "Fri, 09 Oct 2026 10:00:00 +0000"
     }
   },
   "featured_recipe": {
-    "cuisine": "Middle Eastern",
-    "image_url": "https://www.hungrypaprikas.com/wp-content/uploads/2026/09/Beef-Stuffed-Flatbread-3.jpg",
-    "recipe_url": "https://www.hungrypaprikas.com/beef-stuffed-flatbread/",
-    "site_name": "Hungry Paprikas",
-    "title": "Oven Baked Beef Stuffed Flatbread (From Scratch Dough)",
-    "url": "https://www.hungrypaprikas.com/beef-stuffed-flatbread/"
+    "title": "Baked Pretzel-Crusted Chicken",
+    "url": "https://sallysbakingaddiction.com/pretzel-crusted-chicken/",
+    "recipe_url": "https://sallysbakingaddiction.com/pretzel-crusted-chicken/",
+    "image_url": "https://sallysbakingaddiction.com/wp-content/uploads/2014/08/pretzel-chicken.jpg",
+    "site_name": "Sally's Baking Addiction",
+    "site_url": "https://sallysbakingaddiction.com",
+    "cuisine": "Baking",
+    "published_at": "Fri, 09 Oct 2026 10:00:00 +0000"
   }
 }
