@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-24T23:05:12Z",
+  "updated_at": "2026-10-25T00:05:11Z",
   "slot_hours": 7,
   "slot_idx": 3,
   "week": 4,
@@ -97,10 +97,10 @@
   },
   "featured_recipe": {
     "cuisine": "Persian",
-    "image_url": "https://silkroadrecipes.com/wp-content/uploads/2026/05/Aloo-Gobi-Recipe-Cauliflower-Potato-Curry0112-768x1152.jpg",
-    "recipe_url": "https://silkroadrecipes.com/aloo-gobi-recipe-cauliflower-potato-curry",
+    "image_url": "https://silkroadrecipes.com/wp-content/uploads/2026/06/Moroccan-Shortbread-Cookies-Recipe-Ghoriba-Bahla0253-square-768x768.jpg",
+    "recipe_url": "https://silkroadrecipes.com/moroccan-shortbread-cookie-recipe-ghoriba-bahla",
     "site_name": "Silk Road Recipes",
-    "title": "Aloo Gobi Recipe (Potato Cauliflower Curry)",
-    "url": "https://silkroadrecipes.com/aloo-gobi-recipe-cauliflower-potato-curry/"
+    "title": "Moroccan Shortbread Cookie Recipe (Ghoriba Bahla)",
+    "url": "https://silkroadrecipes.com/moroccan-shortbread-cookie-recipe-ghoriba-bahla/"
   }
 }
