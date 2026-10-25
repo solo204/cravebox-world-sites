@@ -1,106 +1,122 @@
 {
-  "updated_at": "2026-10-25T00:05:11Z",
-  "slot_hours": 7,
-  "slot_idx": 3,
-  "week": 4,
+  "updated_at": "2026-10-25T07:05:11Z",
+  "slot_hours": 168,
+  "slot_idx": 0,
+  "week": 1,
   "featured_sites": [
     {
-      "name": "Silk Road Recipes",
-      "url": "https://silkroadrecipes.com",
-      "cuisine": "Persian",
-      "tagline": "Vibrant Persian and Central Asian flavors at home.",
-      "image_url": "https://silkroadrecipes.com/wp-content/uploads/2026/07/Shrimp-Saltimbocca-square-768x768.jpg",
-      "rss_url": "https://silkroadrecipes.com/feed/"
+      "name": "Dassana's Veg Recipes",
+      "url": "https://www.vegrecipesofindia.com",
+      "cuisine": "Indian",
+      "tagline": "100% vegetarian Indian recipes.",
+      "image_url": "https://www.vegrecipesofindia.com/wp-content/uploads/2020/01/paneer-butter-masala-1.jpg",
+      "rss_url": "https://www.vegrecipesofindia.com/feed/"
     },
     {
-      "name": "Hungry Huy",
-      "url": "https://www.hungryhuy.com",
-      "cuisine": "Vietnamese",
-      "tagline": "Vietnamese and Asian recipes made accessible.",
-      "image_url": "https://www.hungryhuy.com/wp-content/uploads/vietnamese-egg-coffee-stir2-680x1020.jpg",
-      "rss_url": "https://www.hungryhuy.com/feed/"
+      "name": "The Mediterranean Dish",
+      "url": "https://www.themediterraneandish.com",
+      "cuisine": "Mediterranean",
+      "tagline": "Bold Mediterranean flavors for every table.",
+      "image_url": "https://www.themediterraneandish.com/wp-content/uploads/2026/09/Turkish-Pasta-12.jpg",
+      "rss_url": "https://www.themediterraneandish.com/feed/"
     },
     {
-      "name": "RecipeTin Eats",
-      "url": "https://www.recipetineats.com",
-      "cuisine": "Global",
-      "tagline": "Recipes that work, every time.",
-      "image_url": "https://www.recipetineats.com/tachyon/2026/10/Slow-cooked-Rosemary-Lamb-Ragu-3.jpg?fit=624%2C780",
-      "rss_url": "https://www.recipetineats.com/feed/"
+      "name": "Sally's Baking Addiction",
+      "url": "https://sallysbakingaddiction.com",
+      "cuisine": "Baking",
+      "tagline": "Trusted baking recipes since 2011.",
+      "image_url": "https://sallysbakingaddiction.com/wp-content/uploads/2012/08/warm-chocolate-chip-cookies.jpg",
+      "rss_url": "https://sallysbakingaddiction.com/feed/"
     },
     {
-      "name": "Rose Water & Orange Blossoms",
-      "url": "https://maureenabood.com",
-      "cuisine": "Lebanese",
-      "tagline": "Lebanese cooking, stories, and Mediterranean life.",
-      "image_url": "https://maureenabood.com/wp-content/uploads/2022/12/Maza-platter-top-down-Maureen-Abood.jpg",
-      "rss_url": "https://maureenabood.com/feed/"
+      "name": "Grandbaby Cakes",
+      "url": "https://grandbaby-cakes.com",
+      "cuisine": "Southern",
+      "tagline": "Southern comfort food and soul food classics.",
+      "image_url": "https://grandbaby-cakes.com/wp-content/uploads/2025/08/buttermilk-fried-chicken-15.jpg",
+      "rss_url": "https://grandbaby-cakes.com/feed/"
     }
   ],
   "featured_recipes": {
     "Mon": {
-      "cuisine": "Persian",
-      "image_url": "https://silkroadrecipes.com/wp-content/uploads/2026/07/Shrimp-Saltimbocca-square-768x768.jpg",
-      "recipe_url": "https://silkroadrecipes.com/shrimp-saltimbocca",
-      "site_name": "Silk Road Recipes",
-      "title": "Shrimp Saltimbocca",
-      "url": "https://silkroadrecipes.com/shrimp-saltimbocca/"
+      "cuisine": "Mediterranean",
+      "image_url": "https://www.themediterraneandish.com/wp-content/uploads/2026/09/TMD-Mushroom-Gnocchi-Leads-02-Angle.jpg",
+      "published_at": "Fri, 02 Oct 2026 12:00:00 +0000",
+      "recipe_url": "https://www.themediterraneandish.com/mushroom-gnocchi/",
+      "site_name": "The Mediterranean Dish",
+      "site_url": "https://www.themediterraneandish.com",
+      "title": "Mushroom Gnocchi in Creamy Parmesan Sauce (Without Cream!)",
+      "url": "https://www.themediterraneandish.com/mushroom-gnocchi/"
     },
     "Tue": {
-      "cuisine": "Persian",
-      "image_url": "https://silkroadrecipes.com/wp-content/uploads/2026/05/Aloo-Gobi-Recipe-Cauliflower-Potato-Curry0112-768x1152.jpg",
-      "recipe_url": "https://silkroadrecipes.com/aloo-gobi-recipe-cauliflower-potato-curry",
-      "site_name": "Silk Road Recipes",
-      "title": "Aloo Gobi Recipe (Potato Cauliflower Curry)",
-      "url": "https://silkroadrecipes.com/aloo-gobi-recipe-cauliflower-potato-curry/"
+      "cuisine": "Baking",
+      "image_url": "https://sallysbakingaddiction.com/wp-content/uploads/2026/09/maple-oat-scones.jpg",
+      "published_at": "Thu, 01 Oct 2026 10:00:00 +0000",
+      "recipe_url": "https://sallysbakingaddiction.com/maple-oat-pecan-scones/",
+      "site_name": "Sally's Baking Addiction",
+      "site_url": "https://sallysbakingaddiction.com",
+      "title": "Maple Oat Pecan Scones",
+      "url": "https://sallysbakingaddiction.com/maple-oat-pecan-scones/"
     },
     "Wed": {
-      "cuisine": "Persian",
-      "image_url": "https://silkroadrecipes.com/wp-content/uploads/2026/06/Moroccan-Shortbread-Cookies-Recipe-Ghoriba-Bahla0253-square-768x768.jpg",
-      "recipe_url": "https://silkroadrecipes.com/moroccan-shortbread-cookie-recipe-ghoriba-bahla",
-      "site_name": "Silk Road Recipes",
-      "title": "Moroccan Shortbread Cookie Recipe (Ghoriba Bahla)",
-      "url": "https://silkroadrecipes.com/moroccan-shortbread-cookie-recipe-ghoriba-bahla/"
+      "title": "Mini Pumpkin Chocolate Chip Muffins",
+      "url": "https://sallysbakingaddiction.com/mini-pumpkin-chocolate-chip-muffins/",
+      "recipe_url": "https://sallysbakingaddiction.com/mini-pumpkin-chocolate-chip-muffins/",
+      "image_url": "https://sallysbakingaddiction.com/wp-content/uploads/2015/10/mini-chocolate-chip-pumpkin-muffins.jpg",
+      "site_name": "Sally's Baking Addiction",
+      "site_url": "https://sallysbakingaddiction.com",
+      "cuisine": "Baking",
+      "published_at": "Sun, 11 Oct 2026 10:00:00 +0000"
     },
     "Thu": {
-      "cuisine": "Persian",
-      "image_url": "https://silkroadrecipes.com/wp-content/uploads/2026/06/Greek-Gyros-Recipe-Parchment0160-square-768x768.jpg",
-      "recipe_url": "https://silkroadrecipes.com/greek-gyros-recipe-parchment",
-      "site_name": "Silk Road Recipes",
-      "title": "Greek Gyros Recipe (Parchment)",
-      "url": "https://silkroadrecipes.com/greek-gyros-recipe-parchment/"
+      "title": "Salisbury Steak",
+      "url": "https://grandbaby-cakes.com/salisbury-steak/",
+      "recipe_url": "https://grandbaby-cakes.com/salisbury-steak/",
+      "image_url": "https://grandbaby-cakes.com/wp-content/uploads/2023/10/72dpi-Salisbury-Steak-22.jpg",
+      "site_name": "Grandbaby Cakes",
+      "site_url": "https://grandbaby-cakes.com",
+      "cuisine": "Southern",
+      "published_at": "Fri, 09 Oct 2026 14:00:00 +0000"
     },
     "Fri": {
-      "cuisine": "Global",
-      "image_url": "https://www.recipetineats.com/tachyon/2026/10/Slow-cooked-Rosemary-Lamb-Ragu-3.jpg",
-      "recipe_url": "https://www.recipetineats.com/slow-cooked-lamb-ragu-pasta/",
-      "site_name": "RecipeTin Eats",
-      "title": "Slow Cooked Rosemary Lamb Ragù",
-      "url": "https://www.recipetineats.com/slow-cooked-lamb-ragu-pasta/"
+      "title": "Crispy Corn Recipe",
+      "url": "https://www.vegrecipesofindia.com/crispy-corn/",
+      "recipe_url": "https://www.vegrecipesofindia.com/crispy-corn/",
+      "image_url": "https://i2.wp.com/www.vegrecipesofindia.com/wp-content/uploads/2026/09/crispy-corn.jpg",
+      "site_name": "Dassana's Veg Recipes",
+      "site_url": "https://www.vegrecipesofindia.com",
+      "cuisine": "Indian",
+      "published_at": "Fri, 11 Sep 2026 19:44:29 +0000"
     },
     "Sat": {
-      "cuisine": "Global",
-      "image_url": "https://www.recipetineats.com/tachyon/2026/10/Creamy-Sausage-Gnocchi-Soup-1.jpg",
-      "recipe_url": "https://www.recipetineats.com/creamy-sausage-gnocchi-soup/",
-      "site_name": "RecipeTin Eats",
-      "title": "Creamy Sausage Gnocchi Soup",
-      "url": "https://www.recipetineats.com/creamy-sausage-gnocchi-soup/"
+      "title": "Turkish Pasta (Yoğurtlu Kıymalı Makarna)",
+      "url": "https://www.themediterraneandish.com/turkish-pasta/",
+      "recipe_url": "https://www.themediterraneandish.com/turkish-pasta/",
+      "image_url": "https://www.themediterraneandish.com/wp-content/uploads/2026/09/Turkish-Pasta-12.jpg",
+      "site_name": "The Mediterranean Dish",
+      "site_url": "https://www.themediterraneandish.com",
+      "cuisine": "Mediterranean",
+      "published_at": "Mon, 05 Oct 2026 12:00:00 +0000"
     },
     "Sun": {
-      "cuisine": "Global",
-      "image_url": "https://www.recipetineats.com/tachyon/2026/10/Coconut-Lemon-Slice-Cake-7.jpg",
-      "recipe_url": "https://www.recipetineats.com/lemon-coconut-slice-cake/",
-      "site_name": "RecipeTin Eats",
-      "title": "Aussie Lemon Coconut Slice Cake",
-      "url": "https://www.recipetineats.com/lemon-coconut-slice-cake/"
+      "title": "Baked Pretzel-Crusted Chicken",
+      "url": "https://sallysbakingaddiction.com/pretzel-crusted-chicken/",
+      "recipe_url": "https://sallysbakingaddiction.com/pretzel-crusted-chicken/",
+      "image_url": "https://sallysbakingaddiction.com/wp-content/uploads/2014/08/pretzel-chicken.jpg",
+      "site_name": "Sally's Baking Addiction",
+      "site_url": "https://sallysbakingaddiction.com",
+      "cuisine": "Baking",
+      "published_at": "Fri, 09 Oct 2026 10:00:00 +0000"
     }
   },
   "featured_recipe": {
-    "cuisine": "Persian",
-    "image_url": "https://silkroadrecipes.com/wp-content/uploads/2026/06/Moroccan-Shortbread-Cookies-Recipe-Ghoriba-Bahla0253-square-768x768.jpg",
-    "recipe_url": "https://silkroadrecipes.com/moroccan-shortbread-cookie-recipe-ghoriba-bahla",
-    "site_name": "Silk Road Recipes",
-    "title": "Moroccan Shortbread Cookie Recipe (Ghoriba Bahla)",
-    "url": "https://silkroadrecipes.com/moroccan-shortbread-cookie-recipe-ghoriba-bahla/"
+    "title": "Baked Pretzel-Crusted Chicken",
+    "url": "https://sallysbakingaddiction.com/pretzel-crusted-chicken/",
+    "recipe_url": "https://sallysbakingaddiction.com/pretzel-crusted-chicken/",
+    "image_url": "https://sallysbakingaddiction.com/wp-content/uploads/2014/08/pretzel-chicken.jpg",
+    "site_name": "Sally's Baking Addiction",
+    "site_url": "https://sallysbakingaddiction.com",
+    "cuisine": "Baking",
+    "published_at": "Fri, 09 Oct 2026 10:00:00 +0000"
   }
 }
