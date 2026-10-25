@@ -22,6 +22,7 @@ Run: python rotate.py  (via GitHub Actions cron)
 import json
 import requests
 from datetime import datetime, timezone
+import random
 from pathlib import Path
 
 # ── Config ─────────────────────────────────────────────────────────────────────
@@ -98,7 +99,7 @@ def find_fallback_site(failed_site, current_sites, global_site_reserves, master,
     """
     Find a replacement for a downed site:
       1. Try global site reserves (reserves.json)
-      2. Fall back to browse_cuisines pool
+      2. Fall back to a random editor's pick from browse_cuisines
     """
     current_names = {s["name"] for s in current_sites}
     current_names.add(failed_site["name"])
@@ -111,14 +112,12 @@ def find_fallback_site(failed_site, current_sites, global_site_reserves, master,
             print(f"  [fallback] {failed_site['name']} → {site['name']} (global reserve)")
             return site
 
-    # 2. Fall back to browse_cuisines pool
-    history_names = set(history.get("site_names", []))
-    pool = sorted(master, key=lambda s: (s["name"] not in history_names))
-    for site in pool:
-        if site["name"] in current_names:
-            continue
+    # 2. Fall back to a random editor's pick from browse_cuisines
+    editors_picks = [s for s in master if s.get("featured") and s["name"] not in current_names]
+    random.shuffle(editors_picks)
+    for site in editors_picks:
         if site_is_up(site):
-            print(f"  [fallback] {failed_site['name']} → {site['name']} (master pool)")
+            print(f"  [fallback] {failed_site['name']} → {site['name']} (editor's pick)")
             return site
 
     print(f"  [fallback] No replacement found for {failed_site['name']} — keeping original")
