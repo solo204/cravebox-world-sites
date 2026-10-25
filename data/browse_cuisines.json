@@ -622,7 +622,7 @@
     "name": "Jane's Patisserie",
     "url": "https://janespatisserie.com",
     "cuisine": "Baking",
-    "tagline": "Britain's #1 baking blog — traybakes, cheesecakes, and classics.",
+    "tagline": "Britain's #1 baking blog \u2014 traybakes, cheesecakes, and classics.",
     "image_url": "https://www.janespatisserie.com/wp-content/uploads/2026/10/CookieMonsterCookies5.jpg",
     "rss_url": "https://janespatisserie.com/feed/",
     "sites": []
@@ -640,7 +640,7 @@
     "name": "Leite's Culinaria",
     "url": "https://leitesculinaria.com",
     "cuisine": "Portuguese",
-    "tagline": "James Beard Award–winning Portuguese and global recipes.",
+    "tagline": "James Beard Award\u2013winning Portuguese and global recipes.",
     "image_url": "https://leitesculinaria.com/wp-content/uploads/2022/12/IMG_1391-1.jpg",
     "rss_url": "https://leitesculinaria.com/feed/",
     "sites": []
@@ -740,7 +740,7 @@
     "name": "Give Recipe",
     "url": "https://giverecipe.com",
     "cuisine": "Turkish",
-    "tagline": "The best Turkish food blog in English — kebabs to mezes.",
+    "tagline": "The best Turkish food blog in English \u2014 kebabs to mezes.",
     "image_url": "https://www.giverecipe.com/wp-content/uploads/2021/04/Turkish-Chicken-Kebab-Recipe-360x480.jpg",
     "rss_url": "https://giverecipe.com/feed/",
     "sites": []
@@ -822,7 +822,7 @@
     "name": "Cloudy Kitchen",
     "url": "https://cloudykitchen.com",
     "cuisine": "New Zealand",
-    "tagline": "Rigorously tested NZ baking and desserts — Saveur finalist.",
+    "tagline": "Rigorously tested NZ baking and desserts \u2014 Saveur finalist.",
     "image_url": "https://cloudykitchen.com/wp-content/uploads/2026/08/vanilla-frosting-piped-on-cupcake.jpg",
     "rss_url": "https://cloudykitchen.com/feed/",
     "sites": []
@@ -849,7 +849,7 @@
     "name": "Island Smile",
     "url": "https://islandsmile.org",
     "cuisine": "Sri Lankan",
-    "tagline": "Nearly all Sri Lankan — 49 pages of curries, desserts, and snacks.",
+    "tagline": "Nearly all Sri Lankan \u2014 49 pages of curries, desserts, and snacks.",
     "image_url": "https://www.islandsmile.org/wp-content/uploads/2026/01/Snapshot_36-1024x576.jpg",
     "rss_url": "https://islandsmile.org/feed/",
     "sites": []
@@ -867,7 +867,7 @@
     "name": "Serious Eats",
     "url": "https://seriouseats.com",
     "cuisine": "American",
-    "tagline": "In-depth tested recipes and food science — the benchmark.",
+    "tagline": "In-depth tested recipes and food science \u2014 the benchmark.",
     "image_url": "https://www.seriouseats.com/thmb/2eDheo2F1-nYEbQxZLGUiPjqhRs=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/Serious_Eats_Social_Default-72cf0bc11b434461b62c6ffc85b4298f.jpg",
     "rss_url": "https://feeds-api.dotdashmeredith.com/v1/rss/google/ad57d421-0ff5-41e7-a5da-f2167b6d7f7a",
     "sites": []
@@ -969,7 +969,7 @@
     "name": "Mom on Timeout",
     "url": "https://www.momontimeout.com",
     "cuisine": "American",
-    "tagline": "Real food for real families — simple and delicious.",
+    "tagline": "Real food for real families \u2014 simple and delicious.",
     "image_url": "https://www.momontimeout.com/wp-content/uploads/2019/09/monterey-chicken-squared.jpg",
     "rss_url": "https://www.momontimeout.com/feed/",
     "sites": []
@@ -1270,7 +1270,7 @@
     "name": "Kimchimari",
     "url": "https://kimchimari.com",
     "cuisine": "Korean",
-    "tagline": "Health-focused Korean cooking — gluten-free and MSG-free angle since 2010.",
+    "tagline": "Health-focused Korean cooking \u2014 gluten-free and MSG-free angle since 2010.",
     "image_url": "https://kimchimari.com/wp-content/uploads/2026/05/salt-bread-close-up-h-150x150.jpg",
     "rss_url": "https://kimchimari.com/feed/",
     "sites": []
@@ -1279,7 +1279,7 @@
     "name": "Cooking with Lane",
     "url": "https://www.cookingwithlane.com",
     "cuisine": "Lao",
-    "tagline": "The only major English-language Lao recipe site — a uniquely underrepresented cuisine.",
+    "tagline": "The only major English-language Lao recipe site \u2014 a uniquely underrepresented cuisine.",
     "image_url": "https://cookingwithlane.com/wp-content/uploads/2021/07/cooking-with-lane-feature-image.png",
     "rss_url": "https://www.cookingwithlane.com/feed/",
     "sites": []
@@ -1307,7 +1307,7 @@
     "url": "https://www.cookingwithzahra.com",
     "cuisine": "Persian",
     "tagline": "Gulf Arabic and Persian recipes by a Dubai-based creator with 338K+ Instagram followers.",
-    "image_url": "https://cookingwithzahra.com/wp-content/uploads/2023/03/Zahra-Abdalla-©-Heather-Bonker-8632-3.jpg",
+    "image_url": "https://cookingwithzahra.com/wp-content/uploads/2023/03/Zahra-Abdalla-\u00a9-Heather-Bonker-8632-3.jpg",
     "rss_url": "https://www.cookingwithzahra.com/feed/",
     "sites": []
   },
@@ -1315,7 +1315,7 @@
     "name": "Peter's Food Adventures",
     "url": "https://petersfoodadventures.com",
     "cuisine": "Eastern European",
-    "tagline": "An Australian-Russian blog mixing Eastern European comfort food with Asian and American flavours — plov, borscht, and BBQ.",
+    "tagline": "An Australian-Russian blog mixing Eastern European comfort food with Asian and American flavours \u2014 plov, borscht, and BBQ.",
     "image_url": "https://petersfoodadventures.com/wp-content/uploads/2022/01/Peters-Food-Adventures.jpg",
     "rss_url": "https://petersfoodadventures.com/feed/",
     "sites": []
@@ -1342,7 +1342,7 @@
     "name": "Sense and Edibility",
     "url": "https://senseandedibility.com",
     "cuisine": "Puerto Rican",
-    "tagline": "Trained chef Marta Rivera's coquito, pastélon, and arroz con gandules, updated actively.",
+    "tagline": "Trained chef Marta Rivera's coquito, past\u00e9lon, and arroz con gandules, updated actively.",
     "image_url": "https://senseandedibility.com/wp-content/uploads/2023/09/Prosciutto-Fig-and-Chevre-Ciabatta-Flatbread-Preview.jpg",
     "rss_url": "https://senseandedibility.com/feed/",
     "sites": []
@@ -1397,7 +1397,7 @@
     "name": "True North Kitchen",
     "url": "https://true-north-kitchen.com",
     "cuisine": "Scandinavian",
-    "tagline": "Exclusively Scandinavian recipes in English — fills a gap not covered by Scandicuisine.",
+    "tagline": "Exclusively Scandinavian recipes in English \u2014 fills a gap not covered by Scandicuisine.",
     "image_url": "https://true-north-kitchen.com/wp-content/uploads/2026/05/about-page-photo.jpg",
     "rss_url": "https://true-north-kitchen.com/feed/",
     "sites": []
@@ -1447,5 +1447,41 @@
     "rss_url": "https://damndelicious.net/feed/",
     "sites": [],
     "featured": true
+  },
+  {
+    "name": "Swasthi's Recipes",
+    "url": "https://www.indianhealthyrecipes.com",
+    "cuisine": "Indian",
+    "tagline": "Healthy Indian recipes for every home cook.",
+    "image_url": "https://www.indianhealthyrecipes.com/wp-content/uploads/2026/10/quinoa-khichdi.jpg",
+    "rss_url": "https://www.indianhealthyrecipes.com/feed/",
+    "sites": []
+  },
+  {
+    "name": "The Woks of Life",
+    "url": "https://thewoksoflife.com",
+    "cuisine": "Chinese",
+    "tagline": "A family's guide to authentic Chinese cooking.",
+    "image_url": "https://thewoksoflife.com/wp-content/uploads/2023/05/lo-mein-20.jpg",
+    "rss_url": "https://thewoksoflife.com/feed/",
+    "sites": []
+  },
+  {
+    "name": "Mexico in My Kitchen",
+    "url": "https://www.mexicoinmykitchen.com",
+    "cuisine": "Mexican",
+    "tagline": "Traditional Mexican recipes from scratch.",
+    "image_url": "https://www.mexicoinmykitchen.com/wp-content/uploads/2026/03/Aguachile-Recipe-6.jpg",
+    "rss_url": "https://www.mexicoinmykitchen.com/feed/",
+    "sites": []
+  },
+  {
+    "name": "Afrolems",
+    "url": "https://afrolems.com",
+    "cuisine": "Nigerian",
+    "tagline": "Nigerian and African recipes made easy.",
+    "image_url": "https://i0.wp.com/www.afrolems.com/wp-content/uploads/2015/07/sadza-peanut-soup.jpg",
+    "rss_url": "https://afrolems.com/feed/",
+    "sites": []
   }
 ]
