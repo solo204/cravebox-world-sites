@@ -1396,5 +1396,37 @@
     "tagline": "Australian-based Persian creator with TikTok 4.7M+; easy Persian-Mediterranean recipes.",
     "image_url": "",
     "rss_url": "https://cookingwithayeh.com/feed/"
+  },
+  {
+    "name": "Eat This!",
+    "url": "https://www.eat-this.org",
+    "cuisine": "German",
+    "tagline": "Plant-based German cooking with bold flavors and stunning photography.",
+    "image_url": "https://www.eat-this.org/wp-content/uploads/2026/10/eat-this-chicken-style-seitan-veganes-haehnchen-008-1280x854.jpg",
+    "rss_url": "https://www.eat-this.org/feed/"
+  },
+  {
+    "name": "Kochkarussell",
+    "url": "https://kochkarussell.com",
+    "cuisine": "German",
+    "tagline": "Fast, easy everyday German cooking — 500+ recipes for the whole family.",
+    "image_url": "https://kochkarussell.com/wp-content/uploads/2026/10/Pastina-Suppe-Rezept-683x1024.webp",
+    "rss_url": "https://kochkarussell.com/feed/"
+  },
+  {
+    "name": "Chocolate & Zucchini",
+    "url": "https://cnz.to",
+    "cuisine": "French",
+    "tagline": "Seasonal Parisian recipes by Clotilde Dusoulier — fresh, colorful, and simply French.",
+    "image_url": "https://cnz.to/wp-content/uploads/2017/09/red_lentil_curry_cauliflower_coconut_chips-3-760x507.jpg",
+    "rss_url": "https://cnz.to/feed/"
+  },
+  {
+    "name": "Mon Petit Four",
+    "url": "https://www.monpetitfour.com",
+    "cuisine": "French",
+    "tagline": "Classic French pastry and seasonal recipes with elegant, approachable technique.",
+    "image_url": "https://www.monpetitfour.com/wp-content/uploads/2015/04/french-apple-tart_-copy-1024x683.jpg",
+    "rss_url": "https://www.monpetitfour.com/feed/"
   }
 ]
