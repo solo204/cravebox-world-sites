@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-26T07:05:12Z",
+  "updated_at": "2026-10-27T04:13:06Z",
   "slot_hours": 168,
   "slot_idx": 0,
   "week": 1,
@@ -110,13 +110,13 @@
     }
   },
   "featured_recipe": {
-    "cuisine": "Mediterranean",
-    "image_url": "https://www.themediterraneandish.com/wp-content/uploads/2026/09/TMD-Mushroom-Gnocchi-Leads-02-Angle.jpg",
-    "published_at": "Fri, 02 Oct 2026 12:00:00 +0000",
-    "recipe_url": "https://www.themediterraneandish.com/mushroom-gnocchi/",
-    "site_name": "The Mediterranean Dish",
-    "site_url": "https://www.themediterraneandish.com",
-    "title": "Mushroom Gnocchi in Creamy Parmesan Sauce (Without Cream!)",
-    "url": "https://www.themediterraneandish.com/mushroom-gnocchi/"
+    "cuisine": "Baking",
+    "image_url": "https://sallysbakingaddiction.com/wp-content/uploads/2026/09/maple-oat-scones.jpg",
+    "published_at": "Thu, 01 Oct 2026 10:00:00 +0000",
+    "recipe_url": "https://sallysbakingaddiction.com/maple-oat-pecan-scones/",
+    "site_name": "Sally's Baking Addiction",
+    "site_url": "https://sallysbakingaddiction.com",
+    "title": "Maple Oat Pecan Scones",
+    "url": "https://sallysbakingaddiction.com/maple-oat-pecan-scones/"
   }
 }
