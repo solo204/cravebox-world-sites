@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-27T07:05:14Z",
+  "updated_at": "2026-10-28T04:41:39Z",
   "slot_hours": 168,
   "slot_idx": 0,
   "week": 1,
@@ -110,13 +110,13 @@
     }
   },
   "featured_recipe": {
-    "cuisine": "Baking",
-    "image_url": "https://sallysbakingaddiction.com/wp-content/uploads/2026/09/maple-oat-scones.jpg",
-    "published_at": "Thu, 01 Oct 2026 10:00:00 +0000",
-    "recipe_url": "https://sallysbakingaddiction.com/maple-oat-pecan-scones/",
+    "title": "Mini Pumpkin Chocolate Chip Muffins",
+    "url": "https://sallysbakingaddiction.com/mini-pumpkin-chocolate-chip-muffins/",
+    "recipe_url": "https://sallysbakingaddiction.com/mini-pumpkin-chocolate-chip-muffins/",
+    "image_url": "https://sallysbakingaddiction.com/wp-content/uploads/2015/10/mini-chocolate-chip-pumpkin-muffins.jpg",
     "site_name": "Sally's Baking Addiction",
     "site_url": "https://sallysbakingaddiction.com",
-    "title": "Maple Oat Pecan Scones",
-    "url": "https://sallysbakingaddiction.com/maple-oat-pecan-scones/"
+    "cuisine": "Baking",
+    "published_at": "Sun, 11 Oct 2026 10:00:00 +0000"
   }
 }
