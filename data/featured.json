@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-04T08:05:12Z",
+  "updated_at": "2026-11-05T05:43:49Z",
   "slot_hours": 168,
   "slot_idx": 1,
   "week": 2,
@@ -108,11 +108,13 @@
     }
   },
   "featured_recipe": {
-    "cuisine": "American",
-    "image_url": "https://damndelicious.net/wp-content/uploads/2026/06/251218_DD_Honey-BBQ-Chicken-Bites_691-768x1152.jpg",
-    "recipe_url": "https://damndelicious.net/2026/08/21/honey-bbq-chicken-bites/",
-    "site_name": "Damn Delicious",
-    "title": "Honey BBQ Chicken Bites",
-    "url": "https://damndelicious.net/2026/08/21/honey-bbq-chicken-bites/"
+    "cuisine": "Japanese",
+    "image_url": "https://www.chopstickchronicles.com/wp-content/uploads/2019/05/Egg-Drop-Soup-11.jpg",
+    "published_at": "Wed, 21 Jan 2026 05:19:34 +0000",
+    "recipe_url": "https://www.chopstickchronicles.com/kakitamajiru/",
+    "site_name": "Chopstick Chronicles",
+    "site_url": "https://www.chopstickchronicles.com",
+    "title": "Kakitamajiru (Egg Drop Soup)",
+    "url": "https://www.chopstickchronicles.com/kakitamajiru/"
   }
 }
