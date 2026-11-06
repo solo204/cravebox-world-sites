@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-05T08:05:14Z",
+  "updated_at": "2026-11-06T05:41:00Z",
   "slot_hours": 168,
   "slot_idx": 1,
   "week": 2,
@@ -108,13 +108,13 @@
     }
   },
   "featured_recipe": {
-    "cuisine": "Japanese",
-    "image_url": "https://www.chopstickchronicles.com/wp-content/uploads/2019/05/Egg-Drop-Soup-11.jpg",
-    "published_at": "Wed, 21 Jan 2026 05:19:34 +0000",
-    "recipe_url": "https://www.chopstickchronicles.com/kakitamajiru/",
+    "title": "Kabocha Korokke (Kabocha Squash Croquette)",
+    "url": "https://www.chopstickchronicles.com/kabocha-korokke-kabocha-squash-croquette/",
+    "recipe_url": "https://www.chopstickchronicles.com/kabocha-korokke-kabocha-squash-croquette/",
+    "image_url": "https://www.chopstickchronicles.com/wp-content/uploads/2026/09/kabocha-korokke-11.jpg",
     "site_name": "Chopstick Chronicles",
     "site_url": "https://www.chopstickchronicles.com",
-    "title": "Kakitamajiru (Egg Drop Soup)",
-    "url": "https://www.chopstickchronicles.com/kakitamajiru/"
+    "cuisine": "Japanese",
+    "published_at": "Sun, 27 Sep 2026 00:06:45 +0000"
   }
 }
