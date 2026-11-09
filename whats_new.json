@@ -3,7 +3,7 @@
   "messages": [
     {
       "id": "promo_nov2026",
-      "version": 3,
+      "version": 4,
       "title": "🎉 Special Launch Offer",
       "body": "Get CraveBox Pro for just $1/month for 3 months. Limited time only!",
       "action": "open_paywall",
