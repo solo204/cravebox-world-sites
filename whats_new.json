@@ -2,15 +2,15 @@
   "schema_version": 1,
   "messages": [
     {
-      "id": "promo_nov2026",
-      "version": 5,
+      "id": "launch_promo_nov2026",
+      "version": 1,
       "title": "🎉 Special Launch Offer",
-      "body": "Get CraveBox Pro for just $1/month for 3 months. Limited time only!",
+      "body": "Get CraveBox Pro for just $0.99/month for your first 3 months. Unlimited saves, sync across devices, and no ads — less than a dollar a month.",
       "action": "open_paywall",
       "cta_label": "Get the Deal",
-      "display": { "notification": false, "in_app": true, "in_app_style": "banner" },
-      "target": { "user_type": "all", "min_app_version": 40, "max_inactive_days": -1 },
-      "expires": "2026-12-31",
+      "display": { "notification": true, "in_app": true, "in_app_style": "dialog" },
+      "target": { "user_type": "free", "min_app_version": 43, "max_inactive_days": -1, "include_countries": ["US", "CA", "GB", "AU", "DE", "AT", "CH", "NL", "BE", "FR", "IT", "ES", "SE", "NO", "DK", "FI", "IE", "NZ", "SG", "JP"] },
+      "expires": "2026-11-24",
       "priority": 10
     }
   ]
