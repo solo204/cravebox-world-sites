@@ -9,7 +9,7 @@
       "action": "https://www.producthunt.com/products/cravebox-save-cook-recipes",
       "cta_label": "Upvote on Product Hunt",
       "display": { "notification": true, "in_app": true, "in_app_style": "dialog" },
-      "target": { "user_type": "all", "min_app_version": 43, "max_inactive_days": -1 },
+      "target": { "user_type": "all", "min_app_version": 44, "max_inactive_days": -1 },
       "expires": "2026-11-19",
       "priority": 20
     },
