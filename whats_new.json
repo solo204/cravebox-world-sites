@@ -2,6 +2,18 @@
   "schema_version": 1,
   "messages": [
     {
+      "id": "ph_upvote_nov2026",
+      "version": 1,
+      "title": "🚀 We're on Product Hunt!",
+      "body": "CraveBox launched on Product Hunt today. If you love the app, an upvote would mean the world to us!",
+      "action": "https://www.producthunt.com/products/cravebox-save-cook-recipes",
+      "cta_label": "Upvote on Product Hunt",
+      "display": { "notification": true, "in_app": true, "in_app_style": "dialog" },
+      "target": { "user_type": "all", "min_app_version": 43, "max_inactive_days": -1 },
+      "expires": "2026-11-18",
+      "priority": 20
+    },
+    {
       "id": "launch_promo_nov2026",
       "version": 1,
       "title": "🎉 Special Launch Offer",
