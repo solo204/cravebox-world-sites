@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-18T08:05:12Z",
+  "updated_at": "2026-11-19T06:31:54Z",
   "slot_hours": 168,
   "slot_idx": 3,
   "week": 4,
@@ -97,10 +97,10 @@
   },
   "featured_recipe": {
     "cuisine": "Persian",
-    "image_url": "https://silkroadrecipes.com/wp-content/uploads/2026/06/Moroccan-Shortbread-Cookies-Recipe-Ghoriba-Bahla0253-square-768x768.jpg",
-    "recipe_url": "https://silkroadrecipes.com/moroccan-shortbread-cookie-recipe-ghoriba-bahla",
+    "image_url": "https://silkroadrecipes.com/wp-content/uploads/2026/06/Greek-Gyros-Recipe-Parchment0160-square-768x768.jpg",
+    "recipe_url": "https://silkroadrecipes.com/greek-gyros-recipe-parchment",
     "site_name": "Silk Road Recipes",
-    "title": "Moroccan Shortbread Cookie Recipe (Ghoriba Bahla)",
-    "url": "https://silkroadrecipes.com/moroccan-shortbread-cookie-recipe-ghoriba-bahla/"
+    "title": "Greek Gyros Recipe (Parchment)",
+    "url": "https://silkroadrecipes.com/greek-gyros-recipe-parchment/"
   }
 }
