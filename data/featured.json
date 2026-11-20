@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-19T08:05:15Z",
+  "updated_at": "2026-11-20T06:18:43Z",
   "slot_hours": 168,
   "slot_idx": 3,
   "week": 4,
@@ -96,11 +96,11 @@
     }
   },
   "featured_recipe": {
-    "cuisine": "Persian",
-    "image_url": "https://silkroadrecipes.com/wp-content/uploads/2026/06/Greek-Gyros-Recipe-Parchment0160-square-768x768.jpg",
-    "recipe_url": "https://silkroadrecipes.com/greek-gyros-recipe-parchment",
-    "site_name": "Silk Road Recipes",
-    "title": "Greek Gyros Recipe (Parchment)",
-    "url": "https://silkroadrecipes.com/greek-gyros-recipe-parchment/"
+    "cuisine": "Global",
+    "image_url": "https://www.recipetineats.com/tachyon/2026/10/Slow-cooked-Rosemary-Lamb-Ragu-3.jpg",
+    "recipe_url": "https://www.recipetineats.com/slow-cooked-lamb-ragu-pasta/",
+    "site_name": "RecipeTin Eats",
+    "title": "Slow Cooked Rosemary Lamb Ragù",
+    "url": "https://www.recipetineats.com/slow-cooked-lamb-ragu-pasta/"
   }
 }
