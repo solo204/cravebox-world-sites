@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-20T08:05:14Z",
+  "updated_at": "2026-11-21T06:08:40Z",
   "slot_hours": 168,
   "slot_idx": 3,
   "week": 4,
@@ -97,10 +97,10 @@
   },
   "featured_recipe": {
     "cuisine": "Global",
-    "image_url": "https://www.recipetineats.com/tachyon/2026/10/Slow-cooked-Rosemary-Lamb-Ragu-3.jpg",
-    "recipe_url": "https://www.recipetineats.com/slow-cooked-lamb-ragu-pasta/",
+    "image_url": "https://www.recipetineats.com/tachyon/2026/10/Creamy-Sausage-Gnocchi-Soup-1.jpg",
+    "recipe_url": "https://www.recipetineats.com/creamy-sausage-gnocchi-soup/",
     "site_name": "RecipeTin Eats",
-    "title": "Slow Cooked Rosemary Lamb Ragù",
-    "url": "https://www.recipetineats.com/slow-cooked-lamb-ragu-pasta/"
+    "title": "Creamy Sausage Gnocchi Soup",
+    "url": "https://www.recipetineats.com/creamy-sausage-gnocchi-soup/"
   }
 }
